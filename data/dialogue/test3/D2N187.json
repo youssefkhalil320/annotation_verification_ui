@@ -1,0 +1,880 @@
+{
+  "doc_id": "ACI_BENCH:D2N187:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] well good morning emily how are you\n[patient] good morning\n[doctor] how are you doing\n[patient] doing okay i'm okay\n[doctor] i understand you're having some sudden visual distortions and some blurring of your vision is that right\n[patient] it is yes\n[doctor] okay so what's going on\n[patient] sorry to put you off i do n't think i have that script\n[doctor] oh\n[patient] maybe a different one i wonder if patient has history of\n[doctor] macular degeneration yeah yeah i was because we do n't we do n't to do the intro anymore i was just going with that you you're coming in with sudden visual distortion and blurring of vision so i'll just you know i'll just say i'll just go ahead and go into this technician part so it looks like the technician noticed that you've been having a decrease in vision when reading and straight lines and your door frames have been looking crooked to you is that right\n[patient] it is yes\n[doctor] okay what kind of venture are we gon na go into do you do you have the the script or no it it just talks\n[patient] but it's it's not presenting like like how you're reading it like how you're talking about it is it kinda what i'm saying because like after that i'm supposed to say yeah whenever i take my husband out to like a nice restaurant i have trouble adjusting to those dim lights but i'm not really getting the question of like so what's causing it or where do you have this happening stuff like that so i'm a little confused\n[doctor] okay i mean i can just straight out follow the script just so we can kinda get it rolling so so i said so hi so it looks like the technician noticed that you've been having a decrease in vision when reading and straight lines in your door frames have been looking crooked to you\n[patient] yeah and whenever i take my husband out to a nice restaurant i have trouble adjusting to those dim lights\n[doctor] uh okay so do you have a favorite restaurant you like to go to\n[patient] i do mcdonalds is one of my favorite here in arlington\n[doctor] that sounds good what what do you what's your favorite there\n[patient] they have a great egg plant parmajon one of my favorite so i just go ahead and go with that\n[doctor] that sounds really nice very good\n[patient] it's just\n[doctor] yeah okay well so it looks like you're still smoking a pack of cigarettes a day\n[patient] yes i tried to stop smoking every now and then but it's still been hard to totally stop\n[doctor] okay and how is your blood pressure been doing are you keeping up with your medication\n[patient] i take my blood pressure when i can remember to do so\n[doctor] okay yeah it's really important to keep up with your blood pressure check that regularly i'm totally going off script and you know might want to keep a log of that as well and check your blood pressures regularly so okay well let me do a just a quick exam of your eyes if you can take off your glasses and just rest your chin on the chin rest okay so the anterior segment examination reveals posterior chamber intraocular lenses in both eyes right eye the cornea is clear no mvi pciol cup to disc is . two fundus examination of the right eye shows the retina to be attached three hundred and sixty degrees without any tears or holes or pe changes in the fovea posterior segment exam shows drusen in the macula thickening of the retina presence of subretinal fluid and exudates accumulation positive for hemorrhage left eye the cornea is clear no mvi cup to disc is . three or pe changes in the fovea no hemorrhage or subretinal fluid retina is attached okay so i reviewed the results of your diagnostic tests so for the oct so it shows drusen deposit and the retinal pigment epithelium subretinal fluid accumulation choroidal neovascular membrane can be visualized fluorescein angiography reveals focal areas of leakage in the right eye consistent with neurovascular age related macular degeneration so the diagnostic tests and the eye exam are really indicative of neovascular age related macular degeneration so this is advanced to a stage that usually leads to more severe vision loss and it really happens when those abnormal blood vessels start to grow beneath the retina and they will leak fluid and blood and hints the name wet amd and can create a large blind spot in the center of the visual field and this is really with the most common cause for severe loss of vision so my plan is to give you an injection of lucentes once a month it's injected into the vitreous portion of the eye after it's been numbed and injections are given regularly over a period of time it may slow the rate of vision decline or stop further vision loss but however the disease and loss it may also progress despite treatment do you have any questions\n[patient] i do not no that sounds great\n[doctor] okay",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 191,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "visual distortions",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 212,
+          "turn_id": "t05"
+        },
+        {
+          "char_start": 218,
+          "char_end": 224,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "blurring of vision",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 465,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "macular degeneration",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 611,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "visual distortion",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 634,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "blurring of vision",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 807,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "decrease in vision",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 839,
+          "turn_id": "t11"
+        },
+        {
+          "char_start": 871,
+          "char_end": 886,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "straight lines looking crooked",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 849,
+          "char_end": 860,
+          "turn_id": "t11"
+        },
+        {
+          "char_start": 871,
+          "char_end": 886,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "door frames looking crooked",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1287,
+          "char_end": 1307,
+          "turn_id": "t14"
+        },
+        {
+          "char_start": 1314,
+          "char_end": 1324,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "trouble adjusting to dim lights",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1673,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "decrease in vision",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1691,
+          "char_end": 1705,
+          "turn_id": "t15"
+        },
+        {
+          "char_start": 1736,
+          "char_end": 1751,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "straight lines looking crooked",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1837,
+          "char_end": 1857,
+          "turn_id": "t16"
+        },
+        {
+          "char_start": 1864,
+          "char_end": 1874,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "trouble adjusting to dim lights",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2301,
+          "char_end": 2308,
+          "turn_id": "t23"
+        },
+        {
+          "char_start": 2311,
+          "char_end": 2329,
+          "turn_id": "t23"
+        },
+        {
+          "char_start": 2332,
+          "char_end": 2335,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "smoking pack of cigarettes day",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2366,
+          "char_end": 2373,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "smoking",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2542,
+          "char_end": 2546,
+          "turn_id": "t26"
+        },
+        {
+          "char_start": 2550,
+          "char_end": 2564,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "take blood pressure",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2656,
+          "char_end": 2676,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "blood pressure check",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2682,
+          "char_end": 2691,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "regularly",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2779,
+          "char_end": 2784,
+          "turn_id": "t27"
+        },
+        {
+          "char_start": 2790,
+          "char_end": 2815,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "check blood pressures regularly",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2854,
+          "char_end": 2861,
+          "turn_id": "t27"
+        },
+        {
+          "char_start": 2867,
+          "char_end": 2871,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "exam of eyes",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2958,
+          "char_end": 2986,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "anterior segment examination",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3078,
+          "char_end": 3081,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "mvi",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3088,
+          "char_end": 3099,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "cup to disc",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3109,
+          "char_end": 3127,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "fundus examination",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3221,
+          "char_end": 3226,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "tears",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3230,
+          "char_end": 3235,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "holes",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3239,
+          "char_end": 3249,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pe changes",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3263,
+          "char_end": 3285,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "posterior segment exam",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3292,
+          "char_end": 3298,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "drusen",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3313,
+          "char_end": 3326,
+          "turn_id": "t27"
+        },
+        {
+          "char_start": 3331,
+          "char_end": 3337,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "thickening of retina",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3350,
+          "char_end": 3366,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "subretinal fluid",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3371,
+          "char_end": 3392,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "exudates accumulation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3406,
+          "char_end": 3416,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3449,
+          "char_end": 3452,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "mvi",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3453,
+          "char_end": 3464,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "cup to disc",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3479,
+          "char_end": 3489,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pe changes",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3506,
+          "char_end": 3516,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3520,
+          "char_end": 3536,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "subretinal fluid",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3623,
+          "char_end": 3626,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "oct",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3639,
+          "char_end": 3653,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "drusen deposit",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3689,
+          "char_end": 3718,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "subretinal fluid accumulation",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3719,
+          "char_end": 3749,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "choroidal neovascular membrane",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3768,
+          "char_end": 3791,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "fluorescein angiography",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3800,
+          "char_end": 3822,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "focal areas of leakage",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3856,
+          "char_end": 3902,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "neurovascular age related macular degeneration",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3935,
+          "char_end": 3943,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "eye exam",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3969,
+          "char_end": 4013,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "neovascular age related macular degeneration",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4079,
+          "char_end": 4090,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "vision loss",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4124,
+          "char_end": 4146,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "abnormal blood vessels",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4234,
+          "char_end": 4241,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "wet amd",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4265,
+          "char_end": 4275,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "blind spot",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4367,
+          "char_end": 4381,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "loss of vision",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4411,
+          "char_end": 4420,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "injection",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4424,
+          "char_end": 4432,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "lucentes",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4433,
+          "char_end": 4445,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "once a month",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4460,
+          "char_end": 4496,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "into the vitreous portion of the eye",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4524,
+          "char_end": 4534,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "injections",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4601,
+          "char_end": 4615,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "vision decline",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4632,
+          "char_end": 4643,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "vision loss",
+      "id": "e58"
+    }
+  ]
+}

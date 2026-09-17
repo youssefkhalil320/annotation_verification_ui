@@ -1,0 +1,802 @@
+{
+  "doc_id": "ACI_BENCH:D2N169:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hi alan , how are you ?\n[patient] hi , good to see you .\n[doctor] good to see you as well . are you ready to get started ?\n[patient] yes i am .\n[doctor] so , alan is a 61-year-old male , here with complaints of shortness of breath .\n[doctor] so alan , what's going on ?\n[patient] so over the weekend , uh , i took a very long bike ride , about three hours or so and i got back , i was very light headed , i was short of breath and it really surprised me because i pretty much bike ride every morning and it was never an issue before so i'm a little concerned about that .\n[doctor] okay , and have you had any other symptoms ? have you had any fever-\n[patient] n-\n[doctor] . chest pain ?\n[patient] no , but i felt very light headed and , uh , i- it was hard to catch my breath afterwards , so maybe i did have a little chest pain but , uh , it , it eventually went away after about an hour .\n[doctor] okay , um , and anyone else sick in your , in your family ?\n[patient] no .\n[doctor] okay , and any cough ?\n[patient] um , i had a little bit of a cough with my first cold in the last year and a half , but that went away after about a week or so .\n[doctor] okay , all right . um , and any other symptoms ? i know you went through the review of symptoms-\n[patient] mm-hmm .\n[doctor] . with the nurse but any nausea or vomiting or abdominal pain ?\n[patient] n- no .\n[doctor] okay . all right . well , i know that i've treated you for migraines in the past . how are you doing with those ?\n[patient] that's been under control . i've , uh , taken medication , i've , uh , avoided bright lights and it's so far so good .\n[doctor] okay . all right . and i think we had you on imitrex for that . have you-\n[patient] yes , i'm still taking that .\n[doctor] all right . and then your reflux , how are you doing with that ?\n[patient] managing that as well .\n[doctor] okay and everything's working out well with the protonix ?\n[patient] yes .\n[doctor] okay . and then i know you had the cataract surgery about three months ago , your vision is okay ?\n[patient] that was about four and a half months ago and it's been actually great ever since .\n[doctor] okay , great . all right , well , we're gon na go ahead and do a quick physical exam . i wan na see your vital signs first .\n[patient] sure .\n[doctor] hey dragon , show me the vital signs .\n[doctor] okay , so looking here , everything looks quite good . your oxygenation is perfect , which is wonderful . let me just take a listen .\n[doctor] deep breath . another one . good .\n[doctor] so , on your physical exam , your neck is nice and supple . i do n't appreciate any jugular venous distension . your heart is in a regular rhythm , i do n't hear any murmur . your lungs do have a slight wheeze , expiratory wheeze , bilaterally . i can hear it every time you breathe and i see trace lower extremity edema in your lower extremities .\n[doctor] so what does all that mean ? you know , you , uh , i'm not quite sure yet but we're gon na review some of your results . hey dragon , show me the chest x-ray .\n[doctor] so looking here , this is a very normal chest x-ray . um , i do n't see any pulmonary edema , there's no pneumonia , so we're viewing your chest x-ray as , it's a norm- it's normal .\n[patient] good .\n[doctor] so , let's look at your pulmonary function test .\n[doctor] hey dragon , show me your , the pfts . and looking here again , these look quite good , i'm , i'm quite encouraged by that . that's , that's normal pulmonary function tests . hey dragon , show me the labs . and all of your labs here look quite good here as well so , i- i- i'm very pleased . so , right now my impression of you is that you may have had an asthma exacerbation from exercising and with the allergies , so at this point in time i'd like to go ahead and prescribe you some albuterol inhaler .\n[patient] mm-hmm .\n[doctor] two puffs every four hours as needed for wheezing or for shortness of breath . and , i'd like to go ahead and order a pulmonary referral for you , okay . do you have any questions about that ?\n[patient] no questions , thanks .\n[doctor] hey dragon , order a pulmonary referral . hey dragon , order albuterol inhaler , two puffs every four hours , as needed for shortness of breath .\n[doctor] and then i think from your reflux standpoint , everything seems stable and your migraines , i think that we should just continue on with the imitrex , as needed . does that sound good to you ?\n[patient] that sounds fine .\n[doctor] i wan na see you in a couple weeks and if you have this shortness of breath again , i want you to call me right away , okay ?\n[patient] you got it .\n[doctor] all right . good to see you .\n[patient] same here .\n[doctor] hey dragon , finalize the note .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 239,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 399,
+          "char_end": 411,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "light headed",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 435,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "short of breath",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 657,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "fever",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 683,
+          "char_end": 693,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 739,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "light headed",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 774,
+          "turn_id": "t11"
+        },
+        {
+          "char_start": 778,
+          "char_end": 784,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "hard to catch breath",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 837,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 937,
+          "char_end": 941,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "sick",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1008,
+          "char_end": 1013,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "cough",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1055,
+          "char_end": 1060,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "cough",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1075,
+          "char_end": 1079,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "cold",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1315,
+          "char_end": 1321,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "nausea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1325,
+          "char_end": 1333,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1337,
+          "char_end": 1351,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1440,
+          "char_end": 1449,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "migraines",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1678,
+          "char_end": 1685,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "imitrex",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1782,
+          "char_end": 1788,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "reflux",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1912,
+          "char_end": 1920,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "protonix",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1983,
+          "char_end": 1999,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "cataract surgery",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2255,
+          "char_end": 2266,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2326,
+          "char_end": 2337,
+          "turn_id": "t32"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2474,
+          "char_end": 2480,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "listen",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2620,
+          "char_end": 2645,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "jugular venous distension",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2702,
+          "char_end": 2708,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "murmur",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2739,
+          "char_end": 2745,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "wheeze",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2748,
+          "char_end": 2765,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "expiratory wheeze",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2835,
+          "char_end": 2856,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "lower extremity edema",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3040,
+          "char_end": 3051,
+          "turn_id": "t36"
+        }
+      ],
+      "text": "chest x-ray",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3103,
+          "char_end": 3114,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "chest x-ray",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3139,
+          "char_end": 3154,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "pulmonary edema",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3168,
+          "char_end": 3177,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3202,
+          "char_end": 3213,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "chest x-ray",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3296,
+          "char_end": 3319,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "pulmonary function test",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3363,
+          "char_end": 3367,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "pfts",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3479,
+          "char_end": 3503,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "pulmonary function tests",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3531,
+          "char_end": 3535,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "labs",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3554,
+          "char_end": 3558,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "labs",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3687,
+          "char_end": 3706,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "asthma exacerbation",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3736,
+          "char_end": 3745,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "allergies",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3817,
+          "char_end": 3826,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "albuterol",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3827,
+          "char_end": 3834,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3865,
+          "char_end": 3874,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "two puffs",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3875,
+          "char_end": 3941,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "every four hours as needed for wheezing or for shortness of breath",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3906,
+          "char_end": 3914,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "wheezing",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3922,
+          "char_end": 3941,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4162,
+          "char_end": 4171,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "albuterol",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4172,
+          "char_end": 4179,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4182,
+          "char_end": 4191,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "two puffs",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4192,
+          "char_end": 4208,
+          "turn_id": "t44"
+        },
+        {
+          "char_start": 4211,
+          "char_end": 4244,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "every four hours as needed for shortness of breath",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4225,
+          "char_end": 4244,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4283,
+          "char_end": 4289,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "reflux",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4336,
+          "char_end": 4345,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "migraines",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4397,
+          "char_end": 4404,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "imitrex",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4407,
+          "char_end": 4416,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "as needed",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4543,
+          "char_end": 4562,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e56"
+    }
+  ]
+}

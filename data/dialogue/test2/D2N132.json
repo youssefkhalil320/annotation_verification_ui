@@ -1,0 +1,476 @@
+{
+  "doc_id": "ACI_BENCH:D2N132:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hello mrs. lee , i see you're here for back pain .\n[patient] yes .\n[doctor] hey dragon , i'm seeing mrs. lee today for , uh , back pain . she's a 40-year-old female . so can you tell me what happened to you ?\n[patient] yes . i was at a birthday party and it was surprise party . so we were all like crunched behind and hiding . and when the person came in we all jumped out , and then i fell down the little stair and i rammed my back into the railing of the s- , uh , staircase .\n[doctor] so it was a surprise for you too ?\n[patient] yes it was .\n[doctor] very good . okay . so , um , did it hurt because you hit it , or did you twist ? what happened when you ?\n[patient] i think it was my motion-\n[doctor] okay .\n[patient] . of jumping up , or something .\n[doctor] okay .\n[patient] and maybe a twisting .\n[doctor] okay . any pain shooting down your legs at all ?\n[patient] no .\n[doctor] is it on one side or the other of your back ?\n[patient] um , it's more on the right .\n[doctor] on the right . is there anything that makes it better or worse ?\n[patient] uh , if i'm lying flat it hurts a little more , and any twisting motion for sure .\n[doctor] okay . all right . and do you have any history or any back problems before ?\n[patient] i did . i had a fusion done .\n[doctor] okay , yeah that lumbar fusion . um , let's take an x-ray . hey . or let's look at an x-ray . hey dragon , show me the latest x-ray . okay , we can see where you had your fusion , t4 here on the x-ray . but i do n't see anything that looks , um , significantly abnormal . it does n't appear to have any compression fractures or anything like that . so , it's essentially , except for the fusion , a normal exam . let me do your exam for you here . can i have you stand up please ? does it hurt when i twist you that way ?\n[patient] yes .\n[doctor] okay . you can sit back down . if i lift your leg here , does that bother you ?\n[patient] no .\n[doctor] how 'bout when i lift this leg ?\n[patient] no .\n[doctor] any pain shooting down your legs when i do that ?\n[patient] no .\n[doctor] okay . and can you feel me touching down here .\n[patient] yes .\n[doctor] okay , great . so , you had a injury to your back when you were twisting at the birthday party . you do n't really have any pain or numbness down your legs . you have some stiffness with rotation , um , but you do n't have any evidence of a , um , what we would call a pinched nerved or radiculopathy . so , i think you basically have a strain of your lower back . um , have you been taking any medications ?\n[patient] just some ibuprofen .\n[doctor] okay . and do you have any other , um , medical problems ?\n[patient] um i take medication for anxiety .\n[doctor] okay . and that's all ? okay . um , so what we're gon na do is i'm gon na give you , um , just continue the motrin at 800mg , three times a day , with food . i want you to use some ice and heat , alternating on your back . but i do want you walking .\n[patient] okay .\n[doctor] um , and , uh , this should sort of take care of itself after a few days . if it's not , or it's getting worse , i want you to come back and see me over the next week .\n[patient] okay .\n[doctor] does that sound good ?\n[patient] it does .\n[doctor] okay , dragon . hey dragon , go ahead and order the medications and procedures and close out the note . come on i'll bring you out to check out .\n[patient] thank you .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 57,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 144,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "back pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 602,
+          "char_end": 606,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "hurt",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 836,
+          "char_end": 854,
+          "turn_id": "t13"
+        },
+        {
+          "char_start": 860,
+          "char_end": 864,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain shooting down legs",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1099,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "hurts",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1269,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "fusion",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1303,
+          "char_end": 1316,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "lumbar fusion",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1338,
+          "char_end": 1343,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1372,
+          "char_end": 1377,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1412,
+          "char_end": 1417,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1457,
+          "char_end": 1463,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "fusion",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1481,
+          "char_end": 1486,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1589,
+          "char_end": 1610,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "compression fractures",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1674,
+          "char_end": 1680,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "fusion",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1779,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "hurt",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1869,
+          "char_end": 1873,
+          "turn_id": "t23"
+        },
+        {
+          "char_start": 1879,
+          "char_end": 1882,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "lift leg",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1954,
+          "char_end": 1958,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 1964,
+          "char_end": 1967,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "lift leg",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1998,
+          "char_end": 2016,
+          "turn_id": "t27"
+        },
+        {
+          "char_start": 2022,
+          "char_end": 2026,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pain shooting down legs",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2171,
+          "char_end": 2177,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "injury",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2265,
+          "char_end": 2269,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2273,
+          "char_end": 2281,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "numbness",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2313,
+          "char_end": 2322,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "stiffness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2410,
+          "char_end": 2424,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pinched nerved",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2428,
+          "char_end": 2441,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "radiculopathy",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2478,
+          "char_end": 2484,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "strain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2570,
+          "char_end": 2579,
+          "turn_id": "t32"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2685,
+          "char_end": 2692,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2812,
+          "char_end": 2818,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "motrin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2822,
+          "char_end": 2827,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "800mg",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2830,
+          "char_end": 2847,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "three times a day",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2885,
+          "char_end": 2888,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "ice",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2893,
+          "char_end": 2897,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "heat",
+      "id": "e32"
+    }
+  ]
+}

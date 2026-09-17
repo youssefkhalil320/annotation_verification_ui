@@ -1,0 +1,718 @@
+{
+  "doc_id": "ACI_BENCH:D2N149:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nShortness of breath with hemoptysis.\n\nMEDICAL HISTORY\n\nPatient reports history of diabetes, hypertension, and asthma. He also has a long history of knee pain.\n\nMEDICATIONS\n\nPatient reports taking metformin and Norvasc.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies fever.\nHENT: Denies bleeding gums.\nRespiratory: Reports shortness of breath, hemoptysis.\nMusculoskeletal: Reports knee pain. Denies lower extremity edema.\nHematologic/Lymphatic: Denies bruising.\n\nVITALS\n\nPulse oxygenation: 94 percent. Blood pressure: 120/70 mm Hg.\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: Neck is supple. No JVD. No carotid bruits.\n\nRespiratory\n- Auscultation of Lungs: Some rales and rhonchi, more on the right. No wheezing right now. There is some diminished breath sounds in the right as well.\n\nCardiovascular\n- Auscultation of Heart: Regular rate. 2/6 systolic ejection murmur, unchanged from before.\n\nGastrointestinal\n- Examination of Abdomen: Soft.\n\nMusculoskeletal\n- Examination: 1+ nonpitting edema on bilateral lower extremities. No calf tenderness. Negative Homan's sign.\n\nHematology/Lymphatic/Immunology\n- Examination: No bruising.\n\nASSESSMENT AND PLAN\n\n1. Shortness of breath.\n- Medical Reasoning: The patient has been coughing up blood.\n- Patient Education and Counseling: We discussed the importance of further testing as his symptoms could be as simple as a pneumonia or something more serious.\n- Medical Treatment: I have ordered a chest x-ray, CT scan, and blood work to be done in the ER. I have instructed the patient to go into the ER immediately after this appointment and I will call ahead.\n\n2. Diabetes.\n- Medical Reasoning: The patient's blood sugar has not been well controlled.\n- Medical Treatment: I have ordered an updated A1c today. He will increase his metformin to 750 mg twice daily.\n\n3. Hypertension.\n- Medical Reasoning: His blood pressure has been running low for approximately 3 weeks. I believe this could be caused by his shortness of breath. I would like to get a better understanding of the cause of his shortness of breath prior to pursuing further treatment for his hypertension.\n- Medical Treatment: At this time, he will discontinue the use of Norvasc.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nWe will have him follow up in about 3 weeks to just discuss his diabetes and further treatment recommendations.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "Shortness of breath",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 121,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 133,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "knee pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 222,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 234,
+          "turn_id": null
+        }
+      ],
+      "text": "Norvasc",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 279,
+          "char_end": 284,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 299,
+          "char_end": 312,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding gums",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 356,
+          "char_end": 366,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 402,
+          "turn_id": null
+        }
+      ],
+      "text": "knee pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 432,
+          "turn_id": null
+        }
+      ],
+      "text": "lower extremity edema",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 464,
+          "char_end": 472,
+          "turn_id": null
+        }
+      ],
+      "text": "bruising",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 500,
+          "turn_id": null
+        }
+      ],
+      "text": "Pulse oxygenation",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 528,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood pressure",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 610,
+          "turn_id": null
+        }
+      ],
+      "text": "JVD",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "carotid bruits",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 646,
+          "char_end": 667,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 679,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 684,
+          "char_end": 691,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 723,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezing",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 749,
+          "char_end": 786,
+          "turn_id": null
+        }
+      ],
+      "text": "diminished breath sounds in the right",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 835,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 855,
+          "char_end": 879,
+          "turn_id": null
+        }
+      ],
+      "text": "systolic ejection murmur",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 924,
+          "char_end": 946,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Abdomen",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 989,
+          "char_end": 1036,
+          "turn_id": null
+        }
+      ],
+      "text": "nonpitting edema on bilateral lower extremities",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1041,
+          "char_end": 1056,
+          "turn_id": null
+        }
+      ],
+      "text": "calf tenderness",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1079,
+          "turn_id": null
+        }
+      ],
+      "text": "Homan's sign",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1140,
+          "turn_id": null
+        }
+      ],
+      "text": "bruising",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1167,
+          "char_end": 1186,
+          "turn_id": null
+        }
+      ],
+      "text": "Shortness of breath",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1230,
+          "char_end": 1247,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing up blood",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1372,
+          "char_end": 1381,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1447,
+          "char_end": 1458,
+          "turn_id": null
+        }
+      ],
+      "text": "chest x-ray",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1460,
+          "char_end": 1467,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1473,
+          "char_end": 1483,
+          "turn_id": null
+        }
+      ],
+      "text": "blood work",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1616,
+          "char_end": 1624,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1661,
+          "char_end": 1672,
+          "turn_id": null
+        },
+        {
+          "char_start": 1686,
+          "char_end": 1701,
+          "turn_id": null
+        }
+      ],
+      "text": "blood sugar well controlled",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1750,
+          "char_end": 1753,
+          "turn_id": null
+        }
+      ],
+      "text": "A1c",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1782,
+          "char_end": 1791,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1795,
+          "char_end": 1801,
+          "turn_id": null
+        }
+      ],
+      "text": "750 mg",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1802,
+          "char_end": 1813,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1819,
+          "char_end": 1831,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1858,
+          "char_end": 1872,
+          "turn_id": null
+        },
+        {
+          "char_start": 1882,
+          "char_end": 1893,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure running low",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1959,
+          "char_end": 1978,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2043,
+          "char_end": 2062,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2107,
+          "char_end": 2119,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2194,
+          "turn_id": null
+        }
+      ],
+      "text": "Norvasc",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2376,
+          "char_end": 2384,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e50"
+    }
+  ]
+}

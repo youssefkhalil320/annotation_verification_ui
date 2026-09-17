@@ -1,0 +1,853 @@
+{
+  "doc_id": "ACI_BENCH:D2N110:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] okay hi wayne well i understand you're here for you've got a sore on your foot that's not healing is that right\n[patient] yes\n[doctor] so can you tell me about that how are you doing\n[patient] well i've been doing okay but i've had this wound on my right foot for a couple of weeks and it's not getting better i saw my pcp and they referred me to you i i used to see a podiatrist and a couple of years ago but they moved and i was n't able to get another one\n[doctor] okay and how long have you had the wound\n[patient] about two to three weeks\n[doctor] okay have you had any kind of trauma to that foot\n[patient] no i bought a new pair of shoes to travel with and the neuropathy i guess i did n't feel that they were too tight at first it was just a blister but it looked a lot worse now i've been putting a band-aid on it and\n[doctor] okay and so did your doctor put you on any antibiotics when they they saw your foot\n[patient] yes i finished the course yesterday the wound looked about the same though\n[doctor] okay now does it hurt\n[patient] no i ca n't feel it\n[doctor] okay now have you had any other symptoms like fever chills drainage from the wound or anything along those lines\n[patient] no but when i take my sock off sometimes it sticks to the wound even when i put a band-aid on\n[doctor] okay well are you still wearing those same shoes that cause the problem\n[patient] no i'm upset\n[doctor] i'm so upset too i love those shoes\n[patient] no i'm so upset i i love those shoes\n[doctor] okay so what kind of shoes are they\n[patient] they're hoka's\n[doctor] ah so where did you get them\n[patient] i got them at rei couple of years ago\n[doctor] they're pretty good about helping you to fit your fit you in a shoe are n't they\n[patient] yeah\n[doctor] so what do you like about them\n[patient] they are comfortable they are easy to take on and off and they provide good stability\n[doctor] that's good so you've had some issues with stability sometimes or\n[patient] yes\n[doctor] okay okay well another question i want to ask you is how is your diabetes doing\n[patient] i do n't think it's too bad my last hgb a1c was a little over eight\n[doctor] okay alright well let me just do a quick physical exam okay for vital signs your temperature is ninety eight . one your vital signs look good your heart rate is seventy two respirations sixteen blood pressure is one ten over sixty five okay so on your foot exam let's see there is a one by two inch circular wound on the dorsal aspect of the lateral right foot it is just proximal to the right fifth to the fifth mtp joint and there is some yellow slough present with minimal granulation tissue there's no surrounding erythema or cellulitis and there's no evidence of fluid collection there's no necrosis there is no odor i do not appreciate any bony exposure on on vascular exam there are palpable bilateral femoral and popliteal pulses there are no palpable dp or pt pulses but doppler signs are present okay so does this hurt when i touch it here\n[patient] no it's okay\n[doctor] okay alright so i've reviewed the results your right foot x-ray that we did before you i came in the room and this shows no evidence of osteomyelitis which means there is no evidence of bone infection so that's really good so let me tell you a little about my assessment and plan for you so for your first problem your diabetic foot ulcer so i want to order an ankle brachial index abi to determine the blood supply to your foot to see if you can heal this wound i'm also gon na perform a debridement here in the office to take off some of the dead tissue and then next i'm going to prescribe a collagenase ointment to be applied to the wound once daily and then cover with a dry sterile dressing now we will continue this until we see the wound shrinking and a nice pink tissue is present and i want you to wear a surgical shoe to take pressure off of the area okay so i do n't think any more antibiotics are needed at this time and i want to see you again in two weeks so we may need to refer you to a vascular specialist if the abi indicates your blood supply is not optimal for wound healing okay\n[patient] okay\n[doctor] okay so for your diabetes it's gon na be very important to get your diabetes under control in order to get the wound to heal so we might even go ahead and get a diabetic consult so that we can go over some some maybe some ways you can modify your diet without a being too much but maybe that can bring down your hemoglobin a1c into a little bit better level okay\n[patient] okay\n[doctor] alright do you have any other questions\n[patient] no\n[doctor] okay",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 70,
+          "char_end": 74,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sore",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 251,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "wound",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 512,
+          "char_end": 517,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "wound",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 598,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "trauma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 677,
+          "char_end": 687,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "neuropathy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 759,
+          "char_end": 766,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "blister",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 888,
+          "char_end": 899,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 979,
+          "char_end": 984,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "wound",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1040,
+          "char_end": 1044,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "hurt",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1130,
+          "char_end": 1135,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "fever",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1136,
+          "char_end": 1142,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "chills",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1143,
+          "char_end": 1151,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "drainage",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1161,
+          "char_end": 1166,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "wound",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1265,
+          "char_end": 1270,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "wound",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1934,
+          "char_end": 1955,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "issues with stability",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2057,
+          "char_end": 2065,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2118,
+          "char_end": 2125,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "hgb a1c",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2223,
+          "char_end": 2234,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2240,
+          "char_end": 2251,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "temperature",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2306,
+          "char_end": 2316,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "heart rate",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2332,
+          "char_end": 2344,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "respirations",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2353,
+          "char_end": 2367,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2411,
+          "char_end": 2420,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "foot exam",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2467,
+          "char_end": 2472,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "wound",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2600,
+          "char_end": 2613,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "yellow slough",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2635,
+          "char_end": 2653,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "granulation tissue",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2677,
+          "char_end": 2685,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "erythema",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2689,
+          "char_end": 2699,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2727,
+          "char_end": 2743,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "fluid collection",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2755,
+          "char_end": 2763,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "necrosis",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2776,
+          "char_end": 2780,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "odor",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2805,
+          "char_end": 2818,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "bony exposure",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2825,
+          "char_end": 2838,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "vascular exam",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2919,
+          "char_end": 2921,
+          "turn_id": "t31"
+        },
+        {
+          "char_start": 2928,
+          "char_end": 2934,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "dp pulses",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2925,
+          "char_end": 2934,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pt pulses",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2939,
+          "char_end": 2946,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "doppler",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2983,
+          "char_end": 2987,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hurt",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3088,
+          "char_end": 3104,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "right foot x-ray",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3177,
+          "char_end": 3190,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "osteomyelitis",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3227,
+          "char_end": 3241,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "bone infection",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3360,
+          "char_end": 3379,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "diabetic foot ulcer",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3402,
+          "char_end": 3426,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "ankle brachial index abi",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3498,
+          "char_end": 3503,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "wound",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3530,
+          "char_end": 3541,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "debridement",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3585,
+          "char_end": 3596,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "dead tissue",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3636,
+          "char_end": 3647,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "collagenase",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3648,
+          "char_end": 3656,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "ointment",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3671,
+          "char_end": 3683,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "to the wound",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3678,
+          "char_end": 3683,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "wound",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3684,
+          "char_end": 3694,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "once daily",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3717,
+          "char_end": 3737,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "dry sterile dressing",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3781,
+          "char_end": 3786,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "wound",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3935,
+          "char_end": 3946,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4072,
+          "char_end": 4075,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "abi",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4091,
+          "char_end": 4118,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "blood supply is not optimal",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4123,
+          "char_end": 4128,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "wound",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4183,
+          "char_end": 4191,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4234,
+          "char_end": 4242,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4277,
+          "char_end": 4282,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "wound",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4478,
+          "char_end": 4492,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "hemoglobin a1c",
+      "id": "e60"
+    }
+  ]
+}

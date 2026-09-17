@@ -1,0 +1,961 @@
+{
+  "doc_id": "ACI_BENCH:D2N125:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[patient] miss edwards is here for evaluation of facial pain this is a 54 -year-old male\n[doctor] how're you doing doctor cruz nice to see you today\n[patient] good to see you mister edwards i'm doctor\n[doctor] tell me what's been going on yeah so i've got this stabbing shooting pain i've had for a while you know and it it especially right here in my right face right in that cheek bone area it's sometimes it gets super hot i've had it for i think a couple of months now and i went to my family doctor and they said i should come see you\n[patient] okay great i would like to ask you a little bit more about that\n[doctor] had in your face do you remember how long that you had it probably for about two or three months just just came on slowly i started noticing it but now it's i have episodes where just shooting stabbing kind of a pain in my right cheek bone right face area\n[patient] mm-hmm do you have any sensory loss meaning like numbness or tingling in that part of your face\n[doctor] not that i've noticed no okay do you have any symptoms like this anywhere else on your face including the other side of your face\n[patient] no it's just on the right side mostly not on the left side just on the right side of my face\n[doctor] have you noticed any weakness on that side of the face like when you smile or while you're doing other things any weakness there not really i mean i've i've i've tried to you know when i smile my smile seems equal on both sides my eyes i do n't have any weakness there my vision seems to be unchanged but just this stabbing severe pain it's just like excruciating pain that i get sometimes does it happen on its own or there are certain things that trigger it\n[patient] sometimes if i'm if certain temperatures seem to trigger it sometimes or if it's super where it's cold i get a trigger sometimes\n[doctor] sometimes certain kind of sensory outside of the wind sometimes that seems to trigger it but that's about it\n[patient] okay and anything that you've done to to that helps for a little bit when you\n[doctor] pain excess\n[patient] you know i've tried ibuprofen and motrin that had really has n't helped it just comes on suddenly and then it's kinda stabbing excruciating pain i've tried rubbing some you know some tiger balm on it that did n't work\n[doctor] but that's you know so i i went to my family doctor and he said you know i really need to see a neurosurgeon\n[patient] got it how long do these episodes last these pain\n[doctor] you know it can last for anywhere from a few minutes to sometimes about an hour but generally generally a few minutes\n[patient] any history of something like multiple sclerosis or any brain tumors that you know\n[doctor] no nothing like that alright any other kinda headache symptoms that have anything like you had migraines or anything related to the headaches i mean i get occasional headaches but not really i do n't have a history of migraines but i occasionally get headaches like everybody else i take some tylenol that usually goes away but this is different\n[patient] how severe is the pain on a scale of one to ten\n[doctor] when it comes on it's like a ten it's like somebody is stabbing you with an ice pick and but usually you know after a few minutes usually it goes away but sometimes it can last up to an hour great so mister i would like to do a physical exam if that's okay with you\n[patient] sure\n[doctor] i would like you to follow my finger here and i see that you're following my finger in in both directions can you show me your teeth\n[patient] that looks nice and symmetric i'm gon na rub my fingers next to your ear can you hear that\n[doctor] yep\n[patient] you can hear it on the other side as well\n[doctor] yep\n[patient] okay\n[doctor] i'm gon na take this cotton tape and run it along the side of your face can you feel that okay\n[patient] yeah it's a little bit numb on my right side not so much on my left side\n[doctor] okay alright i'm gon na use this little needle here and i'm gon na poke here and i wan na see if you feel like it's being sharp or dull on that part of your face does that feel different or normal\n[patient] it feels a little bit dull on my left on my right side my left side it feels sharp\n[doctor] alright good well i had a chance to look at your mri\n[patient] okay\n[doctor] and i looked at your mri and it appears to have small blood vessel that is abutting and perhaps even pinching the trigeminal nerve the trigeminal nerve is nerve that comes from the brainstem that goes out to the face and provides the sensory inflammation from the face and you may have a condition called trigeminal neuralgia\n[patient] okay\n[doctor] where the nerve compression causes this kind of shooting electrical pain in the face how do we treat it\n[patient] well the first line would be to try some medications usually we start with medications that are called gabapentin\n[doctor] or tegretol these are medications that really help reduce the excitability of the nerve\n[patient] okay\n[doctor] most people can get the pain control with that but there are some people where the medications are n't gon na be enough and in that situation we would consider surgery i would n't i would n't recommend that now we usually try the medications first\n[patient] for considering a surgery to decompress the nerve the root cause of the problem is the compression of the blood vessel against the nerve\n[doctor] okay so we should be tried which one would you recommend the tegretol or yeah i think we could start with the tegretol to start with i just want to make sure that you understand some of the potential side effects that you can have with this\n[patient] sure\n[doctor] it's always a little bit of trial and error to figure out what the right dosing that would work for you but some common side effects can include you know memory loss tingling imbalance some people can actually have like dermatologic\n[patient] skin reaction to this medication and particularly people who have eustachian descent so that we may do some genetic testing just to make sure that it will be safe for you\n[doctor] okay sounds good let's do it\n[patient] okay so i will prescribe that for you and then we will see how that goes and if your pain continues we can talk about different surgical options to treat the pain\n[doctor] yeah i think i would like to try the tegretol first and if that does n't work then i can come back and so once should i come back and just to kinda check back with you and see if you know if it's had enough time for a fact or not\n[patient] i think one month would be a great time to follow up\n[doctor] okay sounds good so if you want to send that prescription over to my pharmacy that would be fine and then why do n't i come back in about a month and we'll go from there\n[patient] great i'll see you then\n[doctor] alright",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 60,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "facial pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 279,
+          "char_end": 283,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 422,
+          "char_end": 425,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "hot",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 839,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 912,
+          "char_end": 924,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "sensory loss",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 938,
+          "char_end": 946,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "numbness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 950,
+          "char_end": 958,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "tingling",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1257,
+          "char_end": 1265,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "weakness",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1350,
+          "char_end": 1358,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "weakness",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1490,
+          "char_end": 1498,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "weakness",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1567,
+          "char_end": 1571,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1604,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2050,
+          "char_end": 2054,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2092,
+          "char_end": 2101,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2106,
+          "char_end": 2112,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "motrin",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2216,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2255,
+          "char_end": 2265,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "tiger balm",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2463,
+          "char_end": 2467,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2635,
+          "char_end": 2653,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "multiple sclerosis",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2661,
+          "char_end": 2673,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "brain tumors",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2742,
+          "char_end": 2750,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "headache",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2792,
+          "char_end": 2801,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "migraines",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2829,
+          "char_end": 2838,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "headaches",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2863,
+          "char_end": 2872,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "headaches",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2915,
+          "char_end": 2924,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "migraines",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2948,
+          "char_end": 2957,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "headaches",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2990,
+          "char_end": 2997,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3071,
+          "char_end": 3075,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3081,
+          "char_end": 3100,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "scale of one to ten",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3165,
+          "char_end": 3182,
+          "turn_id": "t22"
+        },
+        {
+          "char_start": 3186,
+          "char_end": 3194,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "stabbing you with ice pick",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3420,
+          "char_end": 3426,
+          "turn_id": "t24"
+        },
+        {
+          "char_start": 3430,
+          "char_end": 3436,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "follow finger",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3477,
+          "char_end": 3483,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "finger",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3514,
+          "char_end": 3518,
+          "turn_id": "t24"
+        },
+        {
+          "char_start": 3527,
+          "char_end": 3532,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "show teeth",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3584,
+          "char_end": 3587,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 3591,
+          "char_end": 3606,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 3612,
+          "char_end": 3615,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "rub fingers next to ear",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3773,
+          "char_end": 3776,
+          "turn_id": "t30"
+        },
+        {
+          "char_start": 3780,
+          "char_end": 3785,
+          "turn_id": "t30"
+        },
+        {
+          "char_start": 3790,
+          "char_end": 3797,
+          "turn_id": "t30"
+        },
+        {
+          "char_start": 3803,
+          "char_end": 3807,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "run along side of face",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3864,
+          "char_end": 3868,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "numb",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3990,
+          "char_end": 3999,
+          "turn_id": "t32"
+        },
+        {
+          "char_start": 4045,
+          "char_end": 4058,
+          "turn_id": "t32"
+        }
+      ],
+      "text": "poke here sharp or dull",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4152,
+          "char_end": 4156,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "dull",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4271,
+          "char_end": 4274,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "mri",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4320,
+          "char_end": 4323,
+          "turn_id": "t36"
+        }
+      ],
+      "text": "mri",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4353,
+          "char_end": 4365,
+          "turn_id": "t36"
+        },
+        {
+          "char_start": 4374,
+          "char_end": 4382,
+          "turn_id": "t36"
+        },
+        {
+          "char_start": 4413,
+          "char_end": 4429,
+          "turn_id": "t36"
+        }
+      ],
+      "text": "blood vessel abutting trigeminal nerve",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4353,
+          "char_end": 4365,
+          "turn_id": "t36"
+        },
+        {
+          "char_start": 4400,
+          "char_end": 4408,
+          "turn_id": "t36"
+        },
+        {
+          "char_start": 4413,
+          "char_end": 4429,
+          "turn_id": "t36"
+        }
+      ],
+      "text": "blood vessel pinching trigeminal nerve",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4604,
+          "char_end": 4624,
+          "turn_id": "t36"
+        }
+      ],
+      "text": "trigeminal neuralgia",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4659,
+          "char_end": 4676,
+          "turn_id": "t38"
+        }
+      ],
+      "text": "nerve compression",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4697,
+          "char_end": 4724,
+          "turn_id": "t38"
+        },
+        {
+          "char_start": 4729,
+          "char_end": 4733,
+          "turn_id": "t38"
+        }
+      ],
+      "text": "shooting electrical pain in face",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4866,
+          "char_end": 4876,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4889,
+          "char_end": 4897,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "tegretol",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5022,
+          "char_end": 5026,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5158,
+          "char_end": 5165,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "surgery",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5274,
+          "char_end": 5295,
+          "turn_id": "t43"
+        },
+        {
+          "char_start": 5300,
+          "char_end": 5305,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "surgery to decompress nerve",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5343,
+          "char_end": 5357,
+          "turn_id": "t43"
+        },
+        {
+          "char_start": 5362,
+          "char_end": 5382,
+          "turn_id": "t43"
+        },
+        {
+          "char_start": 5387,
+          "char_end": 5392,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "compression of blood vessel against nerve",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5463,
+          "char_end": 5471,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "tegretol",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5512,
+          "char_end": 5520,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "tegretol",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5821,
+          "char_end": 5832,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "memory loss",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5833,
+          "char_end": 5841,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "tingling",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5842,
+          "char_end": 5851,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "imbalance",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5910,
+          "char_end": 5923,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "skin reaction",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6018,
+          "char_end": 6033,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "genetic testing",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6214,
+          "char_end": 6218,
+          "turn_id": "t49"
+        }
+      ],
+      "text": "pain",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6257,
+          "char_end": 6273,
+          "turn_id": "t49"
+        }
+      ],
+      "text": "surgical options",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6287,
+          "char_end": 6291,
+          "turn_id": "t49"
+        }
+      ],
+      "text": "pain",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6338,
+          "char_end": 6346,
+          "turn_id": "t50"
+        }
+      ],
+      "text": "tegretol",
+      "id": "e62"
+    }
+  ]
+}

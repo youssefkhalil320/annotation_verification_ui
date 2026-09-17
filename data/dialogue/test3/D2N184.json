@@ -1,0 +1,312 @@
+{
+  "doc_id": "ACI_BENCH:D2N184:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] stephanie morales , medical record number 113322 . 44-year-old female that presents today six weeks status post right medial unicompartmental arthroplasty .\n[doctor] hello !\n[patient] hi , how are you doing ?\n[doctor] good , how are you ?\n[patient] i'm all right .\n[doctor] how's the knee treating you ?\n[patient] it's good .\n[doctor] good . any problems ?\n[patient] no , no problems , uh , just still the numbness on this side .\n[doctor] okay . that area of numbness will get smaller as the nerves that innervate the skin across the knee heal .\n[patient] right . okay .\n[doctor] so lem me take a look at your right knee .\n[patient] sure .\n[doctor] all right , and relax for me . good . all right , and bend . good . that looks good . um , the incision looks nice .\n[patient] mm-hmm .\n[doctor] let's look at your x-rays . uh , they look good . so here's what you got going on in there . uh , it looks good . everything's lined up nicely . um , that's looking at it from the front . and this is looking at it from the side . and then this was underneath your kneecap , but we did n't do anything there . but things looks great .\n[patient] okay . i'm so happy with how the surgery went . i have no pain .\n[doctor] yeah , you know , you're still early in your recovery , so i expect you to get even better than what you are now . um , so keep doing your pt to work on your strength , range of motion , and endurance .\n[patient] okay , will do .\n[doctor] you're probably still gon na have aches and pains occasionally . i usually tell people it's two or three months before you feel like you're back to yourself again , so you're doing really well .\n[patient] okay . that's really good to know . thank you .\n[doctor] yeah , let's plan to talk again in six weeks . so if you stop at the desk on your way out today , they're going to get you set up for a telemedicine visit . and that visit'll just be to check in and see how you're doing and make sure things are progressing okay .\n[patient] sure , okay . and can i ask you about work before i go ?\n[doctor] sure .\n[patient] well , as you know , i work for ups , and i'm not able to go back yet because of going up and down steps with the position i have . however , they're asking me to come back to work where i can sit for the shift with breaks .\n[doctor] okay . i , i do n't want you lifting greater than five or 10 pounds , and no standing or sitting longer than a half an hour . uh , usually that means you ca n't do a ups job .\n[patient] all right . so would you write a note to excuse me for another six weeks ?\n[doctor] sure . i'll have my nurse anna give it to you .\n[patient] that's great . thank you .\n[doctor] okay , so we'll talk again in six weeks , and we can discuss your job again at that time .\n[patient] sounds good .\n[doctor] yeah , those , um , are the types of , of jobs that take a good three months until you're kind of ready to get back to doing that kind of labor-intensive work .\n[patient] okay , and driving now ?\n[doctor] uh , we have plenty of data that says normal reflex time is returned at six weeks , and then your return to driving is determined by when you're ready and feel safe to be driving .\n[patient] okay .\n[doctor] yeah . so hang tight . anna will bring that note back in to you , and we'll talk in six weeks .\n[patient] all right , that sounds good .\n[doctor] uh , but keep working hard on , on pt in the meantime though .\n[patient] i definitely will . thank you .\n[doctor] all right , have a good rest of your day .\n[patient] you as well .\n[doctor] okay , this is a six-week post-op meeting exam for her . her gait was antalgic with a slight limp and decreased velocity . she's not using an assistive device . right knee focused exam has a healed surgical scar , mild swelling , tenderness- tenderness .\n[doctor] . on the area of the incision . range of motion is zero to 120 degrees . everything else normal . radiographs were three views of the right knee taken today and show implants in stable position .\n[doctor] no evidence of loosening or early complications . thanks .",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "right medial unicompartmental arthroplasty",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 423,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "numbness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 468,
+          "char_end": 476,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "numbness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 606,
+          "char_end": 613,
+          "turn_id": "t12"
+        },
+        {
+          "char_start": 619,
+          "char_end": 629,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "look at right knee",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 822,
+          "char_end": 828,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "x-rays",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1180,
+          "char_end": 1187,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "surgery",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1205,
+          "char_end": 1209,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1360,
+          "char_end": 1362,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "pt",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1499,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "aches",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1504,
+          "char_end": 1509,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "pains",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3394,
+          "char_end": 3396,
+          "turn_id": "t38"
+        }
+      ],
+      "text": "pt",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3610,
+          "char_end": 3614,
+          "turn_id": "t42"
+        },
+        {
+          "char_start": 3619,
+          "char_end": 3627,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "gait antalgic",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3642,
+          "char_end": 3646,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "limp",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3651,
+          "char_end": 3669,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "decreased velocity",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3710,
+          "char_end": 3733,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "right knee focused exam",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3747,
+          "char_end": 3760,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "surgical scar",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3768,
+          "char_end": 3776,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "swelling",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3791,
+          "char_end": 3801,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3845,
+          "char_end": 3860,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "range of motion",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3911,
+          "char_end": 3922,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "radiographs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4033,
+          "char_end": 4042,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "loosening",
+      "id": "e21"
+    }
+  ]
+}

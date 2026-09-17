@@ -1,0 +1,792 @@
+{
+  "doc_id": "ACI_BENCH:D2N201:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nBack pain.\n\nHISTORY OF PRESENT ILLNESS\n\nSteven Reed is a pleasant 60-year-old male who presents to the clinic today for evaluation of back pain. The onset of his pain began 2 years ago after he fell and landed onto his back while playing basketball. His pain is rated at 7 out of 10 and is described a sharp with occasional throbbing. At times his pain will radiate down his left lower extremity. He also reports experiencing intermittent numbness in his toes. Prolonged standing exacerbates his pain and makes him feel weak. He is able to get some pain relief when laying on his side. In terms of his bowel and bladder habits, he reports 1 episode of incontinence over the last 2 years which he believes was due to prolonged standing and possible alcohol consumption. He other denies any other changes and denies loss of sensation in the genital or rectal area. He has tried an injection in the past, but notes that he does not like needles and had to be held down. Pain medication was tried but he is unable to recall the name of the medication. He also attended physical therapy with minimal relief. Currently he states that he is not very active and tends to watch tv all day. He has gained 80 lbs over the last year.\n\nSOCIAL HISTORY\n\nPatient reports previously playing basketball, but he is now not very active and sits at home all day. He has a history of smoking, but denies smoking currently.\n\nFAMILY HISTORY\n\nPatient reports his 4th cousin has scoliosis.\n\nREVIEW OF SYSTEMS\n\nGenitourinary: Denies bowel or bladder changes.\nMusculoskeletal: Reports back pain.\n\nVITALS\n\nOxygen saturation is in 95 percentile range.\n\nPHYSICAL EXAM\n\nCV: Regular rate and rhythm. No Murmur.\nNEURO: Decreased sensation to light touch at the right lateral thigh at the L4 dermatome. Patella and Achilles reflexes are symmetrical.\nMSK: Examination of the lumbar spine: No overlying erythema or ecchymosis. Midline tenderness along the L4-5 disc space with right-sided lumbar paravertebral tenderness. Pain with lumbar flexion and extension. Positive supine straight leg raise.\n\nRESULTS\n\nThe MRI of the lumbar spine was reviewed. This shows evidence of disc desiccation and a disc bulge with a paracentral disc herniation resulting in moderate right neural foraminal stenosis.\n\nASSESSMENT\n\nChronic lumbar back pain.\n\nPLAN\n\nAfter reviewing the patient's examination and MRI findings today, I explained to the patient that he has a herniated disc at L4-5 with radiculopathy. We discussed the nature of the diagnosis as well as treatment options. I have recommended that we start with a spinal corticosteroid injection under fluoroscopy. The nature of the procedure was discussed. A prescription was given today to help with his anxiety during the injection as he states he does not tolerate needles. We also had a long discussion regarding pain medication. I advised him that we can do up to 4 injections per year and that we need to hold off on proceeding with pain medication until we assess his progress. I also explained to him that pain medication is not a long term solution and that if he remains symptomatic, it is possible surgery would be recommended.\n\nINSTRUCTIONS\n\nThe patient will return for follow-up after to assess his progress after his spinal injection.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "Back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 160,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 412,
+          "turn_id": null
+        }
+      ],
+      "text": "pain will radiate down his left lower extremity",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 456,
+          "char_end": 476,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in his toes",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 513,
+          "char_end": 517,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 541,
+          "turn_id": null
+        }
+      ],
+      "text": "weak",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 570,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 669,
+          "char_end": 681,
+          "turn_id": null
+        }
+      ],
+      "text": "incontinence",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 784,
+          "turn_id": null
+        }
+      ],
+      "text": "alcohol consumption",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 831,
+          "char_end": 878,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of sensation in the genital or rectal area",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 896,
+          "char_end": 905,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 984,
+          "char_end": 999,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain medication",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1082,
+          "char_end": 1098,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1155,
+          "char_end": 1166,
+          "turn_id": null
+        }
+      ],
+      "text": "very active",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1180,
+          "char_end": 1196,
+          "turn_id": null
+        }
+      ],
+      "text": "watch tv all day",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1205,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "gained 80 lbs",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1321,
+          "char_end": 1332,
+          "turn_id": null
+        }
+      ],
+      "text": "very active",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1337,
+          "char_end": 1357,
+          "turn_id": null
+        }
+      ],
+      "text": "sits at home all day",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1379,
+          "char_end": 1386,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1399,
+          "char_end": 1406,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 1470,
+          "char_end": 1479,
+          "turn_id": null
+        }
+      ],
+      "text": "scoliosis",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1532,
+          "char_end": 1547,
+          "turn_id": null
+        }
+      ],
+      "text": "bladder changes",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1583,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1611,
+          "turn_id": null
+        }
+      ],
+      "text": "Oxygen saturation",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1687,
+          "char_end": 1693,
+          "turn_id": null
+        }
+      ],
+      "text": "Murmur",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1702,
+          "char_end": 1783,
+          "turn_id": null
+        }
+      ],
+      "text": "Decreased sensation to light touch at the right lateral thigh at the L4 dermatome",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1837,
+          "char_end": 1868,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the lumbar spine",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1883,
+          "char_end": 1891,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1895,
+          "char_end": 1905,
+          "turn_id": null
+        }
+      ],
+      "text": "ecchymosis",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1907,
+          "char_end": 1951,
+          "turn_id": null
+        }
+      ],
+      "text": "Midline tenderness along the L4-5 disc space",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 2000,
+          "turn_id": null
+        }
+      ],
+      "text": "right-sided lumbar paravertebral tenderness",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2002,
+          "char_end": 2040,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with lumbar flexion and extension",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2042,
+          "char_end": 2076,
+          "turn_id": null
+        }
+      ],
+      "text": "Positive supine straight leg raise",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2076,
+          "turn_id": null
+        }
+      ],
+      "text": "supine straight leg raise",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2092,
+          "char_end": 2115,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of the lumbar spine",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2169,
+          "turn_id": null
+        }
+      ],
+      "text": "disc desiccation",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2176,
+          "char_end": 2186,
+          "turn_id": null
+        }
+      ],
+      "text": "disc bulge",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2194,
+          "char_end": 2221,
+          "turn_id": null
+        }
+      ],
+      "text": "paracentral disc herniation",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2244,
+          "char_end": 2275,
+          "turn_id": null
+        }
+      ],
+      "text": "right neural foraminal stenosis",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2298,
+          "char_end": 2314,
+          "turn_id": null
+        }
+      ],
+      "text": "lumbar back pain",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2369,
+          "char_end": 2372,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2430,
+          "char_end": 2452,
+          "turn_id": null
+        }
+      ],
+      "text": "herniated disc at L4-5",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2458,
+          "char_end": 2471,
+          "turn_id": null
+        }
+      ],
+      "text": "radiculopathy",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2584,
+          "char_end": 2615,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal corticosteroid injection",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2591,
+          "char_end": 2605,
+          "turn_id": null
+        }
+      ],
+      "text": "corticosteroid",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2622,
+          "char_end": 2633,
+          "turn_id": null
+        }
+      ],
+      "text": "fluoroscopy",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2726,
+          "char_end": 2733,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2745,
+          "char_end": 2754,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2838,
+          "char_end": 2853,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2884,
+          "char_end": 2911,
+          "turn_id": null
+        }
+      ],
+      "text": "up to 4 injections per year",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2892,
+          "char_end": 2902,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2960,
+          "char_end": 2975,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3035,
+          "char_end": 3050,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3252,
+          "char_end": 3268,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal injection",
+      "id": "e56"
+    }
+  ]
+}

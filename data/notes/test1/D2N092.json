@@ -1,0 +1,279 @@
+{
+  "doc_id": "ACI_BENCH:D2N092:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CC:\n\nRight arm pain.\n\nHPI:\n\nMs. Martinez is a 43-year-old female who presents today for an evaluation of right arm pain after she hitting her arm on a pole while playing tennis. She had mild swelling at the time. There is pain with motion. She denies any numbness or tingling in her hand. She has a past medical history of allergies and takes Flonase.\n\nEXAM\n\nExamination of the left wrist shows tenderness over the distal radius and pain with flexion of the wrist and thumb.\n\nRESULTS\n\nX-rays of the left wrist show no obvious signs of acute fracture or other abnormality.\n\nIMPRESSION\n\nRight wrist sprain.\n\nPLAN\n\nAt this point, I discussed the diagnosis and treatment options with the patient. I have recommended ice and anti-inflammatory medications. I am prescribing Motrin, 800 mg to take 3 times a day with food. She will follow up with me in 1 week or as needed.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Right arm pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "right arm pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 199,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 222,
+          "char_end": 238,
+          "turn_id": null
+        }
+      ],
+      "text": "pain with motion",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 263,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in her hand",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 332,
+          "turn_id": null
+        }
+      ],
+      "text": "allergies",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 343,
+          "char_end": 350,
+          "turn_id": null
+        }
+      ],
+      "text": "Flonase",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 359,
+          "char_end": 388,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the left wrist",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "tenderness over the distal radius",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 433,
+          "char_end": 457,
+          "turn_id": null
+        },
+        {
+          "char_start": 468,
+          "char_end": 473,
+          "turn_id": null
+        }
+      ],
+      "text": "pain with flexion of the thumb",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 433,
+          "char_end": 463,
+          "turn_id": null
+        }
+      ],
+      "text": "pain with flexion of the wrist",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 509,
+          "turn_id": null
+        }
+      ],
+      "text": "X-rays of the left wrist",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 549,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 603,
+          "turn_id": null
+        }
+      ],
+      "text": "Right wrist sprain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 737,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-inflammatory",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 774,
+          "turn_id": null
+        }
+      ],
+      "text": "Motrin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 776,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "800 mg",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 804,
+          "turn_id": null
+        }
+      ],
+      "text": "3 times a day",
+      "id": "e19"
+    }
+  ]
+}

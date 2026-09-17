@@ -1,0 +1,1340 @@
+{
+  "doc_id": "ACI_BENCH:D2N205:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hey angela how are you\n[patient] i'm good how are you\n[doctor] i'm good so i see we are here you had a recent diagnosis of stage three nonsmol cell lung cancer and so we are following up on your neo adevant chemotherapy so you can you tell me how you're doing today\n[patient] yeah you know i'm i'm doing okay i have a little bit of some shortness of breath that i noticed over the weekend and you know i i'm i considered myself pretty active before this i would walk my dog around the block and now i i ca n't even walk you know down the street without being short of breath\n[doctor] okay yeah yeah i mean that's that's definitely understandable it says you had a four point four centimeter left upper lobe nodule in there so it's kinda big but that's understandable and we're doing the chemo to try to reduce that that that tumor that you do have so how often do you normally run with your dogs\n[patient] i mean i would i would take them for i would normally take them for like mile long walks everyday and just this weekend i could only walk down to the end of the street i had to have my husband take the dog fit walk\n[doctor] man okay what kind of dog do you have\n[patient] i have a dobrman\n[doctor] yeah they are pretty active that makes sense alright so have you been coughing have you had any phlegm\n[patient] i've been having a dry cough no phlegm\n[doctor] okay have you noticed any fever\n[patient] no fever\n[doctor] no fever alright what about any other symptoms like any body aches any sore throat sinus pain\n[patient] well i mean now that you mentioned it like every time i swallow it hurts it does n't feel like i have a cold because it hurts down here more in my chest but every time i swallow it it's really painful\n[doctor] okay so when you are swallowing i know some of my patients feel this do you feel like the food is getting stuck\n[patient] no the food is not getting stuck it just hurts\n[doctor] okay what about when you're you're taking liquids are you able to take in both hydrocort liquids\n[patient] i mean i definitely feel like over the weekend i have n't been taking it as much because it hurt so much but i i am able to i am able to drink and i've been taking ensure and things like that i had a milk shake\n[doctor] okay that's that's that's that's good yeah we we definitely want you to to take in as much liquid as possible best especially since you're on the chemotherapy and the radiation just so you wo n't get dehydrated because that will make you feel a lot worse if you are dehydrated okay so on a on a mental emotional standpoint i know you said you have your husband with you how you doing with that you have the support that you need you need to speak to me though\n[patient] it's very helpful you know as you can understand i'm just like devastated when i got this diagnosis and i'm just i'm just trying to figure everything out and but he is very good and my daughter is is very helpful too and i you know i think for the most part i'm very fortunate to have them\n[doctor] okay so how how are you feeling on your chemo see you're on a combination of sysplatin and a topicide you had your last dose a few days ago any nausea any fatigue from that\n[patient] i was a little nauseated and tired but i took the zofran that you prescribed and that seemed to help and you know i i got some rest it's it's it's been okay\n[doctor] okay that's good so let me do a quick physical exam on you just gon na check your vitals here so your vitals are normal your pulse ox is okay so everything's good with that so i'm gon na feel your neck on your neck exam i do n't appreciate any cervical lymphadenopathy no subclavicular adenopathy your heart exam regular rate and rhythm no murmur your lung exam so i do notice some crackles in your lungs bilaterally that's just a faint sound we hear when you take a deep breath so that could mean you have some fluid in there and that is to be expected due to your lung cancer diagnosis so i'm gon na look at your skin exam so on your skin exam on your chest i do see some erythema on the anterior aspect of your chest on the left side and that could be due to that radiation sometimes patients do get a radiation burn and it's it'll get better with time especially once you're done with the the radiation treatment and on your extremity it there is no lower extremity edema in your legs so prior to coming to see me you did get a chest x-ray it looks like you do have mild radiation umitis that means you have inflammation of your lungs due to the radiation so let's talk a little bit about my assessment and plan for you so your first diagnosis you know is is the lung cancer so we are gon na continue you on that chemo regimen on that you do have continue on that that current radiation doses i think you're on forty five grade yep you're on that and then when the when the regimen's complete we'll do some more testing and hopefully we can see a resection of that tumor so that has just gotten little smaller and we can go inside and and take it out so for your second diagnosis the radiation pneumonitis i'm gon na prescribe you a low dose steroid prednisone forty milligrams one tablet a day for five days have you been on on a steroids before\n[patient] no i've only ever heard bad things about them they make people jittery and gain weight\n[doctor] i mean and and i for you that's that that's for patients that you know who are on them for a a long period of time right you're only gon na be on it for five days that should n't affect you too bad you might feel when you coming off of it after the five days a few muscle aches other than that you should be fine you should n't really experience much weight gain other other than not not much at all since you're only on on it for five days so but that's gon na help you reduce some of the inflammation in your lungs help you breathe better so we can continue the radiation treatment because we definitely need to do that because our most important thing right now is to try to decrease the size of that tumor okay and then for your third issue the oddy ophagia or it come terms the painful swallowing right you said you had that from the from the radiation so that's from the inflammation of your lungs that's kinda creeping up to your esophagus that's why you're you're feeling that pain so i'm gon na prescribe you a lidocaine squishy and swallow you can do that four times a day and so you'll do it and you'll be able to eat immediately afterwards because it would do some of that pain free from swallowing and that will help you taking liquids and food because we definitely need you well off it and and and hydrated while you're going through this cancer therapy okay\n[patient] okay\n[doctor] alright so do you have any questions for me\n[patient] no\n[doctor] alright so we will get you those medications those prescriptions and then we will see you back in two weeks\n[patient] okay great thank you\n[doctor] thanks",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 168,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "stage three nonsmol cell lung cancer",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 204,
+          "char_end": 228,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "neo adevant chemotherapy",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 365,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 583,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "short of breath",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 700,
+          "char_end": 722,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "left upper lobe nodule",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 796,
+          "char_end": 801,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "chemo",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 834,
+          "char_end": 839,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "tumor",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1283,
+          "char_end": 1291,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "coughing",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1309,
+          "char_end": 1315,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "phlegm",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1345,
+          "char_end": 1354,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "dry cough",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1364,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "phlegm",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1400,
+          "char_end": 1405,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "fever",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1419,
+          "char_end": 1424,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "fever",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1437,
+          "char_end": 1442,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "fever",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1490,
+          "char_end": 1500,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "body aches",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1505,
+          "char_end": 1516,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "sore throat",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1517,
+          "char_end": 1527,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "sinus pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1601,
+          "turn_id": "t14"
+        },
+        {
+          "char_start": 1605,
+          "char_end": 1610,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "swallow hurts",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1642,
+          "char_end": 1646,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "cold",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1658,
+          "char_end": 1663,
+          "turn_id": "t14"
+        },
+        {
+          "char_start": 1685,
+          "char_end": 1690,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "hurts chest",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1708,
+          "char_end": 1715,
+          "turn_id": "t14"
+        },
+        {
+          "char_start": 1731,
+          "char_end": 1738,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "swallow painful",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1838,
+          "char_end": 1859,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "food is getting stuck",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1877,
+          "char_end": 1902,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "food is not getting stuck",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1911,
+          "char_end": 1916,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "hurts",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2125,
+          "char_end": 2129,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "hurt",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2197,
+          "char_end": 2203,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "ensure",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2399,
+          "char_end": 2411,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2420,
+          "char_end": 2429,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "radiation",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2453,
+          "char_end": 2463,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "dehydrated",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2519,
+          "char_end": 2529,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "dehydrated",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2786,
+          "char_end": 2796,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "devastated",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3062,
+          "char_end": 3067,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "chemo",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3099,
+          "char_end": 3108,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "sysplatin",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3115,
+          "char_end": 3123,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "topicide",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3166,
+          "char_end": 3172,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "nausea",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3177,
+          "char_end": 3184,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "fatigue",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3220,
+          "char_end": 3229,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "nauseated",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3234,
+          "char_end": 3239,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "tired",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3255,
+          "char_end": 3261,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "zofran",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3442,
+          "char_end": 3447,
+          "turn_id": "t23"
+        },
+        {
+          "char_start": 3453,
+          "char_end": 3459,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "check vitals",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3496,
+          "char_end": 3504,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "pulse ox",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3558,
+          "char_end": 3562,
+          "turn_id": "t23"
+        },
+        {
+          "char_start": 3568,
+          "char_end": 3572,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "feel neck",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3615,
+          "char_end": 3639,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "cervical lymphadenopathy",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3643,
+          "char_end": 3667,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "subclavicular adenopathy",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3711,
+          "char_end": 3717,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "murmur",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3753,
+          "char_end": 3761,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "crackles",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3883,
+          "char_end": 3888,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "fluid",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3937,
+          "char_end": 3948,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "lung cancer",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3973,
+          "char_end": 3980,
+          "turn_id": "t23"
+        },
+        {
+          "char_start": 3986,
+          "char_end": 3990,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "look at skin",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4045,
+          "char_end": 4053,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "erythema",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4138,
+          "char_end": 4147,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "radiation",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 4176,
+          "char_end": 4190,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "radiation burn",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4268,
+          "char_end": 4287,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "radiation treatment",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4325,
+          "char_end": 4346,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "lower extremity edema",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4403,
+          "char_end": 4414,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "chest x-ray",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4446,
+          "char_end": 4455,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "radiation",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4446,
+          "char_end": 4462,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "radiation umitis",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4483,
+          "char_end": 4495,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4521,
+          "char_end": 4530,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "radiation",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4638,
+          "char_end": 4649,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "lung cancer",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4688,
+          "char_end": 4693,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "chemo",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4922,
+          "char_end": 4931,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "resection",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4940,
+          "char_end": 4945,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "tumor",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5059,
+          "char_end": 5080,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "radiation pneumonitis",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5117,
+          "char_end": 5124,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "steroid",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5125,
+          "char_end": 5135,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5136,
+          "char_end": 5152,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "forty milligrams",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5153,
+          "char_end": 5163,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "one tablet",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5157,
+          "char_end": 5163,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "tablet",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5164,
+          "char_end": 5169,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "a day",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5170,
+          "char_end": 5183,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "for five days",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5206,
+          "char_end": 5214,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "steroids",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 5295,
+          "char_end": 5302,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "jittery",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 5307,
+          "char_end": 5318,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "gain weight",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 5415,
+          "char_end": 5442,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "for a a long period of time",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5477,
+          "char_end": 5490,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "for five days",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5567,
+          "char_end": 5586,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "after the five days",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5593,
+          "char_end": 5605,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "muscle aches",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5679,
+          "char_end": 5690,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "weight gain",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5755,
+          "char_end": 5768,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "for five days",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5818,
+          "char_end": 5830,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5892,
+          "char_end": 5911,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "radiation treatment",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6032,
+          "char_end": 6037,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "tumor",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6077,
+          "char_end": 6089,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "oddy ophagia",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6111,
+          "char_end": 6115,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pain",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6111,
+          "char_end": 6129,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "painful swallowing",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6176,
+          "char_end": 6185,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "radiation",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6205,
+          "char_end": 6217,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6313,
+          "char_end": 6317,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pain",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6348,
+          "char_end": 6357,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "lidocaine",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6358,
+          "char_end": 6377,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "squishy and swallow",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6394,
+          "char_end": 6410,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "four times a day",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6682,
+          "char_end": 6696,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "cancer therapy",
+      "id": "e93"
+    }
+  ]
+}

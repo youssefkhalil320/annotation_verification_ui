@@ -1,0 +1,682 @@
+{
+  "doc_id": "ACI_BENCH:D2N114:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] alright\n[patient] good morning Julie how are you doing today\n[doctor] i'm doing okay i'm just a little nervous about what's been going on with my headaches\n[patient] okay so i know you were sent here by your your pcp what was your understanding of why you were sent here\n[doctor] yeah so i actually have been someone who been struggling with headaches for years now ever since i was a teenager and they used to be around my when i would have my menstrual my menses but as i got older i noticed that it has been with that and also i can get it when i'm really stressed but recently and why i went to her is because my headaches have been getting a lot more they've just been happening a lot more frequently and a lot more severe\n[patient] okay can you tell me a little bit about them what how do they how do they feel when they come on\n[doctor] so they say mostly on my right side and it even seems like it's like behind my eye and it just like this pulsing like this really bad pulsing sensation\n[patient] okay do you notice these any activities or time of the day that makes them worse i know you said they they seem to get worse around your menstrual periods but is there any time of the day or that makes them worse\n[doctor] i i have noticed that you know i've been trying to exercise more in order to lose weight but i ca n't even really exercise for very long because i start of as soon as i start to jog i my headaches the headaches come back on a lot worse so i notice it when i'm exercising\n[patient] okay and do you seem to have any other symptoms when you get these headaches i've been having a ringing in my ears for a few months now and then what really scared me is that now i'm starting to get some blurred vision it's not all the time but it it will come and go but some blurred like on the\n[doctor] in my on the side of my vision\n[patient] okay okay and have you experienced any numbness or tingling to your hands or feet or your face\n[doctor] no i have n't\n[patient] okay so you you like to run a lot what kind of do you do you use a a good shoe you know what kind of shoes do you use for your running\n[doctor] yeah i yeah i i'm starting to get back into it i'm a big new balance person in asics so yeah those are the two brands i like to wear yeah so right now i'm using asics\n[patient] okay yeah i like to run too and i use nike\n[doctor] okay\n[patient] i used to get tumor guy but i i really kinda moved over to nike\n[doctor] hmmm\n[patient] that's good you know it is running is a great exercise\n[doctor] it is\n[patient] so have you had any let's get back to the exam here have you had a recent mri of your brain i saw one from a few years ago but as doctor white said anything about getting a more a recent mri\n[doctor] yeah she was gon na put one in but she wanted me to see you first and urgently so they have n't called me yet for the mri\n[patient] okay so that's good we i think we'll we will follow up with that mri but let's go ahead and take a do a quick physical exam here i reviewed your vitals that the the assistant collected when you came in and everything there looks good including your blood pressure you know with symptoms like that that's one of those things that i'd be concerned about\n[doctor] okay\n[patient] now on your heart exam it sounds like it's normal sinus rhythm with no murmurs rubs or gallops so that's good as i listen i'm gon na go ahead and look here in your eyes the funduscopic exam shows papilledema and that's just some of swelling behind there in the eye and this let me do a a neurological exam this will take a few minutes you get up to follow my instructions as we go through that okay on neurological exam your cranial nerves one through twelve are intact including a normal cranial reflex and just went to watch you walk across the room here\n[doctor] okay turn around come back and okay so on musculoskeletal exam your gait is normal\n[doctor] okay go ahead sorry\n[patient] that's okay for your first problem your headaches your symptoms are concerning for what we call idiopathic intracranial hypertension and this is a condition that that you have increased pressure in the in your head in your brain without any known cause for it now patient also presents with often present with symptoms such as yours you know headaches worsening with activity ringing in the ears changes in your vision so i'm i'm pretty confident that that's what we're having here now why we get concerned is if the pressure continues to increase this can lead to some permanent changes in your vision so i i do wan na get a a few more tests just so we can confirm that diagnosis and the first one that we just talked about is an mri i think it's really important to get that to check for any other condition that could be contributing to your symptoms now once i have that result i'm gon na be doing also doing a spinal tap which will help me evaluate the pressure in the brain and it can also help you feel better if you do have an increased pressure by taking the decreasing the amount of that pressure just by taking a a a little bit of fluid off of that and lastly i want you to be seen by a neuro-ophthalmologist for a complete eye exam now i i know that sounds like a lot of information but i think it's really important we get that accomplished do you have any questions for me\n[doctor] yeah that is a lot and so i i'm sure i'll have more that comes up but so let's say we do all this test and it confirms what you're saying does that mean was i referred to you because that means i will need surgery\n[patient] not necessarily if you have idiopathic intracranial hypertension there are number of medications that we can try to help decrease that pressure in your brain and this will also help you have less headaches when you exercise as exercise and weight loss are also an important part of the treatment\n[doctor] okay alright alright and i'll probably add something about so is this something i'll be doing soon is this all things i'll be doing this week\n[patient] yeah that's a great question here i i'm gon na go ahead and we're gon na for the mri i'll have to get a preapproval from your insurance company i will work on that my my my team in the front office will get that preapproved and then once that's done we'll call you to help schedule that mri\n[doctor] okay alright thank you bye\n[patient] bye sorry",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 119,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "nervous",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 164,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "headaches",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 360,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "headaches",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 576,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "stressed",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 635,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "headaches",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 1004,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "pulsing sensation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1438,
+          "char_end": 1447,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "headaches",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1585,
+          "char_end": 1594,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "headaches",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1614,
+          "char_end": 1624,
+          "turn_id": "t10"
+        },
+        {
+          "char_start": 1628,
+          "char_end": 1632,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "ringing in ears",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1722,
+          "char_end": 1736,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "blurred vision",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1904,
+          "char_end": 1912,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "numbness",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1916,
+          "char_end": 1924,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "tingling",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2623,
+          "char_end": 2626,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "mri",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2736,
+          "char_end": 2739,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "mri",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2867,
+          "char_end": 2870,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "mri",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2946,
+          "char_end": 2949,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "mri",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3026,
+          "char_end": 3032,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "vitals",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3130,
+          "char_end": 3144,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3269,
+          "char_end": 3279,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "heart exam",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3328,
+          "char_end": 3335,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "murmurs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3336,
+          "char_end": 3340,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "rubs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3344,
+          "char_end": 3351,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "gallops",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3430,
+          "char_end": 3446,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "funduscopic exam",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3453,
+          "char_end": 3464,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "papilledema",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3489,
+          "char_end": 3497,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "swelling",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3545,
+          "char_end": 3562,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "neurological exam",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3659,
+          "char_end": 3676,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "neurological exam",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3778,
+          "char_end": 3783,
+          "turn_id": "t26"
+        },
+        {
+          "char_start": 3788,
+          "char_end": 3792,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "watch walk",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3865,
+          "char_end": 3885,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "musculoskeletal exam",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3985,
+          "char_end": 3994,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "headaches",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4041,
+          "char_end": 4077,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "idiopathic intracranial hypertension",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4121,
+          "char_end": 4139,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "increased pressure",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4287,
+          "char_end": 4296,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "headaches",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4321,
+          "char_end": 4331,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 4336,
+          "char_end": 4340,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "ringing in ears",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4341,
+          "char_end": 4351,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 4357,
+          "char_end": 4363,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "changes in vision",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4525,
+          "char_end": 4535,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 4541,
+          "char_end": 4547,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "changes in vision",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4676,
+          "char_end": 4679,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "mri",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4860,
+          "char_end": 4870,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "spinal tap",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4980,
+          "char_end": 4998,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "increased pressure",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5180,
+          "char_end": 5188,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "eye exam",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5547,
+          "char_end": 5554,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "surgery",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5593,
+          "char_end": 5629,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "idiopathic intracranial hypertension",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5700,
+          "char_end": 5708,
+          "turn_id": "t31"
+        },
+        {
+          "char_start": 5717,
+          "char_end": 5722,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pressure brain",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5761,
+          "char_end": 5770,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "headaches",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6103,
+          "char_end": 6106,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "mri",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6309,
+          "char_end": 6312,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "mri",
+      "id": "e46"
+    }
+  ]
+}

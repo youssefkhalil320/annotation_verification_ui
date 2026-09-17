@@ -1,0 +1,713 @@
+{
+  "doc_id": "ACI_BENCH:D2N100:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] kayla ward , date of birth , 4/28/07 . mrn 3-8-4-9-2-0 . she's here for a new visit with her mother for acne located on the face , which started about two years ago and is present most every day . she has been using persa-gel and washing regularly , which is somewhat helpful . there are no associated symptoms including itching , bleeding , or pain . no additional past medical history . she lives with her parents and sister . they have a dog , bird , and bunnies . she is in 7th grade . she plays basketball and volleyball and tap . she wears sunscreen in the summer , spf 30 . no additional family history . hi kayla , i'm dr. juan price . i hear you are starting to get some acne on the face . how about the chest and back ?\n[patient] it's not too bad .\n[doctor] so , it's not bad on the chest or back . you've used some over the counter items like washes and persa-gel ?\n[patient] yeah .\n[doctor] do those seem to be helping ?\n[patient] yes , i think so , a little bit .\n[doctor] good . what's your skin care routine like now ?\n[patient] do you wan na know , like , the things i currently use ?\n[doctor] yes . what do you do for your acne in the morning ? and then what do you do at nighttime ?\n[patient] i wash my face , more like i wipe it down in the morning . then at night i use an elf facial cleanser called the super clarity cleanser . i finish with a toner and then the persa-gel .\n[doctor] when you say , \" wipe your face in the morning , \" do you use a product or just water ?\n[patient] mm , just water and a washcloth , really . if i feel really greasy , sometimes i'll use the elf cleanser in the morning , too .\n[doctor] okay . and is today a good day , bad day , or an average day for you ?\n[patient] mm , i would say it's probably a good day for me , of course , since i'm here , right ?\n[doctor] acne is always good when you come to see the doctor . do you find that your acne flares with your periods ?\n[patient] no , not really .\n[doctor] and do you get a regular period ?\n[patient] yup .\n[doctor] how long have you been getting a regular period ?\n[patient] mm , i think about two years .\n[doctor] okay .\n[patient_guest] the biggest flare , probably , was when she started school sports in the fall , just with all the sweating .\n[doctor] yup , that will do it . is there anything else that you've noticed , mrs. ward ?\n[patient_guest] no . kayla really has been doing a good job with the facial care regimen . it just does n't seem to help as much as we wanted .\n[doctor] got it . okay . well , let's take a look then . full exam is performed today , except for under the underwear and under the bra . multiple benign nevi on the trunk and extremities . scattered skin colored papules . open and closed comedones . and erythmateous papules on the face , primarily on the forehead and with also some on the central cheeks and chin . the chest and back are relatively spared . and the remainder of the examination is normal . so , what i'm seeing from your exam today is mild to moderate acne , mostly comodonal with small inflammatory component .\n[patient] okay , so is there anything we can do to help it ?\n[doctor] yes . i would like to start with a topical therapy first . every morning , you will wash your face with a mild cleanser then use a moisturizer labeled , \" noncomedogenic , \" with sunscreen spf 30 or higher . this means it wo n't clog your pores . now , in the evening , wash your face with the same cleanser and allow it to dry . apply adapalene , 0.1 % cream , in a thin layer to the areas you generally get acne . i want you to start off using this a few nights a week and slowly work up to using it every night . if it is ... excuse me , if it is very expensive or not covered by insurance , you can try different gel over the counter . you can follow that with clean and clear persa-gel in a thin layer , or where you generally get acne . and then a noncomedogenic moisturizer . you're atopic retinoid will cause some sensitivity , so you will need to wear sunscreen when you are outside . it may also cause some dryness or irritation .\n[patient] okay , i can do that .\n[doctor] you also have multiple benign moles on your arms , legs , back and abdomen . this means they all look normal with no worrisome features . we will see if you have any progress over the next six months and follow up at that time .\n[patient] okay , that sounds good . thank you .\n[doctor] do you have any questions for me ?\n[patient] no , i do n't think so .\n[doctor] okay . if you have questions or concerns before your next visit , please call the office .\n[patient] thank you , doctor , we will .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acne",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 234,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "persa-gel",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 337,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 340,
+          "char_end": 348,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bleeding",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 354,
+          "char_end": 358,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 564,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sunscreen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 693,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acne",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 874,
+          "char_end": 883,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "persa-gel",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1149,
+          "char_end": 1153,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "acne",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1333,
+          "char_end": 1355,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "super clarity cleanser",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1393,
+          "char_end": 1402,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "persa-gel",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1572,
+          "char_end": 1578,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "greasy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1604,
+          "char_end": 1616,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "elf cleanser",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1827,
+          "char_end": 1831,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "acne",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1903,
+          "char_end": 1907,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "acne",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2166,
+          "char_end": 2171,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "flare",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2252,
+          "char_end": 2260,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "sweating",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2645,
+          "char_end": 2656,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "benign nevi",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2698,
+          "char_end": 2718,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "skin colored papules",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2721,
+          "char_end": 2725,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 2737,
+          "char_end": 2746,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "open comedones",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2730,
+          "char_end": 2746,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "closed comedones",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2753,
+          "char_end": 2773,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "erythmateous papules",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3020,
+          "char_end": 3024,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "acne",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3185,
+          "char_end": 3192,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "topical",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3209,
+          "char_end": 3222,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "every morning",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3261,
+          "char_end": 3269,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "cleanser",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3281,
+          "char_end": 3292,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "moisturizer",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3329,
+          "char_end": 3338,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "sunscreen",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3339,
+          "char_end": 3345,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "spf 30",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3403,
+          "char_end": 3417,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "in the evening",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3449,
+          "char_end": 3457,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "cleanser",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3486,
+          "char_end": 3495,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "adapalene",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3498,
+          "char_end": 3503,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "0.1 %",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3504,
+          "char_end": 3509,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "cream",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3517,
+          "char_end": 3527,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "thin layer",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3559,
+          "char_end": 3563,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "acne",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3601,
+          "char_end": 3620,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "a few nights a week",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3652,
+          "char_end": 3663,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "every night",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3767,
+          "char_end": 3770,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "gel",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3815,
+          "char_end": 3840,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "clean and clear persa-gel",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3846,
+          "char_end": 3856,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "thin layer",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3886,
+          "char_end": 3890,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "acne",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3919,
+          "char_end": 3930,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "moisturizer",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3947,
+          "char_end": 3955,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "retinoid",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3972,
+          "char_end": 3983,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "sensitivity",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4011,
+          "char_end": 4020,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "sunscreen",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4021,
+          "char_end": 4041,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "when you are outside",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4067,
+          "char_end": 4074,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "dryness",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4078,
+          "char_end": 4088,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "irritation",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4156,
+          "char_end": 4168,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "benign moles",
+      "id": "e50"
+    }
+  ]
+}

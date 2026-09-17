@@ -1,0 +1,652 @@
+{
+  "doc_id": "ACI_BENCH:D2N203:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nVision changes in the right eye.\n\nMEDICAL HISTORY\n\nPatient reports history of high blood pressure.\n\nSOCIAL HISTORY\n\nPatient reports he is smoking 1 pack of cigarettes daily.\n\nREVIEW OF SYSTEMS\n\nEyes: Reports right eye vision changes.\n\nPHYSICAL EXAM\n\nEyes\n- Examination of the right eye: Posterior chamber intraocular lenses present bilaterally. Right eye cornea is clear without NVI and cup-disc ratio is 0.2. Fundus of right eye shows retina is intact 360 degrees without holes or tears noted, and RPE changes in fovea. Posterior segment shows drusen of the macula, retinal thickening, and presence of subretinal fluid and exudate accumulation. Positive hemorrhage\nExamination of the left eye: Cornea is clear. No NVI. Cup-disc ration is 0.3. RPE changes in fovea. No hemorrhage noted or subretinal fluid noted. Retina is attached appropriately.\n\nRESULTS\n\nOTC:\nDrusen deposits under the RPE. SRF accumulation and choroidal neovascular membrane can also be visualized.\n\nFluorescein angiography:\nReveals that the focal area of the leakage in the right eye is consistent with neovascular age related macular degeneration.\n\nASSESSMENT AND PLAN\n\n1. Wet macular degeneration.\n- Medical Reasoning: The diagnostic test and eye exams are consistent with neovascular age-related macular degeneration, also called wet macular degeneration.\n- Patient Education and Counseling: I explained the nature of the diagnosis and that this is advanced to a stage that usually leads to more severe vision loss happening. We discussed this happens when those abnormal blood vessels start to grow beneath the retina leaking fluid and blood. Secondary to that, it creates a large blind spot in the center of his visual field. He was advised that this is the most common cause of severe vision loss. I explained the treatment plan at length. He understands he is going to be injected in the vitreous portion of the eye after we numb the eye, so he is not going to feel any pain. I advised injections given over time can slow the rate of the vision decline and maybe even stop it. However, I also have to let him know that there could be a situation where he may still note a small amount of vision loss, but this is his best chance of maintaining that vision for as long as he can. Additionally, patient was counseled on the importance of taking his blood pressure medication. Questions were invited and answered today.\n- Medical Treatment: Lucentis injections once a month with his first being performed today.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "Vision changes in the right eye",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 114,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 189,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking 1 pack of cigarettes daily",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "right eye vision changes",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 274,
+          "char_end": 302,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the right eye",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 396,
+          "char_end": 399,
+          "turn_id": null
+        }
+      ],
+      "text": "NVI",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 446,
+          "turn_id": null
+        }
+      ],
+      "text": "Fundus of right eye",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 495,
+          "turn_id": null
+        }
+      ],
+      "text": "holes",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 499,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "tears",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 536,
+          "turn_id": null
+        }
+      ],
+      "text": "RPE changes in fovea",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 562,
+          "char_end": 582,
+          "turn_id": null
+        }
+      ],
+      "text": "drusen of the macula",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 584,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": "retinal thickening",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 636,
+          "turn_id": null
+        }
+      ],
+      "text": "subretinal fluid",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 661,
+          "turn_id": null
+        }
+      ],
+      "text": "exudate accumulation",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 682,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 683,
+          "char_end": 710,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the left eye",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 735,
+          "turn_id": null
+        }
+      ],
+      "text": "NVI",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 781,
+          "turn_id": null
+        }
+      ],
+      "text": "RPE changes in fovea",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 796,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 806,
+          "char_end": 822,
+          "turn_id": null
+        }
+      ],
+      "text": "subretinal fluid",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 874,
+          "char_end": 877,
+          "turn_id": null
+        }
+      ],
+      "text": "OTC",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 908,
+          "turn_id": null
+        }
+      ],
+      "text": "Drusen deposits under the RPE",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 910,
+          "char_end": 926,
+          "turn_id": null
+        }
+      ],
+      "text": "SRF accumulation",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 931,
+          "char_end": 961,
+          "turn_id": null
+        }
+      ],
+      "text": "choroidal neovascular membrane",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 1010,
+          "turn_id": null
+        }
+      ],
+      "text": "Fluorescein angiography",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1029,
+          "char_end": 1071,
+          "turn_id": null
+        }
+      ],
+      "text": "focal area of the leakage in the right eye",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1091,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "neovascular age related macular degeneration",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1162,
+          "char_end": 1186,
+          "turn_id": null
+        }
+      ],
+      "text": "Wet macular degeneration",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1242,
+          "turn_id": null
+        }
+      ],
+      "text": "eye exams",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1307,
+          "turn_id": null
+        }
+      ],
+      "text": "neovascular age-related macular degeneration",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1321,
+          "char_end": 1345,
+          "turn_id": null
+        }
+      ],
+      "text": "wet macular degeneration",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1505,
+          "turn_id": null
+        }
+      ],
+      "text": "vision loss",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1554,
+          "char_end": 1576,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal blood vessels",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1623,
+          "turn_id": null
+        }
+      ],
+      "text": "leaking fluid",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1673,
+          "char_end": 1717,
+          "turn_id": null
+        }
+      ],
+      "text": "blind spot in the center of his visual field",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1779,
+          "char_end": 1790,
+          "turn_id": null
+        }
+      ],
+      "text": "vision loss",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1867,
+          "char_end": 1910,
+          "turn_id": null
+        }
+      ],
+      "text": "injected in the vitreous portion of the eye",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1932,
+          "turn_id": null
+        }
+      ],
+      "text": "numb the eye",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1965,
+          "char_end": 1969,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1981,
+          "char_end": 1991,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2033,
+          "char_end": 2047,
+          "turn_id": null
+        }
+      ],
+      "text": "vision decline",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2183,
+          "char_end": 2194,
+          "turn_id": null
+        }
+      ],
+      "text": "vision loss",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2342,
+          "char_end": 2367,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure medication",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2433,
+          "char_end": 2441,
+          "turn_id": null
+        }
+      ],
+      "text": "Lucentis",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2442,
+          "char_end": 2452,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2453,
+          "char_end": 2465,
+          "turn_id": null
+        }
+      ],
+      "text": "once a month",
+      "id": "e46"
+    }
+  ]
+}

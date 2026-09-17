@@ -1,0 +1,568 @@
+{
+  "doc_id": "ACI_BENCH:D2N113:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nHepatitis C.\n\nSOCIAL HISTORY\n\nPatient reports personal history of intravenous drug use over 15 years ago. She is currently smoking 1-2 cigarettes per day, previously 1 to 1.5 packs per day. She also has a history of heavy alcohol use, but now drinks approximately 1 beer per day, more on the weekends.\n\nFAMILY HISTORY\n\nPatient reports family history significant for hypertension, diabetes, and depression.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports fatigue.\n\nAll other systems were reviewed and are negative.\n\nVITALS\n\nVitals look good today.\n\nPHYSICAL EXAM\n\nConstitutional\n- General Appearance: in no apparent distress.\n\nRespiratory\n- Auscultation of Lungs: No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Regular rate. 2/6 systolic ejection murmur, unchanged.\n\nGastrointestinal\n- Examination of Abdomen: No masses or tenderness. No hepatosplenomegaly.\n- Auscultation: Bowel sounds normal.\n\nMusculoskeletal\n- Examination: No edema.\n\nIntegumentary\n- Examination: No signs of jaundice.\n\nRESULTS\n\nHCV antibody: Positive\nAST: 39\nALT: Within normal limits\nAlbumin: Within normal limits\nBilirubin, total: Within normal limits\n\nASSESSMENT AND PLAN\n\n1. Hepatitis C.\n- Medical Reasoning: Her recent blood work revealed a positive HCV antibody. She does have a history of intravenous drug use, but she has not used drugs in over 15 years.\n- Patient Education and Counseling: We discussed the nature of hepatitis C in detail. I advised the patient to have her spouse and children tested for hepatitis C as well.\n- Medical Treatment: I'm going to order additional labs including a hepatitis C RNA and HCV genotype to confirm the diagnosis, as well as a Fibroscan to assess the severity of the condition.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up in 3 weeks.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "Hepatitis C",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 103,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous drug use",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 170,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking 1-2 cigarettes per day",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "to 1.5 packs per day",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 239,
+          "char_end": 250,
+          "turn_id": null
+        }
+      ],
+      "text": "alcohol use",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 295,
+          "turn_id": null
+        }
+      ],
+      "text": "drinks approximately 1 beer per day",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 395,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 397,
+          "char_end": 405,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 421,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 474,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 653,
+          "char_end": 674,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 679,
+          "char_end": 686,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 693,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 698,
+          "char_end": 705,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 725,
+          "char_end": 746,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 790,
+          "turn_id": null
+        }
+      ],
+      "text": "systolic ejection murmur",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 845,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Abdomen",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 850,
+          "char_end": 856,
+          "turn_id": null
+        }
+      ],
+      "text": "masses",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 870,
+          "turn_id": null
+        }
+      ],
+      "text": "tenderness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 893,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatosplenomegaly",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 897,
+          "char_end": 909,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 967,
+          "char_end": 972,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1016,
+          "char_end": 1024,
+          "turn_id": null
+        }
+      ],
+      "text": "jaundice",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1048,
+          "turn_id": null
+        }
+      ],
+      "text": "HCV antibody",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1058,
+          "turn_id": null
+        }
+      ],
+      "text": "HCV antibody: Positive",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1059,
+          "char_end": 1062,
+          "turn_id": null
+        }
+      ],
+      "text": "AST",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1070,
+          "turn_id": null
+        }
+      ],
+      "text": "ALT",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1093,
+          "char_end": 1100,
+          "turn_id": null
+        }
+      ],
+      "text": "Albumin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1123,
+          "char_end": 1139,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilirubin, total",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1187,
+          "char_end": 1198,
+          "turn_id": null
+        }
+      ],
+      "text": "Hepatitis C",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1232,
+          "char_end": 1242,
+          "turn_id": null
+        }
+      ],
+      "text": "blood work",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1275,
+          "turn_id": null
+        }
+      ],
+      "text": "positive HCV antibody",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1275,
+          "turn_id": null
+        }
+      ],
+      "text": "HCV antibody",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1304,
+          "char_end": 1324,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous drug use",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1352,
+          "turn_id": null
+        }
+      ],
+      "text": "used drugs",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1445,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatitis C",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1533,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatitis C",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1626,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatitis C RNA",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1631,
+          "char_end": 1643,
+          "turn_id": null
+        }
+      ],
+      "text": "HCV genotype",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1683,
+          "char_end": 1692,
+          "turn_id": null
+        }
+      ],
+      "text": "Fibroscan",
+      "id": "e40"
+    }
+  ]
+}

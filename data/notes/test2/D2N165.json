@@ -1,0 +1,756 @@
+{
+  "doc_id": "ACI_BENCH:D2N165:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nBilateral knee pain.\n\nHISTORY OF PRESENT ILLNESS\n\nSophia Jackson is a pleasant 30-year-old female who presents to the clinic today for the evaluation of bilateral knee pain. She was referred by her primary care provider. The onset of her pain began 6 months ago. She denies any specific injury. The patient describes her pain as a deep, achy pain. She locates her pain to the posterior aspect of her patellae. The patient also reports “creaking” in her knees. She denies any swelling or redness in her knees. Her pain is aggravated by transitioning from a seated position to standing as well as ascending and descending stairs. Her pain is alleviated by rest. The patient has been icing her knees and wrapping her knees with an ACE bandage. She also takes ibuprofen or Aleve occasionally for pain. She states she tries to be as active as she can. She enjoys running outdoors. The patient adds that she would run 5 to 6 miles per day; however, she is unable to go 0.5 miles secondary to the pain. She denies any previous injuries to her knees.\n\nShe works from home.\n\nMEDICAL HISTORY\n\nPatient reports history of an upper extremity fracture when she was in 6th grade.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports bilateral knee pain and crepitus. Denies swelling or redness in the bilateral knees.\n\nVITALS\n\nAll vital signs are within the normal limits.\n\nPHYSICAL EXAM\n\nGAIT: Normal, no deformity present.\nCV: Auscultation of Heart: Regular rate and rhythm. No murmurs.\nNo edema\nNEURO: Patella and Achilles reflexes are symmetrical.\nMSK: Examination of the bilateral lower extremities: Abduction strength is 3/5. Remainder of muscle strength is 5/5. Examination of the bilateral knees: No overlying erythema, ecchymosis, or warmth of the skin appreciated. No effusion. Tenderness to palpation of the bilateral retinaculum. Positive patellar grind test. Knee pain with squatting. Negative Lachman test bilaterally. Negative anterior and posterior drawer tests bilaterally. Negative McMurray test bilaterally.\n\nRESULTS\n\nX-rays of the bilateral knees were reviewed today. These demonstrate no evidence of any fractures or osteoarthritis.\n\nASSESSMENT\n\nBilateral knee patellofemoral pain syndrome.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient regarding her current symptoms. I have explained to her that her symptoms are consistent with patellofemoral pain syndrome. We discussed treatment options and I have recommended that we begin with conservative treatment in the form of formal physical therapy to increase her lower extremity strength, mobility, and correct any incorrect running mechanics. I encouraged her to take running easy for now. She can continue taking ibuprofen or anti-inflammatories as needed for pain. All questions were answered.\n\nINSTRUCTIONS\n\nThe patient will follow up with me soon.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilateral knee pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 189,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral knee pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 259,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 304,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 342,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 359,
+          "char_end": 363,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 381,
+          "char_end": 425,
+          "turn_id": null
+        }
+      ],
+      "text": "pain to the posterior aspect of her patellae",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 475,
+          "turn_id": null
+        }
+      ],
+      "text": "creaking” in her knees",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 500,
+          "turn_id": null
+        },
+        {
+          "char_start": 512,
+          "char_end": 524,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling in her knees",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 504,
+          "char_end": 524,
+          "turn_id": null
+        }
+      ],
+      "text": "redness in her knees",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 534,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 649,
+          "char_end": 653,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 773,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "Aleve",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 804,
+          "turn_id": null
+        }
+      ],
+      "text": "occasionally",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 809,
+          "char_end": 813,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1007,
+          "char_end": 1011,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1037,
+          "char_end": 1058,
+          "turn_id": null
+        }
+      ],
+      "text": "injuries to her knees",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1130,
+          "char_end": 1154,
+          "turn_id": null
+        }
+      ],
+      "text": "upper extremity fracture",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1227,
+          "char_end": 1246,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral knee pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1259,
+          "turn_id": null
+        }
+      ],
+      "text": "crepitus",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1268,
+          "char_end": 1276,
+          "turn_id": null
+        },
+        {
+          "char_start": 1288,
+          "char_end": 1310,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling in the bilateral knees",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1280,
+          "char_end": 1310,
+          "turn_id": null
+        }
+      ],
+      "text": "redness in the bilateral knees",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1400,
+          "char_end": 1409,
+          "turn_id": null
+        }
+      ],
+      "text": "deformity",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1423,
+          "char_end": 1444,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1474,
+          "char_end": 1481,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1486,
+          "char_end": 1491,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1551,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the bilateral lower extremities",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1617,
+          "turn_id": null
+        },
+        {
+          "char_start": 1621,
+          "char_end": 1624,
+          "turn_id": null
+        }
+      ],
+      "text": "Abduction strength 3/5",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1663,
+          "char_end": 1697,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the bilateral knees",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1712,
+          "char_end": 1720,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1722,
+          "char_end": 1732,
+          "turn_id": null
+        }
+      ],
+      "text": "ecchymosis",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1737,
+          "char_end": 1755,
+          "turn_id": null
+        }
+      ],
+      "text": "warmth of the skin",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1772,
+          "char_end": 1780,
+          "turn_id": null
+        }
+      ],
+      "text": "effusion",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1782,
+          "char_end": 1834,
+          "turn_id": null
+        }
+      ],
+      "text": "Tenderness to palpation of the bilateral retinaculum",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1836,
+          "char_end": 1864,
+          "turn_id": null
+        }
+      ],
+      "text": "Positive patellar grind test",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1845,
+          "char_end": 1864,
+          "turn_id": null
+        }
+      ],
+      "text": "patellar grind test",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1890,
+          "turn_id": null
+        }
+      ],
+      "text": "Knee pain with squatting",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1901,
+          "char_end": 1913,
+          "turn_id": null
+        }
+      ],
+      "text": "Lachman test",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1936,
+          "char_end": 1944,
+          "turn_id": null
+        },
+        {
+          "char_start": 1959,
+          "char_end": 1971,
+          "turn_id": null
+        }
+      ],
+      "text": "anterior drawer tests",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1949,
+          "char_end": 1971,
+          "turn_id": null
+        }
+      ],
+      "text": "posterior drawer tests",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1994,
+          "char_end": 2007,
+          "turn_id": null
+        }
+      ],
+      "text": "McMurray test",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2031,
+          "char_end": 2060,
+          "turn_id": null
+        }
+      ],
+      "text": "X-rays of the bilateral knees",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2119,
+          "char_end": 2128,
+          "turn_id": null
+        }
+      ],
+      "text": "fractures",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2132,
+          "char_end": 2146,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2161,
+          "char_end": 2204,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilateral knee patellofemoral pain syndrome",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2431,
+          "char_end": 2459,
+          "turn_id": null
+        }
+      ],
+      "text": "patellofemoral pain syndrome",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2579,
+          "char_end": 2595,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2764,
+          "char_end": 2773,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2777,
+          "char_end": 2796,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-inflammatories",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2797,
+          "char_end": 2815,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed for pain",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2811,
+          "char_end": 2815,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e52"
+    }
+  ]
+}

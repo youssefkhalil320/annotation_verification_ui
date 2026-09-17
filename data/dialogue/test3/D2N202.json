@@ -1,0 +1,750 @@
+{
+  "doc_id": "ACI_BENCH:D2N202:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] good morning sharon how you doing\n[patient] hi i'm i'm okay today i'm having some shoulder pain\n[doctor] i see that i see that here in the nurse's notes it looks like you're having some right shoulder pain says here that you've guys have been remodeling your house what do you do you remember what you were doing when that right shoulder pain started\n[patient] yeah i was up on a ladder painting and kinda reaching out and fell took a fall and kinda braced myself but i i was painting\n[doctor] okay so it does sound like there might have been some direct trauma to that area now it says here that this happened about three weeks ago were you able it sounds like you were able to get up and continue but you were having some pain did you take anything at that time to help with that shoulder pain\n[patient] yeah i i iced the arm and then i also i also took some advil\n[doctor] okay now have you had any shoulder pain before of that right shoulder or is this the first time or or the first insult to that area\n[patient] first time\n[doctor] okay and now are you able to move that right arm for me\n[patient] yes i'm able to move but i do have some pain lifting overhead raising my arm overhead\n[doctor] okay alright now do you have pain all the time or does it come and go\n[patient] it is some pain is all the time but it some is intermittent\n[doctor] okay now i you mentioned that you had taken some ibuprofen for that pain now let's talk a little bit about your pain rating okay zero being none ten being the worst pain you've ever felt in your life can you rate your pain for me without any tylenol or advil or any nsaid can you rate your pain for me\n[patient] about a six\n[doctor] okay now when you take that medication can you rate your pain for me what what's that pain level get to\n[patient] it goes down to about a four\n[doctor] okay so it does help take the edge off of that pain and and you're able to kinda move around a little bit then\n[patient] yes\n[doctor] okay so the remodel tell me a little bit about that my wife and i were working on our remodel and we went they just built the brand-new lowe's here in town have you guys been there yet\n[patient] no we have not\n[doctor] well i did n't know if you know this or not but you can save big money there that's the rumor\n[patient] okay\n[doctor] so yeah we we've been down there we got some pain we we got went and got some samples and then hey while we were there we ended up deciding to put down a bunch of flooring too so i really recommend you guys if you get a chance go over there and take a look at their sales and and see if you ca n't finish your remodeled project\n[patient] that sounds great i'll have to take a look at the flooring as well\n[doctor] that sounds good so now just out of curiosity are you experiencing any numbness or tingling in in your arm or hand\n[patient] i did when i initially hurt it but i'm not no longer having any numbness or tingling\n[doctor] okay so a little bit about my physical exam i'm gon na do a quick physical exam on you today now your vitals look good but specifically on your right shoulder exam you do have limited active and passive range of motion and there is tenderness to the greater tuberosity of the humerus now there is no tenderness at your sternoclavicular joint and you do have good strong bilateral hand grips and on your neurovascular exam of your right arm you do have brisk capillary refill of less than three seconds and you do have equal and bilateral response to sensation and touch which is good now taking a look at your x-ray that we did when you came in today good news is that right shoulder x-ray reveals no fracture or bony abnormality mkay so let me tell you a little bit about my assessment and plan now i your symptoms are most likely due to rotator cuff tendinopathy i think that you've injured the tendons of the muscles that make up the shoulder so that i think that's that's why you are having the that shoulder pain i do wan na order an mri of that right shoulder just to make sure that nothing else is going on now i'm gon na refer you to physical therapy and that's gon na be about six to eight weeks now my patients are very successful with their pt and let's see how you do before we make the decision that we would do additional treatment such as a steroid injection to that shoulder i do want you to continue to take an nsaid if you can tolerate tylenol i want you to go ahead and take tylenol for that pain do you have any questions comments or concerns about our treatment plan\n[patient] no i think it sounds good ca n't wait to to get some relief\n[doctor] okay so i know we ordered it for six to eight weeks but i wan na see you again in two weeks and we'll evaluate how you're doing and make some additional treatment plan at that at that time okay\n[patient] okay\n[doctor] alright sounds good we will get the nurse come in and she will take care of you and i will see you in two weeks\n[patient] thank you\n[doctor] thank you",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 104,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "shoulder pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 214,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "right shoulder pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 351,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "right shoulder pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 570,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "trauma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 733,
+          "char_end": 737,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 804,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "shoulder pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 828,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "iced",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 875,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "advil",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 911,
+          "char_end": 924,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "shoulder pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1003,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "insult",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1153,
+          "char_end": 1157,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1237,
+          "char_end": 1241,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1299,
+          "char_end": 1303,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1406,
+          "char_end": 1415,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1425,
+          "char_end": 1429,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1469,
+          "char_end": 1473,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1469,
+          "char_end": 1480,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain rating",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1526,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1575,
+          "char_end": 1579,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1606,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1615,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "advil",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1623,
+          "char_end": 1628,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "nsaid",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1647,
+          "char_end": 1651,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1747,
+          "char_end": 1751,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1780,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1893,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2798,
+          "char_end": 2806,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "numbness",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2810,
+          "char_end": 2818,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "tingling",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2875,
+          "char_end": 2879,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "hurt",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2916,
+          "char_end": 2924,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "numbness",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2928,
+          "char_end": 2936,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "tingling",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3048,
+          "char_end": 3054,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "vitals",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3090,
+          "char_end": 3109,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "right shoulder exam",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3122,
+          "char_end": 3164,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "limited active and passive range of motion",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3178,
+          "char_end": 3188,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3246,
+          "char_end": 3256,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3349,
+          "char_end": 3367,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "neurovascular exam",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3556,
+          "char_end": 3561,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3630,
+          "char_end": 3635,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3647,
+          "char_end": 3655,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "fracture",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3659,
+          "char_end": 3675,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "bony abnormality",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 3756,
+          "char_end": 3758,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pt",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3785,
+          "char_end": 3810,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "rotator cuff tendinopathy",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3831,
+          "char_end": 3838,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "injured",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3950,
+          "char_end": 3963,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "shoulder pain",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3985,
+          "char_end": 3988,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "mri",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4088,
+          "char_end": 4104,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4302,
+          "char_end": 4309,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "steroid",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4302,
+          "char_end": 4319,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4374,
+          "char_end": 4379,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "nsaid",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4400,
+          "char_end": 4407,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4440,
+          "char_end": 4447,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4457,
+          "char_end": 4461,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pain",
+      "id": "e53"
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "doc_id": "ACI_BENCH:D2N143:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nFull-spectrum sexually transmitted disease testing.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Ross is a 23-year-old female who presents today as a new patient for full-spectrum STD testing.\n\nThe patient states that she is having symptoms of discomfort, a change in discharge, and an odor in her vaginal region. She says that the right side of her vagina is starting to become painful but denies any fever or chills. She states that she recently learned her partner of 3 years has been engaging in sexual encounters with other people for quite some time, and she wants to be evaluated for all sexually transmitted diseases.\n\nMs. Ross reports noticing a change in the odor, color, and consistency of her vaginal discharge last week. She notes that this did not alarm her until the right side of her vagina became painful and sore, which has not subsided. She states that she had an abnormal Pap Smear around the age of 20, but all her Pap Smears since then, including her most recent one approximately 6 months ago, have all been normal.\n\nPHYSICAL EXAM\n\nGenitourinary\nPelvic exam: No external lesions, normal labia majora and labia minora. Normal physiological discharge with normal color and odor. Cervix is normal, vaginal wall is normal, no cervical motion tenderness or masses noted. Swabs were obtained for sexual transmitted disease testing.\n\nASSESSMENT\n\n• Screening for sexually transmitted disease.\n\nPLAN\n\nMs. Ross is a 23-year-old female who presents today as a new patient for full-spectrum STD testing. We will screen her today for gonorrhea, chlamydia, trichomoniasis, syphilis, HIV, and hepatitis C. Patient is high risk due to an abnormal pap smear in the past and the recent discovery of her sexual partner having multiple partners for some period of time. We will call the patient with the results of the laboratory testing.",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "sexually transmitted disease testing",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 196,
+          "turn_id": null
+        }
+      ],
+      "text": "STD testing",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 259,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "change in discharge",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 317,
+          "turn_id": null
+        }
+      ],
+      "text": "odor in her vaginal region",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 361,
+          "turn_id": null
+        },
+        {
+          "char_start": 384,
+          "char_end": 391,
+          "turn_id": null
+        }
+      ],
+      "text": "right side of her vagina painful",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 412,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 416,
+          "char_end": 422,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 493,
+          "char_end": 540,
+          "turn_id": null
+        }
+      ],
+      "text": "engaging in sexual encounters with other people",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 600,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "sexually transmitted diseases",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 673,
+          "turn_id": null
+        },
+        {
+          "char_start": 691,
+          "char_end": 727,
+          "turn_id": null
+        }
+      ],
+      "text": "change in the consistency of her vaginal discharge",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 673,
+          "turn_id": null
+        },
+        {
+          "char_start": 680,
+          "char_end": 685,
+          "turn_id": null
+        },
+        {
+          "char_start": 703,
+          "char_end": 727,
+          "turn_id": null
+        }
+      ],
+      "text": "change in the color of her vaginal discharge",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 678,
+          "turn_id": null
+        },
+        {
+          "char_start": 703,
+          "char_end": 727,
+          "turn_id": null
+        }
+      ],
+      "text": "change in the odor of her vaginal discharge",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 811,
+          "turn_id": null
+        },
+        {
+          "char_start": 819,
+          "char_end": 826,
+          "turn_id": null
+        }
+      ],
+      "text": "right side of her vagina painful",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 811,
+          "turn_id": null
+        },
+        {
+          "char_start": 831,
+          "char_end": 835,
+          "turn_id": null
+        }
+      ],
+      "text": "right side of her vagina sore",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 888,
+          "char_end": 906,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal Pap Smear",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 897,
+          "char_end": 906,
+          "turn_id": null
+        }
+      ],
+      "text": "Pap Smear",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 941,
+          "char_end": 951,
+          "turn_id": null
+        }
+      ],
+      "text": "Pap Smears",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1074,
+          "char_end": 1085,
+          "turn_id": null
+        }
+      ],
+      "text": "Pelvic exam",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1090,
+          "char_end": 1106,
+          "turn_id": null
+        }
+      ],
+      "text": "external lesions",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1250,
+          "char_end": 1276,
+          "turn_id": null
+        }
+      ],
+      "text": "cervical motion tenderness",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1280,
+          "char_end": 1286,
+          "turn_id": null
+        }
+      ],
+      "text": "masses",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1318,
+          "char_end": 1352,
+          "turn_id": null
+        }
+      ],
+      "text": "sexual transmitted disease testing",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1411,
+          "turn_id": null
+        }
+      ],
+      "text": "Screening for sexually transmitted disease",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1507,
+          "char_end": 1518,
+          "turn_id": null
+        }
+      ],
+      "text": "STD testing",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1549,
+          "char_end": 1558,
+          "turn_id": null
+        }
+      ],
+      "text": "gonorrhea",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1560,
+          "char_end": 1569,
+          "turn_id": null
+        }
+      ],
+      "text": "chlamydia",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1571,
+          "char_end": 1585,
+          "turn_id": null
+        }
+      ],
+      "text": "trichomoniasis",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1587,
+          "char_end": 1595,
+          "turn_id": null
+        }
+      ],
+      "text": "syphilis",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1597,
+          "char_end": 1600,
+          "turn_id": null
+        }
+      ],
+      "text": "HIV",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1617,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatitis C",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1668,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal pap smear",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1659,
+          "char_end": 1668,
+          "turn_id": null
+        }
+      ],
+      "text": "pap smear",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1713,
+          "char_end": 1752,
+          "turn_id": null
+        }
+      ],
+      "text": "sexual partner having multiple partners",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1827,
+          "char_end": 1845,
+          "turn_id": null
+        }
+      ],
+      "text": "laboratory testing",
+      "id": "e35"
+    }
+  ]
+}

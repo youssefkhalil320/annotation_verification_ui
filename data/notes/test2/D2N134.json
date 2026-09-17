@@ -1,0 +1,952 @@
+{
+  "doc_id": "ACI_BENCH:D2N134:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nAbnormal labs.\n\nHISTORY OF PRESENT ILLNESS\n\nThe patient is a 31-year-old female with a past medical history significant for type 2 diabetes, and hypertension who presents with abnormal labs. She had an insect bite at her last visit after hiking in the woods. We drew a Lyme titer which came back positive.\n\nThe patient reports she has been feeling tired and lacking a lot of energy. She also notes swollen elbow joints, body aches, bullseye rash, and nausea. She states she has not been able to eat much. What she does eat has been bland foods such as crackers. She denies any high fevers.\n\nRegarding her type 2 diabetes, she states her blood sugars have been okay. She notes they are sometimes a little high or low, but nothing too far out of range. She is still taking metformin.\n\nRegarding her hypertension, she is monitoring her blood pressure at home and it has been good. She is avoiding salty foods and is still taking lisinopril.\n\nThe patient denies abdominal pain and diarrhea.\n\nREVIEW OF SYSTEMS\n\n• Constitutional: Denies fevers. Endorses fatigue.\n• Gastrointestinal: Denies abdominal pain and diarrhea. Endorses nausea.\n• Musculoskeletal: Endorses bilateral elbow joint swelling, pain. Endorses body aches.\n• Integumentary: Endorses a rash.\n\nPHYSICAL EXAMINATION\n\n• Gastrointestinal: Examination of her abdomen reveals warmth to palpation. Nontender to palpation. No evidence of cellulitis.\n• Musculoskeletal: Swelling and pain to palpation of elbow joints bilaterally.\n• Integumentary: Small bullseye rash on the left abdominal quadrant.\n\nRESULTS\n\nLyme titer: elevated.\n\nLabs: WBC is within normal limits. All other labs are normal as well.\n\nASSESSMENT AND PLAN\n\nThe patient is a 31-year-old female with a past medical history significant for type 2 diabetes, and hypertension who presents with abnormal labs.\n\nNewly diagnosed Lyme disease.\n• Medical Reasoning: This is a new issue for her. She presented with an insect bite at her last visit, and her subsequent lyme titer was elevated.\n• Medical Treatment: I am going to prescribe doxycycline 100 mg twice a day for 3 weeks. I am going to touch base with an infectious disease doctor to ensure nothing else that needs to be done. I want to see her again next week for follow-up for this.\n\nHypertension.\n• Medical Reasoning: This has been well-controlled based on home monitoring. She has been compliant with dietary modifications including limiting her sodium intake.\n• Additional Testing: I am going to order a lipid panel.\n• Medical Treatment: She will continue lisinopril 10 mg a day. This was refilled today.\n• Patient Education and Counseling: I advised the patient to continue to regularly monitor her blood pressures at home.\n\nDiabetes type 2.\n• Medical Reasoning: She has noticed intermittent elevations of her blood glucose levels but has been compliant with the use of metformin. Her diet has been limited due to nausea in the setting of Lyme disease.\n• Additional Testing: I am going to order a hemoglobin A1c to ensure no medication changes are needed.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "Abnormal labs",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 156,
+          "turn_id": null
+        }
+      ],
+      "text": "type 2 diabetes",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 206,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal labs",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 230,
+          "turn_id": null
+        }
+      ],
+      "text": "insect bite",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 296,
+          "turn_id": null
+        },
+        {
+          "char_start": 313,
+          "char_end": 321,
+          "turn_id": null
+        }
+      ],
+      "text": "Lyme titer positive",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 296,
+          "turn_id": null
+        }
+      ],
+      "text": "Lyme titer",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 370,
+          "turn_id": null
+        }
+      ],
+      "text": "tired",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 375,
+          "char_end": 382,
+          "turn_id": null
+        },
+        {
+          "char_start": 392,
+          "char_end": 398,
+          "turn_id": null
+        }
+      ],
+      "text": "lacking energy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 435,
+          "turn_id": null
+        }
+      ],
+      "text": "swollen elbow joints",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 447,
+          "turn_id": null
+        }
+      ],
+      "text": "body aches",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 449,
+          "char_end": 462,
+          "turn_id": null
+        }
+      ],
+      "text": "bullseye rash",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 468,
+          "char_end": 474,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 599,
+          "char_end": 605,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 637,
+          "turn_id": null
+        }
+      ],
+      "text": "type 2 diabetes",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 654,
+          "char_end": 666,
+          "turn_id": null
+        }
+      ],
+      "text": "blood sugars",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 788,
+          "char_end": 797,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 826,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 872,
+          "turn_id": null
+        }
+      ],
+      "text": "monitoring her blood pressure at home",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 943,
+          "char_end": 953,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 989,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 1002,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1049,
+          "char_end": 1055,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1073,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1116,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1121,
+          "char_end": 1129,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1140,
+          "char_end": 1146,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1206,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral elbow joint swelling",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1223,
+          "char_end": 1233,
+          "turn_id": null
+        }
+      ],
+      "text": "body aches",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1267,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1347,
+          "char_end": 1366,
+          "turn_id": null
+        }
+      ],
+      "text": "warmth to palpation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1357,
+          "char_end": 1366,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1381,
+          "char_end": 1390,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1407,
+          "char_end": 1417,
+          "turn_id": null
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1438,
+          "char_end": 1446,
+          "turn_id": null
+        }
+      ],
+      "text": "Swelling",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1451,
+          "char_end": 1484,
+          "turn_id": null
+        }
+      ],
+      "text": "pain to palpation of elbow joints",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1468,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1521,
+          "char_end": 1534,
+          "turn_id": null
+        }
+      ],
+      "text": "bullseye rash",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1577,
+          "char_end": 1587,
+          "turn_id": null
+        },
+        {
+          "char_start": 1589,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "Lyme titer elevated",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1577,
+          "char_end": 1587,
+          "turn_id": null
+        }
+      ],
+      "text": "Lyme titer",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1609,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1772,
+          "char_end": 1787,
+          "turn_id": null
+        }
+      ],
+      "text": "type 2 diabetes",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1793,
+          "char_end": 1805,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1824,
+          "char_end": 1837,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal labs",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1856,
+          "char_end": 1868,
+          "turn_id": null
+        }
+      ],
+      "text": "Lyme disease",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1942,
+          "char_end": 1953,
+          "turn_id": null
+        }
+      ],
+      "text": "insect bite",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1992,
+          "char_end": 2002,
+          "turn_id": null
+        },
+        {
+          "char_start": 2007,
+          "char_end": 2015,
+          "turn_id": null
+        }
+      ],
+      "text": "lyme titer elevated",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1992,
+          "char_end": 2002,
+          "turn_id": null
+        }
+      ],
+      "text": "lyme titer",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2062,
+          "char_end": 2073,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2074,
+          "char_end": 2080,
+          "turn_id": null
+        }
+      ],
+      "text": "100 mg",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2081,
+          "char_end": 2092,
+          "turn_id": null
+        }
+      ],
+      "text": "twice a day",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2093,
+          "char_end": 2104,
+          "turn_id": null
+        }
+      ],
+      "text": "for 3 weeks",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2270,
+          "char_end": 2282,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2344,
+          "char_end": 2359,
+          "turn_id": null
+        }
+      ],
+      "text": "home monitoring",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2493,
+          "char_end": 2504,
+          "turn_id": null
+        }
+      ],
+      "text": "lipid panel",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2545,
+          "char_end": 2555,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2556,
+          "char_end": 2561,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2562,
+          "char_end": 2567,
+          "turn_id": null
+        }
+      ],
+      "text": "a day",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2677,
+          "char_end": 2712,
+          "turn_id": null
+        }
+      ],
+      "text": "monitor her blood pressures at home",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2715,
+          "char_end": 2730,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes type 2",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2782,
+          "char_end": 2820,
+          "turn_id": null
+        }
+      ],
+      "text": "elevations of her blood glucose levels",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2800,
+          "char_end": 2820,
+          "turn_id": null
+        }
+      ],
+      "text": "blood glucose levels",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2860,
+          "char_end": 2869,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2904,
+          "char_end": 2910,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2929,
+          "char_end": 2941,
+          "turn_id": null
+        }
+      ],
+      "text": "Lyme disease",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2987,
+          "char_end": 3001,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoglobin A1c",
+      "id": "e66"
+    }
+  ]
+}

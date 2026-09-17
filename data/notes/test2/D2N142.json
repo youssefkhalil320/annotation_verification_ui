@@ -1,0 +1,1101 @@
+{
+  "doc_id": "ACI_BENCH:D2N142:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nHypertension.\nAlcohol use disorder.\n\nHISTORY OF PRESENT ILLNESS\n\nAmanda Taylor is an 72-year-old woman who presents for a follow-up for hypertension. History includes significant alcohol use disorder and mild hypercholesterolemia. At last visit on April 16, BP was 130/90. After presenting at 150/100 she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily. CMP and CBC were essentially unremarkable.\n\nMrs. Taylor admits to consuming alcohol 4-5 times a week and is interested in Naltrexone injections. She acknowledges that her blood pressure would likely improve if she stopped alcohol consumption. She is checking her blood pressure in the morning and evening, stating it is higher at night but will improve after sitting for a few minutes. She is averaged 135-145 or 150 over 95-110.\n\nShe experienced side effects from lisinopril, such as headaches, “swooshing” in her left ear, and lethargy. She took half a dose and did not experience the side effects.\n\nPAST HISTORY\n\nMedical\nHypertension.\nHypercholesterolemia.\nAlcohol use disorder.\n\nCURRENT MEDICATIONS\n\nLisinopril 20 mg tablet once daily.\nHydrochlorothiazide 12.5 mg once daily.\n\nPHYSICAL EXAM\n\nConstitutional\nNo distress. No fever. No tobacco or other substance use.\n\nNeurological\nAlert.\n\nPsychological\nShe does not appear anxious, agitated or depressed.\n\nNeck\nJVP flat with a head at 90 degrees.\n\nRespiratory\nNo cough or shortness of breath. Chest clear to percussion and auscultation. Unlabored breathing.\n\nCardiovascular\nNo CVA tenderness. Cardiac rhythm regular. No murmur. No gallop.\n\nMusculoskeletal\nNo ankle edema.\n\nIntegumentary\nSkin is moist. Good trigger.\n\nASSESSMENT\n\n• Alcohol use disorder.\n• Hypertension.\n\nMrs. Taylor presents for a follow-up for hypertension. History includes significant alcohol use disorder and mild hypercholesterolemia. At last visit on April 16, BP was 130/90. After presenting at 150/100 she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily. CMP and CBC were essentially unremarkable.\n\nPLAN\n\nAlcohol use disorder\nI will start her on naltrexone which we have previously discussed. She will take the injectable form and start on May 17. We reviewed side effects and risks. The potential benefit of alcohol cessation would be highly beneficial to the patient.\n\nHypertension\nShe will continue taking lisinopril 10 mg/day and hydrochlorothiazide 12.5 mg daily. Quite possibly her blood pressure will improve significantly if she is able to completely stop consuming alcohol. Target BP is 130-140/70-80. I will see her back week of June 14 which likely will be the time of her second naltrexone injection.\n\nRecommend upgrading influenza vaccination and Shingrix #2, she defers this.\n\nINSTRUCTIONS\n\nCall the clinic with any questions. Make follow up appointment week of June 14th.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "Alcohol use disorder",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "alcohol use disorder",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 246,
+          "turn_id": null
+        }
+      ],
+      "text": "hypercholesterolemia",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 277,
+          "turn_id": null
+        },
+        {
+          "char_start": 282,
+          "char_end": 288,
+          "turn_id": null
+        }
+      ],
+      "text": "BP 130/90",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 356,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 364,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5 mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 373,
+          "turn_id": null
+        }
+      ],
+      "text": "by mouth",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 374,
+          "char_end": 384,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 399,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 400,
+          "char_end": 405,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 406,
+          "char_end": 414,
+          "turn_id": null
+        }
+      ],
+      "text": "by mouth",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 425,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 430,
+          "turn_id": null
+        }
+      ],
+      "text": "CMP",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 438,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 493,
+          "char_end": 527,
+          "turn_id": null
+        }
+      ],
+      "text": "consuming alcohol 4-5 times a week",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "Naltrexone",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 560,
+          "char_end": 570,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 677,
+          "char_end": 704,
+          "turn_id": null
+        }
+      ],
+      "text": "checking her blood pressure",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 892,
+          "char_end": 902,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 912,
+          "char_end": 921,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 950,
+          "turn_id": null
+        }
+      ],
+      "text": "“swooshing” in her left ear",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 964,
+          "turn_id": null
+        }
+      ],
+      "text": "lethargy",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 986,
+          "turn_id": null
+        }
+      ],
+      "text": "half a dose",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1051,
+          "char_end": 1063,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1065,
+          "char_end": 1085,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypercholesterolemia",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1107,
+          "turn_id": null
+        }
+      ],
+      "text": "Alcohol use disorder",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1141,
+          "turn_id": null
+        }
+      ],
+      "text": "Lisinopril",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1142,
+          "char_end": 1147,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mg",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1154,
+          "turn_id": null
+        }
+      ],
+      "text": "tablet",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1155,
+          "char_end": 1165,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1167,
+          "char_end": 1186,
+          "turn_id": null
+        }
+      ],
+      "text": "Hydrochlorothiazide",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1187,
+          "char_end": 1194,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5 mg",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1205,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1241,
+          "char_end": 1249,
+          "turn_id": null
+        }
+      ],
+      "text": "distress",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1259,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1264,
+          "char_end": 1271,
+          "turn_id": null
+        },
+        {
+          "char_start": 1291,
+          "char_end": 1294,
+          "turn_id": null
+        }
+      ],
+      "text": "tobacco use",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1275,
+          "char_end": 1294,
+          "turn_id": null
+        }
+      ],
+      "text": "other substance use",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1352,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "anxious",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1361,
+          "char_end": 1369,
+          "turn_id": null
+        }
+      ],
+      "text": "agitated",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1373,
+          "char_end": 1382,
+          "turn_id": null
+        }
+      ],
+      "text": "depressed",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1442,
+          "char_end": 1447,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1451,
+          "char_end": 1470,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1487,
+          "char_end": 1497,
+          "turn_id": null
+        }
+      ],
+      "text": "percussion",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1502,
+          "char_end": 1514,
+          "turn_id": null
+        }
+      ],
+      "text": "auscultation",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1556,
+          "char_end": 1570,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA tenderness",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1605,
+          "turn_id": null
+        }
+      ],
+      "text": "murmur",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1616,
+          "turn_id": null
+        }
+      ],
+      "text": "gallop",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1638,
+          "char_end": 1649,
+          "turn_id": null
+        }
+      ],
+      "text": "ankle edema",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1710,
+          "char_end": 1730,
+          "turn_id": null
+        }
+      ],
+      "text": "Alcohol use disorder",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1734,
+          "char_end": 1746,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1790,
+          "char_end": 1802,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1833,
+          "char_end": 1853,
+          "turn_id": null
+        }
+      ],
+      "text": "alcohol use disorder",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1863,
+          "char_end": 1883,
+          "turn_id": null
+        }
+      ],
+      "text": "hypercholesterolemia",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1912,
+          "char_end": 1914,
+          "turn_id": null
+        },
+        {
+          "char_start": 1919,
+          "char_end": 1925,
+          "turn_id": null
+        }
+      ],
+      "text": "BP 130/90",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1974,
+          "char_end": 1993,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1994,
+          "char_end": 2001,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5 mg",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2002,
+          "char_end": 2010,
+          "turn_id": null
+        }
+      ],
+      "text": "by mouth",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2011,
+          "char_end": 2021,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2026,
+          "char_end": 2036,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2037,
+          "char_end": 2042,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mg",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2043,
+          "char_end": 2051,
+          "turn_id": null
+        }
+      ],
+      "text": "by mouth",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2052,
+          "char_end": 2062,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2064,
+          "char_end": 2067,
+          "turn_id": null
+        }
+      ],
+      "text": "CMP",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2072,
+          "char_end": 2075,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2114,
+          "char_end": 2134,
+          "turn_id": null
+        }
+      ],
+      "text": "Alcohol use disorder",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2155,
+          "char_end": 2165,
+          "turn_id": null
+        }
+      ],
+      "text": "naltrexone",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2220,
+          "char_end": 2230,
+          "turn_id": null
+        }
+      ],
+      "text": "injectable",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2380,
+          "char_end": 2392,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2418,
+          "char_end": 2428,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2429,
+          "char_end": 2438,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg/day",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2443,
+          "char_end": 2462,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2463,
+          "char_end": 2470,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5 mg",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2700,
+          "char_end": 2710,
+          "turn_id": null
+        }
+      ],
+      "text": "naltrexone",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2743,
+          "char_end": 2764,
+          "turn_id": null
+        }
+      ],
+      "text": "influenza vaccination",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2769,
+          "char_end": 2777,
+          "turn_id": null
+        }
+      ],
+      "text": "Shingrix",
+      "id": "e77"
+    }
+  ]
+}

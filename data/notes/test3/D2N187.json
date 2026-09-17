@@ -1,0 +1,456 @@
+{
+  "doc_id": "ACI_BENCH:D2N187:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nChanges in vision.\n\nSOCIAL HISTORY\n\nPatient smokes approximately 1 pack of cigarettes per day.\n\nREVIEW OF SYSTEMS\n\nEyes: Reports visual distortions and blurred vision.\n\nPHYSICAL EXAM\n\nEyes\n- Examination: Anterior segment examination reveals posterior chamber intraocular lenses in both eyes.\nRight eye: The cornea is clear. No MVI. PCIOL cup to disc is 0.2. Fundus examination of the right eye shows the retina to be attached 360 degrees without any tears or holes. RPE changes in the fovea. Posterior segment exam shows drusen in the macula, thickening of the retina, presence of subretinal fluid and exudates accumulation. Positive for hemorrhage.\nLeft eye: The cornea is clear. No MVI. Cup to disc is 0.3. RPE changes in the fovea. No hemorrhage or subretinal fluid. Retina is attached.\n\nRESULTS\n\nOptical coherence tomography shows drusen deposit. Retinal pigment epithelium with subretinal fluid accumulation. The choroidal neovascular membrane can be visualized. Fluorescein angiography reveals focal areas of leakage in the right eye consistent with neovascular age-related macular degeneration.\n\nASSESSMENT AND PLAN\n\n1. Neovascular age-related macular degeneration.\n- Medical Reasoning: Based on her diagnostic testing and eye exam, this is at an advanced stage.\n- Patient Education and Counseling: We discussed the nature of the condition, as well as the recommendation for Lucentis injections. I explained the procedure in detail and advised the patient of the potential outcomes.\n- Medical Treatment: We will proceed with a once-monthly Lucenti's injections.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "Changes in vision",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "smokes approximately 1 pack of cigarettes per day",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 164,
+          "turn_id": null
+        }
+      ],
+      "text": "visual distortions",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "blurred vision",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 221,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "Anterior segment examination",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 375,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "Fundus examination of the right eye",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 472,
+          "turn_id": null
+        }
+      ],
+      "text": "tears",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 481,
+          "turn_id": null
+        }
+      ],
+      "text": "holes",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 507,
+          "turn_id": null
+        }
+      ],
+      "text": "RPE changes in the fovea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 531,
+          "turn_id": null
+        }
+      ],
+      "text": "Posterior segment exam",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 538,
+          "char_end": 558,
+          "turn_id": null
+        }
+      ],
+      "text": "drusen in the macula",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 560,
+          "char_end": 584,
+          "turn_id": null
+        }
+      ],
+      "text": "thickening of the retina",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 598,
+          "char_end": 614,
+          "turn_id": null
+        }
+      ],
+      "text": "subretinal fluid",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 619,
+          "char_end": 640,
+          "turn_id": null
+        }
+      ],
+      "text": "exudates accumulation",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 655,
+          "char_end": 665,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 726,
+          "char_end": 750,
+          "turn_id": null
+        }
+      ],
+      "text": "RPE changes in the fovea",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 755,
+          "char_end": 765,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 785,
+          "turn_id": null
+        }
+      ],
+      "text": "subretinal fluid",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 817,
+          "char_end": 845,
+          "turn_id": null
+        }
+      ],
+      "text": "Optical coherence tomography",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 852,
+          "char_end": 866,
+          "turn_id": null
+        }
+      ],
+      "text": "drusen deposit",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 929,
+          "turn_id": null
+        }
+      ],
+      "text": "subretinal fluid accumulation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 935,
+          "char_end": 965,
+          "turn_id": null
+        }
+      ],
+      "text": "choroidal neovascular membrane",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 985,
+          "char_end": 1008,
+          "turn_id": null
+        }
+      ],
+      "text": "Fluorescein angiography",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1017,
+          "char_end": 1056,
+          "turn_id": null
+        }
+      ],
+      "text": "focal areas of leakage in the right eye",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1073,
+          "char_end": 1117,
+          "turn_id": null
+        }
+      ],
+      "text": "neovascular age-related macular degeneration",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1144,
+          "char_end": 1188,
+          "turn_id": null
+        }
+      ],
+      "text": "Neovascular age-related macular degeneration",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1247,
+          "char_end": 1255,
+          "turn_id": null
+        }
+      ],
+      "text": "eye exam",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1399,
+          "char_end": 1407,
+          "turn_id": null
+        }
+      ],
+      "text": "Lucentis",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1408,
+          "char_end": 1418,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1551,
+          "char_end": 1563,
+          "turn_id": null
+        }
+      ],
+      "text": "once-monthly",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1564,
+          "char_end": 1573,
+          "turn_id": null
+        }
+      ],
+      "text": "Lucenti's",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1584,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e32"
+    }
+  ]
+}

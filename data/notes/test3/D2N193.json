@@ -1,0 +1,741 @@
+{
+  "doc_id": "ACI_BENCH:D2N193:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nCough.\n\nMEDICAL HISTORY\n\nPatient reports history of seasonal allergies, diabetes type 2, and hypertension.\n\nMEDICATIONS\n\nPatient reports taking metformin 500 mg as well as hydrochlorothiazide every day.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies any fever or body aches.\nHENT: Reports sore throat and nasal congestion.\nRespiratory: Reports productive cough with green phlegm. Denies any shortness of breath.\nGastrointestinal: Denies nausea, vomiting, or diarrhea.\n\nVITALS\n\nBlood Pressure: Elevated at 144/72 mm Hg. The remainder of the vital signs look good.\n\nPHYSICAL EXAM\n\nHead and Face\n- Examination: No frontal sinus tenderness. Bilateral maxillary sinus tenderness.\n\nEars, Nose, Mouth, and Throat\n- Examination of Mouth:\n- Examination of Throat: Erythema of the pharynx. Tonsils are symmetrical. No exudates.\n\nNeck\n- General Examination: Anterior cervical adenopathy.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally. No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. 2 out of 6 systolic ejection murmur at the left base.\n\nMusculoskeletal\n- Examination: No edema.\n\nASSESSMENT AND PLAN\n\n1. Cough.\n- Medical Reasoning: The patient presents with symptoms similar to an upper respiratory infection. Most likely it is a virus that is causing her symptoms, especially as she reports being around some else with similar symptoms.\n- Patient Education and Counseling: I explained that we often let the virus run its course while we treat her symptoms. I advised her to be cautious with over-the-counter cough medicines as certain ones can affect her blood pressure and diabetes.\n- Medical Treatment: She increase her fluid intake. I recommended she try Coricidin HBP as a safer alternative to her cough medicine. The patient should rest frequently. I will order a COVID-19 test.\n\n2. Type 2 diabetes.\n- Medical Reasoning: Stable with medication.\n- Patient Education and Counseling: I encouraged the patient to continue with dietary restrictions.\n- Medical Treatment: We will continue her on her metformin 500 mg twice a day. Repeat hemoglobin A1c will be due at her next visit.\n\n3. Hypertension.\n- Medical Reasoning: Her blood pressure is elevated today, and it sounds like it has been trending higher at home as well.\n- Patient Education and Counseling: I encouraged the patient to continue limiting her intake of salty foods. >I recommend that she take her hydrochlorothiazide in the morning because it can result in more frequent urination.\n- Medical Treatment: We will increase her dose of hydrochlorothiazide to 25 mg once a day. She will continue checking her blood pressure a few times a week at different times of the day.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Cough",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "seasonal allergies",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 104,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes type 2",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 122,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 170,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 177,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mg",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 218,
+          "turn_id": null
+        }
+      ],
+      "text": "every day",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 272,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 276,
+          "char_end": 286,
+          "turn_id": null
+        }
+      ],
+      "text": "body aches",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 302,
+          "char_end": 313,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "nasal congestion",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 391,
+          "turn_id": null
+        }
+      ],
+      "text": "productive cough with green phlegm",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 423,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 450,
+          "char_end": 456,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 458,
+          "char_end": 466,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 471,
+          "char_end": 479,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Pressure",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 530,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Pressure: Elevated at 144/72 mm Hg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 624,
+          "char_end": 648,
+          "turn_id": null
+        }
+      ],
+      "text": "frontal sinus tenderness",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 686,
+          "turn_id": null
+        }
+      ],
+      "text": "maxillary sinus tenderness",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "Erythema of the pharynx",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 821,
+          "char_end": 829,
+          "turn_id": null
+        }
+      ],
+      "text": "exudates",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "Anterior cervical adenopathy",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 926,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 950,
+          "char_end": 957,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 959,
+          "char_end": 964,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 969,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 996,
+          "char_end": 1017,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1055,
+          "char_end": 1096,
+          "turn_id": null
+        }
+      ],
+      "text": "systolic ejection murmur at the left base",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1133,
+          "char_end": 1138,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1165,
+          "char_end": 1170,
+          "turn_id": null
+        }
+      ],
+      "text": "Cough",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1242,
+          "char_end": 1269,
+          "turn_id": null
+        }
+      ],
+      "text": "upper respiratory infection",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1585,
+          "turn_id": null
+        }
+      ],
+      "text": "cough medicines",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1636,
+          "char_end": 1644,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1720,
+          "char_end": 1733,
+          "turn_id": null
+        }
+      ],
+      "text": "Coricidin HBP",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1831,
+          "char_end": 1844,
+          "turn_id": null
+        }
+      ],
+      "text": "COVID-19 test",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1850,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "Type 2 diabetes",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2061,
+          "char_end": 2070,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2071,
+          "char_end": 2077,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mg",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2078,
+          "char_end": 2089,
+          "turn_id": null
+        }
+      ],
+      "text": "twice a day",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2098,
+          "char_end": 2112,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoglobin A1c",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2148,
+          "char_end": 2160,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2201,
+          "turn_id": null
+        },
+        {
+          "char_start": 2205,
+          "char_end": 2213,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure elevated",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2425,
+          "char_end": 2444,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2445,
+          "char_end": 2459,
+          "turn_id": null
+        }
+      ],
+      "text": "in the morning",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2490,
+          "char_end": 2508,
+          "turn_id": null
+        }
+      ],
+      "text": "frequent urination",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2560,
+          "char_end": 2579,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2583,
+          "char_end": 2588,
+          "turn_id": null
+        }
+      ],
+      "text": "25 mg",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2589,
+          "char_end": 2599,
+          "turn_id": null
+        }
+      ],
+      "text": "once a day",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2619,
+          "char_end": 2646,
+          "turn_id": null
+        }
+      ],
+      "text": "checking her blood pressure",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2632,
+          "char_end": 2646,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e52"
+    }
+  ]
+}

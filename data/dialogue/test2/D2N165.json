@@ -1,0 +1,948 @@
+{
+  "doc_id": "ACI_BENCH:D2N165:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hey sophia how are you doing today\n[patient] i've been better my primary care doctor wanted me to see you because of this knee pain that i've been having for about six months now\n[doctor] okay do you remember what caused the pain initially\n[patient] you know i really ca n't recall any specific event that caused the pain\n[doctor] alright well can can you describe the pain for me\n[patient] yeah so it's it's like a deep achy pain that it i feel like it's behind my kneecaps and sometimes i can even hear like what seems like like some creaking in my knees\n[doctor] hmmm alright now tell me what what type of activities makes that pain worse\n[patient] so i feel like the pain gets worse anytime i'm like getting from like a seated position to standing so i i work from home so i'm at my desk a lot so anytime i get up i have some pain or after watching tv or even like going up and down stairs it's really painful\n[doctor] hmmm okay and does anything make the pain feel better\n[patient] usually after i rest it for some time it does help with the pain\n[doctor] okay now you did mention earlier that you have tried some things in the past can you tell me what they were\n[patient] yeah so when it first started hurting i was putting ice on it and i even got like some ace bandage like wrapping from the pharmacy i do take ibuprofen or aleve sometimes but i try to avoid really taking any medications\n[doctor] okay and and tell me what is your day like\n[patient] well i try to be as active as i can i actually love to run and i would run like five to six miles a day but now i i mean honestly i ca n't even get to half a mile and my leg will start hurting my knee will start hurting\n[doctor] okay that's definitely a decrease in your mileage there where have you been running lately like do you run outside or on a treadmill or\n[patient] yeah i i you know i will do the treadmill during the winter but i just love being outdoors and running\n[doctor] yeah yeah there are some really nice senior routes here in boston is n't there like\n[patient] there are\n[doctor] so many knee places there's some right by the harbor that i've i've done some runs there before too it's pretty nice well i mean the boston marathon what can you say right\n[patient] right exactly exactly no it's very nice\n[doctor] well okay well hopefully that we get you feeling better so you can start running again more than . five miles but tell me though have you noticed any swelling or redness in your knees\n[patient] no not really\n[doctor] okay and have you ever injured your knees before\n[patient] no i've been pretty good i actually have never broken a bone actually no i'm gon na change that actually i did break my arm when i was in sixth grade but nothing since then\n[doctor] okay\n[patient] i\n[doctor] okay and it's just your arm right not not your knee\n[patient] right\n[doctor] okay well alright well let's go ahead and do a quick physical exam on you here let me look at your vital signs okay i reviewed your vitals they they overall they look good take a listen to your heart real quick alright and your heart exam i hear regular rate and rhythm with no murmurs and on your musculoskeletal exam i have seen you and walk around here and you do have normal gait alright now i'm gon na have you do some movements on your legs here okay\n[patient] okay\n[doctor] alright good your strength is three out of five for abduction of legs bilaterally and the remainder of muscle strength for your lower extremities are five out of five so that's good let me take a look at your knee now on your knee exam there is no overlying erythema that's redness or ecchymosis and that's bruising or any warmth of the skin appreciated there is no effusion let me go ahead and feel around here does that hurt right here how does that feel\n[patient] it does\n[doctor] sorry so there is tenderness to palpation of the bilateral retinacular retinaculum and there is positive patellar grind test alright and can you are you able to squat for me\n[patient] i can but that hurts\n[doctor] okay alright so you're definitely having some knee pain with squatting and i'm just gon na maneuver your leg just a little bit here real quick okay so lachman anterior and posterior drawer and mcmurray tests are all negative bilaterally so that's good there okay now your neuro exam patella and achilles reflexes are symmetrical alright so now i did review the results of your x-ray and both of your knees which shows no fractures or osteoarthritis so let me go ahead and tell you about my assessment and plan so for your problem of bilateral knee pain based on what you told me your exam and reviewing your mri your symptoms are consistent with patellofemoral pain syndrome and this is a very common condition that we see that causes knee pain especially in active young people so this condition has to do with the way your kneecap which is your patella how that moves along the groove of your thigh your thigh bone which is the femur now for the pain you may continue taking ibuprofen or anti-inflammatory as needed to help with the pain but i'm also going to recommend physical therapy where where they will show you a number of lower extremity exercises and this will help increase your lower extremity strength your mobility and correct any incorrect running mechanics that you may have so do you have any questions for me about that\n[patient] will i be able to run anytime soon\n[doctor] well that is a goal of treatment and to get you back in running again now you will have to take an take it easy from running for now but we will continue to assess your progress with each visit okay\n[patient] okay\n[doctor] alright anything else\n[patient] no i think that's it\n[doctor] okay well very good well i will be following up with you soon and again just take it easy for now from the running okay\n[patient] okay thank you\n[doctor] bye\n[patient] bye",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 140,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "knee pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 238,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 330,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 382,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 439,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "achy pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 553,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "creaking",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 640,
+          "char_end": 644,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 680,
+          "char_end": 684,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 843,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 915,
+          "char_end": 922,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "painful",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 969,
+          "char_end": 973,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1060,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1218,
+          "char_end": 1225,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "hurting",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1232,
+          "char_end": 1243,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "putting ice",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1275,
+          "char_end": 1286,
+          "turn_id": "t12"
+        },
+        {
+          "char_start": 1292,
+          "char_end": 1300,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "ace bandage wrapping",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1329,
+          "char_end": 1338,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1347,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "aleve",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1348,
+          "char_end": 1357,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "sometimes",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1639,
+          "char_end": 1661,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "leg will start hurting",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1665,
+          "char_end": 1688,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "knee will start hurting",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2450,
+          "char_end": 2458,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "swelling",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2462,
+          "char_end": 2469,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "redness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2540,
+          "char_end": 2547,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "injured",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2687,
+          "char_end": 2692,
+          "turn_id": "t24"
+        },
+        {
+          "char_start": 2696,
+          "char_end": 2699,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "break arm",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2947,
+          "char_end": 2954,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 2960,
+          "char_end": 2971,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "look at vital signs",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2993,
+          "char_end": 2999,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "vitals",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3040,
+          "char_end": 3049,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 3055,
+          "char_end": 3060,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "listen to heart",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3139,
+          "char_end": 3146,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "murmurs",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3159,
+          "char_end": 3179,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "musculoskeletal exam",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3360,
+          "char_end": 3389,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "strength is three out of five",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3568,
+          "char_end": 3577,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "knee exam",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3600,
+          "char_end": 3608,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "erythema",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3616,
+          "char_end": 3623,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "redness",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3627,
+          "char_end": 3637,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "ecchymosis",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3649,
+          "char_end": 3657,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "bruising",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3665,
+          "char_end": 3671,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "warmth",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3708,
+          "char_end": 3716,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "effusion",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3764,
+          "char_end": 3768,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hurt",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3844,
+          "char_end": 3867,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "tenderness to palpation",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3922,
+          "char_end": 3950,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "positive patellar grind test",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3931,
+          "char_end": 3950,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "patellar grind test",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3987,
+          "char_end": 3992,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "squat",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4025,
+          "char_end": 4030,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "hurts",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4086,
+          "char_end": 4095,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "knee pain",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4191,
+          "char_end": 4198,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "lachman",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4199,
+          "char_end": 4207,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 4222,
+          "char_end": 4228,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "anterior drawer",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4212,
+          "char_end": 4228,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "posterior drawer",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4233,
+          "char_end": 4247,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "mcmurray tests",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4312,
+          "char_end": 4322,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "neuro exam",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4323,
+          "char_end": 4330,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 4344,
+          "char_end": 4352,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "patella reflexes",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4335,
+          "char_end": 4352,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "achilles reflexes",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4417,
+          "char_end": 4422,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4461,
+          "char_end": 4470,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "fractures",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4474,
+          "char_end": 4488,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4573,
+          "char_end": 4592,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "bilateral knee pain",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4648,
+          "char_end": 4651,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "mri",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4686,
+          "char_end": 4714,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "patellofemoral pain syndrome",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4775,
+          "char_end": 4784,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "knee pain",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4988,
+          "char_end": 4992,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "pain",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5017,
+          "char_end": 5026,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5030,
+          "char_end": 5047,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "anti-inflammatory",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5048,
+          "char_end": 5057,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "as needed",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5075,
+          "char_end": 5079,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "pain",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5112,
+          "char_end": 5128,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5286,
+          "char_end": 5313,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "incorrect running mechanics",
+      "id": "e65"
+    }
+  ]
+}

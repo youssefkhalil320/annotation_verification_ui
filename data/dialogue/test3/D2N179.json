@@ -1,0 +1,999 @@
+{
+  "doc_id": "ACI_BENCH:D2N179:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] patient mrn : abc123 . date of birth : january 1st , 1960 . patient is a 60 year old , right-handed male , referred today for evaluation of numbness and tingling .\n[doctor] hello , mr. cook . how are you doing this morning ?\n[patient] hi , dr. martinez . this weekend was a bit rough . i've had this numbness and tingling for a few weeks now .\n[doctor] so it's in both of your hands ?\n[patient] yes , ever since my car wreck last december when i broke them ... well , once they healed , i mean , i noticed it more , the tingling and the numbness .\n[doctor] and you still wear the splint only on the right wrist ?\n[patient] no , i also wear the left sometimes . the right is just worse , but the splint helps . both have really gotten worse over the last month . when i broke them , my right wrist was definitely in worse shape . i've also been having some s- mild stiffness in my neck too . i hit my head during the accident , and they told me it was a contusion .\n[doctor] and where would you say the tingling and numbness is ?\n[patient] on this side , it goes from here and here up to about here . on the other side , it's from here to here .\n[doctor] i see . so on the right side , you're pointing from the middle and ring finger , all the way up the forearm . and on the left , the symptoms extend from the pinky and ring finger . and is there any pain or just tingling and numbness ?\n[patient] eh , it's mainly just sore . sometimes they throb , but overall , they feel weaker too , especially when i'm using them . the tingling happens more when they hurt , but when it goes away , the tingling is dull .\n[doctor] and when do you feel these symptoms ?\n[patient] well , really , i guess , just more so at night , and they come and go throughout the day .\n[doctor] okay . and do you experience any loss of sensation in your hands or fingers ?\n[patient] like , feeling something ? no , not that i can really think of . though , in general , they may be less sensitive than they should be , but i can still feel . they also gave me some nerve pain medicine , but i have n't been taking it like i should .\n[doctor] and are you still on the coreg for hypertension and the lexapro for anxiety ?\n[patient] yes , i'm still taking those . i had prediabetes too , but i got it under control by changing my diet .\n[doctor] and no history of thyroid issues , correct ?\n[patient] nope .\n[doctor] all right , thank you , mr. cook . okay , first , we'll go over your review of systems . correct me if i'm wrong in any of this .\n[doctor] constitutional , you have fatigue and weight gain ; gi , you have excessive appetite and bloating ; eyes have floaters ; cardiovascular shows shortness of breath and leg swelling ; endocrine , you're always hungry ; skin , you have some nail bed changes , dryness , itching ; musculoskeletal , you have gout and muscle pain . and the remainder of the review of systems is negative .\n[patient] yep , that's all correct .\n[doctor] all right , we're going to go ahead and do the neurologic examination . let's look at the right hand first . can you feel this ?\n[patient] yeah , but a little less on these two fingers .\n[doctor] sensation is normal , except pin prick sensation diminished in third and fourth fingers on the right .\n[doctor] and how about on the left ?\n[patient] um , yeah , but these two a little less .\n[doctor] sensation is decreased in the fourth and fifth fingers on the left\n[doctor] okay , let's test your reflexes now . reflexes are 1+ and symmetric ; 2+ knees ; toes are downgoing bilaterally .\n[doctor] all right , i'm going to tap on your right wrist . do you feel anything ?\n[patient] yeah , it feels like a zing up my wrist and something into my elbow too .\n[doctor] and how about the left side ?\n[patient] yeah , same on that side too .\n[doctor] tinel sign positive at both wrists and both elbows . rest of exam is normal .\n[doctor] all right , so what i am seeing today is bilateral carpal tunnel syndrome or , potentially , this could also be bilateral cubital tunnel syndrome . however , your symptom presentation suggests car- bilateral carpal syndrome , as the nerve in your wrists are aggravated by your past trauma . this is causing the pain and tingling you were describing to me .\n[patient] okay , so how do we make it better ?\n[doctor] first , i want to determine exactly where the nerve irritation is coming from . we'll need to schedule you for a nerve test , which is called an emg test . they will measure the responsiveness of your nerves to truly pinpoint where you are having your issues .\n[patient] that sounds fine to me .\n[doctor] great . after the tests are complete , you can return here for a follow-up visit . if you're still having symptoms , we can consider a referral to our hand clinic , possibly for injections or carpal tunnel release se- surgery . you could also refer ... we could also refer you to an orthopedist for the same treatment .\n[patient] sounds good , doc .\n[doctor] all right , keep wearing your splints , and i will see you after those studies .\n[patient] thank you .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 149,
+          "char_end": 157,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "numbness",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 170,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 317,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "numbness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 322,
+          "char_end": 330,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "tingling",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 460,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "broke",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 537,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "tingling",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 546,
+          "char_end": 554,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "numbness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 584,
+          "turn_id": "t06"
+        },
+        {
+          "char_start": 589,
+          "char_end": 595,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "wear splint",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 648,
+          "turn_id": "t07"
+        },
+        {
+          "char_start": 653,
+          "char_end": 657,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "wear left",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 704,
+          "char_end": 710,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "splint",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 783,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "broke",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 873,
+          "char_end": 882,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "stiffness",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 962,
+          "char_end": 971,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "contusion",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1011,
+          "char_end": 1019,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "tingling",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1032,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "numbness",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1361,
+          "char_end": 1365,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1374,
+          "char_end": 1382,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "tingling",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1387,
+          "char_end": 1395,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "numbness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1434,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "sore",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1452,
+          "char_end": 1457,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "throb",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1484,
+          "char_end": 1490,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "weaker",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1534,
+          "char_end": 1542,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "tingling",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1566,
+          "char_end": 1570,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "hurt",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1601,
+          "char_end": 1609,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "tingling",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1811,
+          "char_end": 1828,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "loss of sensation",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1965,
+          "char_end": 1979,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "less sensitive",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2048,
+          "char_end": 2067,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "nerve pain medicine",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2076,
+          "char_end": 2096,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "have n't been taking",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2150,
+          "char_end": 2155,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "coreg",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2160,
+          "char_end": 2172,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2181,
+          "char_end": 2188,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "lexapro",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2193,
+          "char_end": 2200,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2250,
+          "char_end": 2261,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "prediabetes",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2344,
+          "char_end": 2358,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "thyroid issues",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2562,
+          "char_end": 2569,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "fatigue",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2574,
+          "char_end": 2585,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "weight gain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2602,
+          "char_end": 2620,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "excessive appetite",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2625,
+          "char_end": 2633,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "bloating",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2646,
+          "char_end": 2654,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "floaters",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2678,
+          "char_end": 2697,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2702,
+          "char_end": 2714,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "leg swelling",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2736,
+          "char_end": 2749,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "always hungry",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2773,
+          "char_end": 2789,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "nail bed changes",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2792,
+          "char_end": 2799,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "dryness",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2802,
+          "char_end": 2809,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "itching",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2839,
+          "char_end": 2843,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "gout",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2848,
+          "char_end": 2859,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "muscle pain",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3012,
+          "char_end": 3034,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "neurologic examination",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3190,
+          "char_end": 3209,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pin prick sensation",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3190,
+          "char_end": 3220,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pin prick sensation diminished",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3362,
+          "char_end": 3384,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "sensation is decreased",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3451,
+          "char_end": 3455,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 3461,
+          "char_end": 3469,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "test reflexes",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3476,
+          "char_end": 3491,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "reflexes are 1+",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3586,
+          "char_end": 3592,
+          "turn_id": "t30"
+        },
+        {
+          "char_start": 3604,
+          "char_end": 3609,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "tap on wrist",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3668,
+          "char_end": 3672,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "zing",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3808,
+          "char_end": 3818,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "tinel sign",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3808,
+          "char_end": 3827,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "tinel sign positive",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3946,
+          "char_end": 3968,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "carpal tunnel syndrome",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4017,
+          "char_end": 4040,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "cubital tunnel syndrome",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4103,
+          "char_end": 4118,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "carpal syndrome",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4128,
+          "char_end": 4133,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 4153,
+          "char_end": 4163,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "nerve aggravated",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4177,
+          "char_end": 4183,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "trauma",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4206,
+          "char_end": 4210,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "pain",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4215,
+          "char_end": 4223,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "tingling",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4354,
+          "char_end": 4370,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "nerve irritation",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4421,
+          "char_end": 4431,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "nerve test",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4453,
+          "char_end": 4461,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "emg test",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4791,
+          "char_end": 4801,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "injections",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4805,
+          "char_end": 4826,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "carpal tunnel release",
+      "id": "e69"
+    }
+  ]
+}

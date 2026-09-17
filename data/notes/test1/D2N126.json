@@ -1,0 +1,653 @@
+{
+  "doc_id": "ACI_BENCH:D2N126:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nRight knee injury\n\nHISTORY OF PRESENT ILLNESS\n\nMichelle King is a pleasant 44-year-old male who presents to the clinic today for the evaluation of a right knee injury. Her injury was sustained while skiing in Vermont last weekend after she caught her ski when coming off of the lift and fell. She reports a pop in her knee at the time of injury and has been experiencing pain since that time. Due to her fall she was unable to weight bear and had to be taken down by the ski patrol. She locates her pain to the lateral aspect of her knee and also describes the feeling of instability as well as buckling. At this time she is experiencing difficulty with knee flexion; however, she states this was not a problem immediately after the injury. Full knee extension is also quite painful for her. The patient denies any numbness or tingling in her toes. She is currently utilizing crutches for ambulation which were provided to her by the ski patrol. In terms of pain control, she is taking ibuprofen which is providing some relief.\n\nMEDICAL HISTORY\n\nPatient reports she is otherwise healthy and denies a history of high blood pressure or diabetes.\n\nSOCIAL HISTORY\n\nPatient reports she is very active with skiing and taking care of her 4-year-old twins. She mentions that she would like to get back into running at some point. She states that her husband is home with her, but he also works a job where he has gone quite a bit.\n\nMEDICATIONS\n\nPatient reports she is taking ibuprofen.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right knee pain and limited range of motion.\nNeurological: Denies numbness or tingling in toes.\n\nPHYSICAL EXAM\n\nGAIT: The patient is ambulating with crutches.\nCV: Regular rate and rhythm. No murmur.\nRESPIRATORY: Lungs are clear to auscultation.\nMSK: Examination of the right knee: Edema and effusion noted. Pain with palpation of the lateral knee. Decreased flexion and extension. Positive Lachman's. Palpable dorsalis pedis and posterior tibial pulse. No ankle edema.\n\nRESULTS\n\n4 views of the right knee were taken today. These reveal no bony abnormalities.\n\nASSESSMENT\n\nRight knee pain, possible ACL tear.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to her current symptoms. I have recommended that we obtain an MRI of the right knee to evaluate for a possible ACL tear. In the meantime, I have advised her to continue taking ibuprofen 600 to 800 mg every 8 hours as needed for pain. She will also be placed into a brace for increased knee support.\n\nINSTRUCTIONS\n\nThe patient will follow up with me once the MRI results are available for review and further discussion.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "Right knee injury",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee injury",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 339,
+          "turn_id": null
+        }
+      ],
+      "text": "pop in her knee",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 355,
+          "char_end": 361,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 388,
+          "char_end": 392,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 455,
+          "turn_id": null
+        }
+      ],
+      "text": "unable to weight bear",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 554,
+          "turn_id": null
+        }
+      ],
+      "text": "pain to the lateral aspect of her knee",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 578,
+          "char_end": 600,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling of instability",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 612,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "buckling",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 655,
+          "char_end": 683,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty with knee flexion",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 763,
+          "char_end": 777,
+          "turn_id": null
+        },
+        {
+          "char_start": 792,
+          "char_end": 799,
+          "turn_id": null
+        }
+      ],
+      "text": "knee extension painful",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 840,
+          "turn_id": null
+        },
+        {
+          "char_start": 853,
+          "char_end": 864,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in her toes",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 844,
+          "char_end": 864,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in her toes",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1003,
+          "char_end": 1012,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1128,
+          "char_end": 1147,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1151,
+          "char_end": 1159,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1484,
+          "char_end": 1493,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1555,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1560,
+          "char_end": 1583,
+          "turn_id": null
+        }
+      ],
+      "text": "limited range of motion",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1614,
+          "turn_id": null
+        },
+        {
+          "char_start": 1627,
+          "char_end": 1634,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in toes",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1634,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in toes",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1731,
+          "char_end": 1737,
+          "turn_id": null
+        }
+      ],
+      "text": "murmur",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1771,
+          "char_end": 1783,
+          "turn_id": null
+        }
+      ],
+      "text": "auscultation",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1790,
+          "char_end": 1819,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the right knee",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1821,
+          "char_end": 1826,
+          "turn_id": null
+        }
+      ],
+      "text": "Edema",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1831,
+          "char_end": 1839,
+          "turn_id": null
+        }
+      ],
+      "text": "effusion",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1847,
+          "char_end": 1886,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with palpation of the lateral knee",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1857,
+          "char_end": 1866,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1888,
+          "char_end": 1905,
+          "turn_id": null
+        }
+      ],
+      "text": "Decreased flexion",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1921,
+          "char_end": 1939,
+          "turn_id": null
+        }
+      ],
+      "text": "Positive Lachman's",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1930,
+          "char_end": 1939,
+          "turn_id": null
+        }
+      ],
+      "text": "Lachman's",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1996,
+          "char_end": 2007,
+          "turn_id": null
+        }
+      ],
+      "text": "ankle edema",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2021,
+          "char_end": 2044,
+          "turn_id": null
+        }
+      ],
+      "text": "views of the right knee",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2079,
+          "char_end": 2097,
+          "turn_id": null
+        }
+      ],
+      "text": "bony abnormalities",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2112,
+          "char_end": 2127,
+          "turn_id": null
+        }
+      ],
+      "text": "Right knee pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2138,
+          "char_end": 2146,
+          "turn_id": null
+        }
+      ],
+      "text": "ACL tear",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2352,
+          "char_end": 2373,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of the right knee",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2401,
+          "char_end": 2409,
+          "turn_id": null
+        }
+      ],
+      "text": "ACL tear",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2466,
+          "char_end": 2475,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2476,
+          "char_end": 2489,
+          "turn_id": null
+        }
+      ],
+      "text": "600 to 800 mg",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2490,
+          "char_end": 2503,
+          "turn_id": null
+        }
+      ],
+      "text": "every 8 hours",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2504,
+          "char_end": 2522,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed for pain",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2541,
+          "char_end": 2560,
+          "turn_id": null
+        }
+      ],
+      "text": "placed into a brace",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2648,
+          "char_end": 2651,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e45"
+    }
+  ]
+}

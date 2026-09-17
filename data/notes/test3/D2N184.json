@@ -1,0 +1,223 @@
+{
+  "doc_id": "ACI_BENCH:D2N184:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\n6 weeks postoperative follow up.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Stephanie Morales is a 44-year-old female seen in clinic today in postoperative follow up, 6 weeks status post right medial knee unicompartmental arthroplasty.\n\nOverall, the patient reports that she is doing well but does experience some numbness on the lateral aspect of her knee. She states she participates in home physical therapy. The patient denies any pain but does not feel she is able to return to work just yet, due to her physical job requirements at UPS.\n\nPHYSICAL EXAM\n\nDetailed Exam:\nGait: Antalgic.\nLimp: Slight.\nVelocity of gait: Slight.\nAssistive Device: None.\n\nRIGHT Knee Evaluation\nSkin: Healed surgical scar.\nSwelling: Mild swelling.\nMaximum Tenderness: Along incision.\nExtension: 0 degrees.\nFlexion: 120 degrees.\n\nRESULTS\n\nRadiographs taken today, 3 views of the right knee, demonstrate implants in stable position without evidence of loosening or early complication.\n\nASSESSMENT\n\n• Status post right medial knee unicompartmental arthroplasty.\n\nMs. Stephanie Morales is a 44-year-old female seen in clinic today in postoperative follow up, 6 weeks status post right medial knee unicompartmental arthroplasty. Overall, the patient is healing well and will continue to improve as she heals.\n\nPLAN\n\nThe patient and I reviewed their imaging and clinical findings today. I had a discussion with Ms. Morales regarding her right knee and answered all of her questions. I explained the numbness she experiences is normal and will improve over time. I encouraged the patient to continue attending physical therapy, improving her strength, range of motion, and endurance. I noted it may take 2 to 3 months for her to feel like she is back to herself. All questions and concerns were answered during today's visit.\n\nNote provided for her employer stating: She is unable to return to work for another 6 weeks due to restrictions in lifting greater than 5 or 10 pounds and standing or sitting longer than half an hour. I explained it takes 3 months to return to a labor-intensive job.\n\nINSTRUCTIONS\n\nResume driving when feel ready to do so.\nFollow up with me in 6 weeks for a telemedicine visit.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 241,
+          "turn_id": null
+        }
+      ],
+      "text": "right medial knee unicompartmental arthroplasty",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 442,
+          "char_end": 446,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 587,
+          "char_end": 595,
+          "turn_id": null
+        }
+      ],
+      "text": "Antalgic",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "Limp",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 735,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 745,
+          "char_end": 755,
+          "turn_id": null
+        },
+        {
+          "char_start": 757,
+          "char_end": 771,
+          "turn_id": null
+        }
+      ],
+      "text": "Tenderness Along incision",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 838,
+          "turn_id": null
+        }
+      ],
+      "text": "Radiographs",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 939,
+          "char_end": 948,
+          "turn_id": null
+        }
+      ],
+      "text": "loosening",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 999,
+          "char_end": 1046,
+          "turn_id": null
+        }
+      ],
+      "text": "right medial knee unicompartmental arthroplasty",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1164,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "right medial knee unicompartmental arthroplasty",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1333,
+          "char_end": 1340,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1482,
+          "char_end": 1490,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1592,
+          "char_end": 1608,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e15"
+    }
+  ]
+}

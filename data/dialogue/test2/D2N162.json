@@ -1,0 +1,537 @@
+{
+  "doc_id": "ACI_BENCH:D2N162:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[patient] okay\n[doctor] hi gregory hi how are you doing today\n[patient] good how are you\n[doctor] i'm alright so i understand that you were having some you know right ankle pain and some swelling after you fell can you can you tell me a little bit about what happened\n[patient] yeah so i was going out to take off the trash and i you know i was icy and i i was being very careful and then i noticed that there must have been a little patch of ice or something because all i know is that i slipped and i was on the ground and i was being really really careful\n[doctor] okay yeah i know especially this this winter has been rough so you got ta watch for those little ice patches sometimes well okay so this occurred yesterday after falling on the ice so have you been able to walk on it at all\n[patient] when it first happened i could n't and i actually had a friend who was with me he was she was actually coming to visit and so she had to help me up and so last night i was you know keeping it elevated i was resting it icing it so today it feels a little better like i could put a little bit more weight on it but i'm definitely still limping it it's not my normal\n[doctor] okay alright and tell me what have you been doing for that foot pain since then\n[patient] you know other than the icing i have taken some ibuprofen and i do feel like it's it it is helping\n[doctor] okay okay very good alright and tell me have you ever injured this ankle before\n[patient] you know considering i do a lot of sports my favorite right now is soccer or my favorite always is soccer and i've had a lot of injury but i ca n't remember if i actually injured this ankle i do n't think i ever have\n[doctor] okay alright well good i mean considering how long you've been playing soccer i know you're actually playing for the community league now so that is really great representing the community\n[patient] yes it's so much fun\n[doctor] yeah and and do your kids come and watch you play\n[patient] yeah they come and watch and then now the oldest one is old enough to play himself so they have a leak for four and five -year-olds so he should be starting that soon too so i know he's really gon na enjoy that\n[doctor] that's gon na be exciting for him\n[patient] so much fun\n[doctor] that's a great you had a great soccer league of your own here in your family\n[patient] yeah my husband's really into soccer too\n[doctor] yeah\n[patient] play a lot so\n[doctor] oh\n[patient] yeah\n[doctor] well you i guess you'll be watching it for a while instead of playing it though\n[patient] i well i hope not not for too long\n[doctor] yeah we'll we'll see what we can do just to get you back out there again okay so tell me have you experienced any kind of numbness in your foot at all\n[patient] no not that no i have n't had any numbness\n[doctor] okay alright very good well let me go ahead and do a physical exam on you real quick here let me take a look at your vital signs good good everything here looks good lem me go ahead and take a look at your right ankle real quick i'm just gon na pull your pant leg up here and then look look at it now on the skin here there is ecchymosis and that's bruising this bruising gregory and over the lateral malleolus associated swelling now lem me go ahead and just feel around here how does that feel\n[patient] that hurts\n[doctor] i'm sorry so you definitely there is some tenderness to palpation and anterolaterally in the soft tissue there is no laxity on anterior drawer and inversion stress and there is no bony tenderness on palpation of the foot now i'm just gon na take a look at your right foot here just to make sure it's still intact here so okay good on the neurovascular exam of your right foot your capillary refill is less than three seconds with strong dorsalis pedis pulse and your sensation is intact to light touch so that's good sign now so gregory i did review the results of your right ankle x-ray and it showed no fracture so that's good so let's go ahead and talk about my assessment and plan so for your problem of right ankle pain what i'm seeing is that your symptoms are consistent with right ankle sprain so what i would like to do is i would like you to keep your leg elevated and especially when you're seated and to continue to ice it okay\n[patient] okay\n[doctor] alright and then you're going to also be given an aircast which is really gon na help stabilize the ankle and then you also be given some crutches for the next one to two days and then you may start walking on it as tolerated\n[patient] okay\n[doctor] okay\n[patient] okay\n[doctor] do you have any questions any other questions for me\n[patient] so when will i will i be able to play\n[doctor] well let's see now your symptoms should significantly improve in the next two weeks and what i'll do is i'm gon na follow up with you then and then see how you're doing okay and then just please continue to take the nsaids as needed to help with any of that pain that you may have okay\n[patient] okay\n[doctor] and then we will see in in a few weeks how how if you're ready to go play soccer again okay alright\n[patient] alrighty\n[doctor] well do you have any other questions for me or is there anything else i can do for you\n[patient] no i think that's it thank you\n[doctor] okay well i will have the nurse check you out and then if you experience any kind of symptoms in the next you know before your next visit with me go ahead and feel free to call the clinic okay\n[patient] okay\n[doctor] alright alright take care gregory\n[patient] alright thank you\n[doctor] bye\n[patient] bye",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 177,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "ankle pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 195,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "swelling",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 983,
+          "char_end": 990,
+          "turn_id": "t07"
+        },
+        {
+          "char_start": 994,
+          "char_end": 1002,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "keeping elevated",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1016,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "resting",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1020,
+          "char_end": 1025,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "icing",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1136,
+          "char_end": 1143,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "limping",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1234,
+          "char_end": 1243,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "foot pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1289,
+          "char_end": 1294,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "icing",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1313,
+          "char_end": 1322,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1427,
+          "char_end": 1434,
+          "turn_id": "t10"
+        },
+        {
+          "char_start": 1440,
+          "char_end": 1445,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "injured ankle",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1591,
+          "char_end": 1597,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "injury",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1634,
+          "char_end": 1641,
+          "turn_id": "t11"
+        },
+        {
+          "char_start": 1647,
+          "char_end": 1652,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "injured ankle",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2721,
+          "char_end": 2729,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "numbness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2794,
+          "char_end": 2802,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "numbness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2929,
+          "char_end": 2940,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3005,
+          "char_end": 3012,
+          "turn_id": "t28"
+        },
+        {
+          "char_start": 3018,
+          "char_end": 3029,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "look at right ankle",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3139,
+          "char_end": 3149,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "ecchymosis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3161,
+          "char_end": 3169,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "bruising",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3175,
+          "char_end": 3183,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "bruising",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3234,
+          "char_end": 3242,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "swelling",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3323,
+          "char_end": 3328,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "hurts",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3380,
+          "char_end": 3403,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "tenderness to palpation",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3455,
+          "char_end": 3461,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "laxity",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3465,
+          "char_end": 3480,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "anterior drawer",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3485,
+          "char_end": 3501,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "inversion stress",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3518,
+          "char_end": 3533,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "bony tenderness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3586,
+          "char_end": 3593,
+          "turn_id": "t30"
+        },
+        {
+          "char_start": 3599,
+          "char_end": 3609,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "look at right foot",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3676,
+          "char_end": 3694,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "neurovascular exam",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3719,
+          "char_end": 3735,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "capillary refill",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3908,
+          "char_end": 3925,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "right ankle x-ray",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3943,
+          "char_end": 3951,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "fracture",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4046,
+          "char_end": 4062,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "right ankle pain",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4121,
+          "char_end": 4139,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "right ankle sprain",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4907,
+          "char_end": 4913,
+          "turn_id": "t38"
+        }
+      ],
+      "text": "nsaids",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4914,
+          "char_end": 4923,
+          "turn_id": "t38"
+        }
+      ],
+      "text": "as needed",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4949,
+          "char_end": 4953,
+          "turn_id": "t38"
+        }
+      ],
+      "text": "pain",
+      "id": "e36"
+    }
+  ]
+}

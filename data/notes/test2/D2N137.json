@@ -1,0 +1,518 @@
+{
+  "doc_id": "ACI_BENCH:D2N137:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nAnnual exam.\n\nHISTORY OF PRESENT ILLNESS\n\nChristine Flores is a 63-year-old female presenting for her yearly exam. She has a history of high blood pressure and depression in the past. She also had a right carpal tunnel release done about 2 years ago.\n\nThe patient states that she has been doing well with her depression. She notes that she has been taking her medication as prescribed at her last visit. She states that she has been going to therapy every week, which has helped her manage her symptoms. The patient notes that she is sleeping well at night and has been getting a full 8 hours. She denies any thoughts of self-harm or harming others.\n\nThe patient states that she has been checking her blood pressure at home. She notes that her blood pressure has fluctuated lately. She states that she has not had a normal reading in a couple of weeks. The patient has continued utilizing her medications.\n\nShe states that her diet has been a little all over the place. The patient notes that she has been working more hours. She reports that she has had some headaches, however, she thought that it was related to her increased screen time.\n\nThe patient states that her right carpal tunnel release has been doing well. She denies numbness or tingling in her hands or fingers.\n\nREVIEW OF SYSTEMS\n\n• Cardiovascular: Endorses blood pressure issues.\n• Neurological: Endorses headaches.\n• Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n• Neurological/Psychological: Appropriate mood and affect. Bilateral grip strength equal. Neurologically intact.\n• Neck: Supple without thyromegaly or cervical lymphadenopathy.\n• Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n• Cardiovascular: Regular rate and rhythm. No murmurs, gallops, or rubs. No extra heart sounds.\n\nVITALS REVIEWED\n\n• Blood Pressure: Elevated.\n\nRESULTS\n\nLaboratory studies are all within normal limits.\n\nASSESSMENT AND PLAN\n\nChristine Flores is a 63-year-old female presenting for her yearly exam.\n\nDepression.\n• Medical Reasoning: She is doing well and managing this with medication and weekly therapy.\n• Medical Treatment: Continue current regimen.\n\nHypertension.\n• Medical Reasoning: Her blood pressures have been fluctuating lately. She does admit to dietary indiscretion due to her increased workload.\n• Medical Treatment: Increase lisinopril to 10 mg once daily.\n• Patient Education and Counseling: She should continue to monitor this at home and follow up in 1 month.\n\nCarpal tunnel release.\n• Medical Reasoning: She is doing well 2 years postoperatively and is asymptomatic at this time.\n• Patient Education and Counseling: She will contact us if her symptoms return.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 172,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 177,
+          "char_end": 187,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 216,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "right carpal tunnel release",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 336,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 647,
+          "turn_id": null
+        }
+      ],
+      "text": "thoughts of self-harm",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 665,
+          "turn_id": null
+        }
+      ],
+      "text": "harming others",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 705,
+          "char_end": 740,
+          "turn_id": null
+        }
+      ],
+      "text": "checking her blood pressure at home",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 775,
+          "turn_id": null
+        },
+        {
+          "char_start": 780,
+          "char_end": 790,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure fluctuated",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1077,
+          "char_end": 1086,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1188,
+          "char_end": 1215,
+          "turn_id": null
+        }
+      ],
+      "text": "right carpal tunnel release",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1256,
+          "turn_id": null
+        },
+        {
+          "char_start": 1269,
+          "char_end": 1292,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in her hands or fingers",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1292,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in her hands or fingers",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1341,
+          "char_end": 1362,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure issues",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1398,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1424,
+          "char_end": 1434,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1595,
+          "char_end": 1606,
+          "turn_id": null
+        }
+      ],
+      "text": "thyromegaly",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1634,
+          "turn_id": null
+        }
+      ],
+      "text": "cervical lymphadenopathy",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1670,
+          "char_end": 1682,
+          "turn_id": null
+        }
+      ],
+      "text": "auscultation",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1699,
+          "char_end": 1706,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1708,
+          "char_end": 1713,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1725,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1773,
+          "char_end": 1780,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1782,
+          "char_end": 1789,
+          "turn_id": null
+        }
+      ],
+      "text": "gallops",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1794,
+          "char_end": 1798,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1803,
+          "char_end": 1821,
+          "turn_id": null
+        }
+      ],
+      "text": "extra heart sounds",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1843,
+          "char_end": 1857,
+          "turn_id": null
+        },
+        {
+          "char_start": 1859,
+          "char_end": 1867,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Pressure Elevated",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1843,
+          "char_end": 1857,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Pressure",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2024,
+          "char_end": 2034,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2177,
+          "char_end": 2189,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2216,
+          "char_end": 2231,
+          "turn_id": null
+        },
+        {
+          "char_start": 2242,
+          "char_end": 2253,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures fluctuating",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2280,
+          "char_end": 2300,
+          "turn_id": null
+        }
+      ],
+      "text": "dietary indiscretion",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2362,
+          "char_end": 2372,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2376,
+          "char_end": 2381,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2382,
+          "char_end": 2392,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2501,
+          "char_end": 2522,
+          "turn_id": null
+        }
+      ],
+      "text": "Carpal tunnel release",
+      "id": "e35"
+    }
+  ]
+}

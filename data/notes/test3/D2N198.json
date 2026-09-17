@@ -1,0 +1,652 @@
+{
+  "doc_id": "ACI_BENCH:D2N198:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nBack pain.\n\nMEDICAL HISTORY\n\nPatient reports that he has a frequent history of strep throat with 4 episodes within the last 5 months.\n\nSOCIAL HISTORY\n\nPatient reports that he is a student. He also mentions that he rides his bike every so often and that he is in the process of switching jobs. His new job will be at a restaurant.\n\nFAMILY HISTORY\n\nPatient reports that his siblings are mostly healthy. He does have a brother who smokes while at home.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies fatigue or change in appetite.\nGenitourinary: Reports increased urine output.\nMusculoskeletal: Reports left-side back pain.\nEndocrine: Reports increased water consumption\n\nPHYSICAL EXAM\n\nEars, Nose, Mouth, and Throat\n- Examination of Mouth: Normal.\n- Examination of Throat: Pharynx without erythema, swelling, or exudate. Tonsils are midline.\n\nNeck\n- General Examination: Neck is supple without lymphadenopathy. No cervical adenopathy.\n\nRespiratory\n- Auscultation of Lungs: No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: No murmurs, gallops or rubs.\n\nGastrointestinal\n- Examination of Abdomen: No tenderness. No rebound or guarding.\n\nMusculoskeletal\n- Examination: No back tenderness with palpation.\n\nHematology/Lymphatic/Immunology\n- Palpation: No enlarged lymph nodes.\n\nRESULTS\n\nPrevious CT scan is reviewed and demonstrates evidence of swelling potentially related to glomerulonephritis.\n\nASSESSMENT AND PLAN\n\nGlomerulonephritis.\n- Medical Reasoning: The patient presents today with a complaint of back pain, although this was not present on exam today with palpation. He also has a history of recurrent strep throat and a recent CT scan with concerns of possible glomerulonephritis.\n- Patient Education and Counseling: The patient was recommended to watch his salt intake.\n- Medical Treatment: We will refer him to an ENT for further evaluation and treatment. We will also order a lipid panel, UA, CMP, CBC, vitamin D, and a TSH. A work note was provided today as well.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nHe will follow up in 1 week via telehealth, however if the results are abnormal this will need to be an in-person visit.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "Back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "strep throat",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 451,
+          "turn_id": null
+        }
+      ],
+      "text": "smokes",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 510,
+          "char_end": 517,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 521,
+          "char_end": 539,
+          "turn_id": null
+        }
+      ],
+      "text": "change in appetite",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 586,
+          "turn_id": null
+        }
+      ],
+      "text": "increased urine output",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 613,
+          "char_end": 632,
+          "turn_id": null
+        }
+      ],
+      "text": "left-side back pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 653,
+          "char_end": 680,
+          "turn_id": null
+        }
+      ],
+      "text": "increased water consumption",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 749,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Mouth",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Throat",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 800,
+          "char_end": 808,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 818,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 830,
+          "turn_id": null
+        }
+      ],
+      "text": "exudate",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 920,
+          "turn_id": null
+        }
+      ],
+      "text": "lymphadenopathy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 925,
+          "char_end": 944,
+          "turn_id": null
+        }
+      ],
+      "text": "cervical adenopathy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 961,
+          "char_end": 982,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 994,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 996,
+          "char_end": 1001,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1006,
+          "char_end": 1013,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1033,
+          "char_end": 1054,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1059,
+          "char_end": 1066,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1068,
+          "char_end": 1075,
+          "turn_id": null
+        }
+      ],
+      "text": "gallops",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1079,
+          "char_end": 1083,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1105,
+          "char_end": 1127,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Abdomen",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1142,
+          "turn_id": null
+        }
+      ],
+      "text": "tenderness",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1147,
+          "char_end": 1154,
+          "turn_id": null
+        }
+      ],
+      "text": "rebound",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1166,
+          "turn_id": null
+        }
+      ],
+      "text": "guarding",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1203,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "back tenderness",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1224,
+          "char_end": 1233,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1270,
+          "char_end": 1279,
+          "turn_id": null
+        }
+      ],
+      "text": "Palpation",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1284,
+          "char_end": 1304,
+          "turn_id": null
+        }
+      ],
+      "text": "enlarged lymph nodes",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1325,
+          "char_end": 1332,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1374,
+          "char_end": 1382,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1406,
+          "char_end": 1424,
+          "turn_id": null
+        }
+      ],
+      "text": "glomerulonephritis",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1448,
+          "char_end": 1466,
+          "turn_id": null
+        }
+      ],
+      "text": "Glomerulonephritis",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1536,
+          "char_end": 1545,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1596,
+          "char_end": 1605,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1642,
+          "char_end": 1654,
+          "turn_id": null
+        }
+      ],
+      "text": "strep throat",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1668,
+          "char_end": 1675,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1702,
+          "char_end": 1720,
+          "turn_id": null
+        }
+      ],
+      "text": "glomerulonephritis",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1931,
+          "turn_id": null
+        }
+      ],
+      "text": "lipid panel",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1933,
+          "char_end": 1935,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1937,
+          "char_end": 1940,
+          "turn_id": null
+        }
+      ],
+      "text": "CMP",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1942,
+          "char_end": 1945,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1947,
+          "char_end": 1956,
+          "turn_id": null
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 1967,
+          "turn_id": null
+        }
+      ],
+      "text": "TSH",
+      "id": "e46"
+    }
+  ]
+}

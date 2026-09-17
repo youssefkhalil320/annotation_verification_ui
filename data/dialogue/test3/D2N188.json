@@ -1,0 +1,888 @@
+{
+  "doc_id": "ACI_BENCH:D2N188:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hi jaqueline how are you i heard that you injured your ankle\n[patient] yeah it's not going so great\n[doctor] what what happened to your ankle\n[patient] well i was doing something i did n't really want to be doing and i fell and now my ankle hurts\n[doctor] okay well what were you doing were you hiking or biking or what were you doing\n[patient] i was in a mountain biking messenger\n[doctor] you were in a mountain biking lesson and you fell off your bike and twisted your ankle\n[patient] yes\n[doctor] and what ankle was bothering you\n[patient] the right one\n[doctor] your right ankle okay and did it twist like did your ankle twist outward or did your ankle twist inward do you know\n[patient] my ankle twisted outward\n[doctor] your ankle twisted outward and where are you having the most pain is it is it kind of like right on your outer ankle or is it more in your foot\n[patient] outer ankle\n[doctor] it's in your outer ankle okay alright and do you have any numbing or tingling in your toes at all\n[patient] i have some tingling i have no tingling i have some numbing going on and some numbing going on in other places\n[doctor] really like where\n[patient] my heart\n[doctor] alright well i'm an orthopedic person so i ca n't talk to you about your numbing hearts okay now are you able to move your ankle\n[patient] a little bit\n[doctor] are you able to walk on your ankle\n[patient] not really\n[doctor] no\n[patient] not so great\n[doctor] are you limping\n[patient] yeah\n[doctor] you're limping okay have you taken anything for the pain\n[patient] i've taken tylenol\n[doctor] you took tylenol\n[patient] mm-hmm\n[doctor] okay did that help at all\n[patient] no\n[doctor] no it did n't help alright did you hear anything pop or anything like that when\n[patient] i heard like an like a crack crackle so\n[doctor] you heard a crack\n[patient] yeah\n[doctor] okay alright how long have you been mountain biking\n[patient] for like three years\n[doctor] three years wow\n[patient] or so\n[doctor] what where is your favorite place to go mountain biking\n[patient] i do n't remember\n[doctor] is it at north point\n[patient] no\n[doctor] no it's not at north point\n[patient] maybe i do n't know\n[doctor] do you or do you like going to colorado\n[patient] hmmm kind of a time\n[doctor] okay alright okay alright well let's go ahead and do a quick physical exam okay so i looked here at your vital signs and have you had any fever chills or anything like that since this happened\n[patient] i've had a fever it hits the pain hits\n[doctor] you've had a fever how high was your fever\n[patient] like two hundred\n[doctor] that's not a fever alright okay so lem me go ahead you looking at your vital signs you do n't have a fever now your temperature is ninety eight . six your blood pressure is fine at one eighteen over seventy seven and your heart rate looks good at seventy seven beats per minute on your right ankle exam there is some edema and erythema on the lateral malleolus on the right hand side there is associated ecchymosis and a few excoriations does it hurt when i press on it\n[patient] yes\n[doctor] there is pain to palpation of the right lateral malleolus there is decreased flexion and extension of the right ankle as well as internal and external rotation there is no apparent injury to the knee or the foot okay so what does that mean jacqueline seem awfully giggling right now so what does that mean so i took a i had the nurse do an x-ray on you before i came in and reviewing the results of your right ankle x-ray shows that you have no acute fracture or bony abnormality which is good you just have a some soft tissue injury so let's talk a little bit about my assessment and plan so for\n[patient] really\n[doctor] yeah so for your assessment and plan i do believe you have a an acute right ankle sprain i wan na go ahead and put you in an air cast we can give you some crutches i wan na go ahead and prescribe some meloxicam fifteen milligrams once a day you should ice the area for about twenty minutes five times a day and weight-bear as tolerated i am anticipating you to start feeling better in the next couple of weeks if you're not come back here and see me and we will consider physical therapy or pursuing further imaging okay\n[patient] okay bye",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 58,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 64,
+          "char_end": 69,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injured ankle",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 244,
+          "char_end": 255,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "ankle hurts",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 468,
+          "char_end": 475,
+          "turn_id": "t07"
+        },
+        {
+          "char_start": 481,
+          "char_end": 486,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "twisted ankle",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 519,
+          "char_end": 538,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "ankle was bothering",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 629,
+          "char_end": 640,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "ankle twist",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 672,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "ankle twist",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 705,
+          "char_end": 718,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "ankle twisted",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 741,
+          "char_end": 754,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "ankle twisted",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 801,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 969,
+          "char_end": 976,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "numbing",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 980,
+          "char_end": 988,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "tingling",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1050,
+          "char_end": 1058,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "tingling",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1071,
+          "char_end": 1078,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "numbing",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1104,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "numbing",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1258,
+          "char_end": 1272,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "numbing hearts",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1454,
+          "char_end": 1461,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "limping",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1493,
+          "char_end": 1500,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "limping",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1538,
+          "char_end": 1542,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1564,
+          "char_end": 1571,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1590,
+          "char_end": 1597,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1721,
+          "char_end": 1724,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "pop",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1791,
+          "char_end": 1798,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "crackle",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1823,
+          "char_end": 1828,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "crack",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2372,
+          "char_end": 2383,
+          "turn_id": "t49"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2405,
+          "char_end": 2410,
+          "turn_id": "t49"
+        }
+      ],
+      "text": "fever",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2411,
+          "char_end": 2417,
+          "turn_id": "t49"
+        }
+      ],
+      "text": "chills",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2481,
+          "char_end": 2486,
+          "turn_id": "t50"
+        }
+      ],
+      "text": "fever",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2499,
+          "char_end": 2503,
+          "turn_id": "t50"
+        }
+      ],
+      "text": "pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2531,
+          "char_end": 2536,
+          "turn_id": "t51"
+        }
+      ],
+      "text": "fever",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2555,
+          "char_end": 2560,
+          "turn_id": "t51"
+        }
+      ],
+      "text": "fever",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2610,
+          "char_end": 2615,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "fever",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2668,
+          "char_end": 2679,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2698,
+          "char_end": 2703,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "fever",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2713,
+          "char_end": 2724,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "temperature",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2752,
+          "char_end": 2766,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2819,
+          "char_end": 2829,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "heart rate",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2883,
+          "char_end": 2899,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "right ankle exam",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2914,
+          "char_end": 2919,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "edema",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2924,
+          "char_end": 2932,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "erythema",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3001,
+          "char_end": 3011,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "ecchymosis",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3022,
+          "char_end": 3034,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "excoriations",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3043,
+          "char_end": 3047,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "hurt",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3099,
+          "char_end": 3116,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "pain to palpation",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3157,
+          "char_end": 3166,
+          "turn_id": "t55"
+        },
+        {
+          "char_start": 3179,
+          "char_end": 3188,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "decreased extension",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3157,
+          "char_end": 3166,
+          "turn_id": "t55"
+        },
+        {
+          "char_start": 3219,
+          "char_end": 3227,
+          "turn_id": "t55"
+        },
+        {
+          "char_start": 3241,
+          "char_end": 3249,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "decreased internal rotation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3157,
+          "char_end": 3166,
+          "turn_id": "t55"
+        },
+        {
+          "char_start": 3232,
+          "char_end": 3249,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "decreased external rotation",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3157,
+          "char_end": 3174,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "decreased flexion",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3271,
+          "char_end": 3277,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "injury",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3430,
+          "char_end": 3435,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3494,
+          "char_end": 3511,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "right ankle x-ray",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3541,
+          "char_end": 3549,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "fracture",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3553,
+          "char_end": 3569,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "bony abnormality",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3605,
+          "char_end": 3623,
+          "turn_id": "t55"
+        }
+      ],
+      "text": "soft tissue injury",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3783,
+          "char_end": 3801,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "right ankle sprain",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3799,
+          "char_end": 3801,
+          "turn_id": "t57"
+        },
+        {
+          "char_start": 3824,
+          "char_end": 3827,
+          "turn_id": "t57"
+        },
+        {
+          "char_start": 3838,
+          "char_end": 3846,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "in put air cast",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3914,
+          "char_end": 3923,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3924,
+          "char_end": 3942,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "fifteen milligrams",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3943,
+          "char_end": 3953,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "once a day",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4184,
+          "char_end": 4200,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4221,
+          "char_end": 4228,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "imaging",
+      "id": "e60"
+    }
+  ]
+}

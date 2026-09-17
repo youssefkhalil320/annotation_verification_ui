@@ -1,0 +1,302 @@
+{
+  "doc_id": "ACI_BENCH:D2N107:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nLow back pain.\n\nHISTORY OF PRESENT ILLNESS\n\nBryan Brooks is a pleasant 39-year-old male who presents to the clinic today for the evaluation of low back pain. He is accompanied today by his partner.\n\nApproximately 2 hours after he finished raking leaves yesterday, the patient began to feel a tightening sensation in his low back and tingling in his right foot. Prior to this, he recalls a similar episode approximately 3 years ago in which his symptoms resolved after 1 day. Ice and Advil provided no relief, but his pain is less severe when he is in a seated position and taking a hot shower helped alleviate his pain. The patient's partner reports that his pain seems to worsen when he stands up.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports low back pain.\nNeurological: Reports tingling in the right foot.\n\nPHYSICAL EXAM\n\nNEURO: Normal strength and sensation.\nMSK: Examination of the lumbar spine: No pain on extension. Some pain with flexion. Pain with palpation around L5. Dorsiflexion is normal. Pulses are equal in all extremities.\n\nRESULTS\n\nX-rays obtained and reviewed in office today were normal.\n\nASSESSMENT\n\nLow back sprain.\n\nPLAN\n\nThe examination findings and x-ray results were discussed with the patient and his partner today. I recommend we treat this conservatively with rest, meloxicam, and formal physical therapy. If he fails to improve, we can consider obtaining an MRI for further evaluation.\n\nINSTRUCTIONS\n\nThe patient will follow up in 2 weeks.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "Low back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 173,
+          "turn_id": null
+        }
+      ],
+      "text": "low back pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 345,
+          "turn_id": null
+        }
+      ],
+      "text": "tightening sensation in his low back",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 376,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in his right foot",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 505,
+          "turn_id": null
+        }
+      ],
+      "text": "Advil",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 534,
+          "char_end": 538,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 635,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 680,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 774,
+          "turn_id": null
+        }
+      ],
+      "text": "low back pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 798,
+          "char_end": 824,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in the right foot",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 885,
+          "char_end": 916,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the lumbar spine",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 921,
+          "char_end": 938,
+          "turn_id": null
+        }
+      ],
+      "text": "pain on extension",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 962,
+          "turn_id": null
+        }
+      ],
+      "text": "pain with flexion",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 993,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with palpation around L5",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1072,
+          "turn_id": null
+        }
+      ],
+      "text": "X-rays",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1137,
+          "char_end": 1152,
+          "turn_id": null
+        }
+      ],
+      "text": "Low back sprain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1190,
+          "char_end": 1195,
+          "turn_id": null
+        }
+      ],
+      "text": "x-ray",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1311,
+          "char_end": 1320,
+          "turn_id": null
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1333,
+          "char_end": 1349,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1404,
+          "char_end": 1407,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e21"
+    }
+  ]
+}

@@ -1,0 +1,910 @@
+{
+  "doc_id": "ACI_BENCH:D2N120:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hello larry how are you doing today\n[patient] i've been better my primary care doctor wanted me to see you for this back pain that i've been having for a couple of years now\n[doctor] okay\n[patient] and i have tried so many things and just nothing seems to work\n[doctor] i'm sorry to hear that now do you remember what caused the pain initially\n[patient] you know i never fell or was in an accident but i do remember it all happened like i started having back pain after i was moving furniture one weekend\n[doctor] okay and now can you describe the pain for me\n[patient] yeah it feels like a sharp stabbing pain in my back and it does go down even down to my right leg sometimes all the way down to my toe it feels like my big toe\n[doctor] okay\n[patient] and i also feel like i just ca n't get comfortable which is worse when i sit down okay yeah\n[doctor] okay now with that do you have any numbness or tingling associated with your back pain\n[patient] yeah i do get some numbness and tingling especially to my right leg that goes down to my foot\n[doctor] okay\n[patient] let me separate these\n[doctor] and how about a loss of sensation in the genital or the rectal area\n[patient] no nothing like that\n[doctor] okay now do you have any weakness\n[patient] i would n't say i have any weakness no\n[doctor] okay do you experience like any loss of control of your bladder or your bowels\n[patient] no\n[doctor] okay now you mentioned earlier that you you have some tried tried some things in the past so tell me what were they\n[patient] so i've tried some physical therapy before and so when it gets really bad they've even had to prescribe some strong pain medications for me but that was only temporary and they even mentioned surgery to me in the past but i really would like to avoid surgery\n[doctor] okay sure so tell me what is your day like\n[patient] my day so i try to be as active as i can but of course it's been difficult with my back pain and so because of that i have gained some weight over the past years\n[doctor] okay alright well i'm sorry to hear that i know that you used to like playing golf\n[patient] yeah i and you know golf is relatively new for me i've been trying to get into it but this has definitely set me back\n[doctor] yeah i'm sorry yep probably now at the peak of you know just learning it and being able to do more with it this comes and this happens right\n[patient] exactly\n[doctor] well let's see what we can do for you here so you can go out into the you know the golf course again now do you tell me do you have any family members with spine conditions\n[patient] no i ca n't recall any family members\n[doctor] okay alright and do you smoke\n[patient] not now i i quit about twenty years ago\n[doctor] okay alright well alright well i like to do a quick physical exam on you here\n[patient] okay\n[doctor] i'm gon na go ahead here i reviewed your vitals and they overall look pretty good so that's a good sign now on your musculoskeletal back exam there is no overlying erythema and that just means redness or ecchymosis and that just means bruising of the skin now there is midline tenderness at l4 l5 disk space with right-sided lumbar paravertebral tenderness so do me a favor and i'm gon na just have you you know bend forward and straighten up a bit\n[patient] okay that's painful\n[doctor] sorry so definitely some pain with lumbar flexion and supine straight leg test is positive so on your neurological examination there is decreased sensation to light touch at the right lateral thigh at l4 dermatome okay and i'm just gon na take a look at your knees here real quick and then your your ankles so patellar and achilles reflexes are symmetrical so good now i reviewed the results of your mri and it shows disk herniation with nerve impingement so let me tell you about my assessment and plan here larry so for your problem of chronic lumbar back pain so based on your symptoms your exam and reviewing your mri results your symptoms are consistent with an l4 l5 herniated disk with radicul radiculopathy so this means that one of your disks that sits between your spinal vertebrae is bulging out and this bulge is pinching on some nerves and that's why you feel that tingling in your leg so yeah yeah so i am recommending a spinal injection with a strong inflammatory medication called a corticosteroid and what i do is i will inject the corticosteroid into that lumbar spine under fluoroscopy which you can think of you know an x-ray to help localize to the exact area of your pain now this should this should help the inflammation that is causing the pain so what do you think about that\n[patient] is there something i'm gon na have to do all the time\n[doctor] well you know patients are different so what we do is we will monitor you and we see how you respond to the injection and the patient's intervals can be different as well but we usually do not do more than four times a year\n[patient] okay okay\n[doctor] alright and it's not a long procedure it's it's relatively quick and common and you should be out of the office within an hour\n[patient] okay\n[doctor] okay\n[patient] alright sounds good\n[doctor] alright well let's go ahead and get you started on the first one today if that works for you if not we'll get you scheduled to start your first injection\n[patient] alright thank you\n[doctor] alright thank you\n[patient] bye",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 134,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 342,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 463,
+          "char_end": 472,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "back pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 561,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 619,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 813,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "ca n't get comfortable",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 907,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "numbness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 911,
+          "char_end": 919,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "tingling",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 941,
+          "char_end": 950,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "back pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 980,
+          "char_end": 988,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "numbness",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 993,
+          "char_end": 1001,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "tingling",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1126,
+          "char_end": 1143,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "loss of sensation",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1251,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "weakness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1289,
+          "char_end": 1297,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "weakness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1360,
+          "turn_id": "t19"
+        },
+        {
+          "char_start": 1366,
+          "char_end": 1373,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "loss of control of bladder",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1360,
+          "turn_id": "t19"
+        },
+        {
+          "char_start": 1382,
+          "char_end": 1388,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "loss of control of bowels",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1556,
+          "char_end": 1572,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1669,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "pain medications",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1729,
+          "char_end": 1736,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "surgery",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1788,
+          "char_end": 1795,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "surgery",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1941,
+          "char_end": 1950,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "back pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1981,
+          "char_end": 1987,
+          "turn_id": "t24"
+        },
+        {
+          "char_start": 1993,
+          "char_end": 1999,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "gained weight",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 2573,
+          "char_end": 2589,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "spine conditions",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2671,
+          "char_end": 2676,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "smoke",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2879,
+          "char_end": 2885,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "vitals",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2954,
+          "char_end": 2979,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "musculoskeletal back exam",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3002,
+          "char_end": 3010,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "erythema",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3031,
+          "char_end": 3038,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "redness",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3042,
+          "char_end": 3052,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "ecchymosis",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3073,
+          "char_end": 3081,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "bruising",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3107,
+          "char_end": 3125,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "midline tenderness",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3151,
+          "char_end": 3194,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "right-sided lumbar paravertebral tenderness",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3309,
+          "char_end": 3316,
+          "turn_id": "t36"
+        }
+      ],
+      "text": "painful",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3351,
+          "char_end": 3355,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "pain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3380,
+          "char_end": 3404,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "supine straight leg test",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3408,
+          "char_end": 3416,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "positive",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3428,
+          "char_end": 3452,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "neurological examination",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3462,
+          "char_end": 3496,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "decreased sensation to light touch",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3726,
+          "char_end": 3729,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "mri",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3743,
+          "char_end": 3758,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "disk herniation",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3764,
+          "char_end": 3781,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "nerve impingement",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3872,
+          "char_end": 3888,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "lumbar back pain",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3944,
+          "char_end": 3947,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "mri",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3993,
+          "char_end": 4013,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "l4 l5 herniated disk",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4027,
+          "char_end": 4040,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "radiculopathy",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4121,
+          "char_end": 4132,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "bulging out",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4142,
+          "char_end": 4147,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "bulge",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4151,
+          "char_end": 4162,
+          "turn_id": "t37"
+        },
+        {
+          "char_start": 4168,
+          "char_end": 4174,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "pinching on nerves",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4204,
+          "char_end": 4212,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "tingling",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4261,
+          "char_end": 4277,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "spinal injection",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4268,
+          "char_end": 4274,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "inject",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4292,
+          "char_end": 4315,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "inflammatory medication",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4325,
+          "char_end": 4339,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "corticosteroid",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4375,
+          "char_end": 4389,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "corticosteroid",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4419,
+          "char_end": 4430,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "fluoroscopy",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4466,
+          "char_end": 4471,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4515,
+          "char_end": 4519,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "pain",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4557,
+          "char_end": 4569,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4590,
+          "char_end": 4594,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "pain",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4762,
+          "char_end": 4769,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "monitor",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4808,
+          "char_end": 4817,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "injection",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4906,
+          "char_end": 4923,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "four times a year",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5292,
+          "char_end": 5301,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "injection",
+      "id": "e63"
+    }
+  ]
+}

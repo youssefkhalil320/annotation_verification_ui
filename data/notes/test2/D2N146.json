@@ -1,0 +1,573 @@
+{
+  "doc_id": "ACI_BENCH:D2N146:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nAbdominal pain.\n\nMEDICAL HISTORY\n\nPatient reports history of type 2 diabetes.\n\nSOCIAL HISTORY\n\nPatient reports enjoying nature photography.\n\nFAMILY HISTORY\n\nPatient reports family history of cholelithiasis. Both of his parents have had cholecystectomies.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Reports low-grade fevers.\nGastrointestinal: Reports right-sided abdominal pain and nausea. Denies vomiting.\n\nVITALS\n\nBlood Pressure: 128/88 mmHg.\nRespiratory Rate: 16 breaths per minute.\nHeart Rate: 68 beats per minute.\nOxygen Saturation: 99% on room air.\nBody Temperature: Afebrile.\n\nPHYSICAL EXAM\n\nRespiratory\n- Auscultation of Lungs: Clear and equal bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. No ectopic beats. No murmurs, clicks, or rubs.\n\nGastrointestinal\n- Examination of Abdomen: Soft, nondistended abdomen. Positive slight guarding to the right upper quadrant, but without rebound tenderness. Positive for Murphy signs. Peritoneal signs not appreciated.\n- Auscultation: Bowel sounds normal in all 4 quadrants.\n\nRESULTS\n\nAbdominal ultrasound obtained at an outside facility is reviewed today. This demonstrates multiple gallstones present in the gallbladder. I do appreciate some mild thickening. The common bile duct size is within normal limits at 4.1 mm.\n\nASSESSMENT AND PLAN\n\n1. Mild cholecystitis with gallstones.\n- Medical Reasoning: Based on the patient's symptoms, exam findings, and ultrasound, I do believe he has some mild cholecystitis with gallstones. I do not appreciate any frank obstruction, but it looks like his gallbladder is inflamed. This appears to have happened maybe over the last few weeks or since he has been symptomatic.\n- Patient Education and Counseling: I had a thorough discussion with the patient concerning surgical treatment. The preoperative, intraoperative, and postoperative courses of care were described and discussed. I explained the surgery will take approximately 1 to 1.5 hours, and he will probably spend the night in the hospital for post-procedure monitoring. We also discussed that he should avoid high fat foods after surgery and eat foods that are high in fiber. All questions were answered.\n- Medical Treatment: Since he has not had any improvement with dietary modifications, I recommend a laparoscopic cholecystectomy. A mutually agreed upon surgical date has been scheduled for 1 week.\n\n2. Type 2 diabetes.\n- Medical Reasoning: The patient is currently managing his diabetes with diet and exercise.\n- Patient Education and Counseling: I advised the patient he should refrain from hiking in the immediate postoperative period; however, he may return to walking outdoors on solid ground 1 week status post-surgery.\nMedical Treatment: I recommended he follow up with his physician regarding his impending surgery. We will continue to monitor his diabetes as has been outlined by either his endocrinologist or his primary care provider.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up with me 1 week status post-surgery.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 93,
+          "turn_id": null
+        }
+      ],
+      "text": "type 2 diabetes",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 222,
+          "turn_id": null
+        }
+      ],
+      "text": "cholelithiasis",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 253,
+          "char_end": 270,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomies",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 332,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 360,
+          "char_end": 386,
+          "turn_id": null
+        }
+      ],
+      "text": "right-sided abdominal pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 397,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 406,
+          "char_end": 414,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 425,
+          "char_end": 439,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Pressure",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 454,
+          "char_end": 470,
+          "turn_id": null
+        }
+      ],
+      "text": "Respiratory Rate",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 495,
+          "char_end": 505,
+          "turn_id": null
+        }
+      ],
+      "text": "Heart Rate",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 528,
+          "char_end": 545,
+          "turn_id": null
+        }
+      ],
+      "text": "Oxygen Saturation",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 580,
+          "turn_id": null
+        }
+      ],
+      "text": "Body Temperature",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 643,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 713,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 756,
+          "turn_id": null
+        }
+      ],
+      "text": "ectopic beats",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 768,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 776,
+          "turn_id": null
+        }
+      ],
+      "text": "clicks",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 785,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 807,
+          "char_end": 829,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Abdomen",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 911,
+          "turn_id": null
+        }
+      ],
+      "text": "guarding to the right upper quadrant",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 925,
+          "char_end": 943,
+          "turn_id": null
+        }
+      ],
+      "text": "rebound tenderness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 958,
+          "char_end": 970,
+          "turn_id": null
+        }
+      ],
+      "text": "Murphy signs",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 972,
+          "char_end": 988,
+          "turn_id": null
+        }
+      ],
+      "text": "Peritoneal signs",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1008,
+          "char_end": 1020,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1072,
+          "char_end": 1092,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal ultrasound",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1171,
+          "char_end": 1181,
+          "turn_id": null
+        }
+      ],
+      "text": "gallstones",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1236,
+          "char_end": 1246,
+          "turn_id": null
+        }
+      ],
+      "text": "thickening",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1339,
+          "char_end": 1352,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystitis",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1368,
+          "turn_id": null
+        }
+      ],
+      "text": "gallstones",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1443,
+          "char_end": 1453,
+          "turn_id": null
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1485,
+          "char_end": 1498,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystitis",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1504,
+          "char_end": 1514,
+          "turn_id": null
+        }
+      ],
+      "text": "gallstones",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1546,
+          "char_end": 1557,
+          "turn_id": null
+        }
+      ],
+      "text": "obstruction",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1581,
+          "char_end": 1592,
+          "turn_id": null
+        },
+        {
+          "char_start": 1596,
+          "char_end": 1604,
+          "turn_id": null
+        }
+      ],
+      "text": "gallbladder inflamed",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2293,
+          "char_end": 2321,
+          "turn_id": null
+        }
+      ],
+      "text": "laparoscopic cholecystectomy",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2395,
+          "char_end": 2410,
+          "turn_id": null
+        }
+      ],
+      "text": "Type 2 diabetes",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2471,
+          "char_end": 2479,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2836,
+          "char_end": 2856,
+          "turn_id": null
+        }
+      ],
+      "text": "monitor his diabetes",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2848,
+          "char_end": 2856,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e40"
+    }
+  ]
+}

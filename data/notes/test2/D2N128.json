@@ -1,0 +1,620 @@
+{
+  "doc_id": "ACI_BENCH:D2N128:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nFollow-up of chronic problem.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Carolyn Garcia is a 49-year-old female who presents to the clinic today for follow-up of her chronic problem.\n\nThe patient reports her osteoarthritis has been flaring up a little lately, and she would like to talk about that, primarily in her elbows. She states she has been sitting at the computer more in the office, so she is unsure if it is stagnant in that position all day. She notes her right elbow bothers her more than her left elbow, but she is primarily typing all day versus writing. She denies any other joint pain. She notes occasional numbness and tingling in her hands, which she tries to shake out her arms to relieve the numbness.\n\nShe also has a history of gout. Her last episode was about 3 months ago. She had some inflammation of her toe at that time. She denies any other issues with that. She states the medication she was given at that time helped with her gout and she has not seen a flare up since. She reports her psoriasis is under control and has not been a major problem for her either. She is still on colchicine 0.6 mg twice a day as needed for flare-ups of her gout.\n\nREVIEW OF SYSTEMS\n\n• Musculoskeletal: Endorses joint pain.\n• Neurological: Endorses numbness and tingling.\n\nPHYSICAL EXAMINATION\n\n• Neck: Supple without lymphadenopathy.\n• Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n• Cardiovascular: Regular rate and rhythm.\n• Gastrointestinal: Abdomen is soft.\n• Musculoskeletal: No edema to the lower extremity. Examination of  the right elbow, there is some edema and inflammation of the right olecranon. Some tenderness to palpation of the olecranon bursa. Pain with pronation and supination. Pain with flexion and extension of the right arm.\n\nASSESSMENT AND PLAN\n\nA 49-year-old female here today for followup of chronic problem.\n\n1. Gout\n• Medical Treatment: Continue colchicine 0.6 mg twice a day as needed for flare ups.\n\n2. Osteoarthritis\n• Medical Treatment: We will order a right elbow x-ray. We will prescribe meloxicam 15 mg once a day for pain and swelling.\n\n3. Psoriasis\n• Medical Treatment: Continue steroid cream.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 215,
+          "char_end": 229,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 497,
+          "turn_id": null
+        }
+      ],
+      "text": "right elbow bothers her",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 607,
+          "turn_id": null
+        }
+      ],
+      "text": "joint pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 630,
+          "char_end": 638,
+          "turn_id": null
+        },
+        {
+          "char_start": 652,
+          "char_end": 664,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in her hands",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 664,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in her hands",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 719,
+          "char_end": 727,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 756,
+          "char_end": 760,
+          "turn_id": null
+        }
+      ],
+      "text": "gout",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 816,
+          "char_end": 839,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammation of her toe",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 962,
+          "char_end": 966,
+          "turn_id": null
+        }
+      ],
+      "text": "gout",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1022,
+          "char_end": 1031,
+          "turn_id": null
+        }
+      ],
+      "text": "psoriasis",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1114,
+          "char_end": 1124,
+          "turn_id": null
+        }
+      ],
+      "text": "colchicine",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1131,
+          "turn_id": null
+        }
+      ],
+      "text": "0.6 mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1143,
+          "turn_id": null
+        }
+      ],
+      "text": "twice a day",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1144,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed for flare-ups of her gout",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "gout",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1229,
+          "char_end": 1239,
+          "turn_id": null
+        }
+      ],
+      "text": "joint pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1266,
+          "char_end": 1274,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1335,
+          "char_end": 1350,
+          "turn_id": null
+        }
+      ],
+      "text": "lymphadenopathy",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1386,
+          "char_end": 1398,
+          "turn_id": null
+        }
+      ],
+      "text": "auscultation",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1415,
+          "char_end": 1422,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1424,
+          "char_end": 1429,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1441,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1545,
+          "char_end": 1573,
+          "turn_id": null
+        }
+      ],
+      "text": "edema to the lower extremity",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1575,
+          "char_end": 1606,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of  the right elbow",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1622,
+          "char_end": 1627,
+          "turn_id": null
+        },
+        {
+          "char_start": 1645,
+          "char_end": 1667,
+          "turn_id": null
+        }
+      ],
+      "text": "edema of the right olecranon",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1632,
+          "char_end": 1667,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammation of the right olecranon",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1674,
+          "char_end": 1720,
+          "turn_id": null
+        }
+      ],
+      "text": "tenderness to palpation of the olecranon bursa",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1722,
+          "char_end": 1756,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with pronation and supination",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1758,
+          "char_end": 1806,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with flexion and extension of the right arm",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1899,
+          "char_end": 1903,
+          "turn_id": null
+        }
+      ],
+      "text": "Gout",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1934,
+          "char_end": 1944,
+          "turn_id": null
+        }
+      ],
+      "text": "colchicine",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1945,
+          "char_end": 1951,
+          "turn_id": null
+        }
+      ],
+      "text": "0.6 mg",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1952,
+          "char_end": 1963,
+          "turn_id": null
+        }
+      ],
+      "text": "twice a day",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 1987,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed for flare ups",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1993,
+          "char_end": 2007,
+          "turn_id": null
+        }
+      ],
+      "text": "Osteoarthritis",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2045,
+          "char_end": 2062,
+          "turn_id": null
+        }
+      ],
+      "text": "right elbow x-ray",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2082,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2092,
+          "char_end": 2097,
+          "turn_id": null
+        }
+      ],
+      "text": "15 mg",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2098,
+          "char_end": 2108,
+          "turn_id": null
+        }
+      ],
+      "text": "once a day",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2122,
+          "char_end": 2130,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2136,
+          "char_end": 2145,
+          "turn_id": null
+        }
+      ],
+      "text": "Psoriasis",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2176,
+          "char_end": 2183,
+          "turn_id": null
+        }
+      ],
+      "text": "steroid",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2184,
+          "char_end": 2189,
+          "turn_id": null
+        }
+      ],
+      "text": "cream",
+      "id": "e43"
+    }
+  ]
+}

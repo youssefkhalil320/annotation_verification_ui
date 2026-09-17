@@ -1,0 +1,526 @@
+{
+  "doc_id": "ACI_BENCH:D2N190:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "HISTORY OF PRESENT ILLNESS\n\nBeverly Howard is a pleasant 33-year-old female who presents to the clinic today for the evaluation of right knee pain.\n\nThe patient reports that she fell off of a tandem bicycle and struck her right knee on a curb approximately 2 weeks ago. After the injury, she took ibuprofen and treated the wound, but the pain has persisted. She localizes her pain to the medial aspect of the knee. She also reports occasional clicking with full extension of the knee, as well as occasional instability with ambulation. The patient states that her pain is the worst when ambulating up an incline. She denies any previous right knee issues. She enjoys walking her dogs and swimming but has not done this since her injury.\n\nSOCIAL HISTORY\n\nThe patient works in a Children's Hospital.\n\nREVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right knee pain, clicking, and instability.\n\nPHYSICAL EXAM\n\nSKIN: Warm, dry and intact\nMSK: \nExamination of the right knee: Tenderness along the medial joint line. Pes bursa is nontender. The epicondyle and posterior aspect of her knee are soft. Popliteal space is nontender. The lateral aspect of her knee is nontender. There is a dime-sized abrasion that is dry and appears to be 1 week old, over the medial patella. No scars. Full extension. Full symmetric flexion. No deformity. Valgus stress of the medial and lateral collateral ligament are intact. Laxity with posterior drawer testing. 1+ posterior drawer test. Negative Lachman test. Patella tracks fine. No crepitus. Negative McMurray test.\nExamination of the left knee: Full symmetric flexion. No deformity. Valgus stress of the medial collateral ligament is intact. Lateral collateral ligament is intact.\n\nRESULTS\n\n4 views of the right knee were taken. These reveal no evidence of any fractures or dislocations. Joint space is well preserved. No other abnormalities are noted.\n\nASSESSMENT\n\nRight knee pain, possible posterior cruciate ligament sprain.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, we had a lengthy discussion in regard to her current symptoms. I explained that her x-rays did not reveal any signs of a fracture. I recommend we obtain an MRI of the right knee to evaluate for a possible posterior cruciate ligament injury. In the meantime, I have recommended that the patient be placed in a brace to provide increased support. I have also recommended that the patient attend formal physical therapy to work on her range of motion and strengthening. I advised her to ice her right knee a few times a day to reduce the swelling. She can continue taking her ibuprofen if she finds this helpful, but I am also going to send in a prescription medication she can take less frequently. The patient will follow up with me in 4 to 6 weeks to check on her progress.\n\nORDERS\n\nMRI, right knee\nPrescription medication",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 146,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 297,
+          "char_end": 306,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 328,
+          "turn_id": null
+        }
+      ],
+      "text": "wound",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 342,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 413,
+          "turn_id": null
+        }
+      ],
+      "text": "pain to the medial aspect of the knee",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 443,
+          "char_end": 483,
+          "turn_id": null
+        }
+      ],
+      "text": "clicking with full extension of the knee",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 507,
+          "char_end": 534,
+          "turn_id": null
+        }
+      ],
+      "text": "instability with ambulation",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 568,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 843,
+          "char_end": 858,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 868,
+          "turn_id": null
+        }
+      ],
+      "text": "clicking",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 874,
+          "char_end": 885,
+          "turn_id": null
+        }
+      ],
+      "text": "instability",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 936,
+          "char_end": 965,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the right knee",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 967,
+          "char_end": 1005,
+          "turn_id": null
+        }
+      ],
+      "text": "Tenderness along the medial joint line",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1186,
+          "char_end": 1194,
+          "turn_id": null
+        }
+      ],
+      "text": "abrasion",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1265,
+          "char_end": 1270,
+          "turn_id": null
+        }
+      ],
+      "text": "scars",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1315,
+          "char_end": 1324,
+          "turn_id": null
+        }
+      ],
+      "text": "deformity",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1326,
+          "char_end": 1385,
+          "turn_id": null
+        }
+      ],
+      "text": "Valgus stress of the medial and lateral collateral ligament",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1398,
+          "char_end": 1404,
+          "turn_id": null
+        }
+      ],
+      "text": "Laxity",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1434,
+          "turn_id": null
+        }
+      ],
+      "text": "posterior drawer testing",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1483,
+          "turn_id": null
+        }
+      ],
+      "text": "Lachman test",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1509,
+          "char_end": 1517,
+          "turn_id": null
+        }
+      ],
+      "text": "crepitus",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1528,
+          "char_end": 1541,
+          "turn_id": null
+        }
+      ],
+      "text": "McMurray test",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1543,
+          "char_end": 1571,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the left knee",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1609,
+          "turn_id": null
+        }
+      ],
+      "text": "deformity",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1658,
+          "turn_id": null
+        }
+      ],
+      "text": "Valgus stress of the medial collateral ligament",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1744,
+          "turn_id": null
+        }
+      ],
+      "text": "4 views of the right knee",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1789,
+          "char_end": 1798,
+          "turn_id": null
+        }
+      ],
+      "text": "fractures",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1802,
+          "char_end": 1814,
+          "turn_id": null
+        }
+      ],
+      "text": "dislocations",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1894,
+          "char_end": 1909,
+          "turn_id": null
+        }
+      ],
+      "text": "Right knee pain",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1954,
+          "turn_id": null
+        }
+      ],
+      "text": "posterior cruciate ligament sprain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2122,
+          "char_end": 2128,
+          "turn_id": null
+        }
+      ],
+      "text": "x-rays",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2194,
+          "char_end": 2215,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of the right knee",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2243,
+          "char_end": 2277,
+          "turn_id": null
+        }
+      ],
+      "text": "posterior cruciate ligament injury",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2438,
+          "char_end": 2454,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2573,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2611,
+          "char_end": 2620,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2821,
+          "char_end": 2836,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI, right knee",
+      "id": "e37"
+    }
+  ]
+}

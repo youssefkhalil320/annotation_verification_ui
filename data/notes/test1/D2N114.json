@@ -1,0 +1,443 @@
+{
+  "doc_id": "ACI_BENCH:D2N114:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nHeadaches.\n\nHISTORY OF PRESENT ILLNESS\n\nJulie Jenkins is a pleasant 33-year-old female who presents to the clinic today for the evaluation of headaches. The patient was referred from her primary care physician. The patient states that she was seen by Dr. White a few years ago and was going to obtain an MRI; however, Dr. White wanted her to see me first and urgently.\n\nThe onset of her headaches began when she was a teenager. Initially, her headaches appeared during menses, however she now experiences them more frequently and with more severity. Her pain is aggravated by physical activities. The patient states that she has been trying to exercise more in order to lose weight, however she is unable to exercise for prolonged periods of time secondary to the headaches. The patient locates her pain to the right side of her head and behind her eye. She describes her pain as a pulsing sensation. She also reports intermittent ringing in her ears for the last few months. Additionally, she reports intermittent blurred vision on the lateral aspect of her vision. She denies any numbness or tingling in her hands, feet, or face.\n\nThe patient enjoys running and wears either New Balance or Asics shoes.\n\nREVIEW OF SYSTEMS\n\nNeurological: Reports headaches. Denies numbness or tingling in her hands, feet, or face.\n\nVITALS\n\nVitals are within normal limits.\n\nPHYSICAL EXAM\n\nCV: Normal head rhythm with no murmurs, rubs, or gallops.\nNEURO: Cranial nerves I through XII are intact distally, including a normal cranial reflex.\nMSK: Gait is normal.\nFunduscopic exam: Positive for papilledema.\n\nASSESSMENT\n\nHeadaches, concern for idiopathic intracranial hypertension.\n\nPLAN\n\nAfter reviewing the patient's examination today, I have had a lengthy discussion with the patient in regard to her current symptoms. I have recommended that we obtain an urgent MRI of the brain to evaluate for any other condition that could be contributing to her symptoms. We will contact her to schedule this after approved by insurance. Once the MRI results are available for review and further discussion, I will also perform a spinal tap to evaluate the pressure in the brain. I have also advised her to be seen by a neuro ophthalmologist for a complete eye exam. Questions were invited and answered today. The patient agrees to the treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up with me once the MRI results are available for review and further recommendations.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "Headaches",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 168,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 324,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 413,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 460,
+          "char_end": 469,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 575,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 790,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 816,
+          "char_end": 820,
+          "turn_id": null
+        },
+        {
+          "char_start": 855,
+          "char_end": 869,
+          "turn_id": null
+        }
+      ],
+      "text": "pain behind her eye",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 816,
+          "char_end": 850,
+          "turn_id": null
+        }
+      ],
+      "text": "pain to the right side of her head",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 893,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 916,
+          "turn_id": null
+        }
+      ],
+      "text": "pulsing sensation",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 967,
+          "turn_id": null
+        }
+      ],
+      "text": "ringing in her ears",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1046,
+          "turn_id": null
+        }
+      ],
+      "text": "blurred vision",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1099,
+          "char_end": 1107,
+          "turn_id": null
+        },
+        {
+          "char_start": 1120,
+          "char_end": 1147,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in her hands, feet, or face",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1111,
+          "char_end": 1147,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in her hands, feet, or face",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1264,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1282,
+          "char_end": 1290,
+          "turn_id": null
+        },
+        {
+          "char_start": 1303,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in her hands, feet, or face",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1294,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in her hands, feet, or face",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1421,
+          "char_end": 1428,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1434,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1439,
+          "char_end": 1446,
+          "turn_id": null
+        }
+      ],
+      "text": "gallops",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1561,
+          "char_end": 1577,
+          "turn_id": null
+        }
+      ],
+      "text": "Funduscopic exam",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1592,
+          "char_end": 1603,
+          "turn_id": null
+        }
+      ],
+      "text": "papilledema",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1627,
+          "turn_id": null
+        }
+      ],
+      "text": "Headaches",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1677,
+          "turn_id": null
+        }
+      ],
+      "text": "idiopathic intracranial hypertension",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1863,
+          "char_end": 1879,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of the brain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2035,
+          "char_end": 2038,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2118,
+          "char_end": 2128,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal tap",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2245,
+          "char_end": 2253,
+          "turn_id": null
+        }
+      ],
+      "text": "eye exam",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2399,
+          "char_end": 2402,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e30"
+    }
+  ]
+}

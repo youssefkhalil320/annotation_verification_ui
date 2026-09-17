@@ -1,0 +1,624 @@
+{
+  "doc_id": "ACI_BENCH:D2N095:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nBack pain.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Ramirez is a 34-year-old female with a past medical history significant for hypertension, who presents today with back pain.\n\nThe patient reports she has been walking a lot lately, 30 minutes to an hour or so a day. While walking 6 days ago, she felt her back seize up on her. She is not sure what caused it but thinks she was walking a little faster than usual. She describes the sensation as a spasm. She has been taking ibuprofen and using heat on it but it is still pretty stiff. She denies any known trauma or injury to her back. She notes she has been weightlifting around 3 times a week. She did do deadlifts that day before her walk and thinks she may have been using her back more than her legs to lift. She locates the pain in her mid lower back. She denies any lower extremity numbness, tingling, and weakness.\n\nRegarding her hypertension, she states she has been doing readings at home and that has been looking great. She has been watching her diet which has helped. She is taking lisinopril.\n\nThe patient endorses nasal congestion, which she attributes to her seasonal allergies.\n\nREVIEW OF SYSTEMS\n\n• Ears, Nose, Mouth and Throat: Endorses nasal congestion from seasonal allergies.\n• Musculoskeletal: Endorses bilateral low back pain and stiffness.\n• Neurological: Denies numbness.\n\nPHYSICAL EXAMINATION\n\n• Cardiovascular: Slight 2/6 systolic ejection murmur, stable.\n• Musculoskeletal: Pain to palpation along the right lateral aspect of her lumbar spine. Pain with flexion and extension. Negative straight leg raise.\n\nRESULTS\n\nBack x-ray reveals good bony alignment with no obvious fracture.\n\nLabs: All within normal limits.\n\nASSESSMENT AND PLAN\n\nMs. Ramirez is a 34-year-old female with a past medical history significant for hypertension, who presents today with back pain.\n\nBack pain.\n• Medical Reasoning: She experienced a spasm-like pain in her back while walking approximately 6 days ago. She has also been lifting weights recently. Her lumbar spine x-ray was unremarkable and her recent labs were normal. I believe she has a lumbar strain.\n• Medical Treatment: We will initiate meloxicam 15 mg once daily.\n• Specialist Referrals: We will refer her to physical therapy to work on strengthening exercises.\n• Patient Education and Counseling: She may apply ice and heat to the area.\n\nHypertension.\n• Medical Reasoning: This is well controlled with lisinopril and dietary modifications based on home monitoring.\n• Medical Treatment: She will continue lisinopril 10 mg daily. This was refilled today.\n• Patient Education and Counseling: I encouraged her to continue with home monitoring and report any elevated blood pressures to me.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "Back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 149,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 316,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "back seize up",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 457,
+          "char_end": 462,
+          "turn_id": null
+        }
+      ],
+      "text": "spasm",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 484,
+          "char_end": 493,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 538,
+          "char_end": 543,
+          "turn_id": null
+        }
+      ],
+      "text": "stiff",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 572,
+          "turn_id": null
+        }
+      ],
+      "text": "trauma",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 576,
+          "char_end": 594,
+          "turn_id": null
+        }
+      ],
+      "text": "injury to her back",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 816,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in her mid lower back",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 833,
+          "char_end": 857,
+          "turn_id": null
+        }
+      ],
+      "text": "lower extremity numbness",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 867,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 873,
+          "char_end": 881,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 898,
+          "char_end": 910,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1055,
+          "char_end": 1065,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1105,
+          "turn_id": null
+        }
+      ],
+      "text": "nasal congestion",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1135,
+          "char_end": 1153,
+          "turn_id": null
+        }
+      ],
+      "text": "seasonal allergies",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1216,
+          "char_end": 1232,
+          "turn_id": null
+        }
+      ],
+      "text": "nasal congestion",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1238,
+          "char_end": 1256,
+          "turn_id": null
+        }
+      ],
+      "text": "seasonal allergies",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1286,
+          "char_end": 1309,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral low back pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1314,
+          "char_end": 1323,
+          "turn_id": null
+        }
+      ],
+      "text": "stiffness",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1348,
+          "char_end": 1356,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1434,
+          "turn_id": null
+        }
+      ],
+      "text": "systolic ejection murmur",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1463,
+          "char_end": 1531,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain to palpation along the right lateral aspect of her lumbar spine",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1533,
+          "char_end": 1564,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with flexion and extension",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1575,
+          "char_end": 1593,
+          "turn_id": null
+        }
+      ],
+      "text": "straight leg raise",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1605,
+          "char_end": 1615,
+          "turn_id": null
+        }
+      ],
+      "text": "Back x-ray",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1660,
+          "char_end": 1668,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1805,
+          "char_end": 1817,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1843,
+          "char_end": 1852,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1855,
+          "char_end": 1864,
+          "turn_id": null
+        }
+      ],
+      "text": "Back pain",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1905,
+          "char_end": 1932,
+          "turn_id": null
+        }
+      ],
+      "text": "spasm-like pain in her back",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2021,
+          "char_end": 2039,
+          "turn_id": null
+        }
+      ],
+      "text": "lumbar spine x-ray",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2110,
+          "char_end": 2123,
+          "turn_id": null
+        }
+      ],
+      "text": "lumbar strain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2163,
+          "char_end": 2172,
+          "turn_id": null
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2173,
+          "char_end": 2178,
+          "turn_id": null
+        }
+      ],
+      "text": "15 mg",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2179,
+          "char_end": 2189,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2236,
+          "char_end": 2252,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2366,
+          "char_end": 2378,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2430,
+          "char_end": 2440,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2532,
+          "char_end": 2542,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2543,
+          "char_end": 2548,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2549,
+          "char_end": 2554,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2682,
+          "char_end": 2706,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated blood pressures",
+      "id": "e44"
+    }
+  ]
+}

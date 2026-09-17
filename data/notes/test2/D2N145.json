@@ -1,0 +1,806 @@
+{
+  "doc_id": "ACI_BENCH:D2N145:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nFollow-up for perioral dermatitis.\n\nHISTORY OF PRESENT ILLNESS\n\nJacqueline Miller is a 40-year-old female who is being seen today for a follow-up skin exam for perioral dermatitis. She also has a history of rosacea, including ocular rosacea. Today, she states that her perioral dermatitis is well-controlled, although it has not fully resolved. The patient was applying doxycycline twice a day with improvement, but her pharmacist advised her to reduce to once daily since it had started to improve; therefore, for approximately the past week, she has been using the doxycycline only once per day. She has not seen continued improvement but it has not worsened. She is using the sulfacetamide wash twice daily, denies drying of the skin, and reports that her skin is much improved moisturization. She also applies MetroCream immediately after using the sulfacetamide wash. She denies using other lotions and products, Cetaphil lotion or soap, or Neutrogena wipes. The patient did not begin Elidel because it is not covered by her insurance, and she was concerned about possible side effects from the medication.\n\nPAST HISTORY\n\nMedical\nPerioral dermatitis.\n\nCURRENT MEDICATIONS\n\nDoxycycline cream. Apply twice daily.\nMetroCream. \nSulfacetamide wash. Apply topically twice daily.\n\nPHYSICAL EXAM\n\nIntegumentary\nSkin inspection of the face was performed today. On bilateral medial cheeks, there are a few, very faint, erythematous papules with mild redness around and underneath the nostrils. Fitzpatrick skin type is 4 to 5.\n\nASSESSMENT\n\n• Perioral dermatitis\n• Rosacea, including ocular rosacea\n\nJacqueline Miller is a 40-year-old female who presented today for follow-up for her perioral dermatitis, which has improved but not resolved. She decreased her doxycycline per her pharmacist’s recommendation, which possibly stagnated the resolution of symptoms.\n\nPLAN\n\nPerioral dermatitis.\nI counseled the patient about the risks and benefits of doxycycline and recommended she resume twice daily application until she reaches full resolution, and at that point she should reduce application to once a day for an additional week. The patient will not be using Elidel as I reviewed the cost of the medication and without insurance, it was too expensive. I provided a prescription for Tacrolimus and counseled her on possible side effects of using the medication. She will continue with Sulfacetamide face wash once a day. Also, use Bruder mask as needed.\n\nRosacea, including ocular rosacea.\nContinue using MetroCream twice daily. I recommended to gently wash her eyelids once daily with a gentle cleanser and try a gentle cream such as Vanicream.\n\nINSTRUCTIONS\n\nCall the clinic if symptoms worsen. The patient will have a follow-up appointment in 4 weeks.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 50,
+          "turn_id": null
+        }
+      ],
+      "text": "perioral dermatitis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 172,
+          "turn_id": null
+        }
+      ],
+      "text": "skin exam",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 177,
+          "char_end": 196,
+          "turn_id": null
+        }
+      ],
+      "text": "perioral dermatitis",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 224,
+          "char_end": 231,
+          "turn_id": null
+        }
+      ],
+      "text": "rosacea",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 243,
+          "char_end": 257,
+          "turn_id": null
+        }
+      ],
+      "text": "ocular rosacea",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 305,
+          "turn_id": null
+        }
+      ],
+      "text": "perioral dermatitis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 387,
+          "char_end": 398,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 399,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "twice a day",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 473,
+          "char_end": 483,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "past week",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 584,
+          "char_end": 595,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 601,
+          "char_end": 613,
+          "turn_id": null
+        }
+      ],
+      "text": "once per day",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 696,
+          "char_end": 709,
+          "turn_id": null
+        }
+      ],
+      "text": "sulfacetamide",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 714,
+          "turn_id": null
+        }
+      ],
+      "text": "wash",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 726,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 735,
+          "char_end": 753,
+          "turn_id": null
+        }
+      ],
+      "text": "drying of the skin",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 831,
+          "char_end": 841,
+          "turn_id": null
+        }
+      ],
+      "text": "MetroCream",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 883,
+          "turn_id": null
+        }
+      ],
+      "text": "sulfacetamide",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 884,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "wash",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 920,
+          "turn_id": null
+        }
+      ],
+      "text": "lotions",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 935,
+          "char_end": 943,
+          "turn_id": null
+        }
+      ],
+      "text": "Cetaphil",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 954,
+          "char_end": 958,
+          "turn_id": null
+        }
+      ],
+      "text": "soap",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 963,
+          "char_end": 973,
+          "turn_id": null
+        }
+      ],
+      "text": "Neutrogena",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 979,
+          "turn_id": null
+        }
+      ],
+      "text": "wipes",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1007,
+          "char_end": 1013,
+          "turn_id": null
+        }
+      ],
+      "text": "Elidel",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1152,
+          "char_end": 1171,
+          "turn_id": null
+        }
+      ],
+      "text": "Perioral dermatitis",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1206,
+          "turn_id": null
+        }
+      ],
+      "text": "Doxycycline",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1207,
+          "char_end": 1212,
+          "turn_id": null
+        }
+      ],
+      "text": "cream",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1220,
+          "char_end": 1231,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1243,
+          "turn_id": null
+        }
+      ],
+      "text": "MetroCream",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1259,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfacetamide",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1264,
+          "turn_id": null
+        }
+      ],
+      "text": "wash",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1272,
+          "char_end": 1281,
+          "turn_id": null
+        }
+      ],
+      "text": "topically",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1282,
+          "char_end": 1293,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1325,
+          "char_end": 1352,
+          "turn_id": null
+        }
+      ],
+      "text": "Skin inspection of the face",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1431,
+          "char_end": 1451,
+          "turn_id": null
+        }
+      ],
+      "text": "erythematous papules",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1462,
+          "char_end": 1504,
+          "turn_id": null
+        }
+      ],
+      "text": "redness around and underneath the nostrils",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1554,
+          "char_end": 1573,
+          "turn_id": null
+        }
+      ],
+      "text": "Perioral dermatitis",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1576,
+          "char_end": 1583,
+          "turn_id": null
+        }
+      ],
+      "text": "Rosacea",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1595,
+          "char_end": 1609,
+          "turn_id": null
+        }
+      ],
+      "text": "ocular rosacea",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1695,
+          "char_end": 1714,
+          "turn_id": null
+        }
+      ],
+      "text": "perioral dermatitis",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1771,
+          "char_end": 1782,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1880,
+          "char_end": 1899,
+          "turn_id": null
+        }
+      ],
+      "text": "Perioral dermatitis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 1968,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1996,
+          "char_end": 2007,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2106,
+          "char_end": 2116,
+          "turn_id": null
+        }
+      ],
+      "text": "once a day",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2121,
+          "char_end": 2139,
+          "turn_id": null
+        }
+      ],
+      "text": "an additional week",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2171,
+          "char_end": 2177,
+          "turn_id": null
+        }
+      ],
+      "text": "Elidel",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2294,
+          "char_end": 2304,
+          "turn_id": null
+        }
+      ],
+      "text": "Tacrolimus",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2396,
+          "char_end": 2409,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfacetamide",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2410,
+          "char_end": 2419,
+          "turn_id": null
+        }
+      ],
+      "text": "face wash",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2420,
+          "char_end": 2430,
+          "turn_id": null
+        }
+      ],
+      "text": "once a day",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2466,
+          "char_end": 2473,
+          "turn_id": null
+        }
+      ],
+      "text": "Rosacea",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2485,
+          "char_end": 2499,
+          "turn_id": null
+        }
+      ],
+      "text": "ocular rosacea",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2516,
+          "char_end": 2526,
+          "turn_id": null
+        }
+      ],
+      "text": "MetroCream",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2527,
+          "char_end": 2538,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2646,
+          "char_end": 2655,
+          "turn_id": null
+        }
+      ],
+      "text": "Vanicream",
+      "id": "e57"
+    }
+  ]
+}

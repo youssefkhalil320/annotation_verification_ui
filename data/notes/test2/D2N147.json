@@ -1,0 +1,779 @@
+{
+  "doc_id": "ACI_BENCH:D2N147:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nRight shoulder injury.\n\nHISTORY OF PRESENT ILLNESS\n\nMatthew Allen is a 67-year-old male, right-hand-dominant, male who presents to the clinic today for the evaluation of a right shoulder injury. The patient sustained this injury 4 days ago, when he was tackled a couple of times playing pick up football and landed on his right shoulder. He states that he was able to return to the game, however he has had pain since that time. The patient locates his pain to the posterior aspect of his shoulder. He denies any numbness or tingling in his fingers. He states that the strength in his hand is okay; however, he has been trying to avoid lifting anything too heavy. Mr. Allen denies being able to touch his shoulder to his ear because of pain. The patient has been taking Tylenol for pain, which does not provide relief. He denies any neck problems or other joint problems. The patient denies any previous orthopedic injuries to his right shoulder. He denies any fever or chills since the injury, but does note a headache. The patient states that he hit his head at the time of the injury but did not pass out.\n\nSURGICAL HISTORY\n\nThe patient has a history of an appendectomy 3 to 4 years ago.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies fever or chills.\nMusculoskeletal: Reports right shoulder pain. Denies neck pain.\nNeurological: Reports headache. Denies numbness or tingling.\n\nVITALS\n\nBP: 122/76.\nHR: 82 bpm.\nSpO2: 95% on room air.\n\nPHYSICAL EXAM\n\nNECK: Examination of the cervical spine reveals no tenderness to palpation. Full ROM.\nHEAD: There does not appear to be any trauma. No ecchymosis or bruising.\nMSK: Examination of the right shoulder reveals pain to palpation of the posterior shoulder at the acromioclavicular joint. There is decreased abduction and adduction to about 90 degrees only. Pain with supination and pronation of the right arm. Palpable radial artery pulse.\n\nRESULTS\n\nX-ray of the right shoulder reveals an acute acromioclavicular joint fracture.\n\nASSESSMENT\n\nRight shoulder acute acromioclavicular joint fracture.\n\nPLAN\n\nAfter reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to his current symptoms. I have explained to him that his x-rays revealed an acute acromioclavicular joint fracture. The plan is to place the patient in a sling and prescribe meloxicam 15 mg once a day to treat his pain. I also recommend that we obtain a CT scan of the right shoulder to evaluate further. I recommend that the patient attend formal physical therapy to strengthen his right shoulder in hopes of avoiding surgery in the future. In the meantime, I have advised him to avoid tackle football.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "Right shoulder injury",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 210,
+          "turn_id": null
+        }
+      ],
+      "text": "right shoulder injury",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 239,
+          "char_end": 245,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 424,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 514,
+          "turn_id": null
+        }
+      ],
+      "text": "pain to the posterior aspect of his shoulder",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 538,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 565,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in his fingers",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 753,
+          "char_end": 757,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 794,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 803,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 921,
+          "char_end": 962,
+          "turn_id": null
+        }
+      ],
+      "text": "orthopedic injuries to his right shoulder",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 978,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 993,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1004,
+          "char_end": 1010,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1028,
+          "char_end": 1036,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1103,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1116,
+          "char_end": 1124,
+          "turn_id": null
+        }
+      ],
+      "text": "pass out",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1177,
+          "char_end": 1189,
+          "turn_id": null
+        }
+      ],
+      "text": "appendectomy",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1256,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1266,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1293,
+          "char_end": 1312,
+          "turn_id": null
+        }
+      ],
+      "text": "right shoulder pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1321,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "neck pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1354,
+          "char_end": 1362,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1371,
+          "char_end": 1379,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1383,
+          "char_end": 1391,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1402,
+          "char_end": 1404,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1414,
+          "char_end": 1416,
+          "turn_id": null
+        }
+      ],
+      "text": "HR",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1426,
+          "char_end": 1430,
+          "turn_id": null
+        }
+      ],
+      "text": "SpO2",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1504,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the cervical spine",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1516,
+          "char_end": 1539,
+          "turn_id": null
+        }
+      ],
+      "text": "tenderness to palpation",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1530,
+          "char_end": 1539,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1589,
+          "char_end": 1595,
+          "turn_id": null
+        }
+      ],
+      "text": "trauma",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1610,
+          "turn_id": null
+        }
+      ],
+      "text": "ecchymosis",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1614,
+          "char_end": 1622,
+          "turn_id": null
+        }
+      ],
+      "text": "bruising",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1662,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the right shoulder",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1671,
+          "char_end": 1745,
+          "turn_id": null
+        }
+      ],
+      "text": "pain to palpation of the posterior shoulder at the acromioclavicular joint",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1688,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1756,
+          "char_end": 1765,
+          "turn_id": null
+        },
+        {
+          "char_start": 1780,
+          "char_end": 1789,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased adduction",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1756,
+          "char_end": 1775,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased abduction",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1816,
+          "char_end": 1820,
+          "turn_id": null
+        },
+        {
+          "char_start": 1841,
+          "char_end": 1867,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain pronation of the right arm",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1816,
+          "char_end": 1836,
+          "turn_id": null
+        },
+        {
+          "char_start": 1851,
+          "char_end": 1867,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with supination of the right arm",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1826,
+          "char_end": 1836,
+          "turn_id": null
+        }
+      ],
+      "text": "supination",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1841,
+          "char_end": 1850,
+          "turn_id": null
+        }
+      ],
+      "text": "pronation",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1909,
+          "char_end": 1936,
+          "turn_id": null
+        }
+      ],
+      "text": "X-ray of the right shoulder",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1954,
+          "char_end": 1986,
+          "turn_id": null
+        }
+      ],
+      "text": "acromioclavicular joint fracture",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2022,
+          "char_end": 2054,
+          "turn_id": null
+        }
+      ],
+      "text": "acromioclavicular joint fracture",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2256,
+          "char_end": 2262,
+          "turn_id": null
+        }
+      ],
+      "text": "x-rays",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2281,
+          "char_end": 2313,
+          "turn_id": null
+        }
+      ],
+      "text": "acromioclavicular joint fracture",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2373,
+          "char_end": 2382,
+          "turn_id": null
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2383,
+          "char_end": 2388,
+          "turn_id": null
+        }
+      ],
+      "text": "15 mg",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2389,
+          "char_end": 2399,
+          "turn_id": null
+        }
+      ],
+      "text": "once a day",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2413,
+          "char_end": 2417,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2453,
+          "char_end": 2482,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan of the right shoulder",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2547,
+          "char_end": 2563,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e54"
+    }
+  ]
+}

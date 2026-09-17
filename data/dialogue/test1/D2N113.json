@@ -1,0 +1,822 @@
+{
+  "doc_id": "ACI_BENCH:D2N113:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hi jacqueline how are you doing today\n[patient] i'm doing okay i'm just really anxious about my recent blood work that my pcp did and said that i have hepatitis c i'm just really surprised because i've been feeling fine\n[doctor] okay so were you ever told in the past that you have hepatitis c\n[patient] no never\n[doctor] okay and do do you have any history like iv drug use known that you know or do you have any known to have any like hepatitis c positive partners\n[patient] i mean like years ago i used to party a lot and even use iv drugs but i've been clean for over fifteen years now\n[doctor] okay well very good you know congratulations on that that's that's a great great achievement so tell me though how about alcohol use\n[patient] i used to drink a lot a lot more alcohol now i probably would say i drink about a beer a day\n[doctor] okay\n[patient] and maybe slightly more on the weekends but nothing like how i used to\n[doctor] okay alright how about smoking have you ever smoked\n[patient] i do smoke i'm down to one to two cigarettes a day it's just really been tough to just get rid of those two but i've cut down a lot i used to i was up to one point or a pack and a half a day\n[doctor] wow okay alright so yeah you you definitely have decreased that so that's again good for you on that one so hopefully you keep you keep that up\n[patient] thing\n[doctor] so tell me do you have any other medication conditions\n[patient] do i do i no otherwise i'm i'm feel pretty good i had my physical there was nothing else the the only thing i was telling my pcp is i do feel like tend to be really tired at the end of the day after working but otherwise i've been good\n[doctor] okay and and has work been not hard lately you've been busy it sounds like\n[patient] i know i have been busy but not really much more than usual\n[doctor] okay\n[patient] so that's why i was kind of marking because i mean i used to you know be able and be fine but i just lately have been feeling like i'm getting enough sleep but i still get very tired at the end of the day\n[doctor] okay alright well i hope you're not working too much and then you'll able to at least find some time with the family\n[patient] yeah i'm i yeah i tend to be a workaholic but yes i i am working on that\n[doctor] okay well i hope kids are doing okay\n[patient] they are thank you\n[doctor] okay good so tell me what conditions what kind of conditions run in your family like is there do you have hypertension diabetes or\n[patient] yeah all of all of the above\n[doctor] okay\n[patient] hypertension diabetes and also depression\n[doctor] okay and depression okay alright well let's go ahead and do a quick physical exam on you here i reviewed your vitals and everything there looks good so that's good and now on general appearance you appear in no distress and no jaundice on skin exam let me go ahead and listen to your heart here great on your heart exam you have a nice regular rate and rhythm with a two out of six six systolic murmur appreciate appreciated that's that has n't changed from last year so we will just continue to monitor that monitor that as well okay\n[patient] okay\n[doctor] alright now let me listen to your lungs here very good so your your lungs are clear with no wheezes rales or rhonchi and let me go ahead and listen to your abdomen great your bowel sounds are present your abdomen is soft with no hepatospleno splenomegaly ca n't talk to appreciated so let me now check your musculoskeletal exam here great i i did n't see any gait disturbance and no edema so that's great so jacqueline i did review the results of your recent blood blood work and your hcv antibody test was positive and your liver panel that was done showing an elevated ast at thirty nine but your alt albumin and total bilirubin were all within normal limits so what that all means and let me go ahead and tell you about my assessment and plan here for your first problem of hepatitis c your initial labs are consistent with hepatitis c so based on the the once i just discussed with you there now hepatitis c is a viral infection that affects the liver so you most likely may have had it for years now so the next step that i would like to do is to confirm the diagnosis with some additional blood work that includes checking the hep c rna and also the hcv genotype okay now i would also like to determine the severity of your liver disease by checking for fibrosis of the liver and i'm gon na do this by ordering a special ultrasound and with this information i'm gon na be able to know how to proceed as far as treatment\n[patient] okay\n[doctor] alright now i know that was a lot of information do you have any questions for me\n[patient] yeah so should i be worried about my wife and my kids should they be tested as well\n[doctor] yes so we can start with the same screening that you have had for you for all of them first okay\n[patient] okay alright so i'll make sure i'll have them set up an appointment with our our family doctor\n[doctor] okay great so if you do n't have any other questions i'm gon na have the nurse check you out and get all that scheduled and i'm gon na see you in about three weeks\n[patient] alright perfect\n[doctor] alright\n[patient] thank you\n[doctor] take care jacqueline\n[patient] okay bye\n[doctor] bye",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 95,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxious",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 122,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood work",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 171,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hepatitis c",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 302,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "hepatitis c",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 383,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "iv drug use",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 446,
+          "char_end": 457,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "hepatitis c",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 539,
+          "char_end": 551,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "use iv drugs",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 740,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "alcohol use",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 766,
+          "turn_id": "t08"
+        },
+        {
+          "char_start": 784,
+          "char_end": 791,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "drink alcohol",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 824,
+          "turn_id": "t08"
+        },
+        {
+          "char_start": 833,
+          "char_end": 837,
+          "turn_id": "t08"
+        },
+        {
+          "char_start": 840,
+          "char_end": 843,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "drink beer day",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 971,
+          "char_end": 978,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "smoking",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 993,
+          "char_end": 999,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "smoked",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1015,
+          "char_end": 1020,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "smoke",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1614,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "tired",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2035,
+          "char_end": 2040,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "tired",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2230,
+          "char_end": 2240,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "workaholic",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 2462,
+          "char_end": 2474,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 2475,
+          "char_end": 2483,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 2550,
+          "char_end": 2562,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 2563,
+          "char_end": 2571,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 2581,
+          "char_end": 2591,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "depression",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 2610,
+          "char_end": 2620,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "depression",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2711,
+          "char_end": 2717,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "vitals",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2812,
+          "char_end": 2820,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "distress",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2828,
+          "char_end": 2836,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "jaundice",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2840,
+          "char_end": 2849,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "skin exam",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2870,
+          "char_end": 2879,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 2885,
+          "char_end": 2890,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "listen to heart",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2910,
+          "char_end": 2920,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "heart exam",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2987,
+          "char_end": 3002,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "systolic murmur",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3179,
+          "char_end": 3188,
+          "turn_id": "t31"
+        },
+        {
+          "char_start": 3194,
+          "char_end": 3199,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "listen to lungs",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3252,
+          "char_end": 3259,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "wheezes",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3260,
+          "char_end": 3265,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "rales",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3269,
+          "char_end": 3276,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3301,
+          "char_end": 3310,
+          "turn_id": "t31"
+        },
+        {
+          "char_start": 3316,
+          "char_end": 3323,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "listen to abdomen",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3402,
+          "char_end": 3414,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "splenomegaly",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3467,
+          "char_end": 3487,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "musculoskeletal exam",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3519,
+          "char_end": 3535,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "gait disturbance",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3543,
+          "char_end": 3548,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "edema",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3625,
+          "char_end": 3635,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "blood work",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3645,
+          "char_end": 3662,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hcv antibody test",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3667,
+          "char_end": 3675,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "positive",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3685,
+          "char_end": 3696,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "liver panel",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3722,
+          "char_end": 3734,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "elevated ast",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3731,
+          "char_end": 3734,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "ast",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3759,
+          "char_end": 3762,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "alt",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3763,
+          "char_end": 3770,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "albumin",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3775,
+          "char_end": 3790,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "total bilirubin",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3937,
+          "char_end": 3948,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hepatitis c",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3987,
+          "char_end": 3998,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hepatitis c",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4060,
+          "char_end": 4071,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hepatitis c",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4255,
+          "char_end": 4265,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "blood work",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4293,
+          "char_end": 4302,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hep c rna",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4316,
+          "char_end": 4328,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "hcv genotype",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4390,
+          "char_end": 4403,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "liver disease",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4420,
+          "char_end": 4428,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "fibrosis",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4487,
+          "char_end": 4497,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e56"
+    }
+  ]
+}

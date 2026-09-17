@@ -1,0 +1,937 @@
+{
+  "doc_id": "ACI_BENCH:D2N182:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nTransition of care visit.\n\nHISTORY OF PRESENT ILLNESS\n\nMichelle King is a 39-year-old female who presents for a transition care visit. She was admitted to District Regional Hospital on 06/29/2021 and discharged on 07/02/2021.\n\nThe patient has a history quadriplegia from a prior spinal cord injury. She reported an increased concern for spasms, lightheadedness, headaches, significant constipation, and diaphoresis. Due to her uncontrolled blood pressure, headaches, and vomiting, she was evaluated in the emergency department. She was noted to be febrile, had a significantly elevated white blood cell count of 23,000, and labile blood pressure. Cultures were obtained and reviewed, with a urinary tract infection suspected. To note, the patient does require use of a suprapubic catheter. She was provided IV antibiotic therapy and was discharged after clinical improvement of her symptoms.\n\nToday, the patient states she is feeling good and claims that she does not think she had an infection. Instead, she believes she was just constipated and that was the cause of her elevated blood pressure. She states she did not have a bowel movement in the hospital and when she got home, she had a large bowel movement and felt better. She states that she told the medical team in the emergency room that she was constipated, but they did not feel that was the causative agent, although they did complete x-rays and additional tests. The patient reports taking MiraLAX consistently for her constipation and Lactulose as needed, which takes 2 days produce a bowel movement.\n\nThe patient has not received the COVID-19 vaccinations because she does not know the side effects. She reports taking vitamin C and a multivitamin and she does not feel the need for the vaccine even though her “respiratory status is limited”. The patient also denies receiving the flu vaccine.\n\nPAST HISTORY\n\nMedical\nQuadriplegia.\nSpinal cord injury.\nHypertension.\nChronic constipation.\nAutomatic dysreflexia.\n\nCURRENT MEDICATIONS\n\nMiraLAX as needed by mouth.\nLactulose as needed by mouth.\n\nASSESSMENT\n\n• Acute to chronic constipation.\n• Quadriplegia.\n\nPLAN\n\nAcute to chronic constipation\nShe believes that her hospitalization was more likely due to her constipation and dysreflexia from her quadriplegia. She had a lot of vital sign changes including blood pressure fluctuations. She feels like she has got a good bowel regimen. She does take MiraLAX consistently, and Lactulose for severe constipation. She feels like this was less likely a true urinary tract infection. However, we did have a good discussion regarding her leukocytosis. I would recommend in the next 3 or 4 weeks to come back in for some updated fasting labs and we will repeat the CBC and ensure that trends downwards.\n\nCOVID vaccine status\nAgain, she is hesitant. We had a good discussion. I recommend that the only real, true preventative mechanism for COVID is the vaccine. I do not believe that supplements are necessarily going to help stave this off. I would be concerned that she does not get vaccinated, I would consider her at high risk based on her quadriplegia status. She does not want to get COVID. However, she needs to make these decisions. She is somewhat homeopathic in some of her viewpoints.\n\nINSTRUCTIONS\n\nLabs pending at the time of discharge have been reviewed. Follow-up labs and appointments have been ordered.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 270,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "quadriplegia",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 314,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal cord injury",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 354,
+          "char_end": 360,
+          "turn_id": null
+        }
+      ],
+      "text": "spasms",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 362,
+          "char_end": 377,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 379,
+          "char_end": 388,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 402,
+          "char_end": 414,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 431,
+          "turn_id": null
+        }
+      ],
+      "text": "diaphoresis",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 444,
+          "char_end": 471,
+          "turn_id": null
+        }
+      ],
+      "text": "uncontrolled blood pressure",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 473,
+          "char_end": 482,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 488,
+          "char_end": 496,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 565,
+          "char_end": 572,
+          "turn_id": null
+        }
+      ],
+      "text": "febrile",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 625,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated white blood cell count",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 603,
+          "char_end": 625,
+          "turn_id": null
+        }
+      ],
+      "text": "white blood cell count",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 662,
+          "turn_id": null
+        }
+      ],
+      "text": "labile blood pressure",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 672,
+          "turn_id": null
+        }
+      ],
+      "text": "Cultures",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 731,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary tract infection",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 826,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 837,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1011,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1048,
+          "char_end": 1059,
+          "turn_id": null
+        }
+      ],
+      "text": "constipated",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1090,
+          "char_end": 1113,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated blood pressure",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1324,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "constipated",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1416,
+          "char_end": 1422,
+          "turn_id": null
+        }
+      ],
+      "text": "x-rays",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1472,
+          "char_end": 1479,
+          "turn_id": null
+        }
+      ],
+      "text": "MiraLAX",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1513,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1518,
+          "char_end": 1527,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactulose",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1528,
+          "char_end": 1537,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1639,
+          "turn_id": null
+        }
+      ],
+      "text": "COVID-19 vaccinations",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1703,
+          "char_end": 1712,
+          "turn_id": null
+        }
+      ],
+      "text": "vitamin C",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1731,
+          "turn_id": null
+        }
+      ],
+      "text": "multivitamin",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1771,
+          "char_end": 1778,
+          "turn_id": null
+        }
+      ],
+      "text": "vaccine",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1796,
+          "char_end": 1814,
+          "turn_id": null
+        },
+        {
+          "char_start": 1818,
+          "char_end": 1825,
+          "turn_id": null
+        }
+      ],
+      "text": "respiratory status limited",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1877,
+          "turn_id": null
+        }
+      ],
+      "text": "flu vaccine",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1902,
+          "char_end": 1914,
+          "turn_id": null
+        }
+      ],
+      "text": "Quadriplegia",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1916,
+          "char_end": 1934,
+          "turn_id": null
+        }
+      ],
+      "text": "Spinal cord injury",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1936,
+          "char_end": 1948,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1950,
+          "char_end": 1970,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic constipation",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1972,
+          "char_end": 1993,
+          "turn_id": null
+        }
+      ],
+      "text": "Automatic dysreflexia",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2017,
+          "char_end": 2024,
+          "turn_id": null
+        }
+      ],
+      "text": "MiraLAX",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2034,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2035,
+          "char_end": 2043,
+          "turn_id": null
+        }
+      ],
+      "text": "by mouth",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2045,
+          "char_end": 2054,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactulose",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2055,
+          "char_end": 2064,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2065,
+          "char_end": 2073,
+          "turn_id": null
+        }
+      ],
+      "text": "by mouth",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2090,
+          "char_end": 2119,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute to chronic constipation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2123,
+          "char_end": 2135,
+          "turn_id": null
+        }
+      ],
+      "text": "Quadriplegia",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2144,
+          "char_end": 2173,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute to chronic constipation",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2239,
+          "char_end": 2251,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2277,
+          "char_end": 2289,
+          "turn_id": null
+        }
+      ],
+      "text": "quadriplegia",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2308,
+          "char_end": 2326,
+          "turn_id": null
+        }
+      ],
+      "text": "vital sign changes",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2337,
+          "char_end": 2364,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure fluctuations",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2429,
+          "char_end": 2436,
+          "turn_id": null
+        }
+      ],
+      "text": "MiraLAX",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2455,
+          "char_end": 2464,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactulose",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2476,
+          "char_end": 2488,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2533,
+          "char_end": 2556,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary tract infection",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2611,
+          "char_end": 2623,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2701,
+          "char_end": 2713,
+          "turn_id": null
+        }
+      ],
+      "text": "fasting labs",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2737,
+          "char_end": 2740,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2776,
+          "char_end": 2781,
+          "turn_id": null
+        }
+      ],
+      "text": "COVID",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2776,
+          "char_end": 2789,
+          "turn_id": null
+        }
+      ],
+      "text": "COVID vaccine",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2911,
+          "char_end": 2916,
+          "turn_id": null
+        }
+      ],
+      "text": "COVID",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2924,
+          "char_end": 2931,
+          "turn_id": null
+        }
+      ],
+      "text": "vaccine",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3056,
+          "char_end": 3066,
+          "turn_id": null
+        }
+      ],
+      "text": "vaccinated",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3115,
+          "char_end": 3127,
+          "turn_id": null
+        }
+      ],
+      "text": "quadriplegia",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3282,
+          "char_end": 3286,
+          "turn_id": null
+        }
+      ],
+      "text": "Labs",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3340,
+          "char_end": 3354,
+          "turn_id": null
+        }
+      ],
+      "text": "Follow-up labs",
+      "id": "e66"
+    }
+  ]
+}

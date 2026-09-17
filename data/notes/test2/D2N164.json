@@ -1,0 +1,937 @@
+{
+  "doc_id": "ACI_BENCH:D2N164:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nChest pain on exertion.\n\nMEDICAL HISTORY\n\nThe patient has a medical history of diabetes type 2. She has not been formally diagnosed with hypertension, but her blood pressures have been trending high.\n\nFAMILY HISTORY\n\nPatient reports family history of heart disease.\n\nMEDICATIONS\n\nPatient reports taking metformin 500 mg twice daily.\n\nREVIEW OF SYSTEMS\n\nConstitutional: Denies diaphoresis or clamminess.\nCardiovascular: Reports chest pain.\nRespiratory: Denies dyspnea.\nGastrointestinal: Denies nausea, vomiting, or diarrhea.\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: No JVD, swelling, or carotid bruits.\n\nRespiratory\n- Assessment of Respiratory Effort:\n- Auscultation of Lungs: Clear bilaterally. No wheezes, rales, or rhonchi.\n\nCardiovascular\n- Auscultation of Heart: 2/6 systolic ejection murmur, otherwise normal rate and rhythm. No murmurs, gallops or rubs. Pulses are equal.\n\nGastrointestinal\n- Examination of Abdomen: No masses or tenderness. Soft, no guarding.\n\nMusculoskeletal\n- Examination: 1+ nonpitting edema in the ankles. No calf tenderness.\n\nRESULTS\n\nEKG was obtained and reviewed in office today and is unremarkable. Hemoglobin A1c: 7.0\n\nASSESSMENT AND PLAN\n\n1. Chest pain.\n- Medical Reasoning: Considering her history of diabetes, possible history of hypertension, and family history of heart disease, I suspect her chest pain is likely unstable angina. Her recent EKG was unremarkable and there are no other signs of heart attack, but I am worried she may have some sort of a blockage causing her pain.\n- Patient Education and Counseling: We discussed proper protocol for sublingual nitroglycerin for chest pain. I advised her to go to the emergency department if the medication is not effective after approximately 5 minutes.\n- Medical Treatment: We will have her start a regimen of baby aspirin at 81 mg daily, for which I have sent in a prescription today. I also sent a prescription for nitroglycerin up to 3 tablets every 5 minutes as needed. Finally, I am going to have her follow up with cardiology for further evaluation.\n\n2. Type 2 diabetes.\n- Medical Reasoning: She appears to be doing well on her current regimen.\n- Patient Education and Counseling: I encouraged the patient to keep her appointment with ophthalmology for evaluation of diabetic retinopathy.\n- Medical Treatment: I'm going to put in an order for a repeat hemoglobin A1c to check for any needed medication adjustments and have her follow up in 2 weeks. In the meantime, I want her to continue with metformin 500 mg twice daily and dietary modifications.\n\n3. Hypertension.\n- Medical Reasoning: Several providers, including myself, have noted a trend of elevated blood pressures in the patient's chart.\n- Patient Education and Counseling: I advised the patient to monitor her blood pressures at home over the next 2 weeks and report her readings to me via MyChart. This should help us determine if any adjustments need to be made to her new medications. We discussed the possible side effects of hydrochlorothiazide how this will hopefully reduce some of her swelling seen on physical exam. All of her questions were answered.\n- Medical Treatment: I'm going to have her start hydrochlorothiazide at a low dose.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow up in 2 weeks.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 39,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain on exertion",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 111,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes type 2",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 191,
+          "turn_id": null
+        },
+        {
+          "char_start": 202,
+          "char_end": 215,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures trending high",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 268,
+          "char_end": 281,
+          "turn_id": null
+        }
+      ],
+      "text": "heart disease",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 336,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mg",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 348,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 404,
+          "turn_id": null
+        }
+      ],
+      "text": "diaphoresis",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 408,
+          "char_end": 418,
+          "turn_id": null
+        }
+      ],
+      "text": "clamminess",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 444,
+          "char_end": 454,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 483,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 510,
+          "char_end": 516,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 526,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 539,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 588,
+          "char_end": 591,
+          "turn_id": null
+        }
+      ],
+      "text": "JVD",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 606,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "carotid bruits",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 637,
+          "char_end": 669,
+          "turn_id": null
+        }
+      ],
+      "text": "Assessment of Respiratory Effort",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 694,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 718,
+          "char_end": 725,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 732,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 737,
+          "char_end": 744,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 785,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 815,
+          "turn_id": null
+        }
+      ],
+      "text": "systolic ejection murmur",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 854,
+          "char_end": 861,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 870,
+          "turn_id": null
+        }
+      ],
+      "text": "gallops",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 874,
+          "char_end": 878,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 940,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Abdomen",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 951,
+          "turn_id": null
+        }
+      ],
+      "text": "masses",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 955,
+          "char_end": 965,
+          "turn_id": null
+        }
+      ],
+      "text": "tenderness",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 976,
+          "char_end": 984,
+          "turn_id": null
+        }
+      ],
+      "text": "guarding",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1021,
+          "char_end": 1051,
+          "turn_id": null
+        }
+      ],
+      "text": "nonpitting edema in the ankles",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1071,
+          "turn_id": null
+        }
+      ],
+      "text": "calf tenderness",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1083,
+          "char_end": 1086,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1164,
+          "turn_id": null
+        }
+      ],
+      "text": "Hemoglobin A1c",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1205,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1255,
+          "char_end": 1263,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1285,
+          "char_end": 1297,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 1321,
+          "char_end": 1334,
+          "turn_id": null
+        }
+      ],
+      "text": "heart disease",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1350,
+          "char_end": 1360,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1371,
+          "char_end": 1386,
+          "turn_id": null
+        }
+      ],
+      "text": "unstable angina",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1399,
+          "char_end": 1402,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1452,
+          "char_end": 1464,
+          "turn_id": null
+        }
+      ],
+      "text": "heart attack",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1511,
+          "char_end": 1519,
+          "turn_id": null
+        }
+      ],
+      "text": "blockage",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1607,
+          "char_end": 1617,
+          "turn_id": null
+        }
+      ],
+      "text": "sublingual",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1631,
+          "turn_id": null
+        }
+      ],
+      "text": "nitroglycerin",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1636,
+          "char_end": 1646,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1819,
+          "char_end": 1831,
+          "turn_id": null
+        }
+      ],
+      "text": "baby aspirin",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1835,
+          "char_end": 1840,
+          "turn_id": null
+        }
+      ],
+      "text": "81 mg",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1926,
+          "char_end": 1939,
+          "turn_id": null
+        }
+      ],
+      "text": "nitroglycerin",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1946,
+          "char_end": 1955,
+          "turn_id": null
+        }
+      ],
+      "text": "3 tablets",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1956,
+          "char_end": 1981,
+          "turn_id": null
+        }
+      ],
+      "text": "every 5 minutes as needed",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2069,
+          "char_end": 2084,
+          "turn_id": null
+        }
+      ],
+      "text": "Type 2 diabetes",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2282,
+          "char_end": 2302,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetic retinopathy",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2367,
+          "char_end": 2381,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoglobin A1c",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2509,
+          "char_end": 2518,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2519,
+          "char_end": 2525,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mg",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2526,
+          "char_end": 2537,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2569,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2663,
+          "char_end": 2687,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated blood pressures",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2773,
+          "char_end": 2808,
+          "turn_id": null
+        }
+      ],
+      "text": "monitor her blood pressures at home",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3005,
+          "char_end": 3024,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3068,
+          "char_end": 3076,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3185,
+          "char_end": 3204,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3210,
+          "char_end": 3218,
+          "turn_id": null
+        }
+      ],
+      "text": "low dose",
+      "id": "e66"
+    }
+  ]
+}

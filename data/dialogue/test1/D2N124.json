@@ -1,0 +1,570 @@
+{
+  "doc_id": "ACI_BENCH:D2N124:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] so jerry is a 45 -year-old male who came in today with an ankle injury jerry what happened\n[patient] hey doctor michael yeah so my son sean i think you met in the past he he started playing basketball and there we do multiple seasons and so we're kinda getting ready for the next season that starts in in april and we were at the courts plan and i went up for a shot and he's far more aggressive than with me than he is with you know his peers i guess he could say and so he he found me while i was going for a lap and then when i came down i kind of landed awkwardly and i kind of like rolled and twisted my my ankle so now it's it's hurting a bit like kind of on the outside you can you can even see it's it's bruised up and a bit swollen\n[doctor] yeah\n[patient] and yeah i've been having trouble walking and it just does n't feel solid really stable which is a problem i i recently got back into working out and i had been in a really good rhythm going to the gym\n[doctor] okay\n[patient] and i do n't want to disrupt that moments on because it took a lot for me to get back to a good place so\n[doctor] absolutely okay totally understand that glad to hear that you're back out on the court playing with your son how is he doing by the way\n[patient] he is doing great he is doing great i mean you know he is a big step kurry fan so he likes to keep up shots from from way out past the three point line and he is only ten and tiny so it's it's not a good idea for him to do that but he is doing really well and i'm just happy he's tried every sport and basketball's really what took so i'm just really happy that he has a sport and loves and couple of his buddies playing to lead with him so it's just makes me happy that he's found something he really enjoys\n[doctor] good good to hear alright well let's take a look at that ankle it looks like it's pretty swollen so let me just do a quick exam on that right now alright so looks like the outside of your ankle if i push on that does that hurt pretty bad\n[patient] yeah yes\n[doctor] okay so exquisite tenderness tenderness laterally and then if i push here does that hurt too\n[patient] yeah a little bit\n[doctor] okay so some tenderness over the medial deltoid region so swelling on the lateral side of the ankle no epidermolysis skin is intact looks like you have brisk capillary refill no horrible malalignment so alright can you can you stand on it did you say that you're having trouble walking at all\n[patient] yeah i mean i can stand on it and i ca n't walk on it it just it hurts and it feels like i'm going to possibly injure it more just because it does n't feel particularly solid\n[doctor] sure so it does n't quite feel stable\n[patient] yeah\n[doctor] okay okay i gotcha so i know you had an x-ray as you came in today and so i'm just looking at this x-ray here i'll show you on the screen right here i can turn my monitor towards you this is an ap lateral oblique and this is your right ankle so what we're looking at is a displaced lateral malleolus at the weber c level there's no evidence of medial or posterior malleolar fractures but this is a fracture on the lateral side of your ankle now based on the position it's a bit unstable that's why you're feeling some of that that instability when you're walking so for your diagnosis what i'm gon na put down is a lateral malleolar fracture and what i would recommend for that since it is in the location that it is is you're probably unfortunately gon na need surgery we're gon na wan na get that healed what that includes is putting some plate and some screws in and you're gon na be out for a little bit so i know you've been trying to work out and and you wan na get back on the court but but you may have to have to sit out for a little bit we'll get you some crutches\n[patient] how long it's a little bit because i'm also i i forgot to say i'm also i did volunteer to coach\n[doctor] great\n[patient] starting in april so\n[doctor] alright well\n[patient] how long\n[doctor] yeah you you're probably gon na be out for about three months but continue the coaching go ahead and and let's get you back out there we'll get you some crutches and and hopefully you can kinda you know get back on the court start coaching and then within that three months we'll we'll get you back out doing some exercise again\n[patient] okay\n[doctor] alright in the meantime i'm gon na prescribe some medication for now let's try meloxicam and try to get some of the swelling down i want you to ice it and also keep that that ankle elevated do you have a job where you can elevate your ankle regularly\n[patient] yeah i i work from home so that that should n't be a problem it's just everything else i do n't know who is gon na walk my dogs and and do all this stuff that's rest of my family refuses to walk my dog so we'll figure it out\n[doctor] yeah i i'm a dog walker as well so alright sorry for the bad news but let's get you healed up so that we can get you back out doing everything you need to do\n[patient] alright thank you doctor\n[doctor] alright thanks",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 79,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ankle injury",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 602,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 621,
+          "char_end": 626,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rolled ankle",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 614,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 621,
+          "char_end": 626,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "twisted ankle",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 651,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hurting",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 728,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bruised",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 742,
+          "char_end": 749,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "swollen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 800,
+          "char_end": 815,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "trouble walking",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 855,
+          "char_end": 861,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "stable",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1867,
+          "char_end": 1874,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "swollen",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2000,
+          "char_end": 2004,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "hurt",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2073,
+          "char_end": 2083,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2128,
+          "char_end": 2132,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "hurt",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2197,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2232,
+          "char_end": 2240,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "swelling",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2277,
+          "char_end": 2290,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "epidermolysis",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2361,
+          "char_end": 2373,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "malalignment",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2444,
+          "char_end": 2459,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "trouble walking",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2520,
+          "char_end": 2524,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "walk",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2542,
+          "char_end": 2547,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "hurts",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2588,
+          "char_end": 2594,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "injure",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2646,
+          "char_end": 2651,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "solid",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2692,
+          "char_end": 2698,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "stable",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2763,
+          "char_end": 2768,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2822,
+          "char_end": 2827,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2995,
+          "char_end": 3022,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "displaced lateral malleolus",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3067,
+          "char_end": 3073,
+          "turn_id": "t17"
+        },
+        {
+          "char_start": 3087,
+          "char_end": 3106,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "medial malleolar fractures",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3077,
+          "char_end": 3106,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "posterior malleolar fractures",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3097,
+          "char_end": 3105,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "fracture",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3201,
+          "char_end": 3209,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "unstable",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3254,
+          "char_end": 3265,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "instability",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3338,
+          "char_end": 3364,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "lateral malleolar fracture",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3485,
+          "char_end": 3492,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "surgery",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3551,
+          "char_end": 3558,
+          "turn_id": "t17"
+        },
+        {
+          "char_start": 3564,
+          "char_end": 3569,
+          "turn_id": "t17"
+        },
+        {
+          "char_start": 3579,
+          "char_end": 3588,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "putting plate screws in",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4432,
+          "char_end": 4441,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4469,
+          "char_end": 4477,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "swelling",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4497,
+          "char_end": 4500,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "ice",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4528,
+          "char_end": 4542,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "ankle elevated",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4534,
+          "char_end": 4541,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 4588,
+          "char_end": 4593,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "elevate ankle",
+      "id": "e38"
+    }
+  ]
+}

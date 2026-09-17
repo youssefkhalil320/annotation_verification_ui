@@ -1,0 +1,787 @@
+{
+  "doc_id": "ACI_BENCH:D2N098:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] all right . today i am seeing jose james . uh , date of birth 9/29/1957 . mr . james is a new patient who's having pain in his left shoulder and elbow . he fell five months ago going up a stairs , and the pain has been present since .\n[doctor] hi mr . james , i'm doctor isabella . how are you doing ?\n[patient] i'm okay . thank you .\n[doctor] that's good . that's good . tell me what's brings you in today .\n[patient] sure . so i've been having constant pain in my left shoulder and left elbow for a while , about five months or so . hurts all the time . pretty bad at times .\n[doctor] mm . that does not sound like fun . it sounds like you injured it going up the stairs ?\n[patient] yes , that's correct . it was icy , and i have to walk up a flight of stairs to my house . i stepped and my feet just went out . fell on my left side . seems like my shoulder and wrist took the brunt . it's been hurting since .\n[doctor] yeah , that does seem like a likely cause of your symptoms . anything seem to make the pain worse ?\n[patient] well , i've always hit the gym and lifted weights . i've been trying to keep with my routine of two days a week , but it's been hard . the pain is worse when i lift , and i have n't been able to lift more than 15 or 20 pounds which is very frustrating .\n[doctor] mm-hmm . i can imagine it is when you're so accustomed to your routine .\n[patient] exactly . i really enjoy my exercise , but over the past one to two weeks , i've stopped hitting the gym because the pain just was n't worth it honestly . i do keep up with my walking , though . my wife and i walk about 30 minutes almost every day . we have done this since i retired from my office job last year .\n[doctor] i do not blame you , mr . james . does anything seem to help the pain that you've tried ?\n[patient] not too much . i have iced a bit , but i have not taken anything for the pain . stopping exercise and some ice has helped a bit , but it still hurts enough for me to come to see you .\n[doctor] yeah , okay . how about any numbness or tingling ? have you felt that at any point ?\n[patient] no , doc . just pain . no tingling or numbless , numbness , thankfully .\n[doctor] understood . understood . all right . well , let's go ahead and take a look and see what's going on .\n[patient] sounds good . thank you .\n[doctor] okay . use my general physical exam template . mr . james , i'm going to gently press around your shoulder and elbow here to see where your pain might be stemming from . just let me know when it hurts .\n[patient] okay . it hurts when you press there on my elbow and here on my shoulder .\n[doctor] okay . left shoulder and elbow , tender sa space , no warmth , erythema or deformity . positive hawkins-kennedy and neer's test . normal proximal and distar , distal upper extremity strength . intact median radial ulnar sensation and abduction to 90 degrees . normal empty tan , can test . okay , mr . james , w-what i think you are dealing with is impingement syndrome of your left shoulder . i do n't think there's an additional injury or issue with your wrist , but because everything is connected , you're experiencing pain in your wrist because of your shoulder . we do see this type of issue when someone has a fall , so it's good you came to see us , you came in to see us so we could help .\n[patient] so what are the possible treatments ?\n[doctor] well , we have a few options you can try . first option would be to start with physical therapy . i would recommend two sessions per week as well as any other exercises they give you to do at home . we can start there and if that does n't improve your pain , then we could try a cortisone injection .\n[patient] i like the idea of starting with the physical therapy and have a next step if it does n't help . i am not opposed to a shot but would like to try the therapy first .\n[doctor] all right . great . i'll get a referral order , and they will call you within the next day or two to get you scheduled .\n[patient] okay .\n[doctor] mm-hmm . also , please continue to ice , especially your shoulder , and rest as much as you can .\n[patient] okay . i will .\n[doctor] give us a call or email us if you have symptoms worsen , if your symptoms worsen or do not improve with the therapy .\n[patient] will do . thank you . i appreciate your help .\n[doctor] you're welcome . have a great day .\n[patient] you too .\n[doctor] all right . assessment is impingement syndrome of left shoulder . plan discussed with patient . referral is requested for dr. martha rivera to be in physical therapy two days per week .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 128,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 136,
+          "char_end": 149,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain left shoulder",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 128,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 154,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain elbow",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 214,
+          "char_end": 218,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 464,
+          "char_end": 468,
+          "turn_id": "t05"
+        },
+        {
+          "char_start": 475,
+          "char_end": 488,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "pain left shoulder",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 464,
+          "char_end": 468,
+          "turn_id": "t05"
+        },
+        {
+          "char_start": 493,
+          "char_end": 503,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "pain left elbow",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 544,
+          "char_end": 549,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "hurts",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 658,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "injured",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 906,
+          "char_end": 913,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "hurting",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1018,
+          "char_end": 1022,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1180,
+          "char_end": 1184,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1214,
+          "char_end": 1240,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "have n't been able to lift",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1504,
+          "char_end": 1508,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1780,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1884,
+          "char_end": 1888,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1954,
+          "char_end": 1959,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "hurts",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2032,
+          "char_end": 2040,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "numbness",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2044,
+          "char_end": 2052,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "tingling",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2115,
+          "char_end": 2119,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2125,
+          "char_end": 2133,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "tingling",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2148,
+          "char_end": 2156,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "numbness",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2408,
+          "char_end": 2420,
+          "turn_id": "t18"
+        },
+        {
+          "char_start": 2426,
+          "char_end": 2434,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "press around shoulder",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2408,
+          "char_end": 2420,
+          "turn_id": "t18"
+        },
+        {
+          "char_start": 2439,
+          "char_end": 2444,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "press around elbow",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2468,
+          "char_end": 2472,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2523,
+          "char_end": 2528,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "hurts",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2551,
+          "char_end": 2556,
+          "turn_id": "t19"
+        },
+        {
+          "char_start": 2584,
+          "char_end": 2589,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "hurts elbow",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2551,
+          "char_end": 2556,
+          "turn_id": "t19"
+        },
+        {
+          "char_start": 2605,
+          "char_end": 2613,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "hurts shoulder",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2566,
+          "char_end": 2571,
+          "turn_id": "t19"
+        },
+        {
+          "char_start": 2584,
+          "char_end": 2589,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "press elbow",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2566,
+          "char_end": 2571,
+          "turn_id": "t19"
+        },
+        {
+          "char_start": 2605,
+          "char_end": 2613,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "press shoulder",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2658,
+          "char_end": 2673,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "tender sa space",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2679,
+          "char_end": 2685,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "warmth",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2688,
+          "char_end": 2696,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "erythema",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2700,
+          "char_end": 2709,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "deformity",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2712,
+          "char_end": 2720,
+          "turn_id": "t20"
+        },
+        {
+          "char_start": 2721,
+          "char_end": 2736,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "positive hawkins-kennedy",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2712,
+          "char_end": 2720,
+          "turn_id": "t20"
+        },
+        {
+          "char_start": 2741,
+          "char_end": 2752,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "positive neer's test",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2721,
+          "char_end": 2736,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "hawkins-kennedy",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2741,
+          "char_end": 2752,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "neer's test",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2791,
+          "char_end": 2815,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "upper extremity strength",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2825,
+          "char_end": 2854,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "median radial ulnar sensation",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2904,
+          "char_end": 2912,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "can test",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2974,
+          "char_end": 2994,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "impingement syndrome",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3056,
+          "char_end": 3062,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "injury",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3082,
+          "char_end": 3087,
+          "turn_id": "t20"
+        },
+        {
+          "char_start": 3148,
+          "char_end": 3152,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "wrist pain",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3460,
+          "char_end": 3476,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3633,
+          "char_end": 3637,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "pain",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3660,
+          "char_end": 3679,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "cortisone injection",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3729,
+          "char_end": 3745,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3811,
+          "char_end": 3815,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "shot",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3842,
+          "char_end": 3849,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "therapy",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4255,
+          "char_end": 4262,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "therapy",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4422,
+          "char_end": 4459,
+          "turn_id": "t32"
+        }
+      ],
+      "text": "impingement syndrome of left shoulder",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4545,
+          "char_end": 4561,
+          "turn_id": "t32"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e51"
+    }
+  ]
+}

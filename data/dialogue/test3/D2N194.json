@@ -1,0 +1,722 @@
+{
+  "doc_id": "ACI_BENCH:D2N194:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hey betty how're you\n[patient] i'm doing okay aside from this left shoulder pain that i've been having for a few weeks now\n[doctor] wow well i'm sorry to hear that do you remember what you were doing when the pain started\n[patient] i you know i ca n't think about anything specifically but i am very active and i also have been renovating my basement so i have been doing a lot with that\n[doctor] wow okay and do you know if there was any direct or associated trauma that you can think of over the past three weeks like did you fall or hit your shoulder or anything\n[patient] no no trauma that i can think of at all\n[doctor] okay\n[patient] i do n't remember hitting it either\n[doctor] okay now have you ever had pain in that shoulder before\n[patient] you know i'm active and will have aches and pains here and there but nothing that some tylenol ca n't take care of\n[doctor] okay and and it's isolated to your left shoulder\n[patient] it is\n[doctor] okay are you able to move that left arm for me\n[patient] you know anytime i try reaching for something or lifting anything i have a lot of pain and i do n't even try to raise my arm over my head because that's it it really hurts\n[doctor] okay so now i wan na talk a little bit more about that pain are you having pain all of the time or does it wax and wane does it come and go\n[patient] it's all the time and if there is any pressure like when i try to sleep at night i ca n't even lay i'm a side sleeper and it i really gives me a hard time because i'm so uncomfortable so the pain is always there\n[doctor] okay so you ca n't lay on your left side at all\n[patient] i ca n't\n[doctor] alright now do you have that pain when you lay on your back as well or just on your left side\n[patient] i mean it's always there but when i sleep directly on it the pain goes up\n[doctor] okay now let's talk just briefly about your pain so if you have n't taken anything at all or have you been taking anything at all let's start with that have you been taking anything for the pain\n[patient] yeah i've been taking tylenol and i'll take two extra strengths tylenol every six to eight hours\n[doctor] okay\n[patient] and it does help take the edge off\n[doctor] okay that's good now without any tylenol what's your pain level\n[patient] without any tylenol i would say my pain is like a three\n[doctor] okay and then with tylenol with that\n[patient] i'm sorry i keep doing that without any tylenol my pain is like a seven and with tylenol it goes down to a two or three\n[doctor] okay that's good so the tylenol really does help you that that's a good thing\n[patient] yeah\n[doctor] so you talked about renovating your basement did you guys just move in or is it just time for a little house facelift\n[patient] yeah it just time we've been living in this house for some time now and you know with the pandemic we've been home and so decided to do some work\n[doctor] nice have you been into the new home depot that they just opened down the street here\n[patient] no\n[doctor] yeah it's nice my wife and i were there this weekend and they just opened two weeks ago so everything's fully stocked and if you guys are doing some renovations you might run down there and you know save big money at home depot\n[patient] i definitely will check that out\n[doctor] so are you experiencing any numbness or tingling in your arm or hand\n[patient] no\n[doctor] okay so if you do n't mind i'd like to go ahead and do a quick physical exam i've reviewed your vitals everything looks good there and i'm gon na do a focused exam of your left shoulder now you have limited active and passive range of motion there is some tenderness of the greater tuberosity of the humerus and there is no tenderness at the sternoclavicular or clavicular joints and you have good hand grip bilaterally neurovascular exam of your left arm your cap refill is brisk in less than three seconds and motor and sensation is intact to light touch now for review of your x-ray of that left shoulder the good news is i do n't see any fracture or bony abnormality so let me talk to you briefly about my assessment and plan okay so for your first problem of left shoulder pain your symptoms are most likely due to rotator cuff tendinopathy this means that the tendons of the muscles of that left shoulder have been injured and the injury happened to the tendons that make up or attach to the shoulder muscles i'm gon na go ahead and order an mri of your shoulder just to make sure nothing else is going on with that left shoulder i'm also going to go ahead and refer you for physical therapy for approximately six to eight weeks okay now during that time i want you to continue to take tylenol p.r.n . if your symptoms do n't improve we can then consider maybe like a steroid injection of that left shoulder which could hopefully get you some relief now do you have any questions comments or concerns about our treatment plan\n[patient] yeah so i'm really active so do you think that this pain will ever go away\n[doctor] i do i do believe that that pain is gon na go away many of my patients are successful with pt so we are gon na start with that take a conservative approach and see how you do\n[patient] okay alright\n[doctor] alright so i'm gon na have the nurse come in and get you some paperwork and i'll see you in about two about two weeks\n[patient] alright thank you\n[doctor] thank you",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 89,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "left shoulder pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 222,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 725,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 799,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "aches",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 804,
+          "char_end": 809,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "pains",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 847,
+          "char_end": 854,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1101,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1181,
+          "char_end": 1186,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "hurts",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1255,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1275,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1516,
+          "char_end": 1529,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "uncomfortable",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1537,
+          "char_end": 1541,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1676,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1808,
+          "char_end": 1812,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1874,
+          "char_end": 1878,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2020,
+          "char_end": 2024,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2057,
+          "char_end": 2064,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2079,
+          "char_end": 2098,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "two extra strengths",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2099,
+          "char_end": 2106,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2107,
+          "char_end": 2131,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "every six to eight hours",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2233,
+          "char_end": 2240,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2253,
+          "char_end": 2257,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2286,
+          "char_end": 2293,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2309,
+          "char_end": 2313,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2358,
+          "char_end": 2365,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2426,
+          "char_end": 2433,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2437,
+          "char_end": 2441,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2467,
+          "char_end": 2474,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2539,
+          "char_end": 2546,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3316,
+          "char_end": 3324,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "numbness",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3328,
+          "char_end": 3336,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "tingling",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3578,
+          "char_end": 3620,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "limited active and passive range of motion",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3635,
+          "char_end": 3645,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3703,
+          "char_end": 3713,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3799,
+          "char_end": 3817,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "neurovascular exam",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3959,
+          "char_end": 3964,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4021,
+          "char_end": 4029,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "fracture",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4033,
+          "char_end": 4049,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "bony abnormality",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4143,
+          "char_end": 4161,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "left shoulder pain",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4199,
+          "char_end": 4224,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "rotator cuff tendinopathy",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4300,
+          "char_end": 4307,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "injured",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4316,
+          "char_end": 4322,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "injury",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4427,
+          "char_end": 4430,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "mri",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4560,
+          "char_end": 4576,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4671,
+          "char_end": 4678,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4679,
+          "char_end": 4686,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "p.r.n .",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4753,
+          "char_end": 4760,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "steroid",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4753,
+          "char_end": 4770,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4973,
+          "char_end": 4977,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5033,
+          "char_end": 5037,
+          "turn_id": "t41"
+        }
+      ],
+      "text": "pain",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5096,
+          "char_end": 5098,
+          "turn_id": "t41"
+        }
+      ],
+      "text": "pt",
+      "id": "e51"
+    }
+  ]
+}

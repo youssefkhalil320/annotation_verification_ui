@@ -1,0 +1,582 @@
+{
+  "doc_id": "ACI_BENCH:D2N122:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nCough.\n\nMEDICAL HISTORY\n\nPatient reports a history of rheumatoid arthritis. He denies any previous history of lung infections or pneumonia.\n\nSOCIAL HISTORY\n\nPatient reports he stopped smoking tobacco 7 years ago and has felt better since doing so. He notes that he enjoys biking.\n\nFAMILY HISTORY\n\nPatient reports his mother has a history of breast cancer, but is doing well. He denies any family history of lung cancer.\n\nMEDICATIONS\n\nPatient reports taking methotrexate 7.5 mg every week.\n\nREVIEW OF SYSTEMS\n\nRespiratory: Denies cough or shortness of breath.\n\nVITALS\n\nBlood Pressure: 124/76 mmHg.\nHeart Rate: 70 beats per minute.\nRespiratory Rate: 16 breaths per minute.\nOxygen Saturation: 98% on room air.\nBody Temperature: Afebrile.\n\nPHYSICAL EXAM\n\nRespiratory\n- Auscultation of Lungs: Clear and equal bilaterally.\n\nCardiovascular\n- Auscultation of Heart: Regular rate and rhythm. No clicks, rubs, or murmurs. Pulses are intact in all extremities.\n\nMusculoskeletal\n- Examination: No lower extremity edema. Mild swelling to the 3rd digit knuckles on the bilateral hands, consistent with RA.\n\nIntegumentary\n- Examination: Skin is pink, warm, and dry. Capillary refill is brisk.\n\nRESULTS\n\nCT scan of chest, obtained at an outside facility, is reviewed today and demonstrates a solitary 2 cm nodule in the lateral aspect of the right upper lobe. It appears the nodule is smooth in appearance. No evidence of any type of emphysematous disease is present.\n\nASSESSMENT AND PLAN\n\n1. Right upper lobe lung nodule.\n- Medical Reasoning: The patient has incidentally found right upper lobe lung nodule visible on his chest CT. It could be a benign nodule, but because of his smoking history, I think it is best that he has it surgically removed.\n- Patient Education and Counseling: I had a thorough discussion with the patient concerning surgical treatment. Surgery will require general anesthesia and will take approximately 1.5 hours. I explained to the patient that his procedure will consist of 3 small incisions being made on the side of his right chest. I will then insert a camera and scope to assist in removing the nodule along with a very small portion of his lung. He was advised that he will be admitted for most likely an overnight stay. He will have a chest tube in until the following day when I remove it at his bedside. All questions were answered.\n- Medical Treatment: Pulmonary function test ordered today to obtain patient's baseline. PET CT will also be scheduled to determine if the nodule is metabolically active, which can suggest if it is cancerous or inflammatory. Nodule will be removed via video assisted thoracoscopy.\n\n2. Rheumatoid arthritis.\n- Medical Reasoning: Stable.\n- Patient Education and Counseling: I encouraged the patient to continue to follow up with his rheumatologist.\n- Medical Treatment: Continue medication therapy and routine follow up with rheumatologist as previously outlined.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Cough",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "rheumatoid arthritis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 142,
+          "turn_id": null
+        }
+      ],
+      "text": "lung infections",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 155,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "stopped smoking tobacco",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 371,
+          "turn_id": null
+        }
+      ],
+      "text": "breast cancer",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 424,
+          "char_end": 435,
+          "turn_id": null
+        }
+      ],
+      "text": "lung cancer",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 486,
+          "turn_id": null
+        }
+      ],
+      "text": "methotrexate",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 487,
+          "char_end": 493,
+          "turn_id": null
+        }
+      ],
+      "text": "7.5 mg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "every week",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 546,
+          "char_end": 551,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 574,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 599,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Pressure",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 614,
+          "char_end": 624,
+          "turn_id": null
+        }
+      ],
+      "text": "Heart Rate",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 647,
+          "char_end": 663,
+          "turn_id": null
+        }
+      ],
+      "text": "Respiratory Rate",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 705,
+          "turn_id": null
+        }
+      ],
+      "text": "Oxygen Saturation",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 724,
+          "char_end": 740,
+          "turn_id": null
+        }
+      ],
+      "text": "Body Temperature",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 782,
+          "char_end": 803,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 852,
+          "char_end": 873,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 909,
+          "turn_id": null
+        }
+      ],
+      "text": "clicks",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 911,
+          "char_end": 915,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 920,
+          "char_end": 927,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1023,
+          "turn_id": null
+        }
+      ],
+      "text": "lower extremity edema",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1030,
+          "char_end": 1087,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling to the 3rd digit knuckles on the bilateral hands",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1105,
+          "char_end": 1107,
+          "turn_id": null
+        }
+      ],
+      "text": "RA",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1205,
+          "char_end": 1221,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan of chest",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1307,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "nodule in the lateral aspect of the right upper lobe",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1376,
+          "char_end": 1382,
+          "turn_id": null
+        }
+      ],
+      "text": "nodule",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1435,
+          "char_end": 1456,
+          "turn_id": null
+        }
+      ],
+      "text": "emphysematous disease",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1522,
+          "turn_id": null
+        }
+      ],
+      "text": "Right upper lobe lung nodule",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1580,
+          "char_end": 1608,
+          "turn_id": null
+        }
+      ],
+      "text": "right upper lobe lung nodule",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1624,
+          "char_end": 1632,
+          "turn_id": null
+        }
+      ],
+      "text": "chest CT",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1682,
+          "char_end": 1697,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking history",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1733,
+          "char_end": 1751,
+          "turn_id": null
+        }
+      ],
+      "text": "surgically removed",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1886,
+          "char_end": 1904,
+          "turn_id": null
+        }
+      ],
+      "text": "general anesthesia",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2118,
+          "char_end": 2181,
+          "turn_id": null
+        }
+      ],
+      "text": "removing the nodule along with a very small portion of his lung",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2394,
+          "char_end": 2417,
+          "turn_id": null
+        }
+      ],
+      "text": "Pulmonary function test",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2462,
+          "char_end": 2468,
+          "turn_id": null
+        }
+      ],
+      "text": "PET CT",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2598,
+          "char_end": 2604,
+          "turn_id": null
+        }
+      ],
+      "text": "Nodule",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2613,
+          "char_end": 2652,
+          "turn_id": null
+        }
+      ],
+      "text": "removed via video assisted thoracoscopy",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2658,
+          "char_end": 2678,
+          "turn_id": null
+        }
+      ],
+      "text": "Rheumatoid arthritis",
+      "id": "e41"
+    }
+  ]
+}

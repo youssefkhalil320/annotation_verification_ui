@@ -1,0 +1,624 @@
+{
+  "doc_id": "ACI_BENCH:D2N133:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nJoint pain\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Thompson is a 27 y.o. female with a history of carpal tunnel release done a couple years ago, chronic back pain, and depression. She presents today for joint pain.\n\nMs. Thompson reports that over the course of the month she has begun swimming more regularly and trying to be more active. She has experienced bad right knee pain. The patient reports that her knee starts hurting after a couple of laps. She notes previously she could swim 10 laps. She denies injury or trauma to the knee.\n\nThe patient has a history of chronic back pain that has been intermittent, but right now it has been doing well. She denies pain radiating down her legs.\n\nThe patient has a history of depression, which has been going really well with medication and therapy. She is trying to get outside more and it has been helping her with her depression. She notes she is sleeping and eating well. She denies concerns about hurting herself or others.\n\nThe patient's carpal tunnel is doing really well. She has been getting full range of motion and it has felt a lot better.\n\nREVIEW OF SYSTEMS\n\n• Musculoskeletal: Endorses right knee joint pain. Endorses chronic back pain.\n• Psychiatric: Endorses depression.\n\nPHYSICAL EXAMINATION\n\n• Neurological/Psychological: Appropriate mood and affect. Grips are equal bilaterally.\n• Neck: Supple without thyromegaly or cervical lymphadenopathy.\n• Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.\n• Cardiovascular: Regular rate and rhythm. No murmurs, gallops, or rubs. No extra heart sounds.\n• Musculoskeletal: No lower extremity edema. Pain with patellar inhibition. Pain with range of motion of the right knee.\n\nRESULTS\n\nX-ray of the right knee is unremarkable.\n\nASSESSMENT AND PLAN\n\nMs. Thompson is a 27 y.o. female who presents today for evaluation of right knee pain.\n\nChondromalacia of right patella.\n• Medical Reasoning: She has been more active lately but is unaware of any injury to the knee. Her recent x-rays were normal but she did have some discomfort on exam.\n• Medical Treatment: Prescribed ibuprofen 600 mg 4 times a day with food. I do want her to do some straight leg raising exercises that will strengthen her quadriceps.\n• Patient Education and Counseling: I encouraged her to participate in physical activity that is less straining on her joints , such as swimming freestyle laps, or to stop activity all together. If her pain does not improve in a couple of weeks, she will follow up.\n\nChronic back pain.\n• Medical Reasoning: This is stable and well-controlled at this time.\n• Medical Treatment: She should continue swimming regularly once her knee is feeling better.\n\nDepression.\n• Medical Reasoning: She is doing well with her current regimen.\n• Medical Treatment: Continue current medications.\n\nCarpal tunnel syndrome.\n• Medical Reasoning: Relatively stable status post carpal tunnel release.\n• Medical Treatment: Continue current regimen with no changes at this time.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Joint pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 108,
+          "char_end": 129,
+          "turn_id": null
+        }
+      ],
+      "text": "carpal tunnel release",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 172,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic back pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "joint pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 373,
+          "char_end": 388,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 438,
+          "turn_id": null
+        }
+      ],
+      "text": "knee starts hurting",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 519,
+          "char_end": 525,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 535,
+          "turn_id": null
+        }
+      ],
+      "text": "trauma",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 596,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic back pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 702,
+          "turn_id": null
+        }
+      ],
+      "text": "pain radiating down her legs",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 734,
+          "char_end": 744,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 889,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 960,
+          "char_end": 975,
+          "turn_id": null
+        }
+      ],
+      "text": "hurting herself",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1015,
+          "turn_id": null
+        }
+      ],
+      "text": "carpal tunnel",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee joint pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1190,
+          "char_end": 1207,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic back pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1243,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1379,
+          "char_end": 1390,
+          "turn_id": null
+        }
+      ],
+      "text": "thyromegaly",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1394,
+          "char_end": 1418,
+          "turn_id": null
+        }
+      ],
+      "text": "cervical lymphadenopathy",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1454,
+          "char_end": 1466,
+          "turn_id": null
+        }
+      ],
+      "text": "auscultation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1483,
+          "char_end": 1490,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1492,
+          "char_end": 1497,
+          "turn_id": null
+        }
+      ],
+      "text": "rales",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1502,
+          "char_end": 1509,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1557,
+          "char_end": 1564,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1566,
+          "char_end": 1573,
+          "turn_id": null
+        }
+      ],
+      "text": "gallops",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1578,
+          "char_end": 1582,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1587,
+          "char_end": 1605,
+          "turn_id": null
+        }
+      ],
+      "text": "extra heart sounds",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1650,
+          "turn_id": null
+        }
+      ],
+      "text": "lower extremity edema",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1652,
+          "char_end": 1681,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with patellar inhibition",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1683,
+          "char_end": 1726,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain with range of motion of the right knee",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1738,
+          "char_end": 1761,
+          "turn_id": null
+        }
+      ],
+      "text": "X-ray of the right knee",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1871,
+          "char_end": 1886,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee pain",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1920,
+          "turn_id": null
+        }
+      ],
+      "text": "Chondromalacia of right patella",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1997,
+          "char_end": 2003,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2028,
+          "char_end": 2034,
+          "turn_id": null
+        }
+      ],
+      "text": "x-rays",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2069,
+          "char_end": 2079,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2121,
+          "char_end": 2130,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2131,
+          "char_end": 2137,
+          "turn_id": null
+        }
+      ],
+      "text": "600 mg",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2138,
+          "char_end": 2151,
+          "turn_id": null
+        }
+      ],
+      "text": "4 times a day",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2523,
+          "char_end": 2540,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic back pain",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2706,
+          "char_end": 2716,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2835,
+          "char_end": 2857,
+          "turn_id": null
+        }
+      ],
+      "text": "Carpal tunnel syndrome",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2910,
+          "char_end": 2931,
+          "turn_id": null
+        }
+      ],
+      "text": "carpal tunnel release",
+      "id": "e44"
+    }
+  ]
+}

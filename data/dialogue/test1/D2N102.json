@@ -1,0 +1,779 @@
+{
+  "doc_id": "ACI_BENCH:D2N102:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] kelly wood . date of birth , february 15th , 1979 . established patient here for renal ultrasound because of hematuria . urine dipstick today . negative for leukocytes , nitrates , protein , ketone , bilirubin and glucose . color yellow and clear , urobilinogen 0.2 , ph 5.5 and specific gravity 1.020 . there is a trace amount of blood in the urine and intact . renal ultrasound impression . right kidney is 10 cm in length by five centimeter wide . there are no stones , masses or hydronephrosis . the left kidney is 10.8 centimeters in length and five centimeters wide . there is a six millimeter left renal stone non-obstructing . 533 milliliters pre-void and 0 milliliters post-void . hi , mrs. wood . i see you're just finished your ultrasound .\n[patient] yes , ma'am .\n[doctor] well , it looks like you have one stone in the left kidney but it's not obstructing anything .\n[patient] i knew it had to be a kidney stone . i passed what looked like two small stones last week after i scheduled this appointment . and then for the past six weeks , i've had a few episodes of bright red urine the color of , like , cherry kool-aid . and last week , i was constantly having to pee and it hurt something terrible .\n[doctor] how bad was your pain on a scale of zero to 10 ? zero being no pain and 10 being worse , as you can imagine .\n[patient] um , at the time , i'd say an eight .\n[doctor] are you having any flank pain now or tenderness in your lower back ?\n[patient] no , after passing those stones , things have felt a lot better .\n[doctor] that's good to hear . now , it looks like you're only taking alavert 10 milligrams a day and have no drug allergies . is that correct ?\n[patient] that's right .\n[doctor] all right , let's take a look at you today . let's use my default pe . well , mrs. wood , we know that the blood in your urine was due to the kidney stones . fortunately , you passed two last week and the blood has nearly subsided . you do still have one stone in the left kidney . since it's not obstructing or causing pain , i do n't recommend any surgical intervention at this time .\n[patient] i'd like to know what i can do to stop getting these stones .\n[doctor] as we discussed last time , the formation of kidney stones can not be attributed to a particular cause . but several factors increase the risk , such as dehydration , family history , certain foods , digestive tract disease and certain medical conditions .\n[patient] yeah , i know i do n't drink near the amount of water that i should . i drink more mountain dew than anything .\n[doctor] you should drink about half of your body weight in ounces of water a day .\n[patient] so , if i weight 250 pounds , i should drink ?\n[doctor] that would be 125 ounces of water a day and you should avoid drinking sugary drinks like mountain dew .\n[patient] okay . is there any food i should n't eat ?\n[doctor] great question . you should avoid food rich in sodium oxalate and animal protein . so that would be salty , processed food because they're high in sodium . ideally , you should consume less than 1,000 milligrams of sodium a day and reduce the amount of beef , poultry , fish , and pork .\n[patient] what's oxalate ?\n[doctor] it's an organic acid found in plants , that when digested , it binds to minerals that stones are formed from . foods like spinach , chocolate , beets , rhubarb and soy products .\n[patient] well , i'll do whatever it takes to try to avoid getting these stones again .\n[doctor] great . and here's a handout that you can look over . it goes over the dietary recommendations and what to avoid .\n[patient] okay , good . i like to have things in writing to help me remember .\n[doctor] perfect . well , if you have any more questions . if you do n't have any more questions , you're all set . i wo n't need to see you back until next year , as long as you do n't have any more issues like bleeding or pain . if you do have any issues , you can always call the office sooner . and if you experience any severe pain or bright red blood in your urine , you should go to the emergency room .\n[patient] all right . well , let's hope we do n't have to do either of those and i see you next year .\n[doctor] yes , let's hope . come right this way and i'll walk you to check out . update pe abdomen . no flank pain . anti gu . normal vaginal exam . primary diagnosis is hematuria . secondary diagnosis is chronic urol ... urolithiasis . thank you . this completes mrs. wood encounter .",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 106,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "renal ultrasound",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 127,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hematuria",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 144,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine dipstick",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 176,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "leukocytes",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 187,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nitrates",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 197,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "protein",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 200,
+          "char_end": 206,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ketone",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 218,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bilirubin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 230,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "glucose",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 270,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urobilinogen",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 277,
+          "char_end": 279,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ph",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 304,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "specific gravity",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 340,
+          "char_end": 348,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 353,
+          "char_end": 358,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood in urine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 388,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "renal ultrasound",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 473,
+          "char_end": 479,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stones",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 482,
+          "char_end": 488,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "masses",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 506,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydronephrosis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 614,
+          "char_end": 625,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "renal stone",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 748,
+          "char_end": 758,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 828,
+          "char_end": 833,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "stone",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 921,
+          "char_end": 933,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "kidney stone",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 972,
+          "char_end": 978,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "stones",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1103,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "bright red urine",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1177,
+          "char_end": 1190,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "having to pee",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1198,
+          "char_end": 1202,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "hurt",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1250,
+          "char_end": 1254,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1296,
+          "char_end": 1300,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1419,
+          "char_end": 1429,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "flank pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1437,
+          "char_end": 1447,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "tenderness",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1504,
+          "char_end": 1510,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "stones",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1615,
+          "char_end": 1622,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "alavert",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1623,
+          "char_end": 1636,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "10 milligrams",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1637,
+          "char_end": 1642,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "a day",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1669,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "drug allergies",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1831,
+          "char_end": 1839,
+          "turn_id": "t11"
+        },
+        {
+          "char_start": 1845,
+          "char_end": 1850,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "blood in urine",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1879,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "kidney stones",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1873,
+          "char_end": 1878,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "stone",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1929,
+          "char_end": 1934,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "blood",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2044,
+          "char_end": 2048,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "pain",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2174,
+          "char_end": 2180,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "stones",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2237,
+          "char_end": 2250,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "kidney stones",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2345,
+          "char_end": 2356,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "dehydration",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2392,
+          "char_end": 2415,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "digestive tract disease",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 3298,
+          "char_end": 3304,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "stones",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3464,
+          "char_end": 3470,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "stones",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3894,
+          "char_end": 3902,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "bleeding",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3906,
+          "char_end": 3910,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pain",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4014,
+          "char_end": 4018,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4033,
+          "char_end": 4041,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 4047,
+          "char_end": 4052,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "blood in urine",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4284,
+          "char_end": 4294,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pe abdomen",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4300,
+          "char_end": 4310,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "flank pain",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4330,
+          "char_end": 4342,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "vaginal exam",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4366,
+          "char_end": 4375,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "hematuria",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4418,
+          "char_end": 4430,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "urolithiasis",
+      "id": "e54"
+    }
+  ]
+}

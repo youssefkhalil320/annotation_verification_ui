@@ -1,0 +1,865 @@
+{
+  "doc_id": "ACI_BENCH:D2N112:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hey matthew i see here that you've had some back pain for a while and your pcp sent you over to see me how're you doing today\n[patient] pretty good i'm feeling pretty good do n't like the weather you know i've been sitting in the waiting area for you know thirty minutes and that definitely makes the symptoms worse\n[doctor] okay well first of all i i agree with you the weather has kinda been all over the place been hot and been cold and and and now it seems like we've had a week of pretty chilly weather hopefully that changes pretty soon so tell me a little bit about when when your back pain started and and and what happened there\n[patient] well you wan na hear the long story or kind of the short story because my back has been bothering me for a long time\n[doctor] so let's do let's do the reader's digestive version\n[patient] well i ca n't i ca n't really tie my shoes you know standing really makes it bad you know when i go to the mall it really really i do n't know all i i've just been bedridden\n[doctor] okay and i know it got real bad about a month ago that's what the report here from the pcp said but can you tell me exactly where the pain is in your lower back can you kinda point to where that's at\n[patient] yeah it's right here and you know like thirty years ago when i fell off the roof it was really really bothersome they they said maybe there was a fracture or something and you know i do n't know i just could n't play football and then i had to you know kinda try to take care of myself but you know it's it's been really bad for about a month\n[doctor] okay and then do you still have that pain that radiates down your left leg sometimes\n[patient] yeah of course yeah it goes all the way through here\n[doctor] okay and then so it looks like you pointed to your lower back area and then pointed down through your hip and down into your to your left leg can you describe that pain for me\n[patient] it's like a electrical tooth ache and it it it goes down the whole leg\n[doctor] okay and can you rate that pain for me right now zero being none ten being the worst pain you've ever been in in your life\n[patient] right now it's less bad i did n't take my medications because i wanted you to see me as as i am but it's six out of ten but when it gets really bad i'd say it's thirteen out of ten\n[doctor] okay and anything that you do make it feel better you mentioned that you know sometimes sitting or laying down anything there make that better\n[patient] yeah like i said it the only thing that seems to make it better is laying down\n[doctor] okay\n[patient] you know standing walking seems to make it worse coughing sneezing makes it worse and you know i had a friend that saw you and you know you burned some nerves or something like that and so i was just seeing if there was something that you could do to get me out of this pain and hopefully you can do it today\n[doctor] okay and then any numbness or tingling in in your lower extremities or any weakness there in your legs\n[patient] you know it it's my back that's weak and my legs are weak both of them you know coughing sneezing seem to make it worse so sorry i'm just trying to be like a typical patient because most patients they do n't answer the darn questions so you you know all this time i still have n't gotten a chief complaint out of them so i love the way that you're trying to redirect and so you know what your doctor said you had back pain and leg pain but for me the most important thing for me to capture is that it's in the hip side of the leg side of the calf goes to the big toe and so i need them to be able to give me a perfect sort of root signature so i can hone in is that four five disk seen on the mri really significant or is it on the opposite side but again i'm sorry i'm purposely trying to be in a difficult patient because some of these patients he asked them fifty different questions they wo n't answer any of them so anyway sorry about well\n[doctor] that's okay\n[patient] to explain but this is what i deal with every single day\n[doctor] absolutely\n[patient] lot of pain yeah you know what my pain is eight out of ten it goes in the back goes into the hip side of the leg side of the calf goes to the big toe my foot kinda drags when i walk i've been having to use a cane nothing seems to make it better and but very few patients will give you the perfect history and most people will start talking about you know when something happened or go back to thirty years ago and you wan na redirect them to their current symptom but the patients wo n't rarely ever tell you what the chief complaint is you you got ta pull it out of them\n[doctor] so let's take a a quick look at you here okay let's do a physical exam real quick so your vitals look good which is a good thing now on your back exam i do n't see any bony abnormalities no redness or no and no bruising present now do you have pain when i press here\n[patient] no it's right here\n[doctor] okay so positive for pain to palpation at the l4 vertebrae and if you bend forward do you have pain there\n[patient] it hurts all the time especially sitting in these run office desks\n[doctor] okay so you are positive for pain with flexion and extension of your back i'm going to go ahead and test the strength of your legs now push out against my hands for me please\n[patient] okay that's it that's all i got\n[doctor] alright so four out of five strength in the left and five out of five on the right does look like that reflexes are brisk and motor and sensory is intact in both lower extremities i do wan na review the results of your mri the mri shows a disk herniation at the level of l4 l5 vertebrae and it is associated with some nerve root impingement and what that means is the nerve is being compressed by that herniation so let me tell you a little bit about my assessment and plan okay so for the diagnosis of of acute disk herniation at l4 l5 with that nerve root impingement that's causing that pain down your leg and your lower back pain now i know you've tried nsaids in the past without relief and you've done some pt so what i'm going to do is i'm gon na recommend an epidural steroid injection and we're gon na do that today for you if you agree to it what that means is gon na place some anti-inflammatory medication right at the spot of inflammation and once that's in place i wan na refer you back to pt and we wan na strengthen that area mkay you're young and otherwise healthy i think you'll do well but it can take about two to three weeks for that injection really to take full effect so then i want you to see pt and i want you to see me again in about a month are you okay with that treatment plan\n[patient] sure sounds good\n[doctor] alright sounds good i'm gon na have the nurse come in and get you prepped and then we'll get that injection for you",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 53,
+          "char_end": 62,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 606,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "back pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 731,
+          "char_end": 735,
+          "turn_id": "t04"
+        },
+        {
+          "char_start": 745,
+          "char_end": 754,
+          "turn_id": "t04"
+        }
+      ],
+      "text": "back bothering",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1018,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "bedridden",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1162,
+          "char_end": 1166,
+          "turn_id": "t07"
+        },
+        {
+          "char_start": 1178,
+          "char_end": 1188,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "pain lower back",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1384,
+          "char_end": 1392,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "fracture",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1627,
+          "char_end": 1631,
+          "turn_id": "t09"
+        },
+        {
+          "char_start": 1637,
+          "char_end": 1650,
+          "turn_id": "t09"
+        },
+        {
+          "char_start": 1656,
+          "char_end": 1664,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "pain radiates down left leg",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1911,
+          "char_end": 1915,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1945,
+          "char_end": 1966,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "electrical tooth ache",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2030,
+          "char_end": 2034,
+          "turn_id": "t13"
+        },
+        {
+          "char_start": 2040,
+          "char_end": 2044,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "rate pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2040,
+          "char_end": 2044,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2098,
+          "char_end": 2102,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2172,
+          "char_end": 2184,
+          "turn_id": "t14"
+        },
+        {
+          "char_start": 2188,
+          "char_end": 2199,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "did n't take medications",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 2732,
+          "char_end": 2738,
+          "turn_id": "t18"
+        },
+        {
+          "char_start": 2744,
+          "char_end": 2750,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "burned nerves",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2862,
+          "char_end": 2866,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2928,
+          "char_end": 2936,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "numbness",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2940,
+          "char_end": 2948,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "tingling",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2985,
+          "char_end": 2993,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "weakness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3043,
+          "char_end": 3059,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "back that's weak",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3067,
+          "char_end": 3080,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "legs are weak",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3436,
+          "char_end": 3445,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "back pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3450,
+          "char_end": 3458,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "leg pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3716,
+          "char_end": 3719,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "mri",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4093,
+          "char_end": 4097,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4120,
+          "char_end": 4124,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4239,
+          "char_end": 4255,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "foot kinda drags",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4757,
+          "char_end": 4763,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "vitals",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4808,
+          "char_end": 4817,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "back exam",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4835,
+          "char_end": 4853,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "bony abnormalities",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4857,
+          "char_end": 4864,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "redness",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4878,
+          "char_end": 4886,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "bruising",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4911,
+          "char_end": 4915,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pain",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4993,
+          "char_end": 5010,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pain to palpation",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5067,
+          "char_end": 5071,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "pain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5091,
+          "char_end": 5096,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "hurts",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5193,
+          "char_end": 5224,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "pain with flexion and extension",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5264,
+          "char_end": 5268,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 5273,
+          "char_end": 5281,
+          "turn_id": "t29"
+        },
+        {
+          "char_start": 5290,
+          "char_end": 5294,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "test strength legs",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5401,
+          "char_end": 5426,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "four out of five strength",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5493,
+          "char_end": 5511,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "reflexes are brisk",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5609,
+          "char_end": 5612,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "mri",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5617,
+          "char_end": 5620,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "mri",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5629,
+          "char_end": 5644,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "disk herniation",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5708,
+          "char_end": 5730,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "nerve root impingement",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5758,
+          "char_end": 5783,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "nerve is being compressed",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5902,
+          "char_end": 5917,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "disk herniation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5907,
+          "char_end": 5917,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "herniation",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5937,
+          "char_end": 5959,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "nerve root impingement",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5980,
+          "char_end": 5984,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6008,
+          "char_end": 6023,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "lower back pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6048,
+          "char_end": 6054,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "nsaids",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6103,
+          "char_end": 6105,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pt",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6157,
+          "char_end": 6183,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "epidural steroid injection",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6279,
+          "char_end": 6307,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "anti-inflammatory medication",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6329,
+          "char_end": 6341,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6394,
+          "char_end": 6396,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pt",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6545,
+          "char_end": 6554,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "injection",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6608,
+          "char_end": 6610,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "pt",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6831,
+          "char_end": 6840,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "injection",
+      "id": "e58"
+    }
+  ]
+}

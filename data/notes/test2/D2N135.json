@@ -1,0 +1,1012 @@
+{
+  "doc_id": "ACI_BENCH:D2N135:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nEvaluation of high blood sugar.\n\nHISTORY OF PRESENT ILLNESS\n\nMs. Hannah Phillips is a 52-year-old female who presents for evaluation of high blood sugar. The patient admits to dietary indiscretion. She notes that she has been eating more sweets during the holidays. She reports that this past week, she felt really lightheaded, was seeing spots in her vision, and was really dizzy. She went to the emergency room and was told that she had high blood sugar. Ms. Phillips was given IV fluids. The patient was also instructed to get into a routine and watch her diet. She states that she is staying with family during the holidays and having trouble returning to her routine diet, but wants to make sure that her high blood sugar is not an issue.\n\nThe patient denies any fever or chills. She denies chest pain or shortness of breath. She denies abdominal pain or burning when she urinates. She denies joint pain or muscle aches.\n\nShe notes that she has osteoarthritis, and that nothing seems out of the ordinary for her joint pain.\n\nThe patient has a history of atrial fibrillation. She states that she has felt her heart racing when she is anxious; however, other than that, she has not experienced any issues. She is currently taking metoprolol 25 mg 2 times per day.\n\nRegarding her acid reflux, she states that she has been doing well. She has been taking the medication that was prescribed to her, and it has been very helpful. She is on the Protonix 40 mg once daily, and she is doing well with that\n\nREVIEW OF SYSTEMS\n\n• Constitutional: Negative for fever, chills\n• Cardiovascular: Negative for chest pain\n• Respiratory: Negative for shortness of breath.\n• Gastrointestinal: Negative for abdominal pain.\n• Genitourinary: No dysuria.\n• Musculoskeletal: No Arthralgias, Myalgias.\n\nPHYSICAL EXAMINATION\n\nConstitutional\n• General Appearance: appear in no distress.\n\nNeck\n• General Examination: Her thyroid is a little enlarged but nontender. There are no carotid bruits. Respiratory\n• Auscultation of Lungs: Clear bilaterally. Cardiovascular\n• Auscultation of Heart: Irregular rate and rhythm. Musculoskeletal\n• Examination of Abdomen: Nice soft and have no edema in lower extremities.\n\nRESULTS\n\nGlucose: elevated.\nHbA1c: elevated.\n\nASSESSMENT AND PLAN\n\nMs. Hannah Phillips is a 52-year-old female who presents for evaluation of high blood sugar.\n\nDiabetes.\n• Medical Reasoning: Elevated blood glucose and hemoglobin A1c levels based on recent labs.\n• Additional Testing: We will order a complete metabolic panel for further evaluation.\n• Medical Treatment: Initiate metformin 500 mg twice daily. Encouraged dietary modifications. The patient will be given a glucometer to monitor her glucose levels at home.\n\nAtrial Fibrillation.\n\n• Medical Reasoning: Asymptomatic and well-controlled at this time.\n• Medical Treatment: Continue metoprolol 25 mg twice daily. Refilled today.\n\nHistory of Reflux.\n\n• Medical Reasoning: Well-controlled on current regimen.\n• Medical Treatment: Continue Protonix 40 mg daily.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood sugar",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood sugar",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 213,
+          "turn_id": null
+        }
+      ],
+      "text": "dietary indiscretion",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 243,
+          "char_end": 261,
+          "turn_id": null
+        }
+      ],
+      "text": "eating more sweets",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 343,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheaded",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 349,
+          "char_end": 375,
+          "turn_id": null
+        }
+      ],
+      "text": "seeing spots in her vision",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 397,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 456,
+          "char_end": 472,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood sugar",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 497,
+          "char_end": 506,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 693,
+          "turn_id": null
+        }
+      ],
+      "text": "trouble returning to her routine diet",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 743,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood sugar",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 785,
+          "char_end": 790,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 800,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 813,
+          "char_end": 823,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 846,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 873,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 877,
+          "char_end": 884,
+          "turn_id": null
+        }
+      ],
+      "text": "burning",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 915,
+          "char_end": 925,
+          "turn_id": null
+        }
+      ],
+      "text": "joint pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 929,
+          "char_end": 941,
+          "turn_id": null
+        }
+      ],
+      "text": "muscle aches",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 967,
+          "char_end": 981,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1044,
+          "turn_id": null
+        }
+      ],
+      "text": "joint pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1076,
+          "char_end": 1095,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1130,
+          "char_end": 1142,
+          "turn_id": null
+        }
+      ],
+      "text": "heart racing",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1155,
+          "char_end": 1162,
+          "turn_id": null
+        }
+      ],
+      "text": "anxious",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1250,
+          "char_end": 1260,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1261,
+          "char_end": 1266,
+          "turn_id": null
+        }
+      ],
+      "text": "25 mg",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1267,
+          "char_end": 1282,
+          "turn_id": null
+        }
+      ],
+      "text": "2 times per day",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1299,
+          "char_end": 1310,
+          "turn_id": null
+        }
+      ],
+      "text": "acid reflux",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1460,
+          "char_end": 1468,
+          "turn_id": null
+        }
+      ],
+      "text": "Protonix",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1469,
+          "char_end": 1474,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1475,
+          "char_end": 1485,
+          "turn_id": null
+        }
+      ],
+      "text": "once daily",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1575,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1577,
+          "char_end": 1583,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1615,
+          "char_end": 1625,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1654,
+          "char_end": 1673,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1708,
+          "char_end": 1722,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1744,
+          "char_end": 1751,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1786,
+          "turn_id": null
+        }
+      ],
+      "text": "Arthralgias",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1788,
+          "char_end": 1796,
+          "turn_id": null
+        }
+      ],
+      "text": "Myalgias",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1871,
+          "char_end": 1879,
+          "turn_id": null
+        }
+      ],
+      "text": "distress",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1914,
+          "char_end": 1921,
+          "turn_id": null
+        },
+        {
+          "char_start": 1934,
+          "char_end": 1942,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid enlarged",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1971,
+          "char_end": 1985,
+          "turn_id": null
+        }
+      ],
+      "text": "carotid bruits",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2001,
+          "char_end": 2022,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2060,
+          "char_end": 2081,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2083,
+          "char_end": 2108,
+          "turn_id": null
+        }
+      ],
+      "text": "Irregular rate and rhythm",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2128,
+          "char_end": 2150,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Abdomen",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2174,
+          "char_end": 2200,
+          "turn_id": null
+        }
+      ],
+      "text": "edema in lower extremities",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2219,
+          "turn_id": null
+        }
+      ],
+      "text": "Glucose",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2229,
+          "turn_id": null
+        }
+      ],
+      "text": "Glucose: elevated",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2231,
+          "char_end": 2236,
+          "turn_id": null
+        }
+      ],
+      "text": "HbA1c",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2231,
+          "char_end": 2246,
+          "turn_id": null
+        }
+      ],
+      "text": "HbA1c: elevated",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2345,
+          "char_end": 2361,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood sugar",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2364,
+          "char_end": 2372,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2395,
+          "char_end": 2403,
+          "turn_id": null
+        },
+        {
+          "char_start": 2422,
+          "char_end": 2443,
+          "turn_id": null
+        }
+      ],
+      "text": "Elevated hemoglobin A1c levels",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2395,
+          "char_end": 2417,
+          "turn_id": null
+        }
+      ],
+      "text": "Elevated blood glucose",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2404,
+          "char_end": 2417,
+          "turn_id": null
+        }
+      ],
+      "text": "blood glucose",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2422,
+          "char_end": 2443,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoglobin A1c levels",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2504,
+          "char_end": 2528,
+          "turn_id": null
+        }
+      ],
+      "text": "complete metabolic panel",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2583,
+          "char_end": 2592,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2593,
+          "char_end": 2599,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mg",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2600,
+          "char_end": 2611,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2675,
+          "char_end": 2685,
+          "turn_id": null
+        }
+      ],
+      "text": "glucometer",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2689,
+          "char_end": 2723,
+          "turn_id": null
+        }
+      ],
+      "text": "monitor her glucose levels at home",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2726,
+          "char_end": 2745,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial Fibrillation",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2846,
+          "char_end": 2856,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2857,
+          "char_end": 2862,
+          "turn_id": null
+        }
+      ],
+      "text": "25 mg",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2863,
+          "char_end": 2874,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2904,
+          "char_end": 2910,
+          "turn_id": null
+        }
+      ],
+      "text": "Reflux",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3000,
+          "char_end": 3008,
+          "turn_id": null
+        }
+      ],
+      "text": "Protonix",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3009,
+          "char_end": 3014,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3015,
+          "char_end": 3020,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e71"
+    }
+  ]
+}

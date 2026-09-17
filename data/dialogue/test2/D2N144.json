@@ -1,0 +1,985 @@
+{
+  "doc_id": "ACI_BENCH:D2N144:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] tyler nelson , date of birth : 3 , 6 , 1949 , mrn , 385729 . he is here today for ongoing management of rheumatoid arthritis . last time he was here , he received a steroid injection in his right knee . hello mr. nelson , how are you ?\n[patient] um , about the same as last time . my knee is still swollen .\n[doctor] that was your right knee , correct ? i take it the injection did n't help ?\n[patient] it did , maybe for a couple of weeks .\n[doctor] that's it ? and is it still painful ?\n[patient] yeah , it's pretty painful , and now the whole leg is getting swollen .\n[doctor] okay , what would you say your pain level is ?\n[patient] i mean , right now it's about a 3 or so , but , typically on a normal day it's around 6 .\n[doctor] okay , and its been swollen like that for how long now ?\n[patient] since i was last here a couple weeks after that . so about , maybe two months now .\n[doctor] okay , but before it was just the knee ?\n[patient] yeah , the whole thing was n't swollen like this , but i tried to wear compression socks a lot of the time , but it has n't been helping .\n[doctor] okay , okay , so that has n't been working for you ?\n[patient] i mean , it helps to some degree , but it's still swollen , especially around the knee .\n[doctor] hmm . has it been keeping you from doing things during the day ?\n[patient] well , i slowed down a little bit , and i found a few things too fast . but when it really hurts , is when i've been sitting for a while , and then i have to try and get up . i'm so stiff getting up i have to use a cane to get my bearings . i mean , after a little bit , it loosens up , but that first getting up is real difficult .\n[doctor] yeah , i can see , that makes sense . have you been taking your medication regularly ? your on xeljanz right ?\n[patient] yeah , the xr , i think its , uhm , 11 milligrams a day ? yeah , but i'm taking it everyday , and i'm also taking celebrex which i started maybe 2 months ago .\n[doctor] yes , the 200mgs daily . how's that working for you ?\n[patient] pretty good , up until it started swelling again .\n[doctor] okay , well come sit over here , and if you could take of your socks and shoes , and we'll take a look at your knee . and just to let you know , i have a service now that writes my note about the visit , so you'll hear me call things out and describe what i see fully .\n[patient] okay , gotcha .\n[doctor] right , so let's check your leg . can you straighten it , and does it hurt ?\n[patient] yeah , when i try to straighten it all the way it does .\n[doctor] okay , range of motion slightly diminished . i'm going to press here , okay ? and how about here , hmm , i see some pitting around the knee and ankle . normal capillary refill in the toes . does any of this area hurt ?\n[patient] um , just kinda sore , like an old bruise ?\n[doctor] so , i can feel that the knee is hot , and that means there's something going on , like some inflammation . so we can give you another steroid injection for that . i also want to get an x-ray of that knee , so we can see where all the swelling is coming from .\n[patient] yeah . let's do it . sounds go to me .\n[doctor] okay , and did we set up physical therapy for you last time you were here ?\n[patient] yeah , that was some years ago , but that was the other knee .\n[doctor] okay . so i think we'll set that up for you now . we'll also do an x-ray on that knee . i can send you for a physical therapy , and if nothing is helping , then we really might need to get a surgery consult to see what we can do with that knee .\n[patient] okay , sounds like a plan .\n[doctor] all right , so for today we'll go ahead and we'll give you the steroid shot . i'll try to see if i can get a little bit of fluid out before i do give you the injection . there might be no fluid , but i'll see if i can get anything out regardless .\n[patient] okay . and that's a procedure you're going to do right now ?\n[doctor] yep . once we're done talking here , and as far as the edema in your legs , uh , we'll take an x-ray to look for the cause , but there is a lot you can do as well . the compression socks are a good start . um , and also , do you eat a lot of salt ?\n[patient] i mean , um , i mean i love my salty snacks .\n[doctor] okay . well , salt does have a tendency to make your body hold on to water , reducing your salt intake could help with some of the swelling . you can also prop your feet up any time you get a chance , especially at night . and have you talked to your private care doctor about this at all ?\n[patient] no , i figured i would just come here first .\n[doctor] okay . so i think , try some of those things out first , and if it does n't help , definitely make an appointment with them , also , as you know , xeljanz is a high-risk medication , so we need to check your cmp levels every couple of months . so this time your levels are good , but do make sure to make an appointment for the blood work for next time .\n[patient] all right . i can do that . thank you so much doc .\n[doctor] yes , of course . well let me go ahead and get supplies and we'll get to work on your knee .\n[doctor] fluid aspiration and steroid injection procedure . the risks , benefits , and alternatives were explained . the risks of steroid injection were explained , including , but not limited to : hypopigmentation , soft tissue atrophy , tendon ruptures , and transient hypoglycemia among others . verbal consent was attained . the right knee was , uh , um , accessed through the lateral approach with 3 milliliters of initially clear fluid , then bloo- blood tinged fluid . then the right knee was prepped in a standard-fashion . the right knee was injected with 80 milligrams of triamcinolone , and one milliliter of lidocaine . the procedure was tolerated well , with no complications . post-procedure instructions were given . patient will follow up with his pcp . thank you .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rheumatoid arthritis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 181,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 191,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 314,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "swollen",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 377,
+          "char_end": 386,
+          "turn_id": "t03"
+        }
+      ],
+      "text": "injection",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 488,
+          "char_end": 495,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "painful",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 527,
+          "char_end": 534,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "painful",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 570,
+          "char_end": 577,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "swollen",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 624,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 772,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "swollen",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 994,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "swollen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1217,
+          "char_end": 1224,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "swollen",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1431,
+          "char_end": 1436,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "hurts",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1538,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "stiff getting up",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1642,
+          "char_end": 1670,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "getting up is real difficult",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1777,
+          "char_end": 1784,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "xeljanz",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1814,
+          "char_end": 1816,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "xr",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1839,
+          "char_end": 1852,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "11 milligrams",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1853,
+          "char_end": 1858,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "a day",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1886,
+          "char_end": 1894,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "everyday",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1917,
+          "char_end": 1925,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "celebrex",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1948,
+          "char_end": 1956,
+          "turn_id": "t18"
+        }
+      ],
+      "text": "2 months",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1982,
+          "char_end": 1988,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "200mgs",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1989,
+          "char_end": 1994,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "daily",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2070,
+          "char_end": 2078,
+          "turn_id": "t20"
+        }
+      ],
+      "text": "swelling",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2194,
+          "char_end": 2201,
+          "turn_id": "t21"
+        },
+        {
+          "char_start": 2207,
+          "char_end": 2211,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "look at knee",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2418,
+          "char_end": 2423,
+          "turn_id": "t23"
+        },
+        {
+          "char_start": 2429,
+          "char_end": 2432,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "check leg",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2471,
+          "char_end": 2475,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "hurt",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2561,
+          "char_end": 2576,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 2586,
+          "char_end": 2596,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "range of motion diminished",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2612,
+          "char_end": 2617,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "press",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2670,
+          "char_end": 2677,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "pitting",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2766,
+          "char_end": 2770,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "hurt",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2799,
+          "char_end": 2803,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "sore",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2818,
+          "char_end": 2824,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "bruise",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2869,
+          "char_end": 2872,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "hot",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2929,
+          "char_end": 2941,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2971,
+          "char_end": 2978,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "steroid",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2971,
+          "char_end": 2988,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3022,
+          "char_end": 3027,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3071,
+          "char_end": 3079,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "swelling",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3180,
+          "char_end": 3196,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3380,
+          "char_end": 3385,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3422,
+          "char_end": 3438,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3504,
+          "char_end": 3511,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "surgery",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3669,
+          "char_end": 3676,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "steroid",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3669,
+          "char_end": 3681,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "steroid shot",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3709,
+          "char_end": 3712,
+          "turn_id": "t33"
+        },
+        {
+          "char_start": 3729,
+          "char_end": 3738,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "get fluid out",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3764,
+          "char_end": 3773,
+          "turn_id": "t33"
+        }
+      ],
+      "text": "injection",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3989,
+          "char_end": 3994,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "edema",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4029,
+          "char_end": 4034,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4163,
+          "char_end": 4166,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 4176,
+          "char_end": 4180,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "eat salt",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4379,
+          "char_end": 4387,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "swelling",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4751,
+          "char_end": 4758,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "xeljanz",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4812,
+          "char_end": 4822,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "cmp levels",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4932,
+          "char_end": 4942,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "blood work",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5132,
+          "char_end": 5148,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "fluid aspiration",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5153,
+          "char_end": 5170,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5253,
+          "char_end": 5270,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5321,
+          "char_end": 5337,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "hypopigmentation",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5340,
+          "char_end": 5359,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "soft tissue atrophy",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5362,
+          "char_end": 5377,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "tendon ruptures",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5394,
+          "char_end": 5406,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "hypoglycemia",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5578,
+          "char_end": 5596,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "blood tinged fluid",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5674,
+          "char_end": 5682,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "injected",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5688,
+          "char_end": 5701,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "80 milligrams",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5705,
+          "char_end": 5718,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "triamcinolone",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5725,
+          "char_end": 5739,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "one milliliter",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5743,
+          "char_end": 5752,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "lidocaine",
+      "id": "e68"
+    }
+  ]
+}

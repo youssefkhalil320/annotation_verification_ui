@@ -1,0 +1,636 @@
+{
+  "doc_id": "ACI_BENCH:D2N168:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hi diane , how are you ?\n[patient] i'm doing okay , how are you ?\n[doctor] i'm doin' okay . so i know the nurse told you about dax and i'd like to tell dax a little bit about you okay ?\n[patient] okay .\n[doctor] diane is a 28 year old female with a past medical history , significant for , depression and hypertension who presents for emergency room follow-up .\n[doctor] so diane what's going on ? i heard that your- your blood pressure was really high in the emergency room . what happened ?\n[patient] yeah , so i ended up going for a walk , um , yesterday 'cause it was sunny and it was really great . and i just felt really light-headed , um , and i started to fall a bit , and , um , luckily i was with my boyfriend and he caught me , um , and then we went right to the e , to the er .\n[doctor] yeah , okay . yeah , i saw that the blood pressure was pretty high , like in , like , the , almost 200 .\n[patient] yeah .\n[doctor] did you have a headache ?\n[patient] yeah i did .\n[doctor] okay , all right . have your blood pressures been running high in the past ?\n[patient] yeah , they have been . it's- it's , like , once a week , a month , it , kind of , just skyrockets .\n[doctor] okay .\n[patient] um , it usually ends up , um , being , i'm traveling a lot that week for work , so i'm not eating as well , um-\n[doctor] you're not taking your blood pressures , i take it-\n[patient] yeah .\n[doctor] . when you're traveling ?\n[patient] yeah , no , i do n't bring my cuff with me .\n[doctor] okay , but you did buy the cuff like we talked about in the past ?\n[patient] yes i did .\n[doctor] okay , all right . and are you taking your medication , are you taking the lisinopril ?\n[patient] yes i am .\n[doctor] okay , all right . um , so i think we had started you at a , kind of , a moderate dose , so we'll have to talk about that a little bit , okay ?\n[patient] okay .\n[doctor] then in terms of your depression , how are you doing ? i know that we did n't start you on medication , since you're on a bunch of other medications . what- what are your strategies for dealing with that and how are you doing ?\n[patient] so last year i started therapy and i've been going once a week and that's really helped .\n[doctor] okay , all right , great . and how is your support system ?\n[patient] really great . my boyfriend , my mom , and my brother are- are s- , amazing and they're all super close to me , so it's been , it's been good .\n[doctor] okay , well great . so i know you did a review of system sheet when you checked in and i know that you had the headache and the lightheadedness yesterday . do you have any other symptoms at this time , chest pain , shortness of breath , anything like that ?\n[patient] uh , i have a little bit of nasal congestion , but that's just from my seasonal allergies .\n[doctor] okay , all right . well i want to go ahead and do a quick physical exam , okay ?\n[patient] okay .\n[doctor] hey , dragon , show me the blood pressure .\n[doctor] so , yeah , looking at your blood pressure today here in the office , it does look a little elevated still , so we'll have to talk about that . so i'm just gon na listen to your heart and your lungs and we'll go from there okay ?\n[patient] okay .\n[doctor] so on physical examination , i- i do n't appreciate any carotid bruits in your neck . your heart on your heart exam , it does show that you have a slight two out of six systolic ejection murmur . your , there , your lung exam shows nice clear lungs bilaterally and you do have some trace pitting edema to your lower extremities bilaterally . so what that means is , you know , i- i think ultimately , uh , you know we just need to get your blood pressure under better control , okay ?\n[patient] mm-hmm .\n[doctor] um , uh , let me just go ahead , i want to take a look at some of your results , okay ?\n[patient] okay .\n[doctor] hey , dragon , show me the ecg .\n[doctor] yeah , so in reviewing the results of your ekg , it looks the same as last year . um , you do have just blood , those changes from your chronic high blood pressure that we'll address , okay ?\n[doctor] hey , dragon , show me the echocardiogram .\n[doctor] and this is just the echocardiogram from just a few months ago that just , you know , show that you have that slightly leaky heart valve , nothing to do for it , and that the heart murmur is stable , okay ?\n[patient] okay .\n[doctor] so let's just talk a little bit about , you know , my assessment and my plan for you . so , for your first problem , your high blood pressure , it's not controlled at this time , so i want to go ahead and increase the lisinopril to 40 milligrams once a day . i want you to continue to check your blood pressures and report them to me through the patient portal and we'll have to make adjustments if necessary and maybe have to add a second agent , okay ?\n[patient] okay .\n[doctor] and then for your second problem , uh , i want , you know , for your depression , i do n't think that we need to start you on any medication , it sounds like you're doing really well from that standpoint , but you know that you can contact me if you , if you need anything , okay ?\n[patient] okay .\n[doctor] do you have any questions ?\n[patient] no , not at this time .\n[doctor] okay , all right , well it's good to see you .\n[patient] good seeing you too .\n[doctor] hey , dragon , finalize the note .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 299,
+          "char_end": 309,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "depression",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 314,
+          "char_end": 326,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 431,
+          "char_end": 445,
+          "turn_id": "t06"
+        },
+        {
+          "char_start": 457,
+          "char_end": 461,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "blood pressure high",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 636,
+          "char_end": 648,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "light-headed",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 844,
+          "char_end": 858,
+          "turn_id": "t08"
+        },
+        {
+          "char_start": 870,
+          "char_end": 874,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "blood pressure high",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 954,
+          "char_end": 962,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "headache",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1026,
+          "char_end": 1041,
+          "turn_id": "t12"
+        },
+        {
+          "char_start": 1055,
+          "char_end": 1059,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "blood pressures high",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1343,
+          "char_end": 1349,
+          "turn_id": "t16"
+        },
+        {
+          "char_start": 1355,
+          "char_end": 1370,
+          "turn_id": "t16"
+        }
+      ],
+      "text": "taking blood pressures",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1673,
+          "char_end": 1683,
+          "turn_id": "t22"
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1789,
+          "char_end": 1802,
+          "turn_id": "t24"
+        }
+      ],
+      "text": "moderate dose",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1908,
+          "char_end": 1918,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "depression",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2147,
+          "char_end": 2154,
+          "turn_id": "t27"
+        }
+      ],
+      "text": "therapy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2486,
+          "char_end": 2502,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "review of system",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2557,
+          "char_end": 2565,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "headache",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2574,
+          "char_end": 2589,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2648,
+          "char_end": 2658,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2661,
+          "char_end": 2680,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2742,
+          "char_end": 2758,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "nasal congestion",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2785,
+          "char_end": 2803,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "seasonal allergies",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2949,
+          "char_end": 2963,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3003,
+          "char_end": 3017,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3003,
+          "char_end": 3017,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 3067,
+          "char_end": 3075,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "blood pressure elevated",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3138,
+          "char_end": 3147,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 3153,
+          "char_end": 3158,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "listen to heart",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3138,
+          "char_end": 3147,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 3168,
+          "char_end": 3173,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "listen to lungs",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3287,
+          "char_end": 3301,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "carotid bruits",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3336,
+          "char_end": 3346,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "heart exam",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3400,
+          "char_end": 3424,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "systolic ejection murmur",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3447,
+          "char_end": 3456,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "lung exam",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3519,
+          "char_end": 3532,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "pitting edema",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3885,
+          "char_end": 3888,
+          "turn_id": "t41"
+        }
+      ],
+      "text": "ecg",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3943,
+          "char_end": 3946,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "ekg",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4044,
+          "char_end": 4063,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4128,
+          "char_end": 4142,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4175,
+          "char_end": 4189,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4273,
+          "char_end": 4290,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "leaky heart valve",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4329,
+          "char_end": 4341,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "heart murmur",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4509,
+          "char_end": 4528,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4605,
+          "char_end": 4615,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4619,
+          "char_end": 4632,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "40 milligrams",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4633,
+          "char_end": 4643,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "once a day",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4672,
+          "char_end": 4677,
+          "turn_id": "t46"
+        },
+        {
+          "char_start": 4683,
+          "char_end": 4698,
+          "turn_id": "t46"
+        }
+      ],
+      "text": "check blood pressures",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4937,
+          "char_end": 4947,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "depression",
+      "id": "e42"
+    }
+  ]
+}

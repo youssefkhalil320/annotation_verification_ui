@@ -1,0 +1,862 @@
+{
+  "doc_id": "ACI_BENCH:D2N207:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nShortness of breath.\n\nMEDICAL HISTORY\n\nPatient reports a history of coronary disease, acute myocardial infarction in 2018, stage 3 chronic kidney disease, and knee pain. He denies a history of gout.\n\nSURGICAL HISTORY\n\nPatient reports placement of a coronary artery stent in the right coronary artery in 2018.\n\nSOCIAL HISTORY\n\nPatient reports that he is a fan of basketball.\n\nMEDICATIONS\n\nPatient reports taking Lasix 40 mg once a day.\n\nREVIEW OF SYSTEMS\n\nRespiratory: Reports shortness of breath.\nGenitourinary: Denies changes in urination.\nMusculoskeletal: Reports swelling in bilateral lower extremities and great toe pain.\n\nVITALS\n\nBlood Pressure: 135/80 mmHg.\n\nPHYSICAL EXAM\n\nNeck\n- General Examination: Jugular venous distention up to approximately 9 cm. There are no carotid bruits.\n\nRespiratory\n- Auscultation of Lungs: Bibasilar crackles with occasional rhonchi that clears when coughing.\n\nCardiovascular\n- Auscultation of Heart: 3 out of 6 systolic ejection murmur heard at the left base.\n\nMusculoskeletal\n- Examination of the lower extremities: 1 to 2+ pitting edema bilaterally.\n\nASSESSMENT AND PLAN\n\n1. Acute heart failure exacerbation.\n- Medical Reasoning: The patient’s physical examination today suggests he is retaining fluid. His shortness of breath is also the result of an acute heart failure exacerbation. His recent dietary indiscretion may have contributed to this development.\n- Patient Education and Counseling: I explained to the patient that he should increase his diuretic in the morning so that any increased urinary frequency will not interrupt his sleep at night. I encouraged the patient to limit his salt intake.\n- Medical Treatment: The patient will increase his Lasix from 40 mg a day to 80 mg a day. We will see how he does with the increased dose in the morning before adding a second increased dose in the afternoon. Chest x-ray ordered to rule out any other etiologies.\n\n2. Coronary artery disease.\n- Medical Reasoning: He is doing well except for the heart failure exacerbation.\n- Patient Education and Counseling: I advised the patient to limit his intake of salty foods.\n- Medical Treatment: Repeat echocardiogram ordered for further evaluation of the heart murmur heard on his physical exam. I am going to call Dr. White and let them know that I want him to be seen by them.\n\n3. Stage 3 chronic kidney disease.\n- Medical Reasoning: This appears to be stable.\n- Patient Education and Counseling: I reminded the patient it is important to routinely follow up with his nephrologist. I advised him that he should limit intake of any potassium rich foods including bananas, oranges, and potatoes as they can affect his kidney function. I also recommended he avoid the use of any anti-inflammatories such as Motrin or Advil as they can contribute to worsening kidney function. If his pain does not resolve with Tylenol, I want him to call me, and we can discuss some alternative medications or therapies.\n- Medical Treatment: The patient was provided with a referral to a dietician for assistance with his dietary needs. Tylenol can be taken for pain. Complete metabolic panel is ordered to ensure kidney function is stable.\n\n4. Possible gout flare.\n- Medical Reasoning: The patient’s recent great toe pain may have been a possible gout flare related to his chronic kidney disease.\n- Patient Education and Counseling: I explained that there is an alternative medication he could take to protect his kidney function that would not result in a gout flare.\n- Medical Treatment: Uric acid test ordered.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nI want him to call me in 2 days and let me know how his weight has been with increasing the diuretic. If he starts to have worsening shortness of breath in the next 2 days, I recommend he call me as we may have to admit him to the hospital for intravenous diuretics.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "Shortness of breath",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 101,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary disease",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 130,
+          "turn_id": null
+        }
+      ],
+      "text": "acute myocardial infarction",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 170,
+          "turn_id": null
+        }
+      ],
+      "text": "stage 3 chronic kidney disease",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "knee pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 214,
+          "turn_id": null
+        }
+      ],
+      "text": "gout",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "placement of a coronary artery stent",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 428,
+          "char_end": 433,
+          "turn_id": null
+        }
+      ],
+      "text": "Lasix",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 439,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 450,
+          "turn_id": null
+        }
+      ],
+      "text": "once a day",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 493,
+          "char_end": 512,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 556,
+          "turn_id": null
+        }
+      ],
+      "text": "changes in urination",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 583,
+          "char_end": 622,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling in bilateral lower extremities",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 641,
+          "turn_id": null
+        }
+      ],
+      "text": "great toe pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 666,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Pressure",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 725,
+          "char_end": 750,
+          "turn_id": null
+        }
+      ],
+      "text": "Jugular venous distention",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 804,
+          "turn_id": null
+        }
+      ],
+      "text": "carotid bruits",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 821,
+          "char_end": 842,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 844,
+          "char_end": 862,
+          "turn_id": null
+        }
+      ],
+      "text": "Bibasilar crackles",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 886,
+          "turn_id": null
+        }
+      ],
+      "text": "rhonchi",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 904,
+          "char_end": 912,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 932,
+          "char_end": 953,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 966,
+          "char_end": 990,
+          "turn_id": null
+        }
+      ],
+      "text": "systolic ejection murmur",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1070,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of the lower extremities",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1080,
+          "char_end": 1093,
+          "turn_id": null
+        }
+      ],
+      "text": "pitting edema",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1138,
+          "char_end": 1164,
+          "turn_id": null
+        }
+      ],
+      "text": "heart failure exacerbation",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1258,
+          "turn_id": null
+        }
+      ],
+      "text": "retaining fluid",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1264,
+          "char_end": 1283,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1315,
+          "char_end": 1341,
+          "turn_id": null
+        }
+      ],
+      "text": "heart failure exacerbation",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1354,
+          "char_end": 1374,
+          "turn_id": null
+        }
+      ],
+      "text": "dietary indiscretion",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1508,
+          "char_end": 1516,
+          "turn_id": null
+        }
+      ],
+      "text": "diuretic",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1517,
+          "char_end": 1531,
+          "turn_id": null
+        }
+      ],
+      "text": "in the morning",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1544,
+          "char_end": 1571,
+          "turn_id": null
+        }
+      ],
+      "text": "increased urinary frequency",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1713,
+          "char_end": 1718,
+          "turn_id": null
+        }
+      ],
+      "text": "Lasix",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1724,
+          "char_end": 1729,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1730,
+          "char_end": 1735,
+          "turn_id": null
+        }
+      ],
+      "text": "a day",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1739,
+          "char_end": 1744,
+          "turn_id": null
+        }
+      ],
+      "text": "80 mg",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1800,
+          "char_end": 1814,
+          "turn_id": null
+        }
+      ],
+      "text": "in the morning",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1853,
+          "char_end": 1869,
+          "turn_id": null
+        }
+      ],
+      "text": "in the afternoon",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1871,
+          "char_end": 1882,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest x-ray",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1929,
+          "char_end": 1952,
+          "turn_id": null
+        }
+      ],
+      "text": "Coronary artery disease",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2007,
+          "char_end": 2033,
+          "turn_id": null
+        }
+      ],
+      "text": "heart failure exacerbation",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2157,
+          "char_end": 2171,
+          "turn_id": null
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2210,
+          "char_end": 2222,
+          "turn_id": null
+        }
+      ],
+      "text": "heart murmur",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2338,
+          "char_end": 2368,
+          "turn_id": null
+        }
+      ],
+      "text": "Stage 3 chronic kidney disease",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2733,
+          "char_end": 2752,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-inflammatories",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2761,
+          "char_end": 2767,
+          "turn_id": null
+        }
+      ],
+      "text": "Motrin",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2771,
+          "char_end": 2776,
+          "turn_id": null
+        }
+      ],
+      "text": "Advil",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2837,
+          "char_end": 2841,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2864,
+          "char_end": 2871,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3074,
+          "char_end": 3081,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3099,
+          "char_end": 3103,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3105,
+          "char_end": 3129,
+          "turn_id": null
+        }
+      ],
+      "text": "Complete metabolic panel",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3191,
+          "char_end": 3201,
+          "turn_id": null
+        }
+      ],
+      "text": "gout flare",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3245,
+          "char_end": 3259,
+          "turn_id": null
+        }
+      ],
+      "text": "great toe pain",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3285,
+          "char_end": 3295,
+          "turn_id": null
+        }
+      ],
+      "text": "gout flare",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3495,
+          "char_end": 3505,
+          "turn_id": null
+        }
+      ],
+      "text": "gout flare",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3528,
+          "char_end": 3542,
+          "turn_id": null
+        }
+      ],
+      "text": "Uric acid test",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3801,
+          "char_end": 3820,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3912,
+          "char_end": 3923,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3924,
+          "char_end": 3933,
+          "turn_id": null
+        }
+      ],
+      "text": "diuretics",
+      "id": "e61"
+    }
+  ]
+}

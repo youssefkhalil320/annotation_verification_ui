@@ -1,0 +1,447 @@
+{
+  "doc_id": "ACI_BENCH:D2N163:note",
+  "register": "notes",
+  "source_dataset": "ACI_BENCH",
+  "text": "CHIEF COMPLAINT\n\nHypercholesterolemia.\n\nSOCIAL HISTORY\n\nPatient denies any history of smoking; however, they note that their parents smoked when they lived with them. They enjoy being outside and riding their bike on trails.\n\nFAMILY HISTORY\n\nPatient reports a cousin who died of a heart attack in their 40's. but denies any family history of hypercholesterolemia.\n\nVITALS\n\nBlood pressure looks good.\n\nPHYSICAL EXAM\n\nEyes\n- Examination: No xanthomas noted.\n\nNeck\n- General Examination: Neck is supple without thyromegaly.\n\nRespiratory\n- Auscultation of Lungs: Clear bilaterally.\n\nCardiovascular\n- Auscultation of Heart: No murmurs, gallops or rubs.\n\nGastrointestinal\n- Examination of Abdomen: No hepatomegaly or splenomegaly.\n\nRESULTS\n\nRecent cholesterol level is reviewed and shows patient is elevated at 210.\n\nASSESSMENT AND PLAN\n\n1. Elevated cholesterol.\n- Medical Reasoning: The patient's previous tests are consistent with hypercholesterolemia.\n- Patient Education and Counseling: We discussed that the American Academy of Pediatrics recommends children between the ages of 9 to 11 years old and again between 17 to 20 years old be screened for their cholesterol. We also discussed that studies link high cholesterol to pre-mature heart attacks. I advised the patient that genetic testing can be done to see if the problem is genetic or a secondary cause. They were also advised to follow a balanced diet with a variety of foods that are low in saturated fat and sugars, as well as remain active.\n- Medical Treatment: Full cholesterol panel ordered. Hemoglobin A1c, CMP, thyroid study, and liver panel were also ordered. Genetic testing ordered. Referral to nutritionist provided.\n\nPatient Agreements: The patient understands and agrees with the recommended medical treatment plan.\n\nINSTRUCTIONS\n\nThe patient will follow-up in 3 to 6 months after meeting the nutritionist for another cholesterol level.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypercholesterolemia",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 93,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 133,
+          "char_end": 139,
+          "turn_id": null
+        }
+      ],
+      "text": "smoked",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 293,
+          "turn_id": null
+        }
+      ],
+      "text": "heart attack",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 362,
+          "turn_id": null
+        }
+      ],
+      "text": "hypercholesterolemia",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 373,
+          "char_end": 387,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood pressure",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 439,
+          "char_end": 448,
+          "turn_id": null
+        }
+      ],
+      "text": "xanthomas",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 508,
+          "char_end": 519,
+          "turn_id": null
+        }
+      ],
+      "text": "thyromegaly",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 557,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Lungs",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 617,
+          "turn_id": null
+        }
+      ],
+      "text": "Auscultation of Heart",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "murmurs",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 638,
+          "turn_id": null
+        }
+      ],
+      "text": "gallops",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 646,
+          "turn_id": null
+        }
+      ],
+      "text": "rubs",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 690,
+          "turn_id": null
+        }
+      ],
+      "text": "Examination of Abdomen",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 695,
+          "char_end": 707,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatomegaly",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 711,
+          "char_end": 723,
+          "turn_id": null
+        }
+      ],
+      "text": "splenomegaly",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 742,
+          "char_end": 759,
+          "turn_id": null
+        },
+        {
+          "char_start": 793,
+          "char_end": 801,
+          "turn_id": null
+        }
+      ],
+      "text": "cholesterol level elevated",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 742,
+          "char_end": 759,
+          "turn_id": null
+        }
+      ],
+      "text": "cholesterol level",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 855,
+          "turn_id": null
+        }
+      ],
+      "text": "Elevated cholesterol",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 927,
+          "char_end": 947,
+          "turn_id": null
+        }
+      ],
+      "text": "hypercholesterolemia",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1136,
+          "char_end": 1166,
+          "turn_id": null
+        }
+      ],
+      "text": "screened for their cholesterol",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1204,
+          "char_end": 1220,
+          "turn_id": null
+        }
+      ],
+      "text": "high cholesterol",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1235,
+          "char_end": 1248,
+          "turn_id": null
+        }
+      ],
+      "text": "heart attacks",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1277,
+          "char_end": 1292,
+          "turn_id": null
+        }
+      ],
+      "text": "genetic testing",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1544,
+          "turn_id": null
+        }
+      ],
+      "text": "Full cholesterol panel",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1554,
+          "char_end": 1568,
+          "turn_id": null
+        }
+      ],
+      "text": "Hemoglobin A1c",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1573,
+          "turn_id": null
+        }
+      ],
+      "text": "CMP",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1575,
+          "char_end": 1588,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid study",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1605,
+          "turn_id": null
+        }
+      ],
+      "text": "liver panel",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1625,
+          "char_end": 1640,
+          "turn_id": null
+        }
+      ],
+      "text": "Genetic testing",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1888,
+          "char_end": 1905,
+          "turn_id": null
+        }
+      ],
+      "text": "cholesterol level",
+      "id": "e31"
+    }
+  ]
+}

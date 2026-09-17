@@ -1,0 +1,896 @@
+{
+  "doc_id": "ACI_BENCH:D2N174:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] hi , james , how are you ?\n[patient] hi , good to see you .\n[doctor] it's good to see you too . so i know the nurse told you about dax , i'd like to tell dax a little bit about you .\n[patient] sure .\n[doctor] james is a 57 year old male with a past medical history significant for coronary artery disease and lupus , who presents today with joint pain . so james , what's what's going on ?\n[patient] yeah . i've been putting a , a few more miles on the bike each day and , uh , my knees have been killing me , just more so in the last three or four days or so .\n[doctor] okay . is it one knee versus the other , or both ?\n[patient] both equally .\n[doctor] okay . and , um , does it hurt more in the morning when you wake up , or does it hurt more when you're walking around and that type of thing ?\n[patient] usually when i get up in the morning , they're pretty stiff and sore , and then by the end of the day , i start to feel that same sensation . kind of pretty much , like , uh , probably around dinner time or so .\n[doctor] okay . and any other , any other joints bothering you , your elbows , wrists , shoulders , anything like that ?\n[patient] no , it's just the knees .\n[doctor] just the knees . and have you noticed any swelling of your knees , or any redness of your knees ?\n[patient] uh , they look a little inflamed in the morning , and then in the afternoon , same but not as bad , not as noticeable .\n[doctor] okay . and do you have any other symptoms with this ? do you have any other associated fatigue or fever or anything like that ?\n[patient] no , no .\n[doctor] okay . and no injury ?\n[patient] no , no . just , uh , repetitive motion , riding the bike the everyday , it , it's part of my workout , i just probably , uh , probably doubled the miles .\n[doctor] okay , all right . well , tell me a little bit about . uh , you know , it's been a while since i've seen you . you know , in terms of your heart disease , and i know you got the stent placed last year .\n[patient] mm-hmm .\n[doctor] um , i know they took you off the plavix , are you still taking your aspirin every day ?\n[patient] i am .\n[doctor] okay . and how are you doing with your crestor ? any problems with that ?\n[patient] no , none whatsoever .\n[doctor] okay . and any chest pain or shortness of breath ?\n[patient] no .\n[doctor] no ? okay .\n[doctor] okay . all right , and in terms of your lupus , we have , you know , this is something that was kinda back in the , in the background for you , and we have n't had to do a whole lot . you know , your kidney function's been really good . um , any , any issues as far as you know ?\n[patient] no , nothing , not at least in the last year or so .\n[doctor] okay . i think we , we might have to look into it a little bit further with this knee pain that you're having .\n[patient] okay .\n[doctor] but i wan na go ahead and , um ... you know , i know that the nurse did a review of system sheet and we just covered a lot here .\n[patient] mm-hmm .\n[doctor] any other symptoms , abdominal pain , nausea , vomiting ?\n[patient] no , no .\n[doctor] no , just the knee pain ?\n[patient] mm-hmm .\n[doctor] okay . all right . well , let's go ahead and do a quick physical exam .\n[patient] okay .\n[doctor] hey , dragon , show me the vital signs . so your vital signs here in the office look really good .\n[patient] mm-hmm .\n[doctor] there's no fever , your blood pressure and your heart rate look great , so that's , that's awesome .\n[patient] mm-hmm .\n[doctor] um , i'm just gon na check out your heart and your lungs .\n[patient] sure .\n[doctor] and your knees , and i'll let you know what i find , okay ?\n[patient] okay .\n[doctor] all right . so on physical examination of your heart , you know , i do hear that's , like , two out of six systolic ejection murmur , but we've heard that in the past . your lungs sound nice and clear . and on your knee exam , i do appreciate , you know , some bilateral , uh , edema and some slight erythema , there is a slight effusion present on the right knee . does that hurt ?\n[patient] little bit .\n[doctor] all right , so pain to palpation of the right knee . um , and decreased range of motion of the knees bilaterally . so i just wan na look at some of your results , okay ?\n[patient] mm-hmm .\n[doctor] hey , dragon . show me the right knee x-ray . so this is an x-ray of your right knee and in reviewing the results of that , everything looks fine , there's no boney abnormality , there's no fracture , which is not surprising , based on the history , okay ?\n[patient] mm-hmm .\n[doctor] hey , dragon . show me the ekg . and this is your most recent ekg which we did before you came in , and that all looks really good . so , um , so no concerns from a heart standpoint . so let's talk a little bit about , you know , my assessment and my plan for you .\n[patient] mm-hmm .\n[doctor] so for your first problem , your , your knee pain , you know , i'm concerned that it might be from , you know , a flareup of your lupus , so i wan na go ahead and order and autoimmune panel to kinda see where we stand , okay ?\n[patient] sure .\n[doctor] hey , dragon . order an autoimmune panel . for your next problem , the coronary artery disease , i think you're doing really well , your ekg looks good , your vital signs look good .\n[patient] mm-hmm .\n[doctor] i'm gon na go ahead and order a lipid panel and another echocardiogram , okay ?\n[patient] okay .\n[doctor] hey , dragon . order an echocardiogram .\n[doctor] do you have any questions ?\n[patient] no questions .\n[doctor] all right , well , the nurse will be in soon and she'll get you checked out , okay ?\n[patient] you got it .\n[doctor] hey , dragon . finalize the note .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 313,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "coronary artery disease",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 323,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "lupus",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 360,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "joint pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 495,
+          "turn_id": "t06"
+        },
+        {
+          "char_start": 506,
+          "char_end": 513,
+          "turn_id": "t06"
+        }
+      ],
+      "text": "knees killing",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 691,
+          "char_end": 695,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "hurt",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 746,
+          "char_end": 750,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "hurt",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 872,
+          "char_end": 877,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "stiff",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 882,
+          "char_end": 886,
+          "turn_id": "t10"
+        }
+      ],
+      "text": "sore",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1072,
+          "char_end": 1088,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "joints bothering",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1239,
+          "char_end": 1247,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "swelling",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1278,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "redness",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1329,
+          "char_end": 1337,
+          "turn_id": "t14"
+        }
+      ],
+      "text": "inflamed",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1521,
+          "char_end": 1528,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "fatigue",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1532,
+          "char_end": 1537,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "fever",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1605,
+          "char_end": 1611,
+          "turn_id": "t17"
+        }
+      ],
+      "text": "injury",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1928,
+          "char_end": 1941,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "heart disease",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1967,
+          "char_end": 1979,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "stent placed",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2054,
+          "char_end": 2060,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "plavix",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2089,
+          "char_end": 2096,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "aspirin",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2097,
+          "char_end": 2106,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "every day",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2174,
+          "char_end": 2181,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "crestor",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2266,
+          "char_end": 2276,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2280,
+          "char_end": 2299,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2387,
+          "char_end": 2392,
+          "turn_id": "t28"
+        }
+      ],
+      "text": "lupus",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2780,
+          "char_end": 2789,
+          "turn_id": "t30"
+        }
+      ],
+      "text": "knee pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2911,
+          "char_end": 2927,
+          "turn_id": "t32"
+        }
+      ],
+      "text": "review of system",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3016,
+          "char_end": 3030,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3033,
+          "char_end": 3039,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "nausea",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3042,
+          "char_end": 3050,
+          "turn_id": "t34"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3096,
+          "char_end": 3105,
+          "turn_id": "t36"
+        }
+      ],
+      "text": "knee pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3261,
+          "char_end": 3272,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3283,
+          "char_end": 3294,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3372,
+          "char_end": 3377,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "fever",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3385,
+          "char_end": 3399,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3409,
+          "char_end": 3419,
+          "turn_id": "t42"
+        }
+      ],
+      "text": "heart rate",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3511,
+          "char_end": 3520,
+          "turn_id": "t44"
+        },
+        {
+          "char_start": 3526,
+          "char_end": 3531,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "check out heart",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3511,
+          "char_end": 3520,
+          "turn_id": "t44"
+        },
+        {
+          "char_start": 3541,
+          "char_end": 3546,
+          "turn_id": "t44"
+        }
+      ],
+      "text": "check out lungs",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3679,
+          "char_end": 3699,
+          "turn_id": "t48"
+        },
+        {
+          "char_start": 3708,
+          "char_end": 3713,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "physical examination heart",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3768,
+          "char_end": 3792,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "systolic ejection murmur",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3876,
+          "char_end": 3885,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "knee exam",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3939,
+          "char_end": 3944,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "edema",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3961,
+          "char_end": 3969,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "erythema",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3990,
+          "char_end": 3998,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "effusion",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4037,
+          "char_end": 4041,
+          "turn_id": "t48"
+        }
+      ],
+      "text": "hurt",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4091,
+          "char_end": 4108,
+          "turn_id": "t50"
+        }
+      ],
+      "text": "pain to palpation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4138,
+          "char_end": 4163,
+          "turn_id": "t50"
+        }
+      ],
+      "text": "decreased range of motion",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4312,
+          "char_end": 4317,
+          "turn_id": "t52"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4334,
+          "char_end": 4339,
+          "turn_id": "t52"
+        }
+      ],
+      "text": "x-ray",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4433,
+          "char_end": 4450,
+          "turn_id": "t52"
+        }
+      ],
+      "text": "boney abnormality",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4464,
+          "char_end": 4472,
+          "turn_id": "t52"
+        }
+      ],
+      "text": "fracture",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4586,
+          "char_end": 4589,
+          "turn_id": "t54"
+        }
+      ],
+      "text": "ekg",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4621,
+          "char_end": 4624,
+          "turn_id": "t54"
+        }
+      ],
+      "text": "ekg",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4893,
+          "char_end": 4902,
+          "turn_id": "t56"
+        }
+      ],
+      "text": "knee pain",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4983,
+          "char_end": 4988,
+          "turn_id": "t56"
+        }
+      ],
+      "text": "lupus",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5026,
+          "char_end": 5042,
+          "turn_id": "t56"
+        }
+      ],
+      "text": "autoimmune panel",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5130,
+          "char_end": 5146,
+          "turn_id": "t58"
+        }
+      ],
+      "text": "autoimmune panel",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5177,
+          "char_end": 5200,
+          "turn_id": "t58"
+        }
+      ],
+      "text": "coronary artery disease",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5243,
+          "char_end": 5246,
+          "turn_id": "t58"
+        }
+      ],
+      "text": "ekg",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5265,
+          "char_end": 5276,
+          "turn_id": "t58"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5349,
+          "char_end": 5360,
+          "turn_id": "t60"
+        }
+      ],
+      "text": "lipid panel",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5373,
+          "char_end": 5387,
+          "turn_id": "t60"
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5447,
+          "char_end": 5461,
+          "turn_id": "t62"
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e62"
+    }
+  ]
+}

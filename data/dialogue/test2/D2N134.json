@@ -1,0 +1,1037 @@
+{
+  "doc_id": "ACI_BENCH:D2N134:dialogue",
+  "register": "dialogue",
+  "source_dataset": "ACI_BENCH",
+  "text": "[doctor] we're gon na go right to the front- . so when you touch that- hi , michelle , how are you ?\n[patient] i'm good . how are you ?\n[doctor] i'm good . so i know the nurse told you about dax . i'd like to dax a little bit about you , okay ?\n[patient] okay .\n[doctor] all right . so , michelle is a 31-year-old female with a past medical history of type 2 diabetes and hypertension who presents with abnormal lab finding . so , michelle , it came back to me that you had had a positive long ... lyme titer .\n[patient] yeah .\n[doctor] and so , uh , can you , you , you know , can you tell me a little bit about it ? i know the last time i saw you , you had had an insect bite , and you know , it came back positive for lyme . so how are you feeling ?\n[patient] i've been feeling ... i could feel better . um ... i've been feeling tired , um , really lacking a lot of energy , and i have swollen joints in my elbows , just really hurts .\n[doctor] okay . all right . and have you had any , any body aches ?\n[patient] yeah , i have .\n[doctor] okay . all right . um , and i know that you were out hiking in the woods and , and that type of thing a couple of weeks ago , and we thought that that's where you got the bite . so , um , how's your , how's your appetite ? have you been okay ? a little nauseous ?\n[patient] yeah , i've been a little nauseous . i have n't been able to eat much . i've been trying just to keep , you know , toast and crackers and that's all about i've been able to stomach , really .\n[doctor] okay , and , and i know that you had had that , that , uh , bite there . have you noticed any other rash anywhere else ?\n[patient] yeah , i have .\n[doctor] okay . all right . sometimes they kind of describe it as looking as like a bull's-eye .\n[patient] yes .\n[doctor] is that what it looked like ?\n[patient] mm-hmm .\n[doctor] okay . all right . well , um , have you had any , any high fevers ?\n[patient] uh , no , not that i've noticed .\n[doctor] all right . um , and how about from a diabetes standpoint ? how ... how's your blood sugar been running ? especially now that you kind of have this , like , acute thing going on ? have your blood sugars been okay ?\n[patient] they've been okay . i've noticed that they sometimes get a little high and a little low . um , but nothing too far out of range .\n[doctor] okay . all right . um , and you're still taking the metformin ?\n[patient] yes .\n[doctor] okay . all right . good . and then in terms of your high blood pressure , are you monitoring the blood pressures at home ?\n[patient] yeah , i , i have a ... i bought a cuff last year , and i've been , um , taking it myself at home . those have looked good . i've been staying away from the salty foods .\n[doctor] mm-hmm .\n[patient] um , so that's been good .\n[doctor] okay . and , um , so you're still taking the lisinopril ?\n[patient] yes .\n[doctor] okay , great . all right , well , you know , i know that you did the review of systems sheet when you checked in , and i know that you're endorsing some nausea and some joint pain and some body aches . any other symptoms ? abdominal pain ? diarrhea ? anything like that ?\n[patient] no , nothing like that .\n[doctor] okay . um , so let's go ahead , and we'll ... i'm gon na do a quick physical exam .\n[patient] okay .\n[doctor] hey , dragon , show me the vital signs . so i'm looking here at your vital signs . they look great . you do n't have a fever at that ... at this time , so that's really encouraging . i'm just gon na check you out , and , uh , i'm gon na listen to your heart and lungs and look for any rashes and let you know what i find , okay ?\n[patient] okay .\n[doctor] okay , so on physical examination , you know , you do have some swelling of your , uh , elbow joints bilaterally . um , does it hurt when i touch them ?\n[patient] yeah , it does .\n[doctor] okay , so she has pain to palpation to both elbow joints . um , and on your skin examination , you do have a bull's-eye rash on your , um , abdomen on the left-hand side . um , it's , it's warm to palpation . any pain with that ?\n[patient] no , no pain for that .\n[doctor] non-tender to palpation , no evidence of cellulitis . um , and the rest of , you know , the rest of your exam is pretty normal , okay ? so let me just go over some of the results with you , okay ?\n[patient] okay .\n[doctor] hey , dragon , show me the lyme titer . so you can see here , you know , in reviewing the results of your lyme titer , it is elevated . so we're gon na go ahead and do some further testing , but we're gon na , you know , we're gon na look into that , okay ?\n[patient] okay .\n[doctor] hey , dragon , show me the labs . and in reviewing the results of your labs , everything else looks good . so again , you know , you do n't have an elevated white blood cell count or anything like that . so i think we got this early enough , and we can go ahead and , and treat it , okay ?\n[patient] okay .\n[doctor] so i wan na talk a little bit about , you know , my assessment and my plan for you . so for your first problem , this newly diagnosed lyme disease , i wan na go ahead and prescribe you doxycycline , 100 milligrams twice a day . you have to take it for three weeks , okay ?\n[patient] okay .\n[doctor] i'm gon na just touch base with an infectious disease doctor to make sure that there's not anything else that we need to do , okay ? and i wan na see you again next week for a follow-up for this , okay ?\n[patient] okay .\nso for your second problem , your type 2 diabetes , i wan na go ahead and order a hemoglobin a1c and just this ... make sure we do n't have to make any changes to the metformin , okay ?\n[patient] okay .\n[doctor] hey , dragon , order a hemoglobin a1c . and for your last problem , your high blood pressure . it looks today like everything is fine . i think you're doing a really good job of managing your hypertension , and i'm going to continue you on the lisinopril , 10 milligrams a day , and i'm gon na go ahead and order a lipid panel , and , um , i want you to continue to record your blood , blood pressure regularly , okay ?\n[patient] okay .\n[doctor] all right . do you need a refill of that ?\n[patient] uh , yes , i do .\n[doctor] okay . hey , dragon , order lisinopril , 10 milligrams daily . do you have any questions ?\n[patient] no , i do n't .\n[doctor] okay , so i'm gon na , you know , the nurse is gon na come in , and she's gon na check you out , and then we'll make a follow-up appointment for you , okay ?\n[patient] okay .\n[doctor] hey , dragon , finalize the note .",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 352,
+          "char_end": 367,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "type 2 diabetes",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 384,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 423,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "abnormal lab finding",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 480,
+          "char_end": 488,
+          "turn_id": "t05"
+        },
+        {
+          "char_start": 498,
+          "char_end": 508,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "positive lyme titer",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 498,
+          "char_end": 508,
+          "turn_id": "t05"
+        }
+      ],
+      "text": "lyme titer",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 677,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "insect bite",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 725,
+          "turn_id": "t07"
+        }
+      ],
+      "text": "positive for lyme",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 837,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "tired",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 852,
+          "char_end": 859,
+          "turn_id": "t08"
+        },
+        {
+          "char_start": 869,
+          "char_end": 875,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "lacking energy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 903,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "swollen joints",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 910,
+          "char_end": 916,
+          "turn_id": "t08"
+        },
+        {
+          "char_start": 931,
+          "char_end": 936,
+          "turn_id": "t08"
+        }
+      ],
+      "text": "elbows hurts",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 1004,
+          "turn_id": "t09"
+        }
+      ],
+      "text": "body aches",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1213,
+          "char_end": 1217,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "bite",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1295,
+          "char_end": 1303,
+          "turn_id": "t11"
+        }
+      ],
+      "text": "nauseous",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1350,
+          "turn_id": "t12"
+        }
+      ],
+      "text": "nauseous",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1577,
+          "char_end": 1581,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "bite",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1617,
+          "char_end": 1621,
+          "turn_id": "t13"
+        }
+      ],
+      "text": "rash",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1748,
+          "char_end": 1758,
+          "turn_id": "t15"
+        }
+      ],
+      "text": "bull's-eye",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1903,
+          "char_end": 1909,
+          "turn_id": "t19"
+        }
+      ],
+      "text": "fevers",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2003,
+          "char_end": 2011,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2044,
+          "char_end": 2055,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "blood sugar",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2155,
+          "char_end": 2167,
+          "turn_id": "t21"
+        }
+      ],
+      "text": "blood sugars",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2381,
+          "char_end": 2390,
+          "turn_id": "t23"
+        }
+      ],
+      "text": "metformin",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2470,
+          "char_end": 2489,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2500,
+          "char_end": 2510,
+          "turn_id": "t25"
+        },
+        {
+          "char_start": 2515,
+          "char_end": 2530,
+          "turn_id": "t25"
+        }
+      ],
+      "text": "monitoring blood pressures",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2586,
+          "char_end": 2590,
+          "turn_id": "t26"
+        }
+      ],
+      "text": "cuff",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2831,
+          "char_end": 2841,
+          "turn_id": "t29"
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2938,
+          "char_end": 2955,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "review of systems",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3022,
+          "char_end": 3028,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "nausea",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3038,
+          "char_end": 3048,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "joint pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3058,
+          "char_end": 3068,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "body aches",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3092,
+          "char_end": 3106,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3109,
+          "char_end": 3117,
+          "turn_id": "t31"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3322,
+          "char_end": 3333,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3364,
+          "char_end": 3375,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "vital signs",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3414,
+          "char_end": 3419,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "fever",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3532,
+          "char_end": 3541,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 3547,
+          "char_end": 3552,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "listen to heart",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3532,
+          "char_end": 3541,
+          "turn_id": "t35"
+        },
+        {
+          "char_start": 3557,
+          "char_end": 3562,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "listen to lungs",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3580,
+          "char_end": 3586,
+          "turn_id": "t35"
+        }
+      ],
+      "text": "rashes",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3715,
+          "char_end": 3723,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "swelling",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3779,
+          "char_end": 3783,
+          "turn_id": "t37"
+        }
+      ],
+      "text": "hurt",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3858,
+          "char_end": 3875,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "pain to palpation",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3916,
+          "char_end": 3932,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "skin examination",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3949,
+          "char_end": 3964,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "bull's-eye rash",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4029,
+          "char_end": 4046,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "warm to palpation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4053,
+          "char_end": 4057,
+          "turn_id": "t39"
+        }
+      ],
+      "text": "pain",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4088,
+          "char_end": 4092,
+          "turn_id": "t40"
+        }
+      ],
+      "text": "pain",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4154,
+          "char_end": 4164,
+          "turn_id": "t41"
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4363,
+          "char_end": 4373,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "lyme titer",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4442,
+          "char_end": 4452,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "lyme titer",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4461,
+          "char_end": 4469,
+          "turn_id": "t43"
+        }
+      ],
+      "text": "elevated",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4647,
+          "char_end": 4651,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "labs",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4691,
+          "char_end": 4695,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "labs",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4768,
+          "char_end": 4799,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "elevated white blood cell count",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4777,
+          "char_end": 4799,
+          "turn_id": "t45"
+        }
+      ],
+      "text": "white blood cell count",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5070,
+          "char_end": 5082,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "lyme disease",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5121,
+          "char_end": 5132,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5135,
+          "char_end": 5149,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "100 milligrams",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5150,
+          "char_end": 5161,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "twice a day",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5184,
+          "char_end": 5199,
+          "turn_id": "t47"
+        }
+      ],
+      "text": "for three weeks",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5691,
+          "char_end": 5705,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "hemoglobin a1c",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5741,
+          "char_end": 5760,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5746,
+          "char_end": 5760,
+          "turn_id": "t53"
+        },
+        {
+          "char_start": 6034,
+          "char_end": 6040,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "blood pressure record",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5860,
+          "char_end": 5872,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5912,
+          "char_end": 5922,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5925,
+          "char_end": 5938,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "10 milligrams",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5939,
+          "char_end": 5944,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "a day",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5983,
+          "char_end": 5994,
+          "turn_id": "t53"
+        }
+      ],
+      "text": "lipid panel",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6222,
+          "char_end": 6232,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6235,
+          "char_end": 6248,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "10 milligrams",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6249,
+          "char_end": 6254,
+          "turn_id": "t57"
+        }
+      ],
+      "text": "daily",
+      "id": "e71"
+    }
+  ]
+}
