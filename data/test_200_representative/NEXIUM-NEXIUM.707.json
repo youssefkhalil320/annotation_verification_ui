@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.707",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "I am one of those lucky people for whom nexium has worked perfectly.\nBefore starting treatment, I was having extreme difficulty swallowing.\nWithin a week on nexium, my symptoms cleared up immediately, with no side effects.\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "nexium",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 138,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty swallowing",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "a week",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 163,
+          "turn_id": null
+        }
+      ],
+      "text": "nexium",
+      "id": "e4"
+    }
+  ]
+}

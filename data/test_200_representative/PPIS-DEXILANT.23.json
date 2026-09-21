@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:PPIS-DEXILANT.23",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Diarrhea has gotten worse massive head aches lasting for hours feeling depressed and weak\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 8,
+          "turn_id": null
+        }
+      ],
+      "text": "Diarrhea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 34,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "head aches",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "depressed",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "weak",
+      "id": "e4"
+    }
+  ]
+}

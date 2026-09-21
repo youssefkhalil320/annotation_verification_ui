@@ -1,0 +1,36 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-VOLTAREN.43",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "dizziness first few days, mild nausea\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 9,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e2"
+    }
+  ]
+}

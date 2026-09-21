@@ -1,0 +1,120 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.802",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "On 5th day I had overwhelming itching and genital blisters.\nBefore that decreased appetite and nausia.\nI stopped taking after 5 doses.\n4 days later and developed cold sores on mouth and genital blisters slowly going away.\nWould not recommend this\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "itching",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "genital blisters",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 90,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased appetite",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 101,
+          "turn_id": null
+        }
+      ],
+      "text": "nausia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "stopped taking",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 120,
+          "char_end": 133,
+          "turn_id": null
+        }
+      ],
+      "text": "after 5 doses",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 181,
+          "turn_id": null
+        }
+      ],
+      "text": "cold sores on mouth",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "genital blisters",
+      "id": "e8"
+    }
+  ]
+}

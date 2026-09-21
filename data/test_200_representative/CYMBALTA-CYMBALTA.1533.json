@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1533",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "I have been taking Cymbalta for about a year.\nAny side effects I have had have eventually gone away except for occasional excessive sweating of my scalp.\nCymbalta is the only thing that has ever helped me.\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "a year",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 152,
+          "turn_id": null
+        }
+      ],
+      "text": "sweating of my scalp",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 162,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e4"
+    }
+  ]
+}

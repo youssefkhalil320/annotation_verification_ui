@@ -1,0 +1,256 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.137",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Anxiety, feelings of panic, sweating on my face, breaking into a sweat while in bed, feeling like I'm going to die.\nA year and a half ago, I went to the ER because I felt like my heart was beating strangely also, I was sweating profusely.\nWhile being examined, my heart rate dropped to 30 MPM and the nurses had to dry me off as I was sweating everywhere.\nThey hospitalized me for a day and a half.\nBlood tests, ultra sounds, and tread mill stress tests were done\nbut, nothing was found.\nThe Doctors told me it was just one of those unexplained things.\nFor the first few years, Nexium worked great for me.\nHowever, the last couple of years, things have gone downhill fast.\nI now experience anxiety and rapid heart rate and elevated blood pressure.\nThis is especially bad 2-4 days after drinking more than a couple beers.\nI have an appointment today with my Dr. to talk to him about alternative treatments.\nI would really like to try the natural route.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 7,
+          "turn_id": null
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 9,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "feelings of panic",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 28,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "sweating on my face",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "breaking into a sweat",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 97,
+          "turn_id": null
+        },
+        {
+          "char_start": 98,
+          "char_end": 114,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling like I'm going to die",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 184,
+          "turn_id": null
+        },
+        {
+          "char_start": 189,
+          "char_end": 206,
+          "turn_id": null
+        }
+      ],
+      "text": "heart beating strangely",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 227,
+          "turn_id": null
+        }
+      ],
+      "text": "sweating",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 264,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate dropped to 30 MPM",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 343,
+          "turn_id": null
+        }
+      ],
+      "text": "sweating",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 399,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood tests",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 412,
+          "char_end": 424,
+          "turn_id": null
+        }
+      ],
+      "text": "ultra sounds",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 453,
+          "turn_id": null
+        }
+      ],
+      "text": "tread mill stress tests",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 578,
+          "char_end": 584,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 697,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 718,
+          "turn_id": null
+        }
+      ],
+      "text": "rapid heart rate",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 746,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated blood pressure",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 819,
+          "turn_id": null
+        }
+      ],
+      "text": "drinking more than a couple beers",
+      "id": "e17"
+    }
+  ]
+}

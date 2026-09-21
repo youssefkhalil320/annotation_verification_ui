@@ -1,0 +1,148 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.821",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Brief initial loss of sexual function\nDidn't really do much for me, even though an SNRI should help with obsessive thinking and intrusive thoughts - Cymbalta never quite managed it.\nEffexor XR has done a much better job.\nNo horrible side effects with Cymbalta however, and a missed dose never led to brain zaps, like Effexor XR.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 14,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of sexual function",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "SNRI",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 123,
+          "turn_id": null
+        }
+      ],
+      "text": "obsessive thinking",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 128,
+          "char_end": 146,
+          "turn_id": null
+        }
+      ],
+      "text": "intrusive thoughts",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 149,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 192,
+          "turn_id": null
+        }
+      ],
+      "text": "Effexor XR",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 259,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 286,
+          "turn_id": null
+        }
+      ],
+      "text": "missed dose",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 300,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "brain zaps",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 317,
+          "char_end": 327,
+          "turn_id": null
+        }
+      ],
+      "text": "Effexor XR",
+      "id": "e10"
+    }
+  ]
+}

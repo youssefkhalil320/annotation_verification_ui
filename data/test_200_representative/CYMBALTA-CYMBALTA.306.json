@@ -1,0 +1,92 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.306",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Weight gain, crying, agitated, more pain, daily headaches, suicidal!!!\nHated it!!!!!!!!!!!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "Weight gain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "crying",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "agitated",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 40,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 57,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "suicidal",
+      "id": "e6"
+    }
+  ]
+}

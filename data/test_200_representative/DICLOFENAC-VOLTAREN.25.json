@@ -1,0 +1,158 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-VOLTAREN.25",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "8 hours after taken voltaren, I had a severe allergic reaction.\nMy skin felt like it was moving, and the itch on my head, genitals and lips was excruciating.\nMy lips started to swell, then my tongue.\nLuckily I had an epipen in the medicine cupboard, and that saved me.\nI had taken this medication many times before for gout and a bit of arthritis.\nThis was the first time I had the reaction.\nI am now severely allergic to NSAIDs.\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "voltaren",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 71,
+          "turn_id": null
+        },
+        {
+          "char_start": 77,
+          "char_end": 81,
+          "turn_id": null
+        },
+        {
+          "char_start": 89,
+          "char_end": 95,
+          "turn_id": null
+        }
+      ],
+      "text": "skin like moving",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 139,
+          "turn_id": null
+        }
+      ],
+      "text": "itch on my head, genitals and lips",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "lips started to swell",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 217,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "epipen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 319,
+          "char_end": 323,
+          "turn_id": null
+        }
+      ],
+      "text": "gout",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 346,
+          "turn_id": null
+        }
+      ],
+      "text": "arthritis",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 410,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "allergic to NSAIDs",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 422,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDs",
+      "id": "e10"
+    }
+  ]
+}

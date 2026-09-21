@@ -1,0 +1,204 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.773",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "depression,red skin , extended stomach,aches and pains,anxiety,tiredness, exhaustion, constipating weight gain.\nI have stop using Nexium 6 days ago and am now have hip pain,back pain and of course reflux, How long will these symptoms last for ?\nHow long does this drug to get out of ones system and whats the alternative.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 10,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "red skin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "extended stomach",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 39,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "aches",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 54,
+          "turn_id": null
+        }
+      ],
+      "text": "pains",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 72,
+          "turn_id": null
+        }
+      ],
+      "text": "tiredness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 84,
+          "turn_id": null
+        }
+      ],
+      "text": "exhaustion",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 98,
+          "turn_id": null
+        }
+      ],
+      "text": "constipating",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "weight gain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 136,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 164,
+          "char_end": 172,
+          "turn_id": null
+        }
+      ],
+      "text": "hip pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "reflux",
+      "id": "e14"
+    }
+  ]
+}

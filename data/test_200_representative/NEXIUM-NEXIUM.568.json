@@ -1,0 +1,279 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.568",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "insomnia, swelling in wrists, sharp pains in legs,hives,swelling in mouth and throat,,skin sensitivity,itching,restrictions in swallowing,swelling of abdomen,anxiety,\nI discontinued the nexium and still have some of the side effects, but each is gradually waning.\nI plan to visit my ear,nose, throat doctor for another answer to the gerd.\nJust a note to those suffering acid/reflux:\nWe are the only country suffering greatly with gerd because  we have such a diet of rich and spicey foods.\nResearch the web for foods that become alkaline in your stomach.\nOur stomach ph is alkaline.\nRemember to avoid large quantities of acid producing foods and eat more of the alkaline.\nThis will not solve the damage done to our esophagus, nor the damage done by the use of nexium, but it will lower the chances of an upset stomach and acid reflux.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 8,
+          "turn_id": null
+        }
+      ],
+      "text": "insomnia",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling in wrists",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 49,
+          "turn_id": null
+        }
+      ],
+      "text": "pains in legs",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 55,
+          "turn_id": null
+        }
+      ],
+      "text": "hives",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 67,
+          "turn_id": null
+        },
+        {
+          "char_start": 78,
+          "char_end": 84,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling in throat",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 73,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling in mouth",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "skin sensitivity",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "itching",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 137,
+          "turn_id": null
+        }
+      ],
+      "text": "restrictions in swallowing",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 138,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling of abdomen",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 158,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 192,
+          "turn_id": null
+        }
+      ],
+      "text": "nexium",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 333,
+          "char_end": 337,
+          "turn_id": null
+        }
+      ],
+      "text": "gerd",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 370,
+          "char_end": 381,
+          "turn_id": null
+        }
+      ],
+      "text": "acid/reflux",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 434,
+          "turn_id": null
+        }
+      ],
+      "text": "gerd",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 696,
+          "char_end": 724,
+          "turn_id": null
+        }
+      ],
+      "text": "damage done to our esophagus",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 760,
+          "char_end": 766,
+          "turn_id": null
+        }
+      ],
+      "text": "nexium",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 804,
+          "char_end": 817,
+          "turn_id": null
+        }
+      ],
+      "text": "upset stomach",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 822,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "acid reflux",
+      "id": "e19"
+    }
+  ]
+}

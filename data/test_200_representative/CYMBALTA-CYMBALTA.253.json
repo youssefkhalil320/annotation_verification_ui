@@ -1,0 +1,302 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.253",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Weight Gain, Severely Decreased Interest\nIn Sex, Dry Mouth, Nightmares, Disturbing Dreams\nLeaving Me Unsure of Reality, Frequently Waking At Night, Always Tired, Sweaty, Commonly Abnormal Bowel Movements, Gas, Clenching Jaw\nIt seems to help a bit, but is expensive.\nI've never had much luck with antidepressants, but this is definitely an improvement to my suicidal tendencies.\nI do still have mood swings, though not as often.\nThe side effects all stink, and the things such as weight gain (I've gained at least 20 pounds!) and gas really effect my self esteem.\nI'm thinking about trying to switch mess again...\nThis is not easy.\nCymbalta has helped me the most, but the side effects are very significant.\nPlus the price is not fun for a poor, stressed out college student.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "Weight Gain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "Decreased Interest\nIn Sex",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "Dry Mouth",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "Nightmares",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "Disturbing Dreams",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 118,
+          "turn_id": null
+        }
+      ],
+      "text": "Unsure of Reality",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 146,
+          "turn_id": null
+        }
+      ],
+      "text": "Waking At Night",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 160,
+          "turn_id": null
+        }
+      ],
+      "text": "Tired",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 168,
+          "turn_id": null
+        }
+      ],
+      "text": "Sweaty",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "Abnormal Bowel Movements",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "Gas",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "Clenching Jaw",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 311,
+          "turn_id": null
+        }
+      ],
+      "text": "antidepressants",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 376,
+          "turn_id": null
+        }
+      ],
+      "text": "suicidal tendencies",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 394,
+          "char_end": 405,
+          "turn_id": null
+        }
+      ],
+      "text": "mood swings",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 490,
+          "turn_id": null
+        }
+      ],
+      "text": "weight gain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 497,
+          "char_end": 522,
+          "turn_id": null
+        }
+      ],
+      "text": "gained at least 20 pounds",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "gas",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 639,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 739,
+          "char_end": 743,
+          "turn_id": null
+        }
+      ],
+      "text": "poor",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 745,
+          "char_end": 757,
+          "turn_id": null
+        }
+      ],
+      "text": "stressed out",
+      "id": "e21"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.131",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Didn't seem to help my depression - although I was somewhat more organized and directed.\nFeeling very tired, which has continued through the months of taking Cymbalta.\nThink I'll discontinue, under my doctor's supervision.\nGood luck.\nHope it works for you.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 33,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 102,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "tired",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 147,
+          "turn_id": null
+        }
+      ],
+      "text": "months",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 158,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e4"
+    }
+  ]
+}

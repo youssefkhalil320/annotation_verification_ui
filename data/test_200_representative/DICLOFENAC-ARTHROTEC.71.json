@@ -1,0 +1,83 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-ARTHROTEC.71",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Within 5 minutes of taking drug, developed severe colon and uterine cramping. Cold sweat, fainting, heart palpitations.\nWill never use again or recommend\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 55,
+          "turn_id": null
+        },
+        {
+          "char_start": 68,
+          "char_end": 76,
+          "turn_id": null
+        }
+      ],
+      "text": "colon cramping",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 76,
+          "turn_id": null
+        }
+      ],
+      "text": "uterine cramping",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 88,
+          "turn_id": null
+        }
+      ],
+      "text": "Cold sweat",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 98,
+          "turn_id": null
+        }
+      ],
+      "text": "fainting",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 100,
+          "char_end": 118,
+          "turn_id": null
+        }
+      ],
+      "text": "heart palpitations",
+      "id": "e5"
+    }
+  ]
+}

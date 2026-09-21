@@ -1,0 +1,36 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.177",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "sadness,nauseau\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 7,
+          "turn_id": null
+        }
+      ],
+      "text": "sadness",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 8,
+          "char_end": 15,
+          "turn_id": null
+        }
+      ],
+      "text": "nauseau",
+      "id": "e2"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-NORVASC.221",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Flushing, swollen and bleeding gums, burning mouth feeling, anxiety. At higher doses, extreme vertigo and dizziness.\nI have been taking this for 9 months.\nThe side effects were worse at first, but now have lessened somewhat.\nI tried to go up tp\n5mg because my BP was still spiking to 150/100 at least once a day, but it caused extreme vertigo and dizziness, so I had to back off.\nNow a few months later, I am trying 5mg again, split up into two doses of 2.5 mg taken 12 hours apart.\nThis seems to make it easier, I have been on the increased divided dose for four days now and so far no vertigo.\nThe side effects are mild enough for me that I am still taking it as of now.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 8,
+          "turn_id": null
+        }
+      ],
+      "text": "Flushing",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 17,
+          "turn_id": null
+        },
+        {
+          "char_start": 31,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "swollen gums",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding gums",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "burning mouth feeling",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 101,
+          "turn_id": null
+        }
+      ],
+      "text": "vertigo",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 106,
+          "char_end": 115,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "for 9 months",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 248,
+          "turn_id": null
+        }
+      ],
+      "text": "5mg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 262,
+          "turn_id": null
+        },
+        {
+          "char_start": 273,
+          "char_end": 291,
+          "turn_id": null
+        }
+      ],
+      "text": "BP spiking to 150/100",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 342,
+          "turn_id": null
+        }
+      ],
+      "text": "vertigo",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 356,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 416,
+          "char_end": 419,
+          "turn_id": null
+        }
+      ],
+      "text": "5mg",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 454,
+          "char_end": 460,
+          "turn_id": null
+        }
+      ],
+      "text": "2.5 mg",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 481,
+          "turn_id": null
+        }
+      ],
+      "text": "12 hours apart",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 568,
+          "turn_id": null
+        }
+      ],
+      "text": "for four days",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 587,
+          "char_end": 594,
+          "turn_id": null
+        }
+      ],
+      "text": "vertigo",
+      "id": "e17"
+    }
+  ]
+}

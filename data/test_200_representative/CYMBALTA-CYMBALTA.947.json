@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.947",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "possibly worse migraines (its so hard to tell for sure), increased sex drive\nI've had a lifelong battle with severe depression, and I have been quite happy with cymbalta.  Literally!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 15,
+          "char_end": 24,
+          "turn_id": null
+        }
+      ],
+      "text": "migraines",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 76,
+          "turn_id": null
+        }
+      ],
+      "text": "increased sex drive",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e4"
+    }
+  ]
+}

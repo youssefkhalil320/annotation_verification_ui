@@ -1,0 +1,204 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1988",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "suicide\nmy wife  committed suicide by self inflicted gunshot on dec.\n12 06 as a result of an adverse reaction between cymbalta and lunesta.\nShe was misdiagnosed for depression when in fact she was experiecing a bipolar state.\nthe abject apathy of her doctors and treatment was criminal.\ni finally obtained her medical records which gave me an insight into what she was coping with and registered my complaints with the alabama board of medical examiners .\nshe was also prescribed xanax for anxiety --anyone\nprescribed three medications all with the potential side effects of suicide and mis diagnosed does not stand a chance.\ni can give more in depth discussion personally   or in google and read the article regarding her suicide.\nmedications such as these without close supervision, awareness, and monitoring are deadly.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 7,
+          "turn_id": null
+        }
+      ],
+      "text": "suicide",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "suicide",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 53,
+          "char_end": 60,
+          "turn_id": null
+        }
+      ],
+      "text": "gunshot",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 109,
+          "turn_id": null
+        }
+      ],
+      "text": "adverse reaction",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 138,
+          "turn_id": null
+        }
+      ],
+      "text": "lunesta",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 175,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 211,
+          "char_end": 224,
+          "turn_id": null
+        }
+      ],
+      "text": "bipolar state",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 237,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "apathy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 480,
+          "char_end": 485,
+          "turn_id": null
+        }
+      ],
+      "text": "xanax",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 497,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 575,
+          "char_end": 582,
+          "turn_id": null
+        }
+      ],
+      "text": "suicide",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "suicide",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 800,
+          "char_end": 810,
+          "turn_id": null
+        }
+      ],
+      "text": "monitoring",
+      "id": "e14"
+    }
+  ]
+}

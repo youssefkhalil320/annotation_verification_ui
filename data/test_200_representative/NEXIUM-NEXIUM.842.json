@@ -1,0 +1,97 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.842",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Worked very well to relieve burning symptoms.\nDid not \"heal\" ulcer as some ads may have suggested.\nWorks well as daily maintenence drug but is not meant to be taken at time of symptoms.\nSome constipation.\nWhen drugs are forgotten or skipped, burning symptoms re-appear.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 28,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "burning symptoms",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 66,
+          "turn_id": null
+        }
+      ],
+      "text": "ulcer",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 118,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 215,
+          "turn_id": null
+        },
+        {
+          "char_start": 220,
+          "char_end": 240,
+          "turn_id": null
+        }
+      ],
+      "text": "drugs forgotten or skipped",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 242,
+          "char_end": 258,
+          "turn_id": null
+        }
+      ],
+      "text": "burning symptoms",
+      "id": "e6"
+    }
+  ]
+}

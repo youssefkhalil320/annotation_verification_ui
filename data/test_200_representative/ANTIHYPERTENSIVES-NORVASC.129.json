@@ -1,0 +1,69 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-NORVASC.129",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Have me tired..give me a feeli.g like im having a panic attack..lighheaded..feel like my bp is up wit dis drug...\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 8,
+          "char_end": 13,
+          "turn_id": null
+        }
+      ],
+      "text": "tired",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "panic attack",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "lighheaded",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 91,
+          "turn_id": null
+        },
+        {
+          "char_start": 95,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "bp up",
+      "id": "e4"
+    }
+  ]
+}

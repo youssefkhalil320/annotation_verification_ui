@@ -1,0 +1,50 @@
+{
+  "doc_id": "CADECV2:PPIS-PEPCID.97",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Acid reflux,  nausea. Terrible anxiety attacks\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "Acid reflux",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 14,
+          "char_end": 20,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety attacks",
+      "id": "e3"
+    }
+  ]
+}

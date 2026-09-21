@@ -1,0 +1,106 @@
+{
+  "doc_id": "CADECV2:PPIS-AXID.1",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "My son has been taking Axid for about 5 months (since he was 2 months old).\nHe has Reflux and while the Axid doesn't do much to eliminate the Reflux, it has made his discomfort much better.\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Axid",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "5 months",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 73,
+          "turn_id": null
+        }
+      ],
+      "text": "since he was 2 months old",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "Reflux",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "Axid",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "Reflux",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 176,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort",
+      "id": "e7"
+    }
+  ]
+}

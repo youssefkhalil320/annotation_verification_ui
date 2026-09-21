@@ -1,0 +1,50 @@
+{
+  "doc_id": "CADECV2:PPIS-ZANTAC75.22",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Muscle pain, stomach pain, anxiety\nFine since stopping\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "Muscle pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "stomach pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e3"
+    }
+  ]
+}

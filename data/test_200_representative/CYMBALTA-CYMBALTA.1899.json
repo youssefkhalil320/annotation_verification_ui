@@ -1,0 +1,106 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1899",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Involuntary jaw-clenching, nausea, loss of appetite.  Side effects disappeared after approximately two weeks.\nI don't feel a lot happier or free of worry, but depression and anxiety are most definitely less severe since I began this medication.\nMigraines are also less frequent (every four to five months instead of 1-2/month).\nI am definitely not disappointed with the results I've had with this medicine.\nYes, the initial side effects are quite troubling\nbut it was worth it.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 12,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "jaw-clenching",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 33,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of appetite",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "worry",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 181,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 254,
+          "turn_id": null
+        }
+      ],
+      "text": "Migraines",
+      "id": "e7"
+    }
+  ]
+}

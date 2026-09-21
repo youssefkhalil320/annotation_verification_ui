@@ -1,0 +1,78 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1360",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Diarrhea, Upset Stomach (occasionally)\nAfter being prescribed this medication (that I had only heard about briefly on commercials though paid little to no attention to)\nI went ahead and researched it extensively.\nI went to reputable medical websites, message boards and just plain googled the med.\nAt first, I was dead set against taking it as a majority of the reviews on the message boards were extremely negative.\nPeople were talking about terrible side effects that were often developing within hours of taking their first dose.\nI was appalled that such a medication would even be prescribed.\nThen I found this website, which seemed to include the good and the bad.\nI read hundreds of posts from those who swore by the med to those who felt it was the root of all evil.\nI had made up my mind that I was not going to try Cymbalta- no way!\nI thought I'd rather suffer through all my anxiety and panic attacks, than deal with the crazy side effects that people were going through.\nBut then, my dad said something-\nhe said that a\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 8,
+          "turn_id": null
+        }
+      ],
+      "text": "Diarrhea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 23,
+          "turn_id": null
+        }
+      ],
+      "text": "Upset Stomach",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 832,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 885,
+          "char_end": 892,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 897,
+          "char_end": 910,
+          "turn_id": null
+        }
+      ],
+      "text": "panic attacks",
+      "id": "e5"
+    }
+  ]
+}

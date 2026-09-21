@@ -1,0 +1,55 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.755",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "headache in entire frontal lobe area\nWhen I switched to Protonix, the headache went away!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        },
+        {
+          "char_start": 19,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "headache in frontal lobe area",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 64,
+          "turn_id": null
+        }
+      ],
+      "text": "Protonix",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 70,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e3"
+    }
+  ]
+}

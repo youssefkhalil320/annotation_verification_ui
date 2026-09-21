@@ -1,0 +1,111 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.819",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "pain of leg  and back .\ndifficulty of swalling my salliva that bring me to panic attack.\nburning on my chest like a hard attack\njust stop yesterday thanks to my specialist who told me that side effects are possible .\ncontrary to the generalist who told me to continue... let see in a week.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 7,
+          "turn_id": null
+        },
+        {
+          "char_start": 17,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "pain of back",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "pain of leg",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 57,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty of swalling my salliva",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 75,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "panic attack",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "burning on my chest",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 127,
+          "turn_id": null
+        }
+      ],
+      "text": "hard attack",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 201,
+          "turn_id": null
+        }
+      ],
+      "text": "side effects",
+      "id": "e7"
+    }
+  ]
+}

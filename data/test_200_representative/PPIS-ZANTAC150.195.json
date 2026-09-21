@@ -1,0 +1,78 @@
+{
+  "doc_id": "CADECV2:PPIS-ZANTAC150.195",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Might work with heartburn but it doesn't do anything for GERD.\nI know this is better than PPI's, but H2 blockers don't cut it for serious GERD.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 16,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "heartburn",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 61,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 95,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI's",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 112,
+          "turn_id": null
+        }
+      ],
+      "text": "H2 blockers",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 138,
+          "char_end": 142,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e5"
+    }
+  ]
+}

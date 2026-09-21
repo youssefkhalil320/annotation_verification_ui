@@ -1,0 +1,69 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.236",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Vomitting, dizzy, legs very weak could not stand, could not drive.\nCompletely out of it and could not do anything but sleep.\nTook it at night but could not function until 4:00 the next day.\nTry to go to work but had to turn around and go home.\nThis drug is very dangerous in my opinion.  Do not recommend this drug to anyone.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 9,
+          "turn_id": null
+        }
+      ],
+      "text": "Vomitting",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 22,
+          "turn_id": null
+        },
+        {
+          "char_start": 28,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "legs weak",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 84,
+          "turn_id": null
+        }
+      ],
+      "text": "out of",
+      "id": "e4"
+    }
+  ]
+}

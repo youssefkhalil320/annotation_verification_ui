@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:PPIS-PEPCIDAC.36",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Inner anxiety. palpitations and irregular heartbeat\nSame sx with PPI's\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 6,
+          "char_end": 13,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 15,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "irregular heartbeat",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 65,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI's",
+      "id": "e4"
+    }
+  ]
+}

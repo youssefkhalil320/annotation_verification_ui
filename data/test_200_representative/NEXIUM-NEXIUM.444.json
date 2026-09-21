@@ -1,0 +1,162 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.444",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Weight gain - put on 20 lbs in the first two months (from 107 lbs to 127 lbs), placing me in the overweight category.\nRebound GERD when trying to wean off of it.\nThe medicine worked like a charm on my GERD symptoms, but the weight gain was a nightmare.\nYes, it is true that syptom relief made me able to eat without fear of pain, but I tracked my calories and measured and weighed my food, and there is no way the weight gain could be attributed to overeating or increased appetite.\nIt took me months to wean off of the drug, and a year to lose the weight.\nI am back down to 107 but have had a reoccurrence and have to go back on a PPI.\nI'm trying Protonix now.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "Weight gain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "overweight",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 130,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 224,
+          "char_end": 235,
+          "turn_id": null
+        }
+      ],
+      "text": "weight gain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 328,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 414,
+          "char_end": 425,
+          "turn_id": null
+        }
+      ],
+      "text": "weight gain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 449,
+          "char_end": 459,
+          "turn_id": null
+        }
+      ],
+      "text": "overeating",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 463,
+          "char_end": 481,
+          "turn_id": null
+        }
+      ],
+      "text": "increased appetite",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 632,
+          "char_end": 635,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 648,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "Protonix",
+      "id": "e11"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-DIOVAN.120",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Hairloss and tingling in forhead also E.D\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 8,
+          "turn_id": null
+        }
+      ],
+      "text": "Hairloss",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in forhead",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "E.D",
+      "id": "e3"
+    }
+  ]
+}

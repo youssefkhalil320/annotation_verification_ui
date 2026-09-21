@@ -1,0 +1,92 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-CATAFLAM.6",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Lower gut pain, diahrrea.\nThis is the only NSAID I've ever taken that gave me discernable relief within 90 minutes of taking it.\nGastrointestinal problems were due largely to my taking the drug too close together, or after having consumed large amounts of alcohol.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 14,
+          "turn_id": null
+        }
+      ],
+      "text": "Lower gut pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 16,
+          "char_end": 24,
+          "turn_id": null
+        }
+      ],
+      "text": "diahrrea",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 43,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAID",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 129,
+          "char_end": 154,
+          "turn_id": null
+        }
+      ],
+      "text": "Gastrointestinal problems",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "taking the drug too close together",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 263,
+          "turn_id": null
+        }
+      ],
+      "text": "consumed large amounts of alcohol",
+      "id": "e6"
+    }
+  ]
+}

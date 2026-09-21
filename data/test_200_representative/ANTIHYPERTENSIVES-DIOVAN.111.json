@@ -1,0 +1,134 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-DIOVAN.111",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "My mother developed a mass in the neck just six months after starting the diovan, which turned out to be cancer.\nPrior to starting Diovan, I read that there was a \"small\" chance that Diovan could cause cancer.\nWell sure enough, that \"small\" chance happened to my mom in early 2012.\nBy October 2012, despite beating the cancer, she died from complications caused my the effects of cancer treatment.\nI subsequently started a website that I hope can raise more awareness about the dangers of prescription drugs.\nwww.couponsforacause.org.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "mass in the neck",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "diovan",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 111,
+          "turn_id": null
+        }
+      ],
+      "text": "cancer",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 137,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 189,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "cancer",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 319,
+          "char_end": 325,
+          "turn_id": null
+        }
+      ],
+      "text": "cancer",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "complications",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 380,
+          "char_end": 386,
+          "turn_id": null
+        }
+      ],
+      "text": "cancer",
+      "id": "e9"
+    }
+  ]
+}

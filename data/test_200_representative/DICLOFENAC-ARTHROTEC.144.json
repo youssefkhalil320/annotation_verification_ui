@@ -1,0 +1,97 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-ARTHROTEC.144",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "None that I noticed.\nI did take my blood pressure today though, and it was slightly elevated from the norm.\nI suspect the drug is responsible, but as I am only taking it short-term, I am not overly concerned.\nI had acute shoulder tendonitis and was in absolute agony.\nWithin 24 hours of taking this medicine, the inflammation was reduced dramatically and I have continued to improve, gaining back more of my range of motion with each day.\n",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 49,
+          "turn_id": null
+        }
+      ],
+      "text": "take my blood pressure",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 49,
+          "turn_id": null
+        },
+        {
+          "char_start": 84,
+          "char_end": 92,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure elevated",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 180,
+          "turn_id": null
+        }
+      ],
+      "text": "short-term",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 221,
+          "char_end": 240,
+          "turn_id": null
+        }
+      ],
+      "text": "shoulder tendonitis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 266,
+          "turn_id": null
+        }
+      ],
+      "text": "agony",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 313,
+          "char_end": 325,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammation",
+      "id": "e6"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-VOLTAREN-XR.3",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Had a scary experience that I am associating with Voltaren.\nNot completely convinced it was the RX\nbut I have no other reason for the reaction.\nFirst dosage I was hit with extreme abdominal issues including diarrhea.\nFigured it was a lack of adequate food on board when I took the 1st dose so increased my meal before I took the 2nd dose.\nProblem solved!\nWas on the meds for 7 days when I experienced chest discomfort and upper abdominal pressure.\nWith a medical background, I know that cardiac symptoms are mistaken for gastric reasons\nso I went to the ER.\nLong story short, I was diagnosed with severe gastric distress (GERD) and with a \"gastric cocktail\" and a high octane prilosec, I had some serious relief and sent home.\nNot convinced it was the issue, I went a day without the RX and then started again.\nI wasn't entirely 100% after taking the dose and now, I am fairly certain it was the Voltaren.\nI must say that my symptoms did improve within 3 days but the ER visit was\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "Voltaren",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 215,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 371,
+          "char_end": 381,
+          "turn_id": null
+        }
+      ],
+      "text": "for 7 days",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "chest discomfort",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 422,
+          "char_end": 446,
+          "turn_id": null
+        }
+      ],
+      "text": "upper abdominal pressure",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 487,
+          "char_end": 503,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac symptoms",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 604,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "gastric distress",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 626,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 640,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "gastric cocktail",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 684,
+          "turn_id": null
+        }
+      ],
+      "text": "prilosec",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 896,
+          "char_end": 904,
+          "turn_id": null
+        }
+      ],
+      "text": "Voltaren",
+      "id": "e11"
+    }
+  ]
+}

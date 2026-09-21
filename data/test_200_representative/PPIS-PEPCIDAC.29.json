@@ -1,0 +1,116 @@
+{
+  "doc_id": "CADECV2:PPIS-PEPCIDAC.29",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Very light and restless sleep.\nExtremely vivid and disturbing nightmares.\nThought it was due to other things, but having read other comments here, could be very well related.\nNot even discussing the malabsorption of B-12, iron, B-1, etc,  Taking supplements relieved many of my symptoms except the dreaming.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5,
+          "char_end": 10,
+          "turn_id": null
+        },
+        {
+          "char_start": 24,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "light sleep",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 15,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "restless sleep",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 72,
+          "turn_id": null
+        }
+      ],
+      "text": "nightmares",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 212,
+          "turn_id": null
+        },
+        {
+          "char_start": 222,
+          "char_end": 226,
+          "turn_id": null
+        }
+      ],
+      "text": "malabsorption iron",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 220,
+          "turn_id": null
+        }
+      ],
+      "text": "malabsorption of B-12",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 257,
+          "turn_id": null
+        }
+      ],
+      "text": "supplements",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 306,
+          "turn_id": null
+        }
+      ],
+      "text": "dreaming",
+      "id": "e7"
+    }
+  ]
+}

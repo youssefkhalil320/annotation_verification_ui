@@ -1,0 +1,246 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.241",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Chest pain, heart palpitations, rapid heart rate, high blood pressure, nausea.\nWas taken to the ER for major chest pain, admitted overnight for observation and spent tens of thousands of $'s on heart scans, etc.\nStopped taking and switched to another similar medication.\nExperienced constant nausea, dizziness, heart palpitations, \"brain zaps\" (feeling of an electrical pulse in my head when I turn my head or move my eyes), constant ringing in my ears, mood swings, irritability, increased anxiety and much more.\nWould not recommend this medication to anybody!\nHave felt awful for 2 weeks so far and have been told by others that these symptoms may last for months to come.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 10,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 12,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "heart palpitations",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "rapid heart rate",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 69,
+          "turn_id": null
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 77,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "heart scans",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 292,
+          "char_end": 298,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 300,
+          "char_end": 309,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "heart palpitations",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 342,
+          "turn_id": null
+        }
+      ],
+      "text": "brain zaps",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 359,
+          "char_end": 386,
+          "turn_id": null
+        }
+      ],
+      "text": "electrical pulse in my head",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 452,
+          "turn_id": null
+        }
+      ],
+      "text": "ringing in my ears",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 454,
+          "char_end": 465,
+          "turn_id": null
+        }
+      ],
+      "text": "mood swings",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 479,
+          "turn_id": null
+        }
+      ],
+      "text": "irritability",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 491,
+          "char_end": 498,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 577,
+          "turn_id": null
+        }
+      ],
+      "text": "awful",
+      "id": "e17"
+    }
+  ]
+}

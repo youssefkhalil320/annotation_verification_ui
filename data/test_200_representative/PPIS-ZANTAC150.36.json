@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:PPIS-ZANTAC150.36",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Hand tremble, anxiety,constipation, red dry eyes.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 12,
+          "turn_id": null
+        }
+      ],
+      "text": "Hand tremble",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 14,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "red dry eyes",
+      "id": "e4"
+    }
+  ]
+}

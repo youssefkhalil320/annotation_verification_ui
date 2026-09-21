@@ -1,0 +1,50 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.764",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Extreme anger....ears ringing,pissed\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 8,
+          "char_end": 13,
+          "turn_id": null
+        }
+      ],
+      "text": "anger",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "ears ringing",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "pissed",
+      "id": "e3"
+    }
+  ]
+}

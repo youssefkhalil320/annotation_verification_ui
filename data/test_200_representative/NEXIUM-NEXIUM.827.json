@@ -1,0 +1,256 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.827",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "continuation from above\nThen the doctors thought it was a matter of his heart's conduction but\n12- lead ECG and Holter monitor failed to show any evidence of a conduction problem.\nMy dad was admitted for observation but other than hooking him up to a\nHolter monitor and blood tests, no other treatments/tests/medications were performed or initiated.\nWhether through ignorance, laziness or incompetence, the nursing staff did not give my dad his Nexium throughout his 3 day hospital stay.\nRemarkably, he started  feeling better; no dizzy/fainting spells, no radiating upper left hand gastric pain; no racing/pounding heart.\nGenerally speaking, just feeling better.\nStill not making the connection between his symptoms and the Nexium, he started taking it again upon his release from the hospital.\nThe next two doses produced dizzy spells that culminated with him fainting, although neither as dramatic as the one that sent him to hospital.\nGiven the nature of the comments on this site, it seems prudent for him to consult his G.P. before he takes any more Nexium.\n",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "12- lead ECG",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "Holter monitor",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 178,
+          "turn_id": null
+        }
+      ],
+      "text": "conduction problem",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 204,
+          "char_end": 215,
+          "turn_id": null
+        }
+      ],
+      "text": "observation",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 265,
+          "turn_id": null
+        }
+      ],
+      "text": "Holter monitor",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 270,
+          "char_end": 281,
+          "turn_id": null
+        }
+      ],
+      "text": "blood tests",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 451,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 536,
+          "turn_id": null
+        },
+        {
+          "char_start": 546,
+          "char_end": 552,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy spells",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 552,
+          "turn_id": null
+        }
+      ],
+      "text": "fainting spells",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 567,
+          "char_end": 595,
+          "turn_id": null
+        }
+      ],
+      "text": "upper left hand gastric pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 600,
+          "char_end": 606,
+          "turn_id": null
+        },
+        {
+          "char_start": 616,
+          "char_end": 621,
+          "turn_id": null
+        }
+      ],
+      "text": "racing heart",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 621,
+          "turn_id": null
+        }
+      ],
+      "text": "pounding heart",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 725,
+          "char_end": 731,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 805,
+          "char_end": 814,
+          "turn_id": null
+        }
+      ],
+      "text": "two doses",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 836,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy spells",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 862,
+          "char_end": 870,
+          "turn_id": null
+        }
+      ],
+      "text": "fainting",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1062,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e17"
+    }
+  ]
+}

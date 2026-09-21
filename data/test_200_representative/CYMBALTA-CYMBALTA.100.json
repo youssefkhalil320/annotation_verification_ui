@@ -1,0 +1,78 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.100",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Didn't really notice any new side effects\nincreased activity...\nyeah!\nnot tired all the time, helped depression didn't want to rip peoples heads off.\nused in conjuntion with wellbutron\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 60,
+          "turn_id": null
+        }
+      ],
+      "text": "increased activity",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 79,
+          "turn_id": null
+        }
+      ],
+      "text": "tired",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 111,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "want to rip peoples heads off",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "wellbutron",
+      "id": "e5"
+    }
+  ]
+}

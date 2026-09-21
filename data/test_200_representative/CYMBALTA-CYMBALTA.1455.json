@@ -1,0 +1,218 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1455",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "First week- nausea, dizziness, tired, sleeplessness, decreased appetite.\nAfter that, delayed ejaculation, sleeplessness, teeth grinding.\nAll side effects are now gone except teeth grinding (bruxism), but that is being treated with a low dosage of klonopin.\nIts a powerful medication.\nYou'll feel that the second you take your first dose.\nThe beginning side effects are rough, take a week off from work to get used to the effects.\nThey'll eventually go away however.\nIts helped me tremendously.\nI have always suffered from depression and anxiety, and this drug takes the edge off of both those.\nIt doesn't turn me into an emotional zombie, and I can perform my job right up to par.\nI'm a Mensa member, and I don't feel like this drug diminishes my intellectual capacity whatsoever.\nAfter 8 months of using this drug, I'm very happy with it.\nI'll check in later after another 6 months or so of using this powerful drug.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 12,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "tired",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "sleeplessness",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 53,
+          "char_end": 71,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased appetite",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 104,
+          "turn_id": null
+        }
+      ],
+      "text": "delayed ejaculation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 106,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "sleeplessness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 135,
+          "turn_id": null
+        }
+      ],
+      "text": "teeth grinding",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "teeth grinding",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 197,
+          "turn_id": null
+        }
+      ],
+      "text": "bruxism",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 247,
+          "char_end": 255,
+          "turn_id": null
+        }
+      ],
+      "text": "klonopin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 522,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 544,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 621,
+          "char_end": 637,
+          "turn_id": null
+        }
+      ],
+      "text": "emotional zombie",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 733,
+          "char_end": 768,
+          "turn_id": null
+        }
+      ],
+      "text": "diminishes my intellectual capacity",
+      "id": "e15"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "doc_id": "CADECV2:PPIS-PEPCIDAC.28",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Racing heart bad sweating depression and anxiety\nHorrible!\nI felt like I was dying.\nI called the pharmacy and they suggested to take benadryl in case\nI was having an allergic reaction.\nAnd if I have trouble breathing go to DR!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 12,
+          "turn_id": null
+        }
+      ],
+      "text": "Racing heart",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "sweating",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 26,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 70,
+          "turn_id": null
+        },
+        {
+          "char_start": 77,
+          "char_end": 82,
+          "turn_id": null
+        }
+      ],
+      "text": "like dying",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 133,
+          "char_end": 141,
+          "turn_id": null
+        }
+      ],
+      "text": "benadryl",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "trouble breathing",
+      "id": "e8"
+    }
+  ]
+}

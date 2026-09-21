@@ -1,0 +1,162 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-COZAAR.16",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Extreme vertigo/dizziness, swollen feet, feelings of doom\nI went on cozaar because it was cheaper than Diovan; but I could not deal with the dizziness.\nIt was so bad\nsometimes I couldn't leave the house.\nSwitched to Atacand, but still having the same problems.\nNot sure if they are caused by the Cozaar still being in my system or the Atacand.\nI am going back to Diovan because I never had any problems with it.\nToo bad it is so expensive---\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 8,
+          "char_end": 15,
+          "turn_id": null
+        }
+      ],
+      "text": "vertigo",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 16,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 39,
+          "turn_id": null
+        }
+      ],
+      "text": "swollen feet",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 57,
+          "turn_id": null
+        }
+      ],
+      "text": "feelings of doom",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "cozaar",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 109,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 150,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 216,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "Atacand",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 302,
+          "turn_id": null
+        }
+      ],
+      "text": "Cozaar",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 342,
+          "turn_id": null
+        }
+      ],
+      "text": "Atacand",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 363,
+          "char_end": 369,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan",
+      "id": "e11"
+    }
+  ]
+}

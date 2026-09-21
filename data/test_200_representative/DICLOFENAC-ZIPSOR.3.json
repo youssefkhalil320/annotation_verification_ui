@@ -1,0 +1,50 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-ZIPSOR.3",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "stiff neck, tightness in shoulders, muscle pain\nnot recommended\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 10,
+          "turn_id": null
+        }
+      ],
+      "text": "stiff neck",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 12,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "tightness in shoulders",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "muscle pain",
+      "id": "e3"
+    }
+  ]
+}

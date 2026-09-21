@@ -1,0 +1,50 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.89",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "I have no side effects. I just became concerned about long term use. Especially c-diff. that is really scary\nI'm in the process of trying to stop.\nThe acid reflux comes back with a vengeance.\nI think this drug is addictive.\n",
+  "entities": [
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 63,
+          "turn_id": null
+        }
+      ],
+      "text": "long term",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 80,
+          "char_end": 86,
+          "turn_id": null
+        }
+      ],
+      "text": "c-diff",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 162,
+          "turn_id": null
+        }
+      ],
+      "text": "acid reflux",
+      "id": "e3"
+    }
+  ]
+}

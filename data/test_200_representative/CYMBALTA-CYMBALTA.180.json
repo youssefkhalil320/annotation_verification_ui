@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.180",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Jaw clenching,\nI was hospitalized at Four Winds for three weeks for depression.\nThey put me on cymbalta.\nIt has definitely helped tremendously with depression.\nI am grateful for this medication.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 13,
+          "turn_id": null
+        }
+      ],
+      "text": "Jaw clenching",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 103,
+          "turn_id": null
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 158,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e4"
+    }
+  ]
+}

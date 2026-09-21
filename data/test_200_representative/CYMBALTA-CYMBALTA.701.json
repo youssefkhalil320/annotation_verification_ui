@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.701",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Nausea all day long, pounding heart, anxious, loss of appetite.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 6,
+          "turn_id": null
+        }
+      ],
+      "text": "Nausea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "pounding heart",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "anxious",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of appetite",
+      "id": "e4"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-DICLOFENACSODIUM.7",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Slight stomach upset became worse and resulted in a perforated ulcer which nearly killed me!\nI will never be perfectly well again!\nMy gastrc surgeon put the blame firmly on this drug.\nI was fit, 48 and ate an excellent diet.\nIt did help my arthritis, but in my opinion the possibility of side effects was not taken very seriously.\nIt can kill you: post operatively I suffered bleeding, peritonitis, septicaemia,renal and respiratory failure.\nI was sent home wearing 2 stoma bags and 3 wound dressings, weighing four stone!(56 lbs)\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 7,
+          "char_end": 20,
+          "turn_id": null
+        }
+      ],
+      "text": "stomach upset",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 52,
+          "char_end": 68,
+          "turn_id": null
+        }
+      ],
+      "text": "perforated ulcer",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "arthritis",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 384,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 386,
+          "char_end": 397,
+          "turn_id": null
+        }
+      ],
+      "text": "peritonitis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 399,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "septicaemia",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 416,
+          "turn_id": null
+        },
+        {
+          "char_start": 433,
+          "char_end": 440,
+          "turn_id": null
+        }
+      ],
+      "text": "renal failure",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 440,
+          "turn_id": null
+        }
+      ],
+      "text": "respiratory failure",
+      "id": "e8"
+    }
+  ]
+}

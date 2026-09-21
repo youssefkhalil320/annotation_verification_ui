@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:PPIS-ZANTAC150.226",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Losing my mind I got on anxiety medication and was very stressed\nthen I realized maybe it's the rantidine and quit taking it now\nmy symptoms are gone\nI thought I was dying.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 14,
+          "turn_id": null
+        }
+      ],
+      "text": "Losing my mind",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 42,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety medication",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 64,
+          "turn_id": null
+        }
+      ],
+      "text": "stressed",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 105,
+          "turn_id": null
+        }
+      ],
+      "text": "rantidine",
+      "id": "e4"
+    }
+  ]
+}

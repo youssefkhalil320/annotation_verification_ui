@@ -1,0 +1,158 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.446",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Feeling drowsy all day.\nNo energy.\nEven with the pain I manage to get up & do my daily routines.\nFelt horrible.\nPlus got these ugly cold sores in & outside my lip.\nWoke up with painful swollen lip after my second day...\npain was bad\nso I was willing to try anything.\nBig mistake...can't drink or eat anything now.\nCan barely talk.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 8,
+          "char_end": 14,
+          "turn_id": null
+        }
+      ],
+      "text": "drowsy",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 33,
+          "turn_id": null
+        }
+      ],
+      "text": "energy",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 102,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "horrible",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 142,
+          "turn_id": null
+        }
+      ],
+      "text": "cold sores",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 177,
+          "char_end": 184,
+          "turn_id": null
+        },
+        {
+          "char_start": 193,
+          "char_end": 196,
+          "turn_id": null
+        }
+      ],
+      "text": "painful lip",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 196,
+          "turn_id": null
+        }
+      ],
+      "text": "swollen lip",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 286,
+          "turn_id": null
+        },
+        {
+          "char_start": 296,
+          "char_end": 308,
+          "turn_id": null
+        }
+      ],
+      "text": "can't eat anything",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "can't drink",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "barely talk",
+      "id": "e10"
+    }
+  ]
+}

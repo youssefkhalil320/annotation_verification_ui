@@ -1,0 +1,120 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1186",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Night sweats severe, and perhaps more anxiety than with other SSRI's\nThis is the first anti-depressant (other than Wellbutrin, which didn't work) that has minimal sexual side effects.\nWhat a welcome relief, after 16 years of anti-depressants which totally killed my sex drive.\nI feel more fully human on this medication.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 12,
+          "turn_id": null
+        }
+      ],
+      "text": "Night sweats",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 45,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 68,
+          "turn_id": null
+        }
+      ],
+      "text": "SSRI's",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 87,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-depressant",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 125,
+          "turn_id": null
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "sexual side effects",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 241,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-depressants",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 256,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "killed my sex drive",
+      "id": "e8"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-DIOVAN.60",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "HORRIBLE EFFECTS, FATIGUE - MY ENERGY DROPPED OUT OF ME.\nIT WAS DIFFICULT GETTING MY MD\nTO ACCEPT MY SIDE EFFECTS\n, I WAS TOLD TO JUST\nKEEP PUSHING THROUGH...\nIMPOSSIBLE.\nFINALLY\nI STOPPED TAKING THE MEDICATION AND BEGAN TO FEEL STRONGER\nAND IT\nWAS\nACKNOWLEDGED\nI WAS TAKING TO\nMUCH DIOVAN/VALSARTAN AND IT\nWAS DISCONTINUED.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "FATIGUE",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "ENERGY DROPPED OUT OF",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 210,
+          "turn_id": null
+        }
+      ],
+      "text": "STOPPED TAKING THE MEDICATION",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 299,
+          "turn_id": null
+        }
+      ],
+      "text": "DIOVAN/VALSARTAN",
+      "id": "e4"
+    }
+  ]
+}

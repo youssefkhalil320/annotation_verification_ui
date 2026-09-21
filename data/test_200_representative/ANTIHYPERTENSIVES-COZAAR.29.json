@@ -1,0 +1,148 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-COZAAR.29",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Bloating, gas, phlegm unable to cough up since on ramipril, weight gain that will not go away with exercise, sore on tongue\nI'm going to go off of Cozaar for awhile to see if can shake this\nphlegm from Altace. and shake some of this weight off.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 8,
+          "turn_id": null
+        }
+      ],
+      "text": "Bloating",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 13,
+          "turn_id": null
+        }
+      ],
+      "text": "gas",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 15,
+          "char_end": 40,
+          "turn_id": null
+        }
+      ],
+      "text": "phlegm unable to cough up",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "ramipril",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 71,
+          "turn_id": null
+        }
+      ],
+      "text": "weight gain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 123,
+          "turn_id": null
+        }
+      ],
+      "text": "sore on tongue",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "go off of Cozaar",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 164,
+          "turn_id": null
+        }
+      ],
+      "text": "for awhile",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 196,
+          "turn_id": null
+        }
+      ],
+      "text": "phlegm",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "Altace",
+      "id": "e10"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.6",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Long term cracking and painful joints. Please visit us for more victims...http://nexium-vs-joints.com/\n\nDont be afraid, come forward!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 18,
+          "turn_id": null
+        },
+        {
+          "char_start": 31,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "cracking joints",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "painful joints",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "unknown",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "nexium",
+      "id": "e3"
+    }
+  ]
+}

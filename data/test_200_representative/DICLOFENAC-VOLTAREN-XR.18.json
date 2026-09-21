@@ -1,0 +1,130 @@
+{
+  "doc_id": "CADECV2:DICLOFENAC-VOLTAREN-XR.18",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Makes me dizzy, silly, sleepy and feeling as if I am high. No weight gain or loss. Nothing else really.\nWorks wonderful as a sleep aid. I still have the pain, I believe my Dr has misdiagnosed me.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 9,
+          "char_end": 14,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 16,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "silly",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "sleepy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 34,
+          "char_end": 41,
+          "turn_id": null
+        },
+        {
+          "char_start": 53,
+          "char_end": 57,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling high",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 68,
+          "turn_id": null
+        },
+        {
+          "char_start": 77,
+          "char_end": 81,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 73,
+          "turn_id": null
+        }
+      ],
+      "text": "weight gain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 134,
+          "turn_id": null
+        }
+      ],
+      "text": "sleep aid",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e8"
+    }
+  ]
+}

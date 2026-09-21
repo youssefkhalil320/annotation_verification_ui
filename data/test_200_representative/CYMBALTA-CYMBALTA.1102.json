@@ -1,0 +1,69 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1102",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "So far nothing, I have a rash on my lower legs, but still not sure what it's from.\nI'm on a lot of other meds, so could be from one of them, or something I ate????\nI haven't felt this good in years!\nI've tried almost every antidepressant out there!\nI was to the point of not giving a crap about anything and sleeping almost all day.\nI'm now up early and going all day and feel like living again!!\nI love it!!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "rash on my lower legs",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 237,
+          "turn_id": null
+        }
+      ],
+      "text": "antidepressant",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 288,
+          "turn_id": null
+        },
+        {
+          "char_start": 295,
+          "char_end": 303,
+          "turn_id": null
+        }
+      ],
+      "text": "giving a crap anything",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 308,
+          "char_end": 331,
+          "turn_id": null
+        }
+      ],
+      "text": "sleeping almost all day",
+      "id": "e4"
+    }
+  ]
+}

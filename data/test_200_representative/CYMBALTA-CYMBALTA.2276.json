@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.2276",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "I have been taking Cymbalta for about 3 years, I was taking Prozac and felt it was time for a change.\nBut I am having trouble here lately with terrible headaches, everyday!\nI am wanting to get off of it.\nIt seemed to have worked quite well at first and now it seems useless.  Does anyone fill the same way?\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 45,
+          "turn_id": null
+        }
+      ],
+      "text": "3 years",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 66,
+          "turn_id": null
+        }
+      ],
+      "text": "Prozac",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 161,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e4"
+    }
+  ]
+}

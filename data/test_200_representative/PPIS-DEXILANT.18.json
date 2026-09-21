@@ -1,0 +1,92 @@
+{
+  "doc_id": "CADECV2:PPIS-DEXILANT.18",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Kapidex, now known as Dexilant, is the BEST medicine I have ever taken for my hiatal hernia and acid reflux.\nMy gastroenterologist put me on every medicine and finally decided to try this new one.\nIt's amazing, and keeps all my symptoms away (which were so severe that I lost 10 lbs and couldn't function).\nI was so happy to have found this pill.\nMy insurance company put up quite a fight and did not want to pay for it and made me try all other pills--which failed.\nFinally got approved for it.\nI have not had any side effects.\nIt has only helped and cured my symptoms--not created others.\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 7,
+          "turn_id": null
+        }
+      ],
+      "text": "Kapidex",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "Dexilant",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "hiatal hernia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "acid reflux",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "lost 10 lbs",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 287,
+          "char_end": 304,
+          "turn_id": null
+        }
+      ],
+      "text": "couldn't function",
+      "id": "e6"
+    }
+  ]
+}

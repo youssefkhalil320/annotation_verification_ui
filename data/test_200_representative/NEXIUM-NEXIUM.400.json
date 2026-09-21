@@ -1,0 +1,162 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.400",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Took 12 doses of Nexium.\nAt dose 10 the abdominal pain was starting to get bad, short little stabs of pain that felt like broken glass sloshing around in my guts.\nBasically shut down my ability to digest food.\nStopped the drug.\nNow, 11 days later, it appears the problems have resolved and I can once again digest food.\nFor me, Nexium was an effective diet pill--I lost weight (unintentionally).\nIf you have a bad reaction to Nexium and have abdominal pain, don't expect your problems to resolve as soon as you stop.\nIt took a week and a half for me to heal from the damage caused by a dozen doses of Nexium.\n",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 23,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 54,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 106,
+          "turn_id": null
+        }
+      ],
+      "text": "stabs of pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "shut down my ability to digest food",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 328,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 352,
+          "char_end": 361,
+          "turn_id": null
+        }
+      ],
+      "text": "diet pill",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 376,
+          "turn_id": null
+        }
+      ],
+      "text": "lost weight",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 414,
+          "char_end": 432,
+          "turn_id": null
+        }
+      ],
+      "text": "reaction to Nexium",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 432,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 442,
+          "char_end": 456,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 601,
+          "char_end": 607,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e11"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-NORVASC.159",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "This drug is poison.\nI'm in excellent physical shape but have hbp.\nFelt fine for 3 weeks.\nSlowly this drug turned me into a zombi.\nDepressed, no energy , shortness of breath.\nEvery side affect possible I had.\nDon't believe everything you read on the studies.\nGuess who is paying for them?\nIf they say 9% get headaches you can be sure it's 50%.\nBy the way.\nDo you think your gp reports back to the pharma companies what his patients are telling him?\nAlso.\nConsider how many people are suffering that don't post or say anything.\nThis is my fist post ever.\nI can't believe how sick this drug made me.\nI thought it was something else.\nRead read read.\nCome to your own conclusions.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 65,
+          "turn_id": null
+        }
+      ],
+      "text": "hbp",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 129,
+          "turn_id": null
+        }
+      ],
+      "text": "zombi",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 140,
+          "turn_id": null
+        }
+      ],
+      "text": "Depressed",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "energy",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 173,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 308,
+          "char_end": 317,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 578,
+          "turn_id": null
+        }
+      ],
+      "text": "sick",
+      "id": "e7"
+    }
+  ]
+}

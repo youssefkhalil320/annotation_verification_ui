@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.103",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "If stop taking for 1 day, 1 or 2 days later get diarrhea.\nConcerned about reports that it may leach calcium from bone joints.\nOtherwise, it is the ONLY medicine that alleviates my pain.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 3,
+          "char_end": 14,
+          "turn_id": null
+        }
+      ],
+      "text": "stop taking",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 15,
+          "char_end": 24,
+          "turn_id": null
+        }
+      ],
+      "text": "for 1 day",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 56,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 180,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    }
+  ]
+}

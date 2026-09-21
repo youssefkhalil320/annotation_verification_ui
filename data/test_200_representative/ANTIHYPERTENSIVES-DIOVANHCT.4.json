@@ -1,0 +1,247 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-DIOVANHCT.4",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Hair thinning and loss, severe itching, back pain, sleeplessness, face numbing ang tingling are the most severe.\nMy sister, mother and I are on Diovan HCT.\nWe dismissed my mother's hair loss becuase\nshe was on dialysis, but had a full head of hair prior to starting on this med.\nMy sister and I discussed our hair thinnng and loss and discovered we were both on the same med.\nHer doctor switced her to Minoxidil, but my doctor is insisting that my hair loss could be some other medical problem.\nJust went had a complete workup today, but I know it is the Diovan HCT.\nThis problem started when I started taking this med.\nI'm bringing the comments from other patients\nso my doctor will know\nI'm not the only complainant.\nI've been going to different doctors for the above side effects, only to discover they are all side effects of the Diovan.\nCould have saved myself a lot of money and time\nhad I know that.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 4,
+          "turn_id": null
+        },
+        {
+          "char_start": 18,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Hair loss",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 13,
+          "turn_id": null
+        }
+      ],
+      "text": "Hair thinning",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "itching",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 49,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 64,
+          "turn_id": null
+        }
+      ],
+      "text": "sleeplessness",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 70,
+          "turn_id": null
+        },
+        {
+          "char_start": 83,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "face tingling",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "face numbing",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "unknown",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 154,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan HCT",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 190,
+          "turn_id": null
+        }
+      ],
+      "text": "hair loss",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 218,
+          "turn_id": null
+        }
+      ],
+      "text": "dialysis",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "unknown",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 313,
+          "turn_id": null
+        },
+        {
+          "char_start": 326,
+          "char_end": 330,
+          "turn_id": null
+        }
+      ],
+      "text": "hair loss",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "unknown",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 321,
+          "turn_id": null
+        }
+      ],
+      "text": "hair thinnng",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "family",
+      "spans": [
+        {
+          "char_start": 402,
+          "char_end": 411,
+          "turn_id": null
+        }
+      ],
+      "text": "Minoxidil",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 448,
+          "char_end": 457,
+          "turn_id": null
+        }
+      ],
+      "text": "hair loss",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 565,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan HCT",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 834,
+          "char_end": 840,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan",
+      "id": "e16"
+    }
+  ]
+}

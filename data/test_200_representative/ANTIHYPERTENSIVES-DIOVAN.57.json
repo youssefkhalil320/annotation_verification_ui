@@ -1,0 +1,219 @@
+{
+  "doc_id": "CADECV2:ANTIHYPERTENSIVES-DIOVAN.57",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Fatigue.  Exhaustion.  Dizziness.  Neck and back pain.  Numbness in hands and feet.  Itching in armpits.\nI have felt miserable.\nI have been off of it a week.\nStill not feeling well.\nI think my potassium is low.\nI hope this passes soon!\nI refuse to go on another bp med!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 7,
+          "turn_id": null
+        }
+      ],
+      "text": "Fatigue",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 20,
+          "turn_id": null
+        }
+      ],
+      "text": "Exhaustion",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Dizziness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 39,
+          "turn_id": null
+        },
+        {
+          "char_start": 49,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "Neck pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 64,
+          "turn_id": null
+        },
+        {
+          "char_start": 78,
+          "char_end": 82,
+          "turn_id": null
+        }
+      ],
+      "text": "Numbness feet",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 73,
+          "turn_id": null
+        }
+      ],
+      "text": "Numbness in hands",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 103,
+          "turn_id": null
+        }
+      ],
+      "text": "Itching in armpits",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "miserable",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 156,
+          "turn_id": null
+        }
+      ],
+      "text": "a week",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 180,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling well",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 202,
+          "turn_id": null
+        },
+        {
+          "char_start": 206,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium low",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 268,
+          "turn_id": null
+        }
+      ],
+      "text": "refuse to go on another bp med",
+      "id": "e14"
+    }
+  ]
+}

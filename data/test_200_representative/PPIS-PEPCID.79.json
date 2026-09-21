@@ -1,0 +1,111 @@
+{
+  "doc_id": "CADECV2:PPIS-PEPCID.79",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "I started having tremors in my lips.\nTingling in my hands and muscle cramps.\nIt also caused me to have anxiety attacks which I never had prior to taking this med.\nit caused me to land in the emergency room when I experienced a muscle spasm in my lips!\nVery scary!\nI thought I was having a stroke!\nThank God\nI wasn't!\nAlso noticed my heart rate is up because of this med.\nI would not recommend this med to anyone.\nEspecially if you are like me and have a sensitive system to meds .\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "tremors in my lips",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 57,
+          "turn_id": null
+        }
+      ],
+      "text": "Tingling in my hands",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 75,
+          "turn_id": null
+        }
+      ],
+      "text": "muscle cramps",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 118,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety attacks",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 250,
+          "turn_id": null
+        }
+      ],
+      "text": "muscle spasm in my lips",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 289,
+          "char_end": 295,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 333,
+          "char_end": 343,
+          "turn_id": null
+        },
+        {
+          "char_start": 347,
+          "char_end": 349,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate up",
+      "id": "e7"
+    }
+  ]
+}

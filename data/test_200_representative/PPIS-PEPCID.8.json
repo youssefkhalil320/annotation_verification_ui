@@ -1,0 +1,78 @@
+{
+  "doc_id": "CADECV2:PPIS-PEPCID.8",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Many issues. Rapid heartbeat, tingling in extremities,  lump in throat. Woke up in middle of night, nauseous, anxiety.\nStopping immediately.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "Rapid heartbeat",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in extremities",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "lump in throat",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 100,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "nauseous",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 117,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e5"
+    }
+  ]
+}

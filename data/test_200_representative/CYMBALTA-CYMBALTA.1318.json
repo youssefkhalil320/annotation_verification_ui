@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1318",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "I didn't have any side effects while taking this drug.\nAlthough, out of all of the medicines I have taken, this one was the worst to come off of.\nI couldn't speak as well\nand I had HORRIBLE brain zaps.\nI am now back on the medicine.\nOut of all of the psychotrophic drugs that I have taken (and there has been A LOT of them)\nthis one has been the most beneficial.\nI would highly reccomend this one!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "side effects",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 170,
+          "turn_id": null
+        }
+      ],
+      "text": "speak as well",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "brain zaps",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 264,
+          "turn_id": null
+        }
+      ],
+      "text": "psychotrophic",
+      "id": "e4"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.440",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Aching in hands, particularly joints in my fingers and up to my wrists.\nI have been taking Nexium for 3 months and have just started feeling these arthritic symptoms.\nI have stopped the drug now for one day and hope the symptoms will go away.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 15,
+          "turn_id": null
+        }
+      ],
+      "text": "Aching in hands",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 98,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "for 3 months",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "arthritic symptoms",
+      "id": "e4"
+    }
+  ]
+}

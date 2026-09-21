@@ -1,0 +1,106 @@
+{
+  "doc_id": "CADECV2:NEXIUM-NEXIUM.91",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "Dry mouth but not as bad as some other PPI's, nothing of any note really.\nExcellent medication that helps with acid or reflux.\nSome of the comments on here are silly and make people uptight.\nIf you need help try this medication if it's not for you try another\nbut if you have severe reflux etc you need to take something to make life bearable and Nexium works really well.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 9,
+          "turn_id": null
+        }
+      ],
+      "text": "Dry mouth",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 39,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI's",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 115,
+          "turn_id": null
+        }
+      ],
+      "text": "acid",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 125,
+          "turn_id": null
+        }
+      ],
+      "text": "reflux",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 189,
+          "turn_id": null
+        }
+      ],
+      "text": "uptight",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 289,
+          "turn_id": null
+        }
+      ],
+      "text": "reflux",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 353,
+          "turn_id": null
+        }
+      ],
+      "text": "Nexium",
+      "id": "e7"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "doc_id": "CADECV2:CYMBALTA-CYMBALTA.1596",
+  "register": "forum",
+  "source_dataset": "CADECV2",
+  "text": "mild nausea, loss of appetite, rare occasions of slight dizziness, clenching of teeth & related headaches, sleeplessness at first\nI LOVE Cymbalta!\nWithin an hour of taking the very first pill, I felt 1000 times better!\nSince then I've started dieting and exercising which I'd never cared to do before - resulting in weight loss of 10 lbs so far.\nI'm much more able to deal with my emotions, and can communicate more effectively.\nI'm able to put things into perspective better, and have really seen a difference in myself lately.\nI don't know how I ever lived without this drug - it's amazing!\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 5,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of appetite",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 65,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 85,
+          "turn_id": null
+        }
+      ],
+      "text": "clenching of teeth",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 105,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 120,
+          "turn_id": null
+        }
+      ],
+      "text": "sleeplessness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 145,
+          "turn_id": null
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 316,
+          "char_end": 327,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e8"
+    }
+  ]
+}
