@@ -1,0 +1,400 @@
+{
+  "doc_id": "MEDMENTIONS:28272842",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Improved risk stratification for patients with high-grade urothelial carcinoma following application of the Paris System for Reporting Urinary Cytology The Paris System for Reporting Urinary Cytology (TPS) requires 4 cytomorphologic criteria for a definitive diagnosis of high-grade urothelial carcinoma (HGUC) in urinary tract cytology (UTC) specimens: an elevated nuclear-to-cytoplasmic (N/C) ratio (at or above 0.7), markedly atypical nuclear borders, moderate to severe hyperchromasia, and coarse chromatin. However, malignant UTC specimens often contain degenerative changes, and this limits the number of malignant cells meeting all 4 TPS cytomorphologic criteria. One hundred twelve UTC specimens from patients with a subsequent diagnosis of HGUC were reviewed and reclassified according to TPS criteria. The presence of TPS cytomorphologic criteria for HGUC in each specimen was recorded, as was the proportion of atypical cells meeting all 4 criteria. The number of specimens definitively diagnosed as HGUC did not significantly change upon reclassification. However, approximately 40% of indeterminate specimens (21 of 51) were reclassified into a higher risk category. The most restrictive cytomorphologic criterion was an N/C ratio of 0.7 or higher (seen in 78% of specimens), and approximately half of specimens containing all 4 cytomorphologic criteria did not meet TPS 's numerical criterion for HGUC (at least 5 malignant cells). In the majority of specimens qualifying for HGUC by TPS standards, only a small fraction of atypical cells (10%-20%) met all the criteria. When applied to malignant UTC specimens, TPS criteria improved specimen risk stratification by upgrading approximately 40% of indeterminate specimens into higher risk categories while not significantly changing the frequency of HGUC diagnoses. Cancer Cytopathol 2017. © 2017 American Cancer Society.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "high-grade urothelial carcinoma",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinary Cytology",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 199,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinary Cytology",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 303,
+          "turn_id": null
+        }
+      ],
+      "text": "high-grade urothelial carcinoma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 305,
+          "char_end": 309,
+          "turn_id": null
+        }
+      ],
+      "text": "HGUC",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 314,
+          "char_end": 336,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary tract cytology",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 341,
+          "turn_id": null
+        }
+      ],
+      "text": "UTC",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 400,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated nuclear-to-cytoplasmic (N/C) ratio",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 453,
+          "turn_id": null
+        }
+      ],
+      "text": "atypical nuclear borders",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 488,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperchromasia",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 510,
+          "turn_id": null
+        }
+      ],
+      "text": "coarse chromatin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 521,
+          "char_end": 544,
+          "turn_id": null
+        }
+      ],
+      "text": "malignant UTC specimens",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 534,
+          "turn_id": null
+        }
+      ],
+      "text": "UTC",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 559,
+          "char_end": 579,
+          "turn_id": null
+        }
+      ],
+      "text": "degenerative changes",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 611,
+          "char_end": 626,
+          "turn_id": null
+        }
+      ],
+      "text": "malignant cells",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 693,
+          "turn_id": null
+        }
+      ],
+      "text": "UTC",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 749,
+          "char_end": 753,
+          "turn_id": null
+        }
+      ],
+      "text": "HGUC",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 865,
+          "turn_id": null
+        }
+      ],
+      "text": "HGUC",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 922,
+          "char_end": 936,
+          "turn_id": null
+        }
+      ],
+      "text": "atypical cells",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1011,
+          "char_end": 1015,
+          "turn_id": null
+        }
+      ],
+      "text": "HGUC",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1234,
+          "char_end": 1260,
+          "turn_id": null
+        }
+      ],
+      "text": "N/C ratio of 0.7 or higher",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1411,
+          "char_end": 1415,
+          "turn_id": null
+        }
+      ],
+      "text": "HGUC",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1428,
+          "char_end": 1443,
+          "turn_id": null
+        }
+      ],
+      "text": "malignant cells",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1490,
+          "char_end": 1494,
+          "turn_id": null
+        }
+      ],
+      "text": "HGUC",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1538,
+          "char_end": 1552,
+          "turn_id": null
+        }
+      ],
+      "text": "atypical cells",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1601,
+          "char_end": 1624,
+          "turn_id": null
+        }
+      ],
+      "text": "malignant UTC specimens",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1614,
+          "turn_id": null
+        }
+      ],
+      "text": "UTC",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1813,
+          "char_end": 1817,
+          "turn_id": null
+        }
+      ],
+      "text": "HGUC",
+      "id": "e28"
+    }
+  ]
+}

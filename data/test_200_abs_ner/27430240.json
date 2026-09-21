@@ -1,0 +1,316 @@
+{
+  "doc_id": "MEDMENTIONS:27430240",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Adenosine and the adenosine A2A receptor agonist, CGS21680, upregulate CD39 and CD73 expression through E2F-1 and CREB in regulatory T cells isolated from septic mice The number of regulatory T cells (Treg cells) and the expression of ectonucleoside triphosphate diphosphohydrolase 1 (ENTPD1; also known as CD39) and 5'-ectonucleotidase (NT5E; also known as CD73) on the Treg cell surface are increased during sepsis. In this study, to determine the factors leading to the high expression of CD39 and CD73, and the regulation of the CD39 / CD73 / adenosine pathway in Treg cells under septic conditions, we constructed a mouse model of sepsis and separated the Treg cells using a flow cytometer. The Treg cells isolated from the peritoneal lavage and splenocytes of the mice were treated with adenosine or the specific adenosine A2A receptor agonist, CGS21680, and were transfected with specific siRNA targeting E2F transcription factor 1 (E2F-1) or cyclic adenosine monophosphate (cAMP) response element-binding protein (CREB), which are predicted transcription regulatory factors of CD39 or CD73. The regulatory relationships among these factors were then determined by western blot analysis and dual-luciferase reporter assay. In addition, changes in adenosine metabolism were measured in the treated cells. The results revealed that adenosine and CGS21680 significantly upregulated CD39 and CD73 expression (P<0.01). E2F-1 and CREB induced CD39 and CD73 expression, and were upregulated by adenosine and CGS21680. Adenosine triphosphate (ATP) hydrolysis and adenosine generation were inhibited by the knockdown of E2F-1 or CREB, and were accelerated in the presence of CGS21680. Based on these results, it can be inferred that adenosine, the adenosine A2A receptor agonist, E2F-1 and CREB are the possible factors contributing to the high expression of CD39 and CD73 on the Treg cell surface during sepsis. Adenosine and its A2A receptor agonist served as the signal transducer factors of the CD39 / CD73 / adenosine pathway, accelerating adenosine generation. Our study may benefit further research on adenosine metabolism for the treatment of sepsis.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 9,
+          "turn_id": null
+        }
+      ],
+      "text": "Adenosine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine A2A receptor agonist",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "CGS21680",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 161,
+          "turn_id": null
+        }
+      ],
+      "text": "septic",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 410,
+          "char_end": 416,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 591,
+          "turn_id": null
+        }
+      ],
+      "text": "septic",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 636,
+          "char_end": 642,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 793,
+          "char_end": 802,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 849,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine A2A receptor agonist",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 851,
+          "char_end": 859,
+          "turn_id": null
+        }
+      ],
+      "text": "CGS21680",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1172,
+          "char_end": 1193,
+          "turn_id": null
+        }
+      ],
+      "text": "western blot analysis",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1198,
+          "char_end": 1228,
+          "turn_id": null
+        }
+      ],
+      "text": "dual-luciferase reporter assay",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1337,
+          "char_end": 1346,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1351,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "CGS21680",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1503,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1508,
+          "char_end": 1516,
+          "turn_id": null
+        }
+      ],
+      "text": "CGS21680",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1673,
+          "char_end": 1681,
+          "turn_id": null
+        }
+      ],
+      "text": "CGS21680",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1731,
+          "char_end": 1740,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1746,
+          "char_end": 1776,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine A2A receptor agonist",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1903,
+          "char_end": 1909,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1911,
+          "char_end": 1920,
+          "turn_id": null
+        }
+      ],
+      "text": "Adenosine",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1929,
+          "char_end": 1949,
+          "turn_id": null
+        }
+      ],
+      "text": "A2A receptor agonist",
+      "id": "e22"
+    }
+  ]
+}

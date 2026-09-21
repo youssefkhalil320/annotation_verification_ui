@@ -1,0 +1,433 @@
+{
+  "doc_id": "MEDMENTIONS:28301911",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "The Prevalence and Clinical Relevance of ASA Nonresponse After Cardiac Surgery We aimed to identify the prevalence of acetylsalicylic acid (ASA) nonresponse in patients after coronary artery bypass graft (CABG) surgery and the possible consequences for the rate of major cardiovascular events. This prospective, observational, bicentric cohort study was conducted in two German University hospitals. A total of 400 patients (200 in each study center) undergoing elective CABG surgery were enrolled after written informed consent. Platelet function was analyzed on day 3 (d3) and day 5 (d5) postoperatively following stimulation with arachidonic acid (ASPItest) and with thrombin receptor-activating peptide 6 (TRAPtest) using multiple electrode aggregometry (Multiplate). Individuals with an ASPItest ≥40 AU·min were categorized as ASA nonresponders. A 1-year follow-up recorded the combined end point of cardiovascular events, hospital admissions, or deaths related to cardiovascular disease. The prevalence of ASA nonresponse was 51.5% on d3, and it significantly increased to 71.3% on d5 (P = .0049). The area under the aggregation curve in the TRAPtest (P < .0001), the platelet count on d5 (P = .009), and the cardiopulmonary bypass time (P = .01) were identified as independent predictors of an ASA nonresponse. A 1-year follow-up recorded 54 events fulfilling criteria for the combined end point with no difference between ASA responders and nonresponders. This study indicates a high incidence of perioperative ASA nonresponse in patients following CABG. No effect on the incidence of cardiovascular events was recorded in the 1-year follow-up. Therefore, a randomized dosage adjustment trial should elucidate whether a tailored ASA treatment after CABG surgery represents a useful concept.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 56,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA Nonresponse",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "Cardiac Surgery",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 138,
+          "turn_id": null
+        }
+      ],
+      "text": "acetylsalicylic acid",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 156,
+          "turn_id": null
+        }
+      ],
+      "text": "acetylsalicylic acid (ASA) nonresponse",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 143,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 218,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary artery bypass graft (CABG) surgery",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "major cardiovascular events",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 471,
+          "char_end": 483,
+          "turn_id": null
+        }
+      ],
+      "text": "CABG surgery",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 547,
+          "turn_id": null
+        }
+      ],
+      "text": "Platelet function",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 659,
+          "turn_id": null
+        }
+      ],
+      "text": "ASPItest",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 718,
+          "turn_id": null
+        }
+      ],
+      "text": "TRAPtest",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 726,
+          "char_end": 770,
+          "turn_id": null
+        }
+      ],
+      "text": "multiple electrode aggregometry (Multiplate)",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 800,
+          "turn_id": null
+        }
+      ],
+      "text": "ASPItest",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 849,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA nonresponders",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 869,
+          "turn_id": null
+        }
+      ],
+      "text": "1-year follow-up",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 926,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiovascular events",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 970,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiovascular disease",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1012,
+          "char_end": 1027,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA nonresponse",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1156,
+          "turn_id": null
+        }
+      ],
+      "text": "TRAPtest",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1174,
+          "char_end": 1188,
+          "turn_id": null
+        }
+      ],
+      "text": "platelet count",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1215,
+          "char_end": 1237,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiopulmonary bypass",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1301,
+          "char_end": 1316,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA nonresponse",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1336,
+          "turn_id": null
+        }
+      ],
+      "text": "1-year follow-up",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1433,
+          "turn_id": null
+        },
+        {
+          "char_start": 1449,
+          "char_end": 1462,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA nonresponders",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1519,
+          "char_end": 1534,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA nonresponse",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1557,
+          "char_end": 1561,
+          "turn_id": null
+        }
+      ],
+      "text": "CABG",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1593,
+          "char_end": 1614,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiovascular events",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1635,
+          "char_end": 1651,
+          "turn_id": null
+        }
+      ],
+      "text": "1-year follow-up",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1737,
+          "char_end": 1740,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1757,
+          "char_end": 1769,
+          "turn_id": null
+        }
+      ],
+      "text": "CABG surgery",
+      "id": "e30"
+    }
+  ]
+}

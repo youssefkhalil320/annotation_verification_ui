@@ -1,0 +1,587 @@
+{
+  "doc_id": "MEDMENTIONS:27867086",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Diazoxide prevents reactive oxygen species and mitochondrial damage, leading to anti-hypertrophic effects Pathological cardiac hypertrophy is characterized by wall thickening or chamber enlargement of the heart in response to pressure or volume overload, respectively. This condition will, initially, improve the organ contractile function, but if sustained will render dysfunctional mitochondria and oxidative stress. Mitochondrial ATP-sensitive K(+) channels (mitoKATP) modulate the redox status of the cell and protect against several cardiac insults. Here, we tested the hypothesis that mitoKATP opening (using diazoxide) will avoid isoproterenol - induced cardiac hypertrophy in vivo by decreasing reactive oxygen species (ROS) production and mitochondrial Ca(2+) - induced swelling. To induce cardiac hypertrophy, Swiss mice were treated intraperitoneally with isoproterenol (30 mg/kg/ day) for 8 days. Diazoxide (5 mg/kg/ day) was used to open mitoKATP and 5-hydroxydecanoate (5 mg/kg/ day) was administrated as a mitoKATP blocker. Isoproterenol - treated mice had elevated heart weight / tibia length ratios and increased myocyte cross-sectional areas. Additionally, hypertrophic hearts produced higher levels of H2O2 and had lower glutathione peroxidase activity. In contrast, mitoKATP opening with diazoxide blocked all isoproterenol effects in a manner reversed by 5-hydroxydecanoate. Isolated mitochondria from Isoproterenol - induced hypertrophic hearts had increased susceptibility to Ca(2+) - induced swelling secondary to mitochondrial permeability transition pore opening. MitokATP opening was accompanied by lower Ca(2+) - induced mitochondrial swelling, an effect blocked by 5-hydroxydecanoate. Our results suggest that mitoKATP opening negatively regulates cardiac hypertrophy by avoiding oxidative impairment and mitochondrial damage.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 9,
+          "turn_id": null
+        }
+      ],
+      "text": "Diazoxide",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "mitochondrial damage",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 138,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac hypertrophy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "wall thickening",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 210,
+          "turn_id": null
+        }
+      ],
+      "text": "chamber enlargement of the heart",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 234,
+          "turn_id": null
+        },
+        {
+          "char_start": 245,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "pressure overload",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "volume overload",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 370,
+          "char_end": 396,
+          "turn_id": null
+        }
+      ],
+      "text": "dysfunctional mitochondria",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "oxidative stress",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 624,
+          "turn_id": null
+        }
+      ],
+      "text": "diazoxide",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 637,
+          "char_end": 650,
+          "turn_id": null
+        }
+      ],
+      "text": "isoproterenol",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 680,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac hypertrophy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 748,
+          "char_end": 787,
+          "turn_id": null
+        }
+      ],
+      "text": "mitochondrial Ca(2+) - induced swelling",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 818,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac hypertrophy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 844,
+          "char_end": 861,
+          "turn_id": null
+        }
+      ],
+      "text": "intraperitoneally",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 867,
+          "char_end": 880,
+          "turn_id": null
+        }
+      ],
+      "text": "isoproterenol",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 882,
+          "char_end": 895,
+          "turn_id": null
+        }
+      ],
+      "text": "30 mg/kg/ day",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 897,
+          "char_end": 907,
+          "turn_id": null
+        }
+      ],
+      "text": "for 8 days",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 909,
+          "char_end": 918,
+          "turn_id": null
+        }
+      ],
+      "text": "Diazoxide",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 920,
+          "char_end": 932,
+          "turn_id": null
+        }
+      ],
+      "text": "5 mg/kg/ day",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 982,
+          "turn_id": null
+        }
+      ],
+      "text": "5-hydroxydecanoate",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 984,
+          "char_end": 996,
+          "turn_id": null
+        }
+      ],
+      "text": "5 mg/kg/ day",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1021,
+          "char_end": 1037,
+          "turn_id": null
+        }
+      ],
+      "text": "mitoKATP blocker",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1039,
+          "char_end": 1052,
+          "turn_id": null
+        }
+      ],
+      "text": "Isoproterenol",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1072,
+          "char_end": 1115,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated heart weight / tibia length ratios",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1159,
+          "turn_id": null
+        }
+      ],
+      "text": "increased myocyte cross-sectional areas",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1194,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertrophic hearts",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1204,
+          "char_end": 1225,
+          "turn_id": null
+        }
+      ],
+      "text": "higher levels of H2O2",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1234,
+          "char_end": 1271,
+          "turn_id": null
+        }
+      ],
+      "text": "lower glutathione peroxidase activity",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1308,
+          "char_end": 1317,
+          "turn_id": null
+        }
+      ],
+      "text": "diazoxide",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1330,
+          "char_end": 1343,
+          "turn_id": null
+        }
+      ],
+      "text": "isoproterenol",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1376,
+          "char_end": 1394,
+          "turn_id": null
+        }
+      ],
+      "text": "5-hydroxydecanoate",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1423,
+          "char_end": 1436,
+          "turn_id": null
+        }
+      ],
+      "text": "Isoproterenol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1447,
+          "char_end": 1466,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertrophic hearts",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1524,
+          "turn_id": null
+        }
+      ],
+      "text": "increased susceptibility to Ca(2+) - induced swelling",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1538,
+          "char_end": 1588,
+          "turn_id": null
+        }
+      ],
+      "text": "mitochondrial permeability transition pore opening",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1632,
+          "char_end": 1671,
+          "turn_id": null
+        }
+      ],
+      "text": "Ca(2+) - induced mitochondrial swelling",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1694,
+          "char_end": 1712,
+          "turn_id": null
+        }
+      ],
+      "text": "5-hydroxydecanoate",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1777,
+          "char_end": 1796,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac hypertrophy",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1809,
+          "char_end": 1829,
+          "turn_id": null
+        }
+      ],
+      "text": "oxidative impairment",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1834,
+          "char_end": 1854,
+          "turn_id": null
+        }
+      ],
+      "text": "mitochondrial damage",
+      "id": "e41"
+    }
+  ]
+}

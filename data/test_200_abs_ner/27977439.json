@@ -1,0 +1,428 @@
+{
+  "doc_id": "MEDMENTIONS:27977439",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Bilateral sternal infusion of ropivacaine and length of stay in ICU after cardiac surgery with increased respiratory risk: A randomised controlled trial The continuous bilateral infusion of a local anaesthetic solution around the sternotomy wound (bilateral sternal) is an innovative technique for reducing pain after sternotomy. To assess the effects of the technique on the need for intensive care in cardiac patients at increased risk of respiratory complications. Randomised, observer-blind controlled trial. Single centre, French University Hospital. In total, 120 adults scheduled for open-heart surgery, with one of the following conditions: age more than 75 years, BMI >30 kg m, chronic obstructive pulmonary disease, active smoking habit. Either a bilateral sternal infusion of 0.2% ropivacaine (3 ml h through each catheter; 'intervention' group), or standardised care only ('control' group). Analgesia was provided with paracetamol and self-administered intravenous morphine. The length of time to readiness for discharge from ICU, blindly assessed by a committee of experts. No effect was found between groups for the primary outcome (P = 0.680, intention to treat); the median values were 42.4 and 37.7 h, respectively for the control and intervention groups (P = 0.873). Similar nonsignificant trends were noted for other postoperative delays. Significant effects favouring the intervention were noted for dynamic pain, patient satisfaction, occurrence of nausea and vomiting, occurrence of delirium or mental confusion and occurrence of pulmonary complications. In 12 patients, although no symptoms actually occurred, the total ropivacaine plasma level exceeded the lowest value for which neurological symptoms have been observed in healthy volunteers. Because of a small size effect, and despite significant analgesic effects, this strategy failed to reduce the time spent in ICU. EudraCT (N°: 2012-005225-69); ClinicalTrials.gov (NCT01828788).",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "sternal infusion",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "ropivacaine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "length",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac surgery",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 186,
+          "turn_id": null
+        }
+      ],
+      "text": "infusion",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "local anaesthetic",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 240,
+          "turn_id": null
+        }
+      ],
+      "text": "sternotomy",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 246,
+          "turn_id": null
+        }
+      ],
+      "text": "sternotomy wound",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 311,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 328,
+          "turn_id": null
+        }
+      ],
+      "text": "sternotomy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 441,
+          "char_end": 466,
+          "turn_id": null
+        }
+      ],
+      "text": "respiratory complications",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 591,
+          "char_end": 609,
+          "turn_id": null
+        }
+      ],
+      "text": "open-heart surgery",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 685,
+          "turn_id": null
+        }
+      ],
+      "text": "BMI >30 kg m",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 687,
+          "char_end": 724,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic obstructive pulmonary disease",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 726,
+          "char_end": 746,
+          "turn_id": null
+        }
+      ],
+      "text": "active smoking habit",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 767,
+          "char_end": 783,
+          "turn_id": null
+        }
+      ],
+      "text": "sternal infusion",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "0.2%",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 803,
+          "turn_id": null
+        }
+      ],
+      "text": "ropivacaine",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 805,
+          "char_end": 809,
+          "turn_id": null
+        }
+      ],
+      "text": "3 ml",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 931,
+          "char_end": 942,
+          "turn_id": null
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 977,
+          "char_end": 985,
+          "turn_id": null
+        }
+      ],
+      "text": "morphine",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1420,
+          "char_end": 1432,
+          "turn_id": null
+        }
+      ],
+      "text": "dynamic pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1470,
+          "char_end": 1476,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1481,
+          "char_end": 1489,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1505,
+          "char_end": 1513,
+          "turn_id": null
+        }
+      ],
+      "text": "delirium",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1517,
+          "char_end": 1533,
+          "turn_id": null
+        }
+      ],
+      "text": "mental confusion",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1552,
+          "char_end": 1575,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary complications",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1643,
+          "char_end": 1667,
+          "turn_id": null
+        }
+      ],
+      "text": "ropivacaine plasma level",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1643,
+          "char_end": 1676,
+          "turn_id": null
+        }
+      ],
+      "text": "ropivacaine plasma level exceeded",
+      "id": "e30"
+    }
+  ]
+}

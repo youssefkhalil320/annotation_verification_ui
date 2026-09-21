@@ -1,0 +1,330 @@
+{
+  "doc_id": "MEDMENTIONS:27645763",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Effect of New-Onset Left Bundle Branch Block After Transcatheter Aortic Valve Implantation (CoreValve) on Mortality, Frequency of Re-Hospitalization, and Need for Pacemaker New-onset conduction disturbances are common after transcatheter aortic valve implantation (TAVI). The most common complication is left bundle branch block (LBBB). The clinical impact of new-onset LBBB after TAVI remains controversial. The aim of this study was to analyze the clinical impact of new-onset LBBB in terms of mortality and morbidity (need for pacemakers and admissions for heart failure) at long-term follow-up. From April 2008 to December 2014, 220 patients who had severe aortic stenosis were treated with the implantation of a CoreValve prosthesis. Sixty-seven of these patients were excluded from the analysis, including 22 patients with pre-existing LBBB and 45 with a permanent pacemaker, implanted previously or within 72 hours of implantation. The remaining 153 patients were divided into 2 groups: group 1 (n = 80), those with persistent new-onset LBBB, and group 2 (n = 73), those without conduction disturbances after treatment. Both groups were followed up at 1 month, 6 months, 12 months, and yearly thereafter. Persistent new-onset LBBB occurred in 80 patients (36%) immediately after TAVI; 73 patients (33%) did not develop conduction disturbances. The mean follow-up time of both groups was 32 ± 22 months (range 3 to 82 months), and there were no differences in time between the groups. There were no differences in mortality between the groups (39% vs 48%, p = 0.58). No differences were observed between the groups in re-hospitalizations for heart failure (11% vs 16%, p = 0.55). Group 1 did not require pacemaker implantation more often at follow-up (10% vs 13%, p = 0.38) than group 2. In conclusion, new-onset LBBB was not associated with a higher incidence of late need for a permanent pacemaker after CoreValve implantation. In addition, it was not associated with a higher risk of late mortality or re-hospitalization.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "Left Bundle Branch Block",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 90,
+          "turn_id": null
+        }
+      ],
+      "text": "Transcatheter Aortic Valve Implantation",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 206,
+          "turn_id": null
+        }
+      ],
+      "text": "conduction disturbances",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 224,
+          "char_end": 263,
+          "turn_id": null
+        }
+      ],
+      "text": "transcatheter aortic valve implantation",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 269,
+          "turn_id": null
+        }
+      ],
+      "text": "TAVI",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 304,
+          "char_end": 328,
+          "turn_id": null
+        }
+      ],
+      "text": "left bundle branch block",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "LBBB",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 370,
+          "char_end": 374,
+          "turn_id": null
+        }
+      ],
+      "text": "LBBB",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 381,
+          "char_end": 385,
+          "turn_id": null
+        }
+      ],
+      "text": "TAVI",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 483,
+          "turn_id": null
+        }
+      ],
+      "text": "LBBB",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 560,
+          "char_end": 573,
+          "turn_id": null
+        }
+      ],
+      "text": "heart failure",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 676,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic stenosis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 699,
+          "char_end": 737,
+          "turn_id": null
+        }
+      ],
+      "text": "implantation of a CoreValve prosthesis",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 842,
+          "char_end": 846,
+          "turn_id": null
+        }
+      ],
+      "text": "LBBB",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1044,
+          "char_end": 1048,
+          "turn_id": null
+        }
+      ],
+      "text": "LBBB",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1086,
+          "char_end": 1109,
+          "turn_id": null
+        }
+      ],
+      "text": "conduction disturbances",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1237,
+          "turn_id": null
+        }
+      ],
+      "text": "LBBB",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1286,
+          "char_end": 1290,
+          "turn_id": null
+        }
+      ],
+      "text": "TAVI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1326,
+          "char_end": 1349,
+          "turn_id": null
+        }
+      ],
+      "text": "conduction disturbances",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1661,
+          "turn_id": null
+        }
+      ],
+      "text": "heart failure",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1710,
+          "char_end": 1732,
+          "turn_id": null
+        }
+      ],
+      "text": "pacemaker implantation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1819,
+          "char_end": 1823,
+          "turn_id": null
+        }
+      ],
+      "text": "LBBB",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1912,
+          "char_end": 1934,
+          "turn_id": null
+        }
+      ],
+      "text": "CoreValve implantation",
+      "id": "e23"
+    }
+  ]
+}

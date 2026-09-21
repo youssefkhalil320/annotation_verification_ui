@@ -1,0 +1,470 @@
+{
+  "doc_id": "MEDMENTIONS:28518001",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Propranolol Effects on Decompression Sickness in a Simulated DISSUB Rescue in Swine Disabled submarine (DISSUB) survivors may face elevated CO2 levels and inert gas saturation, putting them at risk for CO2 toxicity and decompression sickness (DCS). Propranolol was shown to reduce CO2 production in an experimental DISSUB model in humans but its effects on DCS in a DISSUB rescue scenario are unknown. A 100% oxygen prebreathe (OPB) reduces DCS incidence and severity and is incorporated into some DISSUB rescue protocols. We used a swine model of DISSUB rescue to study the effect of propranolol on DCS incidence and mortality with and without an OPB. In Experiment 1, male Yorkshire Swine (70 kg) were pressurized to 2.8 ATA for 22 h. Propranolol 1.0 mg · kg-1 (IV) was administered at 21.25 h. At 22 h, the animal was rapidly decompressed and observed for DCS type, onset time, and mortality. Experimental animals (N = 21; 69 ± 4.1 kg), PROP1.0, were compared to PROP1.0 - OPB45 (N = 8; 69 ± 2.8 kg) with the same dive profile, except for a 45 min OPB prior to decompression. In Experiment 2, the same methodology was used with the following changes: swine pressurized to 2.8 ATA for 28 h; experimental group (N = 25; 67 ± 3.3 kg), PROP0.5 bis, propranolol 0.5 mg · kg-1 bis (twice) (IV) was administered at 22 h and 26 h. Control animals (N = 25; 67 ± 3.9 kg) received normal saline. OPB reduced mortality in PROP1.0 - OBP45 compared to PROP1.0 (0% vs. 71%). PROP0.5 bis had increased mortality compared to CONTROL (60-% vs. 4%). Administration of beta blockers prior to saturation decompression appears to increase DCS and worsen mortality in a swine model; however, their effects in bounce diving remain unknown.Forbes AS, Regis DP, HallAA, Mahon RT, Cronin WA. Propranolol effects on decompression sickness in a simulated DISSUB rescue in swine. Aerosp Med Hum Perform. 2017; 88(4):385-391.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "Propranolol",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 45,
+          "turn_id": null
+        }
+      ],
+      "text": "Decompression Sickness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 150,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated CO2 levels",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 175,
+          "turn_id": null
+        }
+      ],
+      "text": "inert gas saturation",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 214,
+          "turn_id": null
+        }
+      ],
+      "text": "CO2 toxicity",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 241,
+          "turn_id": null
+        }
+      ],
+      "text": "decompression sickness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 243,
+          "char_end": 246,
+          "turn_id": null
+        }
+      ],
+      "text": "DCS",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 260,
+          "turn_id": null
+        }
+      ],
+      "text": "Propranolol",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 360,
+          "turn_id": null
+        }
+      ],
+      "text": "DCS",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 408,
+          "turn_id": null
+        }
+      ],
+      "text": "100%",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 415,
+          "turn_id": null
+        }
+      ],
+      "text": "oxygen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 426,
+          "turn_id": null
+        }
+      ],
+      "text": "oxygen prebreathe",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 428,
+          "char_end": 431,
+          "turn_id": null
+        }
+      ],
+      "text": "OPB",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 441,
+          "char_end": 444,
+          "turn_id": null
+        }
+      ],
+      "text": "DCS",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 596,
+          "turn_id": null
+        }
+      ],
+      "text": "propranolol",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 600,
+          "char_end": 603,
+          "turn_id": null
+        }
+      ],
+      "text": "DCS",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 737,
+          "char_end": 748,
+          "turn_id": null
+        }
+      ],
+      "text": "Propranolol",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 749,
+          "char_end": 762,
+          "turn_id": null
+        }
+      ],
+      "text": "1.0 mg · kg-1",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 766,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 785,
+          "char_end": 795,
+          "turn_id": null
+        }
+      ],
+      "text": "at 21.25 h",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 862,
+          "turn_id": null
+        }
+      ],
+      "text": "DCS",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 976,
+          "char_end": 981,
+          "turn_id": null
+        }
+      ],
+      "text": "OPB45",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1259,
+          "turn_id": null
+        }
+      ],
+      "text": "propranolol",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "0.5 mg · kg-1",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1274,
+          "char_end": 1285,
+          "turn_id": null
+        }
+      ],
+      "text": "bis (twice)",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1287,
+          "char_end": 1289,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1308,
+          "char_end": 1324,
+          "turn_id": null
+        }
+      ],
+      "text": "at 22 h and 26 h",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1373,
+          "char_end": 1386,
+          "turn_id": null
+        }
+      ],
+      "text": "normal saline",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1388,
+          "char_end": 1391,
+          "turn_id": null
+        }
+      ],
+      "text": "OPB",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1552,
+          "char_end": 1565,
+          "turn_id": null
+        }
+      ],
+      "text": "beta blockers",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1620,
+          "char_end": 1623,
+          "turn_id": null
+        }
+      ],
+      "text": "DCS",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1768,
+          "char_end": 1779,
+          "turn_id": null
+        }
+      ],
+      "text": "Propranolol",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1791,
+          "char_end": 1813,
+          "turn_id": null
+        }
+      ],
+      "text": "decompression sickness",
+      "id": "e33"
+    }
+  ]
+}

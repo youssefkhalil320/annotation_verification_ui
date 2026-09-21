@@ -1,0 +1,358 @@
+{
+  "doc_id": "MEDMENTIONS:27881529",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Co-occurrence and clustering of health conditions at age 11: cross-sectional findings from the Millennium Cohort Study To identify patterns of co-occurrence and clustering of 6 common adverse health conditions in 11- year -old children and explore differences by sociodemographic factors. Nationally representative prospective cohort study. Children born in the UK between 2000 and 2002. 11 399 11- year -old singleton children for whom data on all 6 health conditions and sociodemographic information were available (complete cases). Prevalence, co-occurrence and clustering of 6 common health conditions: wheeze; eczema; long-standing illness (excluding wheeze and eczema); injury; socioemotional difficulties (measured using Strengths and Difficulties Questionnaire) and unfavourable weight (thin / overweight / obese vs normal). 42.4% of children had 2 or more adverse health conditions (co-occurrence). Co-occurrence was more common in boys and children from lower income households. Latent class analysis identified 6 classes: ' normative ' (57.4%): ' atopic burdened ' (14.0%); ' socioemotional burdened ' (11.0%); ' unfavourable weight / injury ' (7.7%); ' eczema / injury ' (6.0%) and ' eczema / unfavourable weight ' (3.9%). As with co-occurrence, class membership differed by sociodemographic factors: boys, children of mothers with lower educational attainment and children from lower income households were more likely to be in the ' socioemotional burdened ' class. Children of mothers with higher educational attainment were more likely to be in the ' normative ' and ' eczema / unfavourable weight ' classes. Co-occurrence of adverse health conditions at age 11 is common and is associated with adverse socioeconomic circumstances. Holistic, child focused care, particularly in boys and those in lower income groups, may help to prevent and reduce co-occurrence in later childhood and adolescence.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 613,
+          "turn_id": null
+        }
+      ],
+      "text": "wheeze",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 621,
+          "turn_id": null
+        }
+      ],
+      "text": "eczema",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 623,
+          "char_end": 644,
+          "turn_id": null
+        }
+      ],
+      "text": "long-standing illness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 662,
+          "turn_id": null
+        }
+      ],
+      "text": "wheeze",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 667,
+          "char_end": 673,
+          "turn_id": null
+        }
+      ],
+      "text": "eczema",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 682,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 684,
+          "char_end": 711,
+          "turn_id": null
+        }
+      ],
+      "text": "socioemotional difficulties",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 768,
+          "turn_id": null
+        }
+      ],
+      "text": "Strengths and Difficulties Questionnaire",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 774,
+          "char_end": 793,
+          "turn_id": null
+        }
+      ],
+      "text": "unfavourable weight",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 795,
+          "char_end": 799,
+          "turn_id": null
+        }
+      ],
+      "text": "thin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 802,
+          "char_end": 812,
+          "turn_id": null
+        }
+      ],
+      "text": "overweight",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 815,
+          "char_end": 820,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "lower income",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1124,
+          "char_end": 1143,
+          "turn_id": null
+        }
+      ],
+      "text": "unfavourable weight",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1146,
+          "char_end": 1152,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1165,
+          "char_end": 1171,
+          "turn_id": null
+        }
+      ],
+      "text": "eczema",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1174,
+          "char_end": 1180,
+          "turn_id": null
+        }
+      ],
+      "text": "injury",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1196,
+          "char_end": 1202,
+          "turn_id": null
+        }
+      ],
+      "text": "eczema",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1205,
+          "char_end": 1224,
+          "turn_id": null
+        }
+      ],
+      "text": "unfavourable weight",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1344,
+          "char_end": 1372,
+          "turn_id": null
+        }
+      ],
+      "text": "lower educational attainment",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1391,
+          "char_end": 1403,
+          "turn_id": null
+        }
+      ],
+      "text": "lower income",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1585,
+          "char_end": 1591,
+          "turn_id": null
+        }
+      ],
+      "text": "eczema",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1613,
+          "turn_id": null
+        }
+      ],
+      "text": "unfavourable weight",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1746,
+          "turn_id": null
+        }
+      ],
+      "text": "adverse socioeconomic circumstances",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1812,
+          "char_end": 1824,
+          "turn_id": null
+        }
+      ],
+      "text": "lower income",
+      "id": "e25"
+    }
+  ]
+}

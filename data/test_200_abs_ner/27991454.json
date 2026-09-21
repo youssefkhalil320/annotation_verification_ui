@@ -1,0 +1,321 @@
+{
+  "doc_id": "MEDMENTIONS:27991454",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "A novel method for interactive multi-objective dose-guided patient positioning In intensity-modulated radiation therapy (IMRT), 3D in-room imaging data is typically utilized for accurate patient alignment on the basis of anatomical landmarks. In the presence of non-rigid anatomical changes, it is often not obvious which patient position is most suitable. Thus, dose -guided patient alignment is an interesting approach to use available in-room imaging data for up-to-date dose calculation, aimed at finding the position that yields the optimal dose distribution. This contribution presents the first implementation of dose -guided patient alignment as multi-criteria optimization problem. User-defined clinical objectives are employed for setting up a multi-objective problem. Using pre-calculated dose distributions at a limited number of patient shifts and dose interpolation, a continuous space of Pareto-efficient patient shifts becomes accessible. Pareto sliders facilitate interactive browsing of the possible shifts with real-time dose display to the user. Dose interpolation accuracy is validated and the potential of multi-objective dose-guided positioning demonstrated for three head and neck (H&N) and three prostate cancer patients. Dose-guided positioning is compared to replanning for all cases. A delineated replanning CT served as surrogate for in-room imaging data. Dose interpolation accuracy was high. Using a [Formula: see text] dose difference criterion, a median pass-rate of 95.7% for H&N and 99.6% for prostate cases was determined in a comparison to exact dose calculations. For all patients, dose-guided positioning allowed to find a clinically preferable dose distribution compared to bony anatomy based alignment. For all H&N cases, mean dose to the spared parotid glands was below [Formula: see text] (up to [Formula: see text] with bony alignment) and clinical target volume (CTV) [Formula: see text] above 99.1% (compared to 95.1%). For all prostate patients, CTV [Formula: see text] was above 98.9% (compared to 88.5%) and [Formula: see text] to the rectum below [Formula: see text] (compared to 56.1%). Replanning yielded improved results for the H&N cases. For the prostate cases, differences to dose-guided positioning were minor.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "dose-guided patient positioning",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "intensity-modulated radiation therapy",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 125,
+          "turn_id": null
+        }
+      ],
+      "text": "IMRT",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 139,
+          "char_end": 146,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 204,
+          "turn_id": null
+        }
+      ],
+      "text": "patient alignment",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 363,
+          "char_end": 393,
+          "turn_id": null
+        }
+      ],
+      "text": "dose -guided patient alignment",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 446,
+          "char_end": 453,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 650,
+          "turn_id": null
+        }
+      ],
+      "text": "dose -guided patient alignment",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1144,
+          "char_end": 1167,
+          "turn_id": null
+        }
+      ],
+      "text": "dose-guided positioning",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1191,
+          "char_end": 1204,
+          "turn_id": null
+        },
+        {
+          "char_start": 1230,
+          "char_end": 1236,
+          "turn_id": null
+        }
+      ],
+      "text": "head and neck cancer",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1236,
+          "turn_id": null
+        }
+      ],
+      "text": "prostate cancer",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1247,
+          "char_end": 1270,
+          "turn_id": null
+        }
+      ],
+      "text": "Dose-guided positioning",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1286,
+          "char_end": 1296,
+          "turn_id": null
+        }
+      ],
+      "text": "replanning",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1325,
+          "char_end": 1338,
+          "turn_id": null
+        }
+      ],
+      "text": "replanning CT",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1371,
+          "char_end": 1378,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1513,
+          "turn_id": null
+        }
+      ],
+      "text": "H&N",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1620,
+          "char_end": 1643,
+          "turn_id": null
+        }
+      ],
+      "text": "dose-guided positioning",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1714,
+          "char_end": 1742,
+          "turn_id": null
+        }
+      ],
+      "text": "bony anatomy based alignment",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1752,
+          "char_end": 1755,
+          "turn_id": null
+        }
+      ],
+      "text": "H&N",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1864,
+          "char_end": 1878,
+          "turn_id": null
+        }
+      ],
+      "text": "bony alignment",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2138,
+          "char_end": 2148,
+          "turn_id": null
+        }
+      ],
+      "text": "Replanning",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 2182,
+          "char_end": 2185,
+          "turn_id": null
+        }
+      ],
+      "text": "H&N",
+      "id": "e22"
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "doc_id": "MEDMENTIONS:27923790",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Dynamin-related protein 1 mediates low glucose - induced endothelial dysfunction in human arterioles Intensive glycemic regulation has resulted in an increased incidence of hypoglycemia. Hypoglycemic burden correlates with adverse cardiovascular complications and contributes acutely and chronically to endothelial dysfunction. Prior data indicate that mitochondrial dysfunction contributes to hypoglycemia - induced endothelial dysfunction, but the mechanisms behind this linkage remain unknown. We attempt to determine whether clinically relevant low-glucose (LG) exposures acutely induce endothelial dysfunction through activation of the mitochondrial fission process. Characterization of mitochondrial morphology was carried out in cultured endothelial cells by using confocal microscopy. Isolated human arterioles were used to explore the effect LG - induced mitochondrial fission has on the formation of detrimental reactive oxygen species (ROS), bioavailability of nitric oxide (NO), and endothelial-dependent vascular relaxation. Fluorescence microscopy was employed to visualize changes in mitochondrial ROS and NO levels and videomicroscopy applied to measure vasodilation response. Pharmacological disruption of the profission protein Drp1 with Mdivi-1 during LG exposure reduced mitochondrial fragmentation among vascular endothelial cells (LG: 0.469; LG + Mdivi-1: 0.276; P = 0.003), prevented formation of vascular ROS (LG: 2.036; LG + Mdivi-1: 1.774; P = 0.005), increased the presence of NO (LG: 1.352; LG + Mdivi-1: 1.502; P = 0.048), and improved vascular dilation response to acetylcholine (LG: 31.6%; LG + Mdivi-1; 78.5% at maximum dose; P < 0.001). Additionally, decreased expression of Drp1 via siRNA knockdown during LG conditions also improved vascular relaxation. Exposure to LG imparts endothelial dysfunction coupled with altered mitochondrial phenotypes among isolated human arterioles. Disruption of Drp1 and subsequent mitochondrial fragmentation events prevents impaired vascular dilation, restores mitochondrial phenotype, and implicates mitochondrial fission as a primary mediator of LG - induced endothelial dysfunction .NEW & NOTEWORTHY Acute low-glucose exposure induces mitochondrial fragmentation in endothelial cells via Drp1 and is associated with impaired endothelial function in human arterioles. Targeting of Drp1 prevents fragmentation, improves vasofunction, and may provide a therapeutic target for improving cardiovascular complications among diabetics .Listen to this article's corresponding podcast @ http://ajpheart.podbean.com/e/mitochondrial-dynamics-impact-endothelial-function/.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "low glucose",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "endothelial dysfunction",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoglycemia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 206,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypoglycemic burden",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 259,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiovascular complications",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 303,
+          "char_end": 326,
+          "turn_id": null
+        }
+      ],
+      "text": "endothelial dysfunction",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 394,
+          "char_end": 406,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoglycemia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 417,
+          "char_end": 440,
+          "turn_id": null
+        }
+      ],
+      "text": "endothelial dysfunction",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 560,
+          "turn_id": null
+        }
+      ],
+      "text": "low-glucose",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 562,
+          "char_end": 564,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 591,
+          "char_end": 614,
+          "turn_id": null
+        }
+      ],
+      "text": "endothelial dysfunction",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 772,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "confocal microscopy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 851,
+          "char_end": 853,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1038,
+          "char_end": 1061,
+          "turn_id": null
+        }
+      ],
+      "text": "Fluorescence microscopy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1135,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "videomicroscopy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1256,
+          "char_end": 1263,
+          "turn_id": null
+        }
+      ],
+      "text": "Mdivi-1",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1353,
+          "char_end": 1355,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1364,
+          "char_end": 1366,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1376,
+          "turn_id": null
+        }
+      ],
+      "text": "Mdivi-1",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1436,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1445,
+          "char_end": 1447,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1450,
+          "char_end": 1457,
+          "turn_id": null
+        }
+      ],
+      "text": "Mdivi-1",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1508,
+          "char_end": 1510,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1519,
+          "char_end": 1521,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1524,
+          "char_end": 1531,
+          "turn_id": null
+        }
+      ],
+      "text": "Mdivi-1",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1595,
+          "char_end": 1608,
+          "turn_id": null
+        }
+      ],
+      "text": "acetylcholine",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1612,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1621,
+          "char_end": 1623,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1626,
+          "char_end": 1633,
+          "turn_id": null
+        }
+      ],
+      "text": "Mdivi-1",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1740,
+          "char_end": 1742,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1801,
+          "char_end": 1803,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1812,
+          "char_end": 1835,
+          "turn_id": null
+        }
+      ],
+      "text": "endothelial dysfunction",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1993,
+          "char_end": 2019,
+          "turn_id": null
+        }
+      ],
+      "text": "impaired vascular dilation",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2117,
+          "char_end": 2119,
+          "turn_id": null
+        }
+      ],
+      "text": "LG",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2130,
+          "char_end": 2153,
+          "turn_id": null
+        }
+      ],
+      "text": "endothelial dysfunction",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2178,
+          "char_end": 2189,
+          "turn_id": null
+        }
+      ],
+      "text": "low-glucose",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2288,
+          "char_end": 2317,
+          "turn_id": null
+        }
+      ],
+      "text": "impaired endothelial function",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2455,
+          "char_end": 2483,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiovascular complications",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2490,
+          "char_end": 2499,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetics",
+      "id": "e40"
+    }
+  ]
+}

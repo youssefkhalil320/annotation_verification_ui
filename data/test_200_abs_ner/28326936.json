@@ -1,0 +1,452 @@
+{
+  "doc_id": "MEDMENTIONS:28326936",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "A role for the locus coeruleus in the analgesic efficacy of N-acetylaspartylglutamate peptidase (GCPII) inhibitors ZJ43 and 2-PMPA N-acetylaspartylglutamate (NAAG) is the third most prevalent and widely distributed neurotransmitter in the mammalian nervous system. NAAG activates a group II metabotropic glutamate receptor (mGluR3) and is inactivated by an extracellular enzyme, glutamate carboxypeptidase II (GCPII) in vivo. Inhibitors of this enzyme are analgesic in animal models of inflammatory, neuropathic and bone cancer pain. NAAG and GCPII are present in the locus coeruleus, a center for the descending noradrenergic inhibitory pain system. In the formalin footpad model, systemic treatment with GCPII inhibitors reduces both phases of the inflammatory pain response and increases release of spinal noradrenaline. This analgesic efficacy is blocked by systemic injection of a group II mGluR antagonist, by intrathecal (spinal) injection of an alpha 2 adrenergic receptor antagonist and by microinjection of an α-amino-3-hydroxy-5-methylisoxazole-4-propionic acid (AMPA) receptor antagonist directly into the contralateral locus coeruleus. Footpad inflammation increases release of glutamate in the contralateral locus coeruleu s and systemic treatment with a GCPII inhibitor blocks this increase. Direct injection of GCPII inhibitors into the contralateral or ipsilatera l locus coeruleus reduces both phases of the inflammatory pain response in a dose-dependent manner and the contralateral effect also is blocked by intrathecal injection of an alpha 2 adrenergic receptor antagonist. These data support the hypothesis that the analgesic efficacy of systemically administered GCPII inhibitors is mediated, at least in part, by the contralatera l locus coeruleus via group II mGluR, AMPA and alpha 2 adrenergic receptors.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 114,
+          "turn_id": null
+        }
+      ],
+      "text": "N-acetylaspartylglutamate peptidase (GCPII) inhibitors",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "ZJ43",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 130,
+          "turn_id": null
+        }
+      ],
+      "text": "2-PMPA",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 451,
+          "turn_id": null
+        }
+      ],
+      "text": "Inhibitors of this enzyme",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 486,
+          "char_end": 498,
+          "turn_id": null
+        },
+        {
+          "char_start": 528,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 511,
+          "turn_id": null
+        },
+        {
+          "char_start": 528,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "neuropathic pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 527,
+          "turn_id": null
+        }
+      ],
+      "text": "bone cancer",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "bone cancer pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 682,
+          "char_end": 690,
+          "turn_id": null
+        }
+      ],
+      "text": "systemic",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 706,
+          "char_end": 722,
+          "turn_id": null
+        }
+      ],
+      "text": "GCPII inhibitors",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 776,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory pain response",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 862,
+          "char_end": 870,
+          "turn_id": null
+        }
+      ],
+      "text": "systemic",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 880,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 911,
+          "turn_id": null
+        }
+      ],
+      "text": "group II mGluR antagonist",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 916,
+          "char_end": 927,
+          "turn_id": null
+        }
+      ],
+      "text": "intrathecal",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 929,
+          "char_end": 935,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 937,
+          "char_end": 946,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 953,
+          "char_end": 991,
+          "turn_id": null
+        }
+      ],
+      "text": "alpha 2 adrenergic receptor antagonist",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 999,
+          "char_end": 1013,
+          "turn_id": null
+        }
+      ],
+      "text": "microinjection",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1020,
+          "char_end": 1099,
+          "turn_id": null
+        }
+      ],
+      "text": "α-amino-3-hydroxy-5-methylisoxazole-4-propionic acid (AMPA) receptor antagonist",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1149,
+          "char_end": 1169,
+          "turn_id": null
+        }
+      ],
+      "text": "Footpad inflammation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1251,
+          "turn_id": null
+        }
+      ],
+      "text": "systemic",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1269,
+          "char_end": 1284,
+          "turn_id": null
+        }
+      ],
+      "text": "GCPII inhibitor",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1314,
+          "char_end": 1323,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1327,
+          "char_end": 1343,
+          "turn_id": null
+        }
+      ],
+      "text": "GCPII inhibitors",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1426,
+          "char_end": 1452,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory pain response",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1528,
+          "char_end": 1539,
+          "turn_id": null
+        }
+      ],
+      "text": "intrathecal",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1549,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1556,
+          "char_end": 1594,
+          "turn_id": null
+        }
+      ],
+      "text": "alpha 2 adrenergic receptor antagonist",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1661,
+          "char_end": 1673,
+          "turn_id": null
+        }
+      ],
+      "text": "systemically",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1687,
+          "char_end": 1703,
+          "turn_id": null
+        }
+      ],
+      "text": "GCPII inhibitors",
+      "id": "e31"
+    }
+  ]
+}

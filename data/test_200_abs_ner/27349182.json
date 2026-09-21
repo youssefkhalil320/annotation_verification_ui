@@ -1,0 +1,365 @@
+{
+  "doc_id": "MEDMENTIONS:27349182",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Beneficial effects of voglibose administration on body weight and lipid metabolism via gastrointestinal bile acid modification This study was designed with the goal of examining the effects of voglibose administration on body weight and lipid metabolism and underlying mechanism high fat diet -induced obese mice. Male C57BL/6 mice were randomly assigned to one of four groups: a control diet (CTL), high-fat diet (HF), high-fat diet supplemented with voglibose (VO), and high fat diet pair-fed group (PF). After 12 weeks, the following characteristics were investigated: serum lipid and glucose levels, serum polar metabolite profiles, and expression levels of genes involved in lipid and bile acid metabolism. In addition, pyrosequencing was used to analyze the composition of gut microbiota found in feces. Total body weight gain was significantly lower in the VO group than in the CTL, HF, and PF groups. The VO group exhibited improved metabolic profiles including those of blood glucose, triglyceride, and total cholesterol levels. The 12- week voglibose administration decreased the ratio of Firmicutes to Bacteroidetes found in feces. Circulating levels of taurocholic and cholic acid were significantly higher in the VO group than in the HF and CTL groups. Deoxycholic acid levels tended to be higher in the VO group than in the HF group. Voglibose administration downregulated expression levels of CYP8B1 and HNF4α genes and upregulated those of PGC1α, whereas FXRα was not affected. Voglibose administration elicits changes in the composition of the intestinal microbiota and circulating metabolites, which ultimately has systemic effects on body weight and lipid metabolism in mice.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "voglibose",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "voglibose",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 302,
+          "char_end": 307,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 452,
+          "char_end": 461,
+          "turn_id": null
+        }
+      ],
+      "text": "voglibose",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 583,
+          "turn_id": null
+        },
+        {
+          "char_start": 596,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": "serum lipid levels",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 588,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose levels",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 604,
+          "char_end": 635,
+          "turn_id": null
+        }
+      ],
+      "text": "serum polar metabolite profiles",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 667,
+          "turn_id": null
+        }
+      ],
+      "text": "expression levels of genes",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 725,
+          "char_end": 739,
+          "turn_id": null
+        }
+      ],
+      "text": "pyrosequencing",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 832,
+          "turn_id": null
+        },
+        {
+          "char_start": 851,
+          "char_end": 856,
+          "turn_id": null
+        }
+      ],
+      "text": "Total body weight gain lower",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 979,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "blood glucose",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "triglyceride",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1012,
+          "char_end": 1036,
+          "turn_id": null
+        }
+      ],
+      "text": "total cholesterol levels",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1042,
+          "char_end": 1050,
+          "turn_id": null
+        }
+      ],
+      "text": "12- week",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1051,
+          "char_end": 1060,
+          "turn_id": null
+        }
+      ],
+      "text": "voglibose",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1165,
+          "char_end": 1176,
+          "turn_id": null
+        },
+        {
+          "char_start": 1188,
+          "char_end": 1192,
+          "turn_id": null
+        },
+        {
+          "char_start": 1212,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "taurocholic acid higher",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1165,
+          "char_end": 1176,
+          "turn_id": null
+        },
+        {
+          "char_start": 1188,
+          "char_end": 1192,
+          "turn_id": null
+        }
+      ],
+      "text": "taurocholic acid",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1181,
+          "char_end": 1192,
+          "turn_id": null
+        },
+        {
+          "char_start": 1212,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "cholic acid higher",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1181,
+          "char_end": 1192,
+          "turn_id": null
+        }
+      ],
+      "text": "cholic acid",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1266,
+          "char_end": 1289,
+          "turn_id": null
+        },
+        {
+          "char_start": 1303,
+          "char_end": 1309,
+          "turn_id": null
+        }
+      ],
+      "text": "Deoxycholic acid levels higher",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1266,
+          "char_end": 1289,
+          "turn_id": null
+        }
+      ],
+      "text": "Deoxycholic acid levels",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1348,
+          "char_end": 1357,
+          "turn_id": null
+        }
+      ],
+      "text": "Voglibose",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1503,
+          "turn_id": null
+        }
+      ],
+      "text": "Voglibose",
+      "id": "e23"
+    }
+  ]
+}

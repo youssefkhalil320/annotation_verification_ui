@@ -1,0 +1,204 @@
+{
+  "doc_id": "MEDMENTIONS:27443131",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Hospitalist Co-management of Pediatric Orthopaedic Surgical Patients at a Community Hospital The benefits of hospitalist co-management of pediatric surgical patients include bettering patient safety, decreasing negative patient outcomes, providing comprehensive medical care, and establishing a dedicated resource to patients for postoperative care. The purpose of this study was to characterize the nature of patients co-managed by a pediatric hospitalist. The authors hypothesize that hospitalist co-management is safe and efficacious in pediatric orthopaedic surgical patients who are admitted to a community hospital. A retrospective review was performed of all pediatric orthopaedic surgical patients admitted to a community hospital who were co-managed by a pediatric hospitalist. Indications for hospitalization included pain control, antibiotic infusion, and need for neurovascular monitoring. Parameters of postoperative care and co-management were assessed, including presence of complications, medication introduction or adjustment by the hospitalist, follow-up adherence, and readmission / complication rates after discharge. Thirty-two patients were assessed with an average age of 8.8 years. Twenty-five percent of patients had an associated comorbidity, including asthma, attention deficit disorder, and/or autism. The pediatric hospitalist added pain medication to the original postoperative orders placed by the orthopaedics team in 44 percent of patients (14 of the 32) either for breakthrough pain or better long-term coverage. Additionally, 25 percent of patients had pain medication adjusted from the original dosing and schedule. The hospitalist team contacted the surgeon about the four patients (12.5 percent). In three of the cases, the surgeon was contacted to discuss pain medication, and one patient woke up agitated from anesthesia, necessitating a visit from the surgeon on the pediatrics floor. The length of stay was one day for all patients. The hospitalists rounded on and discharged patients the subsequent morning. All patients were given a follow-up appointment and schedule by the hospitalist team, and every patient followed up accordingly within ten days of discharge. No complications or hospital readmissions occurred within thirty days of discharge. Hospitalist co-management of pediatric orthopaedic surgical patients in a community hospital allows for better medical comorbidity and medication management. Hospitalist s can provide closer observation during the inpatient stay and help streamline communication between providers and patients while allowing the surgeon the ability to be more mobile. Co-management is safe and efficacious in pediatric orthopaedic surgical patients who are admitted to a community hospital.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 828,
+          "char_end": 832,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 842,
+          "char_end": 852,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 842,
+          "char_end": 861,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic infusion",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 876,
+          "char_end": 900,
+          "turn_id": null
+        }
+      ],
+      "text": "neurovascular monitoring",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1279,
+          "char_end": 1285,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1287,
+          "char_end": 1313,
+          "turn_id": null
+        }
+      ],
+      "text": "attention deficit disorder",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1322,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "autism",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1362,
+          "char_end": 1377,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1499,
+          "char_end": 1516,
+          "turn_id": null
+        }
+      ],
+      "text": "breakthrough pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1536,
+          "turn_id": null
+        }
+      ],
+      "text": "long-term",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1588,
+          "char_end": 1603,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1795,
+          "char_end": 1810,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1836,
+          "char_end": 1844,
+          "turn_id": null
+        }
+      ],
+      "text": "agitated",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1850,
+          "char_end": 1860,
+          "turn_id": null
+        }
+      ],
+      "text": "anesthesia",
+      "id": "e14"
+    }
+  ]
+}

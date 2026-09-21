@@ -1,0 +1,526 @@
+{
+  "doc_id": "MEDMENTIONS:27680598",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Sustained delivery of vincristine inside an orthotopic mouse sarcoma model decreases tumor growth Sarcoma accounts for 20% of solid tumors in children. Surgery has significant morbidity. We hypothesized that delivering chemotherapy directly into tumors through sustained release silk systems could slow tumor growth. Human Ewing sarcoma cells A673 were cultured with vincristine and doxorubicin to determine half maximal inhibitory concentration (IC50). Cells were injected into mouse hind leg to create orthotopic tumors. Tumor volumes were measured using ultrasound. When volume reached >250mm(3,) interventions included: implantation of drug-free silk foam (Control -F), doxorubicin 400μg foam (Dox400 -F), vincristine 50μg foam (Vin50 -F), drug-free silk gel (Control -G), vincristine 50μg gel (Vin50 -G), or single dose intravenous vincristine 50μg (Vin50 -IV). End-point was volume>1000mm(3). Kaplan Meier and ANOVA were used. IC50 for vincristine and doxorubicin was 0.5ng/mL and 200ng/mL, respectively. There was no difference between Dox400 -F [6± 1days to end point (DTEP)] and Control -F (5±1.3 DTEP). Vin50 -F (12.4±3.5 DTEP) had slower growth compared to Control -F (p<0.001), and there was no difference between Vin50 -F and Vin50 -IV (14±0 DTEP). Growth was slowest with Vin50 -G, 28±10.3 DTEP compared to all other treatment groups (p<0.05). Sustained delivery of vincristine inside the sarcoma tumor with silk gel decreased tumor growth. Applying this intratumoral treatment strategy may potentially decrease the extent of surgical excision.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 33,
+          "turn_id": null
+        }
+      ],
+      "text": "vincristine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 68,
+          "turn_id": null
+        }
+      ],
+      "text": "sarcoma",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor growth",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 98,
+          "char_end": 105,
+          "turn_id": null
+        }
+      ],
+      "text": "Sarcoma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 138,
+          "turn_id": null
+        }
+      ],
+      "text": "solid tumors",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 231,
+          "turn_id": null
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 252,
+          "turn_id": null
+        }
+      ],
+      "text": "tumors",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 303,
+          "char_end": 315,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor growth",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 336,
+          "turn_id": null
+        }
+      ],
+      "text": "Ewing sarcoma",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 367,
+          "char_end": 378,
+          "turn_id": null
+        }
+      ],
+      "text": "vincristine",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 394,
+          "turn_id": null
+        }
+      ],
+      "text": "doxorubicin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 408,
+          "char_end": 452,
+          "turn_id": null
+        }
+      ],
+      "text": "half maximal inhibitory concentration (IC50)",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 521,
+          "turn_id": null
+        }
+      ],
+      "text": "tumors",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 567,
+          "turn_id": null
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 624,
+          "char_end": 636,
+          "turn_id": null
+        }
+      ],
+      "text": "implantation",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 685,
+          "turn_id": null
+        }
+      ],
+      "text": "doxorubicin",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 686,
+          "char_end": 691,
+          "turn_id": null
+        }
+      ],
+      "text": "400μg",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 696,
+          "turn_id": null
+        }
+      ],
+      "text": "foam",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 721,
+          "turn_id": null
+        }
+      ],
+      "text": "vincristine",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 722,
+          "char_end": 726,
+          "turn_id": null
+        }
+      ],
+      "text": "50μg",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 731,
+          "turn_id": null
+        }
+      ],
+      "text": "foam",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 777,
+          "char_end": 788,
+          "turn_id": null
+        }
+      ],
+      "text": "vincristine",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 793,
+          "turn_id": null
+        }
+      ],
+      "text": "50μg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 797,
+          "turn_id": null
+        }
+      ],
+      "text": "gel",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 813,
+          "char_end": 824,
+          "turn_id": null
+        }
+      ],
+      "text": "single dose",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 836,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 837,
+          "char_end": 848,
+          "turn_id": null
+        }
+      ],
+      "text": "vincristine",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 849,
+          "char_end": 853,
+          "turn_id": null
+        }
+      ],
+      "text": "50μg",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 937,
+          "turn_id": null
+        }
+      ],
+      "text": "IC50",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 953,
+          "turn_id": null
+        }
+      ],
+      "text": "vincristine",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 958,
+          "char_end": 969,
+          "turn_id": null
+        }
+      ],
+      "text": "doxorubicin",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1380,
+          "char_end": 1391,
+          "turn_id": null
+        }
+      ],
+      "text": "vincristine",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1403,
+          "char_end": 1416,
+          "turn_id": null
+        }
+      ],
+      "text": "sarcoma tumor",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1427,
+          "char_end": 1430,
+          "turn_id": null
+        }
+      ],
+      "text": "gel",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1453,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor growth",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1469,
+          "char_end": 1481,
+          "turn_id": null
+        }
+      ],
+      "text": "intratumoral",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1557,
+          "turn_id": null
+        }
+      ],
+      "text": "surgical excision",
+      "id": "e37"
+    }
+  ]
+}

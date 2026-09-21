@@ -1,0 +1,284 @@
+{
+  "doc_id": "MEDMENTIONS:27595710",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "The MEssaging for Diabetes Intervention Reduced Barriers to Medication Adherence Among Low-Income, Diverse Adults With Type 2 Nonadherence to diabetes medication is prevalent and costly. MEssaging for Diabetes (MED), a mobile health (mHealth) intervention, identified and addressed user -specific barriers to medication adherence. We assessed whether MED reduced users ' targeted barriers and if barrier reductions were associated with within-participant improvements in adherence or glycemic control (HbA1c). Adults (N = 80) with type 2 diabetes completed self-report measures identifying barriers to adherence at baseline and monthly for 3 months. At each assessment, 17 barriers were assessed and ranked for each user. Each subsequent month, users received daily text messages addressing their 3 highest ranked barriers. Targeted barriers were different for each participant and could change monthly. Paired t-tests assessed within-participant improvement in targeted barriers each month, and nested regression models assessed if changes in a participant's barrier scores were associated with improvements in adherence and HbA1c. Participants were 69% non-white and 82% had incomes <$25K. Average HbA1c was 8.2 ± 2.0%. Assessment completion rates were 100% at baseline, 59% at 1 month, 30% at 2 months, and 65% at 3 months. The most commonly reported barriers were the cost of medications (76%), believing medications are harmful (58%), and lacking information about medications (53%). Participants ' barrier scores improved each month and barrier improvement predicted adherence assessed via nightly adherence assessment text messages (P < .001). Among participants who completed assessments each month, barrier improvement in months 2 and 3 (P < .05) predicted HbA1c improvement. Iterative, individual tailoring may overcome users ' barriers to adherence. Attrition is a challenge for mHealth interventions among low-income patients.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 4,
+          "char_end": 39,
+          "turn_id": null
+        }
+      ],
+      "text": "MEssaging for Diabetes Intervention",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 87,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "Low-Income",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 161,
+          "turn_id": null
+        }
+      ],
+      "text": "Nonadherence to diabetes medication",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 215,
+          "turn_id": null
+        }
+      ],
+      "text": "MEssaging for Diabetes (MED)",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 255,
+          "turn_id": null
+        }
+      ],
+      "text": "mobile health (mHealth) intervention",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "MED",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 502,
+          "char_end": 507,
+          "turn_id": null
+        }
+      ],
+      "text": "HbA1c",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 546,
+          "turn_id": null
+        }
+      ],
+      "text": "type 2 diabetes",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1126,
+          "char_end": 1131,
+          "turn_id": null
+        }
+      ],
+      "text": "HbA1c",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1177,
+          "char_end": 1190,
+          "turn_id": null
+        }
+      ],
+      "text": "incomes <$25K",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1200,
+          "char_end": 1205,
+          "turn_id": null
+        }
+      ],
+      "text": "HbA1c",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1372,
+          "char_end": 1391,
+          "turn_id": null
+        }
+      ],
+      "text": "cost of medications",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1399,
+          "char_end": 1420,
+          "turn_id": null
+        },
+        {
+          "char_start": 1425,
+          "char_end": 1432,
+          "turn_id": null
+        }
+      ],
+      "text": "believing medications harmful",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1444,
+          "char_end": 1463,
+          "turn_id": null
+        },
+        {
+          "char_start": 1470,
+          "char_end": 1481,
+          "turn_id": null
+        }
+      ],
+      "text": "lacking information medications",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1596,
+          "char_end": 1624,
+          "turn_id": null
+        }
+      ],
+      "text": "nightly adherence assessment",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1766,
+          "char_end": 1771,
+          "turn_id": null
+        }
+      ],
+      "text": "HbA1c",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1918,
+          "char_end": 1928,
+          "turn_id": null
+        }
+      ],
+      "text": "low-income",
+      "id": "e19"
+    }
+  ]
+}

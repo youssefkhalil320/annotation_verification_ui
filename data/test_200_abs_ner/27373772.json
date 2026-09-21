@@ -1,0 +1,270 @@
+{
+  "doc_id": "MEDMENTIONS:27373772",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "ISX-9 can potentiate cell proliferation and neuronal commitment in the rat dentate gyrus Adult hippocampal neurogenesis can be modulated by various physiological and pathological conditions, including stress, affective disorders, and several neurological conditions. Given the proposed role of this form of structural plasticity in the functioning of the hippocampus (namely learning and memory and affective behaviors), it is believed that alterations in hippocampal neurogenesis might underlie some of the behavioral deficits associated with these psychiatric and neurological conditions. Thus, the search for compounds that can reverse these deficits with minimal side effects has become a recognized priority. In the present study we tested the pro-neurogenic effects of isoxazole 9 (Isx-9), a small synthetic molecule that has been recently identified through the screening of chemical libraries in stem cell-based assays. We found that administration of Isx-9 for 14days was able to potentiate cell proliferation and increase the number of immature neurons in the hippocampal DG of adult rats. In addition, Isx-9 treatment was able to completely reverse the marked reduction in these initial stages of the neurogenic process observed in vehicle - treated animals (which were submitted to repeated handling and exposure to daily intraperitoneal injections). Based on these results, we recommend that future neurogenesis studies that require repeated handling and manipulation of animals should include a naïve (non-manipulated) control to determine the baseline levels of hippocampal cell proliferation and neuronal differentiation. Overall, these findings demonstrate that Isx-9 is a promising synthetic compound for the mitigation of stress - induced deficits in adult hippocampal neurogenesis. Future studies are thus warranted to evaluate the pro-neurogenic properties of Isx-9 in animal models of affective and neurological disorders associated with impaired hippocampal structural plasticity.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 5,
+          "turn_id": null
+        }
+      ],
+      "text": "ISX-9",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 207,
+          "turn_id": null
+        }
+      ],
+      "text": "stress",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 228,
+          "turn_id": null
+        }
+      ],
+      "text": "affective disorders",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 242,
+          "char_end": 265,
+          "turn_id": null
+        }
+      ],
+      "text": "neurological conditions",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 561,
+          "turn_id": null
+        },
+        {
+          "char_start": 579,
+          "char_end": 589,
+          "turn_id": null
+        }
+      ],
+      "text": "psychiatric conditions",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 589,
+          "turn_id": null
+        }
+      ],
+      "text": "neurological conditions",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 775,
+          "char_end": 786,
+          "turn_id": null
+        }
+      ],
+      "text": "isoxazole 9",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 788,
+          "char_end": 793,
+          "turn_id": null
+        }
+      ],
+      "text": "Isx-9",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 960,
+          "char_end": 965,
+          "turn_id": null
+        }
+      ],
+      "text": "Isx-9",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 966,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "for 14days",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1113,
+          "char_end": 1118,
+          "turn_id": null
+        }
+      ],
+      "text": "Isx-9",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1328,
+          "char_end": 1333,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1334,
+          "char_end": 1349,
+          "turn_id": null
+        }
+      ],
+      "text": "intraperitoneal",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1684,
+          "turn_id": null
+        }
+      ],
+      "text": "Isx-9",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1741,
+          "char_end": 1747,
+          "turn_id": null
+        }
+      ],
+      "text": "stress",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1881,
+          "char_end": 1886,
+          "turn_id": null
+        }
+      ],
+      "text": "Isx-9",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1907,
+          "char_end": 1916,
+          "turn_id": null
+        },
+        {
+          "char_start": 1934,
+          "char_end": 1943,
+          "turn_id": null
+        }
+      ],
+      "text": "affective disorders",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1921,
+          "char_end": 1943,
+          "turn_id": null
+        }
+      ],
+      "text": "neurological disorders",
+      "id": "e18"
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "doc_id": "MEDMENTIONS:28395912",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Dobutamine Stress Echocardiography: Impact of Abnormal Blood Potassium Levels on Cardiac Arrhythmias Guidelines suggest that an abnormal blood potassium level is a relative contraindication to performing dobutamine stress echocardiography (DSE). However, this has not been previously studied. We reviewed a consecutive series of patients who had potassium testing within 48 hours of undergoing DSE for the evaluation of myocardial ischemia over a 10- year period (N = 13,198). Normal potassium range in our laboratory is 3.6-5.2 mmol/L. Hemolyzed samples were not included. The association of potassium levels with the development of supraventricular and ventricular arrhythmias was assessed. The incidence of clinically significant arrhythmias was very low (supraventricular tachycardia / atrial fibrillation, 4.9%; nonsustained ventricular tachycardia, 2.9%; sustained ventricular tachycardia or ventricular fibrillation, 0.1%), confirming the overall safety of DSE. Most arrhythmias (88%) occurred in patients with normal potassium levels, and arrhythmia rates remained low in patients with potassium abnormalities. Patients with hyperkalemia had a lower risk of developing mild (odds ratio [OR], 0.39; 95% CI, 0.22-0.71) and severe (OR, 0.13; 95% CI, 0.01-0.68) supraventricular arrhythmias as well as mild ventricular arrhythmias (OR, 0.58; 95% CI, 0.40-0.83). Even though events were rare, patients with severe hypokalemia (potassium levels ≤ 3.1 mmol/L) had an increased risk of supraventricular arrhythmia and ventricular ectopy. DSE is safe even in the setting of abnormalities in blood potassium concentrations, and hence cancellation of DSE in patients with potassium abnormalities does not appear warranted. Elevated potassium levels are associated with lower rates of clinically significant supraventricular and ventricular arrhythmias. While remaining at relatively low risk, patients with very low potassium levels (≤3.1 mmol/L) at the time of DSE have a modestly increased risk of arrhythmia. Consideration could be given to correcting severe hypokalemia prior to DSE.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 10,
+          "turn_id": null
+        }
+      ],
+      "text": "Dobutamine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "Dobutamine Stress Echocardiography",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 77,
+          "turn_id": null
+        }
+      ],
+      "text": "Abnormal Blood Potassium Levels",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 77,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood Potassium Levels",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 100,
+          "turn_id": null
+        }
+      ],
+      "text": "Cardiac Arrhythmias",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 128,
+          "char_end": 158,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal blood potassium level",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 158,
+          "turn_id": null
+        }
+      ],
+      "text": "blood potassium level",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 204,
+          "char_end": 214,
+          "turn_id": null
+        }
+      ],
+      "text": "dobutamine",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 204,
+          "char_end": 238,
+          "turn_id": null
+        }
+      ],
+      "text": "dobutamine stress echocardiography",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "DSE",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 355,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 363,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium testing",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 394,
+          "char_end": 397,
+          "turn_id": null
+        }
+      ],
+      "text": "DSE",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 439,
+          "turn_id": null
+        }
+      ],
+      "text": "myocardial ischemia",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 609,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium levels",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 634,
+          "char_end": 650,
+          "turn_id": null
+        },
+        {
+          "char_start": 667,
+          "char_end": 678,
+          "turn_id": null
+        }
+      ],
+      "text": "supraventricular arrhythmias",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 655,
+          "char_end": 678,
+          "turn_id": null
+        }
+      ],
+      "text": "ventricular arrhythmias",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 733,
+          "char_end": 744,
+          "turn_id": null
+        }
+      ],
+      "text": "arrhythmias",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 759,
+          "char_end": 787,
+          "turn_id": null
+        }
+      ],
+      "text": "supraventricular tachycardia",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 809,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 817,
+          "char_end": 853,
+          "turn_id": null
+        }
+      ],
+      "text": "nonsustained ventricular tachycardia",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 898,
+          "char_end": 922,
+          "turn_id": null
+        }
+      ],
+      "text": "ventricular fibrillation",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 967,
+          "turn_id": null
+        }
+      ],
+      "text": "DSE",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 985,
+          "turn_id": null
+        }
+      ],
+      "text": "arrhythmias",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1025,
+          "char_end": 1041,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium levels",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1117,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium abnormalities",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1133,
+          "char_end": 1145,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperkalemia",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1266,
+          "char_end": 1294,
+          "turn_id": null
+        }
+      ],
+      "text": "supraventricular arrhythmias",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1311,
+          "char_end": 1334,
+          "turn_id": null
+        }
+      ],
+      "text": "ventricular arrhythmias",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1417,
+          "char_end": 1428,
+          "turn_id": null
+        }
+      ],
+      "text": "hypokalemia",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1446,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium levels",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1518,
+          "char_end": 1536,
+          "turn_id": null
+        }
+      ],
+      "text": "ventricular ectopy",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1538,
+          "char_end": 1541,
+          "turn_id": null
+        }
+      ],
+      "text": "DSE",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1573,
+          "char_end": 1620,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormalities in blood potassium concentrations",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1590,
+          "char_end": 1620,
+          "turn_id": null
+        }
+      ],
+      "text": "blood potassium concentrations",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1651,
+          "turn_id": null
+        }
+      ],
+      "text": "DSE",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1669,
+          "char_end": 1692,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium abnormalities",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1720,
+          "char_end": 1745,
+          "turn_id": null
+        }
+      ],
+      "text": "Elevated potassium levels",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1729,
+          "char_end": 1745,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium levels",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1904,
+          "char_end": 1929,
+          "turn_id": null
+        }
+      ],
+      "text": "very low potassium levels",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1913,
+          "char_end": 1929,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium levels",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1959,
+          "char_end": 1962,
+          "turn_id": null
+        }
+      ],
+      "text": "DSE",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2059,
+          "char_end": 2070,
+          "turn_id": null
+        }
+      ],
+      "text": "hypokalemia",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2083,
+          "turn_id": null
+        }
+      ],
+      "text": "DSE",
+      "id": "e44"
+    }
+  ]
+}

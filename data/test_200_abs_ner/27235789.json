@@ -1,0 +1,512 @@
+{
+  "doc_id": "MEDMENTIONS:27235789",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Elective Nephron Sparing Surgery Decreases Other Cause Mortality Relative to Radical Nephrectomy Only in Specific Subgroups of Patients with Renal Cell Carcinoma There is no consensus regarding a protective effect on mortality due to a cause other than cancer in patients treated with elective nephron sparing surgery relative to their radical nephrectomy counterparts. We test whether the protective effect of nephron sparing surgery relative to radical nephrectomy is universal or present in specific subgroups of patients. A collaborative database of 5 institutions was queried to evaluate 1,783 patients without chronic kidney disease diagnosed with a clinical T1 renal mass that was treated with nephron sparing surgery or radical nephrectomy. Multivariable Cox regression analysis was done to assess the impact of surgery type (nephron sparing surgery vs radical nephrectomy) on other cause mortality after adjustment for patient and cancer characteristics. Interaction terms were used to test the hypothesis that the impact of surgery type varies according to specific subcohorts of patients. Ten-year other cause mortality -free survival rates were 90% and 88% after nephron sparing surgery and radical nephrectomy, respectively. In the overall population radical nephrectomy was not associated with an increased risk of other cause mortality on multivariable analysis compared to nephron sparing surgery (HR 0.91, 95% CI 0.6-1.38, p = 0.6). However, radical nephrectomy increased the risk of other cause mortality according to the increasing baseline Charlson comorbidity index (interaction test p = 0.0008). For example, in a patient with a Charlson comorbidity index of 4 the probability of 10-year other cause mortality -free survival was 86% after nephron sparing surgery and 60% after radical nephrectomy. Elective nephron sparing surgery does not improve other cause survival relative to radical nephrectomy consistently in all patients with kidney cancer. Patients who are more ill with relevant comorbidities are those who benefit the most from nephron sparing surgery in terms of other cause mortality.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 9,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Nephron Sparing Surgery",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 43,
+          "char_end": 64,
+          "turn_id": null
+        }
+      ],
+      "text": "Other Cause Mortality",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 77,
+          "char_end": 96,
+          "turn_id": null
+        }
+      ],
+      "text": "Radical Nephrectomy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 161,
+          "turn_id": null
+        }
+      ],
+      "text": "Renal Cell Carcinoma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 217,
+          "char_end": 226,
+          "turn_id": null
+        }
+      ],
+      "text": "mortality",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 253,
+          "char_end": 259,
+          "turn_id": null
+        }
+      ],
+      "text": "cancer",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 317,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 336,
+          "char_end": 355,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 434,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 466,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 638,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic kidney disease",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 678,
+          "turn_id": null
+        }
+      ],
+      "text": "renal mass",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 701,
+          "char_end": 724,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 747,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 834,
+          "char_end": 857,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 880,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 885,
+          "char_end": 906,
+          "turn_id": null
+        }
+      ],
+      "text": "other cause mortality",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 946,
+          "turn_id": null
+        }
+      ],
+      "text": "cancer",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1109,
+          "char_end": 1130,
+          "turn_id": null
+        }
+      ],
+      "text": "other cause mortality",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1198,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1203,
+          "char_end": 1222,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1264,
+          "char_end": 1283,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1329,
+          "char_end": 1350,
+          "turn_id": null
+        }
+      ],
+      "text": "other cause mortality",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1412,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1478,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1522,
+          "turn_id": null
+        }
+      ],
+      "text": "other cause mortality",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1560,
+          "char_end": 1586,
+          "turn_id": null
+        }
+      ],
+      "text": "Charlson comorbidity index",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1651,
+          "char_end": 1677,
+          "turn_id": null
+        }
+      ],
+      "text": "Charlson comorbidity index",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1710,
+          "char_end": 1731,
+          "turn_id": null
+        }
+      ],
+      "text": "other cause mortality",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1761,
+          "char_end": 1784,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1799,
+          "char_end": 1818,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1829,
+          "char_end": 1852,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1903,
+          "char_end": 1922,
+          "turn_id": null
+        }
+      ],
+      "text": "radical nephrectomy",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 1970,
+          "turn_id": null
+        }
+      ],
+      "text": "kidney cancer",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2062,
+          "char_end": 2085,
+          "turn_id": null
+        }
+      ],
+      "text": "nephron sparing surgery",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2098,
+          "char_end": 2119,
+          "turn_id": null
+        }
+      ],
+      "text": "other cause mortality",
+      "id": "e36"
+    }
+  ]
+}

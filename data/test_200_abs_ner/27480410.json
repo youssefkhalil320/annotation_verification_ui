@@ -1,0 +1,685 @@
+{
+  "doc_id": "MEDMENTIONS:27480410",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "A randomized trial of Plasma-Lyte A and 0.9 % sodium chloride in acute pediatric gastroenteritis Compare the efficacy and safety of Plasma-Lyte A (PLA) versus 0.9 % sodium chloride (NaCl) intravenous (IV) fluid replacement in children with moderate to severe dehydration secondary to acute gastroenteritis (AGE). Prospective, randomized, double-blind study conducted at eight pediatric emergency departments (EDs) in the US and Canada (NCT#01234883). The primary outcome measure was serum bicarbonate level at 4 h. Secondary outcomes included safety and tolerability. The hypothesis was that PLA would be superior to 0.9 % NaCl in improvement of 4-h bicarbonate. Patients (n = 100) aged ≥6 months to <11 years with AGE -induced moderate-to- severe dehydration were enrolled. Patients with a baseline bicarbonate level ≤22 mEq/L formed the modified intent to treat (mITT) group. At baseline, the treatment groups were comparable except that the PLA group was older. At hour 4, the PLA group had greater increases in serum bicarbonate from baseline than did the 0.9 % NaCl group (mean ± SD at 4 h: 18 ± 3.74 vs 18.0 ± 3.67; change from baseline of 1.6 and 0.0, respectively; P = .004). Both treatment groups received similar fluid volumes. The PLA group had less abdominal pain and better dehydration scores at hour 2 (both P = .03) but not at hour 4 (P = 0.15 and 0.08, respectively). No patient experienced clinically relevant worsening of laboratory findings or physical examination, and hospital admission rates were similar. One patient in each treatment group developed hyponatremia. Four patients developed hyperkalemia (PLA :1, 0.9 % NaCl :3). In comparison with 0.9 % NaCl, PLA for rehydration in children with AGE was well tolerated and led to more rapid improvement in serum bicarbonate and dehydration score. NCT#01234883 (Registration Date: November 3, 2010).",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "Plasma-Lyte A",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 45,
+          "turn_id": null
+        }
+      ],
+      "text": "0.9 %",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 61,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium chloride",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 96,
+          "turn_id": null
+        }
+      ],
+      "text": "gastroenteritis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 145,
+          "turn_id": null
+        }
+      ],
+      "text": "Plasma-Lyte A",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 150,
+          "turn_id": null
+        }
+      ],
+      "text": "PLA",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 164,
+          "turn_id": null
+        }
+      ],
+      "text": "0.9 %",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 180,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium chloride",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 186,
+          "turn_id": null
+        }
+      ],
+      "text": "NaCl",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 188,
+          "char_end": 199,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 222,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid replacement",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 270,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 305,
+          "turn_id": null
+        }
+      ],
+      "text": "gastroenteritis",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "AGE",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 506,
+          "turn_id": null
+        }
+      ],
+      "text": "serum bicarbonate level",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 595,
+          "turn_id": null
+        }
+      ],
+      "text": "PLA",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 617,
+          "char_end": 622,
+          "turn_id": null
+        }
+      ],
+      "text": "0.9 %",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 623,
+          "char_end": 627,
+          "turn_id": null
+        }
+      ],
+      "text": "NaCl",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 645,
+          "turn_id": null
+        },
+        {
+          "char_start": 650,
+          "char_end": 661,
+          "turn_id": null
+        }
+      ],
+      "text": "improvement of bicarbonate",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 661,
+          "turn_id": null
+        }
+      ],
+      "text": "bicarbonate",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 718,
+          "turn_id": null
+        }
+      ],
+      "text": "AGE",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 748,
+          "char_end": 759,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 800,
+          "char_end": 817,
+          "turn_id": null
+        }
+      ],
+      "text": "bicarbonate level",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 800,
+          "char_end": 827,
+          "turn_id": null
+        }
+      ],
+      "text": "bicarbonate level ≤22 mEq/L",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 944,
+          "char_end": 947,
+          "turn_id": null
+        }
+      ],
+      "text": "PLA",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 980,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "PLA",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1032,
+          "turn_id": null
+        }
+      ],
+      "text": "increases in serum bicarbonate",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1015,
+          "char_end": 1032,
+          "turn_id": null
+        }
+      ],
+      "text": "serum bicarbonate",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1060,
+          "char_end": 1065,
+          "turn_id": null
+        }
+      ],
+      "text": "0.9 %",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1070,
+          "turn_id": null
+        }
+      ],
+      "text": "NaCl",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1242,
+          "char_end": 1245,
+          "turn_id": null
+        }
+      ],
+      "text": "PLA",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1261,
+          "char_end": 1275,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1287,
+          "char_end": 1305,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration scores",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1427,
+          "char_end": 1459,
+          "turn_id": null
+        }
+      ],
+      "text": "worsening of laboratory findings",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1586,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1612,
+          "char_end": 1624,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperkalemia",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1626,
+          "char_end": 1629,
+          "turn_id": null
+        }
+      ],
+      "text": "PLA",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1634,
+          "char_end": 1639,
+          "turn_id": null
+        }
+      ],
+      "text": "0.9 %",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1640,
+          "char_end": 1644,
+          "turn_id": null
+        }
+      ],
+      "text": "NaCl",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1669,
+          "char_end": 1674,
+          "turn_id": null
+        }
+      ],
+      "text": "0.9 %",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1675,
+          "char_end": 1679,
+          "turn_id": null
+        }
+      ],
+      "text": "NaCl",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1681,
+          "char_end": 1684,
+          "turn_id": null
+        }
+      ],
+      "text": "PLA",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1689,
+          "char_end": 1700,
+          "turn_id": null
+        }
+      ],
+      "text": "rehydration",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1721,
+          "turn_id": null
+        }
+      ],
+      "text": "AGE",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1763,
+          "char_end": 1795,
+          "turn_id": null
+        }
+      ],
+      "text": "improvement in serum bicarbonate",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1778,
+          "char_end": 1795,
+          "turn_id": null
+        }
+      ],
+      "text": "serum bicarbonate",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1800,
+          "char_end": 1817,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration score",
+      "id": "e48"
+    }
+  ]
+}

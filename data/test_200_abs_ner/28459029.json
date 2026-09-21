@@ -1,0 +1,363 @@
+{
+  "doc_id": "MEDMENTIONS:28459029",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Association of Fat Mass and Obesity - associated Gene Variant with Lifestyle Factors and Body Fat in Indian Children Common intronic variants of the fat mass and obesity - associated (FTO) gene have been associated with obesity -related traits in humans. (1) The aim of this study is to study the distribution of FTO gene variants across different body mass index (BMI) categories and (2) to explore the association between FTO gene variants and lifestyle factors in obese and normal weight Indian children. Fifty-six children (26 boys, mean age 10.3 ± 2.2 years) were studied. Height, weight, and waist and hip circumference were measured. Physical activity (questionnaire) and food intake (food frequency questionnaire) were assessed. Body fat percentage (%BF) was measured by dual-energy X-ray absorptiometry. FTO allelic variants at rs9939609 site were detected by SYBR Green Amplification Refractory Mutation System real-time polymerase chain reaction using allele - specific primers. Generalized linear model was used to investigate the simultaneous influence of genetic and lifestyle factors on %BF. Mean height, weight, and BMI of normal and obese children were 130.6 ± 7.1 versus 143.2 ± 15.6, 24.0 ± 5.2 versus 53.1 ± 15.8, and 13.9 ± 2.1 versus 25.3 ± 3.2, respectively. The frequency of AA allele was 57% among obese children and 35% in normal weight children. Children with the AA allele who were obese had least physical activity, whereas children with AT allele and obesity had the highest intake of calories when compared to children who had AT allele and were normal. %BF was positively associated with AA alleles and junk food intake and negatively with healthy food intake and moderate physical activity. Healthy lifestyle with high physical activity and diet low in calories and fat may help in modifying the risk imposed by FTO variants in children.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 28,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "Obesity",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "obesity",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 227,
+          "turn_id": null
+        }
+      ],
+      "text": "obesity",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 348,
+          "char_end": 369,
+          "turn_id": null
+        }
+      ],
+      "text": "body mass index (BMI)",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 472,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 578,
+          "char_end": 584,
+          "turn_id": null
+        }
+      ],
+      "text": "Height",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 586,
+          "char_end": 592,
+          "turn_id": null
+        }
+      ],
+      "text": "weight",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 598,
+          "char_end": 603,
+          "turn_id": null
+        },
+        {
+          "char_start": 612,
+          "char_end": 625,
+          "turn_id": null
+        }
+      ],
+      "text": "waist circumference",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 608,
+          "char_end": 625,
+          "turn_id": null
+        }
+      ],
+      "text": "hip circumference",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 674,
+          "turn_id": null
+        }
+      ],
+      "text": "Physical activity (questionnaire)",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 720,
+          "turn_id": null
+        }
+      ],
+      "text": "food frequency questionnaire",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 737,
+          "char_end": 762,
+          "turn_id": null
+        }
+      ],
+      "text": "Body fat percentage (%BF)",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 779,
+          "char_end": 811,
+          "turn_id": null
+        }
+      ],
+      "text": "dual-energy X-ray absorptiometry",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 921,
+          "char_end": 956,
+          "turn_id": null
+        }
+      ],
+      "text": "real-time polymerase chain reaction",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1105,
+          "turn_id": null
+        }
+      ],
+      "text": "%BF",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1112,
+          "char_end": 1118,
+          "turn_id": null
+        }
+      ],
+      "text": "height",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1126,
+          "turn_id": null
+        }
+      ],
+      "text": "weight",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "BMI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1155,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1323,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1415,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1481,
+          "char_end": 1488,
+          "turn_id": null
+        }
+      ],
+      "text": "obesity",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1505,
+          "char_end": 1523,
+          "turn_id": null
+        }
+      ],
+      "text": "intake of calories",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1585,
+          "char_end": 1588,
+          "turn_id": null
+        }
+      ],
+      "text": "%BF",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1635,
+          "char_end": 1651,
+          "turn_id": null
+        }
+      ],
+      "text": "junk food intake",
+      "id": "e25"
+    }
+  ]
+}

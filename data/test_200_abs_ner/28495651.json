@@ -1,0 +1,470 @@
+{
+  "doc_id": "MEDMENTIONS:28495651",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Percentile categorization of QT interval as an approach for identifying adult patients at risk for cardiovascular death The results from studies of the association of QT prolongation with cardiovascular death (CVD) have been inconsistent. The purpose of this study was to compare the major correction formulas to percentile values of QT for heart rate ranges as to their ability to remove the relationship of QT to heart rate and to predict CVD. Participants were 16,531 veterans who had an initial ECG at the Veterans Affairs Medical Center, Palo Alto, between March 31, 1987, and December 20, 1999, and were followed for CVD. The 4 major correction formulas (Bazett, Fridericia, Framingham, and Hodges) were used to correct QT interval. In addition, the percentiles for heart rate ranges as proposed by Schwartz were calculated. During median follow-up of 17.8 years, 455 CVD events occurred. When compared to the other equations, QTc Bazett had the greatest dependence on heart rate (R(2) = 0.18). The hazard ratio (95% confidence interval) for CVD was 2.08 (1.28-3.9) for the 98th percentile of QT interval by heart rate ranges, 2.05 (1.27-3.33) for QTc Bazett, 1.39 (0.44-4.34) for QTc Fridericia, 1.05 (0.26-4.24) for QTc Hodges, and 1.12 (0.28-4.52) for QTc Framingham. The hazard ratio of QTc Bazett was significantly higher than the other formulas except for the 98th percentile method. The Framingham, Hodges, and Fridericia equations remove the effect of heart rate on QT interval significantly better than the Bazett equation. Using QT-interval percentiles based on heart rate provides a consistent approach both for identifying those whose QT intervals prolong due to drugs or other stressors and for assessing CVD risk.",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 29,
+          "char_end": 40,
+          "turn_id": null
+        }
+      ],
+      "text": "QT interval",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiovascular death",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "QT",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "QT prolongation",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 188,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiovascular death",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 213,
+          "turn_id": null
+        }
+      ],
+      "text": "CVD",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 334,
+          "char_end": 336,
+          "turn_id": null
+        }
+      ],
+      "text": "QT",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 351,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 411,
+          "turn_id": null
+        }
+      ],
+      "text": "QT",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 425,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 441,
+          "char_end": 444,
+          "turn_id": null
+        }
+      ],
+      "text": "CVD",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 499,
+          "char_end": 502,
+          "turn_id": null
+        }
+      ],
+      "text": "ECG",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 623,
+          "char_end": 626,
+          "turn_id": null
+        }
+      ],
+      "text": "CVD",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 726,
+          "char_end": 737,
+          "turn_id": null
+        }
+      ],
+      "text": "QT interval",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 772,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 874,
+          "char_end": 877,
+          "turn_id": null
+        }
+      ],
+      "text": "CVD",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 943,
+          "turn_id": null
+        }
+      ],
+      "text": "QTc Bazett",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 985,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1048,
+          "char_end": 1051,
+          "turn_id": null
+        }
+      ],
+      "text": "CVD",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1099,
+          "char_end": 1110,
+          "turn_id": null
+        }
+      ],
+      "text": "QT interval",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1114,
+          "char_end": 1124,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1154,
+          "char_end": 1164,
+          "turn_id": null
+        }
+      ],
+      "text": "QTc Bazett",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1187,
+          "char_end": 1201,
+          "turn_id": null
+        }
+      ],
+      "text": "QTc Fridericia",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1224,
+          "char_end": 1234,
+          "turn_id": null
+        }
+      ],
+      "text": "QTc Hodges",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1261,
+          "char_end": 1275,
+          "turn_id": null
+        }
+      ],
+      "text": "QTc Framingham",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1297,
+          "char_end": 1307,
+          "turn_id": null
+        }
+      ],
+      "text": "QTc Bazett",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1466,
+          "char_end": 1476,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1480,
+          "char_end": 1491,
+          "turn_id": null
+        }
+      ],
+      "text": "QT interval",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1545,
+          "char_end": 1556,
+          "turn_id": null
+        }
+      ],
+      "text": "QT-interval",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1578,
+          "char_end": 1588,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1665,
+          "turn_id": null
+        }
+      ],
+      "text": "QT intervals",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1673,
+          "turn_id": null
+        }
+      ],
+      "text": "QT intervals prolong",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1724,
+          "char_end": 1727,
+          "turn_id": null
+        }
+      ],
+      "text": "CVD",
+      "id": "e33"
+    }
+  ]
+}

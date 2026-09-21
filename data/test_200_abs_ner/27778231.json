@@ -1,0 +1,358 @@
+{
+  "doc_id": "MEDMENTIONS:27778231",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Identification of potential predictive markers of dexamethasone resistance in childhood acute lymphoblastic leukemia Response to dexamethasone (DEXA), as a hallmark drug in the treatment of childhood acute lymphoblastic leukemia (ALL), is one of the pivotal prognostic factors in the prediction of outcome in ALL. Identification of predictive markers of chemoresistance is beneficial to selecting of the best therapeutic protocol with the lowest effect adverse. Hence, we aimed to find drug targets using the 2DE / MS proteomics study of a DEXA - resistant cell line (REH) as a model for poor DEXA responding patients before and after drug treatment. Using the proteomic methods, three differentially expressed proteins were detected, including voltage dependent anion channel 1 (VDAC1), sorting Nexin 3 (SNX3), and prefoldin subunit 6 (PFDN6). We observed low expression of three proteins after DEXA treatment in REH cells. We subsequently verified low expression of resulted proteins at the mRNA level using the quantitative PCR method. These proteins are promising proteins because of their important roles in drug resistance and regulation of apoptosis (VDAC1), protein trafficking (SNX3), and protein folding (PFDN6). Additionally, mRNA expression level of these proteins was assessed in 17 bone marrow samples from children with newly diagnosed ALL and 7 non-cancerous samples as controls. The results indicated that independent of the molecular subtypes of leukemia, mRNA expression of VDAC1, SNX3, and PFDN6 decreased in ALL samples compared with non-cancerous samples particularly in VDAC1 (p < 0.001). Additionally, mRNA expression of three proteins was also declined in high-risk samples compared with standard risk cases. These results demonstrated diagnostic and prognostic value of these proteins in childhood ALL. Furthermore, investigation of protein-protein interaction using STRING database indicated that these proteins involved in the signaling pathway of NR3C1 as dexamethasone target. In conclusion, our proteomic study in DEXA resistant leukemic cells revealed VDAC1, SNX3, and PFDN6 are promising proteins that might serve as potential biomarkers of prognosis and chemotherapy in childhood ALL.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 63,
+          "turn_id": null
+        }
+      ],
+      "text": "dexamethasone",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "dexamethasone resistance",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 116,
+          "turn_id": null
+        }
+      ],
+      "text": "childhood acute lymphoblastic leukemia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 129,
+          "char_end": 142,
+          "turn_id": null
+        }
+      ],
+      "text": "dexamethasone",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "DEXA",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 156,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "hallmark drug",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 228,
+          "turn_id": null
+        }
+      ],
+      "text": "childhood acute lymphoblastic leukemia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 233,
+          "turn_id": null
+        }
+      ],
+      "text": "ALL",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 312,
+          "turn_id": null
+        }
+      ],
+      "text": "ALL",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 354,
+          "char_end": 369,
+          "turn_id": null
+        }
+      ],
+      "text": "chemoresistance",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 534,
+          "turn_id": null
+        }
+      ],
+      "text": "2DE / MS proteomics study",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 544,
+          "turn_id": null
+        }
+      ],
+      "text": "DEXA",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 597,
+          "turn_id": null
+        }
+      ],
+      "text": "DEXA",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 678,
+          "turn_id": null
+        }
+      ],
+      "text": "proteomic methods",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 896,
+          "char_end": 900,
+          "turn_id": null
+        }
+      ],
+      "text": "DEXA",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1014,
+          "char_end": 1037,
+          "turn_id": null
+        }
+      ],
+      "text": "quantitative PCR method",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1113,
+          "char_end": 1128,
+          "turn_id": null
+        }
+      ],
+      "text": "drug resistance",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1351,
+          "char_end": 1354,
+          "turn_id": null
+        }
+      ],
+      "text": "ALL",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1464,
+          "char_end": 1472,
+          "turn_id": null
+        }
+      ],
+      "text": "leukemia",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1529,
+          "char_end": 1532,
+          "turn_id": null
+        }
+      ],
+      "text": "ALL",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1814,
+          "char_end": 1827,
+          "turn_id": null
+        }
+      ],
+      "text": "childhood ALL",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1985,
+          "char_end": 1998,
+          "turn_id": null
+        }
+      ],
+      "text": "dexamethasone",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2026,
+          "char_end": 2041,
+          "turn_id": null
+        }
+      ],
+      "text": "proteomic study",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2045,
+          "char_end": 2049,
+          "turn_id": null
+        }
+      ],
+      "text": "DEXA",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2188,
+          "char_end": 2200,
+          "turn_id": null
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e25"
+    }
+  ]
+}

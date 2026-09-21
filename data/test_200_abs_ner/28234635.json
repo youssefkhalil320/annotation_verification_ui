@@ -1,0 +1,512 @@
+{
+  "doc_id": "MEDMENTIONS:28234635",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Liver Inflammation Relates to Decreased Canalicular Bile Transporter Expression in Pediatric Onset Intestinal Failure Although liver disease is a major complication of parenteral nutrition (PN) for intestinal failure (IF), its pathogenesis remains unclear. We investigated potential molecular mechanisms of liver injury in pediatric onset IF. Liver expression of canalicular phospholipid (ABCB4), bile acid (ABCB11), and sterol (ABCG5/8) transporters, their upstream regulators LXR and FXR as well as pro-inflammatory cytokines interleukin-6 (IL6) and tumor necrosis factor (TNF) were investigated among patients with IF [age median 3.8 (IQR 1.2 to 11)] in relation to biochemical and histologic liver injury, PN, serum plant sterols, fibroblast growth factor 19, and α-tocopherol. Patients receiving PN currently (n = 18) showed more advanced liver injury than patients after weaning off PN (n = 30). Histologic portal inflammation strongly segregated PN - dependent (44%) from weaned off patients (3%, P = 0.001) and coupled with progression of cholestasis and liver fibrosis. Patients with portal inflammation demonstrated markedly induced liver RNA expression of IL6 and TNF, repression of FXR and its canalicular bile transporter target gene RNA expression, including ABCB4 and ABCB11 as well as decreased protein expression of ABCB11 and ABCB4. Furthermore, upregulation of LXR and ABCG5/8 RNA expression was suppressed in patients with portal inflammation. Current PN, increased serum levels of plant sterols stigmasterol, avenasterol, and sitosterol along with serum citrulline, a marker of enterocyte mass, predicted portal inflammation. In pediatric onset IF, current PN delivery synergistically with intestinal compromise promote liver inflammation, which associates with progression of biochemical and histologic liver injury, while reducing expression of canalicular bile transporters.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Liver Inflammation",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 117,
+          "turn_id": null
+        }
+      ],
+      "text": "Pediatric Onset Intestinal Failure",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 140,
+          "turn_id": null
+        }
+      ],
+      "text": "liver disease",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "parenteral nutrition",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 192,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 198,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "intestinal failure",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 220,
+          "turn_id": null
+        }
+      ],
+      "text": "IF",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 319,
+          "turn_id": null
+        }
+      ],
+      "text": "liver injury",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 341,
+          "turn_id": null
+        }
+      ],
+      "text": "pediatric onset IF",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 618,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "IF",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 696,
+          "char_end": 708,
+          "turn_id": null
+        }
+      ],
+      "text": "liver injury",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 712,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 714,
+          "char_end": 733,
+          "turn_id": null
+        }
+      ],
+      "text": "serum plant sterols",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 780,
+          "turn_id": null
+        }
+      ],
+      "text": "α-tocopherol",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 801,
+          "char_end": 803,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 844,
+          "char_end": 856,
+          "turn_id": null
+        }
+      ],
+      "text": "liver injury",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 891,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 932,
+          "turn_id": null
+        }
+      ],
+      "text": "portal inflammation",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 953,
+          "char_end": 955,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1047,
+          "char_end": 1058,
+          "turn_id": null
+        }
+      ],
+      "text": "cholestasis",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1063,
+          "char_end": 1077,
+          "turn_id": null
+        }
+      ],
+      "text": "liver fibrosis",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1093,
+          "char_end": 1112,
+          "turn_id": null
+        }
+      ],
+      "text": "portal inflammation",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1443,
+          "char_end": 1462,
+          "turn_id": null
+        }
+      ],
+      "text": "portal inflammation",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1472,
+          "char_end": 1474,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1476,
+          "char_end": 1515,
+          "turn_id": null
+        }
+      ],
+      "text": "increased serum levels of plant sterols",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1486,
+          "char_end": 1515,
+          "turn_id": null
+        }
+      ],
+      "text": "serum levels of plant sterols",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1516,
+          "char_end": 1528,
+          "turn_id": null
+        }
+      ],
+      "text": "stigmasterol",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1530,
+          "char_end": 1541,
+          "turn_id": null
+        }
+      ],
+      "text": "avenasterol",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1547,
+          "char_end": 1557,
+          "turn_id": null
+        }
+      ],
+      "text": "sitosterol",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1569,
+          "char_end": 1585,
+          "turn_id": null
+        }
+      ],
+      "text": "serum citrulline",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1626,
+          "char_end": 1645,
+          "turn_id": null
+        }
+      ],
+      "text": "portal inflammation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1668,
+          "turn_id": null
+        }
+      ],
+      "text": "pediatric onset IF",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1678,
+          "char_end": 1680,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1732,
+          "turn_id": null
+        }
+      ],
+      "text": "intestinal compromise",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1741,
+          "char_end": 1759,
+          "turn_id": null
+        }
+      ],
+      "text": "liver inflammation",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1825,
+          "char_end": 1837,
+          "turn_id": null
+        }
+      ],
+      "text": "liver injury",
+      "id": "e36"
+    }
+  ]
+}

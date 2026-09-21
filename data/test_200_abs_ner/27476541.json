@@ -1,0 +1,288 @@
+{
+  "doc_id": "MEDMENTIONS:27476541",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Studying neuroprotective effect of Atorvastatin as a small molecule drug on high glucose - induced neurotoxicity in undifferentiated PC12 cells: role of NADPH oxidase Overproduction of reactive oxygen species (ROS) by NADPH oxidase (NOX) activation has been considered the essential mechanism induced by hyperglycemia in various tissues. However, there is no comprehensive study on the role of NOXs in high glucose (HG)- induced toxic effect in neural tissues. Recently, a therapeutic strategy in oxidative related pathologies has been introduced by blocking the undesirable actions of NOX enzymes by small molecules. The protective roles of Statins in ameliorating oxidative stress by NOX inhibition have been shown in some tissues except neural. We hypothesized then, that different NOXs may have role in HG - induced neural cell injury. Furthermore, we postulate that Atorvastatin as a small molecule may modulate this NOXs activity to protect neural cells. Undifferentiated PC12 cells were treated with HG (140 mM/ 24 h) in the presence and absence of Atorvastatin (1 μM/ 96 h). The cell viability was measured by MTT assay and the gene and protein expressions profile of NOX (1-4) were determined by RT-PCR and western blotting, respectively. Levels of ROS and malondialdehyde (MDA) were also evaluated. Gene and protein expression levels of NOX (1-4) and consequently ROS and MDA levels were elevated in HG - treated PC12 cells. Atorvastatin could significantly decrease HG - induced NOXs, ROS and MDA elevation and improve impaired cell viability. It can be concluded that HG could elevate NOXs activity, ROS and MDA levels in neural tissues and Atorvastatin as a small molecule NOX inhibitor drug may prevent and delay diabetic complications, particularly neuropathy.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 112,
+          "turn_id": null
+        }
+      ],
+      "text": "neurotoxicity",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 304,
+          "char_end": 317,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperglycemia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 459,
+          "turn_id": null
+        }
+      ],
+      "text": "toxic effect in neural tissues",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 649,
+          "turn_id": null
+        }
+      ],
+      "text": "Statins",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 682,
+          "turn_id": null
+        }
+      ],
+      "text": "oxidative stress",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 820,
+          "char_end": 838,
+          "turn_id": null
+        }
+      ],
+      "text": "neural cell injury",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 883,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1068,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1070,
+          "char_end": 1074,
+          "turn_id": null
+        }
+      ],
+      "text": "1 μM",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1076,
+          "char_end": 1080,
+          "turn_id": null
+        }
+      ],
+      "text": "96 h",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1118,
+          "char_end": 1127,
+          "turn_id": null
+        }
+      ],
+      "text": "MTT assay",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1205,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "RT-PCR",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1216,
+          "char_end": 1232,
+          "turn_id": null
+        }
+      ],
+      "text": "western blotting",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1435,
+          "char_end": 1447,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1530,
+          "char_end": 1553,
+          "turn_id": null
+        }
+      ],
+      "text": "impaired cell viability",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1665,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1686,
+          "char_end": 1699,
+          "turn_id": null
+        }
+      ],
+      "text": "NOX inhibitor",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1727,
+          "char_end": 1749,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetic complications",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1764,
+          "char_end": 1774,
+          "turn_id": null
+        }
+      ],
+      "text": "neuropathy",
+      "id": "e20"
+    }
+  ]
+}

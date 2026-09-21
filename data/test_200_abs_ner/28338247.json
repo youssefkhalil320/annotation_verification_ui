@@ -1,0 +1,302 @@
+{
+  "doc_id": "MEDMENTIONS:28338247",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Impact of diabetic ketoacidosis management in the medical intensive care unit after order set implementation To determine the rate of compliance to the 2006 and 2009 ADA DKA guidelines in the medical intensive care unit (MICU) at a large academic medical centre after the implementation of a computerised DKA order set and protocol. Retrospective chart review of adult patients with DKA admitted to the MICU. Results of pre-order set (PRE) were compared to those of data post-order set (POST). The primary outcome was a composite administration of intravenous fluid resuscitation in the first 24 h, insulin bolus and initial insulin infusion rate. Twelve of 60 patients (20%) in the PRE group received treatment compliant with the 2006 guidelines versus 14 of 55 patients (25.5%) in the POST group (OR 1.22 95% CI 0.44 to 3.4, P = 0.51). Compliance to the 2009 guidelines was significantly higher in the POST group (31.7% versus 65.5%, OR 4.44 95% CI 1.8 to 10.92, P = 0.0004). Compliance for individual components was 26.7% versus 70.9% for fluid resuscitation (P = 0.0001), 55% versus 49.1% for insulin bolus (P = 0.58) and 60% versus 81.3% for initial insulin infusion rate (P = 0.014), respectively. Time to DKA resolution was decreased (P = 0.04), and hypoglycaemia was increased (P = 0.0022). Implementation of a computerised DKA order set and protocol was associated with improved compliance to the 2009 ADA DKA guidelines, 24-h fluid resuscitation, initial insulin infusion rate, time to DKA resolution and appropriate transition to subcutaneous insulin. However, patients in the POST implementation group were more likely to exhibit hypoglycaemia. Future assessment is warranted.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetic ketoacidosis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 173,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 305,
+          "char_end": 308,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 386,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 548,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 548,
+          "char_end": 579,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous fluid resuscitation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 599,
+          "char_end": 606,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 625,
+          "char_end": 632,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1042,
+          "char_end": 1061,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid resuscitation",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1155,
+          "char_end": 1162,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1212,
+          "char_end": 1215,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1257,
+          "char_end": 1270,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoglycaemia",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1332,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1415,
+          "char_end": 1418,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1436,
+          "char_end": 1455,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid resuscitation",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1465,
+          "char_end": 1472,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1496,
+          "char_end": 1499,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1541,
+          "char_end": 1553,
+          "turn_id": null
+        }
+      ],
+      "text": "subcutaneous",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1554,
+          "char_end": 1561,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1642,
+          "char_end": 1655,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoglycaemia",
+      "id": "e21"
+    }
+  ]
+}

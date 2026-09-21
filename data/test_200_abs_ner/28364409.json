@@ -1,0 +1,302 @@
+{
+  "doc_id": "MEDMENTIONS:28364409",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Metabolomics analysis of anaphylactoid reaction reveals its mechanism in a rat model Anaphylactoid reactions, accounting for more than 77% of all immune-mediated immediate hypersensitivity reactions, have become a serious threat to public health, but their effect mechanism is not clear and diagnostic tests are limited. Comprehensive metabolite analysis may reveal the anaphylactoid effect mechanism systematically and provide reference for future diagnostic purposes. Plasma from Brown Norway rats given intravenous injection of saline, compound 48/80 (2.5 mL/kg) or ovalbumin (20 mL/kg) in 20 s for the first time was used to study the effect mechanism of anaphylactoid reactions through metabolomics (UPLC-qTOF-MS/MS). Metabolomics integrated with proteomics data were used to analyze the anaphylactoid pathways by MetaboAnalyst followed by integrated pathway analysis. Thirty metabolites were identified through the METLIN database by MS/MS and 18 of them were confirmed by authentic standards. The results showed that adenosine, histamine, N-acetylhistamine, N(α)-γ-glutamylhistamine, malate and xanthine are important indices for anaphylactoid reactions. It could be concluded that the effect mechanism is mainly composed of histidine metabolism, arachidonic acid metabolism, energy metabolism, purine metabolism and other small molecules through 30 metabolites. Multiple linear regression analysis indicated that not only histamine but also N(α)-γ-glutamylhistamine and arachidonic acid could be used to evaluate anaphylactoid symptoms of animals. Furthermore, the citrate cycle, histidine metabolism and arachidonic acid metabolism could be the main pathways of anaphylactoid reactions as determined by MetaboAnalyst. The results may provide a reference to improve diagnostic accuracy and predict and monitor treatment efficacy in anaphylactoid reactions in the clinical setting.",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 12,
+          "turn_id": null
+        }
+      ],
+      "text": "Metabolomics",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactoid reaction",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "Anaphylactoid reactions",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 198,
+          "turn_id": null
+        }
+      ],
+      "text": "immune-mediated immediate hypersensitivity reactions",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "metabolite analysis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 517,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 527,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 537,
+          "turn_id": null
+        }
+      ],
+      "text": "saline",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 539,
+          "char_end": 553,
+          "turn_id": null
+        }
+      ],
+      "text": "compound 48/80",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 564,
+          "turn_id": null
+        }
+      ],
+      "text": "2.5 mL/kg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 588,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mL/kg",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 659,
+          "char_end": 682,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactoid reactions",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 691,
+          "char_end": 703,
+          "turn_id": null
+        }
+      ],
+      "text": "metabolomics",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 705,
+          "char_end": 720,
+          "turn_id": null
+        }
+      ],
+      "text": "UPLC-qTOF-MS/MS",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 735,
+          "turn_id": null
+        }
+      ],
+      "text": "Metabolomics",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 752,
+          "char_end": 762,
+          "turn_id": null
+        }
+      ],
+      "text": "proteomics",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 945,
+          "turn_id": null
+        }
+      ],
+      "text": "MS/MS",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1137,
+          "char_end": 1160,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactoid reactions",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1521,
+          "char_end": 1543,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactoid symptoms",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1671,
+          "char_end": 1694,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactoid reactions",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1840,
+          "char_end": 1863,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactoid reactions",
+      "id": "e21"
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "doc_id": "MEDMENTIONS:27798219",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Impact of antibiotic de-escalation on clinical outcomes in community-acquired pneumococcal pneumonia Although antibiotic de-escalation is regarded as a measure that reduces selection pressure, adverse drug effects and costs, evidence supporting this practice in community-acquired pneumococcal pneumonia (CAPP) is lacking. We carried out a retrospective analysis of prospectively collected data of a cohort of hospitalized adults with CAPP. Pneumococcal aetiology was established in patients with one or more positive cultures for Streptococcus pneumoniae obtained from blood, sterile fluids or sputum, and/or a positive urinary antigen test. De-escalation therapy was considered when the initial antibiotic therapy was narrowed to penicillin, amoxicillin or amoxicillin/clavulanate within the first 72 h after admission. The primary outcomes were 30 day mortality and length of hospital stay (LOS). Adjustment for confounders was performed with multivariate and propensity score analyses. Of 1410 episodes of CAPP, antibiotic de-escalation within the first 72 h after admission was performed in 166 cases. After adjustment, antibiotic de-escalation was not associated with a higher risk of mortality (OR = 0.83, 95% CI = 0.24-2.81), but it was found to be a protective factor for prolonged LOS (above the median) (OR = 0.46, 95% CI = 0.30-0.70). Similar results were found in patients classified into high-risk pneumonia severity index classes (IV-V), those with clinical instability and those with bacteraemia. No significant differences were documented in adverse drug reactions or readmission (<30 days). Antibiotic de-escalation seems to be safe and effective in reducing the duration of LOS, and did not adversely affect outcomes of patients with CAPP, even those with bacteraemia and severe disease, and those who were clinically unstable.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 20,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic de-escalation",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 100,
+          "turn_id": null
+        }
+      ],
+      "text": "community-acquired pneumococcal pneumonia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 120,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 134,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic de-escalation",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 213,
+          "turn_id": null
+        }
+      ],
+      "text": "adverse drug effects",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 262,
+          "char_end": 303,
+          "turn_id": null
+        }
+      ],
+      "text": "community-acquired pneumococcal pneumonia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 305,
+          "char_end": 309,
+          "turn_id": null
+        }
+      ],
+      "text": "CAPP",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 439,
+          "turn_id": null
+        }
+      ],
+      "text": "CAPP",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 526,
+          "turn_id": null
+        }
+      ],
+      "text": "positive cultures",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 526,
+          "turn_id": null
+        }
+      ],
+      "text": "cultures",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 612,
+          "char_end": 641,
+          "turn_id": null
+        }
+      ],
+      "text": "positive urinary antigen test",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 621,
+          "char_end": 641,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary antigen test",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "De-escalation",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 697,
+          "char_end": 707,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 742,
+          "turn_id": null
+        }
+      ],
+      "text": "penicillin",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 755,
+          "turn_id": null
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 759,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "amoxicillin/clavulanate",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 855,
+          "char_end": 864,
+          "turn_id": null
+        }
+      ],
+      "text": "mortality",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1010,
+          "char_end": 1014,
+          "turn_id": null
+        }
+      ],
+      "text": "CAPP",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1016,
+          "char_end": 1026,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1016,
+          "char_end": 1040,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic de-escalation",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1149,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic de-escalation",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1191,
+          "char_end": 1200,
+          "turn_id": null
+        }
+      ],
+      "text": "mortality",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1412,
+          "char_end": 1436,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia severity index",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1464,
+          "char_end": 1484,
+          "turn_id": null
+        }
+      ],
+      "text": "clinical instability",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1500,
+          "char_end": 1511,
+          "turn_id": null
+        }
+      ],
+      "text": "bacteraemia",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1559,
+          "char_end": 1581,
+          "turn_id": null
+        }
+      ],
+      "text": "adverse drug reactions",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1619,
+          "turn_id": null
+        }
+      ],
+      "text": "Antibiotic",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1633,
+          "turn_id": null
+        }
+      ],
+      "text": "Antibiotic de-escalation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1753,
+          "char_end": 1757,
+          "turn_id": null
+        }
+      ],
+      "text": "CAPP",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1786,
+          "turn_id": null
+        }
+      ],
+      "text": "bacteraemia",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1826,
+          "char_end": 1845,
+          "turn_id": null
+        }
+      ],
+      "text": "clinically unstable",
+      "id": "e34"
+    }
+  ]
+}

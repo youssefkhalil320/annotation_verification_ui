@@ -1,0 +1,793 @@
+{
+  "doc_id": "MEDMENTIONS:27871510",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Anticholinergic premedication to prevent bradycardia in combined spinal anesthesia and dexmedetomidine sedation: a randomized, double-blind, placebo-controlled study When dexmedetomidine is used in patients undergoing spinal anesthesia, high incidence of bradycardia in response to parasympathetic activation is reported. Therefore, we aimed to evaluate the effectiveness of atropine premedication for preventing the incidence of bradycardia and the hemodynamic effect on patients undergoing spinal anesthesia with sedation by dexmedetomidine. Randomized, double-blind, placebo-controlled study. Operating room. One hundred fourteen patients (age range, 2-65 years; American Society of Anesthesiology class I-II) participated in this study, willing to be sedated and to undergo spinal anesthesia. The patients were divided into 2 groups: group A and group C. After performing spinal anesthesia, dexmedetomidine was infused at a loading dose of 0.6 μg/kg for 10 minutes, followed by an infusion at 0.25 μg/(kg h). Simultaneously with the loading dose of dexmedetomidine, patients in group A received an intravenous bolus of 0.5 mg atropine, whereas patients in group C received an intravenous normal saline bolus. Data on administration of atropine and ephedrine were collected. Hemodynamic data including heart rate, systolic blood pressure, diastolic blood pressure (DBP), and mean blood pressure (MBP) were also recorded. The incidence of bradycardia requiring atropine treatment was significantly higher in group C than group A (P=.035). However, the incidence of hypotension needing ephedrine treatment showed no significant difference between the 2 groups (P=.7). Systolic blood pressure and heart rate showed no significant differences between the 2 groups (P=.138 and .464, respectively). However, group A showed significant increases in DBP and MBP, and group C did not (P=.014 and .008, respectively). Prophylactic atropine reduces the incidence of bradycardia in patients undergoing spinal anesthesia with dexmedetomidine sedation. However, DBP and MBP showed significant increases in patients when prophylactic atropine was administrated. Therefore, atropine premedication should be administered cautiously.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 15,
+          "turn_id": null
+        }
+      ],
+      "text": "Anticholinergic",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardia",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 65,
+          "char_end": 82,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal anesthesia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 87,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "dexmedetomidine",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 111,
+          "turn_id": null
+        }
+      ],
+      "text": "sedation",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 186,
+          "turn_id": null
+        }
+      ],
+      "text": "dexmedetomidine",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 235,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal anesthesia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 266,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardia",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 375,
+          "char_end": 383,
+          "turn_id": null
+        }
+      ],
+      "text": "atropine",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 441,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardia",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 509,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal anesthesia",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 523,
+          "turn_id": null
+        }
+      ],
+      "text": "sedation",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 527,
+          "char_end": 542,
+          "turn_id": null
+        }
+      ],
+      "text": "dexmedetomidine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 755,
+          "char_end": 762,
+          "turn_id": null
+        }
+      ],
+      "text": "sedated",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 795,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal anesthesia",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 876,
+          "char_end": 893,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal anesthesia",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 895,
+          "char_end": 910,
+          "turn_id": null
+        }
+      ],
+      "text": "dexmedetomidine",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 944,
+          "char_end": 953,
+          "turn_id": null
+        }
+      ],
+      "text": "0.6 μg/kg",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 954,
+          "char_end": 968,
+          "turn_id": null
+        }
+      ],
+      "text": "for 10 minutes",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1011,
+          "turn_id": null
+        }
+      ],
+      "text": "0.25 μg/(kg h)",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1053,
+          "char_end": 1068,
+          "turn_id": null
+        }
+      ],
+      "text": "dexmedetomidine",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1113,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1123,
+          "char_end": 1129,
+          "turn_id": null
+        }
+      ],
+      "text": "0.5 mg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1130,
+          "char_end": 1138,
+          "turn_id": null
+        }
+      ],
+      "text": "atropine",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1180,
+          "char_end": 1191,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1192,
+          "char_end": 1205,
+          "turn_id": null
+        }
+      ],
+      "text": "normal saline",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1239,
+          "char_end": 1247,
+          "turn_id": null
+        }
+      ],
+      "text": "atropine",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1252,
+          "char_end": 1261,
+          "turn_id": null
+        }
+      ],
+      "text": "ephedrine",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1315,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1317,
+          "char_end": 1340,
+          "turn_id": null
+        }
+      ],
+      "text": "systolic blood pressure",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1366,
+          "turn_id": null
+        }
+      ],
+      "text": "diastolic blood pressure",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1368,
+          "char_end": 1371,
+          "turn_id": null
+        }
+      ],
+      "text": "DBP",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1378,
+          "char_end": 1397,
+          "turn_id": null
+        }
+      ],
+      "text": "mean blood pressure",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1399,
+          "char_end": 1402,
+          "turn_id": null
+        }
+      ],
+      "text": "MBP",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1452,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardia",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1463,
+          "char_end": 1471,
+          "turn_id": null
+        }
+      ],
+      "text": "atropine",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1567,
+          "char_end": 1578,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1587,
+          "char_end": 1596,
+          "turn_id": null
+        }
+      ],
+      "text": "ephedrine",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1669,
+          "char_end": 1692,
+          "turn_id": null
+        }
+      ],
+      "text": "Systolic blood pressure",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1697,
+          "char_end": 1707,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1832,
+          "char_end": 1841,
+          "turn_id": null
+        },
+        {
+          "char_start": 1853,
+          "char_end": 1856,
+          "turn_id": null
+        }
+      ],
+      "text": "increases MBP",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1832,
+          "char_end": 1848,
+          "turn_id": null
+        }
+      ],
+      "text": "increases in DBP",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1845,
+          "char_end": 1848,
+          "turn_id": null
+        }
+      ],
+      "text": "DBP",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1853,
+          "char_end": 1856,
+          "turn_id": null
+        }
+      ],
+      "text": "MBP",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1924,
+          "char_end": 1932,
+          "turn_id": null
+        }
+      ],
+      "text": "atropine",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1958,
+          "char_end": 1969,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardia",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1993,
+          "char_end": 2010,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal anesthesia",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2016,
+          "char_end": 2031,
+          "turn_id": null
+        }
+      ],
+      "text": "dexmedetomidine",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2032,
+          "char_end": 2040,
+          "turn_id": null
+        }
+      ],
+      "text": "sedation",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2054,
+          "turn_id": null
+        },
+        {
+          "char_start": 2082,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "DBP increases",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2054,
+          "turn_id": null
+        }
+      ],
+      "text": "DBP",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2059,
+          "char_end": 2062,
+          "turn_id": null
+        },
+        {
+          "char_start": 2082,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "MBP increases",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2059,
+          "char_end": 2062,
+          "turn_id": null
+        }
+      ],
+      "text": "MBP",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2122,
+          "char_end": 2130,
+          "turn_id": null
+        }
+      ],
+      "text": "atropine",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2161,
+          "char_end": 2169,
+          "turn_id": null
+        }
+      ],
+      "text": "atropine",
+      "id": "e55"
+    }
+  ]
+}

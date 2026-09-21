@@ -1,0 +1,554 @@
+{
+  "doc_id": "MEDMENTIONS:27261587",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Combination of telmisartan with sildenafil ameliorate progression of diabetic nephropathy in streptozotocin - induced diabetic model Diabetic nephropathy (DN) is a leading cause of end-stage renal disease in the world. Several signaling pathways are involved in the pathogenesis of DN including elevation in level of angiotensin II, formation of advanced glycation end products (AGE), activation of protein kinase c (PKC), and lipid accumulation. These pathways activate one another mutually leading to oxidative stress, increasing expression of transforming growth factor beta-1 (TGF-β 1) and release of interleukins and adhesion molecules, so the aim of this study is to interrupt more than pathogenic pathway to ameliorate the progression of DN. In the present study, white male rats (N=48) were divided into six groups (8 rats each), the first two groups served as normal control and a control vehicle group while the remaining four groups were rendered diabetic by a single intraperitoneal injection of Streptozotocin (STZ) and being left for 4 weeks to develop DN. Thereafter, the rats were divided into DN group, DN group receiving Telmisartan or Sildenafil or Telmisartan Sildenafil combination. After the specified treatment period, urine samples were collected (using metabolic cages) to measure proteinuria, animals were then euthanized, blood and tissue samples were collected for measurement of Blood glucose, BUN, S.Cr, LDL, NO, TGF-β1, IL-1β, AGEPs, and SOD. The combination therapy showed significant decrease in BUN, S.Cr, LDL, TGF-β1, IL-1β, Proteinuria and AGEPs and significant increase in SOD and NO. The findings showed that combination therapy was able to ameliorate DN and that the effects were superior to the single drugs alone.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 15,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "telmisartan",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 42,
+          "turn_id": null
+        }
+      ],
+      "text": "sildenafil",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetic nephropathy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "streptozotocin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetic",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 133,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetic nephropathy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "DN",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 204,
+          "turn_id": null
+        }
+      ],
+      "text": "end-stage renal disease",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 282,
+          "char_end": 284,
+          "turn_id": null
+        }
+      ],
+      "text": "DN",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 745,
+          "char_end": 747,
+          "turn_id": null
+        }
+      ],
+      "text": "DN",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 979,
+          "char_end": 994,
+          "turn_id": null
+        }
+      ],
+      "text": "intraperitoneal",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 995,
+          "char_end": 1004,
+          "turn_id": null
+        }
+      ],
+      "text": "injection",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1008,
+          "char_end": 1022,
+          "turn_id": null
+        }
+      ],
+      "text": "Streptozotocin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1027,
+          "turn_id": null
+        }
+      ],
+      "text": "STZ",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1069,
+          "turn_id": null
+        }
+      ],
+      "text": "DN",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1110,
+          "char_end": 1112,
+          "turn_id": null
+        }
+      ],
+      "text": "DN",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1122,
+          "turn_id": null
+        }
+      ],
+      "text": "DN",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1139,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "Telmisartan",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1154,
+          "char_end": 1164,
+          "turn_id": null
+        }
+      ],
+      "text": "Sildenafil",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1168,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "Telmisartan",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1180,
+          "char_end": 1190,
+          "turn_id": null
+        }
+      ],
+      "text": "Sildenafil",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1306,
+          "char_end": 1317,
+          "turn_id": null
+        }
+      ],
+      "text": "proteinuria",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1408,
+          "char_end": 1421,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood glucose",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1423,
+          "char_end": 1426,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1428,
+          "char_end": 1432,
+          "turn_id": null
+        }
+      ],
+      "text": "S.Cr",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1437,
+          "turn_id": null
+        }
+      ],
+      "text": "LDL",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1443,
+          "char_end": 1449,
+          "turn_id": null
+        }
+      ],
+      "text": "TGF-β1",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1451,
+          "char_end": 1456,
+          "turn_id": null
+        }
+      ],
+      "text": "IL-1β",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1458,
+          "char_end": 1463,
+          "turn_id": null
+        }
+      ],
+      "text": "AGEPs",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1469,
+          "char_end": 1472,
+          "turn_id": null
+        }
+      ],
+      "text": "SOD",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1529,
+          "char_end": 1532,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1534,
+          "char_end": 1538,
+          "turn_id": null
+        }
+      ],
+      "text": "S.Cr",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1543,
+          "turn_id": null
+        }
+      ],
+      "text": "LDL",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1545,
+          "char_end": 1551,
+          "turn_id": null
+        }
+      ],
+      "text": "TGF-β1",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1553,
+          "char_end": 1558,
+          "turn_id": null
+        }
+      ],
+      "text": "IL-1β",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1560,
+          "char_end": 1571,
+          "turn_id": null
+        }
+      ],
+      "text": "Proteinuria",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1576,
+          "char_end": 1581,
+          "turn_id": null
+        }
+      ],
+      "text": "AGEPs",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1613,
+          "turn_id": null
+        }
+      ],
+      "text": "SOD",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1690,
+          "char_end": 1692,
+          "turn_id": null
+        }
+      ],
+      "text": "DN",
+      "id": "e39"
+    }
+  ]
+}

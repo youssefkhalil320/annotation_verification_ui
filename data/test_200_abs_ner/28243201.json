@@ -1,0 +1,470 @@
+{
+  "doc_id": "MEDMENTIONS:28243201",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Identification of Predictive DNA Methylation Biomarkers for Chemotherapy Response in Colorectal Cancer Resistance to 5-Fluorouracil (5-FU) is a major obstacle to the successful treatment of colorectal cancer (CRC) and posed an increased risk of recurrence. DNA methylation has been suggested as one of the underlying mechanisms for recurrent disease and its contribution to the development of drug resistance remains to be clarified. This study aimed to determine the methylation phenotype in CRC for identification of predictive markers for chemotherapy response. We performed DNA methylation profiling on 43 non-recurrent and five recurrent CRC patients using the Illumina Infinium HumanMethylation450 Beadchip assay. In addition, CRC cells with different genetic backgrounds, response to 5-FU and global methylation levels (HT29 and SW48) were treated with 5-FU and DNA methylation inhibitor 5-aza-2'-deoxycytidine (5-azadC). The singular and combined effects of these two drug classes on cell viability and global methylation profiles were investigated. Our genome-wide methylation study on the clinical specimens showed that recurrent CRCs exhibited higher methylation levels compared to non-recurrent CRCs. We identified 4787 significantly differentially methylated genes (P < 0.05); 3112 genes were hyper - while 1675 genes were hypomethylated in the recurrent group compared to the non-recurrent. Fifty eight and 47 of the significantly hypermethylated and hypomethylated genes have an absolute recurrent / non-recurrent methylation difference of ≥20%. Most of the hypermethylated genes were involved in the MAPK signaling pathway which is a key regulator for apoptosis while the hypomethylated genes were involved in the PI3K-AKT signaling pathway and proliferation process. We also demonstrate that 5-azadC treatment enhanced response to 5-FU which resulted in significant growth inhibition compared to 5-FU alone in hypermethylated cell lines SW48. In conclusion, we found the evidence of five potentially biologically important genes in recurrent CRCs that could possibly serve as a new potential therapeutic targets for patients with chemoresistance. We postulate that aberrant methylation of CCNEI, CCNDBP1, PON3, DDX43, and CHL1 in CRC might be associated with the recurrence of CRC and 5-azadC -mediated restoration of 5-FU sensitivity is mediated at least in part by MAPK signaling pathway.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 72,
+          "turn_id": null
+        }
+      ],
+      "text": "Chemotherapy",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "Colorectal Cancer",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 131,
+          "turn_id": null
+        }
+      ],
+      "text": "Resistance to 5-Fluorouracil",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 131,
+          "turn_id": null
+        }
+      ],
+      "text": "5-Fluorouracil",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 133,
+          "char_end": 137,
+          "turn_id": null
+        }
+      ],
+      "text": "5-FU",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 207,
+          "turn_id": null
+        }
+      ],
+      "text": "colorectal cancer",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "CRC",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 255,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrence",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 349,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent disease",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 408,
+          "turn_id": null
+        }
+      ],
+      "text": "drug resistance",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 493,
+          "char_end": 496,
+          "turn_id": null
+        }
+      ],
+      "text": "CRC",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 554,
+          "turn_id": null
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 578,
+          "char_end": 603,
+          "turn_id": null
+        }
+      ],
+      "text": "DNA methylation profiling",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 646,
+          "turn_id": null
+        }
+      ],
+      "text": "CRC",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 718,
+          "turn_id": null
+        }
+      ],
+      "text": "Illumina Infinium HumanMethylation450 Beadchip assay",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 733,
+          "char_end": 736,
+          "turn_id": null
+        }
+      ],
+      "text": "CRC",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 795,
+          "turn_id": null
+        }
+      ],
+      "text": "5-FU",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 864,
+          "turn_id": null
+        }
+      ],
+      "text": "5-FU",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 869,
+          "char_end": 894,
+          "turn_id": null
+        }
+      ],
+      "text": "DNA methylation inhibitor",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 895,
+          "char_end": 917,
+          "turn_id": null
+        }
+      ],
+      "text": "5-aza-2'-deoxycytidine",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 919,
+          "char_end": 926,
+          "turn_id": null
+        }
+      ],
+      "text": "5-azadC",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1140,
+          "char_end": 1144,
+          "turn_id": null
+        }
+      ],
+      "text": "CRCs",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1207,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "CRCs",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1809,
+          "char_end": 1816,
+          "turn_id": null
+        }
+      ],
+      "text": "5-azadC",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1848,
+          "char_end": 1852,
+          "turn_id": null
+        }
+      ],
+      "text": "5-FU",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1913,
+          "char_end": 1917,
+          "turn_id": null
+        }
+      ],
+      "text": "5-FU",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2059,
+          "char_end": 2063,
+          "turn_id": null
+        }
+      ],
+      "text": "CRCs",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2147,
+          "char_end": 2162,
+          "turn_id": null
+        }
+      ],
+      "text": "chemoresistance",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2247,
+          "char_end": 2250,
+          "turn_id": null
+        }
+      ],
+      "text": "CRC",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2280,
+          "char_end": 2290,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrence",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2294,
+          "char_end": 2297,
+          "turn_id": null
+        }
+      ],
+      "text": "CRC",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2302,
+          "char_end": 2309,
+          "turn_id": null
+        }
+      ],
+      "text": "5-azadC",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2335,
+          "char_end": 2339,
+          "turn_id": null
+        }
+      ],
+      "text": "5-FU",
+      "id": "e33"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "doc_id": "MEDMENTIONS:27820159",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Using a graphical risk tool to examine willingness to take migraine prophylactic medications Many migraine sufferers use daily prophylactic therapy to reduce the frequency of their headache attacks. The Food and Drug Administration has approved several different medications for migraine prophylaxis, but it is not clear whether sufferers perceive these treatments to provide clinically significant benefits given their side effect profiles. Three hundred headache sufferers were recruited from the community and local headache clinics using print and television advertising. Participants reported experiencing problematic headache attacks with a median (IQR) frequency of 7.0 (4-13) headache days per month. These sufferers participated in a cross-sectional, single-site, study that used a specially designed computer assessment task. Participants were instructed on the probability of experiencing the 3 most commonly experienced side effects for several blinded medication profiles: divalproex sodium, venlafaxine, gabapentin, propranolol, and topiramate. After learning the likelihood of experiencing side effect profiles of each medication, participants were asked whether they would be willing to take the medication for a given headache reduction level, which ranged from 0 to 7 days per month. The side effect profile for divalproex sodium was associated with the smallest willingness to take, with gabapentin, propranolol, and topiramate perceived to be much more agreeable. However, <60% of participants reported willingness to take any of these medications even if they provided a 50% reduction in headache frequency. Several general predictors of willingness to take were observed including high headache -related disability, depressive symptoms, and pain medication concerns including fear of tolerance. These findings suggest that if properly informed of the side effect profiles of these medications, many patients might opt for other treatments.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "migraine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 98,
+          "char_end": 106,
+          "turn_id": null
+        }
+      ],
+      "text": "migraine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 197,
+          "turn_id": null
+        }
+      ],
+      "text": "headache attacks",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 279,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "migraine",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 456,
+          "char_end": 464,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 623,
+          "char_end": 639,
+          "turn_id": null
+        }
+      ],
+      "text": "headache attacks",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 684,
+          "char_end": 692,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 932,
+          "char_end": 944,
+          "turn_id": null
+        }
+      ],
+      "text": "side effects",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 932,
+          "char_end": 944,
+          "turn_id": null
+        }
+      ],
+      "text": "side effects",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 986,
+          "char_end": 1003,
+          "turn_id": null
+        }
+      ],
+      "text": "divalproex sodium",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1005,
+          "char_end": 1016,
+          "turn_id": null
+        }
+      ],
+      "text": "venlafaxine",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1018,
+          "char_end": 1028,
+          "turn_id": null
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1030,
+          "char_end": 1041,
+          "turn_id": null
+        }
+      ],
+      "text": "propranolol",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1047,
+          "char_end": 1057,
+          "turn_id": null
+        }
+      ],
+      "text": "topiramate",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1235,
+          "char_end": 1243,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1306,
+          "char_end": 1317,
+          "turn_id": null
+        }
+      ],
+      "text": "side effect",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1330,
+          "char_end": 1347,
+          "turn_id": null
+        }
+      ],
+      "text": "divalproex sodium",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1407,
+          "char_end": 1417,
+          "turn_id": null
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1419,
+          "char_end": 1430,
+          "turn_id": null
+        }
+      ],
+      "text": "propranolol",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1436,
+          "char_end": 1446,
+          "turn_id": null
+        }
+      ],
+      "text": "topiramate",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1617,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1708,
+          "char_end": 1736,
+          "turn_id": null
+        }
+      ],
+      "text": "headache -related disability",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1738,
+          "char_end": 1757,
+          "turn_id": null
+        }
+      ],
+      "text": "depressive symptoms",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1763,
+          "char_end": 1778,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1806,
+          "char_end": 1815,
+          "turn_id": null
+        }
+      ],
+      "text": "tolerance",
+      "id": "e26"
+    }
+  ]
+}

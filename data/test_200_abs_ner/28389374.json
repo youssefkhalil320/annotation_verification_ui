@@ -1,0 +1,265 @@
+{
+  "doc_id": "MEDMENTIONS:28389374",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "A Novel BRCA1-Associated Protein-1 Isoform Affects Response of Mesothelioma Cells to Drugs Impairing BRCA1 -Mediated DNA Repair BRCA1 associated protein1 (BAP1) is a tumor suppressor involved in multiple cellular processes such as transcriptional regulation, chromatin modification by deubiquitinating histone 2A, and DNA repair. BAP1 mutations are frequent in malignant pleural mesothelioma (MPM). Our aim was to functionally characterize a newly identified isoform of BAP1 and investigate the effects of its expression on drug sensitivity in MPM. Expression of BAP1 isoforms was detected by quantitative polymerase chain reaction in MPM and normal mesothelium cell lines and tumor and nontumor samples. Histone H2A ubiquitination levels were analyzed by Western blot after acidic extraction of core histones. Subcellular localization of BAP1 isoforms was examined by immunofluorescence. MPM cell survival in response to poly(adenosine diphosphate-ribose) polymerase (PARP) and dual phosphoinositide 3-kinase (PI3K)- mammalian target of rapamycin (mTOR) inhibitors was analyzed by in vitro assays. We have identified a novel alternative splice isoform of BAP1 (BAP1Δ) that misses part of the catalytic domain. Cells transfected with BAP1Δ showed reduced deubiquitinating activity compared with full-length BAP1. The expression of BAP1Δ transcript is more abundant in nontumor than in tumor samples. MPM cell lines expressing more than 20% of BAP1Δ are more sensitive to olaparib (a PARP1 inhibitor) cytotoxicity, and this sensitivity is enhanced when olaparib treatment is combined with GDC0980 (a dual PI3K - mTOR inhibitor), which induces downregulation of BRCA1. These observations suggest that BAP1Δ does regulate DNA damage response and influences drug sensitivity. It might therefore be relevant to investigate whether patients with high expression of BAP1Δ may be responsive to PARP / PI3K - mTOR inhibitors.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 75,
+          "turn_id": null
+        }
+      ],
+      "text": "Mesothelioma",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 361,
+          "char_end": 391,
+          "turn_id": null
+        }
+      ],
+      "text": "malignant pleural mesothelioma",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 396,
+          "turn_id": null
+        }
+      ],
+      "text": "MPM",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 544,
+          "char_end": 547,
+          "turn_id": null
+        }
+      ],
+      "text": "MPM",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 631,
+          "turn_id": null
+        }
+      ],
+      "text": "quantitative polymerase chain reaction",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 638,
+          "turn_id": null
+        }
+      ],
+      "text": "MPM",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 756,
+          "char_end": 768,
+          "turn_id": null
+        }
+      ],
+      "text": "Western blot",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 869,
+          "char_end": 887,
+          "turn_id": null
+        }
+      ],
+      "text": "immunofluorescence",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 892,
+          "turn_id": null
+        }
+      ],
+      "text": "MPM",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 979,
+          "char_end": 1065,
+          "turn_id": null
+        }
+      ],
+      "text": "dual phosphoinositide 3-kinase (PI3K)- mammalian target of rapamycin (mTOR) inhibitors",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1400,
+          "char_end": 1403,
+          "turn_id": null
+        }
+      ],
+      "text": "MPM",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1479,
+          "turn_id": null
+        }
+      ],
+      "text": "olaparib",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1483,
+          "char_end": 1498,
+          "turn_id": null
+        }
+      ],
+      "text": "PARP1 inhibitor",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1552,
+          "char_end": 1560,
+          "turn_id": null
+        }
+      ],
+      "text": "olaparib",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1588,
+          "char_end": 1595,
+          "turn_id": null
+        }
+      ],
+      "text": "GDC0980",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1625,
+          "turn_id": null
+        }
+      ],
+      "text": "dual PI3K - mTOR inhibitor",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1886,
+          "char_end": 1890,
+          "turn_id": null
+        },
+        {
+          "char_start": 1905,
+          "char_end": 1915,
+          "turn_id": null
+        }
+      ],
+      "text": "PARP inhibitors",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1893,
+          "char_end": 1915,
+          "turn_id": null
+        }
+      ],
+      "text": "PI3K - mTOR inhibitors",
+      "id": "e18"
+    }
+  ]
+}

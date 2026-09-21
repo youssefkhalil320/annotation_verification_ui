@@ -1,0 +1,559 @@
+{
+  "doc_id": "MEDMENTIONS:28272254",
+  "register": "abstract",
+  "source_dataset": "MEDMENTIONS",
+  "text": "Real role of β-blockers in regression of left ventricular mass in hypertension patients: Bayesian network meta-analysis Left ventricular hypertrophy (LVH) is commonly present in patients with hypertension (HT). According to the expert consensus document from American, angiotensin-converting enzyme inhibitor (ACEI) and angiotensin receptor blockers (ARBs) were recommended as 1st-line therapeutic drugs. However, none noticed the different efficacy between fat-soluble and selective β1-receptor blockers (FS-β-B) and other β-blockers on regression of LVH before. The aim of this analysis was to compare the efficacy of FS-β-B with the other 4 different classes of antihypertensive drugs (ACEI, ARBs, calcium channel blockers [CCBs], and diuretics) on regression of LVH. Relative trials were identified in the PubMed, Web of Science, OVID EBM Reviews and Cochrane databases, and the relevant papers were examined. We performed both traditional and Bayesian meta-analysis of randomized controlled trials (RCTs) about the regression of LVH. Sensitivity analysis and regression analysis were performed to explore possible sources of heterogeneity. Inconsistency analysis was performed to check whether the analysis of the trials in the network was indeed consistent. A total of 41 RCTs involving 2566 patients with HT and LVH were included in this analysis. Bayesian network meta-analysis indicated no statistically significant differences between these groups: FS-β-B and ACEI (MD, -7.09; 95% CI, -14.99, 1.27); FS-β-B and ARB (MD, -2.66; 95% Cl, -12.02, 6.31). Although FS-β-B showed greater efficacy when compared with diuretic (MD, 13.04; 95% CI, 3.38, 22.59) or CCB (MD, 10.90; 95% CI, 1.98, 19.49). The probabilities of being among the most efficacious treatments were: FS-β-B (72%), ARB (27%), ACEI (0.01%), CCB (0.00%), and diuretic (0.00%). Evidence from our analysis reveals that FS-β-B have potential to become 1st-line therapeutic drugs in HT and LVH patients. However, the real efficacy of FS-β-B on regression of LVH should be confirmed by further large, high quality trials considering the limitation of the study number.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 23,
+          "turn_id": null
+        }
+      ],
+      "text": "β-blockers",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 120,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "Left ventricular hypertrophy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "LVH",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 204,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 206,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "HT",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 308,
+          "turn_id": null
+        }
+      ],
+      "text": "angiotensin-converting enzyme inhibitor",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 310,
+          "char_end": 314,
+          "turn_id": null
+        }
+      ],
+      "text": "ACEI",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 349,
+          "turn_id": null
+        }
+      ],
+      "text": "angiotensin receptor blockers",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 355,
+          "turn_id": null
+        }
+      ],
+      "text": "ARBs",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 458,
+          "char_end": 469,
+          "turn_id": null
+        },
+        {
+          "char_start": 484,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "fat-soluble β1-receptor blockers",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "selective β1-receptor blockers",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 512,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 524,
+          "char_end": 534,
+          "turn_id": null
+        }
+      ],
+      "text": "β-blockers",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 552,
+          "char_end": 555,
+          "turn_id": null
+        }
+      ],
+      "text": "LVH",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 626,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 665,
+          "char_end": 687,
+          "turn_id": null
+        }
+      ],
+      "text": "antihypertensive drugs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 693,
+          "turn_id": null
+        }
+      ],
+      "text": "ACEI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 695,
+          "char_end": 699,
+          "turn_id": null
+        }
+      ],
+      "text": "ARBs",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 701,
+          "char_end": 725,
+          "turn_id": null
+        }
+      ],
+      "text": "calcium channel blockers",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 731,
+          "turn_id": null
+        }
+      ],
+      "text": "CCBs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 738,
+          "char_end": 747,
+          "turn_id": null
+        }
+      ],
+      "text": "diuretics",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 769,
+          "turn_id": null
+        }
+      ],
+      "text": "LVH",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1037,
+          "turn_id": null
+        }
+      ],
+      "text": "LVH",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1312,
+          "char_end": 1314,
+          "turn_id": null
+        }
+      ],
+      "text": "HT",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1319,
+          "char_end": 1322,
+          "turn_id": null
+        }
+      ],
+      "text": "LVH",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1465,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1470,
+          "char_end": 1474,
+          "turn_id": null
+        }
+      ],
+      "text": "ACEI",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1516,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1569,
+          "char_end": 1575,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1619,
+          "char_end": 1627,
+          "turn_id": null
+        }
+      ],
+      "text": "diuretic",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1664,
+          "char_end": 1667,
+          "turn_id": null
+        }
+      ],
+      "text": "CCB",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1773,
+          "char_end": 1779,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1798,
+          "char_end": 1802,
+          "turn_id": null
+        }
+      ],
+      "text": "ACEI",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1887,
+          "char_end": 1893,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1949,
+          "char_end": 1951,
+          "turn_id": null
+        }
+      ],
+      "text": "HT",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1956,
+          "char_end": 1959,
+          "turn_id": null
+        }
+      ],
+      "text": "LVH",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2000,
+          "char_end": 2006,
+          "turn_id": null
+        }
+      ],
+      "text": "FS-β-B",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 2024,
+          "char_end": 2027,
+          "turn_id": null
+        }
+      ],
+      "text": "LVH",
+      "id": "e39"
+    }
+  ]
+}
