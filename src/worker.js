@@ -7,7 +7,8 @@ const JSON_HEADERS = {
 const ANNOTATOR_RE = /^[A-Za-z0-9][A-Za-z0-9._-]{1,63}$/;
 const MAX_DOC_ID_LENGTH = 256;
 const MAX_REVIEW_BYTES = 1_500_000;
-const MAX_BATCH_SIZE = 100;
+// D1 allows 100 bound SQL variables; each query also binds annotator_id.
+const MAX_BATCH_SIZE = 90;
 let schemaReady;
 
 function json(data, status = 200) {
