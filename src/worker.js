@@ -48,14 +48,13 @@ async function registerAnnotator(db, annotatorId, now) {
 
 async function ensureSchema(db) {
   if (!schemaReady) {
-    schemaReady = db.exec(`
-      PRAGMA foreign_keys = ON;
-      CREATE TABLE IF NOT EXISTS annotators (
+    schemaReady = db.batch([
+      db.prepare(`CREATE TABLE IF NOT EXISTS annotators (
         annotator_id TEXT PRIMARY KEY,
         created_at TEXT NOT NULL,
         last_seen_at TEXT NOT NULL
-      );
-      CREATE TABLE IF NOT EXISTS review_states (
+      )`),
+      db.prepare(`CREATE TABLE IF NOT EXISTS review_states (
         annotator_id TEXT NOT NULL,
         doc_id TEXT NOT NULL,
         text_len INTEGER NOT NULL,
@@ -65,10 +64,10 @@ async function ensureSchema(db) {
         revision INTEGER NOT NULL DEFAULT 1,
         PRIMARY KEY (annotator_id, doc_id),
         FOREIGN KEY (annotator_id) REFERENCES annotators(annotator_id) ON DELETE CASCADE
-      );
-      CREATE INDEX IF NOT EXISTS review_states_updated_at
-        ON review_states (annotator_id, updated_at DESC);
-    `).catch(error => {
+      )`),
+      db.prepare(`CREATE INDEX IF NOT EXISTS review_states_updated_at
+        ON review_states (annotator_id, updated_at DESC)`),
+    ]).catch(error => {
       schemaReady = undefined;
       throw error;
     });
