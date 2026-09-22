@@ -22,25 +22,21 @@ The repository contains a Worker in `src/worker.js`, a D1 migration in `migratio
    npm install
    ```
 
-2. Authenticate and create the production database:
+2. Authenticate with the Cloudflare account that owns the Worker:
 
    ```bash
    npx wrangler login
-   npx wrangler d1 create annotation-reviews
    ```
 
-3. Replace `REPLACE_WITH_D1_DATABASE_ID` in `wrangler.jsonc` with the database ID printed by Wrangler.
-
-4. Apply the schema and deploy to the existing Worker:
+3. Deploy to the existing Worker:
 
    ```bash
-   npm run db:migrate:remote
    npm run deploy
    ```
 
-The configured Worker name is `annotation-verification-ui`, matching the current `annotation-verification-ui.youssef-khalil.workers.dev` deployment. Deploy from the Cloudflare account that owns that Worker.
+The configured Worker name is `annotation-verification-ui`, matching the current `annotation-verification-ui.youssef-khalil.workers.dev` deployment. Wrangler 4.45 or newer automatically provisions and links the `REVIEW_DB` D1 binding on the first deployment. The Worker creates its idempotent schema on the first API request, while the migration file remains available for controlled database setup. Future deployments reuse the linked database even though no account-specific database ID is committed to Git.
 
-For local development after setting the database ID:
+For local development:
 
 ```bash
 npm run db:migrate:local

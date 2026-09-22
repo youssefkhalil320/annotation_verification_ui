@@ -8,6 +8,7 @@ const ANNOTATOR_RE = /^[A-Za-z0-9][A-Za-z0-9._-]{1,63}$/;
 const MAX_DOC_ID_LENGTH = 256;
 const MAX_REVIEW_BYTES = 1_500_000;
 const MAX_BATCH_SIZE = 100;
+let schemaReady;
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), { status, headers: JSON_HEADERS });
@@ -45,8 +46,39 @@ async function registerAnnotator(db, annotatorId, now) {
   `).bind(annotatorId, now, now).run();
 }
 
+async function ensureSchema(db) {
+  if (!schemaReady) {
+    schemaReady = db.exec(`
+      PRAGMA foreign_keys = ON;
+      CREATE TABLE IF NOT EXISTS annotators (
+        annotator_id TEXT PRIMARY KEY,
+        created_at TEXT NOT NULL,
+        last_seen_at TEXT NOT NULL
+      );
+      CREATE TABLE IF NOT EXISTS review_states (
+        annotator_id TEXT NOT NULL,
+        doc_id TEXT NOT NULL,
+        text_len INTEGER NOT NULL,
+        payload TEXT NOT NULL,
+        complete INTEGER NOT NULL DEFAULT 0 CHECK (complete IN (0, 1)),
+        updated_at TEXT NOT NULL,
+        revision INTEGER NOT NULL DEFAULT 1,
+        PRIMARY KEY (annotator_id, doc_id),
+        FOREIGN KEY (annotator_id) REFERENCES annotators(annotator_id) ON DELETE CASCADE
+      );
+      CREATE INDEX IF NOT EXISTS review_states_updated_at
+        ON review_states (annotator_id, updated_at DESC);
+    `).catch(error => {
+      schemaReady = undefined;
+      throw error;
+    });
+  }
+  return schemaReady;
+}
+
 async function handleApi(request, env) {
   if (!env.REVIEW_DB) return error('The REVIEW_DB binding is not configured', 503);
+  await ensureSchema(env.REVIEW_DB);
 
   const url = new URL(request.url);
   const method = request.method.toUpperCase();
