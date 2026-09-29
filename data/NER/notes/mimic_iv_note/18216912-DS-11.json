@@ -1,0 +1,177 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18216912-DS-11:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\n? antibiotic / Amoxicillin\n\nChief Complaint:\nLeft ICA aneurysm\n\nHistory of Present Illness:\nKnown Left ICA aneurysm, presets for elective coiling\n\nBrief Hospital Course:\nMs. ___ presented to the hospital for an elective stent \nassisted coiling of a left ICA aneurysm. Post procedure the \npatient was extubated and transfered to the ICU for close \nmonitoring.\n\nOn Post procedure day one, the patient was tolerating a diet, \nvoiding and pain free.  She was discharged home with a \nperscriiption for ASA and plavix and follow up directions.\n\nDischarge Diagnosis:\nStent assisted coiling of Left ICA aneurysm",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 23,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 26,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "Amoxicillin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 73,
+          "turn_id": null
+        }
+      ],
+      "text": "Left ICA aneurysm",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "Left ICA aneurysm",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 149,
+          "char_end": 156,
+          "turn_id": null
+        }
+      ],
+      "text": "coiling",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 254,
+          "turn_id": null
+        }
+      ],
+      "text": "stent \nassisted coiling",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 277,
+          "turn_id": null
+        }
+      ],
+      "text": "left ICA aneurysm",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 320,
+          "turn_id": null
+        }
+      ],
+      "text": "extubated",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 446,
+          "char_end": 450,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 508,
+          "char_end": 511,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 522,
+          "turn_id": null
+        }
+      ],
+      "text": "plavix",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 593,
+          "turn_id": null
+        }
+      ],
+      "text": "Stent assisted coiling",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 614,
+          "turn_id": null
+        }
+      ],
+      "text": "Left ICA aneurysm",
+      "id": "e13"
+    }
+  ]
+}

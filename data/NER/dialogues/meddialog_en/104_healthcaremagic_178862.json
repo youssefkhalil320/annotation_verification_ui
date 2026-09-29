@@ -1,0 +1,593 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:178862:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My 8 year old started vomiting and running a fever of 102 on Thursday around noon. Friday evening he still wasn t able to hold fluids and had no appetite and had been vomiting constantly so we brought him to urgent care who sent us to the children s e.r. where they determined he didn t have a surgical abdomen then gave him blood tests which came back clean other than mild dehydration, so they gave him zophron for nausea and fluids via iv. And ibuprofen for fever which we had been giving him alternating w/ acetometophen. The doctor said he has gastroenteritis which seemed like an educated guess on his part he also said that my son would have diarrhea blabla and we might get sick which neither ever happened. also his initial exam was also clean. After we came home and since then he is still sick the last of the vomiting was last night but the fever and fatigue and the pale face and dark circles and sleepiness is still there also he had been complaining of headaches and dizziness but not recently. Does this actually sound like gastroenteritis? And is it still okay to continue giving him ibuprofen and acetometophen now that is day 5 and he is still getting fevers?\n[doctor] If all the report came clean, then it could be viral infection and associated viral gastritis which is getting worse with the continuous use of paracetamol and ibruprofen. Please dont use ibruprofen, use paracetamol at a correct dose of 15 mgs per kg body weight when temp crosses 100. also give him at least one biscuit before giving paracetamol... start Tab Lanzol 1 tab daily in empty stomach and continue for 15 days . The fever will resolve in 2 days. If you live in dengue endemic area get a Dengue test done.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 40,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 60,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "wasn t able to hold fluids",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "appetite",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 177,
+          "char_end": 185,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 304,
+          "char_end": 320,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "surgical abdomen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 346,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 396,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dehydration",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 422,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zophron",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 433,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 438,
+          "char_end": 451,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluids via iv",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 449,
+          "char_end": 451,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "iv",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 457,
+          "char_end": 466,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 471,
+          "char_end": 476,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 521,
+          "char_end": 534,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acetometophen",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 559,
+          "char_end": 574,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gastroenteritis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 659,
+          "char_end": 667,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 831,
+          "char_end": 839,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 868,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 873,
+          "char_end": 880,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fatigue",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 898,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pale face",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 915,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dark circles",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 920,
+          "char_end": 930,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleepiness",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 978,
+          "char_end": 987,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headaches",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 992,
+          "char_end": 1001,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1050,
+          "char_end": 1065,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gastroenteritis",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1111,
+          "char_end": 1120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1138,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acetometophen",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1181,
+          "char_end": 1187,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fevers",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1245,
+          "char_end": 1260,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "viral infection",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1276,
+          "char_end": 1291,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "viral gastritis",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1353,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1368,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ibruprofen",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1386,
+          "char_end": 1396,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ibruprofen",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1402,
+          "char_end": 1413,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1435,
+          "char_end": 1460,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "15 mgs per kg body weight",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1461,
+          "char_end": 1482,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "when temp crosses 100",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1533,
+          "char_end": 1544,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1554,
+          "char_end": 1557,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Tab",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1558,
+          "char_end": 1564,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Lanzol",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1565,
+          "char_end": 1570,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "1 tab",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1571,
+          "char_end": 1576,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "daily",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1607,
+          "char_end": 1618,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for 15 days",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1625,
+          "char_end": 1630,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1696,
+          "char_end": 1707,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Dengue test",
+      "id": "e45"
+    }
+  ]
+}

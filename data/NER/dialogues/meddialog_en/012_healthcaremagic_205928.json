@@ -1,0 +1,710 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:205928:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My roommate just started on lorazepam (0.5mg) exactly one week ago and has been taking 4x/day for the past week. He has been incredibly stressed over work and recent death in the family and started feeling depressed and anxious. The first couple of days he took lorazepam, the anxiety level seemed to have gone down and he seemed more relaxed. Then a few days into it, I started noticing that he seemed more anxious, more unhappy and completely depressed. He just wants to sleep all day and cannot seem to function at all. He seems worse than before he started his meds. The other medication he is taking is Lexapro 10mg once a day. I think he may be taking the wrong meds for him, especially the lorazepam. His doctor told him to take 2-3 lorazepam per day vs 4 when my roommate called him to tell him that he is feeling worse than ever before. He also takes antabuse which he has been taking for a year now, everyday, without missing one single dose. I am not sure lorazepam is the correct anti anxiety pill for an alcoholic taking antabuse.  Should he start weaning off lorazepam? How? He's only been on it for a week. He only took one dose today and he's a big mess. He said he feels so anxious and tired. He looks like he's about to have a breakdown and physically he just looks miserable. Should he be weaning off Lexapro (escitalopram) as well? If so, how? Please help. I want to help my friend. He will be seeing another doctor early next week (earliest he can see one due to the holiday) but would love you know how I can help in the meantime.\n[doctor] HelloWelcome here.I can understand your concerns for your friend.I have some suggestion for you:Antabuse drugs are usually not prescribed for longer durations. As soon as the person feels that he has string enough will power, there is no role of antabuse drugs further.Lorazepam,  at doses which your friend is taking, should decrease his anxiety.Now if his anxiety has increased even after takibg lorazepam, this is most probably due to interaction between antabuse and lorazepam.Lexapro is an anti-depressant and anti-anxiety drug. However in some cases it can increase anxiety for initial few days.My advice for your fruend would be just to take single drug lorazepam till he sees his doctor. Antabuse can be tapered off by reducing one-third dose every three days and lexapro can be stopped for now.Hope this helps.Thanks",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 47,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 54,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "0.5mg",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 72,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one week",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 103,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4x/day",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 121,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for the past week",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 154,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stressed",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 216,
+          "char_end": 225,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depressed",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 237,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxious",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 281,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 287,
+          "char_end": 294,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 418,
+          "char_end": 425,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxious",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 432,
+          "char_end": 439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unhappy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 464,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depressed",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 496,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep all day",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 501,
+          "char_end": 531,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cannot seem to function at all",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 618,
+          "char_end": 625,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 630,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10mg",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 641,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once a day",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 707,
+          "char_end": 716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 759,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 760,
+          "char_end": 767,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 878,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antabuse",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 904,
+          "char_end": 914,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a year",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 920,
+          "char_end": 928,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "everyday",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 977,
+          "char_end": 986,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1019,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anti anxiety pill",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1027,
+          "char_end": 1036,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "alcoholic",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1044,
+          "char_end": 1052,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antabuse",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1083,
+          "char_end": 1092,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1130,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a week",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1145,
+          "char_end": 1153,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one dose",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1201,
+          "char_end": 1208,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxious",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1213,
+          "char_end": 1218,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tired",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1255,
+          "char_end": 1264,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "breakdown",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1294,
+          "char_end": 1303,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "miserable",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1330,
+          "char_end": 1337,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1339,
+          "char_end": 1351,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "escitalopram",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1668,
+          "char_end": 1676,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Antabuse",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1818,
+          "char_end": 1826,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antabuse",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1841,
+          "char_end": 1850,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Lorazepam",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1911,
+          "char_end": 1918,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1930,
+          "char_end": 1937,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1970,
+          "char_end": 1979,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2030,
+          "char_end": 2038,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antabuse",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2043,
+          "char_end": 2052,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2053,
+          "char_end": 2060,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2067,
+          "char_end": 2082,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti-depressant",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2087,
+          "char_end": 2104,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti-anxiety drug",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2092,
+          "char_end": 2099,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2233,
+          "char_end": 2242,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2268,
+          "char_end": 2276,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Antabuse",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2308,
+          "char_end": 2322,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "one-third dose",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2323,
+          "char_end": 2339,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "every three days",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2344,
+          "char_end": 2351,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lexapro",
+      "id": "e54"
+    }
+  ]
+}

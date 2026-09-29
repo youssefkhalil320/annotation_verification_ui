@@ -1,0 +1,273 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:97569:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] How much hydroxyzine hcl can i take at a time and how often? I suffer from Major panic and anxiety disorder. I was taking 1mg klonapin three times a day for 4 years. They cold terkied me off of it. Suffering from high blood pressure and high panic and anxiety because of this bright move by my mental health provider. My medical doc gave hydroxyzine.\n[doctor] high panic and anxiety levels have to be tackled first here blood pressure will be taken care of.the maximum calm mind the maximum normal blood pressure.here a combination of chandraprabha along with sarpagandha,kurasani owa.jatamaunshi,brahmi combination should be according to me.shirodhara nad nasya will be of additional benefit.yoga  therapy of anulome vilome and kapal bhati will be enhancing the the medicine effect.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 34,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydroxyzine hcl",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 96,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 109,
+          "char_end": 117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "panic disorder",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety disorder",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 135,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1mg",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 136,
+          "char_end": 144,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "klonapin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 162,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "three times a day",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 174,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 4 years",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 242,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 257,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "panic",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 262,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 348,
+          "char_end": 359,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydroxyzine",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 375,
+          "char_end": 380,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "panic",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 392,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 558,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chandraprabha",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 570,
+          "char_end": 581,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sarpagandha",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 582,
+          "char_end": 594,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "kurasani owa",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 606,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "jatamaunshi",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 613,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "brahmi",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 662,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "shirodhara",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 667,
+          "char_end": 672,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nasya",
+      "id": "e20"
+    }
+  ]
+}

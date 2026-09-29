@@ -1,0 +1,398 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:39121:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My doctor diagnosed me with severe ringworm on Tuesday (I am covered from head to toe, and it happened within 2 days-I noticed a few spots on Sunday and thought it was mosquito bites, then woke up monday with triple the amount, and the spots kept showing up during the day). Anyway, she prescribed me a cream that I used on Tuesday, two times- however it caused swelling and pain in my hands so I discontinued use. The doctor prescribed me something called grisofulvin? but I can't pick it up until today at 3 because the pharmacy didn't have it. When I woke up this morning I noticed that most of the ring worm was gone, but I have a LOT of bruises. Is bruising associated with ringworm? ( I did itch the bumps a lot, but only itched over my clothes). I used cortisone cream, but that's it.\n[doctor] I am not sure that whether your doctors has diagnosed the lesion properly as ringworm does not have such acute course it takes few days to week to appear the lesions of the ring worm. They itch so badly that you have to take anihisaminic to be relived off itching. even if you apply the local cream it will take few days to weeks to clear the lesions of the same. and most importantly they never bruise & go away wihout leaving any stress. So my frank opinion is that get it diagnose correctly befor having any medications as well as applying steroids ( cortison which may change the morphology of lesion & make it difficult to diagnose ). From the symptoms narreted by you lesions most likly point towards patechial haemorrages but as I can not make visual impression exact diagnosis regarding the same can not be given. So my advice is that you must consult a well experienced dermatologist for the problem.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 53,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ringworm",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 143,
+          "char_end": 148,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spots",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 192,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mosquito bites",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 251,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spots",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 313,
+          "char_end": 318,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 343,
+          "char_end": 352,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "two times",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 380,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 401,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my hands",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 478,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "grisofulvin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 612,
+          "char_end": 621,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ring worm",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 659,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bruises",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 672,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bruising",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 697,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ringworm",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 716,
+          "char_end": 721,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bumps",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 779,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cortisone",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 780,
+          "char_end": 785,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 869,
+          "char_end": 875,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lesion",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 888,
+          "char_end": 896,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ringworm",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 969,
+          "char_end": 976,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lesions",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 984,
+          "char_end": 993,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ring worm",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1000,
+          "char_end": 1004,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itch",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1048,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anihisaminic",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1074,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itching",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1104,
+          "char_end": 1109,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cream",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1154,
+          "char_end": 1161,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lesions",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1207,
+          "char_end": 1213,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bruise",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1354,
+          "char_end": 1362,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1365,
+          "char_end": 1373,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cortison",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1485,
+          "char_end": 1492,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lesions",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1518,
+          "char_end": 1539,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "patechial haemorrages",
+      "id": "e30"
+    }
+  ]
+}

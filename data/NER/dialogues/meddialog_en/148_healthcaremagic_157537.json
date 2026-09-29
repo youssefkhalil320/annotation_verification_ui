@@ -1,0 +1,543 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:157537:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] (July 2013 to present date, Oct 10, 2013): Started first with breathing problems. I have copd. Had a catscan and a petscan. Have enlarged lympth nodes in both lungs (many). Waiting for another cat scan in November to make a comparison to see if any are getting larger. Pulmonologist said he can t say for sure if I have cancer and can t say for sure that I do not. Have run a temperature as high as 104.4% and low grade to normal(back and forth) since then. and I have some swelling in my left testicle. Had swelling and a hard lump behind my knee about a week ago and knee was very warm and nurse thought it might be a blood clot but turned out to be a Bakers cyst. Also have red blotches all over my body. Started by itching on my back that turned into a oblong type circle that then kept getting larger. That is lighter in color now but legs are brighter red patches. Also still have redness on parts of my back and both arms. Have had three heart attacks and have 3 stints. Also had prostate cancer and did radiation treatments in 2005. Have had two antibiotic prescriptions since July 10,2013 from Pulmonary doctor. Allergy doctor said I have an unidentified infection in my blood. He gave me a prescription for Ketoconazole for the red blotches that were itching very bad. This made it worse and oval type circle on my back got bigger and more bright red in color. That is finally almost gone but legs are worse. Had blood work done on Monday, Oct 1,2013 on order from the allergist doctor. No report on results yet. Have primary care doctor appt. coming up on the 23rd of October. Also have type II diabetes. Legs are very weak.\n[doctor] hello,I propose you do a blood test, with all elements (RBC,WBC, HG, HCT etc). In general in infections WBC are alterated and if all is normal you should consider making a biopsy of one of your lymphonodes to see its contest.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 90,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "breathing problems",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 103,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "copd",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 118,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "catscan",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 132,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "petscan",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 139,
+          "char_end": 174,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "enlarged lympth nodes in both lungs",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 203,
+          "char_end": 211,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cat scan",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 336,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cancer",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 386,
+          "char_end": 415,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "temperature as high as 104.4%",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 484,
+          "char_end": 512,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling in my left testicle",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 526,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 543,
+          "char_end": 557,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling behind my knee",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 533,
+          "char_end": 557,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hard lump behind my knee",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 630,
+          "char_end": 640,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood clot",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 675,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Bakers cyst",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 687,
+          "char_end": 716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "red blotches all over my body",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 747,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching on my back",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 767,
+          "char_end": 785,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oblong type circle",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 868,
+          "char_end": 879,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "red patches",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 897,
+          "char_end": 938,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "redness on parts of my back and both arms",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 955,
+          "char_end": 968,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart attacks",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 980,
+          "char_end": 986,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stints",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1012,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prostate cancer",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1021,
+          "char_end": 1041,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "radiation treatments",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1064,
+          "char_end": 1074,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1174,
+          "char_end": 1195,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "infection in my blood",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1227,
+          "char_end": 1239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ketoconazole",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "red blotches",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1312,
+          "char_end": 1339,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oval type circle on my back",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1433,
+          "char_end": 1443,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood work",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1608,
+          "char_end": 1624,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "type II diabetes",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1626,
+          "char_end": 1630,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1640,
+          "char_end": 1644,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Legs weak",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1680,
+          "char_end": 1690,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood test",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1714,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "RBC",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1715,
+          "char_end": 1718,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "WBC",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1720,
+          "char_end": 1722,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "HG",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1724,
+          "char_end": 1727,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "HCT",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1748,
+          "char_end": 1758,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infections",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1759,
+          "char_end": 1762,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1767,
+          "char_end": 1776,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "WBC alterated",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1759,
+          "char_end": 1762,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "WBC",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1827,
+          "char_end": 1860,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "biopsy of one of your lymphonodes",
+      "id": "e40"
+    }
+  ]
+}

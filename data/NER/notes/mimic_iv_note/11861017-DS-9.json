@@ -1,0 +1,520 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11861017-DS-9:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\ngabapentin\n\nHistory of Present Illness:\n___ year old male with a complicated PMH notable for CAD s/p \nCABG, diabetes, and a recent subdural hematoma s/p emergent \nevacuation, trach dependent with intermittent vent dependence, \nhx of DVT and submassive PE on Coumadin who re presents to the \nBI for respiratory distress after having been discharged from \nthe MICU on ___ afternoon. At ___, he dessated and \nbecame hypotensive to 80's, received 1 liter IVF and BP improved \nto 120/69. O2 sat remain in 80's on the vent despite \ninterventions. He was therefore transferred back to ___ for \nfurther care.  \n On arrival to the ED, he was afebrile, initially normotensive, \nbut hypotensive and therefore started on levophed. He was sating \nat 100%. CXR was performed and CT head and c-spine was also \ndone. His imaging was notable for a persistent R sided pleural \neffusion. Labs notable for ___, transaminitis. He was given IV \nvancomycin and meropenem. He was reportedly more hypotensive, \nthus was started on norepinephrine. Of note his lactate was 4.9, \nlast checked in our system was lactate of 2.0.  \n On arrival to the MICU, pt no longer needing pressors. He is \ncomfortable appearing and sating 100% on the vent, but on CMV.\n\nDischarge Diagnosis:\nAcute Hypoxic Respiratory Failure \nHospital Acquired Pneumonia\nEncephalopathy\nAcute Renal Failure\nHistory of Subdural Hematoma",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 117,
+          "turn_id": null
+        }
+      ],
+      "text": "CABG",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 127,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 159,
+          "turn_id": null
+        }
+      ],
+      "text": "subdural hematoma",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "evacuation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 191,
+          "turn_id": null
+        }
+      ],
+      "text": "trach",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 201,
+          "turn_id": null
+        }
+      ],
+      "text": "trach dependent",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 235,
+          "turn_id": null
+        }
+      ],
+      "text": "vent dependence",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 244,
+          "char_end": 247,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 265,
+          "turn_id": null
+        }
+      ],
+      "text": "submassive PE",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 277,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "respiratory distress",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 411,
+          "turn_id": null
+        }
+      ],
+      "text": "dessated",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 424,
+          "char_end": 443,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive to 80's",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 462,
+          "char_end": 465,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 472,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 500,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 515,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat remain in 80's",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 683,
+          "char_end": 694,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 728,
+          "turn_id": null
+        }
+      ],
+      "text": "levophed",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 754,
+          "char_end": 757,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 776,
+          "char_end": 795,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head and c-spine",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 878,
+          "turn_id": null
+        }
+      ],
+      "text": "R sided pleural \neffusion",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 902,
+          "char_end": 915,
+          "turn_id": null
+        }
+      ],
+      "text": "transaminitis",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 934,
+          "char_end": 944,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 949,
+          "char_end": 958,
+          "turn_id": null
+        }
+      ],
+      "text": "meropenem",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 983,
+          "char_end": 994,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1017,
+          "char_end": 1031,
+          "turn_id": null
+        }
+      ],
+      "text": "norepinephrine",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1045,
+          "char_end": 1052,
+          "turn_id": null
+        },
+        {
+          "char_start": 1057,
+          "char_end": 1060,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate 4.9",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1045,
+          "char_end": 1052,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1101,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1166,
+          "turn_id": null
+        }
+      ],
+      "text": "pressors",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1236,
+          "turn_id": null
+        }
+      ],
+      "text": "CMV",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1293,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute Hypoxic Respiratory Failure",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1295,
+          "char_end": 1322,
+          "turn_id": null
+        }
+      ],
+      "text": "Hospital Acquired Pneumonia",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1323,
+          "char_end": 1337,
+          "turn_id": null
+        }
+      ],
+      "text": "Encephalopathy",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1338,
+          "char_end": 1357,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute Renal Failure",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1386,
+          "turn_id": null
+        }
+      ],
+      "text": "Subdural Hematoma",
+      "id": "e39"
+    }
+  ]
+}

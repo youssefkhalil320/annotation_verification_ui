@@ -1,0 +1,494 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:104971:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi, I was at my allergist today and was very congested, runny stuffy nose, sneezing as a result of being off my Allegra for four days prior to the subdermal allergy testing she did today. I showed no reaction to any of the environmental allergens tested for, but to help me out she gave me a small cup full of liquid prednisone , an Allegra tablet and some nasal spray (she said earlier would not aggravate my existing benign heart irregular beat I get from time to time.) That was at noon today. Then tonight at 5pm I started suddenly getting an increased heart rate along with bad irregular beats (PVCs I believe from past experience). Three hours later I am still getting them. Can these be a result of the prednisone the allergist gave me? I told her I had a history of benign irregular heart beats and couldn t take any nasal sprays that had a decongestant effect because of my heart. That is why I m surprised she gave me prednisone which I just read online can cause palpitations and rapid beat. Do you think the one dose of prednisone caused this fast beat and irregular heart beats and, if so, will it subside soon or by morning? Thanks.\n[doctor] Hello, There is in fact very little evidence to suggest prednisolone can set off premature ventricular contractions; but certainly can set off palpitations if the dose was higher than required. Some patients with adrenal insufficiency who require steroids for life also feel the same once they start and novice patients will feel more of the effect. You have not mentioned the dose you had, or whether you took it on an empty stomach or without PPI cover. Gastritis is a problem when taken on an empty stomach, and that set off palpitations. It should subside within 24 hours, but if you still feel unwell, I would suggest you get seen by a physician as soon as possible for an ECG and a thorough evaluation. Thanks.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 64,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "congested",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 71,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 79,
+          "char_end": 83,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "runny nose",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 83,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stuffy nose",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 93,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sneezing",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 129,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Allegra",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for four days",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 182,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "subdermal allergy testing",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 308,
+          "char_end": 316,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cup full",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 326,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "liquid",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 327,
+          "char_end": 337,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 343,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Allegra",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 357,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablet",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 436,
+          "char_end": 456,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart irregular beat",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 577,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "increased heart rate",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 608,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irregular beats",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 610,
+          "char_end": 614,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PVCs",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 730,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 812,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irregular heart beats",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 871,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "decongestant",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 938,
+          "char_end": 948,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 984,
+          "char_end": 996,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "palpitations",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1001,
+          "char_end": 1011,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rapid beat",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1030,
+          "char_end": 1038,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one dose",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1042,
+          "char_end": 1052,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1065,
+          "char_end": 1074,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fast beat",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1079,
+          "char_end": 1100,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irregular heart beats",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1222,
+          "char_end": 1234,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prednisolone",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1247,
+          "char_end": 1281,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "premature ventricular contractions",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1309,
+          "char_end": 1321,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "palpitations",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1379,
+          "char_end": 1400,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "adrenal insufficiency",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1413,
+          "char_end": 1421,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1422,
+          "char_end": 1430,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for life",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1614,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "PPI",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1622,
+          "char_end": 1631,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Gastritis",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1694,
+          "char_end": 1706,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "palpitations",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1765,
+          "char_end": 1771,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "unwell",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1844,
+          "char_end": 1847,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ECG",
+      "id": "e37"
+    }
+  ]
+}

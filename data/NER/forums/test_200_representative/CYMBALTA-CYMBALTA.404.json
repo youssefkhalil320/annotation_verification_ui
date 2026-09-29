@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -21,21 +20,19 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 10,
-          "char_end": 20,
+          "char_end": 15,
           "turn_id": null
         }
       ],
-      "text": "chemo drug",
+      "text": "chemo",
       "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 25,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 46,
@@ -68,7 +64,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 59,
@@ -82,40 +77,19 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 77,
-          "char_end": 87,
-          "turn_id": null
-        },
-        {
-          "char_start": 106,
           "char_end": 113,
           "turn_id": null
         }
       ],
-      "text": "difficulty walking",
+      "text": "difficulty wearing shoes and walking",
       "id": "e6"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 77,
-          "char_end": 101,
-          "turn_id": null
-        }
-      ],
-      "text": "difficulty wearing shoes",
-      "id": "e7"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 126,
@@ -124,12 +98,11 @@
         }
       ],
       "text": "accupuncture",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 181,
@@ -138,12 +111,11 @@
         }
       ],
       "text": "pain",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 191,
@@ -152,7 +124,7 @@
         }
       ],
       "text": "tingling",
-      "id": "e10"
+      "id": "e9"
     }
   ]
 }

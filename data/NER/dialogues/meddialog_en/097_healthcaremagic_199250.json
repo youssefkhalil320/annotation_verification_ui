@@ -1,0 +1,377 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:199250:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] HelloI have a lack of libido and don't get erection easily. And I tend to lose it during sex. The other thing is I noticed that I started to lose sensation in my penis. This has been on going for almost a month now. Every time I get erection I feel bloated and big pressure in my stomach that I feel pressing on my abdomen making me lose the erection. I am constipated and bloated all the time. The problem started with a pain in my lower back - which I still have but its subsiding, and pain in my testicles that keeps shifting from one side to another ( I still have). I saw a urologist, he performed ultrasound on my testicles and said everything is alright. He said It's probably a pinched nerve in my back. I am taking 800 mg ibuprofen, and I have black stool. My question is: 1- Is the erection problem related to the pinched nerve in my back  because I might have a Pudendal Nerve Entrapment as I read online?2- or is it because I might have gastrointestinal bleeding because of taking 800 mg ibuprofen, which I am suspecting, but no evidence except constipation, bloating , and black stool?3- or it other problems related to the prostate or kidney stones?\n[doctor] DearWe understand your concernsI went through your details. I think you are \"thinking\" too much. The three possibilities you are mentioning are far possibilities. In the first hand, you just are worried and anxious about your performance. Anxiety is showing in the stomach sensation you are mentioning. I suggest you to consult a psychologist for counseling and related therapies. You should be alright.If you still need my assistance in this regard, please use this link. http://goo.gl/aYW2pR. Please remember to describe the whole problem with full detail.Hope this answers your query. Available for further clarifications.Good luck.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 38,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lack of libido",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 177,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lose sensation in my penis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 266,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloated",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 297,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pressure in my stomach",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 343,
+          "char_end": 360,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lose the erection",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 367,
+          "char_end": 378,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipated",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloated",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 432,
+          "char_end": 453,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my lower back",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 498,
+          "char_end": 518,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my testicles",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 613,
+          "char_end": 639,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ultrasound on my testicles",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 696,
+          "char_end": 720,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pinched nerve in my back",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 734,
+          "char_end": 740,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "800 mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 741,
+          "char_end": 750,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 763,
+          "char_end": 774,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "black stool",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 802,
+          "char_end": 818,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "erection problem",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 834,
+          "char_end": 858,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pinched nerve in my back",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 883,
+          "char_end": 908,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pudendal Nerve Entrapment",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 959,
+          "char_end": 984,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gastrointestinal bleeding",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1003,
+          "char_end": 1009,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "800 mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1010,
+          "char_end": 1019,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1079,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1081,
+          "char_end": 1089,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloating",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1096,
+          "char_end": 1107,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "black stool",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1159,
+          "char_end": 1172,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kidney stones",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1378,
+          "char_end": 1385,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "worried",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1390,
+          "char_end": 1397,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1404,
+          "char_end": 1420,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxious your performance",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1422,
+          "char_end": 1429,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1530,
+          "char_end": 1540,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "counseling",
+      "id": "e28"
+    }
+  ]
+}

@@ -1,0 +1,983 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15252109-DS-18:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins / Aspirin / Iodine / Sulfa (Sulfonamide Antibiotics)\n\nChief Complaint:\nEpilepsy\n\nHistory of Present Illness:\nHPI: Ms. ___ is a ___ yo ambidextrous female with\nbipolar disorder, ADD, anxiety, migraines, and (according to \n___)\nknown medical non-adherence who is admitted for further\ncharacterization of spells of unclear etiology. \n\nIn terms of her developmental history, she was born at normal\ngestational age by vaginal delivery without any complications.\nShe states that her sister reports that she remembers being very\njealous when Ms. ___ came home 1 day old from the hospital.\nThe sister told her that she shook Ms. ___ head, and Ms.\n___ believes that this caused head trauma with potential\npermanent neurologic sequelae. \n\nShe has a long history of strange spells, since she was ___ years\nold. When she was ___ years old, mother noted that she would have\nblank, staring spells. She does not know how long they would \nlast\nor how many times per day they would occur. She also notes she\nwould often have shaking along with the blank stares, but cannot\ncharacterize what part of her body or the kind of shaking that\nshe would have. \n\nThe next major event she recalls is when she was ___ years old.\nShe was at ___ class when she suddenly felt a rising \nsensation\nout of her body, and then she does not remember any further\nevents. Her classmates told her that she suddenly gripped onto\nher typewriter very tightly, stood up, and then fell straight\nforward and hit her head. They noted that she was shaking all of\nher limbs, and did not note any frothing at the mouth or eye\nmovements in any particular direction. However, she also states\nthat they were very scared and were not analyzing her movements.\nShe was hospitalized for four months at that time and treated by\nvarious neurologists with medications, including carbamazepine\nand lithium. \n\nShe is very unclear about the history between when she was ___\nyears and ___ years prior to admission. She states that she really\ndoesn't remember. She states she was tried on every \"crappy\" AED\nmedication, with varying efficacy, but that they were not as\nsevere as the seizure she had when she was ___ years old. She\nstill had shaking, with loss of consciousness, but does not \nthink\nshe was falling and hitting her head as much. \n\nShe is more clear about her history during the last ___ years.\nShe endorses that spells have become more frequent (14+ ED\nadmissions, at least 2 seizures per month, although none in the\nlast ___ months). She also endorses that the seizures have \nbecome\nmore dramatic. Before the event begins, she has a sense it is\nabout to happen. She states she has religious visions, sees \n___\nwings in the sky, has a sensation of rising out of her body,\nsmells rubbery burning scents, sees black and white flashing in\nall visual fields, followed by black and white pieces of puzzles\nin her vision. She states that her seizures themselves are more\ndramatic because she is falling down backward, hitting her head\nrepeatedly, \"pissing and shitting myself,\" and biting her cheek.\nShe feels like she is very debilitated by these seizures and\ncannot do any of the activities she enjoys. \n\nShe also notes that these seizures seem to be leaving permanent\nneurologic deficits. Her new baseline is a difficulty with word\nfinding, a tremor in her R hand when she stretches out her hand,\ndifficulty with short-term memory. \n\nShe thinks lack of sleep, anxiety, and hunger can predispose her\nto seizures, but doesn't think there is a clear correlation\nbecause sometimes she is very well and happy and will have an\nevent.\n\nIn the setting of these events, she was seen by Dr. ___ \n___\nat the end of ___. He recommended inpatient continuous EEG\nmonitoring for further characterization of these events, as\nfurther decisions about her AED medications will be made based\nupon the results. \n\nOtherwise, her neuro ROS is notable for whitish cloud in her\nvision in both eyes (she says she knows she doesn't have\ncataracts, but has whitish vision), slower understanding of\nspeech, weakness and tremor in her R arm that interferes with \nher\nartistic activities. \n\nGeneral ROS other negative.\n\nBrief Hospital Course:\nMs. ___ is a ___ yo ambidextrous female with bipolar \ndisorder, ADD, anxiety, migraines, and (according to OMR) known \nmedical non-adherence who is admitted for event characterization \nand medication titration. Her seizures may represent secondarily \ngeneralized seizures. The hyper-religiosity may suggest temporal \nlobe localization. While in the hospital carbamazepine was \nstopped and she was kept on EEG to note any changes. There were \nno abnormalities on EEG. Also, she had one abnormal event with \nno EEG correlate. On ___ she was started on Lacosamide \n(Vimpat). Psychiatry evaluated her and made no new \nrecommendations regarding medications. We recommended to follow \nup with psychiatry as previously scheduled and with Epilepsy \nclinic on ___ at 10AM.\n\nPatient to continue on Lacosamide 100 mg BID.\n\nDischarge Diagnosis:\nEpilepsy\nBipolar Disorder",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 49,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide Antibiotics",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "Epilepsy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 198,
+          "turn_id": null
+        }
+      ],
+      "text": "bipolar disorder",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 200,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "ADD",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 214,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "migraines",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 276,
+          "turn_id": null
+        }
+      ],
+      "text": "medical non-adherence",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 331,
+          "turn_id": null
+        }
+      ],
+      "text": "spells",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 703,
+          "turn_id": null
+        }
+      ],
+      "text": "head trauma",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 792,
+          "turn_id": null
+        }
+      ],
+      "text": "strange spells",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 884,
+          "char_end": 905,
+          "turn_id": null
+        }
+      ],
+      "text": "blank, staring spells",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1031,
+          "char_end": 1038,
+          "turn_id": null
+        }
+      ],
+      "text": "shaking",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1054,
+          "char_end": 1066,
+          "turn_id": null
+        }
+      ],
+      "text": "blank stares",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1129,
+          "char_end": 1136,
+          "turn_id": null
+        }
+      ],
+      "text": "shaking",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1270,
+          "char_end": 1303,
+          "turn_id": null
+        }
+      ],
+      "text": "rising \nsensation\nout of her body",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1523,
+          "char_end": 1547,
+          "turn_id": null
+        }
+      ],
+      "text": "shaking all of\nher limbs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1591,
+          "turn_id": null
+        }
+      ],
+      "text": "frothing at the mouth",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1595,
+          "char_end": 1636,
+          "turn_id": null
+        }
+      ],
+      "text": "eye\nmovements in any particular direction",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1842,
+          "char_end": 1855,
+          "turn_id": null
+        }
+      ],
+      "text": "carbamazepine",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1860,
+          "char_end": 1867,
+          "turn_id": null
+        }
+      ],
+      "text": "lithium",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2062,
+          "char_end": 2065,
+          "turn_id": null
+        }
+      ],
+      "text": "AED",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2141,
+          "char_end": 2148,
+          "turn_id": null
+        }
+      ],
+      "text": "seizure",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2213,
+          "char_end": 2234,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of consciousness",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2449,
+          "char_end": 2457,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2535,
+          "char_end": 2543,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2655,
+          "char_end": 2672,
+          "turn_id": null
+        }
+      ],
+      "text": "religious visions",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2674,
+          "char_end": 2700,
+          "turn_id": null
+        }
+      ],
+      "text": "sees \n___\nwings in the sky",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2708,
+          "char_end": 2743,
+          "turn_id": null
+        }
+      ],
+      "text": "sensation of rising out of her body",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2745,
+          "char_end": 2774,
+          "turn_id": null
+        }
+      ],
+      "text": "smells rubbery burning scents",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2776,
+          "char_end": 2826,
+          "turn_id": null
+        }
+      ],
+      "text": "sees black and white flashing in\nall visual fields",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2840,
+          "char_end": 2887,
+          "turn_id": null
+        }
+      ],
+      "text": "black and white pieces of puzzles\nin her vision",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2909,
+          "char_end": 2917,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3015,
+          "char_end": 3022,
+          "turn_id": null
+        }
+      ],
+      "text": "pissing",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3027,
+          "char_end": 3042,
+          "turn_id": null
+        }
+      ],
+      "text": "shitting myself",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3049,
+          "char_end": 3065,
+          "turn_id": null
+        }
+      ],
+      "text": "biting her cheek",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3115,
+          "char_end": 3123,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3200,
+          "char_end": 3208,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3281,
+          "char_end": 3309,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty with word\nfinding",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3313,
+          "char_end": 3333,
+          "turn_id": null
+        }
+      ],
+      "text": "tremor in her R hand",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3367,
+          "char_end": 3400,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty with short-term memory",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3415,
+          "char_end": 3428,
+          "turn_id": null
+        }
+      ],
+      "text": "lack of sleep",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3430,
+          "char_end": 3437,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3472,
+          "char_end": 3480,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3704,
+          "char_end": 3729,
+          "turn_id": null
+        }
+      ],
+      "text": "continuous EEG\nmonitoring",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3807,
+          "char_end": 3810,
+          "turn_id": null
+        }
+      ],
+      "text": "AED",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3902,
+          "char_end": 3942,
+          "turn_id": null
+        }
+      ],
+      "text": "whitish cloud in her\nvision in both eyes",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3980,
+          "char_end": 3989,
+          "turn_id": null
+        }
+      ],
+      "text": "cataracts",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3999,
+          "char_end": 4013,
+          "turn_id": null
+        }
+      ],
+      "text": "whitish vision",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4016,
+          "char_end": 4046,
+          "turn_id": null
+        }
+      ],
+      "text": "slower understanding of\nspeech",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4048,
+          "char_end": 4056,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4061,
+          "char_end": 4080,
+          "turn_id": null
+        }
+      ],
+      "text": "tremor in her R arm",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4227,
+          "char_end": 4244,
+          "turn_id": null
+        }
+      ],
+      "text": "bipolar \ndisorder",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4246,
+          "char_end": 4249,
+          "turn_id": null
+        }
+      ],
+      "text": "ADD",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4251,
+          "char_end": 4258,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4260,
+          "char_end": 4269,
+          "turn_id": null
+        }
+      ],
+      "text": "migraines",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 4301,
+          "char_end": 4322,
+          "turn_id": null
+        }
+      ],
+      "text": "medical non-adherence",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4420,
+          "char_end": 4453,
+          "turn_id": null
+        }
+      ],
+      "text": "secondarily \ngeneralized seizures",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4459,
+          "char_end": 4476,
+          "turn_id": null
+        }
+      ],
+      "text": "hyper-religiosity",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4540,
+          "char_end": 4553,
+          "turn_id": null
+        }
+      ],
+      "text": "carbamazepine",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4587,
+          "char_end": 4590,
+          "turn_id": null
+        }
+      ],
+      "text": "EEG",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4644,
+          "char_end": 4647,
+          "turn_id": null
+        }
+      ],
+      "text": "EEG",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4667,
+          "char_end": 4681,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal event",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4691,
+          "char_end": 4694,
+          "turn_id": null
+        }
+      ],
+      "text": "EEG",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4732,
+          "char_end": 4742,
+          "turn_id": null
+        }
+      ],
+      "text": "Lacosamide",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4745,
+          "char_end": 4751,
+          "turn_id": null
+        }
+      ],
+      "text": "Vimpat",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4913,
+          "char_end": 4921,
+          "turn_id": null
+        }
+      ],
+      "text": "Epilepsy",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4970,
+          "char_end": 4980,
+          "turn_id": null
+        }
+      ],
+      "text": "Lacosamide",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4981,
+          "char_end": 4987,
+          "turn_id": null
+        }
+      ],
+      "text": "100 mg",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4988,
+          "char_end": 4991,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5015,
+          "char_end": 5023,
+          "turn_id": null
+        }
+      ],
+      "text": "Epilepsy",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 5024,
+          "char_end": 5040,
+          "turn_id": null
+        }
+      ],
+      "text": "Bipolar Disorder",
+      "id": "e75"
+    }
+  ]
+}

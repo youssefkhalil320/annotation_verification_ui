@@ -1,0 +1,1373 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19122441-DS-7:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nIV Dye, Iodine Containing Contrast Media\n\nChief Complaint:\nSyncope\n\nHistory of Present Illness:\nMr. ___ is an ___ y/o man with PMH notable for HTN, prior h/o \nsyncope ___ URI, remove h/o post-operative pAF triggering volume \noverload/?CHF exacerbation with spontaneous conversion and no \nrecurrence of symptoms, admitted as transfer from OSH for \nepisode of syncope.\n\nPer patient, he was at mass a few days PTA and feeling \ncompletely fine. He all of a sudden was noted to blank out by \nhis wife and daughter. He does endorse losing consciousness, \napparently only for seconds to a minute. No headstrike as he \nleaned over to the side on his wife. He denies any preceding sx \nof SOB, chest pain/pressure, palpitations, LH, vision changes, \nflushing of the face, N/V, or abdominal discomfort. He does have \nrecently increased emotional stress as he has been tasked with \nmanaging the difficult task of his sister-in-law's finances with \nthe ___. He otherwise has been in his normal health, quite \nfunctional without any significant limitations in ADLs or IADLs.\n\nPer report and corroborated by the patient's wife, ___, \npresent during the interview, Mr. ___ did grab at his chest \nduring this episode. Afterwards, he came to quite quickly \nwithout any lingering confusion or disorientation. His wife did \nnot think he had any facial droop or slurring of his words \neither before or after the event. The patient also felt at his \nbaseline following this episode. He did not have any bowel or \nbladder incontinence. No tongue bite. EMS was called and per \nreport, he was found to be in aflutter with 4:1 conduction \nwithout ischemic EKG changes.\n\nHe was brought to ___, where he had normal \nVS, normal CBC and Chem10 as well as negative troponins x3. He \nwas started on Eliquis there (received 2 doses) for stroke ppx \nand per discussion with Dr. ___ here at ___, he was \ntransferred for further care.\n\nOn arrival, the patient feels completely fine. He denies any sx \nof recent fevers, chills, changes in diet, SOB, cough, N/V, \nabdominal pain, diarrhea, increased ___ swelling, orthopnea \n(sleeps on just 1 pillow), no PND. He also denies any \npalpitations at the moment or chest pain/pressure. Denies any LH \nand states that he has been eating quite well recently.\n\nBrief Hospital Course:\nMr. ___ is an ___ y/o man with PMH notable for HTN and remote \nepisode of spontaneously resolving AF I/s/o SBO c/b heart \nfailure symptoms, admitted with syncopal episode and new atrial \nflutter.\n\n- CORONARIES: No cath on file\n- PUMP: LVEF 55% (___)\n- RHYTHM: atrial flutter (4:1 conduction) on admission\n\n# Syncope: The patient presented primarily due to symptoms of \nsyncope. He was monitored on telemetry that showed atrial \nflutter with 4:1 conduction with no pauses greater than two \nseconds. Negative orthostatics. He remained euglycemic. During \nadmission he tolerated aflutter and has not demonstrated any \nmore malignant arrhythmias or significant pauses. Atrial flutter \nmanaged as below.\n\n# New Atrial Flutter: the patient presented in new aflutter with \nRBBB-morphology IVCD that is new compared to prior ECG as \nrecently as 6 months prior to admission. He remained \nhemodynamically stable in this rhythm and not symptomatic during \nthe admission. No evidence of ischemia or heart failure. No sx \nof palpitations from the rhythm itself during the admission. On \nlabetalol for rate control and no anticoagulation at home. He \nwas started on eliquis prior to transfer. He was briefly placed \non heparin drip then eliquis was restarted. Labetolol was held \nprior to EP study. TEE performed with no evidence of left atrial \nor left atrial appendage thrombus. He went for EP study and \nablation. He was found to have typical right sided atrial \nflutter that was successfully ablated without complications. \nThere was NO conversion pause upon flutter termination. HV \ninterval was normal. No arrhythmias were inducible with atrial \nstimulation or single ventricular extrastimuli from the RV \nmidseptum. Labetolol was stopped. Eliquis continued.\n\nTransitional Issues\n===================\n#NEW MEDICATIONS: Apixaban 5mg BID\n#CHANGED MEDICATIONS: none\n#STOPPED MEDICATIONS: labetalol\n\n[] Please arrange follow up with electrophysiology (with Dr. \n___\n[] Monitor heart rate and rhythm for presence of atrial \nfibrillation. Consider adding back rate control agent if needed\n[] ensure cardiac event monitoring is performed as outpatient\nCode: Full\nContact: ___ (Wife) - ___\n\nDischarge Diagnosis:\nPrimary:\nAtrial Flutter\nSyncope\n\nSecondary:\nHypertension",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "IV Dye",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodine Containing Contrast Media",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 70,
+          "char_end": 77,
+          "turn_id": null
+        }
+      ],
+      "text": "Syncope",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 177,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "pAF",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 228,
+          "char_end": 244,
+          "turn_id": null
+        }
+      ],
+      "text": "volume \noverload",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 262,
+          "turn_id": null
+        }
+      ],
+      "text": "CHF exacerbation",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 369,
+          "char_end": 376,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 484,
+          "char_end": 493,
+          "turn_id": null
+        }
+      ],
+      "text": "blank out",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 557,
+          "turn_id": null
+        }
+      ],
+      "text": "losing consciousness",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 693,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 695,
+          "char_end": 714,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain/pressure",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 716,
+          "char_end": 728,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 730,
+          "char_end": 732,
+          "turn_id": null
+        }
+      ],
+      "text": "LH",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 734,
+          "char_end": 748,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 751,
+          "char_end": 771,
+          "turn_id": null
+        }
+      ],
+      "text": "flushing of the face",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 773,
+          "char_end": 776,
+          "turn_id": null
+        }
+      ],
+      "text": "N/V",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 801,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal discomfort",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 836,
+          "char_end": 852,
+          "turn_id": null
+        }
+      ],
+      "text": "emotional stress",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1272,
+          "char_end": 1281,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1285,
+          "char_end": 1299,
+          "turn_id": null
+        }
+      ],
+      "text": "disorientation",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1336,
+          "char_end": 1348,
+          "turn_id": null
+        }
+      ],
+      "text": "facial droop",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1352,
+          "char_end": 1373,
+          "turn_id": null
+        }
+      ],
+      "text": "slurring of his words",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1502,
+          "char_end": 1522,
+          "turn_id": null
+        }
+      ],
+      "text": "bladder incontinence",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1538,
+          "turn_id": null
+        }
+      ],
+      "text": "tongue bite",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1602,
+          "turn_id": null
+        }
+      ],
+      "text": "aflutter",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1608,
+          "char_end": 1622,
+          "turn_id": null
+        }
+      ],
+      "text": "4:1 conduction",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1632,
+          "char_end": 1652,
+          "turn_id": null
+        }
+      ],
+      "text": "ischemic EKG changes",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1644,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1710,
+          "char_end": 1713,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1724,
+          "turn_id": null
+        }
+      ],
+      "text": "Chem10",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1745,
+          "char_end": 1754,
+          "turn_id": null
+        }
+      ],
+      "text": "troponins",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1778,
+          "char_end": 1785,
+          "turn_id": null
+        }
+      ],
+      "text": "Eliquis",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1815,
+          "char_end": 1821,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1986,
+          "char_end": 1992,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1994,
+          "char_end": 2000,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2019,
+          "char_end": 2022,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2024,
+          "char_end": 2029,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2031,
+          "char_end": 2034,
+          "turn_id": null
+        }
+      ],
+      "text": "N/V",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2037,
+          "char_end": 2051,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2053,
+          "char_end": 2061,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2077,
+          "char_end": 2085,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2087,
+          "char_end": 2096,
+          "turn_id": null
+        }
+      ],
+      "text": "orthopnea",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2128,
+          "char_end": 2131,
+          "turn_id": null
+        }
+      ],
+      "text": "PND",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2165,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2183,
+          "char_end": 2202,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain/pressure",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2215,
+          "char_end": 2217,
+          "turn_id": null
+        }
+      ],
+      "text": "LH",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2346,
+          "char_end": 2349,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2406,
+          "char_end": 2409,
+          "turn_id": null
+        }
+      ],
+      "text": "SBO",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2414,
+          "char_end": 2428,
+          "turn_id": null
+        }
+      ],
+      "text": "heart \nfailure",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2453,
+          "char_end": 2469,
+          "turn_id": null
+        }
+      ],
+      "text": "syncopal episode",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2478,
+          "char_end": 2493,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nflutter",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2513,
+          "char_end": 2517,
+          "turn_id": null
+        }
+      ],
+      "text": "cath",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2559,
+          "char_end": 2573,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial flutter",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2575,
+          "char_end": 2589,
+          "turn_id": null
+        }
+      ],
+      "text": "4:1 conduction",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2607,
+          "char_end": 2614,
+          "turn_id": null
+        }
+      ],
+      "text": "Syncope",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2668,
+          "char_end": 2675,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2697,
+          "char_end": 2706,
+          "turn_id": null
+        }
+      ],
+      "text": "telemetry",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2719,
+          "char_end": 2734,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nflutter",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2740,
+          "char_end": 2754,
+          "turn_id": null
+        }
+      ],
+      "text": "4:1 conduction",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2763,
+          "char_end": 2769,
+          "turn_id": null
+        }
+      ],
+      "text": "pauses",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2806,
+          "char_end": 2818,
+          "turn_id": null
+        }
+      ],
+      "text": "orthostatics",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2875,
+          "char_end": 2883,
+          "turn_id": null
+        }
+      ],
+      "text": "aflutter",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2929,
+          "char_end": 2940,
+          "turn_id": null
+        }
+      ],
+      "text": "arrhythmias",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2956,
+          "char_end": 2962,
+          "turn_id": null
+        }
+      ],
+      "text": "pauses",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2964,
+          "char_end": 2978,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial flutter",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3005,
+          "char_end": 3019,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial Flutter",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3050,
+          "char_end": 3058,
+          "turn_id": null
+        }
+      ],
+      "text": "aflutter",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3065,
+          "char_end": 3085,
+          "turn_id": null
+        }
+      ],
+      "text": "RBBB-morphology IVCD",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3116,
+          "char_end": 3119,
+          "turn_id": null
+        }
+      ],
+      "text": "ECG",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3274,
+          "char_end": 3282,
+          "turn_id": null
+        }
+      ],
+      "text": "ischemia",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3286,
+          "char_end": 3299,
+          "turn_id": null
+        }
+      ],
+      "text": "heart failure",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3311,
+          "char_end": 3323,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3373,
+          "char_end": 3382,
+          "turn_id": null
+        }
+      ],
+      "text": "labetalol",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3451,
+          "char_end": 3458,
+          "turn_id": null
+        }
+      ],
+      "text": "eliquis",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3504,
+          "char_end": 3511,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 3512,
+          "char_end": 3516,
+          "turn_id": null
+        }
+      ],
+      "text": "drip",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3522,
+          "char_end": 3529,
+          "turn_id": null
+        }
+      ],
+      "text": "eliquis",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3545,
+          "char_end": 3554,
+          "turn_id": null
+        }
+      ],
+      "text": "Labetolol",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3574,
+          "char_end": 3582,
+          "turn_id": null
+        }
+      ],
+      "text": "EP study",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3584,
+          "char_end": 3587,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3634,
+          "char_end": 3664,
+          "turn_id": null
+        }
+      ],
+      "text": "left atrial appendage thrombus",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3678,
+          "char_end": 3686,
+          "turn_id": null
+        }
+      ],
+      "text": "EP study",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3692,
+          "char_end": 3700,
+          "turn_id": null
+        }
+      ],
+      "text": "ablation",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3723,
+          "char_end": 3758,
+          "turn_id": null
+        }
+      ],
+      "text": "typical right sided atrial \nflutter",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3781,
+          "char_end": 3788,
+          "turn_id": null
+        }
+      ],
+      "text": "ablated",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3826,
+          "char_end": 3842,
+          "turn_id": null
+        }
+      ],
+      "text": "conversion pause",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3869,
+          "char_end": 3881,
+          "turn_id": null
+        }
+      ],
+      "text": "HV \ninterval",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3897,
+          "char_end": 3908,
+          "turn_id": null
+        }
+      ],
+      "text": "arrhythmias",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3929,
+          "char_end": 3948,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nstimulation",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3952,
+          "char_end": 3983,
+          "turn_id": null
+        }
+      ],
+      "text": "single ventricular extrastimuli",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4008,
+          "char_end": 4017,
+          "turn_id": null
+        }
+      ],
+      "text": "Labetolol",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4031,
+          "char_end": 4038,
+          "turn_id": null
+        }
+      ],
+      "text": "Eliquis",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4109,
+          "char_end": 4117,
+          "turn_id": null
+        }
+      ],
+      "text": "Apixaban",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4118,
+          "char_end": 4121,
+          "turn_id": null
+        }
+      ],
+      "text": "5mg",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4122,
+          "char_end": 4125,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4175,
+          "char_end": 4184,
+          "turn_id": null
+        }
+      ],
+      "text": "labetalol",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4255,
+          "char_end": 4284,
+          "turn_id": null
+        }
+      ],
+      "text": "Monitor heart rate and rhythm",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4301,
+          "char_end": 4321,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nfibrillation",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4383,
+          "char_end": 4407,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac event monitoring",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4503,
+          "char_end": 4517,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial Flutter",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4518,
+          "char_end": 4525,
+          "turn_id": null
+        }
+      ],
+      "text": "Syncope",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4538,
+          "char_end": 4550,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e105"
+    }
+  ]
+}

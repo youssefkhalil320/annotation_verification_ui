@@ -1,0 +1,1703 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11921391-DS-16:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNaprosyn / Metoprolol / Nsaids / Verapamil / Sulfa \n(Sulfonamides)\n\nChief Complaint:\nFevers\n\nHistory of Present Illness:\n___ yo F w/PMHx sx for UGBI, diastolic CHF, CAD, COPD, hx \nfrequent UTIs who is admitted with nausea, vomiting, and fevers \nto 101. Patient was recently started on ciprofloxacin for a UTI, \nand is completing her five day course today. When she developed \nthe fevers to 101, she took tylenol and presented to the ED. She \nhad associated nausea and vomiting, NBNB. She has chronic \ndiarrhea and constipation. She denies chest pain, SOB. She has \nno sick contacts, no recent travel, no changes in her \nmedications other than the ciprofloxacin she has been taking. \nOtherwise she feels well. She currently feels hungry and \nthirsty. She notes urinary frequency, but states that this is \nher baseline. She denies dysuria or odor to her urine. She also \nnotes myalgias. \n.\nIn the ED, she received ceftriaxone. Her UA was negative. She is \nadmitted to medicine for management. \n.\nROS:\n-Constitutional: []WNL []Weight loss []Fatigue/Malaise [x]Fever \n[x]Chills/Rigors []Nightweats []Anorexia\n-Eyes: [x]WNL []Blurry Vision []Diplopia []Loss of Vision \n[]Photophobia\n-ENT: [x]WNL []Dry Mouth []Oral ulcers []Bleeding gums/nose \n[]Tinnitus []Sinus pain []Sore throat\n-Cardiac: [x]WNL []Chest pain []Palpitations ___ edema \n[]Orthopnea/PND []DOE\n-Respiratory: [x]WNL []SOB []Pleuritic pain []Hemoptysis []Cough\n-Gastrointestinal: []WNL [x]Nausea [x]Vomiting []Abdominal pain \n[]Abdominal Swelling [x]Diarrhea [x]Constipation []Hematemesis \n[]Hematochezia []Melena\n-Heme/Lymph: [x]WNL []Bleeding []Bruising []Lymphadenopathy\n-GU: []WNL [x]Incontinence/Retention []Dysuria []Hematuria \n[]DIscharge []Menorrhagia\n-Skin: [x]WNL []Rash []Pruritus\n-Endocrine: [x]WNL []Change in skin/hair []Loss of energy \n[]Heat/Cold intolerance\n-Musculoskeletal: [ ]WNL [x]Myalgias []Arthralgias []Back pain\n-Neurological: [x] WNL []Numbness of extremities []Weakness of \nextremities []Parasthesias []Dizziness/Lightheaded []Vertigo \n[]Confusion []Headache\n-Psychiatric: [x]WNL []Depression []Suicidal Ideation\n-Allergy/Immunological: [x] WNL []Seasonal Allergies\n\nBrief Hospital Course:\nThis is a ___ yo F with a history of chronic diastolic CHF, CAD, \nCOPD, h/o frequent UTIs, admitted with fever, nausea and \nvomiting.\n\n#Viral gastroenteritis - resolved with supportive care\n\n#Acute on Chronic Diastolic CHF: This patient has severe \ndiastolic heart failure. In order to achieve adequate diuresis, \nshe required 100-150 mg of IV lasix BID, 5 mg of Metolazone, and \n25 mg of spironolactone. 4 liters were removed over a 3 day \nperiod, but this became increasingly ineffective, and her \ncreatinine increased from 1.4 to 1.7. She remains hypoxic \nsecondary to unresolved interstitial pulmonary edema. Her \ntherapy will have to be further titrated with these limitations \nin mind.\n\n#Delirium:  Multifactorial and likely related to narcotics and \nacute incurrent illness, ressolved\n\n#Peripheral Neuropathy: Difficult to control. The family was \nconcerned that the long-acting oxycontin was contributing to her \ndelirium, which is possible, but she was in fact taking more \nthan 20 mg /day of oxycodone. The daughter preferred that we add \nneurotin 300 q AM, and stopped oxycontin\n\n#DM II - stable\n\n.\n\nDischarge Diagnosis:\nPrimary:\nViral gastroenteritis\nAcute on chronic diastolic heart failure\nDelirium\n.\nSecondary:\nchronic obstructive pulmonary disease\nDiabetes Mellitus type II\nCoronary artery disease",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Naprosyn",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Metoprolol",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "Nsaids",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "Verapamil",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 61,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 76,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamides",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "Fevers",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 159,
+          "turn_id": null
+        }
+      ],
+      "text": "UGBI",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "diastolic CHF",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 204,
+          "turn_id": null
+        }
+      ],
+      "text": "frequent UTIs",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 232,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 242,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 248,
+          "char_end": 254,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 309,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 359,
+          "turn_id": null
+        }
+      ],
+      "text": "five day course",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 397,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 422,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 468,
+          "char_end": 474,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 487,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 512,
+          "char_end": 520,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 525,
+          "char_end": 537,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 560,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 562,
+          "char_end": 565,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 671,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 771,
+          "char_end": 788,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary frequency",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 840,
+          "char_end": 847,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 851,
+          "char_end": 868,
+          "turn_id": null
+        }
+      ],
+      "text": "odor to her urine",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 894,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 934,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 942,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1035,
+          "char_end": 1046,
+          "turn_id": null
+        }
+      ],
+      "text": "Weight loss",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1049,
+          "char_end": 1064,
+          "turn_id": null
+        }
+      ],
+      "text": "Fatigue/Malaise",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1078,
+          "char_end": 1091,
+          "turn_id": null
+        }
+      ],
+      "text": "Chills/Rigors",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "Nightweats",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1107,
+          "char_end": 1115,
+          "turn_id": null
+        }
+      ],
+      "text": "Anorexia",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1145,
+          "turn_id": null
+        }
+      ],
+      "text": "Blurry Vision",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1156,
+          "turn_id": null
+        }
+      ],
+      "text": "Diplopia",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1159,
+          "char_end": 1173,
+          "turn_id": null
+        }
+      ],
+      "text": "Loss of Vision",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1177,
+          "char_end": 1188,
+          "turn_id": null
+        }
+      ],
+      "text": "Photophobia",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1204,
+          "char_end": 1213,
+          "turn_id": null
+        }
+      ],
+      "text": "Dry Mouth",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1216,
+          "char_end": 1227,
+          "turn_id": null
+        }
+      ],
+      "text": "Oral ulcers",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1230,
+          "char_end": 1248,
+          "turn_id": null
+        }
+      ],
+      "text": "Bleeding gums/nose",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1252,
+          "char_end": 1260,
+          "turn_id": null
+        }
+      ],
+      "text": "Tinnitus",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "Sinus pain",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1276,
+          "char_end": 1287,
+          "turn_id": null
+        }
+      ],
+      "text": "Sore throat",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1307,
+          "char_end": 1317,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1332,
+          "turn_id": null
+        }
+      ],
+      "text": "Palpitations",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1337,
+          "char_end": 1342,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1346,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "Orthopnea/PND",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1362,
+          "char_end": 1365,
+          "turn_id": null
+        }
+      ],
+      "text": "DOE",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1392,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1395,
+          "char_end": 1409,
+          "turn_id": null
+        }
+      ],
+      "text": "Pleuritic pain",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1412,
+          "char_end": 1422,
+          "turn_id": null
+        }
+      ],
+      "text": "Hemoptysis",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1425,
+          "char_end": 1430,
+          "turn_id": null
+        }
+      ],
+      "text": "Cough",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1465,
+          "turn_id": null
+        }
+      ],
+      "text": "Nausea",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1469,
+          "char_end": 1477,
+          "turn_id": null
+        }
+      ],
+      "text": "Vomiting",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1480,
+          "char_end": 1494,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal pain",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1498,
+          "char_end": 1516,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal Swelling",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1520,
+          "char_end": 1528,
+          "turn_id": null
+        }
+      ],
+      "text": "Diarrhea",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1532,
+          "char_end": 1544,
+          "turn_id": null
+        }
+      ],
+      "text": "Constipation",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1547,
+          "char_end": 1558,
+          "turn_id": null
+        }
+      ],
+      "text": "Hematemesis",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1562,
+          "char_end": 1574,
+          "turn_id": null
+        }
+      ],
+      "text": "Hematochezia",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1577,
+          "char_end": 1583,
+          "turn_id": null
+        }
+      ],
+      "text": "Melena",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1617,
+          "char_end": 1625,
+          "turn_id": null
+        }
+      ],
+      "text": "Bruising",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1628,
+          "char_end": 1643,
+          "turn_id": null
+        }
+      ],
+      "text": "Lymphadenopathy",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1658,
+          "char_end": 1670,
+          "turn_id": null
+        }
+      ],
+      "text": "Incontinence",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1671,
+          "char_end": 1680,
+          "turn_id": null
+        }
+      ],
+      "text": "Retention",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1683,
+          "char_end": 1690,
+          "turn_id": null
+        }
+      ],
+      "text": "Dysuria",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1693,
+          "char_end": 1702,
+          "turn_id": null
+        }
+      ],
+      "text": "Hematuria",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1706,
+          "char_end": 1715,
+          "turn_id": null
+        }
+      ],
+      "text": "DIscharge",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1729,
+          "turn_id": null
+        }
+      ],
+      "text": "Menorrhagia",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1746,
+          "char_end": 1750,
+          "turn_id": null
+        }
+      ],
+      "text": "Rash",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1753,
+          "char_end": 1761,
+          "turn_id": null
+        }
+      ],
+      "text": "Pruritus",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1783,
+          "char_end": 1802,
+          "turn_id": null
+        }
+      ],
+      "text": "Change in skin/hair",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1805,
+          "char_end": 1819,
+          "turn_id": null
+        }
+      ],
+      "text": "Loss of energy",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1823,
+          "char_end": 1844,
+          "turn_id": null
+        }
+      ],
+      "text": "Heat/Cold intolerance",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1873,
+          "char_end": 1881,
+          "turn_id": null
+        }
+      ],
+      "text": "Myalgias",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1884,
+          "char_end": 1895,
+          "turn_id": null
+        }
+      ],
+      "text": "Arthralgias",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1898,
+          "char_end": 1907,
+          "turn_id": null
+        }
+      ],
+      "text": "Back pain",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1933,
+          "char_end": 1956,
+          "turn_id": null
+        }
+      ],
+      "text": "Numbness of extremities",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1959,
+          "char_end": 1983,
+          "turn_id": null
+        }
+      ],
+      "text": "Weakness of \nextremities",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1986,
+          "char_end": 1998,
+          "turn_id": null
+        }
+      ],
+      "text": "Parasthesias",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2001,
+          "char_end": 2022,
+          "turn_id": null
+        }
+      ],
+      "text": "Dizziness/Lightheaded",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2032,
+          "turn_id": null
+        }
+      ],
+      "text": "Vertigo",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2036,
+          "char_end": 2045,
+          "turn_id": null
+        }
+      ],
+      "text": "Confusion",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2048,
+          "char_end": 2056,
+          "turn_id": null
+        }
+      ],
+      "text": "Headache",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2090,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2093,
+          "char_end": 2110,
+          "turn_id": null
+        }
+      ],
+      "text": "Suicidal Ideation",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2145,
+          "char_end": 2163,
+          "turn_id": null
+        }
+      ],
+      "text": "Seasonal Allergies",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2225,
+          "char_end": 2246,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic diastolic CHF",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2248,
+          "char_end": 2251,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2254,
+          "char_end": 2258,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2264,
+          "char_end": 2277,
+          "turn_id": null
+        }
+      ],
+      "text": "frequent UTIs",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2300,
+          "char_end": 2306,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2312,
+          "char_end": 2320,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2324,
+          "char_end": 2345,
+          "turn_id": null
+        }
+      ],
+      "text": "Viral gastroenteritis",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2380,
+          "char_end": 2410,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute on Chronic Diastolic CHF",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2437,
+          "char_end": 2460,
+          "turn_id": null
+        }
+      ],
+      "text": "diastolic heart failure",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2515,
+          "char_end": 2525,
+          "turn_id": null
+        }
+      ],
+      "text": "100-150 mg",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2529,
+          "char_end": 2531,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2532,
+          "char_end": 2537,
+          "turn_id": null
+        }
+      ],
+      "text": "lasix",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2538,
+          "char_end": 2541,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2543,
+          "char_end": 2547,
+          "turn_id": null
+        }
+      ],
+      "text": "5 mg",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2551,
+          "char_end": 2561,
+          "turn_id": null
+        }
+      ],
+      "text": "Metolazone",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2568,
+          "char_end": 2573,
+          "turn_id": null
+        }
+      ],
+      "text": "25 mg",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2577,
+          "char_end": 2591,
+          "turn_id": null
+        }
+      ],
+      "text": "spironolactone",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2688,
+          "char_end": 2698,
+          "turn_id": null
+        },
+        {
+          "char_start": 2699,
+          "char_end": 2708,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine increased",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2688,
+          "char_end": 2698,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2738,
+          "char_end": 2745,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxic",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2771,
+          "char_end": 2799,
+          "turn_id": null
+        }
+      ],
+      "text": "interstitial pulmonary edema",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2882,
+          "char_end": 2890,
+          "turn_id": null
+        }
+      ],
+      "text": "Delirium",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2930,
+          "char_end": 2939,
+          "turn_id": null
+        }
+      ],
+      "text": "narcotics",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2982,
+          "char_end": 3003,
+          "turn_id": null
+        }
+      ],
+      "text": "Peripheral Neuropathy",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3074,
+          "char_end": 3083,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycontin",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3109,
+          "char_end": 3117,
+          "turn_id": null
+        }
+      ],
+      "text": "delirium",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3176,
+          "char_end": 3181,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mg",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3182,
+          "char_end": 3186,
+          "turn_id": null
+        }
+      ],
+      "text": "/day",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3190,
+          "char_end": 3199,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycodone",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3237,
+          "char_end": 3245,
+          "turn_id": null
+        }
+      ],
+      "text": "neurotin",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3250,
+          "char_end": 3254,
+          "turn_id": null
+        }
+      ],
+      "text": "q AM",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3268,
+          "char_end": 3277,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycontin",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3280,
+          "char_end": 3285,
+          "turn_id": null
+        }
+      ],
+      "text": "DM II",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3329,
+          "char_end": 3350,
+          "turn_id": null
+        }
+      ],
+      "text": "Viral gastroenteritis",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3351,
+          "char_end": 3391,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute on chronic diastolic heart failure",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3392,
+          "char_end": 3400,
+          "turn_id": null
+        }
+      ],
+      "text": "Delirium",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3414,
+          "char_end": 3451,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic obstructive pulmonary disease",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3452,
+          "char_end": 3477,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes Mellitus type II",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3478,
+          "char_end": 3501,
+          "turn_id": null
+        }
+      ],
+      "text": "Coronary artery disease",
+      "id": "e130"
+    }
+  ]
+}

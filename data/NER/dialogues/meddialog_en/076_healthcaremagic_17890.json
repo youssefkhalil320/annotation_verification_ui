@@ -1,0 +1,424 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:17890:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello, I was told I have intra-atrial conduction delay with moderate high-lateral re polarization disturbance, consider ischemia or LV overload. Slight right-precordial repolarization disturbance, consider feminine pattern. This was on the ekg report. P/PR: 138/166 QRS: 92ms QT/QTc: 370/465 ms P/QRS/T Axis: 82/34/86 deg Heart Rate: 95 BPM I had an allergic reaction to the flu shot I was given. I believe it s from the preservative. I m not allergic to eggs. usually get rapid heart rate, high blood pressure, and chest pressure sensation. I took two 25mg Benadryl and was put on a prednisone pack. I have an appointment to see a cardiologist in two weeks. The triage doctor said I need to be careful of taking certain medications. My father passed away from a massive heart attack at 65 years old, he was also diabetic and had high blood pressure that started when he was in his early 30 s, and my mother had a 90 percent blockage about 5 years ago, she has high blood pressure, and she s borderline diabetic. So I see a cardiologist once a year because of my family s history. I have high blood pressure when I was 30 years old (I was 115 lbs so they checked my kidneys and they were normal). I was diagnosed with a slight heart murmur that is not always present, was heard when I was a teenager once, when I was pregnant, and a couple of times after I had my daughter. I m a borderline diabetic, A1C 5.7, and my cholesterol is normal. Sandra\n[doctor] Hi,  For blood pressure you can take tablet Metoprolol after consultation with cardiologist. Follow diabetic diet after dietitian consultation. For chest pain kindly do angiography after consultation.   Hope I have answered your query. Let me know if I can assist you further. Regards, Dr. Shyam B. Kale, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 64,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "intra-atrial conduction delay",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 79,
+          "char_end": 119,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high-lateral re polarization disturbance",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 138,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ischemia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 153,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "LV overload",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "right-precordial repolarization disturbance",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 253,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ekg",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 342,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Heart Rate",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 360,
+          "char_end": 377,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 393,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flu shot",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 469,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic to eggs",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 499,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rapid heart rate",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 501,
+          "char_end": 520,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 526,
+          "char_end": 550,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chest pressure sensation",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 559,
+          "char_end": 567,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "two 25mg",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 576,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 604,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 793,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart attack",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 831,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diabetic",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 840,
+          "char_end": 859,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 927,
+          "char_end": 943,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "percent blockage",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 971,
+          "char_end": 990,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1021,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "borderline diabetic",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1098,
+          "char_end": 1117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1237,
+          "char_end": 1249,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart murmur",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1390,
+          "char_end": 1409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "borderline diabetic",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1411,
+          "char_end": 1414,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "A1C",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1427,
+          "char_end": 1438,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cholesterol",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1475,
+          "char_end": 1489,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1503,
+          "char_end": 1509,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tablet",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1520,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Metoprolol",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1614,
+          "char_end": 1624,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1635,
+          "char_end": 1646,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "angiography",
+      "id": "e32"
+    }
+  ]
+}

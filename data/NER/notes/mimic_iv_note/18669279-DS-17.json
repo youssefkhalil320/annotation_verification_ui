@@ -1,0 +1,1323 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18669279-DS-17:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nfatigue, malaise, cough\n\nHistory of Present Illness:\nPt is a ___ Y F with Stage Ia carcinosarcoma of the uterus; \npT1a,N0(0 of 29 pelvic, 0 of 24 paraaortic) Mx on ___ \n(last dose ___ who presents to the ER with fatigue and fever.  \nShe has been receiving Neulasta for chemo-associated \nneutropenia, last dose ___.  For 2 days prior to admission, \nshe complained of having generalized fatigue, malaise, and \nrinorrhea with clear secretions without headache, sinus \npressure, itchy eyes, or sore throat.  The day of admission, she \nhad a mild cough which was non-productive.  She took her \ntemperature which was 100.6.  She states that her husband has \nhad a URI viral syndrome for about a month but she has had no \nother sick contacts.  She does not have any urinary symptoms, \nabdominal pain, headache or meningeal signs.  She went to the ER \nwhere her initial bp was 98/62 with HR 76.  She received a total \nof 2L IVF and bp improved to 134/74; she denied lightheadedness \nor dizziness before.  She also received Vancomycin 1g IV, \nCefepime2g, and Tylenol ___ PO.  On arrival to the floor, she \nstates that she feels about at baseline for where she has been \nfor the past 2 days. \n\nReview of Systems:  \n(+) Per HPI, constipation\n(-) Denies chills, night sweats, recent weight loss or gain. \nDenies blurry vision, diplopia, loss of vision, photophobia. \nDenies headache, sinus tenderness. Denies chest pain or \ntightness, palpitations, lower extremity edema. Denies DOE, \nshortness of breath, or wheezes. Denies nausea, vomiting, \ndiarrhea, abdominal pain, melena, hematemesis, hematochezia. \nDenies dysuria, stool or urine incontinence. Denies arthralgias \nor myalgias. Denies rashes or skin breakdown. No \nnumbness/tingling in extremities. All other systems negative.\n\nBrief Hospital Course:\nPt is a ___ Y F with Stage Ia carcinosarcoma of the uterus; \npT1a,N0(0 of 29 pelvic, 0 of 24 paraaortic) Mx on ___ \n(last dose ___ who presents to the ER with fever.\n#Fever/? early Pneumonia - Pt admitted non-neutropenic fever( \nhas not reached nadir yet).CXR showed a possible new opacity \nwhich could be pneumonia vs atelectasis.However,pt w/o a cough \n/cp/or sob. Pt was started empirically on levofloxacin to cover \na  possible CAP in a pt high risk to develop neutropenia.Blood \nand urine cultures remained sterile.\n  \n#Stage Ia carcinosarcoma of the uterus on adjuvant ___. \nPt will continue f/u with .her primary oncologist  \n#Leukocytosis -Likely from from Neulasta.  \n#Mild Hypotension(BP in the ED 98/62) with lactacemia- Resolved \nafter IVF in ER.\n#Constipation - new without complicating features, colace, \nsenna, mirilax  \n#Hypothyroidism - chronic, stable; cont Synthroid  \n#Chronic pain - chronic, stable, continue fentanyl    \n#PPx - ambulatory  \n#FULL CODE\n\nDischarge Diagnosis:\nFever\nUpper respiratory infection/Community acquired pnumonia\nUterine cancer\nHypokalemia",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "malaise",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 96,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "Stage Ia carcinosarcoma of the uterus",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 285,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 297,
+          "char_end": 302,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 329,
+          "char_end": 337,
+          "turn_id": null
+        }
+      ],
+      "text": "Neulasta",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 371,
+          "turn_id": null
+        }
+      ],
+      "text": "chemo-associated \nneutropenia",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 446,
+          "char_end": 465,
+          "turn_id": null
+        }
+      ],
+      "text": "generalized fatigue",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 474,
+          "turn_id": null
+        }
+      ],
+      "text": "malaise",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 481,
+          "char_end": 512,
+          "turn_id": null
+        }
+      ],
+      "text": "rinorrhea with clear secretions",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 521,
+          "char_end": 529,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 546,
+          "turn_id": null
+        }
+      ],
+      "text": "sinus \npressure",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 548,
+          "char_end": 558,
+          "turn_id": null
+        }
+      ],
+      "text": "itchy eyes",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 563,
+          "char_end": 574,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 673,
+          "turn_id": null
+        }
+      ],
+      "text": "temperature",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 731,
+          "char_end": 749,
+          "turn_id": null
+        }
+      ],
+      "text": "URI viral syndrome",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 851,
+          "char_end": 865,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 867,
+          "char_end": 875,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 894,
+          "turn_id": null
+        }
+      ],
+      "text": "meningeal signs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 935,
+          "char_end": 937,
+          "turn_id": null
+        },
+        {
+          "char_start": 942,
+          "char_end": 947,
+          "turn_id": null
+        }
+      ],
+      "text": "bp 98/62",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 989,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 989,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1031,
+          "char_end": 1046,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1051,
+          "char_end": 1060,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1088,
+          "char_end": 1098,
+          "turn_id": null
+        }
+      ],
+      "text": "Vancomycin",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1099,
+          "char_end": 1101,
+          "turn_id": null
+        }
+      ],
+      "text": "1g",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1107,
+          "char_end": 1117,
+          "turn_id": null
+        }
+      ],
+      "text": "Cefepime2g",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1107,
+          "char_end": 1117,
+          "turn_id": null
+        }
+      ],
+      "text": "Cefepime2g",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1123,
+          "char_end": 1130,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1135,
+          "char_end": 1137,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1291,
+          "char_end": 1303,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1315,
+          "char_end": 1321,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1323,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1344,
+          "char_end": 1350,
+          "turn_id": null
+        },
+        {
+          "char_start": 1359,
+          "char_end": 1363,
+          "turn_id": null
+        }
+      ],
+      "text": "weight gain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1344,
+          "char_end": 1355,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1373,
+          "char_end": 1386,
+          "turn_id": null
+        }
+      ],
+      "text": "blurry vision",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1388,
+          "char_end": 1396,
+          "turn_id": null
+        }
+      ],
+      "text": "diplopia",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1398,
+          "char_end": 1412,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of vision",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1414,
+          "char_end": 1425,
+          "turn_id": null
+        }
+      ],
+      "text": "photophobia",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1435,
+          "char_end": 1443,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1445,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "sinus tenderness",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1470,
+          "char_end": 1480,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1485,
+          "char_end": 1494,
+          "turn_id": null
+        }
+      ],
+      "text": "tightness",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1496,
+          "char_end": 1508,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1531,
+          "turn_id": null
+        }
+      ],
+      "text": "lower extremity edema",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1543,
+          "turn_id": null
+        }
+      ],
+      "text": "DOE",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1546,
+          "char_end": 1565,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1577,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1586,
+          "char_end": 1592,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1602,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1605,
+          "char_end": 1613,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1615,
+          "char_end": 1629,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1631,
+          "char_end": 1637,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1639,
+          "char_end": 1650,
+          "turn_id": null
+        }
+      ],
+      "text": "hematemesis",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1652,
+          "char_end": 1664,
+          "turn_id": null
+        }
+      ],
+      "text": "hematochezia",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1674,
+          "char_end": 1681,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1683,
+          "char_end": 1688,
+          "turn_id": null
+        },
+        {
+          "char_start": 1698,
+          "char_end": 1710,
+          "turn_id": null
+        }
+      ],
+      "text": "stool incontinence",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1692,
+          "char_end": 1710,
+          "turn_id": null
+        }
+      ],
+      "text": "urine incontinence",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1730,
+          "turn_id": null
+        }
+      ],
+      "text": "arthralgias",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1735,
+          "char_end": 1743,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1752,
+          "char_end": 1758,
+          "turn_id": null
+        }
+      ],
+      "text": "rashes",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1762,
+          "char_end": 1776,
+          "turn_id": null
+        }
+      ],
+      "text": "skin breakdown",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1782,
+          "char_end": 1814,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness/tingling in extremities",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1926,
+          "turn_id": null
+        }
+      ],
+      "text": "Stage Ia carcinosarcoma of the uterus",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2027,
+          "char_end": 2032,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2035,
+          "char_end": 2040,
+          "turn_id": null
+        }
+      ],
+      "text": "Fever",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2049,
+          "char_end": 2058,
+          "turn_id": null
+        }
+      ],
+      "text": "Pneumonia",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2073,
+          "char_end": 2094,
+          "turn_id": null
+        }
+      ],
+      "text": "non-neutropenic fever",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2124,
+          "char_end": 2127,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2150,
+          "char_end": 2157,
+          "turn_id": null
+        }
+      ],
+      "text": "opacity",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2174,
+          "char_end": 2183,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2198,
+          "turn_id": null
+        }
+      ],
+      "text": "atelectasis",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2216,
+          "char_end": 2221,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2224,
+          "char_end": 2226,
+          "turn_id": null
+        }
+      ],
+      "text": "cp",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2230,
+          "char_end": 2233,
+          "turn_id": null
+        }
+      ],
+      "text": "sob",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2265,
+          "char_end": 2277,
+          "turn_id": null
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2300,
+          "char_end": 2303,
+          "turn_id": null
+        }
+      ],
+      "text": "CAP",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2345,
+          "char_end": 2370,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood \nand urine cultures",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2393,
+          "char_end": 2430,
+          "turn_id": null
+        }
+      ],
+      "text": "Stage Ia carcinosarcoma of the uterus",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2502,
+          "char_end": 2514,
+          "turn_id": null
+        }
+      ],
+      "text": "Leukocytosis",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2533,
+          "char_end": 2541,
+          "turn_id": null
+        }
+      ],
+      "text": "Neulasta",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2551,
+          "char_end": 2562,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypotension",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2563,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "BP in the ED 98/62",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2588,
+          "char_end": 2598,
+          "turn_id": null
+        }
+      ],
+      "text": "lactacemia",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2616,
+          "char_end": 2619,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2628,
+          "char_end": 2640,
+          "turn_id": null
+        }
+      ],
+      "text": "Constipation",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2678,
+          "char_end": 2684,
+          "turn_id": null
+        }
+      ],
+      "text": "colace",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2687,
+          "char_end": 2692,
+          "turn_id": null
+        }
+      ],
+      "text": "senna",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2694,
+          "char_end": 2701,
+          "turn_id": null
+        }
+      ],
+      "text": "mirilax",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2705,
+          "char_end": 2719,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypothyroidism",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2744,
+          "char_end": 2753,
+          "turn_id": null
+        }
+      ],
+      "text": "Synthroid",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2757,
+          "char_end": 2769,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic pain",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2798,
+          "char_end": 2806,
+          "turn_id": null
+        }
+      ],
+      "text": "fentanyl",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2864,
+          "char_end": 2869,
+          "turn_id": null
+        }
+      ],
+      "text": "Fever",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2870,
+          "char_end": 2897,
+          "turn_id": null
+        }
+      ],
+      "text": "Upper respiratory infection",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2898,
+          "char_end": 2925,
+          "turn_id": null
+        }
+      ],
+      "text": "Community acquired pnumonia",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2926,
+          "char_end": 2940,
+          "turn_id": null
+        }
+      ],
+      "text": "Uterine cancer",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2941,
+          "char_end": 2952,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypokalemia",
+      "id": "e100"
+    }
+  ]
+}

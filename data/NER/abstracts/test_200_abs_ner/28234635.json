@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -21,21 +20,19 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 83,
+          "char_start": 99,
           "char_end": 117,
           "turn_id": null
         }
       ],
-      "text": "Pediatric Onset Intestinal Failure",
+      "text": "Intestinal Failure",
       "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 127,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 168,
@@ -61,23 +57,8 @@
       "id": "e4"
     },
     {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "therapy",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 190,
-          "char_end": 192,
-          "turn_id": null
-        }
-      ],
-      "text": "PN",
-      "id": "e5"
-    },
-    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 198,
@@ -86,26 +67,11 @@
         }
       ],
       "text": "intestinal failure",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 218,
-          "char_end": 220,
-          "turn_id": null
-        }
-      ],
-      "text": "IF",
-      "id": "e7"
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 307,
@@ -114,26 +80,24 @@
         }
       ],
       "text": "liver injury",
-      "id": "e8"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 323,
+          "char_start": 339,
           "char_end": 341,
           "turn_id": null
         }
       ],
-      "text": "pediatric onset IF",
-      "id": "e9"
+      "text": "IF",
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 618,
@@ -142,12 +106,11 @@
         }
       ],
       "text": "IF",
-      "id": "e10"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 696,
@@ -156,12 +119,11 @@
         }
       ],
       "text": "liver injury",
-      "id": "e11"
+      "id": "e9"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 710,
@@ -170,12 +132,11 @@
         }
       ],
       "text": "PN",
-      "id": "e12"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 714,
@@ -184,12 +145,24 @@
         }
       ],
       "text": "serum plant sterols",
-      "id": "e13"
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 735,
+          "char_end": 762,
+          "turn_id": null
+        }
+      ],
+      "text": "fibroblast growth factor 19",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
           "char_start": 768,
@@ -198,12 +171,11 @@
         }
       ],
       "text": "α-tocopherol",
-      "id": "e14"
+      "id": "e13"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 801,
@@ -212,12 +184,11 @@
         }
       ],
       "text": "PN",
-      "id": "e15"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 844,
@@ -226,12 +197,11 @@
         }
       ],
       "text": "liver injury",
-      "id": "e16"
+      "id": "e15"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 889,
@@ -240,12 +210,11 @@
         }
       ],
       "text": "PN",
-      "id": "e17"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 913,
@@ -254,12 +223,11 @@
         }
       ],
       "text": "portal inflammation",
-      "id": "e18"
+      "id": "e17"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 953,
@@ -268,12 +236,11 @@
         }
       ],
       "text": "PN",
-      "id": "e19"
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1047,
@@ -282,12 +249,11 @@
         }
       ],
       "text": "cholestasis",
-      "id": "e20"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1063,
@@ -296,12 +262,11 @@
         }
       ],
       "text": "liver fibrosis",
-      "id": "e21"
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1093,
@@ -310,12 +275,11 @@
         }
       ],
       "text": "portal inflammation",
-      "id": "e22"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1443,
@@ -324,12 +288,11 @@
         }
       ],
       "text": "portal inflammation",
-      "id": "e23"
+      "id": "e22"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1472,
@@ -338,12 +301,11 @@
         }
       ],
       "text": "PN",
-      "id": "e24"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1476,
@@ -352,12 +314,11 @@
         }
       ],
       "text": "increased serum levels of plant sterols",
-      "id": "e25"
+      "id": "e24"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1486,
@@ -366,54 +327,11 @@
         }
       ],
       "text": "serum levels of plant sterols",
-      "id": "e26"
+      "id": "e25"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1516,
-          "char_end": 1528,
-          "turn_id": null
-        }
-      ],
-      "text": "stigmasterol",
-      "id": "e27"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1530,
-          "char_end": 1541,
-          "turn_id": null
-        }
-      ],
-      "text": "avenasterol",
-      "id": "e28"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1547,
-          "char_end": 1557,
-          "turn_id": null
-        }
-      ],
-      "text": "sitosterol",
-      "id": "e29"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1569,
@@ -422,12 +340,11 @@
         }
       ],
       "text": "serum citrulline",
-      "id": "e30"
+      "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1626,
@@ -436,26 +353,24 @@
         }
       ],
       "text": "portal inflammation",
-      "id": "e31"
+      "id": "e27"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 1650,
+          "char_start": 1666,
           "char_end": 1668,
           "turn_id": null
         }
       ],
-      "text": "pediatric onset IF",
-      "id": "e32"
+      "text": "IF",
+      "id": "e28"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1678,
@@ -464,12 +379,11 @@
         }
       ],
       "text": "PN",
-      "id": "e33"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1711,
@@ -478,12 +392,11 @@
         }
       ],
       "text": "intestinal compromise",
-      "id": "e34"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1741,
@@ -492,12 +405,11 @@
         }
       ],
       "text": "liver inflammation",
-      "id": "e35"
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1825,
@@ -506,7 +418,7 @@
         }
       ],
       "text": "liver injury",
-      "id": "e36"
+      "id": "e32"
     }
   ]
 }

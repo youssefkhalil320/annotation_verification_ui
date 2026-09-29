@@ -1,0 +1,902 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11152207-DS-13:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nChief Complaint:\ndyspnea\n\nHistory of Present Illness:\nMs. ___ is a ___ yr old female with Type I DM, depression, and \ntracheobronchomalacia who was transferred from ___ \nvia air transport.  The patient was admitted from ___ at \n___ for DKA in the setting of viral illness.  She \nwas intubated for 3 days using this hospital course.  Since \nextubation, she noted breathing that is noisy and labored with \nexertion.  ENT evaluation on ___ noted mild inspiratory \nstridor with laryngoscopy showing some minimal interarytenoid \nedema and laryngeal erythema but no airway obstruction.  She was \nstarted on bid PPI with a plan for tracheostomy and bronchoscopy \nif not improving.  On ___, she developed coughing with \nincreased stridor and presented to ___ \nED where she received IV steroids, racemic epi, and a nebulizer \nwith some imiprovement but with recurrent sx several hours later \nfor which she presented to the ___ ED on ___.  ENT \nnoted her to have audible biphasic, inspiratory > expiratory \nstridor.  She was taken to the OR for tracheoscopy, laryngoscopy \nwith finding of an irregularly shaped area of narrowing in the \nmid-trachea which was dilated to a 7.5 rigid bronch; vocal \ncords, arytenoids, vallecula, epiglottis, and post-cricoid areas \nunremarkable.  She was treated with cipro x 8 days with \nstabilization.  Since discontinuation, she has had progressive \nexertional dyspnea and stridor x ___ days.  Her boyfriend noted \nnoisy breathing\" even when asleep but sx are worst with \nexertion.  She presented to the ___ ED yesterday after work \nand was given racemic epi with mild improvement.  ENT scoped her \nand visualized tracheal stenosis without evidence of tracheitis. \n She was referred here for further IP evaluation.\n.\nIn the ED, initial VS were: T 97.5, P 86, BP 121/75, RR 15, \nO2sat 99% RA. Pt did have biphasic stridor on evaluation.  She \nwas given dexamethasone 10mg IV x 1.  Labs with WBC of 11.2 and \nnormal diff; otherwise unremarkable.  CXR showed no acute \nintrathoracic process but does appear to show tracheal \nnarrowing.  Pt was discussed with IP, who will evaluate her this \nAM with bronchoscopy.  On transfer, VS: T 97.6, P 83, BP 99/65, \nRR 14, O2sat 99% RA.\n.\nPt currently reports mild improvement in dyspnea since receiving \ndexamethasone; it has provided more relief than the racemic epi, \nwhich provoked a coughing fit.  She did try an albuterol inhaler \nonce which only gave her very transient airway relief.  She \ndenies any fevers, chills, cough, sputum production, difficulty \nmanaging secretions, voice changes, dysphagia, odynophagia, \npruruitis, or urticaria.  She has been around children with \nflu-like sx recently but her presenting sx preceded these.  FSG \nhave been 150s-300s, which is typical for her near her menstrual \ncycles.\n\nDischarge Diagnosis:\nPrimary:\nTracheal stenosis",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "Type I DM",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 178,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 206,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheobronchomalacia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 303,
+          "char_end": 306,
+          "turn_id": null
+        }
+      ],
+      "text": "DKA",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 338,
+          "turn_id": null
+        }
+      ],
+      "text": "viral illness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 359,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "extubation",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 438,
+          "turn_id": null
+        },
+        {
+          "char_start": 457,
+          "char_end": 464,
+          "turn_id": null
+        }
+      ],
+      "text": "breathing labored",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 438,
+          "turn_id": null
+        },
+        {
+          "char_start": 447,
+          "char_end": 452,
+          "turn_id": null
+        }
+      ],
+      "text": "breathing noisy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 535,
+          "turn_id": null
+        }
+      ],
+      "text": "inspiratory \nstridor",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 553,
+          "turn_id": null
+        }
+      ],
+      "text": "laryngoscopy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 575,
+          "char_end": 596,
+          "turn_id": null
+        }
+      ],
+      "text": "interarytenoid \nedema",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 601,
+          "char_end": 619,
+          "turn_id": null
+        }
+      ],
+      "text": "laryngeal erythema",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 645,
+          "turn_id": null
+        }
+      ],
+      "text": "airway obstruction",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 671,
+          "turn_id": null
+        }
+      ],
+      "text": "bid",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 675,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 704,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheostomy",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 709,
+          "char_end": 721,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchoscopy",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 772,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 796,
+          "turn_id": null
+        }
+      ],
+      "text": "stridor",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 841,
+          "char_end": 843,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 844,
+          "char_end": 852,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 854,
+          "char_end": 865,
+          "turn_id": null
+        }
+      ],
+      "text": "racemic epi",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1028,
+          "char_end": 1071,
+          "turn_id": null
+        }
+      ],
+      "text": "biphasic, inspiratory > expiratory \nstridor",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1114,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheoscopy",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1116,
+          "char_end": 1128,
+          "turn_id": null
+        }
+      ],
+      "text": "laryngoscopy",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1205,
+          "turn_id": null
+        }
+      ],
+      "text": "narrowing in the \nmid-trachea",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1216,
+          "char_end": 1223,
+          "turn_id": null
+        }
+      ],
+      "text": "dilated",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1356,
+          "char_end": 1361,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1362,
+          "char_end": 1370,
+          "turn_id": null
+        }
+      ],
+      "text": "x 8 days",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1459,
+          "turn_id": null
+        }
+      ],
+      "text": "exertional dyspnea",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1464,
+          "char_end": 1471,
+          "turn_id": null
+        }
+      ],
+      "text": "stridor",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1506,
+          "char_end": 1521,
+          "turn_id": null
+        }
+      ],
+      "text": "noisy breathing",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1638,
+          "char_end": 1649,
+          "turn_id": null
+        }
+      ],
+      "text": "racemic epi",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1678,
+          "char_end": 1684,
+          "turn_id": null
+        }
+      ],
+      "text": "scoped",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1705,
+          "char_end": 1722,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheal stenosis",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1743,
+          "char_end": 1753,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheitis",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1895,
+          "char_end": 1911,
+          "turn_id": null
+        }
+      ],
+      "text": "biphasic stridor",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1943,
+          "char_end": 1956,
+          "turn_id": null
+        }
+      ],
+      "text": "dexamethasone",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 1961,
+          "turn_id": null
+        }
+      ],
+      "text": "10mg",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1962,
+          "char_end": 1964,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1965,
+          "char_end": 1968,
+          "turn_id": null
+        }
+      ],
+      "text": "x 1",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1981,
+          "char_end": 1984,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2005,
+          "char_end": 2009,
+          "turn_id": null
+        }
+      ],
+      "text": "diff",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2036,
+          "char_end": 2039,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2103,
+          "char_end": 2122,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheal \nnarrowing",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2199,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchoscopy",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2308,
+          "char_end": 2315,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2333,
+          "char_end": 2346,
+          "turn_id": null
+        }
+      ],
+      "text": "dexamethasone",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2385,
+          "char_end": 2396,
+          "turn_id": null
+        }
+      ],
+      "text": "racemic epi",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2416,
+          "char_end": 2428,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing fit",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2446,
+          "char_end": 2455,
+          "turn_id": null
+        }
+      ],
+      "text": "albuterol",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2456,
+          "char_end": 2463,
+          "turn_id": null
+        }
+      ],
+      "text": "inhaler",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2465,
+          "char_end": 2469,
+          "turn_id": null
+        }
+      ],
+      "text": "once",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2537,
+          "char_end": 2543,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2545,
+          "char_end": 2551,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2553,
+          "char_end": 2558,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2560,
+          "char_end": 2577,
+          "turn_id": null
+        }
+      ],
+      "text": "sputum production",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2579,
+          "char_end": 2610,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty \nmanaging secretions",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2612,
+          "char_end": 2625,
+          "turn_id": null
+        }
+      ],
+      "text": "voice changes",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2627,
+          "char_end": 2636,
+          "turn_id": null
+        }
+      ],
+      "text": "dysphagia",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2638,
+          "char_end": 2649,
+          "turn_id": null
+        }
+      ],
+      "text": "odynophagia",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2652,
+          "char_end": 2661,
+          "turn_id": null
+        }
+      ],
+      "text": "pruruitis",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2666,
+          "char_end": 2675,
+          "turn_id": null
+        }
+      ],
+      "text": "urticaria",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2713,
+          "char_end": 2724,
+          "turn_id": null
+        }
+      ],
+      "text": "flu-like sx",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2773,
+          "char_end": 2776,
+          "turn_id": null
+        }
+      ],
+      "text": "FSG",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2883,
+          "char_end": 2900,
+          "turn_id": null
+        }
+      ],
+      "text": "Tracheal stenosis",
+      "id": "e68"
+    }
+  ]
+}

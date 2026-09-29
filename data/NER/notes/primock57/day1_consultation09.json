@@ -1,0 +1,385 @@
+{
+  "doc_id": "PRIMOCK57:day1_consultation09:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "3/7 hx of dysuria and suprapubic pain. Nil frequency. Brief episode of haematuria, now resolved. Foul smelling.\nAbdo pain - cramping, nil radiating \nNil nausea/vomiting. Nil fever. Nil bowel sx\nCurrently sexually active - with regular partner for 2/12. No previous STD screen. Nil PV discharge. LMP 2/52 ago. \n\nPMH: IBS\nDH: Nil regular \nAllergic to clindamycin \nFH: Nil regular \nSH: lives in a flat with friends, student in Biology, nil smoking, social EtOH at weekends\n\nImp: UTI/cystitis \n\nPlan:\n1.\tNitrofurantoin abx for 3/7\n2.\tPush fluids\n3.\tTrial cranberry juice \n4.\tPregnancy test to exclude pregnancy \n5.\tReview in 3d if no better, or earlier if worsening sx (fevers, back pain, vomiting, more unwell)\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "suprapubic pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 43,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "frequency",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 81,
+          "turn_id": null
+        }
+      ],
+      "text": "haematuria",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "Foul smelling",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 121,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdo pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 132,
+          "turn_id": null
+        }
+      ],
+      "text": "cramping",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 159,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 168,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "STD screen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 293,
+          "turn_id": null
+        }
+      ],
+      "text": "PV discharge",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 316,
+          "char_end": 319,
+          "turn_id": null
+        }
+      ],
+      "text": "IBS",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 360,
+          "turn_id": null
+        }
+      ],
+      "text": "Allergic to clindamycin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 349,
+          "char_end": 360,
+          "turn_id": null
+        }
+      ],
+      "text": "clindamycin",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 444,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 469,
+          "turn_id": null
+        }
+      ],
+      "text": "EtOH at weekends",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 479,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 480,
+          "char_end": 488,
+          "turn_id": null
+        }
+      ],
+      "text": "cystitis",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 514,
+          "turn_id": null
+        }
+      ],
+      "text": "Nitrofurantoin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 518,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 523,
+          "char_end": 526,
+          "turn_id": null
+        }
+      ],
+      "text": "3/7",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 551,
+          "char_end": 566,
+          "turn_id": null
+        }
+      ],
+      "text": "cranberry juice",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 585,
+          "turn_id": null
+        }
+      ],
+      "text": "Pregnancy test",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 606,
+          "turn_id": null
+        }
+      ],
+      "text": "pregnancy",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 672,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 683,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 685,
+          "char_end": 693,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 700,
+          "char_end": 706,
+          "turn_id": null
+        }
+      ],
+      "text": "unwell",
+      "id": "e29"
+    }
+  ]
+}

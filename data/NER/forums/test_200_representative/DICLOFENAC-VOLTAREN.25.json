@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 20,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 45,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 67,
@@ -59,7 +56,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 105,
@@ -72,22 +68,25 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 161,
+          "char_end": 165,
+          "turn_id": null
+        },
+        {
+          "char_start": 177,
           "char_end": 182,
           "turn_id": null
         }
       ],
-      "text": "lips started to swell",
+      "text": "lips swell",
       "id": "e5"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 217,
@@ -101,7 +100,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 319,
@@ -115,7 +113,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 337,
@@ -129,7 +126,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 410,
@@ -143,7 +139,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 422,

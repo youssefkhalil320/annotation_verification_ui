@@ -1,0 +1,476 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:210878:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello, My family is becoming more concerned with my brother who is having a number of drugs to treat his present problem. He lives alone, has always been a bachelor and is now 59. Earlier 2013 he became increasingly upset about his neighbours who he overheard, were plotting to get him. He has had periods like this and given the vicinity where he lives, some goings-on are very plausible. However, this time was more extreme and he became very perturbed and called the police (not the first time). He has been on hormonal drugs for a long time to balance his male/female imbalance and the doctors usually monitor this if my brother has concerns. He was admitted to a psychiatric ward for tests then put on this concoction of drugs to help him - please forgive my spelling: onezol, fluox, simvastatin, clonazepan, propranolol, bendrofluazide, aripiprazole and seroquel. He has always had a tremor but now can barely carry things, has extreme difficulty using his eftpos card, cannot lift a cup to his lips etc.... He is suffering from night sweats, waking in a pool of wetness, he is unable to remember what day or time it is and this in itself is leading to confusion, missing appointments and the inability to take his medication at the appropriate times. What would you recommend?\n[doctor] HiThanks for using healthcare magicI think, he has on overdose of antipsychotic that why he has excessive tremor and sedation.Due to sedation, he has drooling of saliva at night. Seroquel leads to excessive sedation, either dose of seroquel  should be less or clonazepam can be stopped. For tremor, dose of propranolol should be increased or get him investigated for drug induced parkinson.Thanks",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 146,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lives alone",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 231,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "upset",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 464,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "perturbed",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 524,
+          "char_end": 538,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hormonal drugs",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 539,
+          "char_end": 554,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a long time",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 570,
+          "char_end": 591,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "male/female imbalance",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 784,
+          "char_end": 790,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "onezol",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 797,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluox",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 810,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "simvastatin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 822,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clonazepan",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 835,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "propranolol",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 837,
+          "char_end": 851,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bendrofluazide",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 865,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "aripiprazole",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 878,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "seroquel",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 906,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremor",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 952,
+          "char_end": 984,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "difficulty using his eftpos card",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 986,
+          "char_end": 1015,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cannot lift a cup to his lips",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1045,
+          "char_end": 1057,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "night sweats",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1059,
+          "char_end": 1086,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "waking in a pool of wetness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1129,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unable to remember what day or time",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1169,
+          "char_end": 1178,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "confusion",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1180,
+          "char_end": 1200,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "missing appointments",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1209,
+          "char_end": 1266,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inability to take his medication at the appropriate times",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1357,
+          "char_end": 1365,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "overdose",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1382,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antipsychotic",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1409,
+          "char_end": 1415,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tremor",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1420,
+          "char_end": 1428,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sedation",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1436,
+          "char_end": 1444,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sedation",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1453,
+          "char_end": 1471,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "drooling of saliva",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1482,
+          "char_end": 1490,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Seroquel",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1518,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sedation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1535,
+          "char_end": 1543,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "seroquel",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1563,
+          "char_end": 1573,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clonazepam",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1600,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tremor",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1621,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "propranolol",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1670,
+          "char_end": 1692,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "drug induced parkinson",
+      "id": "e36"
+    }
+  ]
+}

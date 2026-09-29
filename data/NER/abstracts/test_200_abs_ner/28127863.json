@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 9,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 35,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 117,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 144,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 166,
@@ -80,23 +75,8 @@
       "id": "e5"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 166,
-          "char_end": 176,
-          "turn_id": null
-        }
-      ],
-      "text": "dysarthria",
-      "id": "e6"
-    },
-    {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 181,
@@ -105,26 +85,24 @@
         }
       ],
       "text": "intelligibility tests",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 266,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "22q11.2 deletion",
       "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 483,
-          "char_end": 524,
-          "turn_id": null
-        }
-      ],
-      "text": "Assessment of non-verbal and verbal tasks",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 661,
@@ -133,12 +111,11 @@
         }
       ],
       "text": "Swedish Test of Intelligibility (STI)",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 819,
@@ -147,12 +124,11 @@
         }
       ],
       "text": "22q11DS",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 924,
@@ -161,12 +137,11 @@
         }
       ],
       "text": "STI",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 960,
@@ -175,12 +150,29 @@
         }
       ],
       "text": "speech deviation",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1020,
+          "char_end": 1032,
+          "turn_id": null
+        },
+        {
+          "char_start": 1110,
+          "char_end": 1133,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulties velopharyngeal function",
       "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1020,
@@ -199,7 +191,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1020,
@@ -218,7 +209,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1020,
@@ -236,8 +226,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "general",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 1283,
@@ -251,7 +240,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1312,
@@ -265,7 +253,24 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1330,
+          "char_end": 1350,
+          "turn_id": null
+        },
+        {
+          "char_start": 1377,
+          "char_end": 1401,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulties in both speech motor programming",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 1330,
@@ -274,12 +279,11 @@
         }
       ],
       "text": "difficulties in both speech motor planning",
-      "id": "e18"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1507,
@@ -288,12 +292,11 @@
         }
       ],
       "text": "structural brain abnormalities",
-      "id": "e19"
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1542,
@@ -302,12 +305,11 @@
         }
       ],
       "text": "neurological speech symptoms",
-      "id": "e20"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1661,
@@ -316,12 +318,11 @@
         }
       ],
       "text": "speech symptoms",
-      "id": "e21"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1712,
@@ -330,12 +331,11 @@
         }
       ],
       "text": "22q11DS",
-      "id": "e22"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1785,
@@ -344,7 +344,7 @@
         }
       ],
       "text": "speech symptoms",
-      "id": "e23"
+      "id": "e24"
     }
   ]
 }

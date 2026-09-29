@@ -1,0 +1,418 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:211051:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My dad is 57 he lost his brother a week ago, shortly after that we had to call an ambulance for him. It was like my dad lost his mind he lost all reality, he don't rember any thing that he done for 4 days. He was shooting people with his fingers, pulling on his clothing, sound sensitive, thought people was going to hurt him would jump when you touched him, praying, mixing past with now and refused to eat for 3 days. The hospital tolled us he had an allergic reaction to a steroid he was on and they released him 2 days later. He was good for a day but now keeps slipping back to being lost and asking many questions. He keeps thinking that we are all trying to make him crazy , he thinks that the kids are testing him but there just playing like little kids, he gets confused really easy and even gets mad for no reason. He's on over 12 different meds for back pain, diabeties, heart problems, and depression. This is not the first time its happened. Its happened once before and they gave us no diagnosis then either. He's had a cat scan and it showed nothing, his blood test only showed a low electrolites and they said it was from a sinous infection. Is it some thing we should be worried about or get a second oppionion on, are they missing something?.\n[doctor] HiThanks for using healthcare magicI think your father has acute transient psychotic episode for which he needs a antipsychotic drug rather than antidepressant. Low electrolyte could be due to antidepressant side effect. You should consult a psychiatrist for his proper evaluation and in case you need our help, you can connect us.RegardsDr. Abhishek Kapoor",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost his mind",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost all reality",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 190,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "don't rember any thing",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 255,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shooting people with his fingers",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 257,
+          "char_end": 280,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pulling on his clothing",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 282,
+          "char_end": 297,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sound sensitive",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 299,
+          "char_end": 313,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 318,
+          "char_end": 335,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thought people going to hurt him",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 346,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "jump",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 398,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mixing past with now",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 417,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "refused to eat",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 463,
+          "char_end": 480,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 486,
+          "char_end": 493,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 599,
+          "char_end": 603,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 640,
+          "char_end": 653,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 661,
+          "char_end": 689,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thinking that all trying to make him crazy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 695,
+          "char_end": 715,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 720,
+          "char_end": 731,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thinks that the kids testing him",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 776,
+          "char_end": 789,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gets confused",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 811,
+          "char_end": 823,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 827,
+          "char_end": 833,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gets mad for reason",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 879,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 881,
+          "char_end": 890,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diabeties",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 912,
+          "char_end": 922,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1044,
+          "char_end": 1052,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cat scan",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1080,
+          "char_end": 1090,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood test",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1105,
+          "char_end": 1121,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "low electrolites",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1109,
+          "char_end": 1121,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "electrolites",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1166,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinous infection",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1339,
+          "char_end": 1372,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "acute transient psychotic episode",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1394,
+          "char_end": 1407,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antipsychotic",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1425,
+          "char_end": 1439,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antidepressant",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1456,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Low electrolyte",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1473,
+          "char_end": 1487,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antidepressant",
+      "id": "e30"
+    }
+  ]
+}

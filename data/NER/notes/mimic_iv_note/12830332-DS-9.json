@@ -1,0 +1,611 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12830332-DS-9:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nAbd pain, N/V; CBD stone\n\nHistory of Present Illness:\n___ yo F with h/o obesity, with one day history of n/v and \nabdominal pain.  Pt had sushi for lunch on ___, then chicken & \nnoodles for dinner, with a single drink.  She had gradual onset \nof epigastric pain, accompanied by nausea and three episodes of \nnonbloody emesis. She saw her PCP yesterday, who began \nprocholoperazine and prilosec for possible gastritis, which \nprovided only some relief.  The PCP checked her amylase (3446) \nand lipase (2816); the covering PCP referred the pt to the ED \nfor further evaluation, but she felt drowsy from the antiemetic, \nso elected to wait until this am to present to the ED.\n\nIn the ED, lipase was 767.  RUQ US revealed a thin gallbladder \nfilled with gallstones.  There is shadowing in the CBD c/w \ngallstone; CBD is focally dilated to 9 mm.  There is no \npericholecystic fluid.\n\nThe ED contacted the ERCP team, who recommended admission to the \nmedical service for further care.\n\nNow feels ok with only minimal left-sided abdominal pain; no \nradiation.  No current n/v.\n\nREVIEW OF SYSTEMS:\nCONSTITUTIONAL: [X] All Normal\nHEENT:          [X] All Normal\nRESPIRATORY:    [X] All Normal\nCARDIAC:        [X] All Normal\nGI:             As per HPI\nGU:             [X] All Normal\nSKIN:           [X] All Normal\nMS:             [X] All Normal\nNEURO:          [X] All Normal\nENDOCRINE:     [X] All Normal\nHEME/LYMPH:    [X] All Normal\nPSYCH:         [X] All Normal\n[X] all other systems negative except as noted above\n\nBrief Hospital Course:\n___ yo F with pancreatitis, likely due to gallstone.\n\nGI - Choledocholithiasis c/b pancreatitis.  Pt did well with \ndecrease in pain prior to ERCP.  During ercp she was noted to \nhave numerous biliary stones and a sphincterotomy was performed. \n Pt tolerated this well and her diet was advanced on ___.  She \nwasnoted to have low grade fever both prior to ad after her \nprocedure.  In disucssion with GI, we decided to treat for \npossible biliary infection with cipro for total of 7 days.   She \nwas discharged to home with plans for outpatient follow up with \nher PCP who is referring her to surgery for cholecystectomy. \n\nAsthma - Continue MDI's\n\nAllergic rhinitis - Daily nasal spray\n\nObesity - No active issues\n\nDischarge Diagnosis:\ngallstone pancreatitis\ncholedulcolithiasis--stones in biliary system and gallbladder",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 81,
+          "turn_id": null
+        }
+      ],
+      "text": "Abd pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 86,
+          "turn_id": null
+        }
+      ],
+      "text": "N/V",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "CBD stone",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 152,
+          "turn_id": null
+        }
+      ],
+      "text": "obesity",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 181,
+          "turn_id": null
+        }
+      ],
+      "text": "n/v",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 201,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 319,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "epigastric pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 357,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 397,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 453,
+          "turn_id": null
+        }
+      ],
+      "text": "procholoperazine",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 458,
+          "char_end": 466,
+          "turn_id": null
+        }
+      ],
+      "text": "prilosec",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 480,
+          "char_end": 489,
+          "turn_id": null
+        }
+      ],
+      "text": "gastritis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 546,
+          "char_end": 553,
+          "turn_id": null
+        }
+      ],
+      "text": "amylase",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 572,
+          "turn_id": null
+        }
+      ],
+      "text": "lipase",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 668,
+          "turn_id": null
+        }
+      ],
+      "text": "drowsy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 678,
+          "char_end": 688,
+          "turn_id": null
+        }
+      ],
+      "text": "antiemetic",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 758,
+          "char_end": 764,
+          "turn_id": null
+        }
+      ],
+      "text": "lipase",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 775,
+          "char_end": 781,
+          "turn_id": null
+        }
+      ],
+      "text": "RUQ US",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "gallstones",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 865,
+          "turn_id": null
+        }
+      ],
+      "text": "shadowing in the CBD",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 880,
+          "turn_id": null
+        }
+      ],
+      "text": "gallstone",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 882,
+          "char_end": 885,
+          "turn_id": null
+        },
+        {
+          "char_start": 897,
+          "char_end": 912,
+          "turn_id": null
+        }
+      ],
+      "text": "CBD dilated to 9 mm",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 928,
+          "char_end": 949,
+          "turn_id": null
+        }
+      ],
+      "text": "pericholecystic fluid",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 973,
+          "char_end": 977,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1084,
+          "char_end": 1109,
+          "turn_id": null
+        }
+      ],
+      "text": "left-sided abdominal pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1138,
+          "char_end": 1141,
+          "turn_id": null
+        }
+      ],
+      "text": "n/v",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1619,
+          "char_end": 1631,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatitis",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1664,
+          "char_end": 1683,
+          "turn_id": null
+        }
+      ],
+      "text": "Choledocholithiasis",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1688,
+          "char_end": 1700,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatitis",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1733,
+          "char_end": 1737,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1747,
+          "char_end": 1751,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1761,
+          "char_end": 1765,
+          "turn_id": null
+        }
+      ],
+      "text": "ercp",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1798,
+          "char_end": 1812,
+          "turn_id": null
+        }
+      ],
+      "text": "biliary stones",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1819,
+          "char_end": 1833,
+          "turn_id": null
+        }
+      ],
+      "text": "sphincterotomy",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1941,
+          "char_end": 1946,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2044,
+          "char_end": 2061,
+          "turn_id": null
+        }
+      ],
+      "text": "biliary infection",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2067,
+          "char_end": 2072,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2073,
+          "char_end": 2092,
+          "turn_id": null
+        }
+      ],
+      "text": "for total of 7 days",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2210,
+          "char_end": 2225,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2229,
+          "char_end": 2235,
+          "turn_id": null
+        }
+      ],
+      "text": "Asthma",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2254,
+          "char_end": 2271,
+          "turn_id": null
+        }
+      ],
+      "text": "Allergic rhinitis",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2274,
+          "char_end": 2279,
+          "turn_id": null
+        }
+      ],
+      "text": "Daily",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2293,
+          "char_end": 2300,
+          "turn_id": null
+        }
+      ],
+      "text": "Obesity",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2342,
+          "char_end": 2364,
+          "turn_id": null
+        }
+      ],
+      "text": "gallstone pancreatitis",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2365,
+          "char_end": 2384,
+          "turn_id": null
+        }
+      ],
+      "text": "choledulcolithiasis",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2386,
+          "char_end": 2426,
+          "turn_id": null
+        }
+      ],
+      "text": "stones in biliary system and gallbladder",
+      "id": "e46"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:163633:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My son (age 5) was diagnosed with pink eye on Sunday; he took Tobrex, which has cleared his eyes. Yesterday he got small hives on his face, arms and legs... his ped believes it was an allergic reaction. We gave him Benadryl and the rash is gone. However, he has continued to have congestion, low grade fevers (in the evenings), little appetite, and is pretty lethargic (sometimes bursts of energy, followed by long naps... he usually does not nap). Today, my younger son (age 3) was sent home from school. He is also VERY lethargic. He as slept most of the afternoon (usually does not take naps). He, too, seems to have a very low grade fever (in the 99 range) and has no appetite. He also has a mild cough and congestion which just started. Any ideas? Could this be mono?\n[doctor] Hello,With two family members down with similar symptoms I feel that it could be a viral illness. But at the same time whether it is mono or not could be diagnosed exactly after doing a blood test only.Mono is also a viral illness and exactly behaves the same way.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Sumanth Amperayani",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 52,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pink eye",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 78,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Tobrex",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 131,
+          "char_end": 163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives on his face, arms and legs",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 211,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 233,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 242,
+          "char_end": 246,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 300,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "congestion",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 312,
+          "char_end": 318,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fevers",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 353,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "appetite",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 369,
+          "char_end": 378,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lethargic",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 532,
+          "char_end": 541,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lethargic",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 682,
+          "char_end": 690,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "appetite",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 711,
+          "char_end": 716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cough",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 731,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "congestion",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 777,
+          "char_end": 781,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mono",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 888,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "viral illness",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 925,
+          "char_end": 929,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "mono",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 978,
+          "char_end": 988,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood test",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 998,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mono",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1022,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "viral illness",
+      "id": "e20"
+    }
+  ]
+}

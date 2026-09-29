@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 23,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 38,
@@ -33,23 +31,8 @@
       "id": "e2"
     },
     {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "duration",
-      "experiencer": "family",
-      "spans": [
-        {
-          "char_start": 48,
-          "char_end": 73,
-          "turn_id": null
-        }
-      ],
-      "text": "since he was 2 months old",
-      "id": "e3"
-    },
-    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 83,
@@ -58,12 +41,11 @@
         }
       ],
       "text": "Reflux",
-      "id": "e4"
+      "id": "e3"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 104,
@@ -72,12 +54,11 @@
         }
       ],
       "text": "Axid",
-      "id": "e5"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 142,
@@ -86,12 +67,11 @@
         }
       ],
       "text": "Reflux",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 166,
@@ -100,7 +80,7 @@
         }
       ],
       "text": "discomfort",
-      "id": "e7"
+      "id": "e6"
     }
   ]
 }

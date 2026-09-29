@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 28,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 94,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 99,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 117,
@@ -61,9 +57,21 @@
       "id": "e4"
     },
     {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 138,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "traditional Chinese medicine",
+      "id": "e5"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 251,
@@ -72,12 +80,11 @@
         }
       ],
       "text": "chronic obstructive pulmonary disease",
-      "id": "e5"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 290,
@@ -86,12 +93,11 @@
         }
       ],
       "text": "COPD",
-      "id": "e6"
+      "id": "e7"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 546,
@@ -100,26 +106,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e7"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 567,
-          "char_end": 588,
-          "turn_id": null
-        }
-      ],
-      "text": "inflammatory response",
       "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 630,
@@ -131,9 +122,34 @@
       "id": "e9"
     },
     {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 666,
+          "turn_id": null
+        }
+      ],
+      "text": "cigarette smoke extract",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 671,
+          "turn_id": null
+        }
+      ],
+      "text": "CSE",
+      "id": "e11"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 730,
@@ -142,12 +158,37 @@
         }
       ],
       "text": "COPD",
-      "id": "e10"
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 776,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "cigarette smoke",
+      "id": "e13"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 844,
+          "turn_id": null
+        }
+      ],
+      "text": "lipopolysaccharide",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
       "spans": [
         {
           "char_start": 846,
@@ -156,12 +197,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e11"
+      "id": "e15"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 900,
@@ -170,12 +210,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e12"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 948,
@@ -184,12 +223,24 @@
         }
       ],
       "text": "pulmonary pathological damage",
-      "id": "e13"
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 1099,
+          "char_end": 1102,
+          "turn_id": null
+        }
+      ],
+      "text": "CSE",
+      "id": "e18"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1166,
@@ -198,12 +249,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e14"
+      "id": "e19"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1272,
@@ -212,12 +262,11 @@
         }
       ],
       "text": "inhibitor of TGF-β1",
-      "id": "e15"
+      "id": "e20"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1311,
@@ -226,12 +275,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e16"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "injury",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1339,
@@ -240,12 +288,11 @@
         }
       ],
       "text": "injury of lung",
-      "id": "e17"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1410,
@@ -254,12 +301,11 @@
         }
       ],
       "text": "collagen deposition",
-      "id": "e18"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1433,
@@ -268,12 +314,11 @@
         }
       ],
       "text": "COPD",
-      "id": "e19"
+      "id": "e24"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1546,
@@ -282,26 +327,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1559,
-          "char_end": 1580,
-          "turn_id": null
-        }
-      ],
-      "text": "inflammatory response",
-      "id": "e21"
+      "id": "e25"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1755,
@@ -310,12 +340,24 @@
         }
       ],
       "text": "YPFS",
-      "id": "e22"
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 1763,
+          "char_end": 1766,
+          "turn_id": null
+        }
+      ],
+      "text": "CSE",
+      "id": "e27"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1784,
@@ -324,12 +366,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e23"
+      "id": "e28"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1926,
@@ -338,12 +379,11 @@
         }
       ],
       "text": "YPFS",
-      "id": "e24"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1962,
@@ -352,7 +392,20 @@
         }
       ],
       "text": "COPD",
-      "id": "e25"
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 1975,
+          "char_end": 1978,
+          "turn_id": null
+        }
+      ],
+      "text": "CSE",
+      "id": "e31"
     }
   ]
 }

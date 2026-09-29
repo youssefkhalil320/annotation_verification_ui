@@ -1,0 +1,346 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:16372636-DS-10:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\ncodeine / morphine / aspirin\n\nChief Complaint:\nleft periprosthetic femur fracture\n\nHistory of Present Illness:\nMrs. ___ is a ___ who has history of osteoporosis and is\ns/p L THA ___ years ago at ___. She presents after a\nmechanical fall and injured her left hip. She reports she cannot\nplace weight on the left side. No numbness or tingling. No other\ninjuries. She did have head strike but no neck pain.\n\nBrief Hospital Course:\nThe patient presented to the emergency department and was \nevaluated by the orthopedic surgery team. The patient was found \nto have L periprosthetic fracture and was admitted to the \northopedic surgery service. The patient was taken to the \noperating room on ___ for Open reduction internal fixation, \nleft periprosthetic femur fracture., which the patient tolerated \nwell. For full details of the procedure please see the \nseparately dictated operative report. The patient was taken from \nthe OR to the PACU in stable condition and after satisfactory \nrecovery from anesthesia was transferred to the floor. The \npatient was initially given IV fluids and IV pain medications, \nand progressed to a regular diet and oral medications by POD#1. \nThe patient was given ___ antibiotics and \nanticoagulation per routine. The patient's home medications were \ncontinued throughout this hospitalization. The patient worked \nwith ___ who determined that discharge to Rehab was appropriate. \nThe ___ hospital course was otherwise unremarkable.\n\nAt the time of discharge the patient's pain was well controlled \nwith oral medications, incisions were clean/dry/intact, and the \npatient was voiding/moving bowels spontaneously. The patient is \nTDWB LLE w/ posterior hip precautions, and will be discharged on \nLovenox for DVT prophylaxis. The patient will follow up with Dr. \n___ routine. A thorough discussion was had with the \npatient regarding the diagnosis and expected post-discharge \ncourse including reasons to call the office or return to the \nhospital, and all questions were answered. The patient was also \ngiven written instructions concerning precautionary instructions \nand the appropriate follow-up care. The patient expressed \nreadiness for discharge.\n\nDischarge Diagnosis:\nleft periprosthetic femur fracture",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "morphine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 39,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 58,
+          "char_end": 92,
+          "turn_id": null
+        }
+      ],
+      "text": "left periprosthetic femur fracture",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 171,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoporosis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "L THA",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 272,
+          "turn_id": null
+        }
+      ],
+      "text": "injured her left hip",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 326,
+          "turn_id": null
+        }
+      ],
+      "text": "cannot\nplace weight on the left side",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 331,
+          "char_end": 339,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 343,
+          "char_end": 351,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 413,
+          "turn_id": null
+        }
+      ],
+      "text": "neck pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 596,
+          "turn_id": null
+        }
+      ],
+      "text": "L periprosthetic fracture",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 706,
+          "char_end": 738,
+          "turn_id": null
+        }
+      ],
+      "text": "Open reduction internal fixation",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 741,
+          "char_end": 775,
+          "turn_id": null
+        }
+      ],
+      "text": "left periprosthetic femur fracture",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1006,
+          "char_end": 1016,
+          "turn_id": null
+        }
+      ],
+      "text": "anesthesia",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1096,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1101,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1113,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1153,
+          "char_end": 1157,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1207,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1224,
+          "char_end": 1239,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1395,
+          "char_end": 1400,
+          "turn_id": null
+        }
+      ],
+      "text": "Rehab",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1542,
+          "char_end": 1546,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1733,
+          "char_end": 1740,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1745,
+          "char_end": 1748,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2246,
+          "turn_id": null
+        }
+      ],
+      "text": "left periprosthetic femur fracture",
+      "id": "e26"
+    }
+  ]
+}

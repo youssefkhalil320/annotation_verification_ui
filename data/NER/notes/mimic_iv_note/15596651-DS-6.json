@@ -1,0 +1,268 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15596651-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCipro / Iodinated Contrast- Oral and IV Dye / Bactrim / latex\n\nChief Complaint:\nSymptomatic cholelithiasis\n\nHistory of Present Illness:\nThe patient is a ___ woman with history of symptomatic \ncholelithiasis. She was recommended cholecystectomy. After all \nrisks, benefits and possible outcomes were discussed, she was \nscheduled for elective cholecystectomy\n\nBrief Hospital Course:\nThe patient was admitted to the General Surgical Service for \nelective cholecystectomy. On ___, the patient underwent \nlaparoscopic cholecystectomy, which went well without \ncomplication (reader referred to the Operative Note for \ndetails). After extubation patient was noticed to have low O2 \nsaturation while sleeping. Chest radiograph was obtained and \ndemonstrated normal lungs. Patient was admitted for observation \nand CPAP machine was provided overnight as patient has a high \nrisk for OSA. On POD 1, patient remained normal from pulmonary \nstand pint, she remained on room air with normal O2 saturation. \nShe was recommended to schedule a follow up with Sleep Medicine \nfor outpatient sleep study. Patient was discharged home at the \nsame day in stable condition. \nAt the time of discharge, the patient was doing well, afebrile \nwith stable vital signs. The patient was tolerating a regular \ndiet, ambulating, voiding without assistance, and pain was well \ncontrolled. The patient received discharge teaching and \nfollow-up instructions with understanding verbalized and \nagreement with the discharge plan.\n\nDischarge Diagnosis:\n1. Symptomatic cholelithiasis\n2. Possible obstructive sleep apnea",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodinated Contrast",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 39,
+          "char_end": 43,
+          "turn_id": null
+        }
+      ],
+      "text": "Oral",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 50,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 64,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 117,
+          "turn_id": null
+        }
+      ],
+      "text": "cholelithiasis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 203,
+          "char_end": 217,
+          "turn_id": null
+        }
+      ],
+      "text": "cholelithiasis",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 239,
+          "char_end": 254,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 353,
+          "char_end": 368,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 464,
+          "char_end": 479,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 512,
+          "char_end": 540,
+          "turn_id": null
+        }
+      ],
+      "text": "laparoscopic cholecystectomy",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 640,
+          "char_end": 650,
+          "turn_id": null
+        }
+      ],
+      "text": "extubation",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 679,
+          "char_end": 697,
+          "turn_id": null
+        }
+      ],
+      "text": "low O2 \nsaturation",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 714,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest radiograph",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 818,
+          "char_end": 822,
+          "turn_id": null
+        }
+      ],
+      "text": "CPAP",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 889,
+          "turn_id": null
+        }
+      ],
+      "text": "OSA",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1086,
+          "char_end": 1097,
+          "turn_id": null
+        }
+      ],
+      "text": "sleep study",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1343,
+          "char_end": 1347,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1545,
+          "char_end": 1559,
+          "turn_id": null
+        }
+      ],
+      "text": "cholelithiasis",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1572,
+          "char_end": 1595,
+          "turn_id": null
+        }
+      ],
+      "text": "obstructive sleep apnea",
+      "id": "e20"
+    }
+  ]
+}

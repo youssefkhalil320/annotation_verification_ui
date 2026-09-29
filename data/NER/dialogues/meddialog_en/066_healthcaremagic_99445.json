@@ -1,0 +1,853 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:99445:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I've had a rash (more so hives) every day for the last 2 weeks.  It started with a bad sore throat and earache on September 28th.  Then, I had a lot of drainage and congestion.  I started taking Mucinex DM and then broke out in hives.  I thought the Mucinex might be causing the hives, so I stopped taking that.  Since the sore throat and earache was not going away, I went to my doctor last Monday.  He said I \"might\" have strep throat, but didn't test me for it.  He wrote Pharnygitis on my doctor's note for work and put me on an antibiotic (Amoxicillan 500 MG capsules to be taken 3 times a day).  I've been taking that, but the hives keep appearing every day.  Not sure if the hives are an allergic reaction to both medicines or if it is just a part of this viral infection.  I have to take Benedryl every night to get relief from the itching.  Do you know what else could be causing the hives?  I am broken out all over from scratching.  Didn't know if you knew of a specific virus going around that is causing hives?\n[doctor] Hello,Thank you for asking at HCM.I went through your history and would like to make suggestions for you as follows:1. As your hives started after taking Mucinex DM while having a sore throat with earache, I would think of either the infection itself or Mucinex DM.2. Although amoxycillin is a very common cause of hives, I would not think of amoxicillin you had hives even before taking amoxycillin.3. At this moment, it is difficult to find the exact cause of hives, it could be Mucinex DM, viral infection or strep infection. As you have already started amoxycillin, throat culture will not be helpful. There are many possible viruses causing such symptoms with hives, so I usually do not advise my such patients to go for testing for viruses, especially because there are no antiviral medicines for most of the viruses.4. Were I treating you, I would suggest you to complete the course of Amoxycillin and take an antihistamine like levocetirizine or cetirizine in morning and diphenhydramine (Bendadryl that you are already taking, may cause sedation) before going to bed at least for 7-10 days. If hives return after that, I would investigate my such patient for other causes of hives.5. I would also suggest you to apply calamine lotion over the itchy areas. Please do not scratch the itchy areas as scratching would aggravate itching.Hope above suggestions will be helpful to you.Should you have any further query, please feel free to ask at HCM.Wish you a very quick recovery and a very good health ahead.Thank you & Regards.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 25,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 40,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 108,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sore throat",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "earache",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 170,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drainage",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 185,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "congestion",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 215,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mucinex DM",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 267,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mucinex",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 289,
+          "char_end": 294,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 333,
+          "char_end": 344,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sore throat",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 349,
+          "char_end": 356,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "earache",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 446,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "strep throat",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 496,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pharnygitis",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 543,
+          "char_end": 553,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 566,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Amoxicillan",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 567,
+          "char_end": 573,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "500 MG",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 582,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "capsules",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 608,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 times a day",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 648,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 697,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 705,
+          "char_end": 722,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 773,
+          "char_end": 788,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "viral infection",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 806,
+          "char_end": 814,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benedryl",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 815,
+          "char_end": 826,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every night",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 850,
+          "char_end": 857,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 908,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 916,
+          "char_end": 926,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "broken out",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1027,
+          "char_end": 1032,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1170,
+          "char_end": 1175,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1197,
+          "char_end": 1207,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mucinex DM",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1223,
+          "char_end": 1234,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sore throat",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1240,
+          "char_end": 1247,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "earache",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1277,
+          "char_end": 1286,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infection",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1297,
+          "char_end": 1307,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mucinex DM",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1331,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxycillin",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1363,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1386,
+          "char_end": 1397,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1406,
+          "char_end": 1411,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1431,
+          "char_end": 1442,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxycillin",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1505,
+          "char_end": 1510,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1524,
+          "char_end": 1534,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mucinex DM",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1536,
+          "char_end": 1551,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "viral infection",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1555,
+          "char_end": 1570,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "strep infection",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1611,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxycillin",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1613,
+          "char_end": 1627,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "throat culture",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1708,
+          "char_end": 1713,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1769,
+          "char_end": 1788,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "testing for viruses",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1822,
+          "char_end": 1831,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antiviral",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1936,
+          "char_end": 1947,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Amoxycillin",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1960,
+          "char_end": 1973,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihistamine",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1979,
+          "char_end": 1993,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "levocetirizine",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2008,
+          "char_end": 2018,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "in morning",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2023,
+          "char_end": 2038,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diphenhydramine",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2040,
+          "char_end": 2049,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Bendadryl",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2089,
+          "char_end": 2097,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sedation",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2099,
+          "char_end": 2118,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "before going to bed",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2119,
+          "char_end": 2141,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "at least for 7-10 days",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2146,
+          "char_end": 2151,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2227,
+          "char_end": 2232,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2270,
+          "char_end": 2278,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "calamine",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2279,
+          "char_end": 2285,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lotion",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2295,
+          "char_end": 2300,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itchy",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2334,
+          "char_end": 2339,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itchy",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2376,
+          "char_end": 2383,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itching",
+      "id": "e65"
+    }
+  ]
+}

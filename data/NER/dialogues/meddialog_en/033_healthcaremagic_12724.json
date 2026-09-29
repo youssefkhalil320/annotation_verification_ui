@@ -1,0 +1,325 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:12724:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I,v had a rash since monday and has been getting worse since then, I got some cream, Benadryl. and some tablets, Piriton. I thought I mite be allergeted to something, But last night I had to call my husdand home from work because, I woke up at 4am very swetty the bedroom was spinning and I could not walk, I cralled to the sofa and rang my husdand, whan he got home I was sick, in a bowl very much, He had to go back to work, so I sat on the sofa and must of fallen a sleep, So today I just fill dizzy, lite headed, and a bit drunk. The rash is still making me very itchy. can you help. Thank you, From Debbie\n[doctor] Hi,The symptoms that you have described can be seen as a side effect of using Benadryl and Piriton. These are antihistamine drugs and they commonly cause:* Dizziness* Drowsiness* and PalpitationsThese effects are increased when one has consumed alcohol along with the medications as well.Some things that you can try to help reduce the itching can be Icing the area locally to numb the receptors for itching. Using a cool lotion like calamine can help as well. In case these symptoms persist, please visit a doctor to get the right dosage of medications to help. Also, avoid taking drugs from the same class of medications.Hope I have answered your question. Let me know if I can assist you further.  Regards, Dr. Vignan Rachabattuni, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 24,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 93,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 103,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 114,
+          "char_end": 121,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablets",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 123,
+          "char_end": 130,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Piriton",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 162,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergeted",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swetty",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 274,
+          "char_end": 281,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 286,
+          "char_end": 294,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bedroom spinning",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 387,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 507,
+          "char_end": 512,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 525,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lite headed",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 542,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drunk",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 548,
+          "char_end": 552,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 577,
+          "char_end": 582,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itchy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 716,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 728,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Piriton",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 740,
+          "char_end": 753,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihistamine",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 795,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Dizziness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 807,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Drowsiness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 813,
+          "char_end": 830,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "PalpitationsThese",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 882,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "alcohol",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 966,
+          "char_end": 973,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itching",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1030,
+          "char_end": 1037,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itching",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1064,
+          "char_end": 1072,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "calamine",
+      "id": "e24"
+    }
+  ]
+}

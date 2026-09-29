@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 22,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 193,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 302,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 452,
@@ -63,26 +59,19 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 572,
           "char_end": 583,
           "turn_id": null
-        },
-        {
-          "char_start": 596,
-          "char_end": 602,
-          "turn_id": null
         }
       ],
-      "text": "serum lipid levels",
+      "text": "serum lipid",
       "id": "e5"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 588,
@@ -96,7 +85,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 604,
@@ -110,21 +98,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 641,
-          "char_end": 667,
-          "turn_id": null
-        }
-      ],
-      "text": "expression levels of genes",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 725,
@@ -133,31 +106,11 @@
         }
       ],
       "text": "pyrosequencing",
-      "id": "e9"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 810,
-          "char_end": 832,
-          "turn_id": null
-        },
-        {
-          "char_start": 851,
-          "char_end": 856,
-          "turn_id": null
-        }
-      ],
-      "text": "Total body weight gain lower",
-      "id": "e10"
+      "id": "e8"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 979,
@@ -166,12 +119,11 @@
         }
       ],
       "text": "blood glucose",
-      "id": "e11"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 994,
@@ -180,12 +132,11 @@
         }
       ],
       "text": "triglyceride",
-      "id": "e12"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1012,
@@ -194,12 +145,11 @@
         }
       ],
       "text": "total cholesterol levels",
-      "id": "e13"
+      "id": "e11"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1042,
@@ -208,12 +158,11 @@
         }
       ],
       "text": "12- week",
-      "id": "e14"
+      "id": "e12"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1051,
@@ -222,74 +171,11 @@
         }
       ],
       "text": "voglibose",
-      "id": "e15"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1165,
-          "char_end": 1176,
-          "turn_id": null
-        },
-        {
-          "char_start": 1188,
-          "char_end": 1192,
-          "turn_id": null
-        },
-        {
-          "char_start": 1212,
-          "char_end": 1218,
-          "turn_id": null
-        }
-      ],
-      "text": "taurocholic acid higher",
-      "id": "e16"
+      "id": "e13"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1165,
-          "char_end": 1176,
-          "turn_id": null
-        },
-        {
-          "char_start": 1188,
-          "char_end": 1192,
-          "turn_id": null
-        }
-      ],
-      "text": "taurocholic acid",
-      "id": "e17"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1181,
-          "char_end": 1192,
-          "turn_id": null
-        },
-        {
-          "char_start": 1212,
-          "char_end": 1218,
-          "turn_id": null
-        }
-      ],
-      "text": "cholic acid higher",
-      "id": "e18"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1181,
@@ -298,31 +184,11 @@
         }
       ],
       "text": "cholic acid",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1266,
-          "char_end": 1289,
-          "turn_id": null
-        },
-        {
-          "char_start": 1303,
-          "char_end": 1309,
-          "turn_id": null
-        }
-      ],
-      "text": "Deoxycholic acid levels higher",
-      "id": "e20"
+      "id": "e14"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1266,
@@ -331,12 +197,11 @@
         }
       ],
       "text": "Deoxycholic acid levels",
-      "id": "e21"
+      "id": "e15"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1348,
@@ -345,12 +210,11 @@
         }
       ],
       "text": "Voglibose",
-      "id": "e22"
+      "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1494,
@@ -359,7 +223,7 @@
         }
       ],
       "text": "Voglibose",
-      "id": "e23"
+      "id": "e17"
     }
   ]
 }

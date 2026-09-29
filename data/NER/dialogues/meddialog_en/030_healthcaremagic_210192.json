@@ -1,0 +1,372 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:210192:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My son has bipolar 1. He is currently being treated for a manic episode, at home, and he normally take Lithium and Seroquel. His doctor has recently increased his Lithium from 1200mg/d to 1500mg/d (his level was only .6 prior to his mania), and increased his Seroquel to 800mgxr and 200mg short-acting p r n, up to BID, and added Epival 750mg BID. he has had severe episodes of vomiting in the last 2 days, with resulting severe petechiae , and facial bruising. Could this be due to drug toxicity, and does he need to go to ER?\n[doctor] HiThanks for using healthcare magicYes, severe petechiae is due to drug over dose or toxicity. Sometime, due to vomiting, severe lithium level increases and it lead to blood cell damage. That may be the reason in your son. Better to go to emergency as early as possible and get his serum lithium level done. He needs immediate care.Thanks",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 30,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bipolar 1",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 81,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "manic episode",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lithium",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Seroquel",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lithium",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 194,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1200mg/d",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 198,
+          "char_end": 206,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1500mg/d",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 243,
+          "char_end": 248,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mania",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 277,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Seroquel",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 288,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "800mgxr",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 299,
+          "char_end": 311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "short-acting",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 312,
+          "char_end": 317,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "p r n",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 319,
+          "char_end": 328,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "up to BID",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 340,
+          "char_end": 346,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Epival",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 352,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "750mg",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 353,
+          "char_end": 356,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BID",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 388,
+          "char_end": 396,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 439,
+          "char_end": 448,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "petechiae",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 470,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "facial bruising",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 493,
+          "char_end": 506,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drug toxicity",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 603,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "petechiae",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 614,
+          "char_end": 628,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "drug over dose",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 632,
+          "char_end": 640,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "toxicity",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 659,
+          "char_end": 667,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 689,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lithium level",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 699,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lithium level increases",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 732,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood cell damage",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 829,
+          "char_end": 848,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "serum lithium level",
+      "id": "e28"
+    }
+  ]
+}

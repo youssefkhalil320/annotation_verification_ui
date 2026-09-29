@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 3,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 18,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 74,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 99,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 128,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 152,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 188,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 223,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 267,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 379,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 418,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 534,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 600,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 632,
@@ -203,7 +189,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 662,
@@ -217,7 +202,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 686,
@@ -231,7 +215,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 928,
@@ -245,7 +228,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 933,
@@ -259,7 +241,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 946,
@@ -273,7 +254,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 984,
@@ -287,7 +267,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 989,
@@ -301,7 +280,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1035,
@@ -315,35 +293,19 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1053,
-          "char_end": 1100,
+          "char_end": 1114,
           "turn_id": null
         }
       ],
-      "text": "Centre for Epidemiological Studies - Depression",
+      "text": "Centre for Epidemiological Studies - Depression (CES-D) scale",
       "id": "e23"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1102,
-          "char_end": 1107,
-          "turn_id": null
-        }
-      ],
-      "text": "CES-D",
-      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1116,
@@ -352,12 +314,11 @@
         }
       ],
       "text": "HIV+",
-      "id": "e25"
+      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1121,
@@ -366,16 +327,28 @@
         }
       ],
       "text": "smokers",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1134,
+          "char_end": 1144,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
       "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1134,
-          "char_end": 1144,
+          "char_start": 1197,
+          "char_end": 1207,
           "turn_id": null
         }
       ],
@@ -385,21 +358,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1197,
-          "char_end": 1207,
-          "turn_id": null
-        }
-      ],
-      "text": "depression",
-      "id": "e28"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1349,
@@ -408,12 +366,11 @@
         }
       ],
       "text": "depression",
-      "id": "e29"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1383,
@@ -422,12 +379,11 @@
         }
       ],
       "text": "relapse",
-      "id": "e30"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1410,
@@ -436,26 +392,24 @@
         }
       ],
       "text": "depression",
-      "id": "e31"
+      "id": "e30"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1452,
-          "char_end": 1463,
+          "char_end": 1473,
           "turn_id": null
         }
       ],
-      "text": "counselling",
-      "id": "e32"
+      "text": "counselling programme",
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1675,
@@ -464,21 +418,20 @@
         }
       ],
       "text": "depressive symptoms",
-      "id": "e33"
+      "id": "e32"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1722,
-          "char_end": 1733,
+          "char_end": 1744,
           "turn_id": null
         }
       ],
-      "text": "counselling",
-      "id": "e34"
+      "text": "counselling programmes",
+      "id": "e33"
     }
   ]
 }

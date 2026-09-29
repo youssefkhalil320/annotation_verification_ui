@@ -1,0 +1,671 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:23185:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi doctor, I am 51 years and nondiabetic. It seems I am suffering from balanitis for the past two weeks. Earlier, I had the problem of ringworm, but then after medication of Clotrimazole ointment and oral tablet Terbinafine, it was treated. After a couple of months of that problem, I noticed two weeks back, red rash on the ring of my glans and foreskin with burning sensation. I checked on the internet and used Clotrimazole ointment with FourDerm and Terbicip. It got subsided, but every time after a bath, it emerged. I also keep hygiene around my genitals and also washed it with warm water with salt. However, it did not get cured but remained controlled. Two days back, I consulted a dermatologist, and he suggested to stop all that and instead apply DK Gel and take AF 150 orally, one tablet every three days after dinner. It has become redder and has covered the complete foreskin with redness and swelling. I checked with the dermatologist, but he said it is due to the use of steroid FourDerm ointment, and that it will subside in 7 to 8 days. It burns and is too sensitive even if it touches the cloth. I am attaching a picture of my penis. Please help.\n[doctor] Hi. By your complaints and the picture (attachment removed to protect patient identity), your concern is balanitis. What your dermatologist had suggested is appropriate. You are facing side effects due to potent steroid in FourDerm (combination of Chlorhexidine, Clobetasol, Miconazole, and Neomycin). You can continue what your dermatologist had suggested. I suggest applying DK gel (Miconazole) at bedtime and Efficort 0.127 % (Hydrocortisone) mild medicated steroid in the affected areas until redness subsides. Try taking Crocin (Paracetamol) 500 mg, as on required to reduce pain. AF 150 mg (Fluconazole), weekly once after dinner. This will help you. Do not worry. For further queries consult a dermatologist online --> https://www.icliniq.com/ask-a-doctor-online/dermatologist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 39,
+          "char_end": 50,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nondiabetic",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 90,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "balanitis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 153,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ringworm",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Clotrimazole",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ointment",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 214,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oral",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 215,
+          "char_end": 221,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablet",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 222,
+          "char_end": 233,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Terbinafine",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 319,
+          "char_end": 364,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "red rash on the ring of my glans and foreskin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 370,
+          "char_end": 387,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burning sensation",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 424,
+          "char_end": 436,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Clotrimazole",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 445,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ointment",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 451,
+          "char_end": 459,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "FourDerm",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 464,
+          "char_end": 472,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Terbicip",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 774,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "DK Gel",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 784,
+          "char_end": 786,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "AF",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 797,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "orally",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 809,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one tablet",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 839,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every three days after dinner",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 912,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "redness",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 917,
+          "char_end": 925,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1004,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1005,
+          "char_end": 1013,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "FourDerm",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1014,
+          "char_end": 1022,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ointment",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1068,
+          "char_end": 1073,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burns",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1085,
+          "char_end": 1094,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sensitive",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1290,
+          "char_end": 1299,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "balanitis",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1397,
+          "char_end": 1404,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1408,
+          "char_end": 1416,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "FourDerm",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1433,
+          "char_end": 1446,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Chlorhexidine",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1448,
+          "char_end": 1458,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Clobetasol",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1460,
+          "char_end": 1470,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Miconazole",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1476,
+          "char_end": 1484,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Neomycin",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1562,
+          "char_end": 1568,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "DK gel",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1580,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Miconazole",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1582,
+          "char_end": 1592,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "at bedtime",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1597,
+          "char_end": 1605,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Efficort",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1613,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "0.127 %",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1615,
+          "char_end": 1629,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Hydrocortisone",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1646,
+          "char_end": 1653,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1676,
+          "char_end": 1698,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "until redness subsides",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1682,
+          "char_end": 1689,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "redness",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1717,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Crocin",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1730,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Paracetamol",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1732,
+          "char_end": 1738,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "500 mg",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1740,
+          "char_end": 1754,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "as on required",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1765,
+          "char_end": 1769,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1771,
+          "char_end": 1773,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "AF",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1774,
+          "char_end": 1780,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "150 mg",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1782,
+          "char_end": 1793,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Fluconazole",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1796,
+          "char_end": 1820,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "weekly once after dinner",
+      "id": "e51"
+    }
+  ]
+}

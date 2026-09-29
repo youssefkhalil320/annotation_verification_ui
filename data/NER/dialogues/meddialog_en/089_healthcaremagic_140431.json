@@ -1,0 +1,468 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:140431:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello, I ve been diagnosed with psuedo tumor cerebri and migraines by my neurologist just as a brief background. I have had a migraine now for three days with auras, dizziness, vomiting, hard time being in light and dealing with sound and I am very easily agitated and an extremely painful itchy rash that has completely taken up one side of my body. I called my dr she prescribed me sumatriptan injection and Tramadol tabs and so far it has done nothing at all and she hasn t said much about the rash, I m not sure what to do\n[doctor] Hi,  If your diagnosis is pseudotumor cerebri or IIH as it now called Idiopathic Intracranial Hypertension then, the treatment of choice would be to first identify possible underlying causes such as obesity, overuse of Vitamin A, or the use of certain medications such as Antiglaucoma, Carbonic Anhydrase Inhibitors, Loop diuretics, Cardiovascular, Corticosteroids, Beta-Blockers, Tricyclic Antidepressants, or Antiepileptics.  If any of these medications you should ask your doctor if you could go on a trial without them and see if things improve.  Otherwise, the definitive medication of choice would be to start with something such as Diamox or topiramate and then, consider other solutions as needed.    Your rash may be a reaction to the Sumatriptan or Tramadol (BTW, I'm not a fan of the Tramadol for treating headaches...not terribly effective and risky in terms of side effects AND high percentage of patients have allergic rashes to the drug).  Hope I have answered your query. Let me know if I can assist you further.  Regards, Dr. Dariush Saghafi Neurologist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 62,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "psuedo tumor cerebri",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 76,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "migraines",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 174,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "auras",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 185,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 195,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 206,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 213,
+          "char_end": 221,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hard time in light",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 244,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dealing with sound",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 266,
+          "char_end": 274,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "agitated",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 292,
+          "char_end": 310,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "painful itchy rash",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 394,
+          "char_end": 405,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sumatriptan",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 406,
+          "char_end": 415,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injection",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 428,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Tramadol",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 433,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tabs",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 591,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pseudotumor cerebri",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 598,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "IIH",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 652,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Idiopathic Intracranial Hypertension",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 745,
+          "char_end": 752,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "obesity",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 754,
+          "char_end": 774,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "overuse of Vitamin A",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 774,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Vitamin A",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 818,
+          "char_end": 830,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Antiglaucoma",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 861,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Carbonic Anhydrase Inhibitors",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 877,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Loop diuretics",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 893,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Cardiovascular",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 895,
+          "char_end": 910,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Corticosteroids",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 912,
+          "char_end": 925,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Beta-Blockers",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 927,
+          "char_end": 952,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Tricyclic Antidepressants",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 957,
+          "char_end": 971,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Antiepileptics",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1185,
+          "char_end": 1191,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Diamox",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1205,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "topiramate",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1264,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rash",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1290,
+          "char_end": 1301,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Sumatriptan",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1313,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Tramadol",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1341,
+          "char_end": 1349,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Tramadol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1363,
+          "char_end": 1372,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "headaches",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1470,
+          "char_end": 1485,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic rashes",
+      "id": "e35"
+    }
+  ]
+}

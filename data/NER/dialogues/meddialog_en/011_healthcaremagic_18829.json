@@ -1,0 +1,307 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:18829:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Is there a drug for hypertension that does not cause migraine headaches (triedLisinopril and systolic) or diarrhea (tried benicar) or Reynard ( tried benicar and bystolic). Also, I work outside, am slim, and can t take a diuretic because of excessive sweating.\n[doctor] Hello,You can safely take calcium channel blockers (CCBs) for a migraine headache and high blood pressure (hypertension). CCBs relax blood vessels and help to control hypertension. These group of medicines is also effectively used for the prevention of migraine headaches. Please, ask your Doctor to prescribe CCBs (verapamil) for hypertension and migraine headaches.Hope I have answered your query. Let me know if I can assist you further.Regards,       Dr. Malik",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 42,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 81,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "migraine headaches",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "triedLisinopril",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 111,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "systolic",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 139,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "benicar",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 151,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Reynard",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 167,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "benicar",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 172,
+          "char_end": 180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bystolic",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diuretic",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sweating",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 306,
+          "char_end": 330,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "calcium channel blockers",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 336,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CCBs",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 361,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "migraine headache",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 366,
+          "char_end": 385,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 387,
+          "char_end": 399,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 402,
+          "char_end": 406,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CCBs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 459,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 533,
+          "char_end": 551,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "migraine headaches",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 590,
+          "char_end": 594,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CCBs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 605,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "verapamil",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 611,
+          "char_end": 623,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 628,
+          "char_end": 646,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "migraine headaches",
+      "id": "e23"
+    }
+  ]
+}

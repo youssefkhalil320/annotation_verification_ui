@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 47,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 56,
@@ -40,7 +38,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 70,
@@ -54,21 +51,37 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 97,
+          "char_end": 104,
+          "turn_id": null
+        },
+        {
+          "char_start": 120,
           "char_end": 127,
           "turn_id": null
         }
       ],
-      "text": "Burning/heat sensation on back",
+      "text": "Burning on back",
       "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 127,
+          "turn_id": null
+        }
+      ],
+      "text": "heat sensation on back",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 129,
@@ -77,12 +90,11 @@
         }
       ],
       "text": "Malaise",
-      "id": "e5"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 138,
@@ -91,12 +103,11 @@
         }
       ],
       "text": "Nausea",
-      "id": "e6"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 180,
@@ -105,12 +116,11 @@
         }
       ],
       "text": "trapped gas",
-      "id": "e7"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 204,
@@ -119,12 +129,11 @@
         }
       ],
       "text": "dyspepsia like pain",
-      "id": "e8"
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 225,
@@ -133,12 +142,11 @@
         }
       ],
       "text": "pelvic pain",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 238,
@@ -147,12 +155,11 @@
         }
       ],
       "text": "kidney pain",
-      "id": "e10"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 275,
@@ -161,12 +168,11 @@
         }
       ],
       "text": "trapped gas",
-      "id": "e11"
+      "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 312,
@@ -175,12 +181,11 @@
         }
       ],
       "text": "belching",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 325,
@@ -189,12 +194,11 @@
         }
       ],
       "text": "tooting",
-      "id": "e13"
+      "id": "e14"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 397,
@@ -203,12 +207,11 @@
         }
       ],
       "text": "tums",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 403,
@@ -217,12 +220,11 @@
         }
       ],
       "text": "gaviscon",
-      "id": "e15"
+      "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 413,
@@ -231,26 +233,11 @@
         }
       ],
       "text": "mylanta",
-      "id": "e16"
-    },
-    {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "duration",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 490,
-          "char_end": 498,
-          "turn_id": null
-        }
-      ],
-      "text": "too long",
       "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 530,
@@ -264,7 +251,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 584,

@@ -1,0 +1,907 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13409740-DS-19:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nlactose / labetalol\n\nChief Complaint:\nGout Flair\n\nHistory of Present Illness:\nHPI: \n___ y.o with ___, CKD, hypertension presenting with left foot\npain in the setting of suspected gout flare, poorly controlled\nhypertension, found to have suspected acute on chronic kidney\ndisease.  He originally presented to his primary care doctor \nwith\nleft foot pain, thought to be consistent with previous gout\nflare, where it was noticed that his blood pressure was \n213/124..\nDuring this evaluation, he was found to be hypertensive and \nfound\nto have acute kidney injury so he was subsequently sent to the\nemergency room.\n\nIn the ED, initial vital signs were 99.3 ___ 18 98% on\nroom air.  His blood pressure was controlled with IV hydralazine\n10 mg, subsequent blood pressures in the 140s-150s.  He was also\ngiven 125 mg IV methylprednisone for pain relief and gout, as\nwell as 1000 mg acetaminophen and 50 mg tramadol.\nLabs with CBC with H&H of 13.4/39.9.  BMP notable for BUN of 38\nand creatinine 3.1.  UA with trace blood and proteinuria,\notherwise negative.\n\nUpon arrival to the floor, the patient tells the story as\nfollows.  He reports that he originally presented to his PCP due\nto worsening pain in his left foot which she attributes to gout\nattack.  He reports that he does have a diagnosis of gout, never\nmade microscopically, with an increasing gout attacks over the\nlast year, since his insurance mandated switching from \ncolchicine\nto allopurinol.  He reports last week he had a gout flare in his\nright foot, which is subsequently resolved.  Proximally 5 days\nago, he started to have pain in the left foot, which initially\nstarted at his left first metatarsal, with swelling and pain now\nalong the medial side of his entire left foot.  It worsened by\nmovement or by bearing weight.  Today he was unable to bear\nweight, and presented to his PCPs office.\n\nThere, he was noted that his blood pressure was elevated, he was\nsubsequently sent to the emergency room.  He denies any symptoms\nof elevated blood pressure including chest pain, shortness of\nbreath, headache, dizziness.  He notes that he has had several\nside effects of medications, and reports that he is compliant\nwith medications approximately 50% of the time.  The other 50% \nof\nthe time, he chooses to manage his symptoms with lemon water and\ntart cherries.  He did not take his blood pressure medications \non\nthe morning of admission.  He feels in particular, that the\nlisinopril makes him feel \"forgetful\" and gives him a headache. \nBecause of this, he often does not take this medication, because\nhe is concerned about effect his performance at work. \n\nHe otherwise denies recent fevers, chills, abdominal pain, other\njoint pain, rash, or changes in sensation to the foot.\n\nROS: Pertinent positives and negatives as noted in the HPI.  All\nother systems were reviewed and are negative.\n\nDischarge Diagnosis:\nPolycystic kidney disease\nAcute kidney injury\nHypertensive urgency\nGout flare",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "lactose",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "labetalol",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 59,
+          "turn_id": null
+        }
+      ],
+      "text": "Gout Flair",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 116,
+          "turn_id": null
+        }
+      ],
+      "text": "CKD",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 130,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 161,
+          "turn_id": null
+        }
+      ],
+      "text": "left foot\npain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "gout flare",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 232,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 289,
+          "turn_id": null
+        }
+      ],
+      "text": "acute on chronic kidney\ndisease",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 349,
+          "char_end": 363,
+          "turn_id": null
+        }
+      ],
+      "text": "left foot pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 414,
+          "turn_id": null
+        }
+      ],
+      "text": "gout\nflare",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 519,
+          "char_end": 531,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertensive",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 551,
+          "char_end": 570,
+          "turn_id": null
+        }
+      ],
+      "text": "acute kidney injury",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 653,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 731,
+          "char_end": 742,
+          "turn_id": null
+        }
+      ],
+      "text": "hydralazine",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 748,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 793,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures in the 140s-150s",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 820,
+          "turn_id": null
+        }
+      ],
+      "text": "125 mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 821,
+          "char_end": 823,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 840,
+          "turn_id": null
+        }
+      ],
+      "text": "methylprednisone",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 865,
+          "turn_id": null
+        }
+      ],
+      "text": "gout",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 878,
+          "char_end": 885,
+          "turn_id": null
+        }
+      ],
+      "text": "1000 mg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 899,
+          "turn_id": null
+        }
+      ],
+      "text": "acetaminophen",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 904,
+          "char_end": 909,
+          "turn_id": null
+        }
+      ],
+      "text": "50 mg",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 910,
+          "char_end": 918,
+          "turn_id": null
+        }
+      ],
+      "text": "tramadol",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 930,
+          "char_end": 933,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 939,
+          "char_end": 942,
+          "turn_id": null
+        }
+      ],
+      "text": "H&H",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 958,
+          "char_end": 961,
+          "turn_id": null
+        }
+      ],
+      "text": "BMP",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 977,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN of 38",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 988,
+          "char_end": 998,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 988,
+          "char_end": 1002,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine 3.1",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1005,
+          "char_end": 1007,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1013,
+          "char_end": 1024,
+          "turn_id": null
+        }
+      ],
+      "text": "trace blood",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1029,
+          "char_end": 1040,
+          "turn_id": null
+        }
+      ],
+      "text": "proteinuria",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1199,
+          "char_end": 1220,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in his left foot",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1245,
+          "char_end": 1256,
+          "turn_id": null
+        }
+      ],
+      "text": "gout\nattack",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1303,
+          "char_end": 1307,
+          "turn_id": null
+        }
+      ],
+      "text": "gout",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1356,
+          "char_end": 1368,
+          "turn_id": null
+        }
+      ],
+      "text": "gout attacks",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1444,
+          "turn_id": null
+        }
+      ],
+      "text": "colchicine",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1448,
+          "char_end": 1459,
+          "turn_id": null
+        }
+      ],
+      "text": "allopurinol",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1492,
+          "char_end": 1502,
+          "turn_id": null
+        }
+      ],
+      "text": "gout flare",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1597,
+          "char_end": 1618,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in the left foot",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1687,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1692,
+          "char_end": 1746,
+          "turn_id": null
+        }
+      ],
+      "text": "pain now\nalong the medial side of his entire left foot",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1809,
+          "char_end": 1830,
+          "turn_id": null
+        }
+      ],
+      "text": "unable to bear\nweight",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1896,
+          "char_end": 1910,
+          "turn_id": null
+        },
+        {
+          "char_start": 1915,
+          "char_end": 1923,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure elevated",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2034,
+          "char_end": 2044,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2046,
+          "char_end": 2065,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of\nbreath",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2067,
+          "char_end": 2075,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2077,
+          "char_end": 2086,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2174,
+          "char_end": 2230,
+          "turn_id": null
+        }
+      ],
+      "text": "compliant\nwith medications approximately 50% of the time",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2335,
+          "char_end": 2338,
+          "turn_id": null
+        },
+        {
+          "char_start": 2343,
+          "char_end": 2378,
+          "turn_id": null
+        }
+      ],
+      "text": "did take his blood pressure medications",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2443,
+          "char_end": 2453,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2470,
+          "char_end": 2479,
+          "turn_id": null
+        }
+      ],
+      "text": "forgetful",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2497,
+          "char_end": 2505,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2528,
+          "char_end": 2538,
+          "turn_id": null
+        },
+        {
+          "char_start": 2543,
+          "char_end": 2563,
+          "turn_id": null
+        }
+      ],
+      "text": "often does take this medication",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2656,
+          "char_end": 2662,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2664,
+          "char_end": 2670,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2672,
+          "char_end": 2686,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2688,
+          "char_end": 2704,
+          "turn_id": null
+        }
+      ],
+      "text": "other\njoint pain",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2706,
+          "char_end": 2710,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2715,
+          "char_end": 2747,
+          "turn_id": null
+        }
+      ],
+      "text": "changes in sensation to the foot",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2883,
+          "char_end": 2908,
+          "turn_id": null
+        }
+      ],
+      "text": "Polycystic kidney disease",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2909,
+          "char_end": 2928,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute kidney injury",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2929,
+          "char_end": 2949,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertensive urgency",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2950,
+          "char_end": 2960,
+          "turn_id": null
+        }
+      ],
+      "text": "Gout flare",
+      "id": "e68"
+    }
+  ]
+}

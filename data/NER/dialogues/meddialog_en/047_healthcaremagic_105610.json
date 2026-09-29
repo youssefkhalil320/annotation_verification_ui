@@ -1,0 +1,252 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:105610:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have a generalized anxiety disorder and take wellbutrin and trazadone for it. I also have bad allergies and take claritin. Lately my chest has been tight and feels like when I have a chest cold and my lower teeth are really sensitive. I feel very dizzy and weak and want to sleep all the time. Does it sound like I am sick or is it something else?\n[doctor] Hi, Thanks for writing in. The dizziness and weakness could be due to side effects of wellbutrin and trazodone. The tightness in the chest and sensitivity could be symptoms of your anxiety and it is unlikely that you are actually suffering from any other illness.  I would suggest that you speak with your physician if the symptoms persist. Hope this helps.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 47,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "generalized anxiety disorder",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 67,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "wellbutrin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 81,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "trazadone",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 106,
+          "char_end": 115,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergies",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "claritin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 150,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 160,
+          "char_end": 165,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chest tight",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chest cold",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 224,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 236,
+          "char_end": 245,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower teeth sensitive",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 264,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 273,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weak",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 278,
+          "char_end": 304,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "want to sleep all the time",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 400,
+          "char_end": 409,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 414,
+          "char_end": 422,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "weakness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 465,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "wellbutrin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 479,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "trazodone",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 507,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tightness in the chest",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 512,
+          "char_end": 523,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sensitivity",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 557,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e18"
+    }
+  ]
+}

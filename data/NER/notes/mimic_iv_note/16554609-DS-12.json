@@ -1,0 +1,2912 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:16554609-DS-12:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins / Tetracycline / Neomycin / Erythromycin\n\nChief Complaint:\nSyncope, fever, hypotension.\n\nHistory of Present Illness:\nThis is a ___ year old female with h/o HTN, DM, hypothyroidism, \nRA, Sjogren's, vasculitis, recent lumbar surgery, presents from \nan OSH after a fall with hypotension and fever. The patient \nrecently underwent L3-S1 laminectomy/foraminotomy on ___ at \n___. Following surgery, she developed \nhypotension and renal failure and was found to have adrenal \ninsufficiency. She was discharged on a prednisone taper which \nwas scheduled for completion on ___. Per report, today the \npatient had an unwitnessed syncopal event, however there is no \ndocumentation of this. She was brought to ___ ED. At ___, \nthe patient was febrile to 104, hypotensive. Received vanco \n1500mg IV, fentanyl, and IVF prior to transfer. CT head and CT \nchest were reportedly negative. WBC was 5.6, Hct 32.8, plt 280, \ncr 1.1. Transferred here out of concern for sepsis.  \n  \nIn the ___ ED, vitals T 101.6, HR 100, BP 101/53, 20, SaO2 \n100% on 4L. Was on levophed upon transfer, but this was \ndiscontinued on arrival. SBP 120-130s--> 100s. Appeared pale and \nashen. Confused with garbled speech. Pt unable to give history. \nTender along lower abdomen. When she was rolled over, large \namount of frank pus from spinal surgical incision--mild amount \nof erythema with 1cm opening draining pus. Labs notable for \nlactate 3.0, WBC 6.7 (91.4%N), Cr 1.4 (from 1.1 at OSH, unknown \nbaseline). Received 10mg IV dexamethasone, cefepime, flagyl, \ntylenol, 5L NS. Ordered for CT abd/pelvis to evaluate abdominal \ntenderness en route to MICU. Admitted to MICU for close \nmonitoring and further work-up.  \n\nOn arrival to the floor, the patient is very somnolent and \nunable to answer most questions. She does admit to having some \npain in her back and feeling fatigued. Also feels \nlightheaded/dizzy.  \n\nOn ROS, she denies HA, chest pain, SOB, abdominal pain, nausea, \nvomiting, diarrhea, joint pain.\n\nBrief Hospital Course:\nThis is a ___ year old female with history of HTN, DM, \nhypothyroidism, RA, Sjogren's, vasculitis, recent L3-S1 \nlaminectomy/foraminotomy admitted from OSH after fall with fever \nand hypotension.\n.\n## Sepsis/Wound infection: Initial presentation consistent with \nseptic shock, but now off pressors, HD stable and lactate down \ntrending. Likely source is infection at spine wound seeding \nblood stream since both are growing Coagulase positive Staph. UA \nnegative. CXR unremarkable. TTE negative for vegetations and no \nperipheral manifestations of endocarditis, including ___ \nnodes, ___ spots or Janeways. Patient went to the OR ___ for \nwound washout. MRI with artifact obscuring the imaging of the \nspinal canal at L3 to S1 level by MRI. No spinal abscess or \nabnormal enhancement from T12 to L2. Patient initially managed \non vancomycin and cefepime, but later transitioned to nafcillin \nas this is the ideal drug for MSSA bacteremia. Patient will \nrequire a 8 week course of antibiotics Per ID recommendations. \nPICC Line was placed on ___ and ID recommended: \n1. Repeat Stool culture for C. diff if diarrhea/loose stools \npersist loose stools.\n2. Check Blood cultures x2 if fever spikes ( 101.5)\n3. Check CBC, LFTs, Chem 7 once weekly while on Nafcillin.\n\n# Delirium:\nResolved over the night following admission. Was likely related \nto bacteremia.\n.\n# Lung nodule: \nAn incidental finding of a 5-mm nodule in the right lower lobe \nof the lung was noted on CT scan of the abdomen and pelvis. \nFollowup CT at ___ months is suggested.\n.\n# Rheum: \nThe patient has a history of RA, Sjogren's, and autoimmune \nvasculitis per records. She is currently taking plaquenil, which \nwas held on admission.\n\n# Fibromyalgia/Chronic pain: \nOn admission, her pain meds, elavil, and neurontin were \ninitially held for altered mental status. Elavil and neurotin \nrestarted on the medicine floor. \n.\n## Anemia: Anemia: Hct in mid ___ with unknown baseline. guaiac \nnegative x1. Iron studies consistent with AOCD.\n.\n## Adrenal insufficiency: Now off prednisone taper. Random \ncortisol 49, so clearly no longer insufficient.\n.\n## DM: Diet controlled. Continue ISS while inhouse.\n.\n## HTN: Holding antihypertensives in the setting of sepsis. \nRestarted atenolol on the medicine floor. On lisinopril, \natenolol and HCTZ at baseline.\n.\n## Prophylaxis: Heparin SC 5000 tid, PPI, bowel regimen\n.\n## Code status: FULL CODE confirmed with patient\n.\n## Communication: Husband ___ ___\n\n \n___ on Admission:\nElavil 100mg PO QHS  \nAtenolol 50mg PO BID  \nLisinopril 40mg PO daily  \nKlonopin ___ PO QHS  \nColace 100mg PO BID  \nFerrous sulfate 325mg PO TID  \nFlonase  \nNeurontin 600mg PO TID  \nHCTZ 25mg PO daily  \nPrednisone taper (scheduled to complete on ___  \nPlaquenil 200mg PO BID  \nSynthroid ___ mcg PO daily  \nProtonix 40mg PO BID  \nMS contin 45mg PO TID  \nMSIR ___ q3 prn  \nNiacin 500mg PO qHS  \nSalagen 5mg PO TID  \nTylenol prn  \nFlexeril 10mg PO q8 prn  \nBenadryl 50mg PO qHS prn  \nMilk of magnesia prn  \nMiralax prn\n\nDischarge Diagnosis:\nLumbar wound infection",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "Tetracycline",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "Neomycin",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 63,
+          "turn_id": null
+        }
+      ],
+      "text": "Erythromycin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "Syncope",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 96,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 98,
+          "char_end": 109,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 186,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 188,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "hypothyroidism",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 207,
+          "turn_id": null
+        }
+      ],
+      "text": "RA",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 218,
+          "turn_id": null
+        }
+      ],
+      "text": "Sjogren's",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 230,
+          "turn_id": null
+        }
+      ],
+      "text": "vasculitis",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 239,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "lumbar surgery",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 306,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 316,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 380,
+          "turn_id": null
+        }
+      ],
+      "text": "L3-S1 laminectomy/foraminotomy",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 431,
+          "char_end": 442,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 460,
+          "turn_id": null
+        }
+      ],
+      "text": "renal failure",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 505,
+          "turn_id": null
+        }
+      ],
+      "text": "adrenal \ninsufficiency",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 541,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 559,
+          "char_end": 590,
+          "turn_id": null
+        }
+      ],
+      "text": "scheduled for completion on ___",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "syncopal event",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 754,
+          "char_end": 768,
+          "turn_id": null
+        }
+      ],
+      "text": "febrile to 104",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 781,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 797,
+          "turn_id": null
+        }
+      ],
+      "text": "vanco",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 805,
+          "turn_id": null
+        }
+      ],
+      "text": "1500mg",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 806,
+          "char_end": 808,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 818,
+          "turn_id": null
+        }
+      ],
+      "text": "fentanyl",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 827,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 827,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 847,
+          "char_end": 854,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 868,
+          "turn_id": null
+        }
+      ],
+      "text": "CT \nchest",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 895,
+          "char_end": 898,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 908,
+          "char_end": 911,
+          "turn_id": null
+        }
+      ],
+      "text": "Hct",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 921,
+          "turn_id": null
+        }
+      ],
+      "text": "plt",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 928,
+          "char_end": 930,
+          "turn_id": null
+        }
+      ],
+      "text": "cr",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 972,
+          "char_end": 978,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1000,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "vitals",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1026,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1064,
+          "char_end": 1072,
+          "turn_id": null
+        }
+      ],
+      "text": "levophed",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1127,
+          "char_end": 1130,
+          "turn_id": null
+        }
+      ],
+      "text": "SBP",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1162,
+          "turn_id": null
+        }
+      ],
+      "text": "pale",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1168,
+          "char_end": 1173,
+          "turn_id": null
+        }
+      ],
+      "text": "ashen",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1183,
+          "turn_id": null
+        }
+      ],
+      "text": "Confused",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1189,
+          "char_end": 1203,
+          "turn_id": null
+        }
+      ],
+      "text": "garbled speech",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1259,
+          "turn_id": null
+        }
+      ],
+      "text": "Tender along lower abdomen",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1304,
+          "char_end": 1343,
+          "turn_id": null
+        }
+      ],
+      "text": "frank pus from spinal surgical incision",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1361,
+          "char_end": 1369,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1375,
+          "char_end": 1399,
+          "turn_id": null
+        }
+      ],
+      "text": "1cm opening draining pus",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1419,
+          "char_end": 1426,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1432,
+          "char_end": 1435,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1450,
+          "char_end": 1452,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1504,
+          "char_end": 1508,
+          "turn_id": null
+        }
+      ],
+      "text": "10mg",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1512,
+          "char_end": 1525,
+          "turn_id": null
+        }
+      ],
+      "text": "dexamethasone",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1535,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1537,
+          "char_end": 1543,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1546,
+          "char_end": 1553,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 1558,
+          "char_end": 1560,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1587,
+          "turn_id": null
+        }
+      ],
+      "text": "CT abd/pelvis",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1621,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal \ntenderness",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1661,
+          "char_end": 1678,
+          "turn_id": null
+        }
+      ],
+      "text": "close \nmonitoring",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1748,
+          "char_end": 1757,
+          "turn_id": null
+        }
+      ],
+      "text": "somnolent",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1827,
+          "char_end": 1843,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in her back",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1856,
+          "char_end": 1864,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigued",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1878,
+          "char_end": 1889,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheaded",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1890,
+          "char_end": 1895,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1919,
+          "char_end": 1921,
+          "turn_id": null
+        }
+      ],
+      "text": "HA",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1923,
+          "char_end": 1933,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1935,
+          "char_end": 1938,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1940,
+          "char_end": 1954,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1956,
+          "char_end": 1962,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1965,
+          "char_end": 1973,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1975,
+          "char_end": 1983,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1985,
+          "char_end": 1995,
+          "turn_id": null
+        }
+      ],
+      "text": "joint pain",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2067,
+          "char_end": 2070,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2072,
+          "char_end": 2074,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2077,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "hypothyroidism",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2093,
+          "char_end": 2095,
+          "turn_id": null
+        }
+      ],
+      "text": "RA",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2097,
+          "char_end": 2106,
+          "turn_id": null
+        }
+      ],
+      "text": "Sjogren's",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2108,
+          "char_end": 2118,
+          "turn_id": null
+        }
+      ],
+      "text": "vasculitis",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2127,
+          "char_end": 2158,
+          "turn_id": null
+        }
+      ],
+      "text": "L3-S1 \nlaminectomy/foraminotomy",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2193,
+          "char_end": 2198,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2204,
+          "char_end": 2215,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2222,
+          "char_end": 2228,
+          "turn_id": null
+        }
+      ],
+      "text": "Sepsis",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2229,
+          "char_end": 2244,
+          "turn_id": null
+        }
+      ],
+      "text": "Wound infection",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2284,
+          "char_end": 2296,
+          "turn_id": null
+        }
+      ],
+      "text": "septic shock",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2334,
+          "char_end": 2341,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2375,
+          "char_end": 2399,
+          "turn_id": null
+        }
+      ],
+      "text": "infection at spine wound",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2471,
+          "char_end": 2473,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2485,
+          "char_end": 2488,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2503,
+          "char_end": 2506,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2520,
+          "char_end": 2531,
+          "turn_id": null
+        }
+      ],
+      "text": "vegetations",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2569,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "endocarditis",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2660,
+          "char_end": 2673,
+          "turn_id": null
+        }
+      ],
+      "text": "wound washout",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2675,
+          "char_end": 2678,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2757,
+          "char_end": 2760,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2765,
+          "char_end": 2779,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal abscess",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2784,
+          "char_end": 2819,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal enhancement from T12 to L2",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2851,
+          "char_end": 2861,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2866,
+          "char_end": 2874,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2902,
+          "char_end": 2911,
+          "turn_id": null
+        }
+      ],
+      "text": "nafcillin",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2943,
+          "char_end": 2958,
+          "turn_id": null
+        }
+      ],
+      "text": "MSSA bacteremia",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2984,
+          "char_end": 2997,
+          "turn_id": null
+        }
+      ],
+      "text": "8 week course",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3001,
+          "char_end": 3012,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3038,
+          "char_end": 3047,
+          "turn_id": null
+        },
+        {
+          "char_start": 3052,
+          "char_end": 3058,
+          "turn_id": null
+        }
+      ],
+      "text": "PICC Line placed",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3097,
+          "char_end": 3110,
+          "turn_id": null
+        }
+      ],
+      "text": "Stool culture",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3126,
+          "char_end": 3134,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3135,
+          "char_end": 3147,
+          "turn_id": null
+        }
+      ],
+      "text": "loose stools",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3157,
+          "char_end": 3169,
+          "turn_id": null
+        }
+      ],
+      "text": "loose stools",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3180,
+          "char_end": 3194,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood cultures",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3201,
+          "char_end": 3206,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3232,
+          "char_end": 3235,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3237,
+          "char_end": 3241,
+          "turn_id": null
+        }
+      ],
+      "text": "LFTs",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3243,
+          "char_end": 3249,
+          "turn_id": null
+        }
+      ],
+      "text": "Chem 7",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3250,
+          "char_end": 3261,
+          "turn_id": null
+        }
+      ],
+      "text": "once weekly",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3271,
+          "char_end": 3280,
+          "turn_id": null
+        }
+      ],
+      "text": "Nafcillin",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3285,
+          "char_end": 3293,
+          "turn_id": null
+        }
+      ],
+      "text": "Delirium",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3363,
+          "char_end": 3373,
+          "turn_id": null
+        }
+      ],
+      "text": "bacteremia",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3420,
+          "char_end": 3468,
+          "turn_id": null
+        }
+      ],
+      "text": "5-mm nodule in the right lower lobe \nof the lung",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3482,
+          "char_end": 3515,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan of the abdomen and pelvis",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3599,
+          "char_end": 3601,
+          "turn_id": null
+        }
+      ],
+      "text": "RA",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3603,
+          "char_end": 3612,
+          "turn_id": null
+        }
+      ],
+      "text": "Sjogren's",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3618,
+          "char_end": 3640,
+          "turn_id": null
+        }
+      ],
+      "text": "autoimmune \nvasculitis",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3678,
+          "char_end": 3687,
+          "turn_id": null
+        }
+      ],
+      "text": "plaquenil",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3722,
+          "char_end": 3734,
+          "turn_id": null
+        }
+      ],
+      "text": "Fibromyalgia",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3735,
+          "char_end": 3747,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic pain",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3779,
+          "char_end": 3785,
+          "turn_id": null
+        }
+      ],
+      "text": "elavil",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3791,
+          "char_end": 3800,
+          "turn_id": null
+        }
+      ],
+      "text": "neurontin",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3826,
+          "char_end": 3847,
+          "turn_id": null
+        }
+      ],
+      "text": "altered mental status",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3849,
+          "char_end": 3855,
+          "turn_id": null
+        }
+      ],
+      "text": "Elavil",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3860,
+          "char_end": 3868,
+          "turn_id": null
+        }
+      ],
+      "text": "neurotin",
+      "id": "e132"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3909,
+          "char_end": 3915,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e133"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3917,
+          "char_end": 3923,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e134"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3925,
+          "char_end": 3928,
+          "turn_id": null
+        }
+      ],
+      "text": "Hct",
+      "id": "e135"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3963,
+          "char_end": 3969,
+          "turn_id": null
+        }
+      ],
+      "text": "guaiac",
+      "id": "e136"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3984,
+          "char_end": 3996,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron studies",
+      "id": "e137"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4013,
+          "char_end": 4017,
+          "turn_id": null
+        }
+      ],
+      "text": "AOCD",
+      "id": "e138"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4024,
+          "char_end": 4045,
+          "turn_id": null
+        }
+      ],
+      "text": "Adrenal insufficiency",
+      "id": "e139"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4055,
+          "char_end": 4065,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e140"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4073,
+          "char_end": 4089,
+          "turn_id": null
+        }
+      ],
+      "text": "Random \ncortisol",
+      "id": "e141"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4134,
+          "char_end": 4136,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e142"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4164,
+          "char_end": 4167,
+          "turn_id": null
+        }
+      ],
+      "text": "ISS",
+      "id": "e143"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4188,
+          "char_end": 4191,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e144"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4201,
+          "char_end": 4218,
+          "turn_id": null
+        }
+      ],
+      "text": "antihypertensives",
+      "id": "e145"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4237,
+          "char_end": 4243,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e146"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4256,
+          "char_end": 4264,
+          "turn_id": null
+        }
+      ],
+      "text": "atenolol",
+      "id": "e147"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4291,
+          "char_end": 4301,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e148"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4304,
+          "char_end": 4312,
+          "turn_id": null
+        }
+      ],
+      "text": "atenolol",
+      "id": "e149"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4317,
+          "char_end": 4321,
+          "turn_id": null
+        }
+      ],
+      "text": "HCTZ",
+      "id": "e150"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4353,
+          "char_end": 4360,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin",
+      "id": "e151"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4361,
+          "char_end": 4363,
+          "turn_id": null
+        }
+      ],
+      "text": "SC",
+      "id": "e152"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4364,
+          "char_end": 4368,
+          "turn_id": null
+        }
+      ],
+      "text": "5000",
+      "id": "e153"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4369,
+          "char_end": 4372,
+          "turn_id": null
+        }
+      ],
+      "text": "tid",
+      "id": "e154"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4374,
+          "char_end": 4377,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e155"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4501,
+          "char_end": 4507,
+          "turn_id": null
+        }
+      ],
+      "text": "Elavil",
+      "id": "e156"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4508,
+          "char_end": 4513,
+          "turn_id": null
+        }
+      ],
+      "text": "100mg",
+      "id": "e157"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4514,
+          "char_end": 4516,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e158"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4517,
+          "char_end": 4520,
+          "turn_id": null
+        }
+      ],
+      "text": "QHS",
+      "id": "e159"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4523,
+          "char_end": 4531,
+          "turn_id": null
+        }
+      ],
+      "text": "Atenolol",
+      "id": "e160"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4532,
+          "char_end": 4536,
+          "turn_id": null
+        }
+      ],
+      "text": "50mg",
+      "id": "e161"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4537,
+          "char_end": 4539,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e162"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4540,
+          "char_end": 4543,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e163"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4546,
+          "char_end": 4556,
+          "turn_id": null
+        }
+      ],
+      "text": "Lisinopril",
+      "id": "e164"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4557,
+          "char_end": 4561,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e165"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4562,
+          "char_end": 4564,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e166"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4565,
+          "char_end": 4570,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e167"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4573,
+          "char_end": 4581,
+          "turn_id": null
+        }
+      ],
+      "text": "Klonopin",
+      "id": "e168"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4586,
+          "char_end": 4588,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e169"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4589,
+          "char_end": 4592,
+          "turn_id": null
+        }
+      ],
+      "text": "QHS",
+      "id": "e170"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4595,
+          "char_end": 4601,
+          "turn_id": null
+        }
+      ],
+      "text": "Colace",
+      "id": "e171"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4602,
+          "char_end": 4607,
+          "turn_id": null
+        }
+      ],
+      "text": "100mg",
+      "id": "e172"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4608,
+          "char_end": 4610,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e173"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4611,
+          "char_end": 4614,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e174"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4617,
+          "char_end": 4632,
+          "turn_id": null
+        }
+      ],
+      "text": "Ferrous sulfate",
+      "id": "e175"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4633,
+          "char_end": 4638,
+          "turn_id": null
+        }
+      ],
+      "text": "325mg",
+      "id": "e176"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4639,
+          "char_end": 4641,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e177"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4642,
+          "char_end": 4645,
+          "turn_id": null
+        }
+      ],
+      "text": "TID",
+      "id": "e178"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4648,
+          "char_end": 4655,
+          "turn_id": null
+        }
+      ],
+      "text": "Flonase",
+      "id": "e179"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4658,
+          "char_end": 4667,
+          "turn_id": null
+        }
+      ],
+      "text": "Neurontin",
+      "id": "e180"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4668,
+          "char_end": 4673,
+          "turn_id": null
+        }
+      ],
+      "text": "600mg",
+      "id": "e181"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4674,
+          "char_end": 4676,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e182"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4677,
+          "char_end": 4680,
+          "turn_id": null
+        }
+      ],
+      "text": "TID",
+      "id": "e183"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4683,
+          "char_end": 4687,
+          "turn_id": null
+        }
+      ],
+      "text": "HCTZ",
+      "id": "e184"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4693,
+          "char_end": 4695,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e185"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4696,
+          "char_end": 4701,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e186"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4704,
+          "char_end": 4714,
+          "turn_id": null
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e187"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4753,
+          "char_end": 4762,
+          "turn_id": null
+        }
+      ],
+      "text": "Plaquenil",
+      "id": "e188"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4763,
+          "char_end": 4768,
+          "turn_id": null
+        }
+      ],
+      "text": "200mg",
+      "id": "e189"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4769,
+          "char_end": 4771,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e190"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4772,
+          "char_end": 4775,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e191"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4778,
+          "char_end": 4787,
+          "turn_id": null
+        }
+      ],
+      "text": "Synthroid",
+      "id": "e192"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4796,
+          "char_end": 4798,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e193"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4799,
+          "char_end": 4804,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e194"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4807,
+          "char_end": 4815,
+          "turn_id": null
+        }
+      ],
+      "text": "Protonix",
+      "id": "e195"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4816,
+          "char_end": 4820,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e196"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4821,
+          "char_end": 4823,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e197"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4824,
+          "char_end": 4827,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e198"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4830,
+          "char_end": 4839,
+          "turn_id": null
+        }
+      ],
+      "text": "MS contin",
+      "id": "e199"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4840,
+          "char_end": 4844,
+          "turn_id": null
+        }
+      ],
+      "text": "45mg",
+      "id": "e200"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4845,
+          "char_end": 4847,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e201"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4848,
+          "char_end": 4851,
+          "turn_id": null
+        }
+      ],
+      "text": "TID",
+      "id": "e202"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4854,
+          "char_end": 4858,
+          "turn_id": null
+        }
+      ],
+      "text": "MSIR",
+      "id": "e203"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4863,
+          "char_end": 4869,
+          "turn_id": null
+        }
+      ],
+      "text": "q3 prn",
+      "id": "e204"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4872,
+          "char_end": 4878,
+          "turn_id": null
+        }
+      ],
+      "text": "Niacin",
+      "id": "e205"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4885,
+          "char_end": 4887,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e206"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4888,
+          "char_end": 4891,
+          "turn_id": null
+        }
+      ],
+      "text": "qHS",
+      "id": "e207"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4894,
+          "char_end": 4901,
+          "turn_id": null
+        }
+      ],
+      "text": "Salagen",
+      "id": "e208"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4906,
+          "char_end": 4908,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e209"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4909,
+          "char_end": 4912,
+          "turn_id": null
+        }
+      ],
+      "text": "TID",
+      "id": "e210"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4915,
+          "char_end": 4922,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e211"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4923,
+          "char_end": 4926,
+          "turn_id": null
+        }
+      ],
+      "text": "prn",
+      "id": "e212"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4929,
+          "char_end": 4937,
+          "turn_id": null
+        }
+      ],
+      "text": "Flexeril",
+      "id": "e213"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4938,
+          "char_end": 4942,
+          "turn_id": null
+        }
+      ],
+      "text": "10mg",
+      "id": "e214"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4943,
+          "char_end": 4945,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e215"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4946,
+          "char_end": 4952,
+          "turn_id": null
+        }
+      ],
+      "text": "q8 prn",
+      "id": "e216"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4955,
+          "char_end": 4963,
+          "turn_id": null
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e217"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4964,
+          "char_end": 4968,
+          "turn_id": null
+        }
+      ],
+      "text": "50mg",
+      "id": "e218"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4969,
+          "char_end": 4971,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e219"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4972,
+          "char_end": 4979,
+          "turn_id": null
+        }
+      ],
+      "text": "qHS prn",
+      "id": "e220"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4982,
+          "char_end": 4998,
+          "turn_id": null
+        }
+      ],
+      "text": "Milk of magnesia",
+      "id": "e221"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5005,
+          "char_end": 5012,
+          "turn_id": null
+        }
+      ],
+      "text": "Miralax",
+      "id": "e222"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5039,
+          "char_end": 5061,
+          "turn_id": null
+        }
+      ],
+      "text": "Lumbar wound infection",
+      "id": "e223"
+    }
+  ]
+}

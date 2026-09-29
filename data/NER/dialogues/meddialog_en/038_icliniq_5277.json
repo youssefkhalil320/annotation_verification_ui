@@ -1,0 +1,964 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:5277:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, Age : 55 years old. Sex : Male. Height: 5.4 feet. Weight : 70 kg. Initial symptoms noticed before two months: 1. Slight imbalance in walking. 2. Unable to walk properly, unable to control the direction of legs. 3. Needed support of wall (sometimes) or a person. 4. Unable to walk on uneven road. Patient is using Amlokind–H (used for past 8 months for BP). In the initial visits to doctor, unable to find out the problem. Many tests were conducted. All were normal. BP, ear testing, MRI, NRM, Vitamin D, B12 in blood, Hb and sugar in blood normal, BP was slightly increased while hospitalized during tests. Hence BP tablets dose was increased, patient became nervous, lost control on urine and motion. Done more checkups. All were normal. Prescription was used for one month (prescription needed). But no effect was observed. Infact many side effects are observed. Prescription: Ecosprin, Rosucor, Mecorol, Histigo-24 mg. During the above prescription there was no improvement in the health condition, BP tablets were changed by local doctor under regular monitoring of BP levels. Patient condition was improved. Then visited another doctor, prescription changed to Win BP-H 20 for BP tablet. Doctors observation: No strength on right side, (possibility of a semi-stroke) for that Nootropil R- 800 was prescribed. For blood circulation problem– Deplatt A 75, Rozucor for balance, Vertin 16, Vertizac, Mecoday. When started taking those tablets, patient became nervous on the next day and was unable to move towards bedroom when he woke up for toilet in the early morning. Fell fully on the supporting person and sat on the ground. Then had to visit doctor. Again BP tablet changed again to Olmat-20. Current status: Symptoms similar to initial state (as observed 2 months before). Can walk but slight imbalance was observed. Can work alone but needed supervision. Symptoms aggrevated when lemon was used. Has to avoid lemon and tamarind. Now facing difficulties because of side-effects of tablets (lot of heat unable to talk and eat food properly) 1. What is the root cause of the problem? Solution for the same? Shall we continue or discontinue the current prescription? Is it because of BP tablets or lime? How to make the effect of BP tablets negligible?\n[doctor] Hi. It appears that the patient is having neurological problem at multiple levels. 1. Causes for imbalance while walking:  - Problem in cerebellum (part of brain), unlikely in this case as the MRI of brain was normal (attachment removed to protect patient identity).  - Weakness in one part of the body might have happened due to stroke, even then MRI brain should have shown that. - Weakness in both lower limbs due to problems in spinal cord. This is more likely as loss of control over urine and motion can also be seen in spinal cord problems and the test mentioned by you have not evaluated spinal cord problems.  My advice is get one MRI whole spine done and upload me the report.  2. BP tablets will not cause any of these symptoms, so I advise to continue the BP tablets so that BP is maintained less than 140/80.  3. Vertin and Vertizac can be stopped.  4. Stop Deplat- A, Rozucor instead start tablet Ecosprin -AV.  5. Because of taking previous all those tablets he might be having acidity problems which gets exacerbated by any citrus fruits like lemon, so, I advise him to take antacid like Syrup Mucane gel 10 ml 3 times a day before food.  Also, tell me what is the level of power and how is his control over urine and motion revert back with the details and report of MRI whole spine.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "imbalance in walking",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 192,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Unable to walk properly",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 233,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unable to control the direction of legs",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 284,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Needed support of wall (sometimes) or a person",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 289,
+          "char_end": 318,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Unable to walk on uneven road",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 347,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Amlokind–H",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 371,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "past 8 months",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 378,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 492,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 505,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ear testing",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 507,
+          "char_end": 510,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 512,
+          "char_end": 515,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "NRM",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 517,
+          "char_end": 526,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vitamin D",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 528,
+          "char_end": 540,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "B12 in blood",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 544,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hb",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 563,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sugar in blood",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 574,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 588,
+          "char_end": 597,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP increased",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 683,
+          "char_end": 690,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nervous",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 707,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 718,
+          "char_end": 724,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost control on motion",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 713,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost control on urine",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 911,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ecosprin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 920,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rosucor",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 922,
+          "char_end": 929,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mecorol",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 931,
+          "char_end": 938,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Histigo",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 939,
+          "char_end": 944,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "24 mg",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1072,
+          "char_end": 1103,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "regular monitoring of BP levels",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1190,
+          "char_end": 1201,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Win BP-H 20",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1241,
+          "char_end": 1263,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "strength on right side",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1283,
+          "char_end": 1294,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "semi-stroke",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1321,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Nootropil R- 800",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1367,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood circulation problem",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1381,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Deplatt A 75",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1383,
+          "char_end": 1390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rozucor",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1404,
+          "char_end": 1413,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vertin 16",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1415,
+          "char_end": 1423,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vertizac",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1425,
+          "char_end": 1432,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mecoday",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1484,
+          "char_end": 1491,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nervous",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1516,
+          "char_end": 1546,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unable to move towards bedroom",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1714,
+          "char_end": 1722,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Olmat-20",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2022,
+          "char_end": 2033,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lot of heat",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2034,
+          "char_end": 2048,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unable to talk",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2053,
+          "char_end": 2070,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "eat food properly",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2333,
+          "char_end": 2372,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "neurological problem at multiple levels",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2388,
+          "char_end": 2397,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "imbalance",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2416,
+          "char_end": 2437,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Problem in cerebellum",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2484,
+          "char_end": 2496,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MRI of brain",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2561,
+          "char_end": 2593,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Weakness in one part of the body",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2621,
+          "char_end": 2627,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stroke",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2639,
+          "char_end": 2648,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MRI brain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2675,
+          "char_end": 2703,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Weakness in both lower limbs",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2711,
+          "char_end": 2734,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "problems in spinal cord",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2759,
+          "char_end": 2779,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2790,
+          "char_end": 2796,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "loss of control over motion",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2759,
+          "char_end": 2785,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "loss of control over urine",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2817,
+          "char_end": 2837,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "spinal cord problems",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2887,
+          "char_end": 2907,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "spinal cord problems",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2931,
+          "char_end": 2946,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MRI whole spine",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2982,
+          "char_end": 2984,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "BP",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2985,
+          "char_end": 2992,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tablets",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3059,
+          "char_end": 3061,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "BP",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3078,
+          "char_end": 3080,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 3084,
+          "char_end": 3111,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "BP maintained less than 140/80",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3117,
+          "char_end": 3123,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Vertin",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3128,
+          "char_end": 3136,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Vertizac",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3162,
+          "char_end": 3171,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Deplat- A",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3173,
+          "char_end": 3180,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Rozucor",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3202,
+          "char_end": 3214,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Ecosprin -AV",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3284,
+          "char_end": 3300,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "acidity problems",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3382,
+          "char_end": 3389,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antacid",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 3395,
+          "char_end": 3400,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Syrup",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3401,
+          "char_end": 3411,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mucane gel",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3412,
+          "char_end": 3417,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "10 ml",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3418,
+          "char_end": 3431,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "3 times a day",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3575,
+          "char_end": 3590,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MRI whole spine",
+      "id": "e72"
+    }
+  ]
+}

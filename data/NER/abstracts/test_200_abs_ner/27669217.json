@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 58,
@@ -20,22 +19,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 58,
-          "char_end": 78,
-          "turn_id": null
-        }
-      ],
-      "text": "Macrolide Resistance",
-      "id": "e2"
-    },
-    {
-      "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 253,
@@ -44,12 +28,11 @@
         }
       ],
       "text": "opportunistic infections",
-      "id": "e3"
+      "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 360,
@@ -58,12 +41,11 @@
         }
       ],
       "text": "infectious diseases",
-      "id": "e4"
+      "id": "e3"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 420,
@@ -72,26 +54,11 @@
         }
       ],
       "text": "antibiotic",
-      "id": "e5"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 420,
-          "char_end": 441,
-          "turn_id": null
-        }
-      ],
-      "text": "antibiotic resistance",
-      "id": "e6"
+      "id": "e4"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 531,
@@ -100,40 +67,11 @@
         }
       ],
       "text": "macrolide",
-      "id": "e7"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 531,
-          "char_end": 551,
-          "turn_id": null
-        }
-      ],
-      "text": "macrolide resistance",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 713,
-          "char_end": 734,
-          "turn_id": null
-        }
-      ],
-      "text": "multi-drug resistance",
-      "id": "e9"
+      "id": "e5"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 750,
@@ -142,26 +80,11 @@
         }
       ],
       "text": "macrolide",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 750,
-          "char_end": 770,
-          "turn_id": null
-        }
-      ],
-      "text": "macrolide resistance",
-      "id": "e11"
+      "id": "e6"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "unknown",
       "spans": [
         {
           "char_start": 772,
@@ -170,12 +93,11 @@
         }
       ],
       "text": "MIC",
-      "id": "e12"
+      "id": "e7"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 792,
@@ -184,12 +106,11 @@
         }
       ],
       "text": "erythromycin",
-      "id": "e13"
+      "id": "e8"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 823,
@@ -198,12 +119,11 @@
         }
       ],
       "text": "clarithromycin",
-      "id": "e14"
+      "id": "e9"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1000,
@@ -212,26 +132,24 @@
         }
       ],
       "text": "macrolide",
-      "id": "e15"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "unknown",
       "spans": [
         {
           "char_start": 1010,
-          "char_end": 1015,
+          "char_end": 1013,
           "turn_id": null
         }
       ],
-      "text": "MIC s",
-      "id": "e16"
+      "text": "MIC",
+      "id": "e11"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1364,
@@ -240,12 +158,11 @@
         }
       ],
       "text": "erythromycin",
-      "id": "e17"
+      "id": "e12"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1410,
@@ -254,12 +171,11 @@
         }
       ],
       "text": "macrolide",
-      "id": "e18"
+      "id": "e13"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "unknown",
       "spans": [
         {
           "char_start": 1420,
@@ -268,12 +184,11 @@
         }
       ],
       "text": "MICs",
-      "id": "e19"
+      "id": "e14"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1520,
@@ -282,26 +197,11 @@
         }
       ],
       "text": "macrolide",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 1520,
-          "char_end": 1540,
-          "turn_id": null
-        }
-      ],
-      "text": "macrolide resistance",
-      "id": "e21"
+      "id": "e15"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1619,
@@ -310,21 +210,7 @@
         }
       ],
       "text": "macrolide",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 1619,
-          "char_end": 1639,
-          "turn_id": null
-        }
-      ],
-      "text": "macrolide resistance",
-      "id": "e23"
+      "id": "e16"
     }
   ]
 }

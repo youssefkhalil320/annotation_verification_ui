@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -19,9 +18,21 @@
       "id": "e1"
     },
     {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 33,
+          "turn_id": null
+        }
+      ],
+      "text": "hospitalized",
+      "id": "e2"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 68,
@@ -30,12 +41,11 @@
         }
       ],
       "text": "depression",
-      "id": "e2"
+      "id": "e3"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 95,
@@ -44,12 +54,11 @@
         }
       ],
       "text": "cymbalta",
-      "id": "e3"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 148,
@@ -58,7 +67,7 @@
         }
       ],
       "text": "depression",
-      "id": "e4"
+      "id": "e5"
     }
   ]
 }

@@ -1,0 +1,488 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:24946:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been having a burning sensation in my face and tingling teeth and gums for 5 days.  My blood pressure was normal until yesterday when it went up to 175/89 with a 90 pulse rate.  I went to my doctor and the blood pressure was down to 151 over 69 when his nurse took it and then down to 140 over 79 when the doctor took it.  I stop taking a new multi vitamin ( take a variety of other vitatmins including fish oil, calcium and vitamin c, etc), thinking the new multi vitamin (it was a new brand for me) might be causing an allergic reaction.  Today my bp was 122 over 77 with 84 pulse at 7:30 a.m.  and then 117 over 79 with pulse of 90 at 10:30.  Then I took it again at 12:30 on a different monitor and it was up to 156 over 85.  My face is hot again and tingling is in teeth even though it has been over 24 hours since I took any of the new multi vitamin.  I was a little dizzy this morning when the blood pressure readings were low.  The doctor thinks I am having anxiety issues over this hot face and tingling which he feels is caused by the allergy to the new multi vitamin and the anxiety is causing the spikes in my bp.  I am hopeful that he is right but am worried as the dizziness started this am.  Any suggestions you may have for me would be appreciated.\n[doctor] HiYour blood pressure numbers aren't too worrisome and I think your doctor is correct about the anxiety issue",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 59,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burning sensation in my face",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 72,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 83,
+          "char_end": 87,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling gums",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 78,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling teeth",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 118,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 154,
+          "char_end": 171,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure went up to 175/89",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 118,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 192,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pulse rate",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 237,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 360,
+          "char_end": 373,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "multi vitamin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 400,
+          "char_end": 409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitatmins",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 428,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fish oil",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 437,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "calcium",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 442,
+          "char_end": 451,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin c",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 489,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "multi vitamin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 538,
+          "char_end": 555,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 567,
+          "char_end": 569,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bp",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 599,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pulse",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 640,
+          "char_end": 645,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pulse",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 715,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "monitor",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 754,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 758,
+          "char_end": 761,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "face hot",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 772,
+          "char_end": 780,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 784,
+          "char_end": 792,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling in teeth",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 872,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "multi vitamin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 890,
+          "char_end": 895,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 941,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 947,
+          "char_end": 950,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure readings low",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 941,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure readings",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 983,
+          "char_end": 997,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety issues",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1008,
+          "char_end": 1016,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hot face",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1021,
+          "char_end": 1029,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1062,
+          "char_end": 1094,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergy to the new multi vitamin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1081,
+          "char_end": 1094,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "multi vitamin",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1103,
+          "char_end": 1110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1126,
+          "char_end": 1141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spikes in my bp",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1139,
+          "char_end": 1141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bp",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1196,
+          "char_end": 1205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1298,
+          "char_end": 1320,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood pressure numbers",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1387,
+          "char_end": 1400,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety issue",
+      "id": "e35"
+    }
+  ]
+}

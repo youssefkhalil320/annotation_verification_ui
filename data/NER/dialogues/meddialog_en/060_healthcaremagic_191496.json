@@ -1,0 +1,356 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:191496:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am 5 9 300 pounds, diabetic taking Metformin, Glipizide, fluoxetine and Lisinopril. My a1C was at 5.8 on my visit last week. I am also taking a Fat burner pill from wakaya, Turmeric and Ginger... The past couple of weeks my blood sugar has been dropping in the mornings after I take my pills. I get light headed, dizzy, anxious and sweaty. I recently repurchased a glucometer and the past three episodes my blood sugar has been at around 57 when I have these symptoms. But it was at 120-140 when I woke up. I am wondering if I should stop taking the glipizide.\n[doctor] Hi,I understand your concern regarding your low sugar levels.Let me tell you that if your a1C was 5.8,then there was no way that you continue taking Glipizide.You are at a very good a1C level and you just have to maintain it so Metformin will be sufficient. All the symptoms that you were experiencing were of hypoglycemia.Please stop Glipizide ASAP.Hope my answer helps.Please feel free to ask more questions.Thanks,Dr.Prabhas Verma",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 39,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diabetic",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 56,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Metformin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 58,
+          "char_end": 67,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Glipizide",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 79,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluoxetine",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 94,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lisinopril",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 102,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "a1C",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 156,
+          "char_end": 166,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fat burner",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 193,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Turmeric",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 198,
+          "char_end": 204,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ginger",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 247,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 257,
+          "char_end": 265,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood sugar dropping",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 247,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood sugar",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 323,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "light headed",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 330,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 339,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxious",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sweaty",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 377,
+          "char_end": 387,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "glucometer",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 430,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 450,
+          "char_end": 452,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood sugar 57",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 430,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood sugar",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 562,
+          "char_end": 571,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "glipizide",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 642,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "low sugar levels",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 675,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "a1C",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 731,
+          "char_end": 740,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Glipizide",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 767,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "a1C",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 819,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Metformin",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 892,
+          "char_end": 904,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypoglycemia",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 917,
+          "char_end": 926,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Glipizide",
+      "id": "e26"
+    }
+  ]
+}

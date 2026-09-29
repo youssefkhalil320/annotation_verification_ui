@@ -1,0 +1,1391 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10608839-DS-10:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nabdominal pain\n\nHistory of Present Illness:\nPer admission H&P:\n\n___ w/ recently diagnosed borderline resectable\nperiampullary adenocarcinoma with two recent admissions who\npresents back to the ED with back pain and vomiting x1.\n\nOncologic history is notable for a recent diagnosis \nperiampullary\nadenocarcinoma. He originally noticed a darkening of his urine\nand occasional steatorrhea.  He initially did not pursue work-up\nbut then presented to his PCP's office with syncope last week\nafter going to bathroom.  Labs were notable for elevated LFTs\n(ALT/AST 248/126  AP 268 TBili 2.4).  Abdominal US showed\npancreatic mass with CBD dilation. CT showed a 4.3x4.1x3.5cm\nuncinate mass. Around the same time as his workup began he was\nbegan to have increasing epigastric pain, nausea, PO \nintolerance,\nand emesis. He was referral to ERCP which was done ___ and\ndemonstrated an ampullary mass causing partial obstruction of\nD3/D4. Sphincterotomy was performed and brushings stent.  A ___\nx 7cm straight plastic stent was placed.  Cold forceps biopsies\ntaken of the ampullary mass. \nHe has lost about 30 lbs over the last year which per patient \nwas\nintentional and not unusually easy. Patient is currently being\nfollowed by Dr. ___ Port placement and starting\nneoadjuvant chemotherapy with the goal of surgical resection. \n\nAs it relates to his current presentation, patient notes that he\nstarting having back pain that radiates to his RUQ which got\nworse the night before presenting to the ED. Pain was unrelated\nto food consumption and there were no exacerbating or relieving\nfactors. He also notes mild nausea and 1x emesis that was \nbilious\nin nature. Prior to presenting to the ED he denies any fever or\nchills, denies any change to his BM, and reports good nutrition\nsaying that he was finally getting back to his baseline appetite\nand oral intake.\n\nBrief Hospital Course:\nMr. ___ is a ___ yo M with newly diagnosed localized duodenal \nadenocarcinoma, recent admission for GIB, PE on apixaban who \npresented to the ED for ___ days of worsening sharp back pain \nthat radiates to front of torso/RUQ with nausea/vomiting. \nInitial presentation was concerning for biliary obstruction vs. \nacute cholecystitis. ERCP was done and noted that his CBD stent \nand duodenal stent were both patent making obstruction much less \nlikely. Imaging and clinical signs was consistent with acute \ncholecystitis. ___ placed a percutaneous cholecystostomy tube on \n___. ___ hospital course was complicated with AF with \nRVR. EP was consulted who recommended increasing metoprolol for \nimproved rate control and continued amiodarone therapy. \nPatient's rhythm converted to sinus by time of discharge. \nHospital course was also notable for Streptococcus bacteremia \nand patient was discharged with PICC line to complete a total of \n14 days of IV abx (ceftriaxone 2gm qday to finish on ___\n\n# Sepsis\n# Acute cholecystitis ___ Klebsiella\n# Strep bacteremia\nNow s/p cholecystostomy for acute cholecystitis with improvement\nof abdominal pain. After procedure, pt became febrile, \nhypotensive,\nwent back into Afib with RVR. Most likely ___ manipulation of\ninfected gallbladder. \n- Continue ceftriaxone (___)\n- TTE with no vegetations\n- seen by surgery, will d/c home with drain to be followed up at\n___ clinic\n\n#Afib with RVR\nPatient converted to sinus rhythm by time of discharge. \nRecent episodes likely secondary to combination of sepsis,\nhypovolemia, and intermittently holding BB\n- Continue Toprol 125mg qday\n- Continue amiodarone 200mg qday\n- c/w therapeutic lovenox for AC in setting of b/l PE and pAF\n- f/u with EP/cardiology as outpatient, will require outpatient \nCXR, TFTs,\nLFTs in 2 weeks given amiodarone therapy\n\n#bilateral PE dx on CT ___\n- Continue therapeutic lovenox\n\n#Duodenal/Periampullary adenocarcinoma\n- treatment on hold pending resolution of infection\n- PICC line place ___ for both IV abx x ___s \npossible chemotherapy in near future\n\n#Anxiety\n- Continue home Effexor\n\n#Hx of GIB\n- c/w PPI BID for now in setting of recent GIB in ___\n\nTRANSITIONAL ISSUES:\n======================\n[] patient will require repeat TFTs, LFTs, and CXR in 2 weeks \nprior to follow up with cardiology\n[] patient to be followed up in ___ \n___ clinic for management of percutaneous biliary \ndrain",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 213,
+          "turn_id": null
+        }
+      ],
+      "text": "borderline resectable\nperiampullary adenocarcinoma",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 274,
+          "char_end": 283,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 296,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 355,
+          "char_end": 383,
+          "turn_id": null
+        }
+      ],
+      "text": "periampullary\nadenocarcinoma",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 431,
+          "turn_id": null
+        }
+      ],
+      "text": "darkening of his urine",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 458,
+          "turn_id": null
+        }
+      ],
+      "text": "steatorrhea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 548,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated LFTs",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "LFTs",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "ALT/AST",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 639,
+          "char_end": 641,
+          "turn_id": null
+        }
+      ],
+      "text": "AP",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 646,
+          "char_end": 651,
+          "turn_id": null
+        }
+      ],
+      "text": "TBili",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 659,
+          "char_end": 671,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal US",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 679,
+          "char_end": 694,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatic mass",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 700,
+          "char_end": 712,
+          "turn_id": null
+        }
+      ],
+      "text": "CBD dilation",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 714,
+          "char_end": 716,
+          "turn_id": null
+        }
+      ],
+      "text": "CT",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 740,
+          "char_end": 753,
+          "turn_id": null
+        }
+      ],
+      "text": "uncinate mass",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 828,
+          "char_end": 843,
+          "turn_id": null
+        }
+      ],
+      "text": "epigastric pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 851,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 868,
+          "turn_id": null
+        }
+      ],
+      "text": "PO \nintolerance",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 874,
+          "char_end": 880,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 901,
+          "char_end": 905,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 959,
+          "turn_id": null
+        }
+      ],
+      "text": "ampullary mass",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 968,
+          "char_end": 996,
+          "turn_id": null
+        }
+      ],
+      "text": "partial obstruction of\nD3/D4",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 998,
+          "char_end": 1012,
+          "turn_id": null
+        }
+      ],
+      "text": "Sphincterotomy",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1078,
+          "char_end": 1083,
+          "turn_id": null
+        },
+        {
+          "char_start": 1088,
+          "char_end": 1094,
+          "turn_id": null
+        }
+      ],
+      "text": "stent placed",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1118,
+          "turn_id": null
+        }
+      ],
+      "text": "Cold forceps biopsies",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1146,
+          "turn_id": null
+        }
+      ],
+      "text": "ampullary mass",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1299,
+          "char_end": 1313,
+          "turn_id": null
+        }
+      ],
+      "text": "Port placement",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1327,
+          "char_end": 1351,
+          "turn_id": null
+        }
+      ],
+      "text": "neoadjuvant chemotherapy",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1387,
+          "turn_id": null
+        }
+      ],
+      "text": "surgical resection",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1472,
+          "char_end": 1506,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain that radiates to his RUQ",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1562,
+          "char_end": 1566,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1673,
+          "char_end": 1679,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1687,
+          "char_end": 1693,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1767,
+          "char_end": 1772,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1782,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1989,
+          "char_end": 2023,
+          "turn_id": null
+        }
+      ],
+      "text": "localized duodenal \nadenocarcinoma",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2046,
+          "char_end": 2049,
+          "turn_id": null
+        }
+      ],
+      "text": "GIB",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2053,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2057,
+          "char_end": 2065,
+          "turn_id": null
+        }
+      ],
+      "text": "apixaban",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2123,
+          "char_end": 2169,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain \nthat radiates to front of torso/RUQ",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2175,
+          "char_end": 2181,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2182,
+          "char_end": 2190,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2233,
+          "char_end": 2252,
+          "turn_id": null
+        }
+      ],
+      "text": "biliary obstruction",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2258,
+          "char_end": 2277,
+          "turn_id": null
+        }
+      ],
+      "text": "acute cholecystitis",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2279,
+          "char_end": 2283,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2444,
+          "char_end": 2464,
+          "turn_id": null
+        }
+      ],
+      "text": "acute \ncholecystitis",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2479,
+          "char_end": 2512,
+          "turn_id": null
+        }
+      ],
+      "text": "percutaneous cholecystostomy tube",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2563,
+          "char_end": 2575,
+          "turn_id": null
+        }
+      ],
+      "text": "AF with \nRVR",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2621,
+          "char_end": 2631,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2673,
+          "char_end": 2683,
+          "turn_id": null
+        }
+      ],
+      "text": "amiodarone",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2790,
+          "char_end": 2814,
+          "turn_id": null
+        }
+      ],
+      "text": "Streptococcus bacteremia",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2882,
+          "char_end": 2889,
+          "turn_id": null
+        }
+      ],
+      "text": "14 days",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2893,
+          "char_end": 2895,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2896,
+          "char_end": 2899,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2901,
+          "char_end": 2912,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2913,
+          "char_end": 2916,
+          "turn_id": null
+        }
+      ],
+      "text": "2gm",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2917,
+          "char_end": 2921,
+          "turn_id": null
+        }
+      ],
+      "text": "qday",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2942,
+          "char_end": 2948,
+          "turn_id": null
+        }
+      ],
+      "text": "Sepsis",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2951,
+          "char_end": 2970,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute cholecystitis",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2988,
+          "char_end": 3004,
+          "turn_id": null
+        }
+      ],
+      "text": "Strep bacteremia",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3033,
+          "char_end": 3052,
+          "turn_id": null
+        }
+      ],
+      "text": "acute cholecystitis",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3073,
+          "char_end": 3087,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3116,
+          "char_end": 3123,
+          "turn_id": null
+        }
+      ],
+      "text": "febrile",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3126,
+          "char_end": 3137,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3154,
+          "char_end": 3167,
+          "turn_id": null
+        }
+      ],
+      "text": "Afib with RVR",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3201,
+          "char_end": 3221,
+          "turn_id": null
+        }
+      ],
+      "text": "infected gallbladder",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3235,
+          "char_end": 3246,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3255,
+          "char_end": 3258,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3267,
+          "char_end": 3278,
+          "turn_id": null
+        }
+      ],
+      "text": "vegetations",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3357,
+          "char_end": 3370,
+          "turn_id": null
+        }
+      ],
+      "text": "Afib with RVR",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3479,
+          "char_end": 3485,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3487,
+          "char_end": 3498,
+          "turn_id": null
+        }
+      ],
+      "text": "hypovolemia",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3527,
+          "char_end": 3529,
+          "turn_id": null
+        }
+      ],
+      "text": "BB",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3541,
+          "char_end": 3547,
+          "turn_id": null
+        }
+      ],
+      "text": "Toprol",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3548,
+          "char_end": 3553,
+          "turn_id": null
+        }
+      ],
+      "text": "125mg",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3554,
+          "char_end": 3558,
+          "turn_id": null
+        }
+      ],
+      "text": "qday",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3570,
+          "char_end": 3580,
+          "turn_id": null
+        }
+      ],
+      "text": "amiodarone",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3581,
+          "char_end": 3586,
+          "turn_id": null
+        }
+      ],
+      "text": "200mg",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3587,
+          "char_end": 3591,
+          "turn_id": null
+        }
+      ],
+      "text": "qday",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3610,
+          "char_end": 3617,
+          "turn_id": null
+        }
+      ],
+      "text": "lovenox",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3639,
+          "char_end": 3645,
+          "turn_id": null
+        }
+      ],
+      "text": "b/l PE",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3650,
+          "char_end": 3653,
+          "turn_id": null
+        }
+      ],
+      "text": "pAF",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3719,
+          "char_end": 3722,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3724,
+          "char_end": 3728,
+          "turn_id": null
+        }
+      ],
+      "text": "TFTs",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3730,
+          "char_end": 3734,
+          "turn_id": null
+        }
+      ],
+      "text": "LFTs",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3752,
+          "char_end": 3762,
+          "turn_id": null
+        }
+      ],
+      "text": "amiodarone",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3773,
+          "char_end": 3785,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral PE",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3792,
+          "char_end": 3794,
+          "turn_id": null
+        }
+      ],
+      "text": "CT",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3822,
+          "char_end": 3829,
+          "turn_id": null
+        }
+      ],
+      "text": "lovenox",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3832,
+          "char_end": 3869,
+          "turn_id": null
+        }
+      ],
+      "text": "Duodenal/Periampullary adenocarcinoma",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3912,
+          "char_end": 3921,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3924,
+          "char_end": 3939,
+          "turn_id": null
+        }
+      ],
+      "text": "PICC line place",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3953,
+          "char_end": 3955,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3956,
+          "char_end": 3959,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4007,
+          "char_end": 4014,
+          "turn_id": null
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4031,
+          "char_end": 4038,
+          "turn_id": null
+        }
+      ],
+      "text": "Effexor",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4047,
+          "char_end": 4050,
+          "turn_id": null
+        }
+      ],
+      "text": "GIB",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4057,
+          "char_end": 4060,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4061,
+          "char_end": 4064,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4094,
+          "char_end": 4097,
+          "turn_id": null
+        }
+      ],
+      "text": "GIB",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4181,
+          "char_end": 4185,
+          "turn_id": null
+        }
+      ],
+      "text": "TFTs",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4187,
+          "char_end": 4191,
+          "turn_id": null
+        }
+      ],
+      "text": "LFTs",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4197,
+          "char_end": 4200,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e106"
+    }
+  ]
+}

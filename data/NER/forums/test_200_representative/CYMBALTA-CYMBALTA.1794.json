@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 11,
@@ -34,8 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 29,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 43,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 57,
@@ -77,21 +72,19 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 88,
+          "char_start": 80,
           "char_end": 95,
           "turn_id": null
         }
       ],
-      "text": "fatigue",
+      "text": "chronic fatigue",
       "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 99,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 134,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 145,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 157,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 317,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 340,

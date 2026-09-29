@@ -1,0 +1,1074 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10882948-DS-7:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nAsacol / Methotrexate / tomatoe / horses / Keppra / Fioricet / \nzinc oxide eugenol / hydrolyzed vegetable protein / natural or \nartificial flavors, unidentified spices / aspirin\n\nChief Complaint:\nChest pain\n\nHistory of Present Illness:\nMR. ___ is a ___ with a h/o ASD s/p ?TIA on plavix, \npolyarthritis (on Humira), narcolepsy with cataplexy, and strong \nFH of CAD who presents with intermittent chest pain x 3d. First \nhad CP after eating on ___, described as dull ache \nradiating to back, no associated sx, nonpleuritic or positional. \nThis resolved spontaneously after 1h and then was stuttering \nover course of the next several days. Last night, CP started at \nnight after eating while sitting on couch, non-resolving, \ncausing him to seek care.\n\nBrief Hospital Course:\n# NSTEMI: Patient with atypical chest pain with no known prior \ncardiac history. TIMI score 3. Troponin peaked at ___, then \nbegan downtrending. EKG was unchanged throughout admission. \nChest pain the first night of admission, reportedly helped by \nboth sublingual nitro and GI cocktail, but no chest pain after \nthe first evening. Hx hyperlipidemia; labs ___ w/ TC 238, ___ \n181, HDL 60 LDL 142. No HTN and HA1C 5.4. On adrenergic \nmedications for narcolepsy that could have cardiac effects. \nPossible association of pain with food and hx \"esophageal spasm\" \n___ years ago, though this wouldn't explain the troponin \nelevation. Patient was initially convinced that his Humira was \nthe cause of the troponin elevation. Agreed to cardiac \ncatherization by the third day of admission. Cath showed \noccluded ramus best ___ for medical treatment as event \noccurred a few days prior. He was continued on clopidogrel 75g \ndaily (given issue of ASA allergy causing tinnitus) and started \non metoprolol 12.5 mg and atorvastatin 80 mg. \n\n# HYPERLIPIDEMIA: Last cholesterol levels ___. TC 238, ___ 181, \nHDL 60 LDL 142. Started on Atorvastatin 80 mg.\n\n# POLYARTHRITIS - worst in L shoulder, also in R shoulder, hands \nand other extremities. On Humira injections, last one ___. \nGave NSAIDs for pain.\n \n# NARCOLEPSY - w/ episodes of cataplexy. On methylin 20 mg TID \nand Nuvigil 200 mg qAM and 100 mg qPM. Continued home \nmedications.\n\nDischarge Diagnosis:\nPrimary: \nNon ST elevation MI\n\nSecondary: \nNarcolepsy with cataplexy\nAutoimmune polyarthritis\nMultiple allergies",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "Asacol",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Methotrexate",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 60,
+          "turn_id": null
+        }
+      ],
+      "text": "Keppra",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 71,
+          "turn_id": null
+        }
+      ],
+      "text": "Fioricet",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 75,
+          "char_end": 93,
+          "turn_id": null
+        }
+      ],
+      "text": "zinc oxide eugenol",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 217,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 278,
+          "turn_id": null
+        }
+      ],
+      "text": "ASD",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 284,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "TIA",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 297,
+          "turn_id": null
+        }
+      ],
+      "text": "plavix",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 300,
+          "char_end": 313,
+          "turn_id": null
+        }
+      ],
+      "text": "polyarthritis",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 324,
+          "turn_id": null
+        }
+      ],
+      "text": "Humira",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 327,
+          "char_end": 352,
+          "turn_id": null
+        }
+      ],
+      "text": "narcolepsy with cataplexy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 343,
+          "char_end": 352,
+          "turn_id": null
+        }
+      ],
+      "text": "cataplexy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 375,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 418,
+          "char_end": 422,
+          "turn_id": null
+        }
+      ],
+      "text": "x 3d",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "CP",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 477,
+          "char_end": 500,
+          "turn_id": null
+        }
+      ],
+      "text": "ache \nradiating to back",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 663,
+          "turn_id": null
+        }
+      ],
+      "text": "CP",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 793,
+          "turn_id": null
+        }
+      ],
+      "text": "NSTEMI",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 817,
+          "char_end": 827,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 866,
+          "char_end": 876,
+          "turn_id": null
+        }
+      ],
+      "text": "TIMI score",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 880,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "Troponin",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 930,
+          "char_end": 933,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 971,
+          "char_end": 981,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1039,
+          "char_end": 1049,
+          "turn_id": null
+        }
+      ],
+      "text": "sublingual",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1050,
+          "char_end": 1055,
+          "turn_id": null
+        }
+      ],
+      "text": "nitro",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1060,
+          "char_end": 1071,
+          "turn_id": null
+        }
+      ],
+      "text": "GI cocktail",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1080,
+          "char_end": 1090,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1134,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperlipidemia",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "TC",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1166,
+          "char_end": 1169,
+          "turn_id": null
+        }
+      ],
+      "text": "HDL",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1173,
+          "char_end": 1176,
+          "turn_id": null
+        }
+      ],
+      "text": "LDL",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1185,
+          "char_end": 1188,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1193,
+          "char_end": 1197,
+          "turn_id": null
+        }
+      ],
+      "text": "HA1C",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1206,
+          "char_end": 1216,
+          "turn_id": null
+        }
+      ],
+      "text": "adrenergic",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1303,
+          "char_end": 1307,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1326,
+          "char_end": 1342,
+          "turn_id": null
+        }
+      ],
+      "text": "esophageal spasm",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1393,
+          "char_end": 1401,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1393,
+          "char_end": 1412,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin \nelevation",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1455,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "Humira",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1484,
+          "char_end": 1492,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1484,
+          "char_end": 1502,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin elevation",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1514,
+          "char_end": 1536,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac \ncatherization",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1568,
+          "char_end": 1572,
+          "turn_id": null
+        }
+      ],
+      "text": "Cath",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1581,
+          "char_end": 1595,
+          "turn_id": null
+        }
+      ],
+      "text": "occluded ramus",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1684,
+          "char_end": 1695,
+          "turn_id": null
+        }
+      ],
+      "text": "clopidogrel",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1696,
+          "char_end": 1699,
+          "turn_id": null
+        }
+      ],
+      "text": "75g",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1701,
+          "char_end": 1706,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1723,
+          "char_end": 1726,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1723,
+          "char_end": 1734,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA allergy",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1743,
+          "char_end": 1751,
+          "turn_id": null
+        }
+      ],
+      "text": "tinnitus",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1769,
+          "char_end": 1779,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1780,
+          "char_end": 1787,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5 mg",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1792,
+          "char_end": 1804,
+          "turn_id": null
+        }
+      ],
+      "text": "atorvastatin",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1805,
+          "char_end": 1810,
+          "turn_id": null
+        }
+      ],
+      "text": "80 mg",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1816,
+          "char_end": 1830,
+          "turn_id": null
+        }
+      ],
+      "text": "HYPERLIPIDEMIA",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1837,
+          "char_end": 1855,
+          "turn_id": null
+        }
+      ],
+      "text": "cholesterol levels",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1861,
+          "char_end": 1863,
+          "turn_id": null
+        }
+      ],
+      "text": "TC",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1879,
+          "char_end": 1882,
+          "turn_id": null
+        }
+      ],
+      "text": "HDL",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1886,
+          "char_end": 1889,
+          "turn_id": null
+        }
+      ],
+      "text": "LDL",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1906,
+          "char_end": 1918,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1919,
+          "char_end": 1924,
+          "turn_id": null
+        }
+      ],
+      "text": "80 mg",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1929,
+          "char_end": 1942,
+          "turn_id": null
+        }
+      ],
+      "text": "POLYARTHRITIS",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2019,
+          "char_end": 2025,
+          "turn_id": null
+        }
+      ],
+      "text": "Humira",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2026,
+          "char_end": 2036,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2058,
+          "char_end": 2064,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDs",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2069,
+          "char_end": 2073,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2079,
+          "char_end": 2089,
+          "turn_id": null
+        }
+      ],
+      "text": "NARCOLEPSY",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2121,
+          "char_end": 2129,
+          "turn_id": null
+        }
+      ],
+      "text": "methylin",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2130,
+          "char_end": 2135,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mg",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2136,
+          "char_end": 2139,
+          "turn_id": null
+        }
+      ],
+      "text": "TID",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2145,
+          "char_end": 2152,
+          "turn_id": null
+        }
+      ],
+      "text": "Nuvigil",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2159,
+          "turn_id": null
+        }
+      ],
+      "text": "200 mg",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2160,
+          "char_end": 2163,
+          "turn_id": null
+        }
+      ],
+      "text": "qAM",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2168,
+          "char_end": 2174,
+          "turn_id": null
+        }
+      ],
+      "text": "100 mg",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2175,
+          "char_end": 2178,
+          "turn_id": null
+        }
+      ],
+      "text": "qPM",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2241,
+          "char_end": 2260,
+          "turn_id": null
+        }
+      ],
+      "text": "Non ST elevation MI",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2274,
+          "char_end": 2299,
+          "turn_id": null
+        }
+      ],
+      "text": "Narcolepsy with cataplexy",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2300,
+          "char_end": 2324,
+          "turn_id": null
+        }
+      ],
+      "text": "Autoimmune polyarthritis",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2325,
+          "char_end": 2343,
+          "turn_id": null
+        }
+      ],
+      "text": "Multiple allergies",
+      "id": "e82"
+    }
+  ]
+}

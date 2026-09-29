@@ -1,0 +1,242 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:108070:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] stomach pain, back pain. i got my first depo provera birthcontrol shot in june22,2011 a week after receiving the shot. i started to have stomach pains and back pains. its now october 21,2011 and its gotten worse my obgyn gave me antibiotics. and not happened. i dont know what too do its getting worse everyday. i can barley get to sleep.\n[doctor] I have gone through your question and appreciate Your concern. First don't neglect your helth.Consult orthopaedic spine specialist And Get examined if required Mri of spine Should be done to rule out any pathology.For pain in abdomen do usg of abdomen.General measures which will help u areAvoid bending forward and lifting heavy Weights. Hot fomentation thrice a day. Local Analgesic gel for local application Muscle relaxants and analgesics will help you. After relief of pain muscle Strengthening exercises Will help u strengthen your back muscles. Bed rest and lie on hard bed.Thanks U can write me back for any query.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 22,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 33,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 62,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depo provera",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 75,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "birthcontrol",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 76,
+          "char_end": 80,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shot",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 160,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach pains",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 175,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pains",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 239,
+          "char_end": 250,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 347,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "get to sleep",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 530,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mri of spine",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 576,
+          "char_end": 591,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain in abdomen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 609,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "usg of abdomen",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 733,
+          "char_end": 742,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Analgesic",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 746,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gel",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 751,
+          "char_end": 768,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "local application",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 785,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Muscle relaxants",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 800,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "analgesics",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 836,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    }
+  ]
+}

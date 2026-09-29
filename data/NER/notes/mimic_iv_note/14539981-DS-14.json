@@ -1,0 +1,372 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:14539981-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins / kapak\n\nChief Complaint:\nDyspnea\n\nHistory of Present Illness:\nMr. ___ is a ___ year old male with metastatic melanoma with\nBRAF V600 mutation who presents with progressive dyspnea.\n\nOf note, the patient was recently admitted at ___ from \n___\nwith dyspnea where ___ was found to have progressive metastasis\nand an enlarged right pleural effusion. ___ underwent chest tube\nplacement with improvement of symptoms. ___ was initiated on\ndabrafenib and trametinib.\n\nSince discharge the patient has had continued fatigue and\nlethargy with progressive dyspnea on exertion for the last 2\nweek.s However, 2 days prior to presentation, ___ noticed a\nsignificant increase in his symptoms, having significant dyspnea\nwith walking to the bathroom. This was associated with increased\nabdominal pain in his LUQ and nausea with decreased PO intake.\n\n___ has had no fevers or chills. ___ notes intermittent headache.\nNo vision changes. No chest pain. No vomiting, diarrhea or\nconstipation.\n\nDue to progression of his symptoms her presented to the ED for\nfurther evaluation.\n\nDischarge Diagnosis:\nMetastatic melanoma\nmalignant R pleural effusion",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "kapak",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 56,
+          "turn_id": null
+        }
+      ],
+      "text": "Dyspnea",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 141,
+          "turn_id": null
+        }
+      ],
+      "text": "metastatic melanoma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 278,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "progressive metastasis",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 368,
+          "turn_id": null
+        }
+      ],
+      "text": "right pleural effusion",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 384,
+          "char_end": 404,
+          "turn_id": null
+        }
+      ],
+      "text": "chest tube\nplacement",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 456,
+          "char_end": 466,
+          "turn_id": null
+        }
+      ],
+      "text": "dabrafenib",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 471,
+          "char_end": 481,
+          "turn_id": null
+        }
+      ],
+      "text": "trametinib",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 537,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 550,
+          "turn_id": null
+        }
+      ],
+      "text": "lethargy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 587,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea on exertion",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 727,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 793,
+          "char_end": 818,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain in his LUQ",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 829,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 854,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased PO intake",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 872,
+          "char_end": 878,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 882,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 921,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 926,
+          "char_end": 940,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 955,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 960,
+          "char_end": 968,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 970,
+          "char_end": 978,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 982,
+          "char_end": 994,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1121,
+          "turn_id": null
+        }
+      ],
+      "text": "Metastatic melanoma",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1122,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "malignant R pleural effusion",
+      "id": "e28"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:103256:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been having an allergic contact dermatitis reaction to my makeup (at the same time my skin turns red, I experience heart palpitations and a headache. I threw out all traditional makeup and began using mineral makeup from Whole Foods...now it appears to be causing the same, although not as bad, reaction. I also began taking a multi-vitamin called Vitamin Code, a raw whole food multi vitamin for women and now I get the same allergic reaction when I take the vitamins. I'm afraid, it may be zinc..it's the only thing that's in BOTH the vitamin & the makeup. Does this make sense?\n[doctor] Hello and welcome to HCM,It is advisable to discontinue the use of make up for a some time.Consult your dermatologist for clinical examination of the reaction site.If the lesions are due to allergic reaction, drugs to suppress the allergic reactions are required.What are the constituents of the multivitamin preparation that you are taking?Consult your physician for to know the constituents.Any drug whether supplements, or any other preparation should not be taken without consulting your physician.In order to confirm whether the reaction is due to zinc, allergy test needs to be done.Thanks and take careDr Shailja P Wahal",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 59,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic contact dermatitis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin turns red",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 150,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart palpitations",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 165,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headache",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 357,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "multi-vitamin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 377,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vitamin Code",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 396,
+          "char_end": 409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "multi vitamin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 443,
+          "char_end": 460,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 513,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zinc",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 770,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clinical examination of the reaction site",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 785,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lesions",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 814,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 838,
+          "char_end": 856,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reactions",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 915,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "multivitamin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1160,
+          "char_end": 1164,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "zinc",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1166,
+          "char_end": 1178,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergy test",
+      "id": "e16"
+    }
+  ]
+}

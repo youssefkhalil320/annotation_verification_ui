@@ -1,0 +1,1630 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13665285-DS-15:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins / Bactrim / Gluten\n\nChief Complaint:\nfall\n\nHistory of Present Illness:\n___ w/hx PMHx venous insufficiency with stasis dermatitis, RLE \nDVT, HTN, breast cancer s/p XRT, OCD personality, celiac \ndisease, and recurrent lower extremity cellulitis presents with \na fall and a headache.  Patient is poor historian but reports \nthat she fell at her home several days ago after her landlord \npushed the door open while she stood behind it.  She presented \nto her PCP's office on ___ and reported these events and \nassociated wrist/hip/head pain, was evaluated with plain films \nof wrist/hip/arm, which were negative.  As per ___ notes, she \nc/o persistent 'headache while yelling' after visiting PCP and \nsaid she wanted to go to ___ to get a CT scan.  Of note, she has \nhad multiple recent hospitalization for recurrent cellulitis, \nmost recently in ___ discharged on a course of clindamycin. \n As per chart review, there has been concern about the safety of \nher living situation.  EMS who brought her in reported \nunsanitary conditions in her apartment and verbal aggressiveness \nby son.  Patient denies loss of conscioussness, says she fell \nbecause she was pushed.  She continues to have right hip pain \nand headaches, no numbness tingling or weakness.  She walks with \nthe help of a walker at home, has a ___ that visits ___.  \n\nIn the ED, initial vs were 99.4 79 146/62 18 98% RA.  Exam was \nnotable for large bruise on right head and backside of thigh. \n___ with some erythema. EKG showed sinus brady HR 58, no st-t \nwave changes.  UA: tr leuk, 2 WBC.  K 5.8 (mod hemolyzed), \nBicarb 21, Cr 1.0.  CBC with HCT 33.4.  Had CT Head: no acute \nprocess, CT C-spine showed thyroid nodule but otherwise neg, CXR \nno acute process.\nReceived cipro 400mg IV for trace leuk in UA.\n\nTransfer VS 98 58 114/76 18 100\n \nOn arrival to the floor, patient reports continued right hip \npain and headaches.  She is visibly anxious and perseverates on \nher landlord who wants to remove her from her apartment.  \n \nREVIEW OF SYSTEMS:  \nDenies fever, chills, night sweats, vision changes, rhinorrhea, \ncongestion, sore throat, cough, shortness of breath, chest pain, \nabdominal pain, nausea, vomiting, diarrhea, constipation, BRBPR, \nmelena, hematochezia, dysuria, hematuria.  \nAll other 10-system review negative in detail.\n\nBrief Hospital Course:\n___ w/hx PMH venous insufficiency with stasis dermatitis, RLE \nDVT, HTN, breast cancer s/p XRT, OCD personality, Celiac \ndisease, and recurrent lower extremity cellulitis who presents \nwith c/o fall- likely mechanical after being \"pushed\" and \nheadache\n\n# Fall: Pt admitted to being pushed by her landlord, dID not \nendorse LOC to suggest syncope.  EKG without acute ischemic \nCHANGES, no signs heart block to suggest syncope/presyncope.  No \nsigns neuro defecits on exam no suggest acute intracranial \nprocess, CT head negative.  Most likely etiology mechanical fall \nin setting of being pushed.  Imaging negative for fracture/acute \nprocess.  Patient was monitored on tele overnight without any \nevents, no signs of hear block.  ___ evaluated patient on \nhospital day 1 and determined she would benefit from home ___.  \nShe will be going home with services including ___ and ___.\n\n# Home safety: Concerns were raised about her current living \nsituation and safety as per report from EMS.  Social work was \nconsulted in ED, and filed a complaint to the Elder Service \nhotline.  Patient herself denied feeling unsafe at home, denied \nfeeling unsafe around her son and said he takes good care of \nher.  Case management and social work continued to work with her \nVNAs and Elder Services to ensure a return to a safe \nenvironment.  Community case managers were contacted and it was \ndetermined that patient has sufficient level of community \nsupport to allow safe return to home situation.  She will have \ncontinued ___ and home safety eval by ___ \nthis week.\n\n# Cellulitis: patient recently started on clindamycin as per \noutpatient providers for ___ cellulitis.  Treatment was \ncontinued in house and patient was instructed to complete her \nprescription as written upon discharge.\n\n# Anxiety/OCD: patient has known OCD, somatization disorder, and \nanxiety.  Was notably anxious and perseverating on her living \nsituation, health conditions, and whereabouts of her son \nthroughout hospitalization.  Trazadone was continued for \nanxiety, she would benefit from continued mental health \ncounseling and resources in the outpatient setting to address \nthese issues.  \n\n# Thyroid nodule: incidental finding on CT of a 1.3 cm nodule, \nTSH was normal, recommended ultrasound as an outpatient.  \n\n# HTN: stable, continued atenolol 12.5mg, lasix 20mg daily.\n \nTRANSITIONAL ISSUES\n1.  Patient is receiving enhanced ___ services with ___ and home \nhealth nurses to assist with transition back to home \nenvironment.\n2.  Elder Protective Services and community case managers are \naware of patient's housing situation and involved in evaluating \nsafety/alternatives should this be necessary going forward.\n3.  Patient needs thyroid ultrasound to evaluate 1.3 cm nodule \nfound on CT scan.\n\nDischarge Diagnosis:\nPrimary: mechanical fall\n\nSecondary: concern for home safety",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 108,
+          "char_end": 128,
+          "turn_id": null
+        }
+      ],
+      "text": "venous insufficiency",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 134,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "stasis dermatitis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 161,
+          "turn_id": null
+        }
+      ],
+      "text": "RLE \nDVT",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 181,
+          "turn_id": null
+        }
+      ],
+      "text": "breast cancer",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 189,
+          "turn_id": null
+        }
+      ],
+      "text": "XRT",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 206,
+          "turn_id": null
+        }
+      ],
+      "text": "OCD personality",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "celiac \ndisease",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 229,
+          "char_end": 265,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent lower extremity cellulitis",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 302,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 545,
+          "turn_id": null
+        },
+        {
+          "char_start": 555,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "wrist pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 546,
+          "char_end": 549,
+          "turn_id": null
+        },
+        {
+          "char_start": 555,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "hip pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "head pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 609,
+          "turn_id": null
+        }
+      ],
+      "text": "plain films \nof wrist/hip/arm",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 671,
+          "char_end": 680,
+          "turn_id": null
+        }
+      ],
+      "text": "'headache",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 758,
+          "char_end": 765,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 846,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent cellulitis",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 896,
+          "char_end": 907,
+          "turn_id": null
+        }
+      ],
+      "text": "clindamycin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1070,
+          "turn_id": null
+        }
+      ],
+      "text": "unsanitary conditions in her apartment",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1075,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "verbal aggressiveness \nby son",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1122,
+          "char_end": 1144,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of conscioussness",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1208,
+          "char_end": 1222,
+          "turn_id": null
+        }
+      ],
+      "text": "right hip pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1228,
+          "char_end": 1237,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1242,
+          "char_end": 1250,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1259,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1271,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1432,
+          "char_end": 1474,
+          "turn_id": null
+        }
+      ],
+      "text": "bruise on right head and backside of thigh",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1491,
+          "char_end": 1499,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1504,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1504,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1512,
+          "char_end": 1529,
+          "turn_id": null
+        }
+      ],
+      "text": "sinus brady HR 58",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1534,
+          "char_end": 1552,
+          "turn_id": null
+        }
+      ],
+      "text": "st-t \nwave changes",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1555,
+          "char_end": 1557,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1559,
+          "char_end": 1566,
+          "turn_id": null
+        }
+      ],
+      "text": "tr leuk",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1576,
+          "char_end": 1581,
+          "turn_id": null
+        }
+      ],
+      "text": "K 5.8",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1606,
+          "turn_id": null
+        }
+      ],
+      "text": "Bicarb",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1613,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1620,
+          "char_end": 1623,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1632,
+          "turn_id": null
+        }
+      ],
+      "text": "HCT",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1637,
+          "turn_id": null
+        }
+      ],
+      "text": "HCT 33.4",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1644,
+          "char_end": 1651,
+          "turn_id": null
+        }
+      ],
+      "text": "CT Head",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1682,
+          "turn_id": null
+        }
+      ],
+      "text": "CT C-spine",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1690,
+          "char_end": 1704,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid nodule",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1724,
+          "char_end": 1727,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1756,
+          "char_end": 1761,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1762,
+          "char_end": 1767,
+          "turn_id": null
+        }
+      ],
+      "text": "400mg",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1768,
+          "char_end": 1770,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1785,
+          "turn_id": null
+        }
+      ],
+      "text": "trace leuk",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1789,
+          "char_end": 1791,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1879,
+          "char_end": 1894,
+          "turn_id": null
+        }
+      ],
+      "text": "right hip \npain",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1899,
+          "char_end": 1908,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1926,
+          "char_end": 1933,
+          "turn_id": null
+        }
+      ],
+      "text": "anxious",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1938,
+          "char_end": 1950,
+          "turn_id": null
+        }
+      ],
+      "text": "perseverates",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2044,
+          "char_end": 2049,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2057,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2059,
+          "char_end": 2071,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2073,
+          "char_end": 2087,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2089,
+          "char_end": 2099,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2102,
+          "char_end": 2112,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2114,
+          "char_end": 2125,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2127,
+          "char_end": 2132,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2134,
+          "char_end": 2153,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2155,
+          "char_end": 2165,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2168,
+          "char_end": 2182,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2184,
+          "char_end": 2190,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2192,
+          "char_end": 2200,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2202,
+          "char_end": 2210,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2224,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2226,
+          "char_end": 2231,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2234,
+          "char_end": 2240,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2242,
+          "char_end": 2254,
+          "turn_id": null
+        }
+      ],
+      "text": "hematochezia",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2256,
+          "char_end": 2263,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2265,
+          "char_end": 2274,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2362,
+          "char_end": 2382,
+          "turn_id": null
+        }
+      ],
+      "text": "venous insufficiency",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2388,
+          "char_end": 2405,
+          "turn_id": null
+        }
+      ],
+      "text": "stasis dermatitis",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2407,
+          "char_end": 2415,
+          "turn_id": null
+        }
+      ],
+      "text": "RLE \nDVT",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2417,
+          "char_end": 2420,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2422,
+          "char_end": 2435,
+          "turn_id": null
+        }
+      ],
+      "text": "breast cancer",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2440,
+          "char_end": 2443,
+          "turn_id": null
+        }
+      ],
+      "text": "XRT",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2445,
+          "char_end": 2460,
+          "turn_id": null
+        }
+      ],
+      "text": "OCD personality",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2462,
+          "char_end": 2477,
+          "turn_id": null
+        }
+      ],
+      "text": "Celiac \ndisease",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2483,
+          "char_end": 2519,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent lower extremity cellulitis",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2673,
+          "char_end": 2676,
+          "turn_id": null
+        }
+      ],
+      "text": "LOC",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2688,
+          "char_end": 2695,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2698,
+          "char_end": 2701,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2710,
+          "char_end": 2733,
+          "turn_id": null
+        }
+      ],
+      "text": "acute ischemic \nCHANGES",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2744,
+          "char_end": 2755,
+          "turn_id": null
+        }
+      ],
+      "text": "heart block",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2767,
+          "char_end": 2774,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2775,
+          "char_end": 2785,
+          "turn_id": null
+        }
+      ],
+      "text": "presyncope",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2798,
+          "char_end": 2812,
+          "turn_id": null
+        }
+      ],
+      "text": "neuro defecits",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2861,
+          "char_end": 2868,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2947,
+          "char_end": 2954,
+          "turn_id": null
+        }
+      ],
+      "text": "Imaging",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2968,
+          "char_end": 2976,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3019,
+          "char_end": 3023,
+          "turn_id": null
+        }
+      ],
+      "text": "tele",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3067,
+          "char_end": 3077,
+          "turn_id": null
+        }
+      ],
+      "text": "hear block",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3451,
+          "char_end": 3473,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling unsafe at home",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3483,
+          "char_end": 3512,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling unsafe around her son",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3910,
+          "char_end": 3920,
+          "turn_id": null
+        }
+      ],
+      "text": "Cellulitis",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3950,
+          "char_end": 3961,
+          "turn_id": null
+        }
+      ],
+      "text": "clindamycin",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3999,
+          "char_end": 4009,
+          "turn_id": null
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4133,
+          "char_end": 4140,
+          "turn_id": null
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4169,
+          "char_end": 4190,
+          "turn_id": null
+        }
+      ],
+      "text": "somatization disorder",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4197,
+          "char_end": 4204,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4219,
+          "char_end": 4226,
+          "turn_id": null
+        }
+      ],
+      "text": "anxious",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4231,
+          "char_end": 4244,
+          "turn_id": null
+        }
+      ],
+      "text": "perseverating",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4347,
+          "char_end": 4356,
+          "turn_id": null
+        }
+      ],
+      "text": "Trazadone",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4376,
+          "char_end": 4383,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4418,
+          "char_end": 4443,
+          "turn_id": null
+        }
+      ],
+      "text": "mental health \ncounseling",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4515,
+          "char_end": 4529,
+          "turn_id": null
+        }
+      ],
+      "text": "Thyroid nodule",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4561,
+          "char_end": 4574,
+          "turn_id": null
+        }
+      ],
+      "text": "1.3 cm nodule",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4577,
+          "char_end": 4580,
+          "turn_id": null
+        }
+      ],
+      "text": "TSH",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4605,
+          "char_end": 4615,
+          "turn_id": null
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4639,
+          "char_end": 4642,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4662,
+          "char_end": 4670,
+          "turn_id": null
+        }
+      ],
+      "text": "atenolol",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4671,
+          "char_end": 4677,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5mg",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4679,
+          "char_end": 4684,
+          "turn_id": null
+        }
+      ],
+      "text": "lasix",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4685,
+          "char_end": 4689,
+          "turn_id": null
+        }
+      ],
+      "text": "20mg",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4690,
+          "char_end": 4695,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 5058,
+          "char_end": 5076,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid ultrasound",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5089,
+          "char_end": 5102,
+          "turn_id": null
+        }
+      ],
+      "text": "1.3 cm nodule",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 5113,
+          "char_end": 5120,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 5181,
+          "char_end": 5204,
+          "turn_id": null
+        }
+      ],
+      "text": "concern for home safety",
+      "id": "e124"
+    }
+  ]
+}

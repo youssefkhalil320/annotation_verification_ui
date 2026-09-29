@@ -1,0 +1,268 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:186512:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] i have been prescribed the antibiotic  erythromycin by a dentist and i began the course ysterday, due to a burning sensation much like heartburn, and a pain in the same area, i went to the pharmacy to get something, she gave me gaviscon and domerid relief tables, both of which i took immediatly, after half an hour i am vomitting, dizzy, headache, and stomach pain, i took it upon myself to read the information on both packs i got from the pharmacy today, and read that u cannot take the antibiotic  erythromycin with domerid relief tablets, i found further info on the interenet and now i am worried. can u advise me what to do, firstly, amm i in danger, secondly if i want to make a complaint about the pharmacist that gave me the medicine\n[doctor] Hi,Thanks for posting the query,I would suggest you to take a rantac half hour before meals if getting acidity with the medications.Take a cup of cold milk.Take complete rest.Take care!",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 47,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 61,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "erythromycin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 134,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burning sensation",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 154,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heartburn",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 166,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 246,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gaviscon",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 265,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "domerid relief",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 266,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tables",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 331,
+          "char_end": 340,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomitting",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 347,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 349,
+          "char_end": 357,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headache",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 363,
+          "char_end": 375,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 510,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 512,
+          "char_end": 524,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "erythromycin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 544,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "domerid relief",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 552,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablets",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 605,
+          "char_end": 612,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "worried",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 831,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rantac",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 854,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "half hour before meals",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 866,
+          "char_end": 873,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "acidity",
+      "id": "e20"
+    }
+  ]
+}

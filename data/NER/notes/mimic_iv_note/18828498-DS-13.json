@@ -1,0 +1,1357 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18828498-DS-13:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nChief Complaint:\nHypotensive episode, leg swelling\n\nHistory of Present Illness:\n___ w/ hx of CAD, CVA presenting from ___ with transient \nepisodes of hypotension at ___ to ___. Pt was seen \nby EMS at which time SBPs in 100s-110s.  \n.\nThe patient states that he was in his USOH until this morning. \nHe woke up feeling more diaphoretic than usual but was able to \ntravel with his wife and daughter to ___ this morning for a \nscheduled appointment. At the appt, the RN reported the \npatient's BP to be ___ - he was apparently asymptomatic. EMS \narrived and measured SBP 100-110s and the patient was \ntransported to the ED for further eval as above. At this time, \nhe reports his neck pain was acute in onset, lasted 2 hours and \nthen spontaneoulsy resolved. It was located in his cervical \nspine. He reports the pain as initially a ___. He has not had \nlow BP in the past or neck pain.  \n.\nIn the ED, initial vitals were 96.6 73 101/45 14 94% RA.  In the \nED, pt complained of mild neck pain in ED x ___ days.  He denied \nSOB, dizziness but appeared short of breath, had difficulty \nfinishing sentences, and was noted to have increased bilateral \nleg swelling. There was some concern for aortic dissection, so \nCT torso was done, though it was without contrast in setting of \nacute renal failure. CT ruled out AAA, aortic rupture, though \ncan't rule out dissection definitively.  Pt had crackles on lung \nexam.  CXR showed cardiomegaly, no effusions.  Pt given 40mg IV \nlasix.  Bilateral LENIs negative for DVT.  Vitals prior to \ntransfer as follows: 97.6 84 123/65 16 96%RA.  \n.\nOn the floor, VS are 96.1  116/58  74  22  97% on 2L. The \npatient states that he is very sedentary at home because he has \nweak legs and that he moves very little about the house. He has \nhelp from his wife and daughter. He denies chest pain, denies \nSOB, denies cough, recent illness, changes in bowel or bladder \nhabits. He denies headaches. He thinks his weight has been \nstable to slightly increased; he reports his ___ edema is at \nbaseline. He denies PND, orthopnea. His daughter reports that \nhis current condition is improved over his baseline.\n\nBrief Hospital Course:\n___ w/ hx of CAD, CVA presenting from ___ with transient \nepisodes of hypotension at ___ to ___. Pt was seen \nby EMS at which time SBPs in 100s-110s.  \n.\n# Hypotension: The etiology of the patient's transient \nhypotension is unclear. The differential included medication \nside effect, vagal episode, dehydration, CHF. Echo report was \nobtained from OSH and EF was documented at 55% in ___ with \ndiastolic dysfunction. The patient showed no signs of \ndecompensated CHF on exam, though he did receive a dose of lasix \nin the ED prior to coming to the floor, with a concomitant \nimprovement in his creatinine.  His blood pressure remained in \nthe 110s/50s-60s on the floor and he was asymptomatic. \nOrthostatics were negative. His Imdur and Diovan were held until \nhis PCP appointment the following week. \n.\n#Hypoxia: The patient was initially satting 90% on RA. His PCP \nwas contacted and reported the patient had PFTs showing \nrestrictive and mild obstructive disease. His ambulatory \nsaturations did not decrease from resting values, and patient \nwas comfortable. CXR was clear. LENIs negative. \n. \n___ on CKD: Records were obtained from his PCP, which showed a \nbaseline Cr of 1.5-1.65. His Cr improved from 2.8 to 1.9 on the \nday of discharge. He did not receive IVF but did receive IV \nLasix in the ED. Nephrotoxins were avoided. \n.\n#Neck pain: The patient reported a 2-hr episode of neck pain for \nwhich there was concern for aortic dissection in the ED. \nNoncontrast CT showed no evidence of this and the patient's BP \nnormalized and neck pain resolved. \n. \n#CAD s/p CABG in the ___: Continude statin and beta blocker. The \npatient was instructed that he should also take a baby aspirin \nper day unless otherwise instructed by his PCP. Troponins were \n0.03 and 0.01 with a CK of 5. \n. \n#HTN: Held BP meds Diovan and Imdur given hypotension.  \n.  \n#DM type II: Continued home regimen Lantus 62U qh as well as \nSSI.  \n.  \n# The patient received SC heparin for DVT prophylaxis and \nremained full code during this admission. Contact was with the \npatient's daughter ___ ___. Follow-up was scheduled \nwith the patient's primary care doctor. \n\n.\n\nDischarge Diagnosis:\nPrimary: \nHypotension of likely multifactorial etiology\nAcute on Chronic Kidney Injury\n. \nSecondary: \nChronic diastolic CHF\nCoronary Artery Disease s/p coronary artery bypass graft\nDiabetes Mellitus Type 2\nObesity\nDementia (per PCP ___",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 103,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypotensive episode",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 117,
+          "turn_id": null
+        }
+      ],
+      "text": "leg swelling",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 163,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 168,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 217,
+          "char_end": 228,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 278,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "SBPs",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 400,
+          "turn_id": null
+        }
+      ],
+      "text": "diaphoretic",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 752,
+          "turn_id": null
+        }
+      ],
+      "text": "neck pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 917,
+          "char_end": 923,
+          "turn_id": null
+        }
+      ],
+      "text": "low BP",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 939,
+          "char_end": 948,
+          "turn_id": null
+        }
+      ],
+      "text": "neck pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1046,
+          "char_end": 1055,
+          "turn_id": null
+        }
+      ],
+      "text": "neck pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1086,
+          "char_end": 1089,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1091,
+          "char_end": 1100,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1114,
+          "char_end": 1129,
+          "turn_id": null
+        }
+      ],
+      "text": "short of breath",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1211,
+          "char_end": 1223,
+          "turn_id": null
+        }
+      ],
+      "text": "leg swelling",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1252,
+          "char_end": 1269,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic dissection",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1275,
+          "char_end": 1283,
+          "turn_id": null
+        }
+      ],
+      "text": "CT torso",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1340,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "acute renal failure",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1374,
+          "char_end": 1377,
+          "turn_id": null
+        }
+      ],
+      "text": "AAA",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1379,
+          "char_end": 1393,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic rupture",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1451,
+          "char_end": 1459,
+          "turn_id": null
+        }
+      ],
+      "text": "crackles",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1476,
+          "char_end": 1479,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1487,
+          "char_end": 1499,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiomegaly",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1504,
+          "char_end": 1513,
+          "turn_id": null
+        }
+      ],
+      "text": "effusions",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1525,
+          "char_end": 1529,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1530,
+          "char_end": 1532,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1534,
+          "char_end": 1539,
+          "turn_id": null
+        }
+      ],
+      "text": "lasix",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1542,
+          "char_end": 1557,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilateral LENIs",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1571,
+          "char_end": 1574,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1734,
+          "char_end": 1743,
+          "turn_id": null
+        }
+      ],
+      "text": "sedentary",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1768,
+          "char_end": 1777,
+          "turn_id": null
+        }
+      ],
+      "text": "weak legs",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1790,
+          "char_end": 1807,
+          "turn_id": null
+        },
+        {
+          "char_start": 1814,
+          "char_end": 1823,
+          "turn_id": null
+        }
+      ],
+      "text": "moves very little the house",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1876,
+          "char_end": 1886,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1896,
+          "char_end": 1899,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1908,
+          "char_end": 1913,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1978,
+          "char_end": 1987,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2069,
+          "char_end": 2074,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2102,
+          "char_end": 2105,
+          "turn_id": null
+        }
+      ],
+      "text": "PND",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2107,
+          "char_end": 2116,
+          "turn_id": null
+        }
+      ],
+      "text": "orthopnea",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2235,
+          "char_end": 2238,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2240,
+          "char_end": 2243,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2292,
+          "char_end": 2303,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2378,
+          "char_end": 2389,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypotension",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2432,
+          "char_end": 2443,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2507,
+          "char_end": 2520,
+          "turn_id": null
+        }
+      ],
+      "text": "vagal episode",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2522,
+          "char_end": 2533,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2535,
+          "char_end": 2538,
+          "turn_id": null
+        }
+      ],
+      "text": "CHF",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2540,
+          "char_end": 2544,
+          "turn_id": null
+        }
+      ],
+      "text": "Echo",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2579,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "EF",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2617,
+          "char_end": 2638,
+          "turn_id": null
+        }
+      ],
+      "text": "diastolic dysfunction",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2672,
+          "char_end": 2689,
+          "turn_id": null
+        }
+      ],
+      "text": "decompensated CHF",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2731,
+          "char_end": 2736,
+          "turn_id": null
+        }
+      ],
+      "text": "lasix",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2817,
+          "char_end": 2827,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2834,
+          "char_end": 2848,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2918,
+          "char_end": 2930,
+          "turn_id": null
+        }
+      ],
+      "text": "Orthostatics",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2950,
+          "char_end": 2955,
+          "turn_id": null
+        }
+      ],
+      "text": "Imdur",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2960,
+          "char_end": 2966,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3028,
+          "char_end": 3035,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypoxia",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3134,
+          "char_end": 3138,
+          "turn_id": null
+        }
+      ],
+      "text": "PFTs",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3148,
+          "char_end": 3159,
+          "turn_id": null
+        },
+        {
+          "char_start": 3181,
+          "char_end": 3188,
+          "turn_id": null
+        }
+      ],
+      "text": "restrictive disease",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3169,
+          "char_end": 3188,
+          "turn_id": null
+        }
+      ],
+      "text": "obstructive disease",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3194,
+          "char_end": 3217,
+          "turn_id": null
+        }
+      ],
+      "text": "ambulatory \nsaturations",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3286,
+          "char_end": 3289,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3328,
+          "char_end": 3331,
+          "turn_id": null
+        }
+      ],
+      "text": "CKD",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3328,
+          "char_end": 3331,
+          "turn_id": null
+        }
+      ],
+      "text": "CKD",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3394,
+          "char_end": 3396,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3414,
+          "char_end": 3416,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3487,
+          "char_end": 3490,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3511,
+          "char_end": 3516,
+          "turn_id": null
+        }
+      ],
+      "text": "Lasix",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3559,
+          "char_end": 3568,
+          "turn_id": null
+        }
+      ],
+      "text": "Neck pain",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3609,
+          "char_end": 3618,
+          "turn_id": null
+        }
+      ],
+      "text": "neck pain",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3652,
+          "char_end": 3669,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic dissection",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3682,
+          "char_end": 3696,
+          "turn_id": null
+        }
+      ],
+      "text": "Noncontrast CT",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3761,
+          "char_end": 3770,
+          "turn_id": null
+        }
+      ],
+      "text": "neck pain",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3786,
+          "char_end": 3789,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3794,
+          "char_end": 3798,
+          "turn_id": null
+        }
+      ],
+      "text": "CABG",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3821,
+          "char_end": 3827,
+          "turn_id": null
+        }
+      ],
+      "text": "statin",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3832,
+          "char_end": 3844,
+          "turn_id": null
+        }
+      ],
+      "text": "beta blocker",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3901,
+          "char_end": 3913,
+          "turn_id": null
+        }
+      ],
+      "text": "baby aspirin",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3906,
+          "char_end": 3913,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3915,
+          "char_end": 3922,
+          "turn_id": null
+        }
+      ],
+      "text": "per day",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3963,
+          "char_end": 3972,
+          "turn_id": null
+        }
+      ],
+      "text": "Troponins",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4014,
+          "char_end": 4017,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4032,
+          "char_end": 4038,
+          "turn_id": null
+        }
+      ],
+      "text": "Diovan",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4043,
+          "char_end": 4048,
+          "turn_id": null
+        }
+      ],
+      "text": "Imdur",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4055,
+          "char_end": 4066,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4075,
+          "char_end": 4085,
+          "turn_id": null
+        }
+      ],
+      "text": "DM type II",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4110,
+          "char_end": 4116,
+          "turn_id": null
+        }
+      ],
+      "text": "Lantus",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4117,
+          "char_end": 4120,
+          "turn_id": null
+        }
+      ],
+      "text": "62U",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4121,
+          "char_end": 4123,
+          "turn_id": null
+        }
+      ],
+      "text": "qh",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4136,
+          "char_end": 4139,
+          "turn_id": null
+        }
+      ],
+      "text": "SSI",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4170,
+          "char_end": 4172,
+          "turn_id": null
+        }
+      ],
+      "text": "SC",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4173,
+          "char_end": 4180,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4185,
+          "char_end": 4188,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4399,
+          "char_end": 4410,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypotension",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 4445,
+          "char_end": 4475,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute on Chronic Kidney Injury",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4491,
+          "char_end": 4512,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic diastolic CHF",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4513,
+          "char_end": 4536,
+          "turn_id": null
+        }
+      ],
+      "text": "Coronary Artery Disease",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 4541,
+          "char_end": 4569,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary artery bypass graft",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4570,
+          "char_end": 4594,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes Mellitus Type 2",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4595,
+          "char_end": 4602,
+          "turn_id": null
+        }
+      ],
+      "text": "Obesity",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4603,
+          "char_end": 4611,
+          "turn_id": null
+        }
+      ],
+      "text": "Dementia",
+      "id": "e103"
+    }
+  ]
+}

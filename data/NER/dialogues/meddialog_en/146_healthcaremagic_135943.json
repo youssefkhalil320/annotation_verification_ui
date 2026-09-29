@@ -1,0 +1,281 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:135943:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello, my question is about detoxing off of Methadone. I have been on it for 5-6 years. I was on a pretty high daily dose of 160mgs, and tapered myself down to 40mgs a day. I then got into an accident at work resulting in double compound fractures in both legs. In the past year and 2 months I have had nine surgeries. I had to go up on my dose for pain because I could feel no other pain medications at all. I went from bedbound, to wheelchair, to crutches, but now i m finally walking. I still have a lot of pain. I received a disability ratting of 45percent for my left leg. That is my worst leg due to my bone pertruding through my skin, and lost 4 of bone on site. My right leg got a 15percent rating. I tapered back down to 40mgs, but missed a bottle recall, which meant I would go from having to go to the clinic from once a week to six days a week. I am not able to do that so I just stopped going four days ago. I wanted to know if there is anything I can do, or take to help with the symptoms of coming off of 40mgs, to nothing? My doctor is trying to figure something I can take for pain that s a non-narcotic, from my request. Is there any tips you could give me that might help from these painful side effects I am already experiencing ?\n[doctor] hiYour treating doctor is the best judge and i may suggest tramadol for pain may be tried.rely more on physical therapy instead of medicines aloneConsult ann orthopeic surgeon for reviewbest wishesthanks",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "detoxing off of Methadone",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Methadone",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 96,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 5-6 years",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 126,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "160mgs",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 175,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "40mgs",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 181,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "a day",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 239,
+          "char_end": 270,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "compound fractures in both legs",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 359,
+          "char_end": 363,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 394,
+          "char_end": 410,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain medications",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 431,
+          "char_end": 439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bedbound",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 520,
+          "char_end": 524,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 619,
+          "char_end": 650,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bone pertruding through my skin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 678,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost 4 of bone on site",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 740,
+          "char_end": 745,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "40mgs",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1030,
+          "char_end": 1035,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "40mgs",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1104,
+          "char_end": 1108,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1118,
+          "char_end": 1130,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "non-narcotic",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1329,
+          "char_end": 1337,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tramadol",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1346,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1373,
+          "char_end": 1389,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e21"
+    }
+  ]
+}

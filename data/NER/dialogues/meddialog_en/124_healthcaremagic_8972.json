@@ -1,0 +1,351 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:8972:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] heelo sir, m 28 yr old, my skin is too dark only on my face , not in whole body so i had consulted a doc who suggest me to take some kind of isotroin 20, acutret and some creams as skinlite/metasone plus, from 1.5 yrs i hv taken that but last 6 months i leaved them, due to which my skin get effected as too dark and oily,. plz suggest me what can i do for that plzzz...... i think these tabs are effecting to my skin, plz tell me also, what are side effect of that. some time i feel too depressed too, i had taken regularily these medicine but from from sometimes i had stopped this by which i m facing these problem. m telling u what tabs i had taking as prescribed by cosmatologist doctor Isotron 20, Acutret cream, metasone plus cream, skinlite cream, Hyclene cream Plz do needfull doc thanxx\n[doctor] hi, for having a glowing skin you should have lots of water.There are many herbs which will help you to have fair complexion.take good amount of fruits and take care that you are not consipated.  Apply powder of Manjishta+Lodhra with honey,and apply as face pack. you will get good result",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 53,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 59,
+          "char_end": 69,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dark on my face",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "isotroin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 164,
+          "char_end": 171,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acutret",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 187,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "creams",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 199,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skinlite",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 200,
+          "char_end": 213,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "metasone plus",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 215,
+          "char_end": 227,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "from 1.5 yrs",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 322,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dark",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 327,
+          "char_end": 331,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oily",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 498,
+          "char_end": 507,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depressed",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 525,
+          "char_end": 535,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "regularily",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 581,
+          "char_end": 593,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped this",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 709,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Isotron",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 714,
+          "char_end": 721,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Acutret",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 722,
+          "char_end": 727,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 742,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "metasone plus",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 748,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 758,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skinlite",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 759,
+          "char_end": 764,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 773,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hyclene",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 999,
+          "char_end": 1009,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "consipated",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1018,
+          "char_end": 1024,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "powder",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1028,
+          "char_end": 1037,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Manjishta",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1038,
+          "char_end": 1044,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Lodhra",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1050,
+          "char_end": 1055,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "honey",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1069,
+          "char_end": 1078,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "face pack",
+      "id": "e26"
+    }
+  ]
+}

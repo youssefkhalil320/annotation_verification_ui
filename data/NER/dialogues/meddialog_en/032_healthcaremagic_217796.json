@@ -1,0 +1,476 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:217796:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have a chronic pain condition known as disfuction of the sphincter of oddi. I was being treated with IV dilaudid that I did on my own at home. I felt being on the dilaudis all the time was not good for me. I came off the dilaudid. Started on gabapentin 600mg 4x/day and cymbalta 60mg bid Welbutrin XL 300mg bid. I went from 133 lbs to 180 lbs in about a month. I was so blown up and full of fluid I went to the ER. The ER doctor said I was toxic from the gabapentin and needed to come off slowly so I don't have seizures. As I have decreased the gabapentin and the welbutrin XL.  I have developed a rash. My FP doctor believes the rash is from stess. Also, she no longer feels comfortable treating my chronic pain issue. I am having trouble getting a pain Dr. to see me.\n[doctor] Hai.ur really into a chronic and troublesome problem.already u have taken the maximum dose of gabapentin als, , which brings you down.Please go for a tsh (thyroid stimulating hormone) to check out the levels dueto the chronic problemPlease reduce ur stress.The ultimate relief for pain u can go for is with the neurolytic blocks ., fentayl patches under supervision takig care of respiratory depression. Take care good luck",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 31,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chronic pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 86,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "disfuction of the sphincter of oddi",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 115,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "IV",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dilaudid",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dilaudis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "all the time",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 241,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dilaudid",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 264,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 270,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "600mg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 277,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4x/day",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 282,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 295,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "60mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 299,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bid",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 300,
+          "char_end": 312,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Welbutrin XL",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 313,
+          "char_end": 318,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "300mg",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 319,
+          "char_end": 322,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bid",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 382,
+          "char_end": 390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blown up",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 408,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "full of fluid",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 452,
+          "char_end": 477,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "toxic from the gabapentin",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 477,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 524,
+          "char_end": 532,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "seizures",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 558,
+          "char_end": 568,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 577,
+          "char_end": 589,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "welbutrin XL",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 611,
+          "char_end": 615,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 647,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 661,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stess",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 713,
+          "char_end": 725,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chronic pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 882,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "maximum dose",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 896,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 975,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tsh (thyroid stimulating hormone)",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1042,
+          "char_end": 1048,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stress",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1073,
+          "char_end": 1077,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1103,
+          "char_end": 1120,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "neurolytic blocks",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1124,
+          "char_end": 1131,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fentayl",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1139,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "patches",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1172,
+          "char_end": 1194,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "respiratory depression",
+      "id": "e36"
+    }
+  ]
+}

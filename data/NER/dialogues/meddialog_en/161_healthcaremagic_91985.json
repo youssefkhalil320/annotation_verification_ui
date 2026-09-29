@@ -1,0 +1,268 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:91985:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi two years ago I had my daughter the birth was normal except for a manual removal of the placenta, since having my daughter I have been getting server abdominal pains that comes and goes, at first the doctor told me it's because everything was settling back after the birth, but I kept having them, I did take co codamol for the pain which I think was making them worse,  making the pain spread all over my tummy, I couldn't really pin point where they came from I have since stopped  taking co codamol and just take paracetamol the pain still returns and lately I can locate the pain to my lower left abdomen, when I get the pain I have diarrhea and  I urine frequently these symptoms are only when I have the pain as I'm typing this I don't feel pain and don't have the other symptoms but I know it will return, the pain seems to start off mild then goes to server before disappearing I have had  a urine test and blood test twice and they have come back normal, my previous medical history is as follow 3 children 2004 having a c section with my middle child please can u help :( I do have a weak bladder from the 3 children so I'm not sure if it's a symptom on Monday I did wake to a one off lower abdomen pain which was server but went shortly after I emptied my bowels this don't happen often tho\n[doctor] Hi. 2 years is a long time to suffer. You should have undergone a CT scan of the abdomen by this time to rule out any organic problem, as per your history. This may be due to a focus of inflammation on the left side of abdomen irritating the bowel and bladder. .",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 79,
+          "char_end": 109,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "manual removal of the placenta",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 178,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "abdominal pains",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 322,
+          "char_end": 332,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "co codamol",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 345,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 424,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain spread all over my tummy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 504,
+          "char_end": 514,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "co codamol",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 540,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 621,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain to my lower left abdomen",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 658,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 682,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine frequently",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 727,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 760,
+          "char_end": 764,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 830,
+          "char_end": 834,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 923,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine test",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 928,
+          "char_end": 938,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood test",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1043,
+          "char_end": 1052,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "c section",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1107,
+          "char_end": 1119,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weak bladder",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1208,
+          "char_end": 1226,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower abdomen pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1390,
+          "char_end": 1412,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CT scan of the abdomen",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1550,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "inflammation on the left side of abdomen",
+      "id": "e20"
+    }
+  ]
+}

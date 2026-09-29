@@ -5,23 +5,8 @@
   "text": "No side effects that I can tell.\nDoctor says Zantac is a histamine blocker, so I take it for hives.\nI take it with Allegra as well.\nMy hives are much more under control.\nOccasionally, if I don't take it with food, then I get a little heartburn, but for the most part, it appears to be doing its job.\n",
   "entities": [
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 3,
-          "char_end": 15,
-          "turn_id": null
-        }
-      ],
-      "text": "side effects",
-      "id": "e1"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 45,
@@ -30,12 +15,11 @@
         }
       ],
       "text": "Zantac",
-      "id": "e2"
+      "id": "e1"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 57,
@@ -44,12 +28,11 @@
         }
       ],
       "text": "histamine blocker",
-      "id": "e3"
+      "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 93,
@@ -58,12 +41,11 @@
         }
       ],
       "text": "hives",
-      "id": "e4"
+      "id": "e3"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 115,
@@ -72,12 +54,11 @@
         }
       ],
       "text": "Allegra",
-      "id": "e5"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 135,
@@ -86,12 +67,11 @@
         }
       ],
       "text": "hives",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 234,
@@ -100,7 +80,7 @@
         }
       ],
       "text": "heartburn",
-      "id": "e7"
+      "id": "e6"
     }
   ]
 }

@@ -1,0 +1,1859 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13159542-DS-13:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nIbuprofen\n\nChief Complaint:\nshock requiring pressors\n\nHistory of Present Illness:\n___ is a ___ with history of large granular\nlymphocytosis, remote history of breast cancer, and R hip OA, \nwho\nwas brought into ___ by EMS with nausea, vomiting, RLQ\nabdominal pain, R hip pain and diarrhea. \n\nPer discussion with the patient's son, the patient returned from\na 10 day trip to ___ on ___. He had not seen her in person\nsince then, but spoke with her on the phone this morning. At \nthat\ntime, she sounded different, feeble voice, trouble articulating\nher sx. Said she felt off and was planning to call an ambulance.\nAt baseline, is A&Ox3, and lives independently at home. \n\nHer friend ___, with whom she had been traveling, reported\nthat she was in her usual state of health during their travels.\nThey came back to the ___ on different flights, but she last saw\nthe patient going through customs. At that time, she was well\nappearing and conversing normally. She had not contacted the\npatient between ___ and ___ when she was admitted.\n\nWorkup at ___ notable for:\n-Initially A&Ox3, complaining of RLQ and R hip pain\n-T ___ F, HR 102, BP 74/51, sat 95% RA\n-CBC: 2.4, 10.___, 97\n-Chem: 134, 3.7, 103, 16, BUN 33, creatinine 3.0, glucose 116\n-Lactate 7.1\n-Received 2.5L IVF, due to persistent hypotension, was started \non\nperipheral pressors.\n-Urinalysis unremarkable\n-CT abdomen pelvis without contrast: \"Mild perinephric and\nmesenteric induration; otherwise no acute abdominal or pelvic\nprocess. Mild splenomegaly. Post hysterectomy and\ncholecystectomy. Patchy left bibasilar airspace disease, \npossibly\natelectasis or scar.\n-Chest x-ray: Question right-sided infiltrate overlying the \nright\nheart border\n-Received vancomycin, and ertapenem\n-Transferred to our hospital given no ICU beds there\n\nIn route, the patient developed new somnolence and increased \nwork\nof breathing, and was intubated for airway protection.\n\nIn the ED at ___, Initial Vitals: T 99, BP 121/77 (on\nlevophed), HR 123, spO2 100%, intubated with PEEP 5 / FiO2 50% /\nTV 400, RR 18\n\nLabs: \n- 1.4 > 11.1 < 102\n- VBG 7.17/44 -> 7.20/42. Lactate 5.2.\n- BUN 37, Cr 2.7, bicarb 11, AG 19\n- Mg 1.4\n- INR 1.8\n- ALT 134, AST 158, AP 39, Tbil 1.0\n- Serum APAP 24\n- Flu A/B Neg\n\nInterventions:\n- RIJ central line placed\n- Attempted LP (which was not successful)\n- IV fentanyl gtt\n- IV midazolam gtt\n- IV norepinephrine gtt (0.2)\n- Ampicillin and Acyclovir x1\n\nImaging: \n- CXR: mild pulmonary vascular congestion, patchy atelectasis at\nbases, possible trace right pleural effusion, no definite PTX\n- CT head: No acute intracranial process\n- CT A/P second opinion: limited given lack of contrast.\nBilateral perinephric stranding which is non-specific. s/p\ncholecystectomy. Pancreas grossly normal appearing.\nDiverticulosis but no diverticulitis.\n\nPrior to transfer, vitals were T 103, BP 95/66, HR 110, sat 99%\non PEEP 5, 40% FiO2.\n\nUpon arrival to the ___, patient was intubated and sedated, not\nable to interact with examiner.\n\nROS: Positives as per HPI; otherwise negative.\n\nBrief Hospital Course:\nMs. ___ is a ___ with history of LGL leukemia, \nremote h/o breast cancer, and recent travel to ___, who \npresented with n/v, diarrhea, and lower abdominal pain, and AMS, \nfound to be in septic shock ___ presumed bacterial meningitis, \ncourse c/b ischemic strokes, ultimately resulting in her death \non ___.\n\nACUTE ISSUES:\n==============\n# Septic shock\n# Meningococcemia \n# Ischemic stroke\nPatient presented with nausea, vomiting, RLQ abdominal pain, R \nhip pain and diarrhea, found to be in shock with hypotension, \nacidosis, liver and kidney injury, cardiac dysfunction, and \ncoagulopathy after a recent trip to ___. Initially started \non vancomycin and ertapenem at OSH, during transfer to ___ \npatient developed new somnolence and increased work of \nbreathing, and was intubated for airway protection. S/p \nunsuccessful LP in ED ___ scoliosis. Received vancomycin, \ncefepime, flagyl, acyclovir, ampicillin. OSH blood cx with GNC \nin clusters found to be Neisseria meningitides, antibiotics were \nnarrowed to ceftriaxone per ID recommendations. Mental status \ndid not improve. Repeat NCCTH on ___ w/ e/o multiple ischemic \ninfarcts, new compared to CT on ___. Given poor neurologic \nprognosis, goals of care discussions with HCP and family \nresulted in transitioning patient to CMO, and she was \npalliatively extubated. She died peacefully and quietly on \n___.\n\n# Cardiomyopathy\n# Type 2 NSTEMI\nTTE showing global systolic dysfunction, EF 39%. Mild-mod mitral \nregurgitation, mod tricuspid regurgitation. Had troponin \nelevation which peaked at 0.50. BNP elevated to ___. \nCardiology was consulted for the question of cardiogenic \ncomponent to shock, thought her elevated troponin could reflect \ndemand ischemia in the setting of generalized poor perfusion \nduring her hypotensive episode and increased myocardial demand \nfrom a concurrent infectious/septic etiology.\n\nDischarge Diagnosis:\npatient deceased",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 20,
+          "turn_id": null
+        }
+      ],
+      "text": "Ibuprofen",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 39,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "shock",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 63,
+          "turn_id": null
+        }
+      ],
+      "text": "pressors",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 150,
+          "turn_id": null
+        }
+      ],
+      "text": "large granular\nlymphocytosis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "breast cancer",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 197,
+          "turn_id": null
+        }
+      ],
+      "text": "R hip OA",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 237,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 273,
+          "turn_id": null
+        }
+      ],
+      "text": "RLQ\nabdominal pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 285,
+          "turn_id": null
+        }
+      ],
+      "text": "R hip pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 298,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 522,
+          "char_end": 534,
+          "turn_id": null
+        }
+      ],
+      "text": "feeble voice",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 563,
+          "turn_id": null
+        }
+      ],
+      "text": "trouble articulating\nher sx",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1111,
+          "char_end": 1121,
+          "turn_id": null
+        }
+      ],
+      "text": "R hip pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1140,
+          "char_end": 1148,
+          "turn_id": null
+        }
+      ],
+      "text": "BP 74/51",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1162,
+          "char_end": 1165,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1184,
+          "char_end": 1188,
+          "turn_id": null
+        }
+      ],
+      "text": "Chem",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1209,
+          "char_end": 1212,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1217,
+          "char_end": 1227,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1240,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1253,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactate",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1273,
+          "char_end": 1276,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1273,
+          "char_end": 1276,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1285,
+          "char_end": 1307,
+          "turn_id": null
+        }
+      ],
+      "text": "persistent hypotension",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1325,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "peripheral",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1336,
+          "char_end": 1344,
+          "turn_id": null
+        }
+      ],
+      "text": "pressors",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1347,
+          "char_end": 1357,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinalysis",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1372,
+          "char_end": 1406,
+          "turn_id": null
+        }
+      ],
+      "text": "CT abdomen pelvis without contrast",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1414,
+          "char_end": 1451,
+          "turn_id": null
+        }
+      ],
+      "text": "perinephric and\nmesenteric induration",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1506,
+          "char_end": 1518,
+          "turn_id": null
+        }
+      ],
+      "text": "splenomegaly",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1525,
+          "char_end": 1537,
+          "turn_id": null
+        }
+      ],
+      "text": "hysterectomy",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1542,
+          "char_end": 1557,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1559,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "Patchy left bibasilar airspace disease",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1620,
+          "turn_id": null
+        }
+      ],
+      "text": "atelectasis",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1624,
+          "char_end": 1628,
+          "turn_id": null
+        }
+      ],
+      "text": "scar",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1631,
+          "char_end": 1642,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest x-ray",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1709,
+          "turn_id": null
+        }
+      ],
+      "text": "right-sided infiltrate overlying the \nright\nheart border",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1720,
+          "char_end": 1730,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1736,
+          "char_end": 1745,
+          "turn_id": null
+        }
+      ],
+      "text": "ertapenem",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1836,
+          "char_end": 1846,
+          "turn_id": null
+        }
+      ],
+      "text": "somnolence",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1851,
+          "char_end": 1879,
+          "turn_id": null
+        }
+      ],
+      "text": "increased \nwork\nof breathing",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1898,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1977,
+          "char_end": 1985,
+          "turn_id": null
+        }
+      ],
+      "text": "levophed",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2007,
+          "char_end": 2016,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2022,
+          "char_end": 2055,
+          "turn_id": null
+        }
+      ],
+      "text": "PEEP 5 / FiO2 50% /\nTV 400, RR 18",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2085,
+          "char_end": 2088,
+          "turn_id": null
+        }
+      ],
+      "text": "VBG",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2109,
+          "char_end": 2116,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactate",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2124,
+          "char_end": 2127,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2132,
+          "char_end": 2134,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2140,
+          "char_end": 2146,
+          "turn_id": null
+        }
+      ],
+      "text": "bicarb",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2151,
+          "char_end": 2153,
+          "turn_id": null
+        }
+      ],
+      "text": "AG",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2159,
+          "char_end": 2161,
+          "turn_id": null
+        }
+      ],
+      "text": "Mg",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2168,
+          "char_end": 2171,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2178,
+          "char_end": 2181,
+          "turn_id": null
+        }
+      ],
+      "text": "ALT",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2190,
+          "turn_id": null
+        }
+      ],
+      "text": "AST",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2196,
+          "char_end": 2198,
+          "turn_id": null
+        }
+      ],
+      "text": "AP",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2203,
+          "char_end": 2207,
+          "turn_id": null
+        }
+      ],
+      "text": "Tbil",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2214,
+          "char_end": 2224,
+          "turn_id": null
+        }
+      ],
+      "text": "Serum APAP",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2230,
+          "char_end": 2237,
+          "turn_id": null
+        }
+      ],
+      "text": "Flu A/B",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2260,
+          "char_end": 2283,
+          "turn_id": null
+        }
+      ],
+      "text": "RIJ central line placed",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2296,
+          "char_end": 2298,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2328,
+          "char_end": 2330,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2331,
+          "char_end": 2339,
+          "turn_id": null
+        }
+      ],
+      "text": "fentanyl",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2340,
+          "char_end": 2343,
+          "turn_id": null
+        }
+      ],
+      "text": "gtt",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2346,
+          "char_end": 2348,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2349,
+          "char_end": 2358,
+          "turn_id": null
+        }
+      ],
+      "text": "midazolam",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2359,
+          "char_end": 2362,
+          "turn_id": null
+        }
+      ],
+      "text": "gtt",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2368,
+          "char_end": 2382,
+          "turn_id": null
+        }
+      ],
+      "text": "norepinephrine",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2383,
+          "char_end": 2386,
+          "turn_id": null
+        }
+      ],
+      "text": "gtt",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2395,
+          "char_end": 2405,
+          "turn_id": null
+        }
+      ],
+      "text": "Ampicillin",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2410,
+          "char_end": 2419,
+          "turn_id": null
+        }
+      ],
+      "text": "Acyclovir",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2420,
+          "char_end": 2422,
+          "turn_id": null
+        }
+      ],
+      "text": "x1",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2436,
+          "char_end": 2439,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2446,
+          "char_end": 2475,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary vascular congestion",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2477,
+          "char_end": 2504,
+          "turn_id": null
+        }
+      ],
+      "text": "patchy atelectasis at\nbases",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2521,
+          "char_end": 2543,
+          "turn_id": null
+        }
+      ],
+      "text": "right pleural effusion",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2557,
+          "char_end": 2560,
+          "turn_id": null
+        }
+      ],
+      "text": "PTX",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2563,
+          "char_end": 2570,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2575,
+          "char_end": 2601,
+          "turn_id": null
+        }
+      ],
+      "text": "acute intracranial process",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2604,
+          "char_end": 2610,
+          "turn_id": null
+        }
+      ],
+      "text": "CT A/P",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2659,
+          "char_end": 2690,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilateral perinephric stranding",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2718,
+          "char_end": 2733,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2770,
+          "char_end": 2784,
+          "turn_id": null
+        }
+      ],
+      "text": "Diverticulosis",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2792,
+          "char_end": 2806,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulitis",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2876,
+          "char_end": 2892,
+          "turn_id": null
+        }
+      ],
+      "text": "PEEP 5, 40% FiO2",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2932,
+          "char_end": 2941,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3096,
+          "char_end": 3108,
+          "turn_id": null
+        }
+      ],
+      "text": "LGL leukemia",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3122,
+          "char_end": 3135,
+          "turn_id": null
+        }
+      ],
+      "text": "breast cancer",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3183,
+          "char_end": 3186,
+          "turn_id": null
+        }
+      ],
+      "text": "n/v",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3188,
+          "char_end": 3196,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3202,
+          "char_end": 3222,
+          "turn_id": null
+        }
+      ],
+      "text": "lower abdominal pain",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3228,
+          "char_end": 3231,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3249,
+          "char_end": 3261,
+          "turn_id": null
+        }
+      ],
+      "text": "septic shock",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3275,
+          "char_end": 3295,
+          "turn_id": null
+        }
+      ],
+      "text": "bacterial meningitis",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3309,
+          "char_end": 3325,
+          "turn_id": null
+        }
+      ],
+      "text": "ischemic strokes",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3402,
+          "char_end": 3414,
+          "turn_id": null
+        }
+      ],
+      "text": "Septic shock",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3417,
+          "char_end": 3432,
+          "turn_id": null
+        }
+      ],
+      "text": "Meningococcemia",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3436,
+          "char_end": 3451,
+          "turn_id": null
+        }
+      ],
+      "text": "Ischemic stroke",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3475,
+          "char_end": 3481,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3483,
+          "char_end": 3491,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3493,
+          "char_end": 3511,
+          "turn_id": null
+        }
+      ],
+      "text": "RLQ abdominal pain",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3513,
+          "char_end": 3524,
+          "turn_id": null
+        }
+      ],
+      "text": "R \nhip pain",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3529,
+          "char_end": 3537,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3579,
+          "char_end": 3587,
+          "turn_id": null
+        }
+      ],
+      "text": "acidosis",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3589,
+          "char_end": 3612,
+          "turn_id": null
+        }
+      ],
+      "text": "liver and kidney injury",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3614,
+          "char_end": 3633,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac dysfunction",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3640,
+          "char_end": 3652,
+          "turn_id": null
+        }
+      ],
+      "text": "coagulopathy",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3703,
+          "char_end": 3713,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3718,
+          "char_end": 3727,
+          "turn_id": null
+        }
+      ],
+      "text": "ertapenem",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3782,
+          "char_end": 3792,
+          "turn_id": null
+        }
+      ],
+      "text": "somnolence",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3797,
+          "char_end": 3825,
+          "turn_id": null
+        }
+      ],
+      "text": "increased work of \nbreathing",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3835,
+          "char_end": 3844,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3886,
+          "char_end": 3888,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3899,
+          "char_end": 3908,
+          "turn_id": null
+        }
+      ],
+      "text": "scoliosis",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3919,
+          "char_end": 3929,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3932,
+          "char_end": 3940,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3942,
+          "char_end": 3948,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3950,
+          "char_end": 3959,
+          "turn_id": null
+        }
+      ],
+      "text": "acyclovir",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3961,
+          "char_end": 3971,
+          "turn_id": null
+        }
+      ],
+      "text": "ampicillin",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3973,
+          "char_end": 3985,
+          "turn_id": null
+        }
+      ],
+      "text": "OSH blood cx",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3991,
+          "char_end": 4007,
+          "turn_id": null
+        }
+      ],
+      "text": "GNC \nin clusters",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4074,
+          "char_end": 4085,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4110,
+          "char_end": 4128,
+          "turn_id": null
+        },
+        {
+          "char_start": 4133,
+          "char_end": 4140,
+          "turn_id": null
+        }
+      ],
+      "text": "Mental status \ndid improve",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4149,
+          "char_end": 4154,
+          "turn_id": null
+        }
+      ],
+      "text": "NCCTH",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4169,
+          "char_end": 4196,
+          "turn_id": null
+        }
+      ],
+      "text": "multiple ischemic \ninfarcts",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 4361,
+          "char_end": 4383,
+          "turn_id": null
+        }
+      ],
+      "text": "palliatively extubated",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4429,
+          "char_end": 4443,
+          "turn_id": null
+        }
+      ],
+      "text": "Cardiomyopathy",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4446,
+          "char_end": 4459,
+          "turn_id": null
+        }
+      ],
+      "text": "Type 2 NSTEMI",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4460,
+          "char_end": 4463,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4472,
+          "char_end": 4499,
+          "turn_id": null
+        }
+      ],
+      "text": "global systolic dysfunction",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4518,
+          "char_end": 4539,
+          "turn_id": null
+        }
+      ],
+      "text": "mitral \nregurgitation",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4545,
+          "char_end": 4568,
+          "turn_id": null
+        }
+      ],
+      "text": "tricuspid regurgitation",
+      "id": "e132"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4574,
+          "char_end": 4582,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin",
+      "id": "e133"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4574,
+          "char_end": 4593,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin \nelevation",
+      "id": "e134"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4616,
+          "char_end": 4619,
+          "turn_id": null
+        }
+      ],
+      "text": "BNP",
+      "id": "e135"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4616,
+          "char_end": 4628,
+          "turn_id": null
+        }
+      ],
+      "text": "BNP elevated",
+      "id": "e136"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4683,
+          "char_end": 4714,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiogenic \ncomponent to shock",
+      "id": "e137"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4728,
+          "char_end": 4745,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated troponin",
+      "id": "e138"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4737,
+          "char_end": 4745,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin",
+      "id": "e139"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4761,
+          "char_end": 4776,
+          "turn_id": null
+        }
+      ],
+      "text": "demand ischemia",
+      "id": "e140"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4795,
+          "char_end": 4821,
+          "turn_id": null
+        }
+      ],
+      "text": "generalized poor perfusion",
+      "id": "e141"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4834,
+          "char_end": 4853,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive episode",
+      "id": "e142"
+    }
+  ]
+}

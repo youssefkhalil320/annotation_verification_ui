@@ -1,0 +1,229 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:60686:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am a 29 years old mother. I am having the following health concerns for the past one month. Muscle ache, mild itching, and sore tongue and i feel too tired. I do not have any other problem in my body. I feel that am i having mild anemia? I took swine flu vaccine two months back. The tiredness persists for two month and got increased for the past two week. I think it may be the reason of vaccine side effect. Because my mother had swine flu vaccine and due to its side effect, she is in treatment now at Apollo hospital with ana positive + jaundice history. Can you pl advise is it because of H1N1 flu vaccine side effect, if so, what is the treatment.\n[doctor] Muscle ache and weakness are known side-effects of the vaccine. Anemia can be due to various reasons though. Usually such sideeffects go away with time, but its been 2 months now. I would suggest you see your family doctor and get yourself examined and tested first.  Alternative therapy , like Homoeopathy can help you with these symptoms.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 115,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Muscle ache",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 129,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 146,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sore tongue",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 167,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tired",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 242,
+          "char_end": 248,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anemia",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 257,
+          "char_end": 274,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swine flu vaccine",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 305,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tiredness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 462,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swine flu vaccine",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 539,
+          "char_end": 542,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ana",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 539,
+          "char_end": 551,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ana positive",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 554,
+          "char_end": 562,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "jaundice",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 623,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "H1N1 flu vaccine",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 687,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Muscle ache",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 700,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "weakness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 731,
+          "char_end": 738,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vaccine",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 740,
+          "char_end": 746,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Anemia",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 971,
+          "char_end": 982,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Homoeopathy",
+      "id": "e17"
+    }
+  ]
+}

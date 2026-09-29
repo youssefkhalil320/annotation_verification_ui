@@ -1,0 +1,268 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11646202-DS-9:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCodeine / Ultram / Beta-Blockers (Beta-Adrenergic Blocking Agts) \n/ Flagyl / Oxycodone\n\nChief Complaint:\nleft cheek defect\n\nHistory of Present Illness:\n___ female with a history of having Mohs procedure for \ncutaneous malignancy of left medial cheek area.  This is in over \nan area of 5 x 4 cm and she presents for staged reconstruction \nand incidentally, she also has a history of possible DVT in the \npast.\n\nBrief Hospital Course:\nMs. ___ was admitted to the plastic surgery service \nfollowing a left cervicofacial rotational advancement and STSG \nto defect, tie over bolster. She was stable during her \npost-operative stay. She was given analgesics for pain, \nantiemetics for nausea, and antibiotics. She was able to \nambulate. Diet was advanced. She was discharged home with ___ \nservices and on antibiotics on post op day 1\n\nDischarge Diagnosis:\nleft cheek and nasal defect",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Ultram",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 43,
+          "turn_id": null
+        }
+      ],
+      "text": "Beta-Blockers",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "Beta-Adrenergic Blocking Agts",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 79,
+          "char_end": 85,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "Oxycodone",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 133,
+          "turn_id": null
+        }
+      ],
+      "text": "left cheek defect",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 213,
+          "turn_id": null
+        }
+      ],
+      "text": "Mohs procedure",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 265,
+          "turn_id": null
+        }
+      ],
+      "text": "cutaneous malignancy of left medial cheek area",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 347,
+          "turn_id": null
+        }
+      ],
+      "text": "staged reconstruction",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 402,
+          "char_end": 405,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 550,
+          "turn_id": null
+        }
+      ],
+      "text": "left cervicofacial rotational advancement",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "STSG",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 662,
+          "turn_id": null
+        }
+      ],
+      "text": "analgesics",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 667,
+          "char_end": 671,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 685,
+          "turn_id": null
+        }
+      ],
+      "text": "antiemetics",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 696,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 713,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 811,
+          "char_end": 822,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 877,
+          "char_end": 889,
+          "turn_id": null
+        }
+      ],
+      "text": "nasal defect",
+      "id": "e20"
+    }
+  ]
+}

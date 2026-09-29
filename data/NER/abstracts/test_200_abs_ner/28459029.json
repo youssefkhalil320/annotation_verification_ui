@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 28,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 162,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 220,
@@ -49,21 +46,32 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 348,
-          "char_end": 369,
+          "char_end": 363,
           "turn_id": null
         }
       ],
-      "text": "body mass index (BMI)",
+      "text": "body mass index",
       "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 368,
+          "turn_id": null
+        }
+      ],
+      "text": "BMI",
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 467,
@@ -72,12 +80,11 @@
         }
       ],
       "text": "obese",
-      "id": "e5"
+      "id": "e6"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 578,
@@ -86,12 +93,11 @@
         }
       ],
       "text": "Height",
-      "id": "e6"
+      "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 586,
@@ -100,12 +106,11 @@
         }
       ],
       "text": "weight",
-      "id": "e7"
+      "id": "e8"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 598,
@@ -119,12 +124,11 @@
         }
       ],
       "text": "waist circumference",
-      "id": "e8"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 608,
@@ -133,12 +137,11 @@
         }
       ],
       "text": "hip circumference",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 641,
@@ -147,12 +150,11 @@
         }
       ],
       "text": "Physical activity (questionnaire)",
-      "id": "e10"
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 692,
@@ -161,26 +163,37 @@
         }
       ],
       "text": "food frequency questionnaire",
-      "id": "e11"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 737,
-          "char_end": 762,
-          "turn_id": null
-        }
-      ],
-      "text": "Body fat percentage (%BF)",
       "id": "e12"
     },
     {
       "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 737,
+          "char_end": 756,
+          "turn_id": null
+        }
+      ],
+      "text": "Body fat percentage",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 758,
+          "char_end": 761,
+          "turn_id": null
+        }
+      ],
+      "text": "%BF",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 779,
@@ -189,26 +202,24 @@
         }
       ],
       "text": "dual-energy X-ray absorptiometry",
-      "id": "e13"
+      "id": "e15"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 921,
+          "char_start": 869,
           "char_end": 956,
           "turn_id": null
         }
       ],
-      "text": "real-time polymerase chain reaction",
-      "id": "e14"
+      "text": "SYBR Green Amplification Refractory Mutation System real-time polymerase chain reaction",
+      "id": "e16"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1102,
@@ -217,12 +228,11 @@
         }
       ],
       "text": "%BF",
-      "id": "e15"
+      "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1112,
@@ -231,12 +241,11 @@
         }
       ],
       "text": "height",
-      "id": "e16"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1120,
@@ -245,12 +254,11 @@
         }
       ],
       "text": "weight",
-      "id": "e17"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1132,
@@ -259,44 +267,15 @@
         }
       ],
       "text": "BMI",
-      "id": "e18"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1150,
-          "char_end": 1155,
-          "turn_id": null
-        }
-      ],
-      "text": "obese",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1323,
-          "char_end": 1328,
-          "turn_id": null
-        }
-      ],
-      "text": "obese",
       "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1410,
-          "char_end": 1415,
+          "char_start": 1150,
+          "char_end": 1155,
           "turn_id": null
         }
       ],
@@ -306,7 +285,32 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1323,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1415,
+          "turn_id": null
+        }
+      ],
+      "text": "obese",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1481,
@@ -315,26 +319,11 @@
         }
       ],
       "text": "obesity",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1505,
-          "char_end": 1523,
-          "turn_id": null
-        }
-      ],
-      "text": "intake of calories",
-      "id": "e23"
+      "id": "e24"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1585,
@@ -343,12 +332,11 @@
         }
       ],
       "text": "%BF",
-      "id": "e24"
+      "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1635,
@@ -357,7 +345,7 @@
         }
       ],
       "text": "junk food intake",
-      "id": "e25"
+      "id": "e26"
     }
   ]
 }

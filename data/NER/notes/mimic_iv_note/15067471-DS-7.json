@@ -1,0 +1,1154 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15067471-DS-7:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nR MCA and PCA infarct s/p tPA\n\nHistory of Present Illness:\nThe patient is a ___ year-old right-handed man with a history\nof HTN CAD s/p MI w/ stents who is transfered to ___ from\n___ after receiving tpa for left sided weakness and\nleft facial droop. Neurology is consulted in the ED for\nmanagement of his stroke in the post-tpa period.\n\nMr. ___ was last known well at 1020pm on ___.  He went to\nbed and awoke at 1145pm needing to go to the restroom.  His wife\nheard him thrashing in bed trying to get up.  He ultimately fell\non the floor, unclear if he hit his head.  His wife noted his\nleft side was weak and he was slurring his speech.  She called\nEMS right away.  He was brought to ___\nwhere ___ was unremarkable and NIHSS was 15, but unclear\nbreakdown of points.  He was given tPA at 1:12am and his \nsymptoms\nwere noted to have significantly improved by his family, \nalthough\nno repeat NIHSS was recorded.  Most notable improvements were\nspeech and left leg strength.  He was then transfered to our ED. \n\n\nIn ___ ED, he complained of a dull headache and vomited x1. \nNCHCT showed no acute hemorrhage. CTA Head and Neck showed M1\ncutoff of RMCA territory. \n\nROS obtained from wife, given patient's lethargy.  She reported\nno neurologic symptoms prior to this presentation overnight.  \nShe\ndenied that he reported fever, chest pain, shortness of breath,\nn/v/d.  No rash.\n\nBrief Hospital Course:\nThe patient is a ___ year old ___ man with a PMH of HTN, CAD s/p \nMI and PCI, chronic systolic CHF with EF 35%, who presented with \nL sided weakness and facial droop and recieved TPA on ___ at \n1:12 AM at ___ and was transferred to \n___ for post-TPA monitoring.\n\nMRI showed a large territory infarct in the R MCA and PCA \nterritories, which was thought to be due either to a \ncardioembolic event given low EF 35% and a fetal PCA on the \nright or, given R ICA plaque, artery to artery embolus. Carotid \nUS showed < 40% stenosis on the R so he is not a candidate for \nCEA. A1C 5.1. Head CT on ___ showed swelling with 8 mm of \nmidline shift. After TPA protocol was complete, the patient was \nstarted on ASA 81mg daily, and SQ heparin was started for DVT \nprophylaxis. He was started on a statin for LDL of 100. Overall, \npatient recieved 2 mannitol boluses and hypertonic saline \ntreatment, and Na rose to goal 150-155 in the next ___ hours. The \npatient had a brief period of worsening L sided weakness, but \nstrength in the L gradually improved once hypertonic saline was \nstarted. He did become very thirsty with therapy and had to be \nplaced on a fluid restriction during hyperosmolar therapy. \n\nOnce the patient had stabilized, we attempted to allow his Na to \nnormalize again.  However, he developed an ileus requiring NG \ntube with suction and an aggressive bowel regimen. His NG tube \noutput led to further free water defecits, which were slowly \ncorrected with ___ and then D5W in consultation with the \nRenal Service. By the time of transfer to rehab, patient was off \nIV fluids and Na was stable and within normal limits. His ileus \nslowly resolved with the addition of Reglan.  By the time of \ndischarge, he was having daily bowel movements and was \ntolerating a thin regular diet. He was noted to have some \npocketing of food in his left cheek and some coughing with \nfeeds.  He will need to continue to be followed by Speech & \nLanguage Pathology at rehab.  The patient also developed ___ in \nthe setting of hypovolemia, which improved with free water \nrepletion, and a ___ oxygen requirement of unclear etiology. \nContinued attempts should be made to wean his oxygen at rehab.\n\nDischarge Diagnosis:\nIschemic infarct of R MCA and PCA",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 78,
+          "turn_id": null
+        },
+        {
+          "char_start": 87,
+          "char_end": 94,
+          "turn_id": null
+        }
+      ],
+      "text": "R MCA infarct",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 94,
+          "turn_id": null
+        }
+      ],
+      "text": "PCA infarct",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "tPA",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 204,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 211,
+          "turn_id": null
+        }
+      ],
+      "text": "MI",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 215,
+          "char_end": 221,
+          "turn_id": null
+        }
+      ],
+      "text": "stents",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "tpa",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 280,
+          "char_end": 299,
+          "turn_id": null
+        }
+      ],
+      "text": "left sided weakness",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 304,
+          "char_end": 321,
+          "turn_id": null
+        }
+      ],
+      "text": "left facial droop",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 384,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 397,
+          "char_end": 400,
+          "turn_id": null
+        }
+      ],
+      "text": "tpa",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 543,
+          "char_end": 552,
+          "turn_id": null
+        }
+      ],
+      "text": "thrashing",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 669,
+          "turn_id": null
+        },
+        {
+          "char_start": 674,
+          "char_end": 678,
+          "turn_id": null
+        }
+      ],
+      "text": "left side weak",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 709,
+          "turn_id": null
+        }
+      ],
+      "text": "slurring his speech",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 793,
+          "char_end": 798,
+          "turn_id": null
+        }
+      ],
+      "text": "NIHSS",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 854,
+          "char_end": 857,
+          "turn_id": null
+        }
+      ],
+      "text": "tPA",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 963,
+          "char_end": 968,
+          "turn_id": null
+        }
+      ],
+      "text": "NIHSS",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1026,
+          "char_end": 1043,
+          "turn_id": null
+        }
+      ],
+      "text": "left leg strength",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1118,
+          "char_end": 1126,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1138,
+          "turn_id": null
+        }
+      ],
+      "text": "vomited",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1144,
+          "char_end": 1149,
+          "turn_id": null
+        }
+      ],
+      "text": "NCHCT",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1160,
+          "char_end": 1176,
+          "turn_id": null
+        }
+      ],
+      "text": "acute hemorrhage",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1178,
+          "char_end": 1195,
+          "turn_id": null
+        }
+      ],
+      "text": "CTA Head and Neck",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1203,
+          "char_end": 1230,
+          "turn_id": null
+        }
+      ],
+      "text": "M1\ncutoff of RMCA territory",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1274,
+          "char_end": 1282,
+          "turn_id": null
+        }
+      ],
+      "text": "lethargy",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1394,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1396,
+          "char_end": 1406,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1408,
+          "char_end": 1427,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1429,
+          "char_end": 1434,
+          "turn_id": null
+        }
+      ],
+      "text": "n/v/d",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1525,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1530,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1536,
+          "char_end": 1538,
+          "turn_id": null
+        }
+      ],
+      "text": "MI",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1543,
+          "char_end": 1546,
+          "turn_id": null
+        }
+      ],
+      "text": "PCI",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1548,
+          "char_end": 1568,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic systolic CHF",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1580,
+          "turn_id": null
+        }
+      ],
+      "text": "EF 35%",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1602,
+          "char_end": 1618,
+          "turn_id": null
+        }
+      ],
+      "text": "L sided weakness",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1649,
+          "char_end": 1652,
+          "turn_id": null
+        }
+      ],
+      "text": "TPA",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1730,
+          "turn_id": null
+        }
+      ],
+      "text": "post-TPA monitoring",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1716,
+          "char_end": 1719,
+          "turn_id": null
+        }
+      ],
+      "text": "TPA",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1733,
+          "char_end": 1736,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1762,
+          "char_end": 1769,
+          "turn_id": null
+        },
+        {
+          "char_start": 1787,
+          "char_end": 1803,
+          "turn_id": null
+        }
+      ],
+      "text": "infarct PCA \nterritories",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1762,
+          "char_end": 1782,
+          "turn_id": null
+        }
+      ],
+      "text": "infarct in the R MCA",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1846,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "cardioembolic event",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1876,
+          "char_end": 1882,
+          "turn_id": null
+        }
+      ],
+      "text": "EF 35%",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1923,
+          "char_end": 1935,
+          "turn_id": null
+        }
+      ],
+      "text": "R ICA plaque",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1937,
+          "char_end": 1961,
+          "turn_id": null
+        }
+      ],
+      "text": "artery to artery embolus",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1963,
+          "char_end": 1974,
+          "turn_id": null
+        }
+      ],
+      "text": "Carotid \nUS",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1988,
+          "char_end": 1996,
+          "turn_id": null
+        }
+      ],
+      "text": "stenosis",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2036,
+          "char_end": 2039,
+          "turn_id": null
+        }
+      ],
+      "text": "CEA",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2041,
+          "char_end": 2044,
+          "turn_id": null
+        }
+      ],
+      "text": "A1C",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2050,
+          "char_end": 2057,
+          "turn_id": null
+        }
+      ],
+      "text": "Head CT",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2072,
+          "char_end": 2080,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2088,
+          "char_end": 2108,
+          "turn_id": null
+        }
+      ],
+      "text": "mm of \nmidline shift",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2116,
+          "char_end": 2119,
+          "turn_id": null
+        }
+      ],
+      "text": "TPA",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2171,
+          "char_end": 2174,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2175,
+          "char_end": 2179,
+          "turn_id": null
+        }
+      ],
+      "text": "81mg",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2180,
+          "char_end": 2185,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2191,
+          "char_end": 2193,
+          "turn_id": null
+        }
+      ],
+      "text": "SQ",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2194,
+          "char_end": 2201,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2218,
+          "char_end": 2221,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2256,
+          "char_end": 2262,
+          "turn_id": null
+        }
+      ],
+      "text": "statin",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2267,
+          "char_end": 2270,
+          "turn_id": null
+        }
+      ],
+      "text": "LDL",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2308,
+          "char_end": 2316,
+          "turn_id": null
+        }
+      ],
+      "text": "mannitol",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2329,
+          "char_end": 2346,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertonic saline",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2363,
+          "char_end": 2365,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2455,
+          "char_end": 2471,
+          "turn_id": null
+        }
+      ],
+      "text": "L sided weakness",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2520,
+          "char_end": 2537,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertonic saline",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2571,
+          "char_end": 2578,
+          "turn_id": null
+        }
+      ],
+      "text": "thirsty",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2619,
+          "char_end": 2636,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid restriction",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2644,
+          "char_end": 2664,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperosmolar therapy",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2727,
+          "char_end": 2729,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2777,
+          "char_end": 2782,
+          "turn_id": null
+        }
+      ],
+      "text": "ileus",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2793,
+          "char_end": 2814,
+          "turn_id": null
+        }
+      ],
+      "text": "NG \ntube with suction",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2883,
+          "char_end": 2902,
+          "turn_id": null
+        }
+      ],
+      "text": "free water defecits",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2951,
+          "char_end": 2954,
+          "turn_id": null
+        }
+      ],
+      "text": "D5W",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3047,
+          "char_end": 3049,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3061,
+          "char_end": 3063,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3105,
+          "char_end": 3110,
+          "turn_id": null
+        }
+      ],
+      "text": "ileus",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3149,
+          "char_end": 3155,
+          "turn_id": null
+        }
+      ],
+      "text": "Reglan",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3289,
+          "char_end": 3324,
+          "turn_id": null
+        }
+      ],
+      "text": "pocketing of food in his left cheek",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3334,
+          "char_end": 3354,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing with \nfeeds",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3490,
+          "char_end": 3501,
+          "turn_id": null
+        }
+      ],
+      "text": "hypovolemia",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3556,
+          "char_end": 3562,
+          "turn_id": null
+        }
+      ],
+      "text": "oxygen",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3556,
+          "char_end": 3574,
+          "turn_id": null
+        }
+      ],
+      "text": "oxygen requirement",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3643,
+          "char_end": 3649,
+          "turn_id": null
+        }
+      ],
+      "text": "oxygen",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3682,
+          "char_end": 3707,
+          "turn_id": null
+        }
+      ],
+      "text": "Ischemic infarct of R MCA",
+      "id": "e87"
+    }
+  ]
+}

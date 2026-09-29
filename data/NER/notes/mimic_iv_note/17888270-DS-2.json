@@ -1,0 +1,346 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17888270-DS-2:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nlidocaine / epinephrine\n\nChief Complaint:\nNausea, vomiting, gait instability\nLeft cerebellar brain tumor\n\nHistory of Present Illness:\n___ year old female who was last seen in her normal state of\nhealth yesterday was found last night to have a significantly\naltered mental status.  Most of her history was obtained from \nthe\npatient's daughter who is her healthcare proxy.  Per her\ndaughter, the patient is highly educated and is normally quite\nsharp mentally.  She was last night to be altered and she walked\ninto a door frame which caused the laceration on her left arm \nand\nthen slowly slumped to the floor.  The daughter stressed that \nshe\ndid not drop to the ground quickly.  She is on coumadin and\naspirin as she has quite a significant cardiac history.  \nThe history of her tumor allegedly dates back to ___ although\nher daughter states that she was not aware of this tumor until\nlast night.  Per records that she obtained since then, the tumor\nwas 1cm in ___ and then was 4cm on imaging obtained this \n___.\nPrior to last night, the patient's daughter said she did not\nnotice anything abnormal about her in the recent past.  She has\nhad several complicated hospital admissions including severe\nsepsis following a ruptured gall bladder and an extended stay in\nan ICU following a bifemoral bypass.\n\nDischarge Diagnosis:\nACTIVE ISSUES:\n===================\n-Cerebellar mass\n\nCHRONIC DIAGNOSES:\n=================\n-Coronary artery disease\n-Atrial fibrillation\n-History of DVT and pulmonary embolus\n-Polymyalgia rheumatica\n-Hypertension\n-Peripheral vascular disease\n-Congestive heart failure",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 20,
+          "turn_id": null
+        }
+      ],
+      "text": "lidocaine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "epinephrine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 53,
+          "char_end": 59,
+          "turn_id": null
+        }
+      ],
+      "text": "Nausea",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 69,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "gait instability",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 115,
+          "turn_id": null
+        }
+      ],
+      "text": "Left cerebellar brain tumor",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 268,
+          "char_end": 289,
+          "turn_id": null
+        }
+      ],
+      "text": "altered mental status",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 581,
+          "turn_id": null
+        }
+      ],
+      "text": "laceration on her left arm",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 701,
+          "char_end": 709,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 714,
+          "char_end": 721,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 796,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 885,
+          "char_end": 890,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 961,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1004,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1211,
+          "char_end": 1217,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1230,
+          "char_end": 1251,
+          "turn_id": null
+        }
+      ],
+      "text": "ruptured gall bladder",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1295,
+          "char_end": 1311,
+          "turn_id": null
+        }
+      ],
+      "text": "bifemoral bypass",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1371,
+          "char_end": 1386,
+          "turn_id": null
+        }
+      ],
+      "text": "Cerebellar mass",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1426,
+          "char_end": 1449,
+          "turn_id": null
+        }
+      ],
+      "text": "Coronary artery disease",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1451,
+          "char_end": 1470,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial fibrillation",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1483,
+          "char_end": 1486,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1491,
+          "char_end": 1508,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary embolus",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1532,
+          "turn_id": null
+        }
+      ],
+      "text": "Polymyalgia rheumatica",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1534,
+          "char_end": 1546,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1548,
+          "char_end": 1575,
+          "turn_id": null
+        }
+      ],
+      "text": "Peripheral vascular disease",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1577,
+          "char_end": 1601,
+          "turn_id": null
+        }
+      ],
+      "text": "Congestive heart failure",
+      "id": "e26"
+    }
+  ]
+}

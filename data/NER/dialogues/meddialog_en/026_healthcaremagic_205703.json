@@ -1,0 +1,619 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:205703:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have recently weaned off of 60mgs of lovan under guidance of my GP. I was taking Lovan for 3 years for depression and anxiety and felt it was no longer effective. My last dose was 7 days ago. I am feeling terrible, severe headaches, body aches and restlessness, intense irritability and overall bad/sad mood. I am not sure if this is withdrawal symptoms from lovan or depression. My GP has given sample packets of cymbalta 30mgs for 1 week and then to increase to 60mgs with instructions to commence this medication 3 days post final dose of lovan. I don t know what to do. Do I suffer through these symptoms and hope they resolve and if so what length of time would this be or do I start taking cymbalta now. The research I have done on internet makes cymbalta sound like a terrible drug particularly when weaning off. I am a 39 year old mother of 4 children and work fulltime. I cannot afford to feel like this, I need to function at my best. Please help. Tess\n[doctor] Hello mem,Good afternoon, I read your history twice in which you mentioned that you are treated with tab lovan (fluoxetine) for anxiety disorder n depression....But questions is for 3 year duration...generally this drug or any drug is not prescribed for such long duration for anxiety disorders...N now your last intake of this drug is before 7-8 days n now your complaint is body ache headache restlessness etc...so I think this is may be due to withdrewal symptoms as you are on that tablet for 3 year...Now your physcian gave tab cymbalta( duloxetine) first week 30 mg then increase to 60 mg...This is ideal dosage system for anxiety n depression...May be still you have depression n anxiety but with fluoxetine you have some problems like addictive potental...n duloxetine has less addictive potential for that So this wll definitely helps you...So keep faith in your doctor...Thank you,Regards,Dr.Ravi Kotecha",
+  "entities": [
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 45,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "60mgs",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 54,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lovan",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lovan",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 years",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 125,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 137,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headaches",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 255,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "body aches",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "restlessness",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 282,
+          "char_end": 294,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irritability",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 319,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bad/sad mood",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 365,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawal symptoms",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 371,
+          "char_end": 376,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lovan",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 380,
+          "char_end": 390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 422,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "packets",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 434,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 440,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "30mgs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 451,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1 week",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 481,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "60mgs",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 554,
+          "char_end": 559,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lovan",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 773,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1085,
+          "char_end": 1088,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tab",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1094,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lovan",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1096,
+          "char_end": 1106,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fluoxetine",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1112,
+          "char_end": 1128,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety disorder",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1141,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1166,
+          "char_end": 1181,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "3 year duration",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1256,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "long duration",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1261,
+          "char_end": 1278,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety disorders",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1360,
+          "char_end": 1369,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "body ache",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1370,
+          "char_end": 1378,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "headache",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1379,
+          "char_end": 1391,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "restlessness",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1431,
+          "char_end": 1450,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "withdrewal symptoms",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1470,
+          "char_end": 1476,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tablet",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1481,
+          "char_end": 1487,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "3 year",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1517,
+          "char_end": 1525,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1537,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "duloxetine",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1539,
+          "char_end": 1549,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "first week",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1550,
+          "char_end": 1555,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "30 mg",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1573,
+          "char_end": 1578,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "60 mg",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1613,
+          "char_end": 1620,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1623,
+          "char_end": 1633,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1658,
+          "char_end": 1668,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1671,
+          "char_end": 1678,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1688,
+          "char_end": 1698,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fluoxetine",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1750,
+          "char_end": 1760,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "duloxetine",
+      "id": "e47"
+    }
+  ]
+}

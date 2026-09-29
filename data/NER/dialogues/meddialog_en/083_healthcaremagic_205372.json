@@ -1,0 +1,286 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:205372:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been feeling nauseous and also yesterday I almost passed out. Usually when that happens I lie down and the dizziness goes away, but it took awhile for the feeling to leave. I have also been having these moments throughout the day where I get shortness of breathe and sometimes it is so hard to just breathe. I do have anxiety and depression and about two weeks ago stopped taking my medication which was Zoloft because I felt like it wasn t helping much and was prescribed a new medication(lexapro) and I took it and had a hard time breathing and had this horrible feeling like I was going to die so I decided to wait a few days and I m not sure I should start it because I feel the same symptoms I did when taking it. What should I do and what is wrong with me?\n[doctor] breathlessness you have described is typical and common symptom with Anxiety. I will suggest you to keep using Lexapro as it take 1-2 weeks before it starts showing its anti-anxiety effects. Also very few cases patients may experience worsening of breathlessness but in my opinion its your anxiety that is causing you difficulty with brathing. You consider visiting your treating psychiatrist to check for paradoxical anxiety with lexapro and can ask if he would like to start you any benzodiazepine for you.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 38,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nauseous",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 77,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "passed out",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 279,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shortness of breathe",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 303,
+          "char_end": 323,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hard to just breathe",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 342,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 357,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 382,
+          "char_end": 410,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped taking my medication",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 427,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zoloft",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 507,
+          "char_end": 514,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lexapro",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 559,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hard time breathing",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 582,
+          "char_end": 594,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 601,
+          "char_end": 613,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feeling like going to die",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 803,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "breathlessness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 865,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 907,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 963,
+          "char_end": 970,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1037,
+          "char_end": 1051,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "breathlessness",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1107,
+          "char_end": 1131,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "difficulty with brathing",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1214,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paradoxical anxiety",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1220,
+          "char_end": 1227,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lexapro",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1274,
+          "char_end": 1288,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "benzodiazepine",
+      "id": "e21"
+    }
+  ]
+}

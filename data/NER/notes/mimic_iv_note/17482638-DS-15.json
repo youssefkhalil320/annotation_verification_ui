@@ -1,0 +1,777 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17482638-DS-15:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Chief Complaint:\nLeft foot ulceration secondary to a\npuncture wound, with progressive cellulitis and pain on\nwalking.\n\nHistory of Present Illness:\nThis is a ___ gentleman\nwho was transferred from an outside hospital with bilateral\npopliteal aneurysms. He tripped on a curb on ___\nand punctured the sole of his left foot, after which he\ndeveloped progressive edema and erythema of the whole foot to\nthe point where he could not walk. He tried soaks with some\nrelief. He went to the outside hospital 2 days prior to\nadmission because the pain was progressive. They put him on\nIV antibiotics (question vancomycin), and the edema,\nswelling, and erythema improved. An ultrasound found\nbilateral popliteal aneurysms. The patient was transferred\nhere for further treatment of his popliteal aneurysms. The\npatient denies any history of rest pain, claudication, or\nknown peripheral vascular disease. He has never been seen by\na vascular surgeon.\n\nAllergies:\nPenicillin - manifestation is hives.\n\nBrief Hospital Course:\nThe patient was admitted to the vascular\nservice. He was begun on IV antibiotics of vancomycin,\nciprofloxacin, and Flagyl. IV heparinization was instituted\nfor a subtherapeutic INR of 1.6. The patient was placed on\nbedrest. The patient underwent a CT scan of the abdominal\naorta and pelvic and extremity vessels which showed bilateral\npopliteal aneurysms, left greater than right. An echo report\nfrom an outside cardiovascular physician, ___ ____________ ,\nwas obtained and demonstrates left ventricular hypertrophy\nand lower limits of normal left ventricular function with an\nejection fraction of 50%. The mechanical aortic valve is well-\nseated and functioning appropriately. There is mild to\nmoderate mitral regurgitation. The left atrium is enlarged.\nThere is evidence of diastolic dysfunction. No further\ncardiac evaluation was indicated given the results of his\necho and previous cardiac catheterization with known normal\ncoronary arteries. On ___, the patient\nunderwent a left popliteal exclusion with a left fem BK pop\nbypass graft. The patient tolerated the procedure well and\nwas transferred to the PACU in stable condition. The IV\nheparin drip was reinstituted. The patient continued to do\nwell from a hemodynamic standpoint and was transferred to the\nSICU for continued monitoring and care.\n\nPostoperative day #1, there were no overnight events. The\npatient's postoperative hematocrit was 25. His anticoagulant\nwas adjusted for a goal PTT of 60 to 80. The patient was\n____________  and transferred to the regular nursing floor.\nOn ___, the patient was evaluated by physical\ntherapy, who felt he would be safe to be discharged to home.\nThe remaining hospital course was unremarkable. The patient's\nCoumadinization was instituted on ___ with 10\nmg and on ___ he was given 10 mg. He was\ndischarged to home on 7.5 mg ___ through ___ and 5 mg\n___ through ___.\n\nDischarge Diagnosis:\n1. Bilateral popliteal aneurysms, status post left\n    popliteal aneurysm exclusion with a left femoral to\n    below-knee popliteal bypass graft.\n2. Aortic valvular disease, status post aortic valve\n    replacement - anticoagulated.\n3. Hypertension - controlled.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "Left foot ulceration",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 53,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "puncture wound",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 96,
+          "turn_id": null
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 116,
+          "turn_id": null
+        }
+      ],
+      "text": "pain on\nwalking",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 221,
+          "char_end": 250,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral\npopliteal aneurysms",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 284,
+          "char_end": 319,
+          "turn_id": null
+        }
+      ],
+      "text": "punctured the sole of his left foot",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 363,
+          "turn_id": null
+        },
+        {
+          "char_start": 377,
+          "char_end": 394,
+          "turn_id": null
+        }
+      ],
+      "text": "edema of the whole foot",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 368,
+          "char_end": 394,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema of the whole foot",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 417,
+          "char_end": 422,
+          "turn_id": null
+        },
+        {
+          "char_start": 427,
+          "char_end": 431,
+          "turn_id": null
+        }
+      ],
+      "text": "could walk",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 540,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 576,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 577,
+          "char_end": 588,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 599,
+          "char_end": 609,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 625,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 635,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 649,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 663,
+          "char_end": 673,
+          "turn_id": null
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 680,
+          "char_end": 709,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral popliteal aneurysms",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 773,
+          "char_end": 792,
+          "turn_id": null
+        }
+      ],
+      "text": "popliteal aneurysms",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 828,
+          "char_end": 837,
+          "turn_id": null
+        }
+      ],
+      "text": "rest pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 851,
+          "turn_id": null
+        }
+      ],
+      "text": "claudication",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 862,
+          "char_end": 889,
+          "turn_id": null
+        }
+      ],
+      "text": "peripheral vascular disease",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 949,
+          "char_end": 959,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillin",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 979,
+          "char_end": 984,
+          "turn_id": null
+        }
+      ],
+      "text": "hives",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1076,
+          "char_end": 1078,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1079,
+          "char_end": 1090,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1106,
+          "char_end": 1119,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1131,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1133,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1136,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "heparinization",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1172,
+          "char_end": 1190,
+          "turn_id": null
+        }
+      ],
+      "text": "subtherapeutic INR",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1187,
+          "char_end": 1190,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1258,
+          "char_end": 1321,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan of the abdominal\naorta and pelvic and extremity vessels",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1335,
+          "char_end": 1364,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral\npopliteal aneurysms",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1394,
+          "char_end": 1398,
+          "turn_id": null
+        }
+      ],
+      "text": "echo",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1497,
+          "char_end": 1525,
+          "turn_id": null
+        }
+      ],
+      "text": "left ventricular hypertrophy",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1587,
+          "char_end": 1604,
+          "turn_id": null
+        }
+      ],
+      "text": "ejection fraction",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1714,
+          "char_end": 1734,
+          "turn_id": null
+        }
+      ],
+      "text": "mitral regurgitation",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1740,
+          "char_end": 1751,
+          "turn_id": null
+        },
+        {
+          "char_start": 1755,
+          "char_end": 1763,
+          "turn_id": null
+        }
+      ],
+      "text": "left atrium enlarged",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1786,
+          "char_end": 1807,
+          "turn_id": null
+        }
+      ],
+      "text": "diastolic dysfunction",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1878,
+          "char_end": 1882,
+          "turn_id": null
+        }
+      ],
+      "text": "echo",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1896,
+          "char_end": 1919,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac catheterization",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1989,
+          "char_end": 2049,
+          "turn_id": null
+        }
+      ],
+      "text": "left popliteal exclusion with a left fem BK pop\nbypass graft",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2149,
+          "char_end": 2151,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2396,
+          "char_end": 2406,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2419,
+          "char_end": 2432,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulant",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2457,
+          "char_end": 2460,
+          "turn_id": null
+        }
+      ],
+      "text": "PTT",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2587,
+          "char_end": 2603,
+          "turn_id": null
+        }
+      ],
+      "text": "physical\ntherapy",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2719,
+          "char_end": 2734,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadinization",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2762,
+          "char_end": 2767,
+          "turn_id": null
+        }
+      ],
+      "text": "10\nmg",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2792,
+          "char_end": 2797,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2828,
+          "char_end": 2834,
+          "turn_id": null
+        }
+      ],
+      "text": "7.5 mg",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2902,
+          "char_end": 2931,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilateral popliteal aneurysms",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2945,
+          "char_end": 3043,
+          "turn_id": null
+        }
+      ],
+      "text": "left\n    popliteal aneurysm exclusion with a left femoral to\n    below-knee popliteal bypass graft",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3048,
+          "char_end": 3071,
+          "turn_id": null
+        }
+      ],
+      "text": "Aortic valvular disease",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3085,
+          "char_end": 3113,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic valve\n    replacement",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3135,
+          "char_end": 3147,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e58"
+    }
+  ]
+}

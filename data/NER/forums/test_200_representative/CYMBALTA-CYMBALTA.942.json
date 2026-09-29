@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 12,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 85,
@@ -34,50 +32,33 @@
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "dose",
-      "experiencer": "patient",
+      "fine_type": "frequency",
       "spans": [
         {
-          "char_start": 111,
-          "char_end": 122,
+          "char_start": 123,
+          "char_end": 133,
           "turn_id": null
         }
       ],
-      "text": "lowest dose",
+      "text": "once a day",
       "id": "e3"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 123,
-          "char_end": 146,
+          "char_start": 135,
+          "char_end": 145,
           "turn_id": null
         }
       ],
-      "text": "once a day (before bed)",
+      "text": "before bed",
       "id": "e4"
-    },
-    {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "dose",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 214,
-          "char_end": 225,
-          "turn_id": null
-        }
-      ],
-      "text": "lowest dose",
-      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 255,
@@ -86,26 +67,11 @@
         }
       ],
       "text": "depression",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 299,
-          "char_end": 313,
-          "turn_id": null
-        }
-      ],
-      "text": "norepinephrine",
-      "id": "e7"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 325,
@@ -114,26 +80,11 @@
         }
       ],
       "text": "Cymbalta",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 374,
-          "char_end": 383,
-          "turn_id": null
-        }
-      ],
-      "text": "serotonin",
-      "id": "e9"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 453,
@@ -142,12 +93,11 @@
         }
       ],
       "text": "constipation",
-      "id": "e10"
+      "id": "e7"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 483,
@@ -156,7 +106,7 @@
         }
       ],
       "text": "Cymbalta",
-      "id": "e11"
+      "id": "e8"
     }
   ]
 }

@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 63,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 89,
@@ -35,21 +33,19 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 105,
-          "char_end": 130,
+          "char_end": 135,
           "turn_id": null
         }
       ],
-      "text": "X-ray computed tomography",
+      "text": "X-ray computed tomography (CT)",
       "id": "e3"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 401,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 422,
@@ -77,21 +72,24 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 442,
           "char_end": 447,
           "turn_id": null
+        },
+        {
+          "char_start": 467,
+          "char_end": 474,
+          "turn_id": null
         }
       ],
-      "text": "X-ray",
+      "text": "X-ray imaging",
       "id": "e6"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 449,
@@ -110,7 +108,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 464,
@@ -124,7 +121,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 588,
@@ -138,7 +134,19 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 598,
+          "turn_id": null
+        }
+      ],
+      "text": "CWO",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
       "spans": [
         {
           "char_start": 783,
@@ -147,26 +155,11 @@
         }
       ],
       "text": "CWO",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 844,
-          "char_end": 846,
-          "turn_id": null
-        }
-      ],
-      "text": "CT",
       "id": "e11"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 897,
@@ -180,7 +173,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 939,
@@ -194,7 +186,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1016,
@@ -208,7 +199,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1176,
@@ -221,22 +211,38 @@
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "route",
-      "experiencer": "other",
+      "fine_type": "frequency",
       "spans": [
         {
-          "char_start": 1226,
-          "char_end": 1237,
+          "char_start": 1219,
+          "char_end": 1225,
+          "turn_id": null
+        },
+        {
+          "char_start": 1243,
+          "char_end": 1257,
           "turn_id": null
         }
       ],
-      "text": "intravenous",
+      "text": "single administration",
       "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1226,
+          "char_end": 1242,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous (IV)",
+      "id": "e17"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1302,
@@ -245,12 +251,11 @@
         }
       ],
       "text": "dextran - coated iron oxide nanoparticles",
-      "id": "e17"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1382,
@@ -259,40 +264,24 @@
         }
       ],
       "text": "MRI",
-      "id": "e18"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1382,
-          "char_end": 1401,
-          "turn_id": null
-        }
-      ],
-      "text": "MRI contrast agents",
       "id": "e19"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1417,
-          "char_end": 1426,
+          "char_end": 1435,
           "turn_id": null
         }
       ],
-      "text": "168 mg/kg",
+      "text": "168 mg/kg per dose",
       "id": "e20"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1436,
@@ -306,7 +295,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1441,
@@ -320,7 +308,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1464,
@@ -333,8 +320,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "other",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 1482,
@@ -348,7 +334,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1582,
@@ -362,7 +347,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1593,
@@ -376,7 +360,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1798,
@@ -388,23 +371,8 @@
       "id": "e27"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1798,
-          "char_end": 1812,
-          "turn_id": null
-        }
-      ],
-      "text": "intratumorally",
-      "id": "e28"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1844,
@@ -413,12 +381,24 @@
         }
       ],
       "text": "CWO",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1883,
+          "char_end": 1896,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor-bearing",
       "id": "e29"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1992,
@@ -428,20 +408,6 @@
       ],
       "text": "CWO",
       "id": "e30"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 2035,
-          "char_end": 2037,
-          "turn_id": null
-        }
-      ],
-      "text": "CT",
-      "id": "e31"
     }
   ]
 }

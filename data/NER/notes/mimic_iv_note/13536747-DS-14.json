@@ -1,0 +1,489 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13536747-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCoreg / Toprol XL\n\nChief Complaint:\nshortness of breath and rapid heart rate\n\nHistory of Present Illness:\nThis ___ year old female has a history\nof rheumatic heart disease, and atrial fibrillation and is s/p\nMVR(33mm tissue)/TV repair( 28mm CE ring) on ___.  She was\ndischarged to home on ___ and has been doing fairly well.\nShe was seen by the ___ today and had a rapid heart rate and an\nO2 sat of 93% on RA.  She presented to the ___ ED and had\natrial fibrillation in the 140s and her O2 sat was stable.\n\nBrief Hospital Course:\nThis ___ year old female is s/p MVR/TV repair on ___ and \npresents to the ED in rapid atrial fibrillation and fluid \noverloaded. She was admitted to ___ 6 for diuresis and \nventricular rate control. Beta-blocker was increased and \nDiltiazem added. Her rhythm was rate controlled. Anticoagulation \nwas continued for her chronic atrial fibrillation. CXR was done \nand per Radiology showed stable mild cardiomegaly with small \nbilateral pleural effusions and basilar atelectasis, cannot \nexclude pneumonia. She was diuresed with  IV lasix. Her \nshortness of breath improved and her volume status was \nessentially euvolemic on discharge. She remains in rate \ncontrolled atrial fibrillation on anticoagulation. On ___ a \nTTE was done and per Cardilogy revealed: Compared with the prior \nstudy (images reviewed) of ___ the mitral valve has been \nreplaced with a normal functioning biologic valve and the \nseverity of tricuspid regurgitation is reduced.  She was cleared \nfor discharge to home with ___ services on HD #4. All follow up \nappointments were advised.\n\nDischarge Diagnosis:\nRapid atrial fibrillation and volume overloaded",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "Coreg",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "Toprol XL",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 66,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "rapid heart rate",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "rheumatic heart disease",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 188,
+          "char_end": 207,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 222,
+          "turn_id": null
+        }
+      ],
+      "text": "MVR",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 245,
+          "turn_id": null
+        }
+      ],
+      "text": "TV repair",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 392,
+          "turn_id": null
+        }
+      ],
+      "text": "rapid heart rate",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 400,
+          "char_end": 406,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 400,
+          "char_end": 413,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat of 93%",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 458,
+          "char_end": 477,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 498,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 573,
+          "char_end": 576,
+          "turn_id": null
+        }
+      ],
+      "text": "MVR",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 577,
+          "char_end": 586,
+          "turn_id": null
+        }
+      ],
+      "text": "TV repair",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 621,
+          "char_end": 646,
+          "turn_id": null
+        }
+      ],
+      "text": "rapid atrial fibrillation",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 668,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid \noverloaded",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 700,
+          "char_end": 708,
+          "turn_id": null
+        }
+      ],
+      "text": "diuresis",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 740,
+          "char_end": 752,
+          "turn_id": null
+        }
+      ],
+      "text": "Beta-blocker",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 772,
+          "char_end": 781,
+          "turn_id": null
+        }
+      ],
+      "text": "Diltiazem",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 821,
+          "char_end": 836,
+          "turn_id": null
+        }
+      ],
+      "text": "Anticoagulation",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 887,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic atrial fibrillation",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 892,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 952,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiomegaly",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral pleural effusions",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1016,
+          "turn_id": null
+        }
+      ],
+      "text": "basilar atelectasis",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1043,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1053,
+          "char_end": 1061,
+          "turn_id": null
+        }
+      ],
+      "text": "diuresed",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1068,
+          "char_end": 1070,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1071,
+          "char_end": 1076,
+          "turn_id": null
+        }
+      ],
+      "text": "lasix",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1083,
+          "char_end": 1102,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1207,
+          "char_end": 1226,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1230,
+          "char_end": 1245,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1257,
+          "char_end": 1260,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1452,
+          "char_end": 1475,
+          "turn_id": null
+        }
+      ],
+      "text": "tricuspid regurgitation",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1620,
+          "char_end": 1645,
+          "turn_id": null
+        }
+      ],
+      "text": "Rapid atrial fibrillation",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1667,
+          "turn_id": null
+        }
+      ],
+      "text": "volume overloaded",
+      "id": "e37"
+    }
+  ]
+}

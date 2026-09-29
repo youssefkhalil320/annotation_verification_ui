@@ -1,0 +1,408 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12400681-DS-18:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNifedipine / aspirin\n\nHistory of Present Illness:\nDIAGNOSIS:  Osteoarthritis of the right knee, largely\npatellofemoral in nature.\n\nHISTORY:  ___ returns.  Her orthopedic history is well\ndocumented.  She has had an extensive workup of her right knee\nincluding a recent MRI that demonstrated full-thickness \narticular\ncartilage loss in the patellofemoral joint.  She has a moderate\nOA in the other compartments.  She states her knee is bothering\nher considerably.  She has significant discomfort and pain\nascending and descending stairs.  It is difficult for her to\ncarry out her daily living.\n\nPROCEDURE:  Under sterile conditions, we did inject her right\nknee with Synvisc one today.  In addition, we did sign her up \nfor\na total knee replacement.  She would like to go ahead to proceed\nand schedule this.  We did speak in an excess of 45 minutes \ntoday\nregarding this issue, about the pre and postoperative treatment\nand course.  She would like to do this sometime in ___\nafter ___.\n\nThank you for allowing us to participate in the care of your\npatient.  We will see her in the future.\n\n___ MD\n\nBrief Hospital Course:\nThe patient was admitted to the orthopaedic surgery service and \nwas taken to the operating room for above described procedure. \nPlease see separately dictated operative report for details. The \nsurgery was uncomplicated and the patient tolerated the \nprocedure well. Patient received perioperative IV antibiotics.\n\nOtherwise, pain was initially controlled with a PCA followed by \na transition to oral pain medications on POD#1.  The patient \nreceived lovenox for DVT prophylaxis starting on the morning of \nPOD#1.  The surgical dressing was changed on POD#2 and the \nsurgical incision was found to be clean and intact without \nerythema or abnormal drainage. The patient was seen daily by \nphysical therapy. Labs were checked throughout the hospital \ncourse and repleted accordingly. At the time of discharge the \npatient was tolerating a regular diet and feeling well.  The \npatient was afebrile with stable vital signs.  The patient's \nhematocrit was acceptable and pain was adequately controlled on \nan oral regimen. The operative extremity was neurovascularly \nintact and the wound was benign.\n\nThe patient's weight-bearing status is weight bearing as \ntolerated on the operative extremity.\n \n\nMs. ___ is discharged to rehab in stable condition.\n\nDischarge Diagnosis:\nRight knee osteoarthritis",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "Nifedipine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 105,
+          "turn_id": null
+        }
+      ],
+      "text": "Osteoarthritis of the right knee",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 129,
+          "turn_id": null
+        }
+      ],
+      "text": "patellofemoral",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 279,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 317,
+          "char_end": 369,
+          "turn_id": null
+        }
+      ],
+      "text": "articular\ncartilage loss in the patellofemoral joint",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 393,
+          "turn_id": null
+        }
+      ],
+      "text": "OA",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 441,
+          "turn_id": null
+        },
+        {
+          "char_start": 445,
+          "char_end": 458,
+          "turn_id": null
+        }
+      ],
+      "text": "knee bothering\nher",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 513,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 554,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "difficult for her to\ncarry out her daily living",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 649,
+          "char_end": 670,
+          "turn_id": null
+        }
+      ],
+      "text": "inject her right\nknee",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 687,
+          "turn_id": null
+        }
+      ],
+      "text": "Synvisc one",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 735,
+          "char_end": 757,
+          "turn_id": null
+        }
+      ],
+      "text": "total knee replacement",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1429,
+          "char_end": 1431,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1432,
+          "char_end": 1443,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1457,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1497,
+          "turn_id": null
+        }
+      ],
+      "text": "PCA",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1532,
+          "char_end": 1548,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1582,
+          "char_end": 1589,
+          "turn_id": null
+        }
+      ],
+      "text": "lovenox",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1667,
+          "turn_id": null
+        },
+        {
+          "char_start": 1672,
+          "char_end": 1679,
+          "turn_id": null
+        }
+      ],
+      "text": "surgical dressing changed",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1758,
+          "char_end": 1766,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1779,
+          "char_end": 1787,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1820,
+          "char_end": 1836,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1838,
+          "char_end": 1842,
+          "turn_id": null
+        }
+      ],
+      "text": "Labs",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2039,
+          "char_end": 2050,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2068,
+          "char_end": 2078,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2098,
+          "char_end": 2102,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2402,
+          "char_end": 2427,
+          "turn_id": null
+        }
+      ],
+      "text": "Right knee osteoarthritis",
+      "id": "e30"
+    }
+  ]
+}

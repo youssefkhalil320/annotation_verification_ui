@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 828,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 842,
@@ -35,21 +33,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 842,
+          "char_start": 853,
           "char_end": 861,
           "turn_id": null
         }
       ],
-      "text": "antibiotic infusion",
+      "text": "infusion",
       "id": "e3"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 876,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1279,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1287,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1322,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1362,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1499,
@@ -131,23 +122,8 @@
       "id": "e9"
     },
     {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "duration",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1527,
-          "char_end": 1536,
-          "turn_id": null
-        }
-      ],
-      "text": "long-term",
-      "id": "e10"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1588,
@@ -156,12 +132,11 @@
         }
       ],
       "text": "pain medication",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1795,
@@ -170,12 +145,11 @@
         }
       ],
       "text": "pain medication",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1836,
@@ -184,12 +158,11 @@
         }
       ],
       "text": "agitated",
-      "id": "e13"
+      "id": "e12"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1850,
@@ -198,7 +171,7 @@
         }
       ],
       "text": "anesthesia",
-      "id": "e14"
+      "id": "e13"
     }
   ]
 }

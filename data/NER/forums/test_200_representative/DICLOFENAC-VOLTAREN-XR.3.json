@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 50,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 207,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 371,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 401,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 422,
@@ -77,21 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 487,
-          "char_end": 503,
-          "turn_id": null
-        }
-      ],
-      "text": "cardiac symptoms",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 604,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "gastric distress",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 622,
@@ -114,12 +93,11 @@
         }
       ],
       "text": "GERD",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 640,
@@ -128,12 +106,11 @@
         }
       ],
       "text": "gastric cocktail",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 676,
@@ -142,12 +119,11 @@
         }
       ],
       "text": "prilosec",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 896,
@@ -156,7 +132,7 @@
         }
       ],
       "text": "Voltaren",
-      "id": "e11"
+      "id": "e10"
     }
   ]
 }

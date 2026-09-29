@@ -1,0 +1,255 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:188318:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Dear Doctor,I had a tooth extracted some 4 days ago and was given megamox 1g (taken every 12 hours) together with metronidazole 200mg (taken 3 times daily) both after meals. It should be taken for one week. I mentioned to him I'm  taking daily losartan 50mg and metformin 500mg.  I noticed dark green stools. My stools are soft but not loose. I went to the dentist and told him about it but he said it's because of the antibiotics. I didn't feel any weakness, pain - just normal. Can you give me a piece of your opinion sir? Thank you very much.   Gabby\n[doctor] Hello and welcome.yes your dentist has suggested you correct reason for having loose stools and also change in colour.once your course of antibiotic is completed you will be fine.Any further persistence of symptoms should definitely worry you else do not worry.Thanks.Take care.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 45,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tooth extracted",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 76,
+          "char_end": 83,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "megamox",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 86,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1g",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 108,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every 12 hours",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 137,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "metronidazole",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 138,
+          "char_end": 143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200mg",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 times daily",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 203,
+          "char_end": 215,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for one week",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 262,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "losartan",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 267,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "50mg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 281,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "metformin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 282,
+          "char_end": 287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "500mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 300,
+          "char_end": 317,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dark green stools",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 440,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 460,
+          "char_end": 468,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weakness",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 474,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 664,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "loose stools",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 690,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "change in colour",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 711,
+          "char_end": 721,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e19"
+    }
+  ]
+}

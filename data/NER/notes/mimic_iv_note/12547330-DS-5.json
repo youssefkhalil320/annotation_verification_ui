@@ -1,0 +1,759 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12547330-DS-5:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\nBrain mass\n\nHistory of Present Illness:\nMs. ___ is a ___ year old female with no significant\nmedical history transferred to neurosurgery from OSH with a \nlarge\nright sided brain mass. She reports had a variety of symptoms\nincluding night sweats, feeling afraid to be alone, episodes of\nalmost blacking out, and flat affect starting in ___\naround the time when she was treated for the flu with Tamiflu\nwhile in ___. She was seen in urgent care who recommended\nfurther work-up of all of her symptoms but advised she see her\nPCP in ___. She returned home in ___ and saw her PCP\nwho ordered ___ NCHCT on ___ that was reportedly negative for\nacute intracranial abnormality. She reports in ___ her\nfamily noticed a \"degradation in her usual demeanor\" to the \npoint\nwhere her husband was losing her in some way. Over the last two\nweeks the family has noticed a more progressive decline. Three\ndays ago she was in 3 car accidents in two hours. In the first\naccident she forgot to shut the driver's side door while driving\nout of her garage striking a pole in her driveway as well as the\ngarage door divider. Later in the day she was trying to cross\ninto the appropriate toll booth ___ and ___ a truck. She was\nevaluated at that time and was deemed safe to continue driving.\nWhen she was near her destination in ___ she heard a bump\nwhile driving and while parked was approached by security who\nasked if she was aware she struck a metal pylon. She was unaware\nshe had hit anything and it was recommended she present to an\nemergency department for evaluation. In the ED she was found to\nhave a left visual field deficit and slight left sided weakness.\nShe also reported several months of olfactory hallucinations and\nepisodes of \"out-of-body\" experiences. CT head revealed a right\nsided brain mass. An MRI confirmed a large right frontotemporal\nmass with surrounding edema, mass effect, and 10mm midline \nshift.\nA CT torso was negative for malignancy. She was started on \nKeppra\nand decadron at the outside hospital. Per her son who is at the\nbedside her symptoms have improved since starting the steroids.\n\nBrief Hospital Course:\n#Right sided brain lesion with cerebral edema and cerebral \ncompression \nOn ___, Ms. ___ was transferred from OSH with new \ndiagnosis of right sided brain mass with vasogenic edema and \nmidline shift. She was taken urgently for pre-op MRI WAND and to \nthe OR for right craniotomy for tumor debulking. The procedure \nwas uncomplicated. Please see separately dictated operative \nreport for complete details of the procedure. The patient was \nextubated in the OR and transferred to ___ for recovery where \nshe remained hemodynamically and neurologically stable. She was \ntransferred to the neuro step-down unit for further \npost-operative management. Her A-line and foley were d/c'd. Her \ndiet was advanced and she mobilized with nursing. Her pain \nregimen was adjusted for adequate control. She continued on \ndecadron and keppra post-operatively. She remained afebrile and \nher leukocytosis was attributed to normal response from decadron \nas she was without signs of infection. Neuro oncology and \nradiation oncology were consulted and she was added to Brain \nTumor Conference list to be discussed for further planning. \nRoutine post-op head CT showed expected post-operative changes. \nHer decadron was tapered over 1 week to 2mg BID. Her headaches \nwere well controlled with tylenol, oxycodone, and fioricet.\n\n#Dispo planning\n___ and OT evaluated her and recommended acute rehab. On ___, \nshe was tolerating a PO diet, had a bowel movement, and her pain \nwas well controlled. She was discharged to ___ rehab.\n\nDischarge Diagnosis:\nBrain tumor with cerebral edema and cerebral compression",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "Brain mass",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "right sided brain mass",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 273,
+          "char_end": 285,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 287,
+          "char_end": 304,
+          "turn_id": null
+        },
+        {
+          "char_start": 308,
+          "char_end": 313,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling afraid to alone",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 327,
+          "char_end": 346,
+          "turn_id": null
+        }
+      ],
+      "text": "almost blacking out",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 352,
+          "char_end": 363,
+          "turn_id": null
+        }
+      ],
+      "text": "flat affect",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 425,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "flu",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 441,
+          "turn_id": null
+        }
+      ],
+      "text": "Tamiflu",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 632,
+          "char_end": 637,
+          "turn_id": null
+        }
+      ],
+      "text": "NCHCT",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1625,
+          "char_end": 1650,
+          "turn_id": null
+        }
+      ],
+      "text": "left visual field deficit",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1662,
+          "char_end": 1681,
+          "turn_id": null
+        }
+      ],
+      "text": "left sided weakness",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1743,
+          "turn_id": null
+        }
+      ],
+      "text": "olfactory hallucinations",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1761,
+          "char_end": 1772,
+          "turn_id": null
+        },
+        {
+          "char_start": 1774,
+          "char_end": 1785,
+          "turn_id": null
+        }
+      ],
+      "text": "out-of-body experiences",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1787,
+          "char_end": 1794,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1806,
+          "char_end": 1828,
+          "turn_id": null
+        }
+      ],
+      "text": "right\nsided brain mass",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1833,
+          "char_end": 1836,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1855,
+          "char_end": 1880,
+          "turn_id": null
+        }
+      ],
+      "text": "right frontotemporal\nmass",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1898,
+          "char_end": 1903,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1905,
+          "char_end": 1916,
+          "turn_id": null
+        }
+      ],
+      "text": "mass effect",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1922,
+          "char_end": 1941,
+          "turn_id": null
+        }
+      ],
+      "text": "10mm midline \nshift",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1945,
+          "char_end": 1953,
+          "turn_id": null
+        }
+      ],
+      "text": "CT torso",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1971,
+          "char_end": 1981,
+          "turn_id": null
+        }
+      ],
+      "text": "malignancy",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2003,
+          "char_end": 2009,
+          "turn_id": null
+        }
+      ],
+      "text": "Keppra",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2014,
+          "char_end": 2022,
+          "turn_id": null
+        }
+      ],
+      "text": "decadron",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2128,
+          "char_end": 2136,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2163,
+          "char_end": 2187,
+          "turn_id": null
+        }
+      ],
+      "text": "Right sided brain lesion",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2193,
+          "char_end": 2207,
+          "turn_id": null
+        }
+      ],
+      "text": "cerebral edema",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2233,
+          "turn_id": null
+        }
+      ],
+      "text": "cerebral \ncompression",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2299,
+          "char_end": 2321,
+          "turn_id": null
+        }
+      ],
+      "text": "right sided brain mass",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2327,
+          "char_end": 2342,
+          "turn_id": null
+        }
+      ],
+      "text": "vasogenic edema",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2348,
+          "char_end": 2361,
+          "turn_id": null
+        }
+      ],
+      "text": "midline shift",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2397,
+          "char_end": 2405,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI WAND",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2425,
+          "char_end": 2441,
+          "turn_id": null
+        }
+      ],
+      "text": "right craniotomy",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2446,
+          "char_end": 2461,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor debulking",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2602,
+          "char_end": 2611,
+          "turn_id": null
+        }
+      ],
+      "text": "extubated",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2902,
+          "char_end": 2906,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2969,
+          "char_end": 2977,
+          "turn_id": null
+        }
+      ],
+      "text": "decadron",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2982,
+          "char_end": 2988,
+          "turn_id": null
+        }
+      ],
+      "text": "keppra",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3038,
+          "char_end": 3050,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3090,
+          "char_end": 3098,
+          "turn_id": null
+        }
+      ],
+      "text": "decadron",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3128,
+          "char_end": 3137,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3298,
+          "char_end": 3305,
+          "turn_id": null
+        }
+      ],
+      "text": "head CT",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3351,
+          "char_end": 3359,
+          "turn_id": null
+        }
+      ],
+      "text": "decadron",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 3372,
+          "char_end": 3383,
+          "turn_id": null
+        }
+      ],
+      "text": "over 1 week",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3387,
+          "char_end": 3390,
+          "turn_id": null
+        }
+      ],
+      "text": "2mg",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3391,
+          "char_end": 3394,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3400,
+          "char_end": 3409,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3437,
+          "char_end": 3444,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3446,
+          "char_end": 3455,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycodone",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3461,
+          "char_end": 3469,
+          "turn_id": null
+        }
+      ],
+      "text": "fioricet",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 3496,
+          "char_end": 3498,
+          "turn_id": null
+        }
+      ],
+      "text": "OT",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 3529,
+          "char_end": 3540,
+          "turn_id": null
+        }
+      ],
+      "text": "acute rehab",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3611,
+          "char_end": 3615,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3693,
+          "char_end": 3704,
+          "turn_id": null
+        }
+      ],
+      "text": "Brain tumor",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3710,
+          "char_end": 3724,
+          "turn_id": null
+        }
+      ],
+      "text": "cerebral edema",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3729,
+          "char_end": 3749,
+          "turn_id": null
+        }
+      ],
+      "text": "cerebral compression",
+      "id": "e57"
+    }
+  ]
+}

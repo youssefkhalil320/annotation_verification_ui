@@ -1,0 +1,1113 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18957045-DS-9:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\naspirin / Codeine / NSAIDS\n\nChief Complaint:\nseizures\n\nHistory of Present Illness:\nThe pt is a ___ year-old man with a history of asthma and\nchronic back pain for which he is on methadone, who presents\nfollowing 3 seizures.  Patient was intubated on arrival, so\nhistory obtained from records as well as conversation with Dr.\n___ was caring from him initially in the ___\nemergency department.  The patient reportedly attends a \n___\nclinic daily, either for chronic lower back pain, or for a \nremote\nhistory of substance abuse, reports vary.  He has a friend who\npicks him up every day, who came to his house this morning and\nnoted that he had to pound on the door to wake him up this\nmorning, and felt he was 'just not quite right' though we have \nno\nfurther details of precisely what this involved.  His friend\nplaced him in the taxi cab, but enroute to the ___ clinic\nhe became unresponsive and was 'jerking all over'.  They stopped\nat the nearest fire station, and on arrival he was reportedly\nlethargic, and thought to be post-ictal by the firemen.  He then\nbecame combative. FSG at that time was reported to be 131. He \nwas\nbrought to ___, where on arrival Dr. ___ it\nas far as asking him his name, when he became unresponsive,\nstaring off into space, with his jaw clenched, and then \nproceeded\nto have rhythmic jerking movements of all his extremities,\nlasting ___ minutes.  He was given 2mg of Ativan, repeated once,\nright at the end of this episode.  At this time he was noted to\nhave dilated pupils and snoring respirations, and was initially\nlethargic, but then began to come around again, and was\nreportedly combative.  The decision was made at that time to \nload\nhim with fosphenytoin and intubate him for airway protection.  \nAs\nthey were preparing to intubate him he again developed a blank\nstare, followed by jaw clenching and rhythmic jerking of his\nextremities.  He was then paralyzed and sedated with propofol,\nwith no further seizure activity noted prior to transfer.\n\nPer discussion with the ___ emergency department, he\nwas last seen in their hospital in ___, at which time he was\nadmitted for cellulitis.  His only other medical history\ndocumented at that time was of asthma, as well as a report of a\nlung/chest tumor removal, though it is unclear what that was. \nAccording to the ___ clinic, he has no other documented\nmedications.  He does have a son, who so far has not been\navailable by phone, and the friend who brought him in the taxi\nrefused to leave his name and phone number for any further\nquestions.\n \nPatient intubated, unable to answer ROS.\n\nBrief Hospital Course:\nThe pt is a ___ year-old man with a history of asthma and chronic \nback pain for which he is on methadone, who presented following \n3 seizures found to have a small stroke in his R cerebral \nhemisphere. \n\nMr. ___ was admitted to the ICU intubated and sedated. He was \ninitially on dilantin (goal level of ___. His exam showed \nsome decreased movement on the R-side, prompting an MRI which \nrevealed a very small R-sided infarct that did not seem to \nexplain his seizures or weakness. He was started on ASA 325mg QD \nand CTA of the head and neck was unremarkable. An LP showed 5 \nWBCs and 4,000 RBCs. He was started on vancomycin, ceftriaxone, \nampicillin and acyclovir until his HSV and cultures returned \nnegative at 48hrs.\n\nThe patient was monitored on bed side EEG in ICU and on \ntransition to the floor. No seizures seen while the patient was \nadmitted. Diffuse slowing seen initially, however that improved \nas the patient's mental status did. He was extubated and weaned \neasily to room air and transferred to the floor without events.  \n \n\nWhile on the floor his mental status improved. Dilantin was \nswitched to Keppra 100 mg BID and he remained seizure free. He \nwas continued on his home dose of methadone.  \n\nWhile on the floor his strength improved and his neurologic exam \nwas full and symmetric. The Epilepsy team remained uncertain \nwhat the etiology of his seizures were - with the differential \nincluding the small right infarct, overdose or withdrawal from \nmedication/drugs of abuse, newly developing epilepsy or some \ncombination of the above. \n\nRegardless the patient was discharged on Keppra 1000 mg BID and \ninstructed not to drive for 6 months. The patient was discharged \nhome in good condition with follow-up scheduled with Dr. ___ \n___.\n\nDischarge Diagnosis:\nSeizures",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDS",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 64,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 147,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 198,
+          "turn_id": null
+        }
+      ],
+      "text": "methadone",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 233,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 248,
+          "char_end": 257,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 475,
+          "char_end": 490,
+          "turn_id": null
+        }
+      ],
+      "text": "lower back pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 520,
+          "char_end": 535,
+          "turn_id": null
+        }
+      ],
+      "text": "substance abuse",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 890,
+          "char_end": 902,
+          "turn_id": null
+        }
+      ],
+      "text": "unresponsive",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 911,
+          "char_end": 929,
+          "turn_id": null
+        }
+      ],
+      "text": "'jerking all over'",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1007,
+          "char_end": 1016,
+          "turn_id": null
+        }
+      ],
+      "text": "lethargic",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1046,
+          "turn_id": null
+        }
+      ],
+      "text": "post-ictal",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1079,
+          "char_end": 1088,
+          "turn_id": null
+        }
+      ],
+      "text": "combative",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1090,
+          "char_end": 1093,
+          "turn_id": null
+        }
+      ],
+      "text": "FSG",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1229,
+          "char_end": 1241,
+          "turn_id": null
+        }
+      ],
+      "text": "unresponsive",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1265,
+          "turn_id": null
+        }
+      ],
+      "text": "staring off into space",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1276,
+          "char_end": 1288,
+          "turn_id": null
+        }
+      ],
+      "text": "jaw clenched",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1318,
+          "char_end": 1367,
+          "turn_id": null
+        }
+      ],
+      "text": "rhythmic jerking movements of all his extremities",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1404,
+          "char_end": 1407,
+          "turn_id": null
+        }
+      ],
+      "text": "2mg",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1411,
+          "char_end": 1417,
+          "turn_id": null
+        }
+      ],
+      "text": "Ativan",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1503,
+          "char_end": 1517,
+          "turn_id": null
+        }
+      ],
+      "text": "dilated pupils",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1542,
+          "turn_id": null
+        }
+      ],
+      "text": "snoring respirations",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1562,
+          "char_end": 1571,
+          "turn_id": null
+        }
+      ],
+      "text": "lethargic",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1638,
+          "turn_id": null
+        }
+      ],
+      "text": "combative",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1694,
+          "char_end": 1706,
+          "turn_id": null
+        }
+      ],
+      "text": "fosphenytoin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1719,
+          "turn_id": null
+        }
+      ],
+      "text": "intubate",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1815,
+          "char_end": 1820,
+          "turn_id": null
+        }
+      ],
+      "text": "stare",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1834,
+          "char_end": 1847,
+          "turn_id": null
+        }
+      ],
+      "text": "jaw clenching",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1852,
+          "char_end": 1887,
+          "turn_id": null
+        }
+      ],
+      "text": "rhythmic jerking of his\nextremities",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1902,
+          "char_end": 1911,
+          "turn_id": null
+        }
+      ],
+      "text": "paralyzed",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1916,
+          "char_end": 1923,
+          "turn_id": null
+        }
+      ],
+      "text": "sedated",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1929,
+          "char_end": 1937,
+          "turn_id": null
+        }
+      ],
+      "text": "propofol",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1955,
+          "char_end": 1971,
+          "turn_id": null
+        }
+      ],
+      "text": "seizure activity",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2125,
+          "char_end": 2135,
+          "turn_id": null
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2200,
+          "char_end": 2206,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2233,
+          "char_end": 2249,
+          "turn_id": null
+        }
+      ],
+      "text": "lung/chest tumor",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2233,
+          "char_end": 2257,
+          "turn_id": null
+        }
+      ],
+      "text": "lung/chest tumor removal",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2553,
+          "char_end": 2562,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2657,
+          "char_end": 2663,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2706,
+          "char_end": 2715,
+          "turn_id": null
+        }
+      ],
+      "text": "methadone",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2744,
+          "char_end": 2752,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2769,
+          "char_end": 2811,
+          "turn_id": null
+        }
+      ],
+      "text": "small stroke in his R cerebral \nhemisphere",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2847,
+          "char_end": 2856,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2861,
+          "char_end": 2868,
+          "turn_id": null
+        }
+      ],
+      "text": "sedated",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2891,
+          "char_end": 2899,
+          "turn_id": null
+        }
+      ],
+      "text": "dilantin",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2942,
+          "char_end": 2974,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased movement on the R-side",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2989,
+          "char_end": 2992,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3022,
+          "char_end": 3037,
+          "turn_id": null
+        }
+      ],
+      "text": "R-sided infarct",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3072,
+          "char_end": 3080,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3084,
+          "char_end": 3092,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3112,
+          "char_end": 3115,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3116,
+          "char_end": 3121,
+          "turn_id": null
+        }
+      ],
+      "text": "325mg",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3122,
+          "char_end": 3124,
+          "turn_id": null
+        }
+      ],
+      "text": "QD",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3130,
+          "char_end": 3154,
+          "turn_id": null
+        }
+      ],
+      "text": "CTA of the head and neck",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3176,
+          "char_end": 3178,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3189,
+          "char_end": 3193,
+          "turn_id": null
+        }
+      ],
+      "text": "WBCs",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3204,
+          "char_end": 3208,
+          "turn_id": null
+        }
+      ],
+      "text": "RBCs",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3228,
+          "char_end": 3238,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3240,
+          "char_end": 3251,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3254,
+          "char_end": 3264,
+          "turn_id": null
+        }
+      ],
+      "text": "ampicillin",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3269,
+          "char_end": 3278,
+          "turn_id": null
+        }
+      ],
+      "text": "acyclovir",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3289,
+          "char_end": 3292,
+          "turn_id": null
+        }
+      ],
+      "text": "HSV",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3297,
+          "char_end": 3305,
+          "turn_id": null
+        }
+      ],
+      "text": "cultures",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3365,
+          "char_end": 3377,
+          "turn_id": null
+        }
+      ],
+      "text": "bed side EEG",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3421,
+          "char_end": 3429,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3468,
+          "char_end": 3483,
+          "turn_id": null
+        }
+      ],
+      "text": "Diffuse slowing",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3566,
+          "char_end": 3575,
+          "turn_id": null
+        }
+      ],
+      "text": "extubated",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3704,
+          "char_end": 3712,
+          "turn_id": null
+        }
+      ],
+      "text": "Dilantin",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3730,
+          "char_end": 3736,
+          "turn_id": null
+        }
+      ],
+      "text": "Keppra",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3737,
+          "char_end": 3743,
+          "turn_id": null
+        }
+      ],
+      "text": "100 mg",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3744,
+          "char_end": 3747,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3816,
+          "char_end": 3825,
+          "turn_id": null
+        }
+      ],
+      "text": "methadone",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3879,
+          "char_end": 3894,
+          "turn_id": null
+        }
+      ],
+      "text": "neurologic exam",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3983,
+          "char_end": 3991,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4036,
+          "char_end": 4055,
+          "turn_id": null
+        }
+      ],
+      "text": "small right infarct",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4057,
+          "char_end": 4065,
+          "turn_id": null
+        }
+      ],
+      "text": "overdose",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4069,
+          "char_end": 4111,
+          "turn_id": null
+        }
+      ],
+      "text": "withdrawal from \nmedication/drugs of abuse",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4130,
+          "char_end": 4138,
+          "turn_id": null
+        }
+      ],
+      "text": "epilepsy",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4217,
+          "char_end": 4223,
+          "turn_id": null
+        }
+      ],
+      "text": "Keppra",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4224,
+          "char_end": 4231,
+          "turn_id": null
+        }
+      ],
+      "text": "1000 mg",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4232,
+          "char_end": 4235,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4396,
+          "char_end": 4404,
+          "turn_id": null
+        }
+      ],
+      "text": "Seizures",
+      "id": "e85"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:85714:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been prescribed Prednisone to hel with severe ankle pain. I have been following the doctor s instructions except, since the pain went away very quickly, after 5 days I tested the prednisone. I stopped the one dose each morning on Friday morning. 8 oclock that night I got dizzy, weak and dis coordinated. Not so much that I could not continue my activities. I have heard that Prednisone is a steroid and should be avoided. Any response to all this? I can t afford you. Sorry\n[doctor] Hello,  Yes, it's true that Prednisone is a steroid. However due to its potent anti-inflammatory action, we do prescribe in cases of severe arthritis as in your case when the benefits outcome the side effects.  So please do follow your doctor's recommendations and do not change dose on your own or do not stop medicine abruptly on your own without tempering as directed by your doctor.  Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr Albana Sejdini, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 33,
+          "char_end": 43,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 73,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ankle pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 145,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 182,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "5 days",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 206,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped the one dose each morning",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 222,
+          "char_end": 230,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one dose",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "each morning",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 289,
+          "char_end": 294,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 300,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weak",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 305,
+          "char_end": 320,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dis coordinated",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 403,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 416,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 539,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 552,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 597,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti-inflammatory",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 650,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "arthritis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 773,
+          "char_end": 796,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "change dose on your own",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 807,
+          "char_end": 841,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stop medicine abruptly on your own",
+      "id": "e19"
+    }
+  ]
+}

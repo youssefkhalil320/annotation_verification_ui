@@ -1,0 +1,335 @@
+{
+  "doc_id": "PRIMOCK57:day3_consultation03:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "History : having lack of energy for the past 3 months \nYou are also having loss of appetite \nYou are lacking motivation \nYou are complaining of breathlessness and some times associated with palpitations \nThere is no chest pain \nYou are not depressed or stressed \nYour bowels are normal \nYou feel nauseous most of the time \nThere is no vomiting \nYou are also experiencing some weight loss in the past 6 months about a stone \nThere is no history of acid reflux \nPast medical history: you suffer from underactive thyroid \nMedications: you have not been using the thyroxine for a while since you changed practice . You do not remember the last time you had your last set of bloods\nPlan: you have been advised to contact support to help you to organize your blood test. This will look at aneamia, thyoids, liver, kidney and vitamin levels \nYou will need to book in for another appointment after you receive a text message from Babylon. \nSafety netting: If you develop chest pain with the palpitations, change in bowel habits you will need to contact us urgently\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "lack of energy",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 75,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of appetite",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "lacking motivation",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 158,
+          "turn_id": null
+        }
+      ],
+      "text": "breathlessness",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 216,
+          "char_end": 226,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "depressed",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 253,
+          "char_end": 261,
+          "turn_id": null
+        }
+      ],
+      "text": "stressed",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 304,
+          "turn_id": null
+        }
+      ],
+      "text": "nauseous",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 343,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 387,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 458,
+          "turn_id": null
+        }
+      ],
+      "text": "acid reflux",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 498,
+          "char_end": 517,
+          "turn_id": null
+        }
+      ],
+      "text": "underactive thyroid",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 569,
+          "turn_id": null
+        }
+      ],
+      "text": "using the thyroxine",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 670,
+          "char_end": 676,
+          "turn_id": null
+        }
+      ],
+      "text": "bloods",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 753,
+          "char_end": 763,
+          "turn_id": null
+        }
+      ],
+      "text": "blood test",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 790,
+          "turn_id": null
+        }
+      ],
+      "text": "aneamia",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 799,
+          "turn_id": null
+        },
+        {
+          "char_start": 827,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "thyoids levels",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 801,
+          "char_end": 806,
+          "turn_id": null
+        },
+        {
+          "char_start": 827,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "liver levels",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 808,
+          "char_end": 814,
+          "turn_id": null
+        },
+        {
+          "char_start": 827,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "kidney levels",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "vitamin levels",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 963,
+          "char_end": 973,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 983,
+          "char_end": 995,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1019,
+          "turn_id": null
+        }
+      ],
+      "text": "change in bowel habits",
+      "id": "e24"
+    }
+  ]
+}

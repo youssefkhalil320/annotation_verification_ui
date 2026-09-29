@@ -1,0 +1,546 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19335199-DS-18:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\n\"I'm trying to get my medications 2 months ago I fell and hit my\nskull when I was in ___ I took a sz and fell I had stitches in\npelvis and my chest they wanted to operate on me I wouldn't let\nthem.\"\n\nHistory of Present Illness:\nThe patient is a ___ yo cauc. male with reported hx of paranoid\nschizophrenia who was brought to the ED by his cousin with\nincreased paranoia, off medications and believing that the CIA\nhas planted a microchip in his tooth.\n\nThe patient is quite agitated and irritable and said that he\nstopped taking his psychiatric meds a week ago and admits to\nhearing voices, \" they call my name, they come on the radio and\nsay things and I see shadows.\"He also reports that he is not\nsleeping at all since \" they stopped the Chloral Hydrate\", is \nnot\neating and has lost 10lbs. He said \"I feel terrible I'm not\nmyself the CIA has placed a micro chip in my tooth.\"\n\nThe patient is disorganized, psychotic and a poor historian and\nis not able to provide a clear history and answers most question\nwith \" I don't know.\"\n\nHe doesn't remember who his psychiatrist is and was able to\nprovide some of his medications.\n\nThe patient reports that he travels all over the world that he\ntravels to ___ and that he left his bag\non the plane last ___ on his way home from ___, nothing is\nwrong with me.\"\n\nBrief Hospital Course:\nPatient was admitted to Deac-4 on ___, was initially found to \nbe very paranoid, disoriented.  Patient also had several pills \nstuffed in his pockets, along with a crystalline substance that \nwas confisicated. Patient stated that the ED gave him some \npercocets to take, which he later saved and placed in his \npockets.  Patient was agitated and reluctant to be in house \nstating \"I have no idea why i'm here. i want to get out of \nhere.\" Patient later claimed he had been tricked into being \nadmitted, stating \"I came here, on my own, to find a new \npsychiatrist...I didn't think I was going upstairs!\"\n\nPatient had moments of hostility/verbal aggression interspersed \nwith cooperation.  There was some uncertainity regarding his \ncurrent medications; medication list was obtained from his \nhalfway home, verified by the pharmacy and current medication \nregime was correlated to the med list. Patient kept asking for \nopiates, stating he was in acute pain, and that he was \nprescribed them in the ED and at home.  On the floor he was \nprescribed Naproxen for pain, given tenous past history and \npossible substance abuse, and reintiated on his current \nmedications. Seroquel dose was increased to include an \nadditional 100 mg po qAM to the standing dose of 600 mg po qhs.  \nPatient adhered to the medical treatment, and was cooperative \nwith the interview process, though kept reiterating he \"wanted \nto go home. you people are pushing me by keeping me here.\"\n\nPatient's disorientation quickly improved through the course of \nhis stay, and his though process became much more logical, \nlinear and goal directed.  Paranoia and some delusional beliefs \n(regarding the CIA) remain, however, patient appears medicaly \nstable.\n\nDischarge Diagnosis:\nSchizophrenia, acute paranoia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 139,
+          "char_end": 141,
+          "turn_id": null
+        }
+      ],
+      "text": "sz",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "stitches",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 317,
+          "turn_id": null
+        }
+      ],
+      "text": "reported",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 333,
+          "char_end": 346,
+          "turn_id": null
+        }
+      ],
+      "text": "schizophrenia",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 402,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "paranoia",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 412,
+          "char_end": 427,
+          "turn_id": null
+        }
+      ],
+      "text": "off medications",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 523,
+          "turn_id": null
+        }
+      ],
+      "text": "agitated",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 528,
+          "char_end": 537,
+          "turn_id": null
+        }
+      ],
+      "text": "irritable",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 590,
+          "turn_id": null
+        }
+      ],
+      "text": "stopped taking his psychiatric meds",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 630,
+          "turn_id": null
+        }
+      ],
+      "text": "hearing voices",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 697,
+          "char_end": 708,
+          "turn_id": null
+        }
+      ],
+      "text": "see shadows",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 718,
+          "char_end": 725,
+          "turn_id": null
+        }
+      ],
+      "text": "reports",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 741,
+          "char_end": 749,
+          "turn_id": null
+        }
+      ],
+      "text": "sleeping",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 782,
+          "char_end": 797,
+          "turn_id": null
+        }
+      ],
+      "text": "Chloral Hydrate",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 808,
+          "char_end": 814,
+          "turn_id": null
+        }
+      ],
+      "text": "eating",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "lost 10lbs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 882,
+          "turn_id": null
+        },
+        {
+          "char_start": 887,
+          "char_end": 918,
+          "turn_id": null
+        }
+      ],
+      "text": "CIA placed a micro chip in my tooth",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 937,
+          "char_end": 949,
+          "turn_id": null
+        }
+      ],
+      "text": "disorganized",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 951,
+          "char_end": 960,
+          "turn_id": null
+        }
+      ],
+      "text": "psychotic",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1449,
+          "turn_id": null
+        }
+      ],
+      "text": "paranoid",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1451,
+          "char_end": 1462,
+          "turn_id": null
+        }
+      ],
+      "text": "disoriented",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1622,
+          "char_end": 1631,
+          "turn_id": null
+        }
+      ],
+      "text": "percocets",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1703,
+          "char_end": 1711,
+          "turn_id": null
+        }
+      ],
+      "text": "agitated",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1998,
+          "char_end": 2007,
+          "turn_id": null
+        }
+      ],
+      "text": "hostility",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2008,
+          "char_end": 2025,
+          "turn_id": null
+        }
+      ],
+      "text": "verbal aggression",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2289,
+          "char_end": 2296,
+          "turn_id": null
+        }
+      ],
+      "text": "opiates",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2322,
+          "char_end": 2326,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2417,
+          "char_end": 2425,
+          "turn_id": null
+        }
+      ],
+      "text": "Naproxen",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2430,
+          "char_end": 2434,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2476,
+          "char_end": 2491,
+          "turn_id": null
+        }
+      ],
+      "text": "substance abuse",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2537,
+          "char_end": 2545,
+          "turn_id": null
+        }
+      ],
+      "text": "Seroquel",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2591,
+          "char_end": 2597,
+          "turn_id": null
+        }
+      ],
+      "text": "100 mg",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2601,
+          "char_end": 2604,
+          "turn_id": null
+        }
+      ],
+      "text": "qAM",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2629,
+          "char_end": 2635,
+          "turn_id": null
+        }
+      ],
+      "text": "600 mg",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2639,
+          "char_end": 2642,
+          "turn_id": null
+        }
+      ],
+      "text": "qhs",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2843,
+          "char_end": 2857,
+          "turn_id": null
+        }
+      ],
+      "text": "disorientation",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2985,
+          "char_end": 2993,
+          "turn_id": null
+        }
+      ],
+      "text": "Paranoia",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3003,
+          "char_end": 3021,
+          "turn_id": null
+        }
+      ],
+      "text": "delusional beliefs",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3116,
+          "char_end": 3129,
+          "turn_id": null
+        }
+      ],
+      "text": "Schizophrenia",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3137,
+          "char_end": 3145,
+          "turn_id": null
+        }
+      ],
+      "text": "paranoia",
+      "id": "e41"
+    }
+  ]
+}

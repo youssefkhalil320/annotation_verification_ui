@@ -1,0 +1,1516 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15241494-DS-20:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCefepime / Chlorhexidine\n\nChief Complaint:\nhypoxemia, cough\n\nHistory of Present Illness:\nThis is a ___ year old M with a PMH significant for diabetes, \nHCV, ESRD on HD, EtOH cirrhosis (last drink in ___ ascites \nand severe malnutrition. He is not listed for transplant \nsecondary to his malnurtition. He has had a cough and fever for \nthe past several days and he was noted to be hypoxemic to the \n___ on room air at dialysis. He was noted to have a new RLL \ninfiltrate with elevated WBC count.  \n.  \nIn the ED, his initial vitals were 98.2 78 ___ 97% 10 L \nNRB  \n.  \nCultures were sent and he was given vanc/ceft/levaquin. lactate \n2.2. He was admitted to the ICU for pneumonia.  \n.  \nHe has a history of dysphagia ___ vocal cord dysfunction and was \nnot approved for po intake on last discharge. however, he was \nreevaluated by speech and swallow at rehab and was clear for \nthin liquids.\n\nBrief Hospital Course:\nMr. ___ was a ___ year old man with diabetes, HCV, & EtOH \ncirrhosis, ESRD on HD that presented with Klebsiella pneumoniae \npneumonia secondary to aspiration.   \n\n#. Klebsiella pneumoniae pneumonia\nPatient presented from rehab with fever, cough, and relative \nhypoxia. In the ER, he was placed unnecessarily on a \nnon-rebreather mask on admission requiring a brief stay in the \nMICU for less than 24 hours. CXR did not show discrete \ninfiltrate but multi-focal airspace disease present from likely \naspiration. He also had leukocytosis. After initiation of \nbroad-spectrum antimicrobial therapy with vancomycin, zosyn, and \nlevofloxacin (___), he became afebrile and did not \nhave an oxygen requirement. His antibiotics were narrowed to \nceftriaxone (___) and he completed a 7-day antibiotic \ncourse with resolution of resipratory symptoms. \n\n# Abdominal pain\nPatient reporting RUQ abdominal pain associated with nausea \nduring hospitalization. Physical exam significant for an \nenlarged abdomen from ascites. RUQ did not suggest hepatobiliary \nprocess such as gallbladder disease. Subsequently, a therapeutic \nparacentesis was performed with alleviation of the pain.\n\n# Malnutrition/Failure to thrive:\nThe patient is failing to thrive secondary to poor nutrition and \nunderlying hepatic disease. He was continued on tube feeds (see \ndischarge diet). Speech and swallow evaluated patient and \nrecommended STRICT NPO given the location of his pneumonia and \nhis high risk for aspiration. The patient was frustrated but \nunderstood the reasons and rationale. He underwent filler \ninjection to larynx at ___ admission with subsequent \nimprovent in phonation and aspiration risk profile. Subsequent \nvideo swallow study did not reveal evidence or risk of \naspiration. He was discharged on a thin liquid and soft solid \ndiet in addition to tube feeding.\n \n# Alcohol and HCV cirrhosis:  \nComplicated by ascites, grade II esophageal varices, and hepatic \nencephalopathy. He did not display encephalopathy during \nhospitalization given effective route by NGT ensuring medication \nadministration. He was continued on lactulose and flagyl with \nthe latter replacing rifaximin, which has resulted in tube feed \nclogs. SBP prophylaxis was held while on broad spectrum \nantibiotics but continued at discharge rifaximin replaced with \nflagyl because it can clog the tube. He was also continued on \nnadolol for portal hypertension and grade II varices.\n   \n#. Depression and Anxiety\nHe was continued on paxil and remeron.\n\n#. End-Stage Renal Disease on HD:\nHe was mantained on HD as an inpatient and will continue on TTS \nschedule.  \n \n# Phonation:\nPatient has been evaluated by ENT in past with vocal cord issues \nresulting in muffled voice. He underwent filler injection to \nlarynx at ___ admission with subsequent improvent in \nphonation and aspiration risk profile. He should follow-up with \nENT as an outpatient.\n  \n#. Asthma:\nHe was continued on fluticasone and albuterol nebulizers. If he \nshould have recurrent pneumonia, his inhaled steroid dose should \nbe decreased.\n\n#. Lower Back Pain:  \nHe was continued on oxycodone as needed for back pain.  \n  \n#. Diabetes Mellitus Type 2\nHe was continued on sliding scale insulin.\n  \n#. Neurotrophic Corneal Abrasion:  \nHis left eye appears white. He has outpatient follow-up with an \noculoplastic surgeon.\n\nDischarge Diagnosis:\nPrimary: Klebsiella pneumoniae pneumonia, ascites, severe \nmalnutrition, failure to thrive\nSecondary: Alcoholic and Hepatitis C cirrhosis, depression, End \nstage renal diseas, neurotrophic corneal abrasion",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Cefepime",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "Chlorhexidine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 63,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxemia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 65,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 160,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "HCV",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 172,
+          "turn_id": null
+        }
+      ],
+      "text": "ESRD",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 178,
+          "turn_id": null
+        }
+      ],
+      "text": "HD",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 180,
+          "char_end": 194,
+          "turn_id": null
+        }
+      ],
+      "text": "EtOH cirrhosis",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 214,
+          "char_end": 221,
+          "turn_id": null
+        }
+      ],
+      "text": "ascites",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 246,
+          "turn_id": null
+        }
+      ],
+      "text": "malnutrition",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "malnurtition",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 330,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 340,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 400,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxemic",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 428,
+          "char_end": 436,
+          "turn_id": null
+        }
+      ],
+      "text": "dialysis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 480,
+          "turn_id": null
+        }
+      ],
+      "text": "RLL \ninfiltrate",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 486,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated WBC count",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 495,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC count",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 587,
+          "turn_id": null
+        }
+      ],
+      "text": "Cultures",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 619,
+          "turn_id": null
+        }
+      ],
+      "text": "vanc",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 624,
+          "turn_id": null
+        }
+      ],
+      "text": "ceft",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 625,
+          "char_end": 633,
+          "turn_id": null
+        }
+      ],
+      "text": "levaquin",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 642,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 680,
+          "char_end": 689,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 717,
+          "char_end": 726,
+          "turn_id": null
+        }
+      ],
+      "text": "dysphagia",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 731,
+          "char_end": 753,
+          "turn_id": null
+        }
+      ],
+      "text": "vocal cord dysfunction",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 841,
+          "char_end": 859,
+          "turn_id": null
+        }
+      ],
+      "text": "speech and swallow",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 962,
+          "char_end": 970,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 972,
+          "char_end": 975,
+          "turn_id": null
+        }
+      ],
+      "text": "HCV",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 979,
+          "char_end": 994,
+          "turn_id": null
+        }
+      ],
+      "text": "EtOH \ncirrhosis",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 996,
+          "char_end": 1000,
+          "turn_id": null
+        }
+      ],
+      "text": "ESRD",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1004,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "HD",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1027,
+          "char_end": 1059,
+          "turn_id": null
+        }
+      ],
+      "text": "Klebsiella pneumoniae \npneumonia",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1073,
+          "char_end": 1083,
+          "turn_id": null
+        }
+      ],
+      "text": "aspiration",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1092,
+          "char_end": 1123,
+          "turn_id": null
+        }
+      ],
+      "text": "Klebsiella pneumoniae pneumonia",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1163,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1165,
+          "char_end": 1170,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1186,
+          "char_end": 1193,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxia",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1333,
+          "char_end": 1336,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1375,
+          "char_end": 1403,
+          "turn_id": null
+        }
+      ],
+      "text": "multi-focal airspace disease",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1425,
+          "char_end": 1435,
+          "turn_id": null
+        }
+      ],
+      "text": "aspiration",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1449,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1484,
+          "char_end": 1512,
+          "turn_id": null
+        }
+      ],
+      "text": "broad-spectrum antimicrobial",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1526,
+          "char_end": 1536,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1538,
+          "char_end": 1543,
+          "turn_id": null
+        }
+      ],
+      "text": "zosyn",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1550,
+          "char_end": 1562,
+          "turn_id": null
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1634,
+          "char_end": 1645,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1664,
+          "char_end": 1675,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1701,
+          "char_end": 1706,
+          "turn_id": null
+        }
+      ],
+      "text": "7-day",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1771,
+          "char_end": 1785,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal pain",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1804,
+          "char_end": 1822,
+          "turn_id": null
+        }
+      ],
+      "text": "RUQ abdominal pain",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1839,
+          "char_end": 1845,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1905,
+          "char_end": 1921,
+          "turn_id": null
+        }
+      ],
+      "text": "enlarged abdomen",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1927,
+          "char_end": 1934,
+          "turn_id": null
+        }
+      ],
+      "text": "ascites",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1987,
+          "char_end": 2006,
+          "turn_id": null
+        }
+      ],
+      "text": "gallbladder disease",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2037,
+          "char_end": 2049,
+          "turn_id": null
+        }
+      ],
+      "text": "paracentesis",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2097,
+          "char_end": 2109,
+          "turn_id": null
+        }
+      ],
+      "text": "Malnutrition",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2110,
+          "char_end": 2127,
+          "turn_id": null
+        }
+      ],
+      "text": "Failure to thrive",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2144,
+          "char_end": 2161,
+          "turn_id": null
+        }
+      ],
+      "text": "failing to thrive",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2206,
+          "char_end": 2221,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatic disease",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2243,
+          "char_end": 2253,
+          "turn_id": null
+        }
+      ],
+      "text": "tube feeds",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2277,
+          "char_end": 2295,
+          "turn_id": null
+        }
+      ],
+      "text": "Speech and swallow",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2401,
+          "char_end": 2411,
+          "turn_id": null
+        }
+      ],
+      "text": "aspiration",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2496,
+          "char_end": 2523,
+          "turn_id": null
+        }
+      ],
+      "text": "filler \ninjection to larynx",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2585,
+          "char_end": 2595,
+          "turn_id": null
+        }
+      ],
+      "text": "aspiration",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2622,
+          "char_end": 2641,
+          "turn_id": null
+        }
+      ],
+      "text": "video swallow study",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2678,
+          "char_end": 2688,
+          "turn_id": null
+        }
+      ],
+      "text": "aspiration",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2761,
+          "char_end": 2773,
+          "turn_id": null
+        }
+      ],
+      "text": "tube feeding",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2791,
+          "char_end": 2804,
+          "turn_id": null
+        }
+      ],
+      "text": "HCV cirrhosis",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2823,
+          "char_end": 2830,
+          "turn_id": null
+        }
+      ],
+      "text": "ascites",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2832,
+          "char_end": 2859,
+          "turn_id": null
+        }
+      ],
+      "text": "grade II esophageal varices",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2865,
+          "char_end": 2888,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatic \nencephalopathy",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2970,
+          "char_end": 2976,
+          "turn_id": null
+        }
+      ],
+      "text": "by NGT",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3034,
+          "char_end": 3043,
+          "turn_id": null
+        }
+      ],
+      "text": "lactulose",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3048,
+          "char_end": 3054,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3082,
+          "char_end": 3091,
+          "turn_id": null
+        }
+      ],
+      "text": "rifaximin",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3133,
+          "char_end": 3136,
+          "turn_id": null
+        }
+      ],
+      "text": "SBP",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3167,
+          "char_end": 3194,
+          "turn_id": null
+        }
+      ],
+      "text": "broad spectrum \nantibiotics",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3222,
+          "char_end": 3231,
+          "turn_id": null
+        }
+      ],
+      "text": "rifaximin",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3247,
+          "char_end": 3253,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3310,
+          "char_end": 3317,
+          "turn_id": null
+        }
+      ],
+      "text": "nadolol",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3322,
+          "char_end": 3341,
+          "turn_id": null
+        }
+      ],
+      "text": "portal hypertension",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3346,
+          "char_end": 3362,
+          "turn_id": null
+        }
+      ],
+      "text": "grade II varices",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3371,
+          "char_end": 3381,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3386,
+          "char_end": 3393,
+          "turn_id": null
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3414,
+          "char_end": 3419,
+          "turn_id": null
+        }
+      ],
+      "text": "paxil",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3424,
+          "char_end": 3431,
+          "turn_id": null
+        }
+      ],
+      "text": "remeron",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3437,
+          "char_end": 3460,
+          "turn_id": null
+        }
+      ],
+      "text": "End-Stage Renal Disease",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 3464,
+          "char_end": 3466,
+          "turn_id": null
+        }
+      ],
+      "text": "HD",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 3488,
+          "char_end": 3490,
+          "turn_id": null
+        }
+      ],
+      "text": "HD",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3607,
+          "char_end": 3624,
+          "turn_id": null
+        }
+      ],
+      "text": "vocal cord issues",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3639,
+          "char_end": 3652,
+          "turn_id": null
+        }
+      ],
+      "text": "muffled voice",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3667,
+          "char_end": 3694,
+          "turn_id": null
+        }
+      ],
+      "text": "filler injection to \nlarynx",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3835,
+          "char_end": 3841,
+          "turn_id": null
+        }
+      ],
+      "text": "Asthma",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3863,
+          "char_end": 3874,
+          "turn_id": null
+        }
+      ],
+      "text": "fluticasone",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3879,
+          "char_end": 3888,
+          "turn_id": null
+        }
+      ],
+      "text": "albuterol",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 3889,
+          "char_end": 3899,
+          "turn_id": null
+        }
+      ],
+      "text": "nebulizers",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3945,
+          "char_end": 3952,
+          "turn_id": null
+        }
+      ],
+      "text": "inhaled",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3953,
+          "char_end": 3960,
+          "turn_id": null
+        }
+      ],
+      "text": "steroid",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3992,
+          "char_end": 4007,
+          "turn_id": null
+        }
+      ],
+      "text": "Lower Back Pain",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4031,
+          "char_end": 4040,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycodone",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4041,
+          "char_end": 4064,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed for back pain",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4055,
+          "char_end": 4064,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4074,
+          "char_end": 4098,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes Mellitus Type 2",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4133,
+          "char_end": 4140,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 4148,
+          "char_end": 4177,
+          "turn_id": null
+        }
+      ],
+      "text": "Neurotrophic Corneal Abrasion",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4185,
+          "char_end": 4207,
+          "turn_id": null
+        }
+      ],
+      "text": "left eye appears white",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4299,
+          "char_end": 4330,
+          "turn_id": null
+        }
+      ],
+      "text": "Klebsiella pneumoniae pneumonia",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4332,
+          "char_end": 4339,
+          "turn_id": null
+        }
+      ],
+      "text": "ascites",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4349,
+          "char_end": 4361,
+          "turn_id": null
+        }
+      ],
+      "text": "malnutrition",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4363,
+          "char_end": 4380,
+          "turn_id": null
+        }
+      ],
+      "text": "failure to thrive",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4406,
+          "char_end": 4427,
+          "turn_id": null
+        }
+      ],
+      "text": "Hepatitis C cirrhosis",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4429,
+          "char_end": 4439,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4441,
+          "char_end": 4464,
+          "turn_id": null
+        }
+      ],
+      "text": "End \nstage renal diseas",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 4466,
+          "char_end": 4495,
+          "turn_id": null
+        }
+      ],
+      "text": "neurotrophic corneal abrasion",
+      "id": "e116"
+    }
+  ]
+}

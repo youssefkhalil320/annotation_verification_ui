@@ -1,0 +1,317 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17792041-DS-8:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\n1. Open left distal radius and ulna fracture.\n2. Left elbow dislocation.\n\nHistory of Present Illness:\n___ with significant PMH to include blindness had mechanical \nfall down approx 7 stairs.  No LOC.  Immediate left arm pain and \ndeformity.  Patient speaks ___ - much of history obtained \nfrom family. Patient given tetanus and clinda at OSH.\n\nBrief Hospital Course:\nThe patient was admitted to the Orthopaedic Trauma Service for \nrepair of a left both bone forearm fracture and elbow \ndislocation. The patient was taken to the OR and underwent an \nORIF both bone forearm fracture and placement of external \nfixator for the elbow dislocation. The patient tolerated the \nprocedures without complications and was transferred to the PACU \nin stable condition. Please see operative reports for details. \nPost operatively pain was controlled with a PCA with a \ntransition to PO pain meds once tolerating POs. The patient \ntolerated diet advancement without difficulty and made steady \nprogress with ___.\n\nWeight bearing status: nonweight bearing left upper extremity.\n\nThe patient received ___ antibiotics as well as \nlovenox for DVT prophylaxis. The incision/splint was clean, dry, \nand intact without evidence of erythema or drainage; and the \nextremity was NVI distally throughout. The patient was \ndischarged in stable condition with written instructions \nconcerning precautionary instructions and the appropriate \nfollow-up care. All questions were answered prior to discharge \nand the patient expressed readiness for discharge.\n\nDischarge Diagnosis:\n1. Open left distal radius and ulna fracture.\n2. Left elbow dislocation.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 67,
+          "turn_id": null
+        },
+        {
+          "char_start": 77,
+          "char_end": 85,
+          "turn_id": null
+        }
+      ],
+      "text": "Open left distal radius fracture",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 85,
+          "turn_id": null
+        }
+      ],
+      "text": "ulna fracture",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 112,
+          "turn_id": null
+        }
+      ],
+      "text": "Left elbow dislocation",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "blindness",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 239,
+          "turn_id": null
+        }
+      ],
+      "text": "LOC",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 265,
+          "turn_id": null
+        }
+      ],
+      "text": "left arm pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 280,
+          "turn_id": null
+        }
+      ],
+      "text": "deformity",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 364,
+          "turn_id": null
+        }
+      ],
+      "text": "tetanus",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 369,
+          "char_end": 375,
+          "turn_id": null
+        }
+      ],
+      "text": "clinda",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 484,
+          "char_end": 515,
+          "turn_id": null
+        }
+      ],
+      "text": "left both bone forearm fracture",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 590,
+          "char_end": 621,
+          "turn_id": null
+        }
+      ],
+      "text": "ORIF both bone forearm fracture",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 885,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "PCA",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 911,
+          "char_end": 913,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 914,
+          "char_end": 923,
+          "turn_id": null
+        }
+      ],
+      "text": "pain meds",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1130,
+          "char_end": 1141,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1154,
+          "char_end": 1161,
+          "turn_id": null
+        }
+      ],
+      "text": "lovenox",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1166,
+          "char_end": 1169,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1259,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1271,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1595,
+          "char_end": 1618,
+          "turn_id": null
+        },
+        {
+          "char_start": 1628,
+          "char_end": 1636,
+          "turn_id": null
+        }
+      ],
+      "text": "Open left distal radius fracture",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1623,
+          "char_end": 1636,
+          "turn_id": null
+        }
+      ],
+      "text": "ulna fracture",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1663,
+          "turn_id": null
+        }
+      ],
+      "text": "Left elbow dislocation",
+      "id": "e23"
+    }
+  ]
+}

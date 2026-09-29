@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 13,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 50,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 137,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 171,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 205,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 264,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 304,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 384,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 425,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 593,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 646,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 725,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 763,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 808,
@@ -203,7 +189,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 871,
@@ -217,7 +202,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 976,
@@ -231,7 +215,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1023,
@@ -245,7 +228,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1066,
@@ -259,7 +241,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1069,
@@ -271,9 +252,21 @@
       "id": "e19"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1093,
+          "char_end": 1113,
+          "turn_id": null
+        }
+      ],
+      "text": "patent foramen ovale",
+      "id": "e20"
+    },
+    {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1093,
@@ -282,12 +275,11 @@
         }
       ],
       "text": "patent foramen ovale closure",
-      "id": "e20"
+      "id": "e21"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1190,
@@ -296,12 +288,11 @@
         }
       ],
       "text": "anticoagulation",
-      "id": "e21"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1228,
@@ -310,12 +301,11 @@
         }
       ],
       "text": "abnormal TEE findings",
-      "id": "e22"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1237,
@@ -324,12 +314,11 @@
         }
       ],
       "text": "TEE",
-      "id": "e23"
+      "id": "e24"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1403,
@@ -338,12 +327,11 @@
         }
       ],
       "text": "anticoagulation",
-      "id": "e24"
+      "id": "e25"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1443,
@@ -352,12 +340,11 @@
         }
       ],
       "text": "TEE",
-      "id": "e25"
+      "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1508,
@@ -366,12 +353,11 @@
         }
       ],
       "text": "cryptogenic stroke",
-      "id": "e26"
+      "id": "e27"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1555,
@@ -380,12 +366,11 @@
         }
       ],
       "text": "ESUS",
-      "id": "e27"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1625,
@@ -394,12 +379,11 @@
         }
       ],
       "text": "Abnormal TEE findings",
-      "id": "e28"
+      "id": "e29"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1634,
@@ -408,12 +392,11 @@
         }
       ],
       "text": "TEE",
-      "id": "e29"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1757,
@@ -422,7 +405,7 @@
         }
       ],
       "text": "ESUS",
-      "id": "e30"
+      "id": "e31"
     }
   ]
 }

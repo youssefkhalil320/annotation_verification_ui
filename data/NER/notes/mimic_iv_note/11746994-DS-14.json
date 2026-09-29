@@ -1,0 +1,1178 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11746994-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\ntree nuts\n\nChief Complaint:\nelective admission for chemo\n\nHistory of Present Illness:\nPer admitting physician:\n\n___ is a ___ yo woman with hx of L thigh melanoma in \nsitu\ns/p resection, R mandible lentigo maligna awaiting ___, newly\ndiagnosed CNS lymphoma, here for C3 of HD-MTX. \n\nShe was discharged ___ after receiving port placement and C2\nHD-MTX. She had MTX-related transaminitis (ALT 200s, AST 100s)\nand new cerebral edema w/ 3 mm midline shift. \n\nFor her cerebral edema: She reported worsening headache ___ and\nCTH revealed 3 mm leftward midline shift. MRI showed tumor\nregression, but significant increase in vasogenic edema w/\nrepeated evidence of midline shift. She was started on high dose\nsteroids initially, but after discussion with her\nneuro-oncologist, she was transitioned to 4 mg dex daily. \n\nShe was also seen by ophthalmology that admission, who noted \nleft\nvitreal inflammation probably c/w lymphoma. She was started on\nprednisolone drops with plan to re-evaluate this admission for\npossible intravitreal injections.\n\nShe reports today she feels great. She has not had a headache\nsince discharge. Denies blurry vision, double vision. No nausea,\nvomiting. No abdominal discomfort, diarrhea, constipation, chest\npain, sob, cough, cold symptoms, dysuria. \n\nShe started taking sodium bicarb tabs on ___. \n\nAll other review of systems are negative unless stated otherwise\n\nBrief Hospital Course:\n___ w/ CNS lymphoma here for C3 of HD-MTX induction therapy. \n\n# R frontal lobe CNS Lymphoma\n# Concern for ocular lymphoma\nPresented with seizures (lip twitching, left facial droop) \n___. Tolerated prior induction w/ mild transaminitis and \ncerebral edema of unclear etiology in light of concurrent tumor \nregression. She also had L eye vision loss for which she is \nbeing worked up for ocular lymphoma. She was started on \nprednisolone drops. She tolerated this round well with minimal \nnausea and transaminitis.  \n- cont keppra 2 g BID\n- Ophtho saw her inpatient, tapering off her steroid drops w/ \nclose monitoring \n- Return in 2 wks for next tmt\n- tapering off dex by 1 mg \n\n# Cerebral edema, unclear etiology \nDuring C2, developed right sided HA w/ MRI/CT showing new 3 mm \nleftward midline shift despite tumor regression. Initially on \nhigh dose steroids, but decreased to 4 mg dex daily after \ndiscussion with Dr ___. She tolerated 3 mg well. Will \ncontinue to taper by 1 mg q 3 days, then 0.5 mg x 3 days and \nthen stop. \n- Dexamethasone 3 mg daily starting on ___, then 2 mg x 3 days, \n1 mg x 3 days, then 0.5 mg x 3 days \n\n# R mandible lentigo maligna- follows derm here with plan for \neventual slow Mohs. Scheduled ___\n\nBILLING: >30 min spent coordinating care for discharge\n\nDischarge Diagnosis:\nCNS Lymphoma\nDiffuse maculopathy left eye",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "chemo",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 156,
+          "char_end": 181,
+          "turn_id": null
+        }
+      ],
+      "text": "L thigh melanoma in \nsitu",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "resection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 223,
+          "turn_id": null
+        }
+      ],
+      "text": "R mandible lentigo maligna",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 266,
+          "turn_id": null
+        }
+      ],
+      "text": "CNS lymphoma",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 289,
+          "turn_id": null
+        }
+      ],
+      "text": "HD-MTX",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 346,
+          "turn_id": null
+        }
+      ],
+      "text": "port placement",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 354,
+          "char_end": 360,
+          "turn_id": null
+        }
+      ],
+      "text": "HD-MTX",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 370,
+          "char_end": 395,
+          "turn_id": null
+        }
+      ],
+      "text": "MTX-related transaminitis",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 397,
+          "char_end": 400,
+          "turn_id": null
+        }
+      ],
+      "text": "ALT",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "AST",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 425,
+          "char_end": 439,
+          "turn_id": null
+        }
+      ],
+      "text": "cerebral edema",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 461,
+          "turn_id": null
+        }
+      ],
+      "text": "mm midline shift",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 473,
+          "char_end": 487,
+          "turn_id": null
+        }
+      ],
+      "text": "cerebral edema",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 512,
+          "char_end": 520,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "CTH",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 544,
+          "char_end": 569,
+          "turn_id": null
+        }
+      ],
+      "text": "mm leftward midline shift",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 574,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 582,
+          "char_end": 598,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor\nregression",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 628,
+          "char_end": 643,
+          "turn_id": null
+        }
+      ],
+      "text": "vasogenic edema",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 711,
+          "turn_id": null
+        }
+      ],
+      "text": "high dose",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 712,
+          "char_end": 720,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 804,
+          "char_end": 808,
+          "turn_id": null
+        }
+      ],
+      "text": "4 mg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 809,
+          "char_end": 812,
+          "turn_id": null
+        }
+      ],
+      "text": "dex",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 813,
+          "char_end": 818,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 884,
+          "char_end": 909,
+          "turn_id": null
+        }
+      ],
+      "text": "left\nvitreal inflammation",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 952,
+          "char_end": 964,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisolone",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 970,
+          "turn_id": null
+        }
+      ],
+      "text": "drops",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1047,
+          "turn_id": null
+        }
+      ],
+      "text": "intravitreal injections",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1103,
+          "char_end": 1111,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1136,
+          "char_end": 1149,
+          "turn_id": null
+        }
+      ],
+      "text": "blurry vision",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1151,
+          "char_end": 1164,
+          "turn_id": null
+        }
+      ],
+      "text": "double vision",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1169,
+          "char_end": 1175,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1177,
+          "char_end": 1185,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1190,
+          "char_end": 1210,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal discomfort",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1212,
+          "char_end": 1220,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1222,
+          "char_end": 1234,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1236,
+          "char_end": 1246,
+          "turn_id": null
+        }
+      ],
+      "text": "chest\npain",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1251,
+          "turn_id": null
+        }
+      ],
+      "text": "sob",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1253,
+          "char_end": 1258,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1264,
+          "turn_id": null
+        }
+      ],
+      "text": "cold",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1275,
+          "char_end": 1282,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1318,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium bicarb",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1319,
+          "char_end": 1323,
+          "turn_id": null
+        }
+      ],
+      "text": "tabs",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1442,
+          "turn_id": null
+        }
+      ],
+      "text": "CNS lymphoma",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1458,
+          "char_end": 1464,
+          "turn_id": null
+        }
+      ],
+      "text": "HD-MTX",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1488,
+          "char_end": 1515,
+          "turn_id": null
+        }
+      ],
+      "text": "R frontal lobe CNS Lymphoma",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1530,
+          "char_end": 1545,
+          "turn_id": null
+        }
+      ],
+      "text": "ocular lymphoma",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1561,
+          "char_end": 1569,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1571,
+          "char_end": 1584,
+          "turn_id": null
+        }
+      ],
+      "text": "lip twitching",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1586,
+          "char_end": 1603,
+          "turn_id": null
+        }
+      ],
+      "text": "left facial droop",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1645,
+          "char_end": 1658,
+          "turn_id": null
+        }
+      ],
+      "text": "transaminitis",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1664,
+          "char_end": 1678,
+          "turn_id": null
+        }
+      ],
+      "text": "cerebral edema",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1722,
+          "char_end": 1739,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor \nregression",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1754,
+          "char_end": 1771,
+          "turn_id": null
+        }
+      ],
+      "text": "L eye vision loss",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1810,
+          "char_end": 1825,
+          "turn_id": null
+        }
+      ],
+      "text": "ocular lymphoma",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1847,
+          "char_end": 1859,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisolone",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1860,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "drops",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1911,
+          "char_end": 1917,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1946,
+          "char_end": 1952,
+          "turn_id": null
+        }
+      ],
+      "text": "keppra",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1953,
+          "char_end": 1956,
+          "turn_id": null
+        }
+      ],
+      "text": "2 g",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 1960,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2088,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "dex",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2095,
+          "char_end": 2099,
+          "turn_id": null
+        }
+      ],
+      "text": "1 mg",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2104,
+          "char_end": 2118,
+          "turn_id": null
+        }
+      ],
+      "text": "Cerebral edema",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2159,
+          "char_end": 2173,
+          "turn_id": null
+        }
+      ],
+      "text": "right sided HA",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2177,
+          "char_end": 2180,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2198,
+          "char_end": 2224,
+          "turn_id": null
+        }
+      ],
+      "text": "mm \nleftward midline shift",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2233,
+          "char_end": 2249,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor regression",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2265,
+          "char_end": 2274,
+          "turn_id": null
+        }
+      ],
+      "text": "high dose",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2275,
+          "char_end": 2283,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2302,
+          "char_end": 2306,
+          "turn_id": null
+        }
+      ],
+      "text": "4 mg",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2311,
+          "char_end": 2316,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2362,
+          "char_end": 2366,
+          "turn_id": null
+        }
+      ],
+      "text": "3 mg",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2400,
+          "char_end": 2404,
+          "turn_id": null
+        }
+      ],
+      "text": "1 mg",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2405,
+          "char_end": 2413,
+          "turn_id": null
+        }
+      ],
+      "text": "q 3 days",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2420,
+          "char_end": 2426,
+          "turn_id": null
+        }
+      ],
+      "text": "0.5 mg",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2427,
+          "char_end": 2435,
+          "turn_id": null
+        }
+      ],
+      "text": "x 3 days",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2455,
+          "char_end": 2468,
+          "turn_id": null
+        }
+      ],
+      "text": "Dexamethasone",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2469,
+          "char_end": 2473,
+          "turn_id": null
+        }
+      ],
+      "text": "3 mg",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2474,
+          "char_end": 2479,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2502,
+          "char_end": 2506,
+          "turn_id": null
+        }
+      ],
+      "text": "2 mg",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2507,
+          "char_end": 2515,
+          "turn_id": null
+        }
+      ],
+      "text": "x 3 days",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2518,
+          "char_end": 2522,
+          "turn_id": null
+        }
+      ],
+      "text": "1 mg",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2523,
+          "char_end": 2531,
+          "turn_id": null
+        }
+      ],
+      "text": "x 3 days",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2538,
+          "char_end": 2544,
+          "turn_id": null
+        }
+      ],
+      "text": "0.5 mg",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2545,
+          "char_end": 2553,
+          "turn_id": null
+        }
+      ],
+      "text": "x 3 days",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2558,
+          "char_end": 2584,
+          "turn_id": null
+        }
+      ],
+      "text": "R mandible lentigo maligna",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2628,
+          "char_end": 2637,
+          "turn_id": null
+        }
+      ],
+      "text": "slow Mohs",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2744,
+          "char_end": 2772,
+          "turn_id": null
+        }
+      ],
+      "text": "Diffuse maculopathy left eye",
+      "id": "e90"
+    }
+  ]
+}

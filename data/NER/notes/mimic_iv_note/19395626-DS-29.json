@@ -1,0 +1,1370 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19395626-DS-29:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nhydralazine / metal / Iodinated Contrast Media - IV Dye\n\nChief Complaint:\nAbdominal pain\n\nHistory of Present Illness:\nMs. ___ is a ___ with history of end stage renal disease \nstatus post deceased after cardiac death renal transplant in \n___, coronary artery disease, hypertension, and \ninsulin-dependent diabetes ___ who presents with \nsudden-onset left flank pain radiating to the left upper \nquadrant. She reports pain radiates to the left lower quadrant \nand back and is associated with nausea, ___ episodes of \nnonbloody emesis, and nonbloody diarrhea; no history of kidney \nstones, has atrophic kidneys; denies burning with urination, \npositive urinary frequency; denies vaginal bleeding/discharge; \ndenies fevers; nothing similar in the past; no sick contacts.   \n\nIn the ED, initial vital signs were: 98.4 88 166/111 18 95% RA. \nAdmission labs were unremarkable.\n\nBrief Hospital Course:\nMs. ___ is a ___ with history of end stage renal disease \nstatus post deceased after cardiac death renal transplant in \n___, coronary artery disease, hypertension, and \ninsulin-dependent diabetes ___ who presented with \nsudden-onset left flank pain radiating to the left upper \nquadrant. \n\nActive Issues:\n# Abdominal/back pain: The etiology of her pain was not entirely \nclear, with renal ultrasound on admission demonstrating \nunchanged mildly elevated resistive indices and patent \nvasculature and CT abdomen/pelvis without contrast negative for \nacute changes. Her labs were within normal limits on \npresentation, including lipase, amylase, and urinalysis. In \nlight of report of preceding emesis, a viral gastroenteritis \ncould not be excluded. She was made NPO initially, with gradual \nadvancement of her diet as tolerated, and treated \nsymptomatically with analgesics, including acetaminophen, \ntramadol, and Maalox/diphenhydramine/lidocaine, and antiemetics. \n\n\nInactive Issues:\n# Insulin-dependent diabetes ___ Type II: Chronic, poorly \ncontrolled and complicated. She was hyperglycemic on admission \nwith mild anion gap (16), normal bicarbonate, and negative \nketones in her urine. She received home Humalog ___ with \nHumalog insulin sliding scale throughout admission.\n  \n# Hypertension: She experienced intermittent episodes of \nasymptomatic hypertension throughout admission. Home \nmedications, including amlodipine, clonidine, and furosemide \nwere continued.\n  \n# Acute Renal Failure\n# End stage renal disease staus post donor after cardiac death \nrenal transplant: Creatinine was noted to peak at 1.7 on \nhospital day 3, up from 1.2 on admission, though still \nessentially within the range of her baseline. She received \ngentle IV fluids with improvement in creatinine to 1.4 the \nfollowing day and relative stability at 1.6 on the day of \ndischarge in the setting of improved oral intake. In discussion \nwith nephrology, she was discharged on home furosemide and \nadvised to contact renal transplant clinic for assistance with \nadjusting diuretic dosing in the event that oral intake is once \nagain poor. She continued immunosuppression with tacrolimus and \nmycophenolate and was given trimethoprim/sulfamethoxazole \nprophylaxis. \n    \n# Coronary artery disease: Home aspirin, atorvastatin, and \nclopidogrel were continued.\n  \n# GERD: Home famotidine was continued.\n\n# Chronic microcytic anemia: Hematocrit remained consistent with \nbaseline in mid-30s throughout admission, likely reflecting \nanemia of chronic kidney disease.\n  \n# Predumed OSA\n# Nocturnal desaturation: She desaturated transiently to low ___ \non room air while asleep, possibly reflecting previously \nunrecognized obstructive sleep apnea. Sleep study may be \nconsidered as an outpatient.\n\nTransitional Issues:\n- In discussion with nephrology, she was discharged on home \nfurosemide and advised to contact renal transplant clinic for \nassistance with adjusting diuretic dosing in the event that oral \nintake is once again poor.\n- Slightly elevated/rising tacrolimus level was discussed with \nnephrology, with plan for repeat lab draw on ___.\n- In discussion with nephrology, she was asked to have \ntransplant labs drawn on ___, to include reevaluation of \nrenal function and electrolytes, as well as CBC (given mild \nthrombocytopenia at discharge, observed intermittently in the \npast).\n- Please note that in light of potential discrepancies between \ninpatient PAML and OMR medication list identified by PACT RN \n(please see OMR note), patient clarified that she takes \nclonidine 0.2mg bid, furosemide 40mg daily, and famotidine 20mg \nat home.\n- Sleep study may be considered in the outpatient setting.\n- Code status: Full.\n\nDischarge Diagnosis:\nPrimary: \nAbdominal/back pain of uncertain etiology\n\nSecondary:\nEnd stage renal disease status post renal transplant\nDiabetes ___\nHypertension",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "hydralazine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 33,
+          "char_end": 57,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodinated Contrast Media",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 99,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "end stage renal disease",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 228,
+          "char_end": 244,
+          "turn_id": null
+        }
+      ],
+      "text": "renal transplant",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 277,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary artery disease",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 279,
+          "char_end": 291,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 305,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 324,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin-dependent diabetes",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 361,
+          "char_end": 414,
+          "turn_id": null
+        }
+      ],
+      "text": "left flank pain radiating to the left upper \nquadrant",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 428,
+          "char_end": 478,
+          "turn_id": null
+        }
+      ],
+      "text": "pain radiates to the left lower quadrant \nand back",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 502,
+          "char_end": 508,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 543,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 559,
+          "char_end": 567,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 583,
+          "char_end": 597,
+          "turn_id": null
+        }
+      ],
+      "text": "kidney \nstones",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 603,
+          "char_end": 619,
+          "turn_id": null
+        }
+      ],
+      "text": "atrophic kidneys",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 628,
+          "char_end": 650,
+          "turn_id": null
+        }
+      ],
+      "text": "burning with urination",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 679,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary frequency",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 695,
+          "turn_id": null
+        },
+        {
+          "char_start": 705,
+          "char_end": 714,
+          "turn_id": null
+        }
+      ],
+      "text": "vaginal discharge",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 704,
+          "turn_id": null
+        }
+      ],
+      "text": "vaginal bleeding",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 724,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 939,
+          "char_end": 962,
+          "turn_id": null
+        }
+      ],
+      "text": "end stage renal disease",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1005,
+          "char_end": 1021,
+          "turn_id": null
+        }
+      ],
+      "text": "renal transplant",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1031,
+          "char_end": 1054,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary artery disease",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1068,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1075,
+          "char_end": 1101,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin-dependent diabetes",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1139,
+          "char_end": 1192,
+          "turn_id": null
+        }
+      ],
+      "text": "left flank pain radiating to the left upper \nquadrant",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1223,
+          "char_end": 1232,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1289,
+          "char_end": 1305,
+          "turn_id": null
+        }
+      ],
+      "text": "renal ultrasound",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1351,
+          "char_end": 1377,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated resistive indices",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1406,
+          "char_end": 1423,
+          "turn_id": null
+        }
+      ],
+      "text": "CT abdomen/pelvis",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1533,
+          "char_end": 1539,
+          "turn_id": null
+        }
+      ],
+      "text": "lipase",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1541,
+          "char_end": 1548,
+          "turn_id": null
+        }
+      ],
+      "text": "amylase",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1554,
+          "char_end": 1564,
+          "turn_id": null
+        }
+      ],
+      "text": "urinalysis",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1605,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1630,
+          "turn_id": null
+        }
+      ],
+      "text": "viral gastroenteritis",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1769,
+          "char_end": 1779,
+          "turn_id": null
+        }
+      ],
+      "text": "analgesics",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1791,
+          "char_end": 1804,
+          "turn_id": null
+        }
+      ],
+      "text": "acetaminophen",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1807,
+          "char_end": 1815,
+          "turn_id": null
+        }
+      ],
+      "text": "tramadol",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1821,
+          "char_end": 1827,
+          "turn_id": null
+        }
+      ],
+      "text": "Maalox",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1828,
+          "char_end": 1843,
+          "turn_id": null
+        }
+      ],
+      "text": "diphenhydramine",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1844,
+          "char_end": 1853,
+          "turn_id": null
+        }
+      ],
+      "text": "lidocaine",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1859,
+          "char_end": 1870,
+          "turn_id": null
+        }
+      ],
+      "text": "antiemetics",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1894,
+          "char_end": 1920,
+          "turn_id": null
+        },
+        {
+          "char_start": 1925,
+          "char_end": 1932,
+          "turn_id": null
+        }
+      ],
+      "text": "Insulin-dependent diabetes Type II",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1987,
+          "char_end": 2000,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperglycemic",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2034,
+          "turn_id": null
+        }
+      ],
+      "text": "anion gap",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2048,
+          "char_end": 2059,
+          "turn_id": null
+        }
+      ],
+      "text": "bicarbonate",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2075,
+          "char_end": 2095,
+          "turn_id": null
+        }
+      ],
+      "text": "ketones in her urine",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2115,
+          "char_end": 2122,
+          "turn_id": null
+        }
+      ],
+      "text": "Humalog",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2133,
+          "char_end": 2140,
+          "turn_id": null
+        }
+      ],
+      "text": "Humalog",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2190,
+          "char_end": 2202,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2259,
+          "char_end": 2271,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2323,
+          "char_end": 2333,
+          "turn_id": null
+        }
+      ],
+      "text": "amlodipine",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2335,
+          "char_end": 2344,
+          "turn_id": null
+        }
+      ],
+      "text": "clonidine",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2350,
+          "char_end": 2360,
+          "turn_id": null
+        }
+      ],
+      "text": "furosemide",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2383,
+          "char_end": 2402,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute Renal Failure",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2405,
+          "char_end": 2428,
+          "turn_id": null
+        }
+      ],
+      "text": "End stage renal disease",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2467,
+          "char_end": 2483,
+          "turn_id": null
+        }
+      ],
+      "text": "renal transplant",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2485,
+          "char_end": 2495,
+          "turn_id": null
+        }
+      ],
+      "text": "Creatinine",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2648,
+          "char_end": 2657,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2678,
+          "char_end": 2688,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2869,
+          "char_end": 2879,
+          "turn_id": null
+        }
+      ],
+      "text": "furosemide",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2904,
+          "char_end": 2920,
+          "turn_id": null
+        }
+      ],
+      "text": "renal transplant",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3063,
+          "char_end": 3073,
+          "turn_id": null
+        }
+      ],
+      "text": "tacrolimus",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3079,
+          "char_end": 3092,
+          "turn_id": null
+        }
+      ],
+      "text": "mycophenolate",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3107,
+          "char_end": 3136,
+          "turn_id": null
+        }
+      ],
+      "text": "trimethoprim/sulfamethoxazole",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3159,
+          "char_end": 3182,
+          "turn_id": null
+        }
+      ],
+      "text": "Coronary artery disease",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3189,
+          "char_end": 3196,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3198,
+          "char_end": 3210,
+          "turn_id": null
+        }
+      ],
+      "text": "atorvastatin",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3217,
+          "char_end": 3228,
+          "turn_id": null
+        }
+      ],
+      "text": "clopidogrel",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3250,
+          "char_end": 3254,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3261,
+          "char_end": 3271,
+          "turn_id": null
+        }
+      ],
+      "text": "famotidine",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3290,
+          "char_end": 3315,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic microcytic anemia",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3317,
+          "char_end": 3327,
+          "turn_id": null
+        }
+      ],
+      "text": "Hematocrit",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3415,
+          "char_end": 3447,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia of chronic kidney disease",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3463,
+          "char_end": 3466,
+          "turn_id": null
+        }
+      ],
+      "text": "OSA",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3469,
+          "char_end": 3491,
+          "turn_id": null
+        }
+      ],
+      "text": "Nocturnal desaturation",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3497,
+          "char_end": 3508,
+          "turn_id": null
+        }
+      ],
+      "text": "desaturated",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3604,
+          "char_end": 3627,
+          "turn_id": null
+        }
+      ],
+      "text": "obstructive sleep apnea",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3629,
+          "char_end": 3640,
+          "turn_id": null
+        }
+      ],
+      "text": "Sleep study",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3761,
+          "char_end": 3771,
+          "turn_id": null
+        }
+      ],
+      "text": "furosemide",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3795,
+          "char_end": 3811,
+          "turn_id": null
+        }
+      ],
+      "text": "renal transplant",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3928,
+          "char_end": 3960,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated/rising tacrolimus level",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3944,
+          "char_end": 3960,
+          "turn_id": null
+        }
+      ],
+      "text": "tacrolimus level",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4087,
+          "char_end": 4102,
+          "turn_id": null
+        }
+      ],
+      "text": "transplant labs",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4145,
+          "char_end": 4159,
+          "turn_id": null
+        }
+      ],
+      "text": "renal function",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4164,
+          "char_end": 4176,
+          "turn_id": null
+        }
+      ],
+      "text": "electrolytes",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4189,
+          "char_end": 4192,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4206,
+          "char_end": 4222,
+          "turn_id": null
+        }
+      ],
+      "text": "thrombocytopenia",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4459,
+          "char_end": 4468,
+          "turn_id": null
+        }
+      ],
+      "text": "clonidine",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4469,
+          "char_end": 4474,
+          "turn_id": null
+        }
+      ],
+      "text": "0.2mg",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4475,
+          "char_end": 4478,
+          "turn_id": null
+        }
+      ],
+      "text": "bid",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4480,
+          "char_end": 4490,
+          "turn_id": null
+        }
+      ],
+      "text": "furosemide",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4491,
+          "char_end": 4495,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4496,
+          "char_end": 4501,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4507,
+          "char_end": 4517,
+          "turn_id": null
+        }
+      ],
+      "text": "famotidine",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4518,
+          "char_end": 4522,
+          "turn_id": null
+        }
+      ],
+      "text": "20mg",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4535,
+          "char_end": 4546,
+          "turn_id": null
+        }
+      ],
+      "text": "Sleep study",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4655,
+          "char_end": 4664,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4699,
+          "char_end": 4722,
+          "turn_id": null
+        }
+      ],
+      "text": "End stage renal disease",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 4735,
+          "char_end": 4751,
+          "turn_id": null
+        }
+      ],
+      "text": "renal transplant",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4752,
+          "char_end": 4760,
+          "turn_id": null
+        }
+      ],
+      "text": "Diabetes",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4765,
+          "char_end": 4777,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e104"
+    }
+  ]
+}

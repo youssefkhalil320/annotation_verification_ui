@@ -1,0 +1,242 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13085847-DS-21:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\nleft tibial plateau fracture\n\nHistory of Present Illness:\nThis is a ___ female with h/o dementia, schizoaffective \ndisorder, who presents with left tibial plateau fracture. \nPatient is unable to give a history in the emergency room due to \nher mental status but according to notes, home health aide was \ntrying to transfer from the bed to the wheelchair when she had a \ntwisting motion on her left leg causing immediate pain. She went \nto outside hospital (___) and had an x-ray and a CT scan \ndone of her left leg showing a left tibial plateau fracture with \n5 mm of depression and she was sent here. There was no report of \nfall.  She resides at ___.\n\nBrief Hospital Course:\nThe patient presented to the emergency department and was \nevaluated by the orthopedic surgery team. The patient was found \nto have a left tibial plateau fracture and was admitted to the \northopedic surgery service. The patient was treated \nnon-operatively in a splint and was discharged back to her home \nfacility. The patient was given anticoagulation per routine, and \nthe patient's home medications were continued throughout this \nhospitalization. The ___ hospital course was otherwise \nunremarkable.\n\nAt the time of discharge the patient's pain was well controlled \nwith oral medications, and the patient was voiding/moving bowels \nspontaneously. The patient is non-weight bearing in the left \nlower extremity, and will be discharged on Lovenox for DVT \nprophylaxis. The patient will follow up with Dr. ___ \nroutine. A thorough discussion was had with the patient \nregarding the diagnosis and expected post-discharge course \nincluding reasons to call the office or return to the hospital, \nand all questions were answered. The patient was also given \nwritten instructions concerning precautionary instructions and \nthe appropriate follow-up care. The patient expressed readiness \nfor discharge.\n\nDischarge Diagnosis:\nLeft tibial plateau fracture",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 69,
+          "turn_id": null
+        }
+      ],
+      "text": "left tibial plateau fracture",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 129,
+          "char_end": 137,
+          "turn_id": null
+        }
+      ],
+      "text": "dementia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 139,
+          "char_end": 164,
+          "turn_id": null
+        }
+      ],
+      "text": "schizoaffective \ndisorder",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "left tibial plateau fracture",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 461,
+          "char_end": 465,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 519,
+          "turn_id": null
+        }
+      ],
+      "text": "x-ray",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 526,
+          "char_end": 533,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 594,
+          "turn_id": null
+        }
+      ],
+      "text": "left tibial plateau fracture",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 609,
+          "char_end": 619,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 852,
+          "char_end": 880,
+          "turn_id": null
+        }
+      ],
+      "text": "left tibial plateau fracture",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 980,
+          "char_end": 986,
+          "turn_id": null
+        }
+      ],
+      "text": "splint",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1071,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1267,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1294,
+          "char_end": 1298,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1460,
+          "char_end": 1467,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1472,
+          "char_end": 1475,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1940,
+          "char_end": 1968,
+          "turn_id": null
+        }
+      ],
+      "text": "Left tibial plateau fracture",
+      "id": "e18"
+    }
+  ]
+}

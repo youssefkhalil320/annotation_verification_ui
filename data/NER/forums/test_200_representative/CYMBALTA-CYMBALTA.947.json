@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 15,
@@ -20,8 +19,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 57,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 116,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 161,

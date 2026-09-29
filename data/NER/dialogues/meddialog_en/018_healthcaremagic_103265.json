@@ -1,0 +1,723 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:103265:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been successfully tx for my depression for many years with Cymbalta 60mg BID & Gabapentin 1200 mg A?M? & P?M? with a NOON dose of 600mg. I take med for high BP (under contro) & chronic pain & insomnia with PRN xanex 1-2mg or zolpoden 10 mg, not both together! Up until mid Dec. 2013 I have been fine. I also have asthma and hay fever since teenager. I am now 55 years old. It too was well controlled with albuteral inhaler PRN use & Advire inhaler BID. But after a vaccine shot fot this years flu & a whooping cough vaccine shot, boyhood given in same arm, I have been sick ever since. At first it was flu like symptoms & diarrhea. Not overly concerned. then I started coughing so hard & repeatedly I could hardly breath. If I did throw up it was hands full of plain clear to white mucus, not stomach contents. Long & short I've had & been treated for a sinus infection, laryngitis that lasted over a month. The antibiotics helped the sinus infection but gave my thrush& did't help my laryngitis. I started getting blurry vision & dizziness so bad it caused me to fall repeatedly. I broke 4 ribs, 2 on each side in 5 places & still kept caughing like crazy. I have seen several DR. & My Pscyatrist. They communicated well together. Then I started getting some sort of unusual seizure type symptom. my body will tighten up, my arms cill start to pull close to my body & I start to shake uncontrollably for several minutes. I can' t talk & have trouble breathing, but I can still hear & don't lose consciousness.\n[doctor] HIThank for choosing HCM, One possibility is there \"it could be because of the vaccine short given to you\" the vaccine some time gives such symptoms which is temporary phase and will disappears with its own, you can try some symptomatic cough reliever available on counter, but not steroids, have hot drinks, drink Luke worm water frequently, take bed rest, if does not come around then investigation would be needed, have best day.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 55,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 76,
+          "char_end": 84,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 89,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "60mg",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 93,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BID",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 106,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Gabapentin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1200 mg",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 119,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "A?M?",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 126,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "P?M?",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 134,
+          "char_end": 138,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "NOON",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 152,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "600mg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 176,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high BP",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 206,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 217,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 226,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PRN",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 232,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "xanex",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 238,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1-2mg",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 242,
+          "char_end": 250,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zolpoden",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 256,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 336,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthma",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hay fever",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 422,
+          "char_end": 431,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "albuteral",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 432,
+          "char_end": 439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 443,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PRN",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 450,
+          "char_end": 456,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Advire",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 457,
+          "char_end": 464,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 468,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BID",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 482,
+          "char_end": 513,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vaccine shot fot this years flu",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 545,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "whooping cough vaccine shot",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 619,
+          "char_end": 636,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flu like symptoms",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 639,
+          "char_end": 647,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 686,
+          "char_end": 694,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "coughing",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 724,
+          "char_end": 737,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hardly breath",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 748,
+          "char_end": 756,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "throw up",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 804,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "plain clear to white mucus",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 886,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus infection",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 888,
+          "char_end": 898,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "laryngitis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 929,
+          "char_end": 940,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 952,
+          "char_end": 967,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus infection",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 980,
+          "char_end": 986,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thrush",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1012,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "laryngitis",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1045,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blurry vision",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1048,
+          "char_end": 1057,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1100,
+          "char_end": 1140,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "broke 4 ribs, 2 on each side in 5 places",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1154,
+          "char_end": 1162,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "caughing",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1293,
+          "char_end": 1313,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "seizure type symptom",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1318,
+          "char_end": 1338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "body will tighten up",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1343,
+          "char_end": 1383,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arms cill start to pull close to my body",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1397,
+          "char_end": 1417,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shake uncontrollably",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1452,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "can' t talk",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1460,
+          "char_end": 1477,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "trouble breathing",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1508,
+          "char_end": 1526,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lose consciousness",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1616,
+          "char_end": 1629,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vaccine short",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1655,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vaccine",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1774,
+          "char_end": 1788,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cough reliever",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1819,
+          "char_end": 1827,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e55"
+    }
+  ]
+}

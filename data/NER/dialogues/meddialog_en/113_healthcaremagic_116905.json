@@ -1,0 +1,177 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:116905:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] i am struggling with Auto immune hemolytic anemia from 3 year. i want to know whether this disease is curable or not? now i am using wysolone tablets. and my blood count fluctuates and goes down when i stop the medication. because of using this steroids from long time, i am started getting seviour joint pains.how long i need to suffer with this pain? is there any permenent solution for my sickness?\n[doctor] Hi, dear. I have gone through your question. I can understand your concern. You have autoimmune hemolytic anemia.  Treatment is immunosuppressive agent to prevent destruction of rbcs. So steroid is the drug of choice.  One other solution is splenectomy.  It will give some benifit.  Consult your doctor and plan for surgery accordingly. Hope I have answered your question, if you have doubt then I will be happy to answer. Thanks for using health care magic. Wish you a very good health.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 59,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Auto immune hemolytic anemia",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 143,
+          "char_end": 151,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "wysolone",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablets",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 179,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood count",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 204,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood count fluctuates and goes down",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 263,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroids",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 264,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "from long time",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 320,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "joint pains",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 361,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 533,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "autoimmune hemolytic anemia",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 572,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "immunosuppressive agent",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 608,
+          "char_end": 615,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 673,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "splenectomy",
+      "id": "e13"
+    }
+  ]
+}

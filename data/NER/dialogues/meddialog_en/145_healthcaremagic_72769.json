@@ -1,0 +1,242 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:72769:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My daughter is taking antibiotics for a respratory infection, she has been on the medication for 3 days.  She also suffers from Asthma.  This AM she was coughing non stop even after inhalers so gave her a dose of a steroid called Celestene o,o5% orally, later she spiked a fever, am wondering if it could have been a reaction to that as yesterday she seemed like she might be improving...?\n[doctor] Thanks for your question on Healthcare Magic.I can understand your concern. No, fever spike is not due to steroid reaction. Since she is having lung infection, fever spike suggests worsening of underlying lung infection. So better to consult her doctor and get done chest x ray. She may need higher antibiotic and anti pyretic drug. Hope I have solved your query. I will be happy to help you further. Wishing good health to your daughter. Thanks.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 43,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 70,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "respratory infection",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 113,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 3 days",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 138,
+          "char_end": 144,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Asthma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 171,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "coughing",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 232,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 249,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Celestene",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 255,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "o,o5%",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 256,
+          "char_end": 262,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "orally",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 288,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 489,
+          "char_end": 500,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever spike",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 531,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid reaction",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 553,
+          "char_end": 567,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lung infection",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 569,
+          "char_end": 580,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever spike",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 614,
+          "char_end": 628,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lung infection",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 675,
+          "char_end": 686,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chest x ray",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 718,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 735,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti pyretic",
+      "id": "e18"
+    }
+  ]
+}

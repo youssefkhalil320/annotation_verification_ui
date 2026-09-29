@@ -1,0 +1,671 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:22889:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been experiencing various strage symptoms this past month. I was put on flecanide 50 last Dec. And propanolol 40 to take with it to prevent arrythmias. I have had lone afib a few times a year for a few hrs and have had all the work ups done with normal results. I also have had svt on a d off all my life with no problems except inconvenience. So they tried to ablate it in Dec and it was not successful. So that is why I am on flecanide and propanolol. This has worked well until last month. I has a routine d&c for what they thought was a polyp and turned out to be nothing. During the procedure my heart rate went down to 30 and they gave me robinal. A week after that I was started on protocol for a cholesterol of 278. My cholesterol has always been ok before that.  7 days later and 10 days after the d&c I began experiencing lightheadedness and a bp of 90/60 and a pulse in the 40s. I went to the hospital and was kept overnight on tele. All was ok hr in 40s-50s. Had normal echo in am and sent home.  I hadn't taken propanolol  since the night in hospital and began to experience pounding heart rate headache shakiness and over all terrible. Cardiologist said it was beta blocker withdrawal. They put me on half dose, back on flecanide,off protocol, and did stress echo and 24 hr halter and said it may have been vago vasel related. I went back to the gun for post op f/u and c/o lower and cramps. Found to have vaginal infection, on abs now.  What bothers me is that I am still having these strange lightheaded moments and I don't know why. Everything seems to check  out ok. It is not like fainting or dizziness. My pulse and bp is ok except that my pulse does get somewhat faint during it.  Sometimes I get a cold feeling on the side of my head with and lingering after it.  I am normally very very healthy and I don't know what is happening with me. Is there something I can do to find an answer? I am  62 and a little overweight. Thankyou\n[doctor] DEAR USERTHANKS FOR CONSULTING AT HCMI UNDERSTAND YOUR CONCERN.. BUT FROM YOUR HISTORY THAT YOU PROVIDEDA PAST HISTORY OF LONE AD AND PSVT WITH FAILURE OF ABLATION THERAPY POINTS THAT YOU HAVE THESE DIZZINESS SYMPTOMS ARE A PART OF CARDIAC SYNCOPE LIKE FEATURESTHOUGH YOU HAVE NO LOSS OF CONCIOUSNESS IT'S PROBABLY BECAUSE OF UNDERLYING CARDIAC ARRYTHMIA I SUGGEST YOU TO GO FOR A 24HR HOLTER MONITORINGGET A ECHOCARDIOGRAPHY DONECONSULT A CARDIOLOGIST SO THAT YOU CAN BE PUT ON A PROPHYLACTIC INTRACARDIAC DEFIBRILLATOR THAT CAN PREVENT FURTHER RISK OF ARRYTHMIAHOPE I HAVE ANSWERED YOUR QUESTION.. YOU CAN MESSAGE ME FOR ANY FURTHER CONCERNS",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flecanide",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 126,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "propanolol",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 167,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arrythmias",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 180,
+          "char_end": 189,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lone afib",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "svt",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 384,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ablate",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 454,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flecanide",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 459,
+          "char_end": 469,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "propanolol",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 526,
+          "char_end": 529,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "d&c",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 558,
+          "char_end": 563,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "polyp",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 618,
+          "char_end": 644,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart rate went down to 30",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 669,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "robinal",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 706,
+          "char_end": 714,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "protocol",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 732,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cholesterol",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 739,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cholesterol of 278",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 755,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cholesterol",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 827,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "d&c",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 849,
+          "char_end": 864,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 882,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bp of 90/60",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 905,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pulse in the 40s",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 960,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tele",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 999,
+          "char_end": 1003,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "echo",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1041,
+          "char_end": 1051,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "propanolol",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1105,
+          "char_end": 1124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pounding heart rate",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headache",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1134,
+          "char_end": 1143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shakiness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1192,
+          "char_end": 1215,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "beta blocker withdrawal",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1232,
+          "char_end": 1241,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "half dose",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flecanide",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1265,
+          "char_end": 1273,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "protocol",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1283,
+          "char_end": 1294,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stress echo",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1299,
+          "char_end": 1311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "24 hr halter",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1338,
+          "char_end": 1348,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vago vasel",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1415,
+          "char_end": 1421,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cramps",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1437,
+          "char_end": 1454,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vaginal infection",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1462,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "abs",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1525,
+          "char_end": 1544,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lightheaded moments",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1617,
+          "char_end": 1625,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fainting",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1638,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1737,
+          "char_end": 1772,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cold feeling on the side of my head",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1948,
+          "char_end": 1958,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "overweight",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2100,
+          "char_end": 2107,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "LONE AD",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2112,
+          "char_end": 2116,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "PSVT",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2133,
+          "char_end": 2149,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ABLATION THERAPY",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2177,
+          "char_end": 2186,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "DIZZINESS",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2210,
+          "char_end": 2245,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CARDIAC SYNCOPE LIKE FEATURESTHOUGH",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2258,
+          "char_end": 2278,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "LOSS OF CONCIOUSNESS",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2315,
+          "char_end": 2332,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CARDIAC ARRYTHMIA",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2359,
+          "char_end": 2384,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "24HR HOLTER MONITORINGGET",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2387,
+          "char_end": 2403,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ECHOCARDIOGRAPHY",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2472,
+          "char_end": 2498,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "INTRACARDIAC DEFIBRILLATOR",
+      "id": "e51"
+    }
+  ]
+}

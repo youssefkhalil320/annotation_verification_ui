@@ -1,0 +1,551 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:83324:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Male. Age 66, Swelling of left inguinal area and left testes. The local physician prescribed combiflam twice a day and levofloxacin 500 one tab daily for 5 days. I find I am allergic to combiflam (ibuprufen + paracetamol). My lips got swelled. I stopped combiflam but continued levofloxacin for 5 days.I got little relief. He then suggested to stop the antibiotic and use butaproxivon tablets for pain. I am a heart patient (PTCA done in 2001) and regularly taking Losar, Deplatt 75 (chlopydogrel), Crestor 20 (Rosuvastatin) and Ezetimbe 10. Under this condition, is it advisable to take butaproxivon ?. Thanks\n[doctor] HiCombiflam contains ibuprofen + paracetamol.It is essential to know whether you are allergic to both the components of the drug. Butaproxivon contains diclofenac and paracetamol.If you are allergic to paracetamol ,then this drug should not be used.Instead plain diclofenac can be used for pain relief. Diclofenac can be used and does not have any major drug interactions.Hope I have answered your query. Let me know if I can assist you further. RegardsDr.Saranya Ramadoss, General and Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 32,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 36,
+          "char_end": 54,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Swelling left inguinal area",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 32,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 59,
+          "char_end": 70,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Swelling left testes",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 112,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "combiflam",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twice a day",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 129,
+          "char_end": 141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 153,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one tab",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 170,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 5 days",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic to combiflam",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "combiflam",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 216,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprufen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 230,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 252,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lips got swelled",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 264,
+          "char_end": 273,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "combiflam",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 300,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 301,
+          "char_end": 311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 5 days",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 363,
+          "char_end": 373,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 382,
+          "char_end": 394,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "butaproxivon",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 402,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablets",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 411,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 433,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart patient",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PTCA",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 475,
+          "char_end": 480,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Losar",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 482,
+          "char_end": 489,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Deplatt",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 506,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chlopydogrel",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 516,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Crestor",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 521,
+          "char_end": 533,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rosuvastatin",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 539,
+          "char_end": 547,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ezetimbe",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 598,
+          "char_end": 610,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "butaproxivon",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 630,
+          "char_end": 641,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "HiCombiflam",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 660,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 663,
+          "char_end": 674,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 758,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic to both the components of the drug",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 760,
+          "char_end": 772,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Butaproxivon",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 782,
+          "char_end": 792,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diclofenac",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 808,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 820,
+          "char_end": 843,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic to paracetamol",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 843,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 893,
+          "char_end": 903,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diclofenac",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 920,
+          "char_end": 924,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 943,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Diclofenac",
+      "id": "e41"
+    }
+  ]
+}

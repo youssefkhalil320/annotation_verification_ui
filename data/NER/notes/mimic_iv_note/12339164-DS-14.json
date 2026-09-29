@@ -1,0 +1,1287 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12339164-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\n\"I don't trust you\"\n\nHistory of Present Illness:\n___ y/o Asian female with h/o bipolar d/o BIB police after \nbecoming assaultive, expressing SI, and engaging in SIB. Of \nnote, patient assaulted ER nurse ___ is considering charges) \nand required 4 point restraints. \n\nShe reports that nothing is wrong and that she just got jealous \nabout some girl. She feels too tired to talk but indicates she \njust became a ___ this weekend. She states she came \nvoluntary and then refuses to engage in further questioning. \nPatient's boyfriend ___ indicates that she has not been taking \nmedications for two days and that she becomes explosively \njealous about a woman he lent his laptop to in ___ on the \ninpatient ___ unit. Patient became angry due to \njealousy tonight and began jamming herself in the head and side \nwith a spoon.\n\nBrief Hospital Course:\nPt is a ___ y/o Asian woman with h/o bipolar d/o, BIB police \nafter appearing increasingly agitated, becoming assaultive, \nexpressing SI and engaging in SIB. During her initial evaluation \nin the ER, pt assaulted a nurse and needed placement in 4-point \nrestraints for safety of self and others. On admission, pt \ndemonstrated severe irritability, poor impulse control, \ngrandiosity, decreased need for sleep. She reported getting \njealous about a girl. She also reported recent discharge from \n___ and partial compliance with her prescribed olanzapine and \nVPA after this recent discharge due to the feeling that she did \nnot need the medications. Per pt's request, she was voluntarily \nadmitted, and administered olanzapine 5 mg qAM, 10 mg qHS and \nVPA 500 mg PO BID plus olanzapine 5 mg IM/lorazepam 2 mg PRN \nrestraint.\n\nPsychiatry / Psychopharm:\nIn general, pt demonstrated incremental improvement in manic sxs \nwith supportive therapy and holding in a structured environment. \nIn addition, multiple psychopharm changes were made which \ncontributed to the pt's improvement. These were as follows:\n\n___ - Begin olanzapine at 15 mg per day with PRNs of \nbenztropine for EPS, and VPA at 750 mg PO QHS (admission level \nwas 64), based on previous h/o efficacy and tolerability - pt \nreported better control of manic sxs.\n___ - Discussion with pt revealed that she wanted better \ncontrol of her sxs. - Olanzapine increased to 20 mg daily, keep \nPRNs of benztropine for EPS and keep VPA - pt reported feeling \n\"better\" and \"more alert\".\n___ - VPA increased to 500 mg PO BID for better control of \nsxs; keep olanzapine and PRNs of benztropine. - pt reported good \ncontrol of manic sxs.\n___ - Pt complained of \"eye movement\" which she attributed to \nolanzapine and reported previous response to diphenhydramine - \nDiphenhydramine 50 mg PO administered. - pt reported resolution \nof \"eye movement\".\n___ - Pt complained of \"eye movement\" which she attributed to \nolanzapine and reported previous response to diphenhydramine - \nDiphenhydramine 50 mg PO PRN administered. - pt reported \nresolution of \"eye movement\".\n___ - Discussion with pt revealed that she felt \"a bit \nmanic\" - VPA increased to 750 mg PO BID for better control of \nmanic sxs. - pt responded well to this regimen. \n___ - Patient interacting more appropriately. Speech normal. \nAble to engage more psychodynamically in therapy. \n___ Depakote lvl - 133 pt depakote decreased to 500mg QAM \nand 750 mg QPM. No change in patient's mood or affect with \ndecrease in depakote.\nPatient was considered suitable for discharge on ___. \n\nMedical issues:\nNo acute issues, one complaint of insomnia controlled with \nDiphenhydramine.\n\nLegal:\n___\n\nDischarge Diagnosis:\nI. Bipolar Illness. Most Recent Episode Manic Severe With\nPsychotic Features\nII. Def\nIII. Stable\nIV. Severe\nV. 40",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 120,
+          "char_end": 131,
+          "turn_id": null
+        }
+      ],
+      "text": "bipolar d/o",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "becoming assaultive",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "SI",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "SIB",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "assaulted ER nurse",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 304,
+          "turn_id": null
+        }
+      ],
+      "text": "4 point restraints",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 364,
+          "char_end": 371,
+          "turn_id": null
+        }
+      ],
+      "text": "jealous",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 409,
+          "turn_id": null
+        }
+      ],
+      "text": "tired",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 608,
+          "char_end": 640,
+          "turn_id": null
+        }
+      ],
+      "text": "taking \nmedications for two days",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 682,
+          "turn_id": null
+        }
+      ],
+      "text": "explosively \njealous",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 774,
+          "turn_id": null
+        }
+      ],
+      "text": "angry",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "jealousy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 860,
+          "turn_id": null
+        }
+      ],
+      "text": "jamming herself in the head and side \nwith a spoon",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 934,
+          "turn_id": null
+        }
+      ],
+      "text": "bipolar d/o",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 977,
+          "char_end": 985,
+          "turn_id": null
+        }
+      ],
+      "text": "agitated",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "becoming assaultive",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1039,
+          "char_end": 1042,
+          "turn_id": null
+        }
+      ],
+      "text": "SIB",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1106,
+          "turn_id": null
+        }
+      ],
+      "text": "assaulted a nurse",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "4-point \nrestraints",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1220,
+          "char_end": 1232,
+          "turn_id": null
+        }
+      ],
+      "text": "irritability",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1234,
+          "char_end": 1254,
+          "turn_id": null
+        }
+      ],
+      "text": "poor impulse control",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1257,
+          "char_end": 1268,
+          "turn_id": null
+        }
+      ],
+      "text": "grandiosity",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1270,
+          "char_end": 1294,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased need for sleep",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1447,
+          "turn_id": null
+        }
+      ],
+      "text": "partial compliance with her prescribed olanzapine and \nVPA",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1428,
+          "char_end": 1438,
+          "turn_id": null
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1444,
+          "char_end": 1447,
+          "turn_id": null
+        }
+      ],
+      "text": "VPA",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1601,
+          "char_end": 1611,
+          "turn_id": null
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1612,
+          "char_end": 1616,
+          "turn_id": null
+        }
+      ],
+      "text": "5 mg",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1617,
+          "char_end": 1620,
+          "turn_id": null
+        }
+      ],
+      "text": "qAM",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1622,
+          "char_end": 1627,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1628,
+          "char_end": 1631,
+          "turn_id": null
+        }
+      ],
+      "text": "qHS",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1637,
+          "char_end": 1640,
+          "turn_id": null
+        }
+      ],
+      "text": "VPA",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1647,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mg",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1650,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1651,
+          "char_end": 1654,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1660,
+          "char_end": 1670,
+          "turn_id": null
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1671,
+          "char_end": 1675,
+          "turn_id": null
+        }
+      ],
+      "text": "5 mg",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1676,
+          "char_end": 1678,
+          "turn_id": null
+        }
+      ],
+      "text": "IM",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1688,
+          "turn_id": null
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1689,
+          "char_end": 1693,
+          "turn_id": null
+        }
+      ],
+      "text": "2 mg",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1694,
+          "char_end": 1708,
+          "turn_id": null
+        }
+      ],
+      "text": "PRN \nrestraint",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1792,
+          "char_end": 1801,
+          "turn_id": null
+        }
+      ],
+      "text": "manic sxs",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1808,
+          "char_end": 1826,
+          "turn_id": null
+        }
+      ],
+      "text": "supportive therapy",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2001,
+          "char_end": 2011,
+          "turn_id": null
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2015,
+          "char_end": 2020,
+          "turn_id": null
+        }
+      ],
+      "text": "15 mg",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2021,
+          "char_end": 2028,
+          "turn_id": null
+        }
+      ],
+      "text": "per day",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2034,
+          "char_end": 2038,
+          "turn_id": null
+        }
+      ],
+      "text": "PRNs",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2043,
+          "char_end": 2054,
+          "turn_id": null
+        }
+      ],
+      "text": "benztropine",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2059,
+          "char_end": 2062,
+          "turn_id": null
+        }
+      ],
+      "text": "EPS",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2068,
+          "char_end": 2071,
+          "turn_id": null
+        }
+      ],
+      "text": "VPA",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2075,
+          "char_end": 2081,
+          "turn_id": null
+        }
+      ],
+      "text": "750 mg",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2082,
+          "char_end": 2084,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2085,
+          "char_end": 2088,
+          "turn_id": null
+        }
+      ],
+      "text": "QHS",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2197,
+          "char_end": 2206,
+          "turn_id": null
+        }
+      ],
+      "text": "manic sxs",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2288,
+          "char_end": 2298,
+          "turn_id": null
+        }
+      ],
+      "text": "Olanzapine",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2312,
+          "char_end": 2317,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mg",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2318,
+          "char_end": 2323,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2331,
+          "char_end": 2335,
+          "turn_id": null
+        }
+      ],
+      "text": "PRNs",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2339,
+          "char_end": 2350,
+          "turn_id": null
+        }
+      ],
+      "text": "benztropine",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2355,
+          "char_end": 2358,
+          "turn_id": null
+        }
+      ],
+      "text": "EPS",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2368,
+          "char_end": 2371,
+          "turn_id": null
+        }
+      ],
+      "text": "VPA",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2428,
+          "char_end": 2431,
+          "turn_id": null
+        }
+      ],
+      "text": "VPA",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2445,
+          "char_end": 2451,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mg",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2452,
+          "char_end": 2454,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2455,
+          "char_end": 2458,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2492,
+          "char_end": 2502,
+          "turn_id": null
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2507,
+          "char_end": 2511,
+          "turn_id": null
+        }
+      ],
+      "text": "PRNs",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2515,
+          "char_end": 2526,
+          "turn_id": null
+        }
+      ],
+      "text": "benztropine",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2559,
+          "char_end": 2568,
+          "turn_id": null
+        }
+      ],
+      "text": "manic sxs",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2594,
+          "char_end": 2606,
+          "turn_id": null
+        }
+      ],
+      "text": "eye movement",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2633,
+          "char_end": 2643,
+          "turn_id": null
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2678,
+          "char_end": 2693,
+          "turn_id": null
+        }
+      ],
+      "text": "diphenhydramine",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2697,
+          "char_end": 2712,
+          "turn_id": null
+        }
+      ],
+      "text": "Diphenhydramine",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2713,
+          "char_end": 2718,
+          "turn_id": null
+        }
+      ],
+      "text": "50 mg",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2719,
+          "char_end": 2721,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2766,
+          "char_end": 2778,
+          "turn_id": null
+        }
+      ],
+      "text": "eye movement",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2805,
+          "char_end": 2817,
+          "turn_id": null
+        }
+      ],
+      "text": "eye movement",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2844,
+          "char_end": 2854,
+          "turn_id": null
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2889,
+          "char_end": 2904,
+          "turn_id": null
+        }
+      ],
+      "text": "diphenhydramine",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2908,
+          "char_end": 2923,
+          "turn_id": null
+        }
+      ],
+      "text": "Diphenhydramine",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2930,
+          "char_end": 2932,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2981,
+          "char_end": 2993,
+          "turn_id": null
+        }
+      ],
+      "text": "eye movement",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3061,
+          "char_end": 3064,
+          "turn_id": null
+        }
+      ],
+      "text": "VPA",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3078,
+          "char_end": 3084,
+          "turn_id": null
+        }
+      ],
+      "text": "750 mg",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3085,
+          "char_end": 3087,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3088,
+          "char_end": 3091,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3115,
+          "char_end": 3124,
+          "turn_id": null
+        }
+      ],
+      "text": "manic sxs",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3281,
+          "char_end": 3293,
+          "turn_id": null
+        }
+      ],
+      "text": "Depakote lvl",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3303,
+          "char_end": 3311,
+          "turn_id": null
+        }
+      ],
+      "text": "depakote",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3325,
+          "char_end": 3330,
+          "turn_id": null
+        }
+      ],
+      "text": "500mg",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3331,
+          "char_end": 3334,
+          "turn_id": null
+        }
+      ],
+      "text": "QAM",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3340,
+          "char_end": 3346,
+          "turn_id": null
+        }
+      ],
+      "text": "750 mg",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3347,
+          "char_end": 3350,
+          "turn_id": null
+        }
+      ],
+      "text": "QPM",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3408,
+          "char_end": 3416,
+          "turn_id": null
+        }
+      ],
+      "text": "depakote",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3524,
+          "char_end": 3532,
+          "turn_id": null
+        }
+      ],
+      "text": "insomnia",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3550,
+          "char_end": 3565,
+          "turn_id": null
+        }
+      ],
+      "text": "Diphenhydramine",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3604,
+          "char_end": 3646,
+          "turn_id": null
+        },
+        {
+          "char_start": 3654,
+          "char_end": 3677,
+          "turn_id": null
+        }
+      ],
+      "text": "Bipolar Illness. Most Recent Episode Manic With\nPsychotic Features",
+      "id": "e98"
+    }
+  ]
+}

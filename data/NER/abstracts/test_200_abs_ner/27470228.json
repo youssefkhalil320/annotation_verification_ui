@@ -5,9 +5,21 @@
   "text": "Stressful life events and leucocyte telomere length: Do lifestyle factors, somatic and mental health, or low grade inflammation mediate this relationship? Results from a cohort of Danish men born in 1953 Exposure to psychosocial stress is associated with increased risk of a number of somatic and mental disorders with relation to immune system functioning. We aimed to explore whether stressful events in early and recent life was associated with leucocyte telomere length (TL), which is assumed to reflect the accumulated burden of inflammation and oxidative stress occurring during the life course. We specifically aimed to address whether childhood constitutes a sensitive period and how much of the relation between stressful life events and TL is mediated through somatic and mental health, lifestyle, and markers of low-grade inflammation. A cohort of Danish men born in 1953 has been followed since birth in the Metropolit Cohort. These men underwent a health examination including blood sampling in 2010 and a subset of 324 also had a quantitative PCR-based measurement of TL. The relation between stressful life events and TL was analysed using structural equation modelling, which also provided an estimate of the proportion of the total effect mediated by somatic and mental health (cardiovascular disease, body mass and depressive mood), lifestyle factors, and low grade inflammation (C-reactive protein (CRP), interleukin (IL)-6 and IL-10). Total number of stressful events experienced during the life course was not associated with TL. In terms of sensitive periods, we found that number of stressful events in childhood was associated with shorter TL (βper number stressful events in childhood =-0.02(SE=-0.02); P=0.05). This relation was particularly strong for being placed away from home (β=-0.16; P<0.000). Thirty percent of the total effect of stressful events in childhood on TL was mediated by the included variables, with the largest proportion being mediated through depressive mood (16%) and CRP (9%). This study suggests that stressful events in childhood are associated with shorter TL in middle-aged men and that part of this relation is explained by depressive mood and low grade inflammation.",
   "entities": [
     {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 26,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "leucocyte telomere length",
+      "id": "e1"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 115,
@@ -16,45 +28,11 @@
         }
       ],
       "text": "inflammation",
-      "id": "e1"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 216,
-          "char_end": 235,
-          "turn_id": null
-        }
-      ],
-      "text": "psychosocial stress",
       "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 285,
-          "char_end": 292,
-          "turn_id": null
-        },
-        {
-          "char_start": 304,
-          "char_end": 313,
-          "turn_id": null
-        }
-      ],
-      "text": "somatic disorders",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 297,
@@ -63,12 +41,24 @@
         }
       ],
       "text": "mental disorders",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 448,
+          "char_end": 478,
+          "turn_id": null
+        }
+      ],
+      "text": "leucocyte telomere length (TL)",
       "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 534,
@@ -82,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 833,
@@ -96,7 +85,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1044,
@@ -110,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1295,
@@ -122,9 +109,21 @@
       "id": "e8"
     },
     {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1319,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "body mass",
+      "id": "e9"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1333,
@@ -133,12 +132,11 @@
         }
       ],
       "text": "depressive mood",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1384,
@@ -147,40 +145,24 @@
         }
       ],
       "text": "inflammation",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1398,
-          "char_end": 1416,
-          "turn_id": null
-        }
-      ],
-      "text": "C-reactive protein",
       "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1418,
-          "char_end": 1421,
+          "char_start": 1398,
+          "char_end": 1422,
           "turn_id": null
         }
       ],
-      "text": "CRP",
+      "text": "C-reactive protein (CRP)",
       "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1424,
@@ -194,7 +176,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1447,
@@ -207,22 +188,33 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
-          "char_start": 1785,
-          "char_end": 1806,
+          "char_start": 1656,
+          "char_end": 1666,
           "turn_id": null
         }
       ],
-      "text": "placed away from home",
+      "text": "shorter TL",
       "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1664,
+          "char_end": 1666,
+          "turn_id": null
+        }
+      ],
+      "text": "TL",
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1992,
@@ -231,12 +223,11 @@
         }
       ],
       "text": "depressive mood",
-      "id": "e16"
+      "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2018,
@@ -245,12 +236,37 @@
         }
       ],
       "text": "CRP",
-      "id": "e17"
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2103,
+          "char_end": 2113,
+          "turn_id": null
+        }
+      ],
+      "text": "shorter TL",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2111,
+          "char_end": 2113,
+          "turn_id": null
+        }
+      ],
+      "text": "TL",
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2180,
@@ -259,21 +275,7 @@
         }
       ],
       "text": "depressive mood",
-      "id": "e18"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 2210,
-          "char_end": 2222,
-          "turn_id": null
-        }
-      ],
-      "text": "inflammation",
-      "id": "e19"
+      "id": "e21"
     }
   ]
 }

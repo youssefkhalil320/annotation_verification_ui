@@ -1,0 +1,476 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:31879:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been diagnosed with H Pylori 5 weeks ago (gscope - biopsy). The doctor treated me wit antibiotics, Klacid, Flagyl, Nexium and Zantac. The Flagyl made me feel sick and my stomach worse but I finished the course.  I was on a 5 day course.  I feel worse I am so bloated it is not even funny, I get Nauseous in the morning and when I eat I feel better, but then my stomach start feeling bloated again I feel very Uncomfortable and in pain and some kind of movement just below my left side rib, I am scared to eat because its going to make me feel better for a while and then worse again.  My bowel movements seems to be normal but I burp alot.  I am scared of stomach cancer, are these symptoms related to stomach cancer. Sometimes I feel some Uncomfortable on the right side as well. I am only 31 and otherwise in good health.  Please help?\n[doctor] HI, thanks for using healthcare magicStomach cancer would have been seen on endoscopy and would have shown up in the biopsy that you had a few weeks ago.It would not develop in the weeks since the biopsy, cancer takes months to years to develop. Since the biopsy 5 weeks ago did not show cancer, then this is highly, highly unlikely.Bloating is a common symptom  and can be related to your history of h pylori, reflux. It can also be due to the use of gas producing foods such as certain vegetables or fruits.Constipation is also a possible cause.The use of reflux medication such as nexium, prilosec, prevacid, aciphex, may help.I hope this helps",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 45,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "H Pylori",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 65,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gscope",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 74,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "biopsy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 122,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Klacid",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 130,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 138,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Nexium",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 143,
+          "char_end": 149,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zantac",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 161,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 179,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 252,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "5 day course",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 276,
+          "char_end": 283,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloated",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 312,
+          "char_end": 320,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Nauseous",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 400,
+          "char_end": 407,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloated",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Uncomfortable",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 451,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 469,
+          "char_end": 505,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "movement just below my left side rib",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 646,
+          "char_end": 655,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burp alot",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 687,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach cancer",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 719,
+          "char_end": 733,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach cancer",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 757,
+          "char_end": 788,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Uncomfortable on the right side",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 896,
+          "char_end": 915,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "magicStomach cancer",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 949,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "endoscopy",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 981,
+          "char_end": 987,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "biopsy",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1061,
+          "char_end": 1067,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "biopsy",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1069,
+          "char_end": 1075,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cancer",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1126,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "biopsy",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1197,
+          "char_end": 1205,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Bloating",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1265,
+          "char_end": 1273,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "h pylori",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1275,
+          "char_end": 1281,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "reflux",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1373,
+          "char_end": 1385,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Constipation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1422,
+          "char_end": 1439,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "reflux medication",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1448,
+          "char_end": 1454,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nexium",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1456,
+          "char_end": 1464,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prilosec",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1466,
+          "char_end": 1474,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prevacid",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1476,
+          "char_end": 1483,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "aciphex",
+      "id": "e36"
+    }
+  ]
+}

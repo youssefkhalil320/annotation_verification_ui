@@ -1,0 +1,1456 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12892009-DS-15:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nSulfonamides / Penicillins\n\nChief Complaint:\nLeg swelling\n\nHistory of Present Illness:\n___ w/ PMH of HTN, breast Ca, who recently underwent b/l total \nknee replacements who presents today with ___ redness, and \nLLE swelling, and pain, which has been progressively getting \nworse over the past 2 weeks. She had right knee replacement on \n___, and then left knee replacement on ___. \nTwo weeks after she had the left knee replacement, she began \nhaving symptoms of swelling and pain. She then developed \nerythema first on the left ___ and ___ on the right foot. She \nsaw a surgical PA five days ago (at the ___), who prescribed \nlevaquin and lasix. She has had no improvement since that time. \nThe erythema and pain worsen on the left ___ and ___ up \ntowards the left knee in the last 2 days. She then saw her PCP \ntoday, who referred her to the ED. Of note, she has allergies to \nboth penicillin and sulfa drugs. Therefore, it was felt she \nneeded admission for IV vanco.\n.\nIn the ED, her vitals 98.1, HR 74 RR 20 Pox 98RA. In the ED she \nhad ___ US that showed no DVT in the left lower extremity and \ncomplex ___ cyst with probable small amount of rupture. She \nwas given a dose of vancomycin IV. Ortho saw the patient and as \nper their note the do not believe that is knee involvement and \nthey recommend holding off on arthrocentesis.\n.\nOn floor, patient appears to be comfortable. Her left leg has \nsignificant erythema. She is able to move in bed independently.\n.\nROS: Positive as noted above. She also has urinary frequency due \nto overactive bladder. Denies fever, chills, night sweats, \nheadache, vision changes, rhinorrhea, congestion, sore throat, \ncough, shortness of breath, chest pain, abdominal pain, nausea, \nvomiting, diarrhea, constipation, BRBPR, melena, hematochezia, \ndysuria, hematuria.\n\nBrief Hospital Course:\n___ yoF w/ PMH of HTN, breast Ca, who recently underwent b/l \ntotal knee replacements who presented with bilateral ___ redness, \nand LLE swelling and pain. Her hospital course by problem was as \nfollows:\n.\n___ CELLULITIS: Patient's left lower extremity swelling and \nerythema in the setting of negative ___ study was felt to be \nconsistent with cellulitis. She was started on vancomycin on \n___ for treatment of possible hospital acquired MRSA given \nher recent hospitalization and stay in rehab. Her erythema \nimproved quickly as did her intial tenderness. A PICC was placed \nand patient was discharged with a plan to complete a 10 day \ncourse of vancomycin. She remained afebrile without a \nleukocytosis throughout hospitalization. Urine cultures were \nnegative. Blood cultures that were sent in the emergency room \nhad no growth to date as of ___. \n.\n#. Left knee replacement: Patient had recent surgery for left \ntotal knee replacement. Given the location of her erythema and \nswelling there was concern for possible infection of her \njoint/hardware. Orthopedics saw the patient in the emergency \nroom and did not feel there was any knee involvement- they \nfollowed the patient during hospitalization and felt that the \nknee remained uninvolved. ___ was consulted and patient ambulated \nwith assistance at her baseline. She was continued on her home \nregimen of dilaudid, tylenol, and ice for post-operative pain \nmanagement. A popliteal cyst with likely small rupture was noted \non ultrasound, but was felt to be benign. Patient was instructed \nto follow up with her orthopedic surgeons at ___ \n___.\n.\n#.HTN: Patient remained hemodynamically stable during \nhospitalization with normotensive pressures. She was continued \non her home meds of amlodipine, valsartan, and atenolol.\n.\n#.DEPRESSION: No active issues. Patient was continued on her \nhome dose of zoloft.\n.\n#.DVT Prophylaxis: Patient was started on coumadin after her \nsurgery for DVT prophylaxis with monitoring by the ___ \n___. Her goal INR was 1.8 to 2.5 with \ninitial plan to d/c anticoagulation on ___. While she was \nhospitalized she became supratherapeutic on her dose of 5.5 mg \ndaily (INR jumped to 2.9), so her coumadin was discontinued on \n___, last dose ___. On discharge she was instructed not to \nresume her coumadin as she was adequately anticoagulated for the \npost-operative period and had started to ambulate. She was also \ntold to check her INR at the ___ and communicate this \nwith her physicians at ___. INR on ___ was 2.2.\n.\n#.FEN - Patient was given a cardiac diet and her electrolytes \nwere repleted. Her initial potassium value of 9.1 was erroneous \ndue to a hemolyzed sample. Repeat labs showed a normal K of 3.9. \n\n.\nPending on Discharge:\n___ Blood cultures\n\nDischarge Diagnosis:\nPrimary:\nCellulitis\n\nSecondary:\nB/L Total Knee Replacement\nHypertension\nVenous stasis",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 23,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamides",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 26,
+          "char_end": 37,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 68,
+          "turn_id": null
+        }
+      ],
+      "text": "Leg swelling",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 115,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 126,
+          "turn_id": null
+        }
+      ],
+      "text": "breast Ca",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "b/l total \nknee replacements",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 215,
+          "turn_id": null
+        }
+      ],
+      "text": "redness",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 222,
+          "char_end": 234,
+          "turn_id": null
+        }
+      ],
+      "text": "LLE swelling",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 234,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 244,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 343,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee replacement",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 362,
+          "char_end": 383,
+          "turn_id": null
+        }
+      ],
+      "text": "left knee replacement",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 442,
+          "turn_id": null
+        }
+      ],
+      "text": "left knee replacement",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 487,
+          "char_end": 491,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 513,
+          "char_end": 521,
+          "turn_id": null
+        },
+        {
+          "char_start": 559,
+          "char_end": 569,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema right foot",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 638,
+          "char_end": 646,
+          "turn_id": null
+        }
+      ],
+      "text": "levaquin",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "lasix",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 707,
+          "char_end": 715,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 724,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 895,
+          "char_end": 905,
+          "turn_id": null
+        }
+      ],
+      "text": "penicillin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 910,
+          "char_end": 921,
+          "turn_id": null
+        }
+      ],
+      "text": "sulfa drugs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 972,
+          "char_end": 974,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 980,
+          "turn_id": null
+        }
+      ],
+      "text": "vanco",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1057,
+          "char_end": 1059,
+          "turn_id": null
+        }
+      ],
+      "text": "US",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1075,
+          "char_end": 1078,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1112,
+          "char_end": 1128,
+          "turn_id": null
+        }
+      ],
+      "text": "complex ___ cyst",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1159,
+          "char_end": 1166,
+          "turn_id": null
+        }
+      ],
+      "text": "rupture",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1193,
+          "char_end": 1203,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1204,
+          "char_end": 1206,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1332,
+          "char_end": 1346,
+          "turn_id": null
+        }
+      ],
+      "text": "arthrocentesis",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1539,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary frequency",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1548,
+          "char_end": 1566,
+          "turn_id": null
+        }
+      ],
+      "text": "overactive bladder",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1575,
+          "char_end": 1580,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1582,
+          "char_end": 1588,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1590,
+          "char_end": 1602,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1605,
+          "char_end": 1613,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1615,
+          "char_end": 1629,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1631,
+          "char_end": 1641,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1643,
+          "char_end": 1653,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1666,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1669,
+          "char_end": 1674,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1676,
+          "char_end": 1695,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1697,
+          "char_end": 1707,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1709,
+          "char_end": 1723,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1725,
+          "char_end": 1731,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1734,
+          "char_end": 1742,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1744,
+          "char_end": 1752,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1754,
+          "char_end": 1766,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1768,
+          "char_end": 1773,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1781,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1783,
+          "char_end": 1795,
+          "turn_id": null
+        }
+      ],
+      "text": "hematochezia",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1798,
+          "char_end": 1805,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1807,
+          "char_end": 1816,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1860,
+          "char_end": 1863,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1865,
+          "char_end": 1874,
+          "turn_id": null
+        }
+      ],
+      "text": "breast Ca",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1899,
+          "char_end": 1927,
+          "turn_id": null
+        }
+      ],
+      "text": "b/l \ntotal knee replacements",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1947,
+          "char_end": 1968,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral ___ redness",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1975,
+          "char_end": 1987,
+          "turn_id": null
+        }
+      ],
+      "text": "LLE swelling",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2052,
+          "char_end": 2062,
+          "turn_id": null
+        }
+      ],
+      "text": "CELLULITIS",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2074,
+          "char_end": 2103,
+          "turn_id": null
+        }
+      ],
+      "text": "left lower extremity swelling",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2109,
+          "char_end": 2117,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2197,
+          "turn_id": null
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2218,
+          "char_end": 2228,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2263,
+          "char_end": 2285,
+          "turn_id": null
+        }
+      ],
+      "text": "hospital acquired MRSA",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2343,
+          "char_end": 2351,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2388,
+          "char_end": 2398,
+          "turn_id": null
+        }
+      ],
+      "text": "tenderness",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2402,
+          "char_end": 2406,
+          "turn_id": null
+        }
+      ],
+      "text": "PICC",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2472,
+          "char_end": 2486,
+          "turn_id": null
+        }
+      ],
+      "text": "10 day \ncourse",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2490,
+          "char_end": 2500,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2515,
+          "char_end": 2523,
+          "turn_id": null
+        }
+      ],
+      "text": "afebrile",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2535,
+          "char_end": 2547,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2576,
+          "char_end": 2590,
+          "turn_id": null
+        }
+      ],
+      "text": "Urine cultures",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2607,
+          "char_end": 2621,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood cultures",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2699,
+          "char_end": 2720,
+          "turn_id": null
+        }
+      ],
+      "text": "Left knee replacement",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2753,
+          "char_end": 2781,
+          "turn_id": null
+        }
+      ],
+      "text": "left \ntotal knee replacement",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2809,
+          "char_end": 2817,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2863,
+          "char_end": 2895,
+          "turn_id": null
+        }
+      ],
+      "text": "infection of her \njoint/hardware",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3208,
+          "char_end": 3216,
+          "turn_id": null
+        }
+      ],
+      "text": "dilaudid",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3218,
+          "char_end": 3225,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3239,
+          "char_end": 3258,
+          "turn_id": null
+        }
+      ],
+      "text": "post-operative pain",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3274,
+          "char_end": 3288,
+          "turn_id": null
+        }
+      ],
+      "text": "popliteal cyst",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3307,
+          "char_end": 3314,
+          "turn_id": null
+        }
+      ],
+      "text": "rupture",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3329,
+          "char_end": 3339,
+          "turn_id": null
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3451,
+          "char_end": 3454,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3588,
+          "char_end": 3598,
+          "turn_id": null
+        }
+      ],
+      "text": "amlodipine",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3600,
+          "char_end": 3609,
+          "turn_id": null
+        }
+      ],
+      "text": "valsartan",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3615,
+          "char_end": 3623,
+          "turn_id": null
+        }
+      ],
+      "text": "atenolol",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3629,
+          "char_end": 3639,
+          "turn_id": null
+        }
+      ],
+      "text": "DEPRESSION",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3702,
+          "char_end": 3708,
+          "turn_id": null
+        }
+      ],
+      "text": "zoloft",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3714,
+          "char_end": 3717,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3754,
+          "char_end": 3762,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3844,
+          "char_end": 3847,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3889,
+          "char_end": 3904,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3984,
+          "char_end": 3990,
+          "turn_id": null
+        }
+      ],
+      "text": "5.5 mg",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3992,
+          "char_end": 3997,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3999,
+          "char_end": 4002,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3999,
+          "char_end": 4016,
+          "turn_id": null
+        }
+      ],
+      "text": "INR jumped to 2.9",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4026,
+          "char_end": 4034,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4127,
+          "char_end": 4135,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4265,
+          "char_end": 4268,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4330,
+          "char_end": 4333,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4401,
+          "char_end": 4413,
+          "turn_id": null
+        }
+      ],
+      "text": "electrolytes",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4442,
+          "char_end": 4451,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4442,
+          "char_end": 4464,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium value of 9.1",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4489,
+          "char_end": 4505,
+          "turn_id": null
+        }
+      ],
+      "text": "hemolyzed sample",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4535,
+          "char_end": 4536,
+          "turn_id": null
+        }
+      ],
+      "text": "K",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4575,
+          "char_end": 4589,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood cultures",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4621,
+          "char_end": 4631,
+          "turn_id": null
+        }
+      ],
+      "text": "Cellulitis",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 4644,
+          "char_end": 4670,
+          "turn_id": null
+        }
+      ],
+      "text": "B/L Total Knee Replacement",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4671,
+          "char_end": 4683,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4684,
+          "char_end": 4697,
+          "turn_id": null
+        }
+      ],
+      "text": "Venous stasis",
+      "id": "e111"
+    }
+  ]
+}

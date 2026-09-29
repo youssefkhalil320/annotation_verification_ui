@@ -1,0 +1,998 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18613561-DS-18:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCodeine\n\nChief Complaint:\nDizziness\n\nHistory of Present Illness:\nPER ADMITTING RESIDENT:\n___ ___ woman with history remarkable for HTN, HLD,\natypical chest pain p/w new onset dizziness. \n\nToday she stood up from a sitting position and suddenly felt as\nif she were drunk. There was no rotatory sensation. She was\nunsteady and felt she was going to fall (but did not). All her\nlimbs were weak. Her HR was ranging from 150 to 120 bpm. She was\nnot SOB, had no CP or palpitations. \n\nHer husband witnessed the event and confirms that she did not\nhave a facial droop. She had no problems understanding him or\nanswering back. She was not slurred. She had no visual problems.\nThere were no problems swallowing saliva. She was sweaty. \n\nShe called her daughter (neurologist) who advised she lay down\nwith her legs elevated. When doing so, she felt worse.  There \nwas\nno headache during this episode. She had never had this type of \na\nproblem. However, she acknowledges mild unsteadiness with quick\npositional changes in the past. Those were different from this\nfeeling of drunkenness. \n\nShe called ___ and was taken to OSH. During the transfer she\nstarted to become nauseated. Finally, at the OSH ED she did\nexperience several episodes of emesis. She received zofran\nwithout response and eventually reglan. She had no headache. Her\nunsteadiness did improved after vomiting. She received a CBC,\nchem. And coags that were normal. A CT CNS was also normal. \n\nShe was then transferred to ___ for further evaluation. After \n3\nhours, she felt almost back to her baseline. \n \nNo fever or sick contacts. She is going through a stressful\nfamily situation. ROS negative otherwise.\n\nBrief Hospital Course:\nMs. ___ is a ___ year-old right-handed woman with a past \nmedical history including hypertension and hyperlipidemia who \npresented to the ___ with dizziness.  She was admitted to the \nstroke service from ___ to ___.\n.\nAs it was considered important to rule out the presence of \nstroke, an MRI of the brain was performed.  Although the imaging \nrevealed mild chronic microangiopathic small vessel ischemic \nchanges, there was no evidence of acute ischemia or hemorrhage.  \nThere were no appreciable aneurysms or vessel occlusions on  \nangiography studies.  Aspirin 81 mg po daily was started in the \nsetting of small vessel disease.\n.\nPending neuroimaging, the lisinopril and norvasc were held to \nallow for blood pressure autoregulation with a target systolic \nblood pressure under 180.  Prior to dicharge, the medications \nwere restarted.\n.\nA transthoracic echocardiogram was performed to evaluate for \ncardiac contributions to the patient's symptom complex.  There \nwas no ASD, vegetation, or thrombus noted.   The estimated  \nsystolic function was normal (LVEF >55%), as was free wall \nmotion.  The patient was monitored by cardiac telemetry \nthroughout the admission.  There was no evidence of arrhythmia.\n.\nTo evaluate modifiable risk factors for stroke, lipids and \nglycosylated hemoglobin were measured.  The LDL was found to be \n95, so the crestor dosing was not changed.  Although the HBA1C \nwas 6.0 %, blood glucose was monitored regularly and an insulin \nsliding was instituted to maintain normoglycemia.\n.\nTo evaluate the role of hypotension in the patient's symptoms, \northostatic measurements were performed.  As the results were \npositive, intravenous fluids were administered.  Prior to \ndischarge, orthostatic values were confirmed to be negative.\n.\nThe patient was discharged home.\n\nDischarge Diagnosis:\nPrimary:\n1. Orthostatic hypotension due to hypovolemia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "Dizziness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 145,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 150,
+          "turn_id": null
+        }
+      ],
+      "text": "HLD",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 171,
+          "turn_id": null
+        }
+      ],
+      "text": "atypical chest pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 241,
+          "turn_id": null
+        }
+      ],
+      "text": "position",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 313,
+          "turn_id": null
+        }
+      ],
+      "text": "rotatory sensation",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 331,
+          "turn_id": null
+        }
+      ],
+      "text": "unsteady",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 386,
+          "char_end": 391,
+          "turn_id": null
+        },
+        {
+          "char_start": 397,
+          "char_end": 401,
+          "turn_id": null
+        }
+      ],
+      "text": "limbs weak",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 409,
+          "turn_id": null
+        },
+        {
+          "char_start": 431,
+          "char_end": 441,
+          "turn_id": null
+        }
+      ],
+      "text": "HR to 120 bpm",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 458,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 469,
+          "turn_id": null
+        }
+      ],
+      "text": "CP",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 473,
+          "char_end": 485,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 558,
+          "char_end": 570,
+          "turn_id": null
+        }
+      ],
+      "text": "facial droop",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 583,
+          "char_end": 609,
+          "turn_id": null
+        }
+      ],
+      "text": "problems understanding him",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 648,
+          "turn_id": null
+        }
+      ],
+      "text": "slurred",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 676,
+          "turn_id": null
+        }
+      ],
+      "text": "visual problems",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 718,
+          "turn_id": null
+        }
+      ],
+      "text": "problems swallowing saliva",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 734,
+          "turn_id": null
+        }
+      ],
+      "text": "sweaty",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 879,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 987,
+          "turn_id": null
+        }
+      ],
+      "text": "unsteadiness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1062,
+          "char_end": 1084,
+          "turn_id": null
+        }
+      ],
+      "text": "feeling of drunkenness",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1167,
+          "char_end": 1176,
+          "turn_id": null
+        }
+      ],
+      "text": "nauseated",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1240,
+          "char_end": 1246,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1261,
+          "char_end": 1267,
+          "turn_id": null
+        }
+      ],
+      "text": "zofran",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1300,
+          "char_end": 1306,
+          "turn_id": null
+        }
+      ],
+      "text": "reglan",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1319,
+          "char_end": 1327,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1333,
+          "char_end": 1345,
+          "turn_id": null
+        }
+      ],
+      "text": "unsteadiness",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1365,
+          "char_end": 1373,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1390,
+          "char_end": 1393,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1395,
+          "char_end": 1399,
+          "turn_id": null
+        }
+      ],
+      "text": "chem",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1405,
+          "char_end": 1410,
+          "turn_id": null
+        }
+      ],
+      "text": "coags",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1431,
+          "char_end": 1437,
+          "turn_id": null
+        }
+      ],
+      "text": "CT CNS",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1573,
+          "char_end": 1578,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1780,
+          "char_end": 1792,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1797,
+          "char_end": 1811,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperlipidemia",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1843,
+          "char_end": 1852,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1880,
+          "char_end": 1886,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1974,
+          "char_end": 1980,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1985,
+          "char_end": 2001,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of the brain",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2031,
+          "char_end": 2038,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2054,
+          "char_end": 2109,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic microangiopathic small vessel ischemic \nchanges",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2136,
+          "char_end": 2150,
+          "turn_id": null
+        }
+      ],
+      "text": "acute ischemia",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2154,
+          "char_end": 2164,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2194,
+          "char_end": 2203,
+          "turn_id": null
+        }
+      ],
+      "text": "aneurysms",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2207,
+          "char_end": 2224,
+          "turn_id": null
+        }
+      ],
+      "text": "vessel occlusions",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2230,
+          "char_end": 2249,
+          "turn_id": null
+        }
+      ],
+      "text": "angiography studies",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2252,
+          "char_end": 2259,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2260,
+          "char_end": 2265,
+          "turn_id": null
+        }
+      ],
+      "text": "81 mg",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2269,
+          "char_end": 2274,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2306,
+          "char_end": 2326,
+          "turn_id": null
+        }
+      ],
+      "text": "small vessel disease",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2338,
+          "char_end": 2350,
+          "turn_id": null
+        }
+      ],
+      "text": "neuroimaging",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2356,
+          "char_end": 2366,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2371,
+          "char_end": 2378,
+          "turn_id": null
+        }
+      ],
+      "text": "norvasc",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2540,
+          "char_end": 2568,
+          "turn_id": null
+        }
+      ],
+      "text": "transthoracic echocardiogram",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2671,
+          "char_end": 2674,
+          "turn_id": null
+        }
+      ],
+      "text": "ASD",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2676,
+          "char_end": 2686,
+          "turn_id": null
+        }
+      ],
+      "text": "vegetation",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2691,
+          "char_end": 2699,
+          "turn_id": null
+        }
+      ],
+      "text": "thrombus",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2823,
+          "char_end": 2840,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac telemetry",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2894,
+          "char_end": 2904,
+          "turn_id": null
+        }
+      ],
+      "text": "arrhythmia",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2948,
+          "char_end": 2954,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2956,
+          "char_end": 2962,
+          "turn_id": null
+        }
+      ],
+      "text": "lipids",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2968,
+          "char_end": 2991,
+          "turn_id": null
+        }
+      ],
+      "text": "glycosylated hemoglobin",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3012,
+          "char_end": 3015,
+          "turn_id": null
+        }
+      ],
+      "text": "LDL",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3044,
+          "char_end": 3051,
+          "turn_id": null
+        }
+      ],
+      "text": "crestor",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3090,
+          "char_end": 3095,
+          "turn_id": null
+        }
+      ],
+      "text": "HBA1C",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3108,
+          "char_end": 3121,
+          "turn_id": null
+        },
+        {
+          "char_start": 3126,
+          "char_end": 3145,
+          "turn_id": null
+        }
+      ],
+      "text": "blood glucose monitored regularly",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3153,
+          "char_end": 3160,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3238,
+          "char_end": 3249,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3278,
+          "char_end": 3302,
+          "turn_id": null
+        }
+      ],
+      "text": "orthostatic measurements",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3351,
+          "char_end": 3369,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous fluids",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3411,
+          "char_end": 3429,
+          "turn_id": null
+        }
+      ],
+      "text": "orthostatic values",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3530,
+          "char_end": 3553,
+          "turn_id": null
+        }
+      ],
+      "text": "Orthostatic hypotension",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3561,
+          "char_end": 3572,
+          "turn_id": null
+        }
+      ],
+      "text": "hypovolemia",
+      "id": "e75"
+    }
+  ]
+}

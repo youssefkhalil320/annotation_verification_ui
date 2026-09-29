@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 201,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 209,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 242,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 550,
@@ -82,7 +77,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 566,
@@ -96,7 +90,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 775,
@@ -110,7 +103,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 788,
@@ -124,7 +116,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 960,
@@ -138,21 +129,19 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "other",
       "spans": [
         {
-          "char_start": 966,
+          "char_start": 970,
           "char_end": 976,
           "turn_id": null
         }
       ],
-      "text": "for 14days",
+      "text": "14days",
       "id": "e10"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1113,
@@ -166,7 +155,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1328,
@@ -180,7 +168,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1334,
@@ -192,9 +179,21 @@
       "id": "e13"
     },
     {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1350,
+          "char_end": 1360,
+          "turn_id": null
+        }
+      ],
+      "text": "injections",
+      "id": "e14"
+    },
+    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1679,
@@ -203,12 +202,11 @@
         }
       ],
       "text": "Isx-9",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1741,
@@ -217,12 +215,11 @@
         }
       ],
       "text": "stress",
-      "id": "e15"
+      "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1881,
@@ -231,31 +228,11 @@
         }
       ],
       "text": "Isx-9",
-      "id": "e16"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1907,
-          "char_end": 1916,
-          "turn_id": null
-        },
-        {
-          "char_start": 1934,
-          "char_end": 1943,
-          "turn_id": null
-        }
-      ],
-      "text": "affective disorders",
       "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1921,

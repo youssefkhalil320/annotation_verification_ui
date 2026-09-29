@@ -1,0 +1,208 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:53737:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi, I have taken an injection of cortisone to treat anaphylaxis from antibiotic and after one month I had the same attck from another antibiotic then I mad liver function teste after one month from the second injection and I found iT High Is it from this 2 injections?\n[doctor] Hi and welcome to Healthcaremagic. Thank you for your query. I am Dr. Rommstein, I understand your concerns and I will try to help you as much as I can.Steroid injections are known to cause such liver changes and abnormalities in liver markers so this is not uncommon. In most case there is no serious damage and after few weeks markers should stabilize. If there is still high liver function tests then ultrasound should be done.I hope I have answered you query. If you have any further questions you can contact us in every time.",
+  "entities": [
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 39,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injection",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 43,
+          "char_end": 52,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cortisone",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 73,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anaphylaxis",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 79,
+          "char_end": 89,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 154,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 186,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 244,
+          "char_end": 248,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "liver function teste High",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 186,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "liver function teste",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 447,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Steroid",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 448,
+          "char_end": 458,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "injections",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 496,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "liver changes",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 501,
+          "char_end": 531,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "abnormalities in liver markers",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 531,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "liver markers",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 686,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "high liver function tests",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 686,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "liver function tests",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 702,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e15"
+    }
+  ]
+}

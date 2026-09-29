@@ -1,0 +1,716 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:149871:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am a 38 year old woman and I was in a car accident in 2011, which led to compression burst fractures of T-4 and T-5. I had surgery a year later they put in rods, screws, a cage, and done a spinal fusion from T-2 through T-8. While testing before the surgery they found I also have osteoporosis of the spine, stenosis at multiple levels, degenerative disk disease and kyphosis. Anyway during surgery they found the spine wasn't straight and that it was worse then the MRI and X-rays showed. The Surgeon told my husband and family that he couldn't get the spine completely straight and the hardware could never be removed. I have been having lots of pain in the shoulders, chest, back, neck, hands and arms. At times my hands and arms feel like they are asleep and or I could be holding something in my hand and just drop it like my hand isn't even there. I can get cut doing dishes from a knife or burn my hands and not even feel it! When lifting my arms up or reaching something in my back, well the best way I can put it is, it feels as if something is pulling, snapping, and popping. I have been on Norco 7.5mg for 2 years now at first they were helpful but now they don't help at all. As of three weeks ago the doc decided to take the pain meds and told me to take Ibuprofen and over the counter Tylenol. Which I am having to take 1600mg of ibuprofen every 6 hours and 1500mg of Tylenol every 4 hours and that just puts me to sleep it does nothing for the pain. I think the surgeon believes it should all be better and refuses to listen. My back burns,pulls, feels like I am being stabbed from the inside out, and just plain hurts all the time, so I went back to my surgeon whom without any new x-rays or anything, in fact the last tests he done was 3 months after my surgery and they havent even tried sending me to physical Therapy. This same doctor now tells me they need to go in and take the hardware out. I reminded him of his previous statement about the hardware havin to stay in and he replays it will be fine. My questions are is this anywhere normal, what could happen if they remove the hardware? Will i be in worse shape then I already am? Should I even consider doing the surgery to have it removed? I am very confused and in so much pain that it effects everything in my life. Anyone with any Ideas? Anything Please!\n[doctor] Thanks for writing to us.I understand that you had thoracic spinal fusion for fracture vertebra. If possible please upload the xrays pre and post surgery to know more about the spine. Spine implant usually not removed unless there is a complication related to it. First of all we need to know what is the pain generator? Whats the situation of the implant? If your spine is fused then implant removal can be done provided it needs to establish that thats the pain generator.Please upload the xrays and also get a fresh ct scan of spine. Thanks.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 127,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "compression burst fractures of T-4 and T-5",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 235,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spinal fusion from T-2 through T-8",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 293,
+          "char_end": 318,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "osteoporosis of the spine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 347,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stenosis at multiple levels",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 349,
+          "char_end": 374,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "degenerative disk disease",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 379,
+          "char_end": 387,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kyphosis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 447,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spine wasn't straight",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 482,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 487,
+          "char_end": 493,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "X-rays",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 664,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 683,
+          "char_end": 688,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain chest",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 664,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 702,
+          "char_end": 707,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain hands",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 664,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 690,
+          "char_end": 694,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain back",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 664,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 696,
+          "char_end": 700,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain neck",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 664,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 712,
+          "char_end": 716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain arms",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 681,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in the shoulders",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 730,
+          "char_end": 735,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 745,
+          "char_end": 754,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 764,
+          "char_end": 770,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hands feel like asleep",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 740,
+          "char_end": 754,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 764,
+          "char_end": 770,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arms feel like asleep",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 876,
+          "char_end": 879,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cut",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 909,
+          "char_end": 922,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burn my hands",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1073,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pulling",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1075,
+          "char_end": 1083,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "snapping",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1096,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "popping",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1113,
+          "char_end": 1118,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Norco",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1119,
+          "char_end": 1124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "7.5mg",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1136,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 2 years",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1250,
+          "char_end": 1259,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain meds",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1280,
+          "char_end": 1289,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ibuprofen",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1311,
+          "char_end": 1318,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1346,
+          "char_end": 1352,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1600mg",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1356,
+          "char_end": 1365,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1366,
+          "char_end": 1379,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every 6 hours",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1384,
+          "char_end": 1390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1500mg",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1394,
+          "char_end": 1401,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1402,
+          "char_end": 1415,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every 4 hours",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1434,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1438,
+          "char_end": 1446,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "puts to sleep",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1475,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1556,
+          "char_end": 1566,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back burns",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1710,
+          "char_end": 1716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "x-rays",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1832,
+          "char_end": 1848,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "physical Therapy",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1903,
+          "char_end": 1924,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "take the hardware out",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2103,
+          "char_end": 2122,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "remove the hardware",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2239,
+          "char_end": 2247,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "confused",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2263,
+          "char_end": 2267,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2407,
+          "char_end": 2429,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "thoracic spinal fusion",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2434,
+          "char_end": 2451,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fracture vertebra",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2483,
+          "char_end": 2488,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "xrays",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2661,
+          "char_end": 2665,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2741,
+          "char_end": 2756,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "implant removal",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2815,
+          "char_end": 2819,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2848,
+          "char_end": 2853,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "xrays",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2875,
+          "char_end": 2891,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ct scan of spine",
+      "id": "e51"
+    }
+  ]
+}

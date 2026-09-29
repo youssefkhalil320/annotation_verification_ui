@@ -1,0 +1,441 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:75110:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I went to the doctor today and found out that I have pneumonia. I got a steroid injection and breathing treatment in the office and was sent home with levaquin, albuterol, and cough medicine. My forearms and legs are very tingly and almost numb and heavy feeling. Is this from the steroid injection? I am 23 years old and I have juvenile rheumatoid arthritis so I am also taking humira, methotrexate, plaquenil, and folic acid for the RA. Is this a side effect or a drug reaction or nothing to be concerned about?\n[doctor] Tingling in extremities may be a sign of peripheral neuropathy, wich is most of the cases caused by inflammatory injury to the nerves. Anti-TNF drugs, such as Humira, have been reported to be associated to this kind of injury, that can be potentialized when associated to steroids. You should visit your attending rheumathologist for physical evaluation and apropriate management.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 72,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 89,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 99,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 99,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injection",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 169,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "levaquin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "albuterol",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 200,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cough medicine",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 213,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 259,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "forearms heavy feeling",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 213,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 232,
+          "char_end": 238,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "forearms tingly",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 213,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 250,
+          "char_end": 254,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "forearms numb",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 222,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 259,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "legs heavy feeling",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 222,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 232,
+          "char_end": 238,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "legs tingly",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 222,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 250,
+          "char_end": 254,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "legs numb",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 308,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid injection",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 299,
+          "char_end": 308,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injection",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 368,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "juvenile rheumatoid arthritis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 395,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "humira",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 397,
+          "char_end": 409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "methotrexate",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 420,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "plaquenil",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 436,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "folic acid",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 447,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "RA",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 459,
+          "char_end": 470,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "side effect",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 489,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drug reaction",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 533,
+          "char_end": 556,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Tingling in extremities",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 595,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "peripheral neuropathy",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 633,
+          "char_end": 666,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "inflammatory injury to the nerves",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 682,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Anti-TNF drugs",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 698,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Humira",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 752,
+          "char_end": 758,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "injury",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 805,
+          "char_end": 813,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e31"
+    }
+  ]
+}

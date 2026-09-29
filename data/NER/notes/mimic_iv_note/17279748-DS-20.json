@@ -1,0 +1,1201 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17279748-DS-20:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nlisinopril\n\nChief Complaint:\ntransfer; right leg and groin pain\n\nHistory of Present Illness:\nMs. ___ is a ___ year old woman who presents as an\noutside hospital transfer for concern for right psoas abscess. \n\nShe had a L4-5 discectomy and fusion at ___ on ___ that was\nuncomplicated. She was discharged home on ___ after she\nwas able to ambulate with a walker. On the day of discharge she\nhad some R groin and thigh discomfort. After discharge she\ndeveloped worsening pain. On ___ she developing increasing\npain and difficulty walking. She presented to ___\nwhere a CT pelvis showed a right psoas collection concerning for\nabscess or hematoma. \n\nShe reports that she became concerned when it was hard for her \nto\nwalk even with a walker. She thinks the difficulty walking was\nmostly related to pain rather than overt weakness, though it's\nhard for her to say. \n\nShe has not had any fevers, chills, nausea, vomiting, diarrhea,\ndyspnea, chest pain. Her bilateral leg swelling is stable from\nbefore the procedure. \n\nEMERGENCY DEPARTMENT COURSE\nInitial vital signs were notable for:  \n- T98, HR 80, BP 156/73, RR 18, O2 97% RA\n \nExam notable for: \n- GEN: NAD\n- CV: RRR\n- Abdomen: Obese abdomen, soft, nontender, nondistended\n- Extrem: Lower extremities appear symmetrical, 5 cm area of\necchymosis on the mid anterior thigh, warm and well perfused, 2+\nDP and ___ pulses\n- Back: Lower back incision site is covered by large gauze that\nis partially soaked by blood\n- Neuro: AOx3, sensation intact in the lower extremity, FROM\nwithout pain\n\nLabs were notable for:  \n- CRP 160.1 \n\nPatient was given:  \n- Omeprazole 40mg\n- Metoprolol tartrate 12.5mg \n- Morphine sulfate IV\n- Piperacillin-Tazobactam 4.5g\n- Clindamycin 600mg\n- Atorvastatin 10mg\n- Oxycodone 5mg \n\nConsults: \nNSGY: \"Patient examined and imaging reviewed with Spine \nAttending\nDr. ___. No indication for acute\nneurosurgical intervention. \n\nDiscussed following plan with patient -\n\nRight lower extremity weakness likely secondary to pain. Pain\ngenerator difficult to discern, however, hardware intact without\nevident migration. Recommend admission to Medicine for pain\ncontrol and ___ aspiration of collection in psoas to rule\nout possibility of abscess; or patient may opt for home \ndischarge\ntoday and follow up with her spine surgeon at ___ tomorrow\nduring normal business hours. Discussed likely differential of\npsoas collection (abscess vs. post op changes/hematoma) with\npatient, and that this may be source of pain but unclear.\nDiscussed risks and benefits of either option. Patient to \ndiscuss\ndisposition with ED physician. \n\nNeurosurgery to sign off at this time. Thank you for involving \nus\nin the care of this patient. Please page with any\nneurosurgery-related questions or concerns.\"\n\nVital signs prior to transfer: \n- T98.1, HR 82, BP 115/65, RR 16, O2 96% RA\n\nUpon arrival to the floor: She reports feeling comfortable while\nat rest. Today is her birthday and she tells me the upside is\nthat she will always remember this one. \n\n================= \nREVIEW OF SYSTEMS \n================= \nComplete ROS obtained and is otherwise negative.\n\nBrief Hospital Course:\n___ woman status post recent L4-L5 discectomy who \npresented with right groin pain and difficulty walking with \nimaging evidence of right psoas collection concerning for \nabscess versus hematoma or postsurgical fluid collection.\n\n# Psoas muscle hematoma \nShe presents with several days of right hip pain and difficulty \nambulating after discectomy. Imaging was concerning for fluid \ncollection in the right psoas muscle. She had an ___ guided \ndrainage of was consistent with hematoma. She had no signs of \ninfection such as fever or leukocytosis. She was briefly on \nantibiotics (Vanco, Zosyn in the emergency department), but \nthese were stopped when she arrived to the floor. We touched \nbase with her surgeon Dr. ___ stated that postsurgical \nhematoma would not be unexpected. Her pain was controlled with \noxycodone as needed as well as acetaminophen. At the time of \ndischarge, gram stain showed no evidence of infection. \n\nCHRONIC ISSUES \n============== \n#Hypertension: Held metop tartrate 12.5mg BID given normal BP, \nrestarted on discharge. \n\n#GERD: Continued home omeprazole 40mg BID \n\n#HLD: Continued home atorvastatin 10mg \n\nTRANSITIONAL ISSUES:\n====================\n[ ] CRP elevated to ~170 this admission, likely in setting of \nrecent surgery. Consider interval recheck. \n[ ] Please consider decreasing dose of PPI and eventually \nweaning off given long-term risks.\n\nDischarge Diagnosis:\nRight psoas muscle hematoma",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 59,
+          "turn_id": null
+        },
+        {
+          "char_start": 70,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "right leg pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "groin pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "right psoas abscess",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 245,
+          "turn_id": null
+        }
+      ],
+      "text": "L4-5 discectomy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 256,
+          "turn_id": null
+        }
+      ],
+      "text": "fusion",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 416,
+          "turn_id": null
+        },
+        {
+          "char_start": 427,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "R groin discomfort",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "thigh discomfort",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 483,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 522,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 527,
+          "char_end": 545,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty walking",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 576,
+          "char_end": 585,
+          "turn_id": null
+        }
+      ],
+      "text": "CT pelvis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 617,
+          "turn_id": null
+        }
+      ],
+      "text": "right psoas collection",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 633,
+          "char_end": 640,
+          "turn_id": null
+        }
+      ],
+      "text": "abscess",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 652,
+          "turn_id": null
+        }
+      ],
+      "text": "hematoma",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 706,
+          "char_end": 727,
+          "turn_id": null
+        }
+      ],
+      "text": "hard for her \nto\nwalk",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 763,
+          "char_end": 781,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty walking",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 804,
+          "char_end": 808,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 835,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 892,
+          "char_end": 898,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 906,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 908,
+          "char_end": 914,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 916,
+          "char_end": 924,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 926,
+          "char_end": 934,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 936,
+          "char_end": 943,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 955,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 961,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral leg swelling",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1105,
+          "char_end": 1114,
+          "turn_id": null
+        }
+      ],
+      "text": "BP 156/73",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1292,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "ecchymosis on the mid anterior thigh",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1537,
+          "char_end": 1541,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1573,
+          "turn_id": null
+        }
+      ],
+      "text": "CRP",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1570,
+          "char_end": 1579,
+          "turn_id": null
+        }
+      ],
+      "text": "CRP 160.1",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1605,
+          "char_end": 1615,
+          "turn_id": null
+        }
+      ],
+      "text": "Omeprazole",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1616,
+          "char_end": 1620,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1623,
+          "char_end": 1642,
+          "turn_id": null
+        }
+      ],
+      "text": "Metoprolol tartrate",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1643,
+          "char_end": 1649,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5mg",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1669,
+          "turn_id": null
+        }
+      ],
+      "text": "Morphine sulfate",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1670,
+          "char_end": 1672,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1675,
+          "char_end": 1698,
+          "turn_id": null
+        }
+      ],
+      "text": "Piperacillin-Tazobactam",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1699,
+          "char_end": 1703,
+          "turn_id": null
+        }
+      ],
+      "text": "4.5g",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1706,
+          "char_end": 1717,
+          "turn_id": null
+        }
+      ],
+      "text": "Clindamycin",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1723,
+          "turn_id": null
+        }
+      ],
+      "text": "600mg",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1726,
+          "char_end": 1738,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1739,
+          "char_end": 1743,
+          "turn_id": null
+        }
+      ],
+      "text": "10mg",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1746,
+          "char_end": 1755,
+          "turn_id": null
+        }
+      ],
+      "text": "Oxycodone",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1944,
+          "char_end": 1974,
+          "turn_id": null
+        }
+      ],
+      "text": "Right lower extremity weakness",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1995,
+          "char_end": 1999,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2001,
+          "char_end": 2005,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2126,
+          "char_end": 2130,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2147,
+          "char_end": 2180,
+          "turn_id": null
+        }
+      ],
+      "text": "aspiration of collection in psoas",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2208,
+          "char_end": 2215,
+          "turn_id": null
+        }
+      ],
+      "text": "abscess",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2396,
+          "char_end": 2403,
+          "turn_id": null
+        }
+      ],
+      "text": "abscess",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2408,
+          "char_end": 2423,
+          "turn_id": null
+        }
+      ],
+      "text": "post op changes",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2424,
+          "char_end": 2432,
+          "turn_id": null
+        }
+      ],
+      "text": "hematoma",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3165,
+          "char_end": 3181,
+          "turn_id": null
+        }
+      ],
+      "text": "L4-L5 discectomy",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3202,
+          "char_end": 3218,
+          "turn_id": null
+        }
+      ],
+      "text": "right groin pain",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3223,
+          "char_end": 3241,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty walking",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3268,
+          "char_end": 3290,
+          "turn_id": null
+        }
+      ],
+      "text": "right psoas collection",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3322,
+          "char_end": 3330,
+          "turn_id": null
+        }
+      ],
+      "text": "hematoma",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3334,
+          "char_end": 3363,
+          "turn_id": null
+        }
+      ],
+      "text": "postsurgical fluid collection",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3368,
+          "char_end": 3389,
+          "turn_id": null
+        }
+      ],
+      "text": "Psoas muscle hematoma",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3425,
+          "char_end": 3439,
+          "turn_id": null
+        }
+      ],
+      "text": "right hip pain",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3444,
+          "char_end": 3466,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty \nambulating",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3512,
+          "char_end": 3555,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid \ncollection in the right psoas muscle",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3572,
+          "char_end": 3588,
+          "turn_id": null
+        }
+      ],
+      "text": "guided \ndrainage",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3643,
+          "char_end": 3652,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3670,
+          "char_end": 3682,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3704,
+          "char_end": 3715,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3717,
+          "char_end": 3722,
+          "turn_id": null
+        }
+      ],
+      "text": "Vanco",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3724,
+          "char_end": 3729,
+          "turn_id": null
+        }
+      ],
+      "text": "Zosyn",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3869,
+          "char_end": 3891,
+          "turn_id": null
+        }
+      ],
+      "text": "postsurgical \nhematoma",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3947,
+          "char_end": 3956,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycodone",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3957,
+          "char_end": 3966,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3978,
+          "char_end": 3991,
+          "turn_id": null
+        }
+      ],
+      "text": "acetaminophen",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4020,
+          "char_end": 4030,
+          "turn_id": null
+        }
+      ],
+      "text": "gram stain",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4053,
+          "char_end": 4062,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4099,
+          "char_end": 4111,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4118,
+          "char_end": 4132,
+          "turn_id": null
+        }
+      ],
+      "text": "metop tartrate",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4133,
+          "char_end": 4139,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5mg",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4140,
+          "char_end": 4143,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4189,
+          "char_end": 4193,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4210,
+          "char_end": 4220,
+          "turn_id": null
+        }
+      ],
+      "text": "omeprazole",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4221,
+          "char_end": 4225,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4226,
+          "char_end": 4229,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4233,
+          "char_end": 4236,
+          "turn_id": null
+        }
+      ],
+      "text": "HLD",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4253,
+          "char_end": 4265,
+          "turn_id": null
+        }
+      ],
+      "text": "atorvastatin",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4266,
+          "char_end": 4270,
+          "turn_id": null
+        }
+      ],
+      "text": "10mg",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4319,
+          "char_end": 4322,
+          "turn_id": null
+        }
+      ],
+      "text": "CRP",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4319,
+          "char_end": 4331,
+          "turn_id": null
+        }
+      ],
+      "text": "CRP elevated",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4461,
+          "char_end": 4464,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 4538,
+          "char_end": 4565,
+          "turn_id": null
+        }
+      ],
+      "text": "Right psoas muscle hematoma",
+      "id": "e91"
+    }
+  ]
+}

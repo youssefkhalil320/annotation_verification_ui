@@ -5,9 +5,21 @@
   "text": "Grade Group Underestimation in Prostate Biopsy: Predictive Factors and Outcomes in Candidates for Active Surveillance We intended to analyze the outcomes and predictive factors for underestimating the prostate cancer (PCa) grade group (GG) from prostate biopsies in a large monocentric cohort of patients treated by minimally invasive radical prostatectomy (RP). Using a monocentric prospectively maintained database, we included 3062 patients who underwent minimally invasive RP between 2006 and 2013. We explored clinicopathologic features and outcomes associated with a GG upgrade from biopsy to RP. Multivariate logistic regression was used to develop and validate a nomogram to predict upgrading for GG1. Biopsy GG was upgraded after RP in 51.5% of cases. Patients upgraded from GG1 to GG2 or GG3 after RP had a longer time to biochemical recurrence than those with GG2 or GG3 respectively, on both biopsy and RP, but a shorter time to biochemical recurrence than those who remained GG1 after RP (P < .0001). In multivariate analyses, variables predicting upgrading for GG1 PCa were age (P = .0014), abnormal digital rectal examination (P < .0001), prostate -specific antigen density (P < .0001), percentage of positive cores (P < .0001), and body mass index (P = .037). A nomogram was generated and validated internally. Biopsy grading system is misleading in approximately 50% of cases. Upgrading GG from biopsy to RP may have consequences on clinical outcomes. A nomogram using clinicopathologic features could aid the probability of needing to upgrade GG1 patients at their initial evaluation.",
   "entities": [
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Grade Group Underestimation",
+      "id": "e1"
+    },
+    {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 31,
@@ -16,12 +28,11 @@
         }
       ],
       "text": "Prostate Biopsy",
-      "id": "e1"
+      "id": "e2"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 98,
@@ -30,12 +41,11 @@
         }
       ],
       "text": "Active Surveillance",
-      "id": "e2"
+      "id": "e3"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 201,
@@ -44,26 +54,11 @@
         }
       ],
       "text": "prostate cancer",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 218,
-          "char_end": 221,
-          "turn_id": null
-        }
-      ],
-      "text": "PCa",
       "id": "e4"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 245,
@@ -77,21 +72,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 335,
+          "char_start": 316,
           "char_end": 356,
           "turn_id": null
         }
       ],
-      "text": "radical prostatectomy",
+      "text": "minimally invasive radical prostatectomy",
       "id": "e6"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 358,
@@ -105,21 +98,32 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 477,
+          "char_start": 458,
           "char_end": 479,
           "turn_id": null
         }
       ],
-      "text": "RP",
+      "text": "minimally invasive RP",
       "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 573,
+          "char_end": 583,
+          "turn_id": null
+        }
+      ],
+      "text": "GG upgrade",
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 589,
@@ -128,12 +132,11 @@
         }
       ],
       "text": "biopsy",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 599,
@@ -142,40 +145,29 @@
         }
       ],
       "text": "RP",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 671,
-          "char_end": 679,
-          "turn_id": null
-        }
-      ],
-      "text": "nomogram",
       "id": "e11"
     },
     {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 710,
-          "char_end": 716,
+          "char_end": 719,
+          "turn_id": null
+        },
+        {
+          "char_start": 724,
+          "char_end": 732,
           "turn_id": null
         }
       ],
-      "text": "Biopsy",
+      "text": "Biopsy GG upgraded",
       "id": "e12"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 739,
@@ -187,9 +179,21 @@
       "id": "e13"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 801,
+          "turn_id": null
+        }
+      ],
+      "text": "upgraded from GG1 to GG2 or GG3",
+      "id": "e14"
+    },
+    {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 808,
@@ -198,12 +202,11 @@
         }
       ],
       "text": "RP",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 832,
@@ -212,12 +215,11 @@
         }
       ],
       "text": "biochemical recurrence",
-      "id": "e15"
+      "id": "e16"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 904,
@@ -226,12 +228,11 @@
         }
       ],
       "text": "biopsy",
-      "id": "e16"
+      "id": "e17"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 915,
@@ -240,12 +241,11 @@
         }
       ],
       "text": "RP",
-      "id": "e17"
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 941,
@@ -254,12 +254,11 @@
         }
       ],
       "text": "biochemical recurrence",
-      "id": "e18"
+      "id": "e19"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 998,
@@ -268,26 +267,24 @@
         }
       ],
       "text": "RP",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1079,
-          "char_end": 1082,
-          "turn_id": null
-        }
-      ],
-      "text": "PCa",
       "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1075,
+          "char_end": 1082,
+          "turn_id": null
+        }
+      ],
+      "text": "GG1 PCa",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1105,
@@ -296,12 +293,11 @@
         }
       ],
       "text": "abnormal digital rectal examination",
-      "id": "e21"
+      "id": "e22"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1114,
@@ -310,12 +306,11 @@
         }
       ],
       "text": "digital rectal examination",
-      "id": "e22"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1154,
@@ -324,26 +319,11 @@
         }
       ],
       "text": "prostate -specific antigen density",
-      "id": "e23"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1202,
-          "char_end": 1230,
-          "turn_id": null
-        }
-      ],
-      "text": "percentage of positive cores",
       "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1216,
@@ -357,7 +337,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1248,
@@ -370,36 +349,7 @@
     },
     {
       "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1278,
-          "char_end": 1286,
-          "turn_id": null
-        }
-      ],
-      "text": "nomogram",
-      "id": "e27"
-    },
-    {
-      "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1327,
-          "char_end": 1348,
-          "turn_id": null
-        }
-      ],
-      "text": "Biopsy grading system",
-      "id": "e28"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1412,
@@ -408,12 +358,11 @@
         }
       ],
       "text": "biopsy",
-      "id": "e29"
+      "id": "e27"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1422,
@@ -422,21 +371,7 @@
         }
       ],
       "text": "RP",
-      "id": "e30"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1471,
-          "char_end": 1479,
-          "turn_id": null
-        }
-      ],
-      "text": "nomogram",
-      "id": "e31"
+      "id": "e28"
     }
   ]
 }

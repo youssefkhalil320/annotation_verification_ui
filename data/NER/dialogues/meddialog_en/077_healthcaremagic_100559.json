@@ -1,0 +1,138 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:100559:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] a 21 year old daughter at college. seems to have exercise induced asthma with cold trigger (just recently.) more concerning is two episodes of blurry vision in her right eye, after waking from a nap. Duration less than 5 minutes. One episode had a headache. the Md up at school placed her on prednisone for her lungs, albuterol inhaler, Advair and zyrtec. Could these systems be related to the meds?\n[doctor] Hello.Thank you for asking at HCM.I went through your daughter's history and would like to make suggestions for her as follows:1. I would mostly agree with her current treatment, but were I treating her, I would add montelukast in her treatment.2. Blurring of vision is not a common side effects of these medicines, so personally I would suggest to report the symptom to her treating doctor who may decide further actions.3. I would suggest her to take plenty of fluids during day as well as to have adequate rest, which will be helpful for recovery.Hope above suggestions will be helpful to her.Should you have any further query, please feel free to ask at HCM.Wish your daughter a very good recovery and health.Thank you & Regards.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 82,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "exercise induced asthma",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blurry vision in her right eye",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 266,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headache",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 302,
+          "char_end": 312,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 328,
+          "char_end": 337,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "albuterol",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 345,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 353,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Advair",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 364,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zyrtec",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 646,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "montelukast",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 667,
+          "char_end": 685,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Blurring of vision",
+      "id": "e10"
+    }
+  ]
+}

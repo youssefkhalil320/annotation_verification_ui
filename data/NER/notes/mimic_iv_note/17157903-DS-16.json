@@ -1,0 +1,481 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17157903-DS-16:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nMotrin / Codeine / Celebrex / IV Dye, Iodine Containing Contrast \nMedia / shellfish derived / hydrochlorothiazide / lisinopril / \nNSAIDS (Non-Steroidal Anti-Inflammatory Drug) / rivaroxaban\n\nHistory of Present Illness:\n___ year old male with left shoulder osteoarthritis presenting \nfor elective left reverse total shoulder arthroplasty.\n\nBrief Hospital Course:\nThe patient was admitted to the orthopedic surgery service and \nwas taken to the operating room for above described procedure. \nPlease see separately dictated operative report for details. The \nsurgery was uncomplicated and the patient tolerated the \nprocedure well. Patient received perioperative IV antibiotics.\n\nHis post-operative course was significant for:\nPOD#0 overnight, the patient had low blood pressures and was \ngiven a 500 mL bolus of fluid.  \nPOD#1, his blood pressures remained low (systolics into the \n___, so the patient was given another 500 mL bolus of fluid. \nHematocrit was 21.2 and patient was transfused 2 units pRBCS. \nPost-transfusion hct was 31.9.  His drain was discontinued.\nPOD#2, hematocrit remained stable at 31.8. Patient cleared OT \nwithout further issues.\n\nOtherwise, pain was initially controlled with an intrascalene \nblock followed by a transition to oral pain medications on \nPOD#1.  The patient received Aspirin 81 mg daily and Plavix \nwhile in house for DVT prophylaxis starting on POD#0.  The \npatient was voiding independently prior to discharge. The \nsurgical dressing will remain on until POD#7 after surgery. Labs \nwere checked throughout the hospital course and repleted \naccordingly. At the time of discharge the patient was tolerating \na regular diet and feeling well.  The patient was afebrile with \nstable vital signs.  The patient's hematocrit was acceptable and \npain was adequately controlled on an oral regimen. The operative \nextremity was neurovascularly intact and the dressing was \nintact. \n\nThe patient's weight-bearing status is NON-weight bearing on the \noperative extremity.\n \nMr. ___ is discharged to home with services in stable \ncondition\n\nDischarge Diagnosis:\nleft shoulder osteoarthritis",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "Motrin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "Celebrex",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "IV Dye",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 75,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodine Containing Contrast",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 124,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrochlorothiazide",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 137,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 186,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDS (Non-Steroidal Anti-Inflammatory Drug)",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "rivaroxaban",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 253,
+          "char_end": 281,
+          "turn_id": null
+        }
+      ],
+      "text": "left shoulder osteoarthritis",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 347,
+          "turn_id": null
+        }
+      ],
+      "text": "left reverse total shoulder arthroplasty",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 671,
+          "char_end": 673,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 685,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 787,
+          "turn_id": null
+        }
+      ],
+      "text": "low blood pressures",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 805,
+          "char_end": 811,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mL",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 826,
+          "turn_id": null
+        }
+      ],
+      "text": "bolus of fluid",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 841,
+          "char_end": 856,
+          "turn_id": null
+        },
+        {
+          "char_start": 866,
+          "char_end": 869,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures low",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 929,
+          "char_end": 935,
+          "turn_id": null
+        }
+      ],
+      "text": "500 mL",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 936,
+          "char_end": 950,
+          "turn_id": null
+        }
+      ],
+      "text": "bolus of fluid",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 953,
+          "char_end": 963,
+          "turn_id": null
+        }
+      ],
+      "text": "Hematocrit",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 989,
+          "char_end": 1013,
+          "turn_id": null
+        }
+      ],
+      "text": "transfused 2 units pRBCS",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1033,
+          "char_end": 1036,
+          "turn_id": null
+        }
+      ],
+      "text": "hct",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1083,
+          "char_end": 1093,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1135,
+          "char_end": 1137,
+          "turn_id": null
+        }
+      ],
+      "text": "OT",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1261,
+          "char_end": 1265,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1266,
+          "char_end": 1270,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1266,
+          "char_end": 1282,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1316,
+          "char_end": 1323,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1324,
+          "char_end": 1329,
+          "turn_id": null
+        }
+      ],
+      "text": "81 mg",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1330,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1340,
+          "char_end": 1346,
+          "turn_id": null
+        }
+      ],
+      "text": "Plavix",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1367,
+          "char_end": 1370,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1531,
+          "turn_id": null
+        }
+      ],
+      "text": "Labs",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1757,
+          "char_end": 1767,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2099,
+          "char_end": 2127,
+          "turn_id": null
+        }
+      ],
+      "text": "left shoulder osteoarthritis",
+      "id": "e36"
+    }
+  ]
+}

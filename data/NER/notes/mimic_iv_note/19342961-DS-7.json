@@ -1,0 +1,1248 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19342961-DS-7:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nChief Complaint:\nHeadache, abdominal pain, and weakness\n\nHistory of Present Illness:\nHistory obtained with ___ interpreter at bedside. Pt is a ___ \nyear old ___ speaking woman with a H/O of afib, HTN, \nasthma and recent ICH s/p evacuation on ___ at ___ most \nrecently admitted from rehab with HA, \nfever, confusion ___. LP showed 660 WBC and culture was \npositive for coagulase negative staph resistant to PCN, but \nsensitive to Vancomycin. She was discharged back to rehab \n(___) on IV Vanco x 3 weeks, which ended ysterday. \n\nShe now returns with c/o headaches, abdominal pain, and \nbilateral ___ weakness. In the ED an LP showed 19 WBC, 400 RBCs, \nxanthocromic and clear CSF. UA showed leukocytes. She received \nIV Cipro, ceftriaxone, and vancomycin. She was afebrile. No \nleukocytosis on CBC. Head CT w/o contrast initial reading \nnegative for acute changes. No new bleeds.\n\nBy the time she arrived to the floor, she states her headache \nhas resolved completely. She is alert and oriented x 3. She \ndenies nausea, vomiting, or neck stiffness. She was alert and \noriented. She states she has chronic epigastric pain which is \nunchanged. She denies chest pain. ROS is also positive for new \nurinary incontinance - \"leakage\", urinary urgency without \ndysuria. She denies weakness but states that she is dizzy when \nsitting up and standing. No sensory complaints. ROS: all other \nsystems negative.\n\nBrief Hospital Course:\n___ old woman s/p ICH while on coumadin for A.fib is \ntransferred from ___ rehab for weakness, abd pain, HA. By \nsystem:\n\n1. Headache - Likely tension headache.  Her symptoms resolved by \nthe time she reached the floor. No evidence of meningitis. LP \nwas negative. Received IV Cipro, Ceftriaxone, and Vanco IV in \nthe ED. These were not continued. She just finshed a 3 week \ncourse of IV Vanco. CSF cultures were negative.  Head CT did not \nshow new intracranial hemorrhage.  Patient was given tylenol \nprn.\n\n2. UTI - Patient started on Cipro.  Urine cx later came back \nnegative.  She was given 3 days of antibiotics.\n\n3. Urinary incontinence - continue ditropan\n\n4. Constipation - Likely contributing to abdominal discomfort.  \nPatient given aggresive bowel regimen. Patient had no abd pain \nat discharge.\n\n5. Dyspepsia:  COntinued PPI and gave TUMS prn.  Likely \ncontributing to abd discomfort.\n\n6. Atrial Fibrillation - Rate well controlled. On Ca-channel \nblocker and beta blocker. On ASA for anticoagulation, which is \nappropriate given her history. Will need to get OK from \nneurosurgery before resuming coumadin.\n\n7. Hypertension - Continued metoprolol and diltiazem\n\n8. Code status - full.\n\n9. Dispo - Patient discharged back to ___ rehab in stable \ncondition.\n\nDischarge Diagnosis:\nUrinary tract infection\nTension headache\nDyspepsia",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 92,
+          "turn_id": null
+        }
+      ],
+      "text": "Headache",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 114,
+          "char_end": 122,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 257,
+          "char_end": 261,
+          "turn_id": null
+        }
+      ],
+      "text": "afib",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 266,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 287,
+          "char_end": 290,
+          "turn_id": null
+        }
+      ],
+      "text": "ICH",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 305,
+          "turn_id": null
+        }
+      ],
+      "text": "evacuation",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 360,
+          "char_end": 362,
+          "turn_id": null
+        }
+      ],
+      "text": "HA",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 370,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 381,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 387,
+          "char_end": 389,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 404,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 416,
+          "turn_id": null
+        }
+      ],
+      "text": "culture",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 473,
+          "char_end": 476,
+          "turn_id": null
+        }
+      ],
+      "text": "PCN",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 496,
+          "char_end": 506,
+          "turn_id": null
+        }
+      ],
+      "text": "Vancomycin",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 551,
+          "char_end": 553,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 554,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "Vanco",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 560,
+          "char_end": 569,
+          "turn_id": null
+        }
+      ],
+      "text": "x 3 weeks",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 645,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 674,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 691,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 705,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 711,
+          "char_end": 715,
+          "turn_id": null
+        }
+      ],
+      "text": "RBCs",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 718,
+          "char_end": 730,
+          "turn_id": null
+        },
+        {
+          "char_start": 741,
+          "char_end": 744,
+          "turn_id": null
+        }
+      ],
+      "text": "xanthocromic CSF",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 746,
+          "char_end": 748,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 756,
+          "char_end": 766,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytes",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 782,
+          "char_end": 784,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 785,
+          "char_end": 790,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 803,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 809,
+          "char_end": 819,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 843,
+          "char_end": 855,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 862,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 864,
+          "char_end": 884,
+          "turn_id": null
+        }
+      ],
+      "text": "Head CT w/o contrast",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 943,
+          "turn_id": null
+        }
+      ],
+      "text": "new bleeds",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1077,
+          "char_end": 1083,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1085,
+          "char_end": 1093,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1098,
+          "char_end": 1112,
+          "turn_id": null
+        }
+      ],
+      "text": "neck stiffness",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1170,
+          "char_end": 1185,
+          "turn_id": null
+        }
+      ],
+      "text": "epigastric pain",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1218,
+          "char_end": 1228,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1280,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary incontinance",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1284,
+          "char_end": 1291,
+          "turn_id": null
+        }
+      ],
+      "text": "leakage",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1294,
+          "char_end": 1309,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary urgency",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1319,
+          "char_end": 1326,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1339,
+          "char_end": 1347,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1371,
+          "char_end": 1376,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1507,
+          "char_end": 1510,
+          "turn_id": null
+        }
+      ],
+      "text": "ICH",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1520,
+          "char_end": 1528,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1535,
+          "char_end": 1538,
+          "turn_id": null
+        }
+      ],
+      "text": "fib",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1582,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1584,
+          "char_end": 1592,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1596,
+          "turn_id": null
+        }
+      ],
+      "text": "HA",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1614,
+          "char_end": 1622,
+          "turn_id": null
+        }
+      ],
+      "text": "Headache",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1632,
+          "char_end": 1648,
+          "turn_id": null
+        }
+      ],
+      "text": "tension headache",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1724,
+          "char_end": 1734,
+          "turn_id": null
+        }
+      ],
+      "text": "meningitis",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1736,
+          "char_end": 1738,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1763,
+          "char_end": 1765,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1766,
+          "char_end": 1771,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1773,
+          "char_end": 1784,
+          "turn_id": null
+        }
+      ],
+      "text": "Ceftriaxone",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1790,
+          "char_end": 1795,
+          "turn_id": null
+        }
+      ],
+      "text": "Vanco",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1796,
+          "char_end": 1798,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1856,
+          "char_end": 1870,
+          "turn_id": null
+        }
+      ],
+      "text": "3 week \ncourse",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1874,
+          "char_end": 1876,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1884,
+          "char_end": 1896,
+          "turn_id": null
+        }
+      ],
+      "text": "CSF cultures",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1913,
+          "char_end": 1920,
+          "turn_id": null
+        }
+      ],
+      "text": "Head CT",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1939,
+          "char_end": 1962,
+          "turn_id": null
+        }
+      ],
+      "text": "intracranial hemorrhage",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1983,
+          "char_end": 1990,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1992,
+          "char_end": 1995,
+          "turn_id": null
+        }
+      ],
+      "text": "prn",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2001,
+          "char_end": 2004,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2026,
+          "char_end": 2031,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2034,
+          "char_end": 2042,
+          "turn_id": null
+        }
+      ],
+      "text": "Urine cx",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2085,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "3 days",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2095,
+          "char_end": 2106,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2112,
+          "char_end": 2132,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinary incontinence",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2144,
+          "char_end": 2152,
+          "turn_id": null
+        }
+      ],
+      "text": "ditropan",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2157,
+          "char_end": 2169,
+          "turn_id": null
+        }
+      ],
+      "text": "Constipation",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2195,
+          "char_end": 2215,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal discomfort",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2273,
+          "char_end": 2281,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2301,
+          "char_end": 2310,
+          "turn_id": null
+        }
+      ],
+      "text": "Dyspepsia",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2323,
+          "char_end": 2326,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2336,
+          "char_end": 2340,
+          "turn_id": null
+        }
+      ],
+      "text": "TUMS",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2341,
+          "char_end": 2344,
+          "turn_id": null
+        }
+      ],
+      "text": "prn",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2371,
+          "char_end": 2385,
+          "turn_id": null
+        }
+      ],
+      "text": "abd discomfort",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2391,
+          "char_end": 2410,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial Fibrillation",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2438,
+          "char_end": 2457,
+          "turn_id": null
+        }
+      ],
+      "text": "Ca-channel \nblocker",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2462,
+          "char_end": 2474,
+          "turn_id": null
+        }
+      ],
+      "text": "beta blocker",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2479,
+          "char_end": 2482,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2600,
+          "char_end": 2608,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2614,
+          "char_end": 2626,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2639,
+          "char_end": 2649,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2654,
+          "char_end": 2663,
+          "turn_id": null
+        }
+      ],
+      "text": "diltiazem",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2781,
+          "char_end": 2804,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinary tract infection",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2805,
+          "char_end": 2821,
+          "turn_id": null
+        }
+      ],
+      "text": "Tension headache",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2822,
+          "char_end": 2831,
+          "turn_id": null
+        }
+      ],
+      "text": "Dyspepsia",
+      "id": "e95"
+    }
+  ]
+}

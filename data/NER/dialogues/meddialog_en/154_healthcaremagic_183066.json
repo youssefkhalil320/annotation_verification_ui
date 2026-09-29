@@ -1,0 +1,151 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:183066:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] 2 days ago, I had a teeth extraction. Right after I took the prescribed antibiotic, I noticed severe cramping. Hours later, I had heavy bleeding til now. I ve had my Mirena inserted on 10/26/13 and had a recent checkup on 08/02/14. In the shower, I noticed some fishing pole string look-alike sticking out of my vagina. I was too scared to pull or check on it from the inside. I heard from my sister that her friend had the Mirena and experienced the same thing and her friend had her uterus removed because of the IUD. Is the same thing going to happen to me? And tomorrow is Sunday so planned parenthood is closed. What do I do? I am freaking out right now.\n[doctor] Hi,Thanks for posting the query,   I would suggest you to consult to an nearby OBGYN and get the appliance checked, i would like to tell you that tooth extraction will not have any affect on the appliance which you are wearing, get it checked.Hope you find this as helpful,Take care!",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 46,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "teeth extraction",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 92,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 119,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cramping",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 154,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bleeding",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 182,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mirena",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 191,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mirena inserted",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 328,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fishing pole string look-alike sticking out of my vagina",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 440,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mirena",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 495,
+          "char_end": 509,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "uterus removed",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 646,
+          "char_end": 658,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "freaking out",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 841,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tooth extraction",
+      "id": "e11"
+    }
+  ]
+}

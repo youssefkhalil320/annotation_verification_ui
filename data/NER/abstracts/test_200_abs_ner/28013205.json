@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 23,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 46,
@@ -34,8 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 154,
@@ -48,8 +45,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 175,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 182,
@@ -76,8 +71,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 268,
@@ -89,9 +83,21 @@
       "id": "e6"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "SSc",
+      "id": "e7"
+    },
+    {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 469,
@@ -100,12 +106,11 @@
         }
       ],
       "text": "Jorge-Wexner score",
-      "id": "e7"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 492,
@@ -114,12 +119,11 @@
         }
       ],
       "text": "FI",
-      "id": "e8"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 512,
@@ -128,12 +132,24 @@
         }
       ],
       "text": "Bristol stool scale",
-      "id": "e9"
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 576,
+          "turn_id": null
+        }
+      ],
+      "text": "FI",
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 574,
@@ -142,12 +158,11 @@
         }
       ],
       "text": "FI Quality-of-Life scale",
-      "id": "e10"
+      "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 600,
@@ -156,12 +171,11 @@
         }
       ],
       "text": "Constipation",
-      "id": "e11"
+      "id": "e13"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 632,
@@ -170,12 +184,11 @@
         }
       ],
       "text": "Rome III criteria",
-      "id": "e12"
+      "id": "e14"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 676,
@@ -184,12 +197,11 @@
         }
       ],
       "text": "Jorge-Wexner score",
-      "id": "e13"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 812,
@@ -198,12 +210,11 @@
         }
       ],
       "text": "FI",
-      "id": "e14"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 942,
@@ -212,12 +223,11 @@
         }
       ],
       "text": "constipation",
-      "id": "e15"
+      "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1002,
@@ -226,12 +236,11 @@
         }
       ],
       "text": "small intestinal bacterial overgrowth",
-      "id": "e16"
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1041,
@@ -240,12 +249,11 @@
         }
       ],
       "text": "SIBO",
-      "id": "e17"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1088,
@@ -254,12 +262,11 @@
         }
       ],
       "text": "FI",
-      "id": "e18"
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1097,
@@ -273,12 +280,11 @@
         }
       ],
       "text": "loose stools",
-      "id": "e19"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1173,
@@ -287,12 +293,11 @@
         }
       ],
       "text": "constipation",
-      "id": "e20"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1241,
@@ -301,12 +306,11 @@
         }
       ],
       "text": "SIBO",
-      "id": "e21"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1282,
@@ -315,12 +319,24 @@
         }
       ],
       "text": "urinary incontinence",
-      "id": "e22"
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1370,
+          "char_end": 1372,
+          "turn_id": null
+        }
+      ],
+      "text": "FI",
+      "id": "e25"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1370,
@@ -329,12 +345,11 @@
         }
       ],
       "text": "FI Quality-of-Life scale",
-      "id": "e23"
+      "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1425,
@@ -343,12 +358,11 @@
         }
       ],
       "text": "FI",
-      "id": "e24"
+      "id": "e27"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1502,
@@ -357,12 +371,11 @@
         }
       ],
       "text": "FI",
-      "id": "e25"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1536,
@@ -371,12 +384,11 @@
         }
       ],
       "text": "SSc",
-      "id": "e26"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1541,
@@ -385,12 +397,11 @@
         }
       ],
       "text": "Loose stools",
-      "id": "e27"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1555,
@@ -399,12 +410,11 @@
         }
       ],
       "text": "SIBO",
-      "id": "e28"
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1561,
@@ -413,12 +423,11 @@
         }
       ],
       "text": "constipation",
-      "id": "e29"
+      "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1578,
@@ -427,12 +436,11 @@
         }
       ],
       "text": "urinary incontinence",
-      "id": "e30"
+      "id": "e33"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 1629,
@@ -441,12 +449,11 @@
         }
       ],
       "text": "FI",
-      "id": "e31"
+      "id": "e34"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1654,
@@ -455,26 +462,11 @@
         }
       ],
       "text": "anorectal dysfunction",
-      "id": "e32"
+      "id": "e35"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1751,
-          "char_end": 1753,
-          "turn_id": null
-        }
-      ],
-      "text": "FI",
-      "id": "e33"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1777,
@@ -483,7 +475,7 @@
         }
       ],
       "text": "SSc",
-      "id": "e34"
+      "id": "e36"
     }
   ]
 }

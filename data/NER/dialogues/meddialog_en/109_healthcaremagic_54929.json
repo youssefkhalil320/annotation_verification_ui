@@ -1,0 +1,385 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:54929:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have RUQ pain. It initially started after my PCP switched me from Metformin to Janumet. The pain started 3 days after starting this medication. Stopped med on 4th day and went back on Metformin. Blood work showed elevated Liver enzymes...low 100 s. Pain continues to be interrmittent. Does not go thru to the back. No nausea, vomiting, diarrhea.. No major weight loss. All vital signs normal. I had CT with contrast of the abdomen which is normal (small fatty infiltrate of liver). PMH: Endometral CA (had hysterectomy), DM Type II, Thyroidectomy (non-cancer). My question is....could this be pancreatic cancer?? I am not seeing the symptoms, but I am concerned..or if not ... what??... where do I go from here?\n[doctor] hi.noted history of RUQ pain and existing co-morbidities. it is possible that you have a gallstone disease. it could also be any pathology somewhere along your hepaticopancreaticobiliary tree area. it is best if you consult with a doctor, preferably a gastroenterologist or a general surgeon, for physical examination and clinical evaluation. other diagnostics (such as pancreatic enzymes, liver function tests, blood count, etc.) and management (medical and/or surgical if indications are found) will be directed accordingly. if it is indeed of gallstone in etiology, definitive treatment is surgical removal of the gallbladder or cholecystectomy. it can be done laparoscopically (goldstandard) or thru open technique. low fat diet is also advised.hope this helps.good day!!~dr.kaye",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 25,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "RUQ pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 87,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Metformin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Janumet",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 178,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4th day",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Metformin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 217,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Blood work",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 247,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "elevated Liver enzymes",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 247,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Liver enzymes",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 265,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 336,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 346,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 348,
+          "char_end": 356,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 368,
+          "char_end": 379,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weight loss",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 442,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CT with contrast of the abdomen",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 466,
+          "char_end": 491,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fatty infiltrate of liver",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 499,
+          "char_end": 512,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Endometral CA",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 530,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hysterectomy",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 533,
+          "char_end": 543,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "DM Type II",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 558,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Thyroidectomy",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 570,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cancer",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 605,
+          "char_end": 622,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pancreatic cancer",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 753,
+          "char_end": 761,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "RUQ pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 822,
+          "char_end": 839,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gallstone disease",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1103,
+          "char_end": 1121,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pancreatic enzymes",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1123,
+          "char_end": 1143,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "liver function tests",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1145,
+          "char_end": 1156,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood count",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1279,
+          "char_end": 1288,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gallstone",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1326,
+          "char_end": 1361,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "surgical removal of the gallbladder",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1365,
+          "char_end": 1380,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e29"
+    }
+  ]
+}

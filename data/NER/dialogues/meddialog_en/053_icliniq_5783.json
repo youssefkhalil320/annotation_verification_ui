@@ -1,0 +1,382 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:5783:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi doctor, I am writing about my mother who died 22 days back at the age of 76. For nearly ten years, she suffered from bronchiectasis and was treated with Cortisone. Five years back, because of a general illness (insomnia, tremors and loss of appetite) we went to a few specialists such as dietician and homeopathy doctor. After several failures, he prescribed the Levobren that my mother took in the dose of 15 drops per day. My mother took the drug continuously for a year and a half. After six months from beginning, she could not move the fingers of her right hand and this paresis gradually extended to the arm. In addition to this, she spent most of the day sleeping and she was in a state of mental confusion with low emotional and impulse control. After a geriatric hospitalization last year, it was denied that she suffered from Alzheimer's and was recommended a neurological examination. The neurologist, seeing that she was taking the Levobren from three years, was alarmed and suspended it. My mother was hospitalized in the neurology department where she was diagnosed of motor neuron disease. We decided to start a course of physiotherapy which initially seemed to give results, but then the paresis started to extend from the arm to the right leg, while the left part had no problem. Last month, due to a general illness, loss of swallowing reflex and aphonia she could not maintain an upright position and to presumed aspiration pneumonia, she was hospitalized and she died. Taking into account that by specialist examinations made after the first neurological examination no one has ever confirmed the motor neuron disease, and no one knew how to cure her since she was not included in the protocol of no diagnosis. I would wonder if all this could be caused from taking that drug. I am still clueless as to why my mother died?\n[doctor] Hi. Sorry to hear about your mother. For further information consult a neurologist online --> https://www.icliniq.com/ask-a-doctor-online/neurologist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 144,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bronchiectasis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 175,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cortisone",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 224,
+          "char_end": 232,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 241,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremors",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 262,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "loss of appetite",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 384,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Levobren",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 428,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "15 drops",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 436,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 462,
+          "char_end": 474,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "continuously",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 475,
+          "char_end": 496,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a year and a half",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 535,
+          "char_end": 540,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 545,
+          "char_end": 579,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "could move the fingers of her right hand",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 589,
+          "char_end": 626,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "paresis gradually extended to the arm",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 653,
+          "char_end": 683,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spent most of the day sleeping",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 726,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mental confusion",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 765,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "low emotional and impulse control",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 849,
+          "char_end": 860,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Alzheimer's",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 883,
+          "char_end": 907,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "neurological examination",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 957,
+          "char_end": 965,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Levobren",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 966,
+          "char_end": 982,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "from three years",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1096,
+          "char_end": 1116,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "motor neuron disease",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "physiotherapy",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1217,
+          "char_end": 1272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "paresis started to extend from the arm to the right leg",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1348,
+          "char_end": 1373,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "loss of swallowing reflex",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1378,
+          "char_end": 1385,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "aphonia",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1390,
+          "char_end": 1395,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1400,
+          "char_end": 1428,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "could maintain an upright position",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1445,
+          "char_end": 1465,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "aspiration pneumonia",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1575,
+          "char_end": 1599,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "neurological examination",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1630,
+          "char_end": 1650,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "motor neuron disease",
+      "id": "e28"
+    }
+  ]
+}

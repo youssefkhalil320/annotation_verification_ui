@@ -1,0 +1,637 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:5382:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I found I am vitamin D deficient for the past five months. My vitamin D3 level was 7.04 (too low). So the doctor prescribed DV 60K once a week for two months and then once in a month. I am having this medicine for three months. I was fine and had no pain. Now already I took 15 pills in a period of three months. Now I am having pain all over the body. Hand pain, joint pain, and lower leg pain, even I took rest but it is still there.  I did blood work. Everything looks fine and within normal range except high cholesterol. My calcium level is good 10.1 mg/dl. I feel tired and fatigued all the time. I got watery stools for the past three months, I know this is not diarrhea. My stool is clear and no WBC in it. My urine is clear. I got a gland on the floor of teeth and a small lymph node in the neck. I completed an antibiotic course for it, but they are not going to its original size. My question is why am I having pain all the over the body even when I am having a high dose of vitamin D (DV 60K)? My calcium level is good but why I feel bone pain? Why I am having watery stools? I am vitamin D deficient so do I have cancer?\n[doctor] Hi. See muscle pain or joint pains, watery motions are some of the side effects of vitamin D. These symptoms can also be seen in thyroid problems or diabetes. You have mentioned that your blood reports are fine, but have you been tested for thyroid and diabetes? No, definitely it is not cancer so relax. My advice to you is to take vitamin D once in two months instead of monthly once. Get exposed to bright sunlight. Repeat vitamin D test after two months.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 56,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D deficient",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 102,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 113,
+          "char_end": 120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D3 level too low",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 102,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D3 level",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 154,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "DV 60K",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 166,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once a week",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 181,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for two months",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 206,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once in a month",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 250,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for three months",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 274,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 308,
+          "char_end": 335,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "in a period of three months",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 353,
+          "char_end": 375,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain all over the body",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 377,
+          "char_end": 386,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hand pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 388,
+          "char_end": 398,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "joint pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 418,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower leg pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 477,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood work",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 532,
+          "char_end": 548,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high cholesterol",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 553,
+          "char_end": 566,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "calcium level",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 599,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tired",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 604,
+          "char_end": 612,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fatigued",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 633,
+          "char_end": 646,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "watery stools",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 693,
+          "char_end": 701,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 731,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "WBC",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 731,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "WBC",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 793,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gland on the floor of teeth",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 806,
+          "char_end": 828,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lymph node in the neck",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 855,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 947,
+          "char_end": 973,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain all the over the body",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 998,
+          "char_end": 1007,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high dose",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1011,
+          "char_end": 1020,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1022,
+          "char_end": 1028,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "DV 60K",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1047,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "calcium level",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1071,
+          "char_end": 1080,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bone pain",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1098,
+          "char_end": 1111,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "watery stools",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1118,
+          "char_end": 1137,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D deficient",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1151,
+          "char_end": 1157,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cancer",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1187,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "muscle pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1191,
+          "char_end": 1202,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "joint pains",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1204,
+          "char_end": 1218,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "watery motions",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1260,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1297,
+          "char_end": 1313,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "thyroid problems",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1317,
+          "char_end": 1325,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1356,
+          "char_end": 1369,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood reports",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1421,
+          "char_end": 1429,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1456,
+          "char_end": 1462,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cancer",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1510,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1511,
+          "char_end": 1529,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "once in two months",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1541,
+          "char_end": 1553,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "monthly once",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1608,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin D test",
+      "id": "e48"
+    }
+  ]
+}

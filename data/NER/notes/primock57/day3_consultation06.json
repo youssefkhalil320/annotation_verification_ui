@@ -1,0 +1,151 @@
+{
+  "doc_id": "PRIMOCK57:day3_consultation06:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "History : breathing difficulty for past 20 minutes after being bitten by wasp \nThere is some blotching rash seen \ntingling feeling around your lips \nno closing of the throat feeling \nno previous similar history \nPast medical history:\nEczema \nAllergic to penicillin\nPlan : advised to start on antihistamines straight away. It might be just urticaria ( Hives)Call the ambulance to r/o possible anaphylactic reaction \n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "breathing difficulty",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "blotching rash",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 114,
+          "char_end": 147,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling feeling around your lips",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 181,
+          "turn_id": null
+        }
+      ],
+      "text": "closing of the throat feeling",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 240,
+          "turn_id": null
+        }
+      ],
+      "text": "Eczema",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 242,
+          "char_end": 264,
+          "turn_id": null
+        }
+      ],
+      "text": "Allergic to penicillin",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 264,
+          "turn_id": null
+        }
+      ],
+      "text": "penicillin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 292,
+          "char_end": 306,
+          "turn_id": null
+        }
+      ],
+      "text": "antihistamines",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 348,
+          "turn_id": null
+        }
+      ],
+      "text": "urticaria",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 356,
+          "turn_id": null
+        }
+      ],
+      "text": "Hives",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 413,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactic reaction",
+      "id": "e11"
+    }
+  ]
+}

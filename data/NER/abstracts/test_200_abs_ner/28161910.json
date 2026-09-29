@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 93,
@@ -20,8 +19,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 179,
@@ -34,8 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 206,
@@ -48,8 +45,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 387,
@@ -62,8 +58,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 430,
@@ -76,8 +71,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 465,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 549,
@@ -104,8 +97,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 580,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 605,
@@ -133,26 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 689,
-          "char_end": 703,
-          "turn_id": null
-        },
-        {
-          "char_start": 725,
-          "char_end": 731,
-          "turn_id": null
-        }
-      ],
-      "text": "hepatocellular injury",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 707,
@@ -161,12 +132,11 @@
         }
       ],
       "text": "cholestatic/mixed injury",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 931,
@@ -175,12 +145,11 @@
         }
       ],
       "text": "Hepatocellular injury",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1110,
@@ -189,12 +158,11 @@
         }
       ],
       "text": "interface hepatitis",
-      "id": "e13"
+      "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1143,
@@ -203,12 +171,11 @@
         }
       ],
       "text": "biopsies",
-      "id": "e14"
+      "id": "e13"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1276,
@@ -217,12 +184,11 @@
         }
       ],
       "text": "biopsies",
-      "id": "e15"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1309,
@@ -231,12 +197,11 @@
         }
       ],
       "text": "plasma cell infiltration",
-      "id": "e16"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1335,
@@ -245,12 +210,11 @@
         }
       ],
       "text": "hepatocyte apoptosis",
-      "id": "e17"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1357,
@@ -259,12 +223,11 @@
         }
       ],
       "text": "hepatocyte rosettes",
-      "id": "e18"
+      "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1381,
@@ -273,12 +236,11 @@
         }
       ],
       "text": "lobular disarray",
-      "id": "e19"
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1407,
@@ -287,26 +249,24 @@
         }
       ],
       "text": "iron - positive hepatocytes",
-      "id": "e20"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1452,
+          "char_start": 1439,
           "char_end": 1463,
           "turn_id": null
         }
       ],
-      "text": "cholestasis",
-      "id": "e21"
+      "text": "histological cholestasis",
+      "id": "e20"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1527,
@@ -315,12 +275,11 @@
         }
       ],
       "text": "amoxicillin/clavulanic acid",
-      "id": "e22"
+      "id": "e21"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1556,
@@ -329,12 +288,11 @@
         }
       ],
       "text": "anabolic steroids",
-      "id": "e23"
+      "id": "e22"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1577,
@@ -343,12 +301,11 @@
         }
       ],
       "text": "nitrofurantoin",
-      "id": "e24"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1592,
@@ -357,7 +314,7 @@
         }
       ],
       "text": "DILI",
-      "id": "e25"
+      "id": "e24"
     }
   ]
 }

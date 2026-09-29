@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 34,
@@ -34,8 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 96,
@@ -47,23 +44,8 @@
       "id": "e3"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 149,
-          "char_end": 159,
-          "turn_id": null
-        }
-      ],
-      "text": "loss 20lbs",
-      "id": "e4"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 168,
@@ -72,12 +54,11 @@
         }
       ],
       "text": "Cymbalta",
-      "id": "e5"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 219,
@@ -86,12 +67,11 @@
         }
       ],
       "text": "cancer",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 264,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "hormones",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 300,
@@ -114,12 +93,11 @@
         }
       ],
       "text": "Cymbalta",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 389,
@@ -128,12 +106,11 @@
         }
       ],
       "text": "pain",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 398,
@@ -142,7 +119,7 @@
         }
       ],
       "text": "anxiety",
-      "id": "e10"
+      "id": "e9"
     }
   ]
 }

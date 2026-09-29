@@ -1,0 +1,1107 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17657210-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCipro\n\nChief Complaint:\nRight knee infections s/p R quad tendon\nrupture repair ___, ___\n\nHistory of Present Illness:\n___ old man with a past medical history of diabetes, \nhypertension, obesity, OSA, atrial fibrillation on apixaban, ASD \ns/p remote surgical repair in ___, non-Hodgkin's lymphoma s/p \nXRT/chemotherapy at ___ last treatment ___ years ago), \nsubsequent constrictive and restrictive cardiomyopathy, who had \na recent R quadriceps tendon rupture repair ___, ___ \nafter falling on black ice. He was followed post-op for poor \nwound healing. 8 weeks after surgery, he continued to have \ndrainage and progressive erythema. He was seen by Dr. ___ in \nclinic yesterday who recommended I&D. Mr. ___ was in \nagreement with this and presents today for the procedure.\n\nBrief Hospital Course:\nThe patient presented as a same day admission for surgery. The \npatient was taken to the operating room on ___ for R knee I&D \nwith wound vac, which the patient tolerated well. The patients \nwound vac was discontinued after a clot on ___ and he was \ntherefore taken back to the OR on ___ for R knee I&D, partial \nrepair of quadriceps tendon, ex fix application and wVAC w/ \nincorporated drain tubing which the patient tolerated well. On \n___, he was taken back to the OR for I&D and closure of his \nwound. For full details of the procedures please see the \nseparately dictated operative reports. The patient was taken \nfrom the OR to the PACU in stable condition after each surgery \nand after satisfactory recovery from anesthesia was transferred \nto the floor. The patient was initially given IV fluids and IV \npain medications, and progressed to a regular diet by POD#1. The \npatient was given antibiotics per ID and lovenox 40mg (and held \nhis apixaban following a cardiology consult). The patient's home \nmedications were continued throughout this hospitalization. He \nwas transitioned back to his home apixaban prior to discharge. \nThe patient worked with ___ who determined that discharge to \nrehab was appropriate. The ___ hospital course was \notherwise unremarkable.\n\nAt the time of discharge the patient's pain was well controlled \nwith oral medications, incisions were clean/dry/intact, and the \npatient was voiding/moving bowels spontaneously. The patient is \ntouch down weight bearing in the R lower extremity, and will be \ndischarged on home apixaban for DVT prophylaxis. The patient \nwill follow up with Dr. ___ routine. A thorough \ndiscussion was had with the patient regarding the diagnosis and \nexpected post-discharge course including reasons to call the \noffice or return to the hospital, and all questions were \nanswered. The patient was also given written instructions \nconcerning precautionary instructions and the appropriate \nfollow-up care. The patient expressed readiness for discharge.\n\nInfectious Disease team recommendations:\nMr. ___ is a ___ with past medical history of diabetes, \nHTN,\nOSA, atrial fibrillation, ASD s/p repair (___), Non-Hodgkin's\nLymphoma (s/p XRT/chemo at ___, with last treatment ___ years\nago), venous stasis and cardiomyopathy, who had a quadriceps\ntendon rupture repair on ___. He had poor wound healing \nafter\nsurgery, and approximately 8 weeks after surgery, he was taken \nto\nthe OR for washout of R knee on ___. After his wound vac\nclotted on ___, patient was taken back to the OR on ___ for\nrepeat I&D of his R knee with replacement of wound vac and \nex-fix\nplacement. He returned to the OR on ___ for repeat irrigation\nand debridement, and final closure of wound. \n\nAll five intraoperative cultures from R knee washout grew\nEnterobacter aerogenes. Patient on cefepime since ___, but\nplan to transition to meropenem at time of discharge. \nVancomycin added on ___ for speciation of Corynebacterium on\ncultures. Recommend continuing on vancomycin \nFlagyl PO added on ___ for peptostrepto speciation on anaerobic\nculture. Plan to d/c PO Flagyl once patient is transitioned from\nCefepime to Meropenem.\n\nRecommend extended course of antibiotics for ___ weeks from\nfinal washout and closure (___) due to concern for\nosteomyelitis.\n\nWeekly safety labs.\n\nDischarge Diagnosis:\nRight knee infections s/p R quad tendon rupture repair ___, \n___",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 56,
+          "turn_id": null
+        }
+      ],
+      "text": "Right knee infections",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "R quad tendon\nrupture repair",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 194,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "obesity",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "OSA",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 229,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 241,
+          "turn_id": null
+        }
+      ],
+      "text": "apixaban",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 243,
+          "char_end": 246,
+          "turn_id": null
+        }
+      ],
+      "text": "ASD",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 274,
+          "turn_id": null
+        }
+      ],
+      "text": "surgical repair",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 305,
+          "turn_id": null
+        }
+      ],
+      "text": "non-Hodgkin's lymphoma",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 314,
+          "turn_id": null
+        }
+      ],
+      "text": "XRT",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 327,
+          "turn_id": null
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 390,
+          "turn_id": null
+        },
+        {
+          "char_start": 407,
+          "char_end": 421,
+          "turn_id": null
+        }
+      ],
+      "text": "constrictive cardiomyopathy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 421,
+          "turn_id": null
+        }
+      ],
+      "text": "restrictive cardiomyopathy",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 441,
+          "char_end": 468,
+          "turn_id": null
+        }
+      ],
+      "text": "R quadriceps tendon rupture",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 441,
+          "char_end": 475,
+          "turn_id": null
+        }
+      ],
+      "text": "R quadriceps tendon rupture repair",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 561,
+          "turn_id": null
+        }
+      ],
+      "text": "poor \nwound healing",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 608,
+          "char_end": 616,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 633,
+          "char_end": 641,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 704,
+          "char_end": 706,
+          "turn_id": null
+        }
+      ],
+      "text": "&D",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 921,
+          "char_end": 927,
+          "turn_id": null
+        },
+        {
+          "char_start": 929,
+          "char_end": 931,
+          "turn_id": null
+        }
+      ],
+      "text": "R knee &D",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 938,
+          "char_end": 947,
+          "turn_id": null
+        }
+      ],
+      "text": "wound vac",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "wound vac",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1036,
+          "turn_id": null
+        }
+      ],
+      "text": "clot",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1098,
+          "char_end": 1104,
+          "turn_id": null
+        },
+        {
+          "char_start": 1106,
+          "char_end": 1108,
+          "turn_id": null
+        }
+      ],
+      "text": "R knee &D",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1110,
+          "char_end": 1146,
+          "turn_id": null
+        }
+      ],
+      "text": "partial \nrepair of quadriceps tendon",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1166,
+          "turn_id": null
+        }
+      ],
+      "text": "ex fix application",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1171,
+          "char_end": 1205,
+          "turn_id": null
+        }
+      ],
+      "text": "wVAC w/ \nincorporated drain tubing",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1289,
+          "char_end": 1310,
+          "turn_id": null
+        }
+      ],
+      "text": "closure of his \nwound",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1526,
+          "char_end": 1536,
+          "turn_id": null
+        }
+      ],
+      "text": "anesthesia",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1602,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1609,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1614,
+          "char_end": 1616,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1622,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1634,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1675,
+          "turn_id": null
+        }
+      ],
+      "text": "POD",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1702,
+          "char_end": 1713,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1725,
+          "char_end": 1732,
+          "turn_id": null
+        }
+      ],
+      "text": "lovenox",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1733,
+          "char_end": 1737,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1753,
+          "char_end": 1761,
+          "turn_id": null
+        }
+      ],
+      "text": "apixaban",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1913,
+          "char_end": 1921,
+          "turn_id": null
+        }
+      ],
+      "text": "apixaban",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2005,
+          "char_end": 2010,
+          "turn_id": null
+        }
+      ],
+      "text": "rehab",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2152,
+          "char_end": 2156,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2361,
+          "char_end": 2369,
+          "turn_id": null
+        }
+      ],
+      "text": "apixaban",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2374,
+          "char_end": 2377,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2907,
+          "char_end": 2915,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2918,
+          "char_end": 2921,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2923,
+          "char_end": 2926,
+          "turn_id": null
+        }
+      ],
+      "text": "OSA",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2928,
+          "char_end": 2947,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2949,
+          "char_end": 2952,
+          "turn_id": null
+        }
+      ],
+      "text": "ASD",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2971,
+          "char_end": 2993,
+          "turn_id": null
+        }
+      ],
+      "text": "Non-Hodgkin's\nLymphoma",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2999,
+          "char_end": 3002,
+          "turn_id": null
+        }
+      ],
+      "text": "XRT",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3053,
+          "char_end": 3066,
+          "turn_id": null
+        }
+      ],
+      "text": "venous stasis",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3071,
+          "char_end": 3085,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiomyopathy",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3097,
+          "char_end": 3122,
+          "turn_id": null
+        }
+      ],
+      "text": "quadriceps\ntendon rupture",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3097,
+          "char_end": 3129,
+          "turn_id": null
+        }
+      ],
+      "text": "quadriceps\ntendon rupture repair",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3145,
+          "char_end": 3163,
+          "turn_id": null
+        }
+      ],
+      "text": "poor wound healing",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3249,
+          "char_end": 3266,
+          "turn_id": null
+        }
+      ],
+      "text": "washout of R knee",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3295,
+          "char_end": 3302,
+          "turn_id": null
+        }
+      ],
+      "text": "clotted",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3355,
+          "char_end": 3361,
+          "turn_id": null
+        },
+        {
+          "char_start": 3363,
+          "char_end": 3379,
+          "turn_id": null
+        }
+      ],
+      "text": "repeat &D of his R knee",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3385,
+          "char_end": 3409,
+          "turn_id": null
+        }
+      ],
+      "text": "replacement of wound vac",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3415,
+          "char_end": 3431,
+          "turn_id": null
+        }
+      ],
+      "text": "ex-fix\nplacement",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3466,
+          "char_end": 3499,
+          "turn_id": null
+        }
+      ],
+      "text": "repeat irrigation\nand debridement",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3505,
+          "char_end": 3527,
+          "turn_id": null
+        }
+      ],
+      "text": "final closure of wound",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3540,
+          "char_end": 3563,
+          "turn_id": null
+        }
+      ],
+      "text": "intraoperative cultures",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3624,
+          "char_end": 3632,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3670,
+          "char_end": 3679,
+          "turn_id": null
+        }
+      ],
+      "text": "meropenem",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3703,
+          "char_end": 3713,
+          "turn_id": null
+        }
+      ],
+      "text": "Vancomycin",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3798,
+          "char_end": 3808,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3810,
+          "char_end": 3816,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3817,
+          "char_end": 3819,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3864,
+          "char_end": 3881,
+          "turn_id": null
+        }
+      ],
+      "text": "anaerobic\nculture",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3898,
+          "char_end": 3904,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3939,
+          "char_end": 3947,
+          "turn_id": null
+        }
+      ],
+      "text": "Cefepime",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3951,
+          "char_end": 3960,
+          "turn_id": null
+        }
+      ],
+      "text": "Meropenem",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3992,
+          "char_end": 4003,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 4023,
+          "char_end": 4048,
+          "turn_id": null
+        }
+      ],
+      "text": "final washout and closure",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4074,
+          "char_end": 4087,
+          "turn_id": null
+        }
+      ],
+      "text": "osteomyelitis",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4090,
+          "char_end": 4108,
+          "turn_id": null
+        }
+      ],
+      "text": "Weekly safety labs",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4132,
+          "char_end": 4153,
+          "turn_id": null
+        }
+      ],
+      "text": "Right knee infections",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 4158,
+          "char_end": 4186,
+          "turn_id": null
+        }
+      ],
+      "text": "R quad tendon rupture repair",
+      "id": "e83"
+    }
+  ]
+}

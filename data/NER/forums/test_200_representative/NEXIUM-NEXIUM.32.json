@@ -7,40 +7,50 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
           "char_end": 8,
           "turn_id": null
-        },
-        {
-          "char_start": 31,
-          "char_end": 47,
-          "turn_id": null
         }
       ],
-      "text": "Numbness in legs and feet",
+      "text": "Numbness",
       "id": "e1"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 13,
+          "char_end": 33,
+          "turn_id": null
+        },
+        {
+          "char_start": 43,
           "char_end": 47,
           "turn_id": null
         }
       ],
-      "text": "electrical shocks in legs and feet",
+      "text": "electrical shocks in feet",
       "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "electrical shocks in legs",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 49,
@@ -49,26 +59,24 @@
         }
       ],
       "text": "Right hand numbness",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 69,
-          "char_end": 79,
-          "turn_id": null
-        }
-      ],
-      "text": "Nerve pain",
       "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "Nerve pain in different parts of the body",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
       "spans": [
         {
           "char_start": 117,
@@ -77,21 +85,20 @@
         }
       ],
       "text": "addicted to this drug",
-      "id": "e5"
+      "id": "e6"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 430,
-          "char_end": 459,
+          "char_end": 451,
           "turn_id": null
         }
       ],
-      "text": "nissen fundoplycation surgery",
-      "id": "e6"
+      "text": "nissen fundoplycation",
+      "id": "e7"
     }
   ]
 }

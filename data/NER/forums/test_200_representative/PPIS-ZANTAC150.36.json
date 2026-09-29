@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 14,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 22,
@@ -48,17 +45,34 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 36,
+          "char_end": 39,
+          "turn_id": null
+        },
+        {
+          "char_start": 44,
           "char_end": 48,
           "turn_id": null
         }
       ],
-      "text": "red dry eyes",
+      "text": "red eyes",
       "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "dry eyes",
+      "id": "e5"
     }
   ]
 }

@@ -1,0 +1,1724 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18730991-DS-16:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nA.C.E Inhibitors\n\nChief Complaint:\nPalpitations\n.\n\nHistory of Present Illness:\nMr. ___ is a ___ year-old man with history of atrial \nfibrillation/flutter who presents with palpitations in setting \nof upper respiratory tract infection. Patient reports that his \nepisodes of ___ usually occur in the setting of URI. \nPatient has had a URI for the past 2 weeks (congestion, runny \nnose, post-nasal drip, cough productive of green sputum) and for \nthe last several days, he has noticed intermittent palpitations. \nHe ran out of his atenolol 2 days prior to admission. He notes \nincreased frequency of palpitations over the past few days. He \ndenies CP, SOB, or lightheadedness associated with his \npalpitations. Yesterday, he could not get out of bed due to his \nURI symptoms and \"pounding\" in his head so he decided to come to \nED. He also complains of dysuria yesterday.\n.\nIn ___ ED, BP 161/74, HR 160-170s, EKG showed atrial \nfibrillation with lateral ST-depressions. He received diltiazem \n10mg IV x 2, then 25mg IV, then diltiazem drip with resolution \nof heart rate down to the ___. Repeat EKG showed atrial \nfibrillation with heart rate in ___ with resolution of lateral \ndepressions. Also received 1L NS for elevated creatinine (1.5 \nfrom 1.0 baseline), presumed pre-renal etiology. CXR was \nnegative. Admitted to cardiology for rate control and IVF.\n.\nSince admission, his HR has ranged 80-120s. Denies any further \npalpitations. No CP, SOB, or lightheadedness. No dysuria today.\n.\nOf note, he had a recent ED visit in ___ after presenting \nto his outpatient cardiologist's office for follow-up. At that \ntime, he was found to be in afib with RVR to 140s, asymptomatic \nand HD stable. Also had possible suicidal ideation so was sent \nto ED for psych eval. He was cleared by psych and discharged \nhome. Anti-coagulation was not initiated at that time given \nconcern for possible suicidal ideation. Currently he denies SI.\n.\nOn review of systems, he denies any prior history of stroke, \nTIA, deep venous thrombosis, pulmonary embolism, bleeding at the \ntime of surgery, myalgias, joint pains, cough, hemoptysis, black \nstools or red stools. He denies recent fevers, chills or rigors. \nHe denies exertional buttock or calf pain. All of the other \nreview of systems were negative.\n.\nCardiac review of systems is notable for absence of chest pain, \ndyspnea on exertion, paroxysmal nocturnal dyspnea, orthopnea, \nankle edema, syncope or presyncope.\n.\n\nBrief Hospital Course:\nPatient is a ___ year-old male with history of paroxysmal atrial \nfibrillation/flutter who presented with palpitations in the \nsetting of upper respiratory tract infection. \n\n1) Rhythm/Atrial fibrillation/flutter - Mr. ___ has a known \nhistory of paroxysmal atrial fibrillation with rapid ventricular \nresponse, often in the setting of upper respiratory symptoms, \nsimilar to his current presentation. Etiology of his rapid rate \nis likely multifactorial and could be secondary to decongestant \nuse, URI, +/- lack of BB use over the 2 days prior to admission. \nHis heart rate responded to diltiazem drip. In the past, he was \nnot anticoagulated given concern for psychiatric issues and \nsuicidal ideations. TSH was within normal limits. He remained in \natrial fibrillation, adequately rate-controlled with heart rate \nin the ___. He was hemodynamically stable and tolerated RVR \nwithout symptoms aside from palpitations. He was rate controlled \nwith metoprolol 50mg BID and was loaded with digoxin. After \ndiscussion with the patient, the decision was made to initiate \nanti-coagulation with coumadin. Follow-up was arranged with the \n___ clinic.\n\n#. CAD: Pt has known CAD with history of stent to LAD in ___. \nCurrently denies chest pain. ST changes on EKG likely related to \ndemand. He was ruled out for MI with cardiac enzymes negative x \n2. \n \n#. Pump: Reportedly had mild LV diastolic dysfunction. No \nevidence for volume overload on exam. \n\n# DMII - He takes metformin and lantus as an outpatient. \nMetformin was held overnight on admission given his creatinine \nelevation. He was covered with his home dose of lantus and \nmetformin was re-started once his creatinine returned to normal. \n\n\n# Hypercholesterolemia - He was continued on his outpatient \nstatin.\n\n# Hypertension - Home valsartan was held overnight on admission \nas he was on a diltiazem drip and had elevated creatinine. He \nwas re-started on his diovan on hospital day #2 as his \ncreatinine returned to normal.\n\n# Acute renal failure- Likely pre-renal, resolved with IVF \nrepletion. Creatinine was 1.5 on admission and 0.9 on discharge. \n \n\n# Dysuria - unclear cause, UA was negative. \n\n#. Code:  FULL\n\nDischarge Diagnosis:\nPrimary: Atrial fibrillation/flutter with rapid ventricular \nresponse\n.\nSecondary:\n1. CAD\n2. HTN  \n3. Hypercholesterolemia  \n4. DM type II  \n.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 13,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "C.E Inhibitors",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "Palpitations",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 136,
+          "char_end": 164,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nfibrillation/flutter",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 211,
+          "char_end": 244,
+          "turn_id": null
+        }
+      ],
+      "text": "upper respiratory tract infection",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 323,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 347,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 370,
+          "char_end": 380,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 382,
+          "char_end": 393,
+          "turn_id": null
+        }
+      ],
+      "text": "runny \nnose",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "post-nasal drip",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 406,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "drip",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 412,
+          "char_end": 444,
+          "turn_id": null
+        }
+      ],
+      "text": "cough productive of green sputum",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 518,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 539,
+          "char_end": 547,
+          "turn_id": null
+        }
+      ],
+      "text": "atenolol",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 608,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 658,
+          "turn_id": null
+        }
+      ],
+      "text": "CP",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 663,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 683,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 705,
+          "char_end": 717,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 773,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 809,
+          "turn_id": null
+        }
+      ],
+      "text": "\"pounding\" in his head",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 868,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 893,
+          "char_end": 902,
+          "turn_id": null
+        }
+      ],
+      "text": "BP 161/74",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 904,
+          "char_end": 915,
+          "turn_id": null
+        }
+      ],
+      "text": "HR 160-170s",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 917,
+          "char_end": 920,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 928,
+          "char_end": 948,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nfibrillation",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 954,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "lateral ST-depressions",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 990,
+          "char_end": 999,
+          "turn_id": null
+        }
+      ],
+      "text": "diltiazem",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1001,
+          "char_end": 1005,
+          "turn_id": null
+        }
+      ],
+      "text": "10mg",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1006,
+          "char_end": 1008,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1012,
+          "turn_id": null
+        }
+      ],
+      "text": "x 2",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1019,
+          "char_end": 1023,
+          "turn_id": null
+        }
+      ],
+      "text": "25mg",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1026,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1033,
+          "char_end": 1042,
+          "turn_id": null
+        }
+      ],
+      "text": "diltiazem",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1043,
+          "char_end": 1047,
+          "turn_id": null
+        }
+      ],
+      "text": "drip",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1103,
+          "char_end": 1106,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1177,
+          "char_end": 1197,
+          "turn_id": null
+        }
+      ],
+      "text": "lateral \ndepressions",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1213,
+          "char_end": 1215,
+          "turn_id": null
+        }
+      ],
+      "text": "1L",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 1216,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1223,
+          "char_end": 1242,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated creatinine",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1232,
+          "char_end": 1242,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1298,
+          "char_end": 1301,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1361,
+          "char_end": 1364,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1432,
+          "char_end": 1444,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1449,
+          "char_end": 1451,
+          "turn_id": null
+        }
+      ],
+      "text": "CP",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1453,
+          "char_end": 1456,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1461,
+          "char_end": 1476,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1481,
+          "char_end": 1488,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1649,
+          "char_end": 1662,
+          "turn_id": null
+        }
+      ],
+      "text": "afib with RVR",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1736,
+          "turn_id": null
+        }
+      ],
+      "text": "suicidal ideation",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1760,
+          "char_end": 1770,
+          "turn_id": null
+        }
+      ],
+      "text": "psych eval",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1818,
+          "char_end": 1834,
+          "turn_id": null
+        }
+      ],
+      "text": "Anti-coagulation",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1894,
+          "char_end": 1911,
+          "turn_id": null
+        }
+      ],
+      "text": "suicidal ideation",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1933,
+          "char_end": 1935,
+          "turn_id": null
+        }
+      ],
+      "text": "SI",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1992,
+          "char_end": 1998,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2001,
+          "char_end": 2004,
+          "turn_id": null
+        }
+      ],
+      "text": "TIA",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2006,
+          "char_end": 2028,
+          "turn_id": null
+        }
+      ],
+      "text": "deep venous thrombosis",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2030,
+          "char_end": 2048,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary embolism",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2050,
+          "char_end": 2058,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2084,
+          "char_end": 2092,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2094,
+          "char_end": 2105,
+          "turn_id": null
+        }
+      ],
+      "text": "joint pains",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2114,
+          "char_end": 2124,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2126,
+          "char_end": 2139,
+          "turn_id": null
+        }
+      ],
+      "text": "black \nstools",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2143,
+          "char_end": 2153,
+          "turn_id": null
+        }
+      ],
+      "text": "red stools",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2172,
+          "char_end": 2178,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2180,
+          "char_end": 2186,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2190,
+          "char_end": 2196,
+          "turn_id": null
+        }
+      ],
+      "text": "rigors",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2231,
+          "char_end": 2240,
+          "turn_id": null
+        }
+      ],
+      "text": "calf pain",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2347,
+          "char_end": 2357,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2360,
+          "char_end": 2379,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea on exertion",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2381,
+          "char_end": 2409,
+          "turn_id": null
+        }
+      ],
+      "text": "paroxysmal nocturnal dyspnea",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2411,
+          "char_end": 2420,
+          "turn_id": null
+        }
+      ],
+      "text": "orthopnea",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2423,
+          "char_end": 2434,
+          "turn_id": null
+        }
+      ],
+      "text": "ankle edema",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2436,
+          "char_end": 2443,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2447,
+          "char_end": 2457,
+          "turn_id": null
+        }
+      ],
+      "text": "presyncope",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2532,
+          "char_end": 2571,
+          "turn_id": null
+        }
+      ],
+      "text": "paroxysmal atrial \nfibrillation/flutter",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2591,
+          "char_end": 2603,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2623,
+          "char_end": 2656,
+          "turn_id": null
+        }
+      ],
+      "text": "upper respiratory tract infection",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2732,
+          "char_end": 2795,
+          "turn_id": null
+        }
+      ],
+      "text": "paroxysmal atrial fibrillation with rapid ventricular \nresponse",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2966,
+          "char_end": 2978,
+          "turn_id": null
+        }
+      ],
+      "text": "decongestant",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2985,
+          "char_end": 2988,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3002,
+          "char_end": 3004,
+          "turn_id": null
+        }
+      ],
+      "text": "BB",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3074,
+          "char_end": 3083,
+          "turn_id": null
+        }
+      ],
+      "text": "diltiazem",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 3084,
+          "char_end": 3088,
+          "turn_id": null
+        }
+      ],
+      "text": "drip",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3148,
+          "char_end": 3166,
+          "turn_id": null
+        }
+      ],
+      "text": "psychiatric issues",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3172,
+          "char_end": 3190,
+          "turn_id": null
+        }
+      ],
+      "text": "suicidal ideations",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3192,
+          "char_end": 3195,
+          "turn_id": null
+        }
+      ],
+      "text": "TSH",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3392,
+          "char_end": 3404,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3435,
+          "char_end": 3445,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3446,
+          "char_end": 3450,
+          "turn_id": null
+        }
+      ],
+      "text": "50mg",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3451,
+          "char_end": 3454,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3475,
+          "char_end": 3482,
+          "turn_id": null
+        }
+      ],
+      "text": "digoxin",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3555,
+          "char_end": 3571,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-coagulation",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3577,
+          "char_end": 3585,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3636,
+          "char_end": 3639,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3654,
+          "char_end": 3657,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3674,
+          "char_end": 3686,
+          "turn_id": null
+        }
+      ],
+      "text": "stent to LAD",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3713,
+          "char_end": 3723,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3725,
+          "char_end": 3735,
+          "turn_id": null
+        }
+      ],
+      "text": "ST changes",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3739,
+          "char_end": 3742,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3791,
+          "char_end": 3793,
+          "turn_id": null
+        }
+      ],
+      "text": "MI",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3799,
+          "char_end": 3814,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac enzymes",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3862,
+          "char_end": 3886,
+          "turn_id": null
+        }
+      ],
+      "text": "LV diastolic dysfunction",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3905,
+          "char_end": 3920,
+          "turn_id": null
+        }
+      ],
+      "text": "volume overload",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3934,
+          "char_end": 3938,
+          "turn_id": null
+        }
+      ],
+      "text": "DMII",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3950,
+          "char_end": 3959,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3964,
+          "char_end": 3970,
+          "turn_id": null
+        }
+      ],
+      "text": "lantus",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3990,
+          "char_end": 3999,
+          "turn_id": null
+        }
+      ],
+      "text": "Metformin",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4042,
+          "char_end": 4052,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4042,
+          "char_end": 4063,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine \nelevation",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4102,
+          "char_end": 4108,
+          "turn_id": null
+        }
+      ],
+      "text": "lantus",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4114,
+          "char_end": 4123,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4148,
+          "char_end": 4158,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4184,
+          "char_end": 4204,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypercholesterolemia",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4243,
+          "char_end": 4249,
+          "turn_id": null
+        }
+      ],
+      "text": "statin",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4254,
+          "char_end": 4266,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4274,
+          "char_end": 4283,
+          "turn_id": null
+        }
+      ],
+      "text": "valsartan",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4332,
+          "char_end": 4341,
+          "turn_id": null
+        }
+      ],
+      "text": "diltiazem",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4355,
+          "char_end": 4374,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated creatinine",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4364,
+          "char_end": 4374,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4402,
+          "char_end": 4408,
+          "turn_id": null
+        }
+      ],
+      "text": "diovan",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4436,
+          "char_end": 4446,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4470,
+          "char_end": 4489,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute renal failure",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4523,
+          "char_end": 4537,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF \nrepletion",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4539,
+          "char_end": 4549,
+          "turn_id": null
+        }
+      ],
+      "text": "Creatinine",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4599,
+          "char_end": 4606,
+          "turn_id": null
+        }
+      ],
+      "text": "Dysuria",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4624,
+          "char_end": 4626,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4689,
+          "char_end": 4749,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial fibrillation/flutter with rapid ventricular \nresponse",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4766,
+          "char_end": 4769,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4773,
+          "char_end": 4776,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4782,
+          "char_end": 4802,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypercholesterolemia",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4808,
+          "char_end": 4818,
+          "turn_id": null
+        }
+      ],
+      "text": "DM type II",
+      "id": "e132"
+    }
+  ]
+}

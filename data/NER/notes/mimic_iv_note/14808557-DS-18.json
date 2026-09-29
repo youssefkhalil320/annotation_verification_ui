@@ -1,0 +1,429 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:14808557-DS-18:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nMorphine\n\nChief Complaint:\npelvic pressure\n\nHistory of Present Illness:\n___ yo G4P3 @ 24w3d with twins presents to OB triage for \nbetamethasone. Patient was seen in the office yesterday with \ncomplaint of occasional pelvic pressure. No LOF, bleeding or \ncontractons. Active FM. SVE yesterday closed/long/soft/mid. FFN \nand cultures were performed. Wet prep notable for clue cells and \npatient was started on flagyl for BV. FFN returned positive, so \npatient was sent in today for betamethasone. Patient reports \nthat she is doing well today. No concerns. No changes.\n\nBrief Hospital Course:\n___ yo G5P3 with spontaneous di/di twins admitted at 24w3d due to \npelvic pressure and positive FFN. On arrival to labor and \ndelivery, she had no contractions on toco and her cervix was \nclosed/long. She was afebrile and without any evidence of \ninfection or abruption. She was admitted to the antepartum \nservice for observation. She remained clinically stable without \nany evidence of preterm contractions. On ___, her cervial length \nwas measured and found to be normal (38mm). She was discharged \nhome after her second dose of betamethasone.\n\nFetal testing was reassuring at the ___ prior to admission. She \nreceived a course of betamethasone for fetal lung maturity ___ \ndose given on ___.\n.\nSocial services met with her while she was here given her \ncurrent social stressors.\n\nDischarge Diagnosis:\ntwin pregnancy at 24w4d",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Morphine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "pelvic pressure",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 108,
+          "char_end": 113,
+          "turn_id": null
+        }
+      ],
+      "text": "twins",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 154,
+          "turn_id": null
+        }
+      ],
+      "text": "betamethasone",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 242,
+          "turn_id": null
+        }
+      ],
+      "text": "pelvic pressure",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 247,
+          "char_end": 250,
+          "turn_id": null
+        }
+      ],
+      "text": "LOF",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 260,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 276,
+          "turn_id": null
+        }
+      ],
+      "text": "contractons",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 289,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "SVE",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 328,
+          "turn_id": null
+        }
+      ],
+      "text": "FFN",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 334,
+          "char_end": 342,
+          "turn_id": null
+        }
+      ],
+      "text": "cultures",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 359,
+          "char_end": 367,
+          "turn_id": null
+        }
+      ],
+      "text": "Wet prep",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 380,
+          "char_end": 390,
+          "turn_id": null
+        }
+      ],
+      "text": "clue cells",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 425,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 432,
+          "turn_id": null
+        }
+      ],
+      "text": "BV",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 437,
+          "turn_id": null
+        },
+        {
+          "char_start": 447,
+          "char_end": 455,
+          "turn_id": null
+        }
+      ],
+      "text": "FFN positive",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "FFN",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 491,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "betamethasone",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 642,
+          "turn_id": null
+        }
+      ],
+      "text": "di/di twins",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 669,
+          "char_end": 684,
+          "turn_id": null
+        }
+      ],
+      "text": "pelvic pressure",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 701,
+          "turn_id": null
+        }
+      ],
+      "text": "positive FFN",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 698,
+          "char_end": 701,
+          "turn_id": null
+        }
+      ],
+      "text": "FFN",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 749,
+          "char_end": 761,
+          "turn_id": null
+        }
+      ],
+      "text": "contractions",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 769,
+          "turn_id": null
+        }
+      ],
+      "text": "toco",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 849,
+          "char_end": 858,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 862,
+          "char_end": 871,
+          "turn_id": null
+        }
+      ],
+      "text": "abruption",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 990,
+          "char_end": 1010,
+          "turn_id": null
+        }
+      ],
+      "text": "preterm contractions",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1038,
+          "turn_id": null
+        }
+      ],
+      "text": "cervial length",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1134,
+          "char_end": 1147,
+          "turn_id": null
+        }
+      ],
+      "text": "betamethasone",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1163,
+          "turn_id": null
+        }
+      ],
+      "text": "Fetal testing",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1236,
+          "char_end": 1249,
+          "turn_id": null
+        }
+      ],
+      "text": "betamethasone",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1407,
+          "char_end": 1421,
+          "turn_id": null
+        }
+      ],
+      "text": "twin pregnancy",
+      "id": "e32"
+    }
+  ]
+}

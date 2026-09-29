@@ -1,0 +1,1126 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:16488751-DS-4:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nFood Extracts / Tylenol/Codeine No.3\n\nChief Complaint:\nvisual field cut, floaters, chest pressure\n\nHistory of Present Illness:\n___ yo M with history of diverticulitis s/p laproscopic sigmoid \ncolectomy ___ presents with floaters, visual field cut, and \nchest pressure.  \n.  \nOn ___, the patient noticed floaters in his right eye. This \nrecurred on ___, and was associated with a nasal visual \nfield cut in the right eye. The patient noticed that the field \ncut was more severe when her looked to the right. No flashing \nlights or eye pain. No personal or family history of retinal \ndisease. The patient saw his optomatrist on ___, who \nreferred him to the emergency department for opthalmologic \nevaluation.  \n.  \nIn the ED, initial vital signs were T 97.8, BP 137/81, HR 87, RR \n17, Sat 100%/RA. The patient was seen by opthalmology, who \ndiagnosed a right temporal retinal tear. He was scheduled for a \nscleral buckle procedure, to be done at 10 a.m. on ___. For \nnow, opthalmology recommended patching the right eye and \ninstilling scopolamine QID into the right eye.  \n.  \nWhile in the ED, the patient complained of substernal chest \npressure which had been present for 2 days. The chest pressure \nis contrast and is not associated with nausea, diaphoresis, \nshortness of breath, or dizziness/lightheadedness. The pain does \nnot radiate. Of note, the patient was able to exercise on an \nelliptical machine on the morning of admission without any \nexacerbation of the pressure. The patient had similar symptoms \nin ___, although it is difficult to say if it was exactly the \nsame kind of pain. At that time, the patient had a normal \nechocardiogram and stress test with nuclear imaging, per his \nreport. Denies syncope, orthopnea, or PND. No history of \ndiabetes, hypertension, hypercholesterolemia, or venous \nthrombosis.  \n.  \nIn the ED, EKG showed normal sinus rhythm with no ischemic \nchanges. Troponin was <0.01. CXR showed acute cardiopulmonary \nabnormality. The patient was initially going to be admitted to \nthe observation unit with a plan for 2 sets and a stress test, \nbut he was admitted to medicine given plans for eye surgery.  \n.  \nReview of systems:  \n(+) Per HPI. The patient has had bright red blood in his stool \nsince sigmoid colectomy. This is being followed by general \nsurgery. The patient has chronic symptoms of post-void dribbling \nand dysuria.  \n(-) No fever/chills. No dizziness/lightheadedness. Visual and \ncardiac review of systems per HPI. No abdominal pain, nausea, \nvomiting, diarrhea, constipation, or melena.\n\nBrief Hospital Course:\n___ yo M with no risk factors for cardiac disease presents with \nfloaters, visual field cut, and chest pressure. Found to have \nretinal tear and admitted to medicine with plan for scleral \nbuckle procedure once MI ruled out.\n.  \n# Chest pressure: The patient has no risk factors for coronary \ndisease. EKG was normal. MI was ruled out with 2 sets of cardiac \nenzymes. The patient was monitored on telemetry with no events. \nThe patient's chest pressure was thought to be musculoskeletal \nin etiology. The patient was instructed to discuss outpatient \nstress testing with his primary care doctor, and to discuss with \nhis ophthalmologist when it is safe (from an ophthalmologic \nstandpoint) to undergo stress testing.\n.  \n# Retinal tear: The patient presented with floaters and a nasal \nvisual field cut in the right eye. Ophthalmology was consulted \nin the emergency department and diagnosed the with a retinal \ntear (involving the temporal half of the right retina). The \npatient underwent a scleral buckle procedure on ___. He \ntolerated this procedure well. Opthalmology follow-up is \nscheduled for ___ (the day after discharge). The patient was \ninstructed to keep his right eye patched, avoid heavy lifted, \nand to try to position himself with the left side down. He was \ngiven a bag of eye medications, with a plan to discuss these \nmedications at the opthalmology follow-up appointment on \n___. Percocet was prescribed for pain control.\n.  \n# Obstructive sleep apnea: Continued CPAP at night.\n.  \n# Diverticulitis s/p sigmoid colectomy ___: Continued Colace \nBID.\n.  \n# Communication: HCP is wife ___ ___ \n(cell), ___ (home)\n\nDischarge Diagnosis:\nPrimary:\nretinal detachment\natypical chest pain",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 82,
+          "turn_id": null
+        }
+      ],
+      "text": "visual field cut",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 92,
+          "turn_id": null
+        }
+      ],
+      "text": "floaters",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pressure",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 177,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulitis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "laproscopic sigmoid \ncolectomy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 239,
+          "turn_id": null
+        }
+      ],
+      "text": "floaters",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 241,
+          "char_end": 257,
+          "turn_id": null
+        }
+      ],
+      "text": "visual field cut",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 264,
+          "char_end": 278,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pressure",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 314,
+          "char_end": 339,
+          "turn_id": null
+        }
+      ],
+      "text": "floaters in his right eye",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 390,
+          "char_end": 430,
+          "turn_id": null
+        }
+      ],
+      "text": "nasal visual \nfield cut in the right eye",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 461,
+          "char_end": 471,
+          "turn_id": null
+        }
+      ],
+      "text": "field \ncut",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 521,
+          "char_end": 537,
+          "turn_id": null
+        }
+      ],
+      "text": "flashing \nlights",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 549,
+          "turn_id": null
+        }
+      ],
+      "text": "eye pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 584,
+          "char_end": 600,
+          "turn_id": null
+        }
+      ],
+      "text": "retinal \ndisease",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 890,
+          "turn_id": null
+        }
+      ],
+      "text": "right temporal retinal tear",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 916,
+          "char_end": 940,
+          "turn_id": null
+        }
+      ],
+      "text": "scleral buckle procedure",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1007,
+          "char_end": 1029,
+          "turn_id": null
+        }
+      ],
+      "text": "patching the right eye",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1046,
+          "char_end": 1057,
+          "turn_id": null
+        }
+      ],
+      "text": "scopolamine",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1058,
+          "char_end": 1061,
+          "turn_id": null
+        }
+      ],
+      "text": "QID",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1062,
+          "char_end": 1080,
+          "turn_id": null
+        }
+      ],
+      "text": "into the right eye",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1157,
+          "turn_id": null
+        }
+      ],
+      "text": "substernal chest \npressure",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1197,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pressure",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1252,
+          "char_end": 1258,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1260,
+          "char_end": 1271,
+          "turn_id": null
+        }
+      ],
+      "text": "diaphoresis",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1274,
+          "char_end": 1293,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1298,
+          "char_end": 1323,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness/lightheadedness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1329,
+          "char_end": 1333,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1662,
+          "turn_id": null
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1667,
+          "char_end": 1678,
+          "turn_id": null
+        }
+      ],
+      "text": "stress test",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1684,
+          "char_end": 1699,
+          "turn_id": null
+        }
+      ],
+      "text": "nuclear imaging",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1725,
+          "char_end": 1732,
+          "turn_id": null
+        }
+      ],
+      "text": "syncope",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1734,
+          "char_end": 1743,
+          "turn_id": null
+        }
+      ],
+      "text": "orthopnea",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1748,
+          "char_end": 1751,
+          "turn_id": null
+        }
+      ],
+      "text": "PND",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1768,
+          "char_end": 1776,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1778,
+          "char_end": 1790,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1792,
+          "char_end": 1812,
+          "turn_id": null
+        }
+      ],
+      "text": "hypercholesterolemia",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1817,
+          "char_end": 1835,
+          "turn_id": null
+        }
+      ],
+      "text": "venous \nthrombosis",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1854,
+          "char_end": 1857,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1893,
+          "char_end": 1910,
+          "turn_id": null
+        }
+      ],
+      "text": "ischemic \nchanges",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1912,
+          "char_end": 1920,
+          "turn_id": null
+        }
+      ],
+      "text": "Troponin",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1932,
+          "char_end": 1935,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1943,
+          "char_end": 1977,
+          "turn_id": null
+        }
+      ],
+      "text": "acute cardiopulmonary \nabnormality",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "stress test",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2142,
+          "char_end": 2153,
+          "turn_id": null
+        }
+      ],
+      "text": "eye surgery",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2215,
+          "char_end": 2244,
+          "turn_id": null
+        }
+      ],
+      "text": "bright red blood in his stool",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2252,
+          "char_end": 2269,
+          "turn_id": null
+        }
+      ],
+      "text": "sigmoid colectomy",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2351,
+          "char_end": 2370,
+          "turn_id": null
+        }
+      ],
+      "text": "post-void dribbling",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2376,
+          "char_end": 2383,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2394,
+          "char_end": 2399,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2400,
+          "char_end": 2406,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2411,
+          "char_end": 2436,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness/lightheadedness",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2488,
+          "char_end": 2502,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2504,
+          "char_end": 2510,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2513,
+          "char_end": 2521,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2523,
+          "char_end": 2531,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2533,
+          "char_end": 2545,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2550,
+          "char_end": 2556,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2647,
+          "char_end": 2655,
+          "turn_id": null
+        }
+      ],
+      "text": "floaters",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2657,
+          "char_end": 2673,
+          "turn_id": null
+        }
+      ],
+      "text": "visual field cut",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2679,
+          "char_end": 2693,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pressure",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2762,
+          "char_end": 2787,
+          "turn_id": null
+        }
+      ],
+      "text": "scleral \nbuckle procedure",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2793,
+          "char_end": 2795,
+          "turn_id": null
+        }
+      ],
+      "text": "MI",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2813,
+          "char_end": 2827,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pressure",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2865,
+          "char_end": 2882,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary \ndisease",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2884,
+          "char_end": 2887,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2900,
+          "char_end": 2902,
+          "turn_id": null
+        }
+      ],
+      "text": "MI",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2932,
+          "char_end": 2948,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac \nenzymes",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2979,
+          "char_end": 2988,
+          "turn_id": null
+        }
+      ],
+      "text": "telemetry",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3020,
+          "char_end": 3034,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pressure",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3133,
+          "char_end": 3147,
+          "turn_id": null
+        }
+      ],
+      "text": "stress testing",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3283,
+          "char_end": 3297,
+          "turn_id": null
+        }
+      ],
+      "text": "stress testing",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3305,
+          "char_end": 3317,
+          "turn_id": null
+        }
+      ],
+      "text": "Retinal tear",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3346,
+          "char_end": 3354,
+          "turn_id": null
+        }
+      ],
+      "text": "floaters",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3361,
+          "char_end": 3401,
+          "turn_id": null
+        }
+      ],
+      "text": "nasal \nvisual field cut in the right eye",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3485,
+          "char_end": 3498,
+          "turn_id": null
+        }
+      ],
+      "text": "retinal \ntear",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3575,
+          "char_end": 3599,
+          "turn_id": null
+        }
+      ],
+      "text": "scleral buckle procedure",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3755,
+          "char_end": 3772,
+          "turn_id": null
+        }
+      ],
+      "text": "right eye patched",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3984,
+          "char_end": 3992,
+          "turn_id": null
+        }
+      ],
+      "text": "Percocet",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4032,
+          "char_end": 4055,
+          "turn_id": null
+        }
+      ],
+      "text": "Obstructive sleep apnea",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4067,
+          "char_end": 4071,
+          "turn_id": null
+        }
+      ],
+      "text": "CPAP",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4088,
+          "char_end": 4102,
+          "turn_id": null
+        }
+      ],
+      "text": "Diverticulitis",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 4107,
+          "char_end": 4124,
+          "turn_id": null
+        }
+      ],
+      "text": "sigmoid colectomy",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4140,
+          "char_end": 4146,
+          "turn_id": null
+        }
+      ],
+      "text": "Colace",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4148,
+          "char_end": 4151,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4245,
+          "char_end": 4263,
+          "turn_id": null
+        }
+      ],
+      "text": "retinal detachment",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4264,
+          "char_end": 4283,
+          "turn_id": null
+        }
+      ],
+      "text": "atypical chest pain",
+      "id": "e86"
+    }
+  ]
+}

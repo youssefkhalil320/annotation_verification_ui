@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 39,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 90,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 150,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 242,
@@ -63,35 +59,37 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 304,
           "char_end": 315,
           "turn_id": null
+        },
+        {
+          "char_start": 327,
+          "char_end": 347,
+          "turn_id": null
         }
       ],
-      "text": "dissections",
+      "text": "dissections in the residual root",
       "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 319,
-          "char_end": 326,
+          "char_end": 347,
           "turn_id": null
         }
       ],
-      "text": "rupture",
+      "text": "rupture in the residual root",
       "id": "e6"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 435,
@@ -105,7 +103,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 558,
@@ -119,21 +116,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 696,
-          "char_end": 713,
-          "turn_id": null
-        }
-      ],
-      "text": "follow-up imaging",
-      "id": "e9"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 717,
@@ -142,12 +124,11 @@
         }
       ],
       "text": "computed tomography",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 740,
@@ -156,12 +137,11 @@
         }
       ],
       "text": "echocardiography",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 876,
@@ -170,12 +150,11 @@
         }
       ],
       "text": "aortic valve replacement",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 967,
@@ -184,12 +163,11 @@
         }
       ],
       "text": "root enlargement",
-      "id": "e13"
+      "id": "e12"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1099,
@@ -198,12 +176,11 @@
         }
       ],
       "text": "root-sparing aortic replacement",
-      "id": "e14"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1299,
@@ -212,40 +189,11 @@
         }
       ],
       "text": "root aneurysm",
-      "id": "e15"
+      "id": "e14"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1324,
-          "char_end": 1335,
-          "turn_id": null
-        }
-      ],
-      "text": "reoperation",
-      "id": "e16"
-    },
-    {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "surgery",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1448,
-          "char_end": 1459,
-          "turn_id": null
-        }
-      ],
-      "text": "reoperation",
-      "id": "e17"
-    },
-    {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "surgery",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1570,
@@ -254,12 +202,11 @@
         }
       ],
       "text": "aortic valve replacement",
-      "id": "e18"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1625,
@@ -268,12 +215,11 @@
         }
       ],
       "text": "root dilation",
-      "id": "e19"
+      "id": "e16"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1767,
@@ -282,21 +228,7 @@
         }
       ],
       "text": "root-sparing ascending aortic replacement",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "surgery",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1839,
-          "char_end": 1866,
-          "turn_id": null
-        }
-      ],
-      "text": "secondary root intervention",
-      "id": "e21"
+      "id": "e17"
     }
   ]
 }

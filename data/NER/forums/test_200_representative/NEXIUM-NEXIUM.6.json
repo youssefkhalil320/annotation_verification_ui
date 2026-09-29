@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 10,
@@ -26,7 +25,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 23,
@@ -36,20 +34,6 @@
       ],
       "text": "painful joints",
       "id": "e2"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "unknown",
-      "spans": [
-        {
-          "char_start": 81,
-          "char_end": 87,
-          "turn_id": null
-        }
-      ],
-      "text": "nexium",
-      "id": "e3"
     }
   ]
 }

@@ -1,0 +1,1126 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19819060-DS-17:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nbacitracin / IVP DYE / ibuprofen\n\nChief Complaint:\naltered mental status\n\nHistory of Present Illness:\nMs. ___ is a ___ female with a PMH of Takotsubo\ncardiomyopathy (pt reports \"heart attack\" but denies stenting;\npt's Atrius records note Takotsubo's CMY and NSTEMI; no chest\npain or SOB at this time), recurrent UTIs, non-melanoma skin\ncancer, and chronic back pain and lumbar facet syndrome s/p \nfacet\njoint injection ___.\n\nThe pt has a h/o recurrent UTIs. She was seen at a primary care\noffice (At___) on ___ with moderate dysuria. Her UA was\nstrongly positive with >100 WBCs and >100 RBCs. She had no CVA\ntenderness at that time. Pt was started on Macrodantin 50 mg QID\nfor a planned course of 7 days. \n\nOf note, pt was also treated for a UTI in ___ with seven\ndays of cefdinir. That urgent care provider ___: \"due to\nmedication interactions I am unable to prescribe bactrim or\ncipro. Avoided macrobid due to geriatric precautions.\"\n\nThe pt reports that she began having dysuria, urinary frequency,\nurinary urgency, and frequency/urgency incontinence (not her\nbaseline) over the past 3 days. This feels like her prior UTIs.\nShe went to see her PCP and was prescribed Macrodantin (see\nabove) which she too as prescribed. She reports a borderline\nfever to 99. She reports nausea and vomiting x1 prior to\nadmission, otherwise no nausea/vomiting or abd pain. She reports\nchronic diarrhea with no recent changes in BMs. She reports that\nthis feels like her prior UTIs.\n\nThere was question of confusion when she was admitted. She is \nnow\nOx4 with no confusion, though she felt fuzzy at home prior to\nadmission.\n\nROS: Pertinent positives and negatives as noted in the HPI.  All\nother systems were reviewed and are negative.\n\nBrief Hospital Course:\nMs. ___ is a ___ female with a PMH of Takotsubo\ncardiomyopathy, recurrent UTIs, non-melanoma skin cancer, \nchronic\nback pain and lumbar facet syndrome s/p facet joint injection\n___, and tobacco use who presents with UTI which was\nworsening on outpatient abx.\n\n#UTI\nPt p/w UTI which was clinically worsening on Macrodantin \n(ongoing\nurinary syx, fevers, developing mild confusion, developing\nvomiting). Urine cx outpatient at PCP grown ___ thus far- and \nsensitivities then were pan-sensitive.  unclear why she worsened \non macrodantin because it was susceptible.in hospital was on \nceftriaxone and then transitioned to cefpodoxime to complete 6 \ndays from start of CTX. \n-blood cultures still pending on discharge but extremely low \nsuspicion for bacteremia.  \n\n#Hyponatremia\n- Likely ___ dehydration from UTI and emesis prior to admission\n- improved with fluids. \n\nChronic Medical Conditions:\n#H/o Takotsubo cardiomyopathy: Euvolemic, no chest pain, no SOB.\nMonitor for now.\n#Chronic back pain: Tylenol PRN for pain, ___\n\nDischarge Diagnosis:\nUTI",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "bacitracin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "IVP DYE",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 34,
+          "char_end": 43,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 83,
+          "turn_id": null
+        }
+      ],
+      "text": "altered mental status",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 175,
+          "turn_id": null
+        }
+      ],
+      "text": "Takotsubo\ncardiomyopathy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 201,
+          "turn_id": null
+        }
+      ],
+      "text": "heart attack",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 214,
+          "char_end": 222,
+          "turn_id": null
+        }
+      ],
+      "text": "stenting",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 264,
+          "turn_id": null
+        }
+      ],
+      "text": "Takotsubo's CMY",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "NSTEMI",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 280,
+          "char_end": 290,
+          "turn_id": null
+        }
+      ],
+      "text": "chest\npain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 297,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 313,
+          "char_end": 327,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent UTIs",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 329,
+          "char_end": 353,
+          "turn_id": null
+        }
+      ],
+      "text": "non-melanoma skin\ncancer",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 367,
+          "char_end": 376,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 381,
+          "char_end": 402,
+          "turn_id": null
+        }
+      ],
+      "text": "lumbar facet syndrome",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 408,
+          "char_end": 429,
+          "turn_id": null
+        }
+      ],
+      "text": "facet\njoint injection",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 467,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent UTIs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 543,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 551,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 588,
+          "turn_id": null
+        }
+      ],
+      "text": ">100 WBCs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": ">100 RBCs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA\ntenderness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 673,
+          "turn_id": null
+        }
+      ],
+      "text": "Macrodantin",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 679,
+          "turn_id": null
+        }
+      ],
+      "text": "50 mg",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 680,
+          "char_end": 683,
+          "turn_id": null
+        }
+      ],
+      "text": "QID",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 714,
+          "turn_id": null
+        }
+      ],
+      "text": "7 days",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 753,
+          "char_end": 756,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 779,
+          "turn_id": null
+        }
+      ],
+      "text": "seven\ndays",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "cefdinir",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 881,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "bactrim",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 892,
+          "char_end": 897,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 907,
+          "char_end": 915,
+          "turn_id": null
+        }
+      ],
+      "text": "macrobid",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 985,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 1011,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary frequency",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1013,
+          "char_end": 1028,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary urgency",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1064,
+          "turn_id": null
+        }
+      ],
+      "text": "frequency/urgency incontinence",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1136,
+          "turn_id": null
+        }
+      ],
+      "text": "UTIs",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1181,
+          "char_end": 1192,
+          "turn_id": null
+        }
+      ],
+      "text": "Macrodantin",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1259,
+          "char_end": 1264,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1284,
+          "char_end": 1290,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1295,
+          "char_end": 1303,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1340,
+          "char_end": 1346,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1347,
+          "char_end": 1355,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1359,
+          "char_end": 1367,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1397,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1472,
+          "char_end": 1476,
+          "turn_id": null
+        }
+      ],
+      "text": "UTIs",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1510,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1558,
+          "char_end": 1567,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1585,
+          "char_end": 1590,
+          "turn_id": null
+        }
+      ],
+      "text": "fuzzy",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1793,
+          "char_end": 1817,
+          "turn_id": null
+        }
+      ],
+      "text": "Takotsubo\ncardiomyopathy",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1819,
+          "char_end": 1833,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent UTIs",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1835,
+          "char_end": 1859,
+          "turn_id": null
+        }
+      ],
+      "text": "non-melanoma skin cancer",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1870,
+          "char_end": 1879,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1884,
+          "char_end": 1905,
+          "turn_id": null
+        }
+      ],
+      "text": "lumbar facet syndrome",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1910,
+          "char_end": 1931,
+          "turn_id": null
+        }
+      ],
+      "text": "facet joint injection",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1941,
+          "char_end": 1952,
+          "turn_id": null
+        }
+      ],
+      "text": "tobacco use",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1971,
+          "char_end": 1974,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2009,
+          "char_end": 2012,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2016,
+          "char_end": 2019,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2027,
+          "char_end": 2030,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2065,
+          "char_end": 2076,
+          "turn_id": null
+        }
+      ],
+      "text": "Macrodantin",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2087,
+          "char_end": 2098,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary syx",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2100,
+          "char_end": 2106,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2124,
+          "char_end": 2133,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2146,
+          "char_end": 2154,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2157,
+          "char_end": 2165,
+          "turn_id": null
+        }
+      ],
+      "text": "Urine cx",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2209,
+          "char_end": 2222,
+          "turn_id": null
+        }
+      ],
+      "text": "sensitivities",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2278,
+          "char_end": 2289,
+          "turn_id": null
+        }
+      ],
+      "text": "macrodantin",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2337,
+          "char_end": 2348,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2374,
+          "char_end": 2385,
+          "turn_id": null
+        }
+      ],
+      "text": "cefpodoxime",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2398,
+          "char_end": 2405,
+          "turn_id": null
+        }
+      ],
+      "text": "6 \ndays",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2420,
+          "char_end": 2423,
+          "turn_id": null
+        }
+      ],
+      "text": "CTX",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2427,
+          "char_end": 2441,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2502,
+          "char_end": 2512,
+          "turn_id": null
+        }
+      ],
+      "text": "bacteremia",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2518,
+          "char_end": 2530,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyponatremia",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2544,
+          "char_end": 2555,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2561,
+          "char_end": 2564,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2569,
+          "char_end": 2575,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2654,
+          "char_end": 2678,
+          "turn_id": null
+        }
+      ],
+      "text": "Takotsubo cardiomyopathy",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2694,
+          "char_end": 2704,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2709,
+          "char_end": 2712,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2740,
+          "char_end": 2749,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2751,
+          "char_end": 2758,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2759,
+          "char_end": 2771,
+          "turn_id": null
+        }
+      ],
+      "text": "PRN for pain",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2767,
+          "char_end": 2771,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2799,
+          "char_end": 2802,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e86"
+    }
+  ]
+}

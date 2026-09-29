@@ -1,0 +1,320 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:206549:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] hi ,i think my contraceptive pill is causing severe anxiety. i started taking it about 4 months ago when i was struggling with severe depression and anxiety before and during my period, but since being on the pill it has got a whole lot worse. i have anxiety attacks every day, suffer from insomnia and feel paranoid and anxious about everything. its putting a real strain on my relationship with my boyfriend and my family. I do have the copper coil, which I've had for just over a year now, and was planning to have it removed and continue with the pill but i don't know if either of them are making me worse. i also have a history of kidney problems, having one kidney removed in 2012. any kind of advice or help would be greatly appreciated!thanks sophie\n[doctor] Hello welcome to Health Care MagicCommonly used contraceptive pills may aggravate depressive symptoms, and can also cause mood swings and precipitation of panic attacks. In susceptible individuals or in individuals with pre existing depression risk is high. Insomnia may be a part of anxiety or may be due to hormonal changes. If you are having serious anxiety attacks consider consulting a psychiatrist. Medicines like SSRIs and SNRIs are commonly used. Even a lot of medicines cause improvement in menstrual symptoms also. To improve your relationship with boyfriend and family you can consult a psychologist for relationship counselling.Hope this helps you, thanks",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 43,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "contraceptive pill",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 69,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 154,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 166,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 276,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety attacks",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 277,
+          "char_end": 286,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every day",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 300,
+          "char_end": 308,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 326,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "paranoid",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 331,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxious",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 433,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "strain on my relationship with my boyfriend and my family",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 647,
+          "char_end": 662,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kidney problems",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 675,
+          "char_end": 689,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kidney removed",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 845,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "contraceptive pills",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 879,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depressive symptoms",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 911,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "mood swings",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 946,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "panic attacks",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 998,
+          "char_end": 1021,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pre existing depression",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1044,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Insomnia",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1062,
+          "char_end": 1069,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1146,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety attacks",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1198,
+          "char_end": 1203,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRIs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1208,
+          "char_end": 1213,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SNRIs",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1296,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "menstrual symptoms",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1393,
+          "char_end": 1417,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "relationship counselling",
+      "id": "e24"
+    }
+  ]
+}

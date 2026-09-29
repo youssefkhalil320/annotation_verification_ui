@@ -1,0 +1,1084 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18255373-DS-22:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins / Aspirin\n\nChief Complaint:\nAbdominal pain\n\nHistory of Present Illness:\nMr. ___ is a ___ old male with a history of an upper GI \nbleed, pancreatitis, HTN, Type II DM, schizophrenia who was \nrecently discharged on ___ (hospitalized ___ after he \nwas found to have hematemesis from a bleeding 4.5 cm gastric \nulcer with visible vessel which was intially injected with \nEpinephrine. On ___, the  patient had a CT scan showing a 7cm \nx 3cm hematoma posterior to the stomach and few locules of gas \nconcerning for a contained retroperitoneal perforation, but \nremained hemodynamically stable throughout. On ___, the \npatient had another bout of significant hematemesis and \nemergently taken to the OR for ex-lap and oversewing of gastric \nperforation. On POD ___ pt was found to have a PE with DVTs and \nand IVC filter was placed. The patient also had a cipro \nresistent UTI diagnosed on ___, for which he was treated with \nBactrim. The patient returned to the Emergency Department today \nwith a complaint of acute onset abdominal pain just to the right \nof his incision constant, non-radiating, associated with fever \nto 101 by  report and ___ pain. The patient denies nausea, \nvomiting, constipation, diarrhea. Having flatus and had a bowel \nmovement. Tolerating PO intake, denying hematemesis, \nhematochezia, melena, dysuria or hematuria. Patient went to \n___, where WBC was 12.1 and the KUB showed some \nair-fluid levels. The patient was then transferred to ___.\n\nBrief Hospital Course:\nThe patient was re-admitted to the General Surgical Service on \n___ for evaluation of the aforementioned problem.  He was \nmade NPO with an NGT placed, started on IV fluids and IV Cipro \nand Flagyl, the G-Tube portion of the GJ-Tube was vented to \ngravity with the J-Tube portion remaining clamped, a foley \ncatheter was inserted, and he was given Dilaudid IV PRN for pain \nwith good effect. An abdominal/pelvic CT with contrast was \nperformed showing the left subdiaphragmatic fluid collection as \nwell as findings concerning for SBO. On ___, the patient had \nthe small fluid collection drained in Interventional Radiology \n(___), which went well without complication. The collection was \ntoo small to place a drain. Prior to the ___ procedure, his \nCoumadin was held, and he was transfused a total of 5 units of \nFresh-frozen Plasma (FFP). Upon return to the floor, he was \nstarted on a Heparin infusion. He remained hemodynamically \nstable.\n\nOn ___, his NGT and foley were discontinued. He was started \non sips of clears, and his diet was progressively advanced to a \nregular diabetic diet by ___, which he tolerated well. When \nhis diet was resumed, the G-Tube portion of the GJ-Tube was \nagain clamped. Oral pain medications were started with the \nresumption of his diet as well with good effect. \n\nCoumadin was restarted on ___, and once the INR became \ntherapeutic on ___, the Heparin infusion was discontinued. \nHe did not experience any bleeding or bruising.\n\nHe psychiatric medications were resumed, and he was followed by \nthe Social Worker while hospitalized for support. He experienced \nsome increased anxiety during this admission, which was well \ncontrolled with Ativan PRN.\n\nAt the time of discharge on ___, the patient was doing well, \nafebrile with stable vital signs.  The patient was tolerating a \ndiabetic regular diet, ambulating, voiding without assistance, \nand pain was well controlled. Coumadin was therapeutic at 5mg \ndaily with an INR 2.4. He was again discharged home with ___ \nservices. He will follow-up with Dr. ___ his PCP as \nscheduled. The patient received discharge teaching and follow-up \ninstructions with understanding verbalized and agreement with \nthe discharge plan.\n\nDischarge Diagnosis:\nPrimary:\n1. Small bowel obstruction\n2. Subdiaphragmatic abscess\n\nSecondary:\n1. Type II DM\n2. Peptic Ulcer Disease complicated by bleeding ulcer\n2. Gastric variceal ulceration and hemorrhage s/p oversewing of \ngastric ulcer and G-J Tube placement.\n3. Right posterior tibial vein deep venous thrombosis with \npulmonary embolus.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 65,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "upper GI \nbleed",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 171,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatitis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 176,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "Type II DM",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "schizophrenia",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 297,
+          "turn_id": null
+        }
+      ],
+      "text": "hematemesis",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 335,
+          "turn_id": null
+        }
+      ],
+      "text": "gastric \nulcer",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 355,
+          "turn_id": null
+        }
+      ],
+      "text": "visible vessel",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 390,
+          "char_end": 401,
+          "turn_id": null
+        }
+      ],
+      "text": "Epinephrine",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 459,
+          "char_end": 492,
+          "turn_id": null
+        }
+      ],
+      "text": "hematoma posterior to the stomach",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 501,
+          "char_end": 515,
+          "turn_id": null
+        }
+      ],
+      "text": "locules of gas",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 534,
+          "char_end": 571,
+          "turn_id": null
+        }
+      ],
+      "text": "contained retroperitoneal perforation",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 675,
+          "char_end": 686,
+          "turn_id": null
+        }
+      ],
+      "text": "hematemesis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 729,
+          "turn_id": null
+        }
+      ],
+      "text": "ex-lap",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 734,
+          "char_end": 768,
+          "turn_id": null
+        }
+      ],
+      "text": "oversewing of gastric \nperforation",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 804,
+          "char_end": 806,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 816,
+          "turn_id": null
+        }
+      ],
+      "text": "DVTs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 836,
+          "turn_id": null
+        },
+        {
+          "char_start": 841,
+          "char_end": 847,
+          "turn_id": null
+        }
+      ],
+      "text": "IVC filter placed",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 872,
+          "char_end": 892,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro \nresistent UTI",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 949,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1039,
+          "char_end": 1053,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1130,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1163,
+          "char_end": 1167,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1188,
+          "char_end": 1194,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1197,
+          "char_end": 1205,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1207,
+          "char_end": 1219,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1229,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1302,
+          "char_end": 1313,
+          "turn_id": null
+        }
+      ],
+      "text": "hematemesis",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1316,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "hematochezia",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1330,
+          "char_end": 1336,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1338,
+          "char_end": 1345,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1349,
+          "char_end": 1358,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1388,
+          "char_end": 1391,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1409,
+          "char_end": 1412,
+          "turn_id": null
+        }
+      ],
+      "text": "KUB",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1426,
+          "char_end": 1442,
+          "turn_id": null
+        }
+      ],
+      "text": "air-fluid levels",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1649,
+          "char_end": 1659,
+          "turn_id": null
+        }
+      ],
+      "text": "NGT placed",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1674,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1681,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1686,
+          "char_end": 1688,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1689,
+          "char_end": 1694,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1700,
+          "char_end": 1706,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1810,
+          "char_end": 1825,
+          "turn_id": null
+        },
+        {
+          "char_start": 1830,
+          "char_end": 1838,
+          "turn_id": null
+        }
+      ],
+      "text": "foley \ncatheter inserted",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1857,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "Dilaudid",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1869,
+          "char_end": 1881,
+          "turn_id": null
+        }
+      ],
+      "text": "PRN for pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1904,
+          "char_end": 1937,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal/pelvic CT with contrast",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1965,
+          "char_end": 2003,
+          "turn_id": null
+        }
+      ],
+      "text": "left subdiaphragmatic fluid collection",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2040,
+          "char_end": 2043,
+          "turn_id": null
+        }
+      ],
+      "text": "SBO",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2104,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid collection drained",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2225,
+          "turn_id": null
+        }
+      ],
+      "text": "place a drain",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2260,
+          "char_end": 2268,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2290,
+          "char_end": 2349,
+          "turn_id": null
+        }
+      ],
+      "text": "transfused a total of 5 units of \nFresh-frozen Plasma (FFP)",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2398,
+          "char_end": 2405,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2406,
+          "char_end": 2414,
+          "turn_id": null
+        }
+      ],
+      "text": "infusion",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2722,
+          "char_end": 2738,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2813,
+          "char_end": 2821,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2857,
+          "char_end": 2860,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2893,
+          "char_end": 2900,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2901,
+          "char_end": 2909,
+          "turn_id": null
+        }
+      ],
+      "text": "infusion",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2955,
+          "char_end": 2963,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2967,
+          "char_end": 2975,
+          "turn_id": null
+        }
+      ],
+      "text": "bruising",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3124,
+          "char_end": 3131,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3187,
+          "char_end": 3193,
+          "turn_id": null
+        }
+      ],
+      "text": "Ativan",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3395,
+          "char_end": 3399,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3421,
+          "char_end": 3429,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3449,
+          "char_end": 3452,
+          "turn_id": null
+        }
+      ],
+      "text": "5mg",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3454,
+          "char_end": 3459,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3468,
+          "char_end": 3471,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3752,
+          "char_end": 3775,
+          "turn_id": null
+        }
+      ],
+      "text": "Small bowel obstruction",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3779,
+          "char_end": 3803,
+          "turn_id": null
+        }
+      ],
+      "text": "Subdiaphragmatic abscess",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3819,
+          "char_end": 3829,
+          "turn_id": null
+        }
+      ],
+      "text": "Type II DM",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3833,
+          "char_end": 3853,
+          "turn_id": null
+        }
+      ],
+      "text": "Peptic Ulcer Disease",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3869,
+          "char_end": 3883,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding ulcer",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3887,
+          "char_end": 3914,
+          "turn_id": null
+        }
+      ],
+      "text": "Gastric variceal ulceration",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3919,
+          "char_end": 3929,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3934,
+          "char_end": 3962,
+          "turn_id": null
+        }
+      ],
+      "text": "oversewing of \ngastric ulcer",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3967,
+          "char_end": 3985,
+          "turn_id": null
+        }
+      ],
+      "text": "G-J Tube placement",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3990,
+          "char_end": 4040,
+          "turn_id": null
+        }
+      ],
+      "text": "Right posterior tibial vein deep venous thrombosis",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4047,
+          "char_end": 4064,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary embolus",
+      "id": "e82"
+    }
+  ]
+}

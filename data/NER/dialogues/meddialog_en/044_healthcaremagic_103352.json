@@ -1,0 +1,450 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:103352:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Just came from walk in where I was told I had a bad sinus infection . Will be taking an antibiotic but my question is when I take Mucinex it makes me very jumpy and light headed. I thought the dr said it was from the guaifenesin and to take mucinex or robitussin exportorant. It looks as though all the mucinex products contain guaifenesin. Did I misunderstand?\n[doctor] you understand goodbut sinus infections are all allergies and after neglecting milld allergies off and on you get infected sinussand you need to take antiallergic instead of bronchodilatorsif infected can take doxycycline 100 mg bd for 7 days off and on as hey are fast clearing of infectionstake anti allergic bd doseadd antacid and syp cpm and codeine combination one tsf nighttake flunarazine 5 mg night continue 3 wkbut get xray pns waers view and take ent doctorconsultation to cure it completely",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 77,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus infection",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 98,
+          "char_end": 108,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 147,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Mucinex",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 170,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "jumpy",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 187,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "light headed",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 238,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "guaifenesin",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 258,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mucinex",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 262,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "robitussin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 273,
+          "char_end": 284,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "exportorant",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 313,
+          "char_end": 320,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mucinex",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 349,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "guaifenesin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 420,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sinus infections",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 438,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergies",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 466,
+          "char_end": 475,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergies",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 486,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "off and on",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 543,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antiallergic",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 572,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bronchodilatorsif",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 591,
+          "char_end": 602,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 603,
+          "char_end": 609,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "100 mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 610,
+          "char_end": 612,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bd",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 613,
+          "char_end": 623,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for 7 days",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 678,
+          "char_end": 691,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti allergic",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 694,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bd",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 703,
+          "char_end": 710,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antacid",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 718,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "syp",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 719,
+          "char_end": 722,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cpm",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 734,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "codeine",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 747,
+          "char_end": 754,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "one tsf",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 755,
+          "char_end": 764,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nighttake",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 776,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "flunarazine",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 777,
+          "char_end": 781,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "5 mg",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 782,
+          "char_end": 787,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "night",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 804,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "3 wkbut",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 809,
+          "char_end": 828,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "xray pns waers view",
+      "id": "e34"
+    }
+  ]
+}

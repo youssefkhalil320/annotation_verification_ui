@@ -1,0 +1,299 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:146330:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I had an allergic reaction to a sulfar based antibiotic that caused kidney failure. I am getting better but my nose and mouth feel numb as if I had a shot from the dentist. This happened on Sept. 22, hospitalized for 3 days. The hospital did all types of test from CT scan, MRI, EKG, etc. nothing indicated a problem such as stroke. I am getting stronger every day. However this numbness that feels like nose and upper left lip, especially nose feels strange, nasal secretion. No one seems to know what is causing the problem. I am having a gastroscopy procedure done on Wednesday. All of this started because I was diagnosed with bronchitis 3 times this year. I have problems swallowing and coughing. Should I be concerned?\n[doctor] Hi,     I understand your concern.     It seems you have been investigated extensively for the numbness.   *   I think your problem is something apart from your allergy,bronchitis. I would suggest Plain x ray cervical spine AP & Lateral view. It may reveal cervical spondelitis  causing pressure on facial nerve supplying nose & upper lip.      Once diagnosis is made specific treatment will be advised by a neurologist.   * Investigations for allergy & treatment is another thing you need. Visit Allergy specialist/ ENT specialist for specific advise.     Thanks.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 36,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 65,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sulfar based antibiotic",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 92,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kidney failure",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 125,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 136,
+          "char_end": 145,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nose feel numb",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 145,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mouth feel numb",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 282,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CT scan",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 284,
+          "char_end": 287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 289,
+          "char_end": 292,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "EKG",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 341,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stroke",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 397,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "numbness",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 485,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nasal secretion",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 551,
+          "char_end": 562,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gastroscopy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 651,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bronchitis",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 678,
+          "char_end": 697,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "problems swallowing",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 710,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "coughing",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 847,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "numbness",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 912,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergy",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 923,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bronchitis",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 941,
+          "char_end": 985,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Plain x ray cervical spine AP & Lateral view",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1001,
+          "char_end": 1021,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cervical spondelitis",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1031,
+          "char_end": 1055,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pressure on facial nerve",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1188,
+          "char_end": 1195,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergy",
+      "id": "e22"
+    }
+  ]
+}

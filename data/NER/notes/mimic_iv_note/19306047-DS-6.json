@@ -1,0 +1,377 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19306047-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPercocet / NSAIDS\n\nChief Complaint:\nNausea, Vomiting\n\nHistory of Present Illness:\nThis patient is a ___ year old female with hx of lap roux en y\ngastric bypass in ___ and hx marginal ulcer who presents with\nvomiting (chronically) that was bloody tinged in 2 episodes\nyesterday ___ dollar coin sized). She reports that the \nabdominal\n___ is constant, and 4 hours of severe epigastric ___.  She \ndenies fever/chills. No hematochezia or melena. Regular BM last \nthis AM. Takes her PPI and sucralafate.  No NSAIDs. She reports \nthat she has to eat regularly to prevent the ___. She has no \nblood in the stools. She reports presenting to ___ \nyesterday where she was seen and discharged home despite \nrecommendations for admission from our service. She is \ntolerating Jell-O, soups, pudding.\n\nBrief Hospital Course:\nThe patient presented to the ___ on \n___. Pt was trasferred to the ___ Building, ___ \nfloor for further management of her symptoms.\n \nNeuro: The patient was ___ and oriented throughout the \nhospitalization; ___ was well controlled with home tramadol\nCV: The patient remained stable from a cardiovascular \nstandpoint; vital signs were routinely monitored.\nPulmonary: The patient remained stable from a pulmonary \nstandpoint; vital signs were routinely monitored. \nGI/GU/FEN: She was maintained a bariatric stage 3 diet \nthroughout her hospitalization. Patient's intake and output were \nclosely monitored. She took PO sucralfate and IV pantoprazole to \nmanage her symptoms. \nID: The patient's fever curves were closely watched for signs of \ninfection, of which there were none.\nProphylaxis: The patient wore ___ dyne boots during this stay \ngiven concern for upeer GI bleeding; she was encouraged to get \nup and ambulate as early as possible.\n \nAt the time of discharge, the patient was doing well, afebrile \nwith stable vital signs.  The patient was tolerating a stage 3 \ndiet, ambulating, voiding without assistance, and ___ was well \ncontrolled.  The patient received discharge teaching and \nfollow-up instructions with understanding verbalized and \nagreement with the discharge plan.\n\nDischarge Diagnosis:\nNausea, Vomiting",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Percocet",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDS",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "Nausea",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 63,
+          "turn_id": null
+        }
+      ],
+      "text": "Vomiting",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 170,
+          "turn_id": null
+        }
+      ],
+      "text": "lap roux en y\ngastric bypass",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 199,
+          "turn_id": null
+        }
+      ],
+      "text": "marginal ulcer",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 226,
+          "turn_id": null
+        },
+        {
+          "char_start": 250,
+          "char_end": 263,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting bloody tinged",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 412,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 418,
+          "char_end": 424,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 441,
+          "turn_id": null
+        }
+      ],
+      "text": "hematochezia",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 451,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 489,
+          "char_end": 492,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 497,
+          "char_end": 508,
+          "turn_id": null
+        }
+      ],
+      "text": "sucralafate",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 520,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDs",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 616,
+          "turn_id": null
+        }
+      ],
+      "text": "blood in the stools",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1063,
+          "char_end": 1071,
+          "turn_id": null
+        }
+      ],
+      "text": "tramadol",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1139,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1257,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1383,
+          "char_end": 1400,
+          "turn_id": null
+        }
+      ],
+      "text": "intake and output",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1435,
+          "char_end": 1437,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1438,
+          "char_end": 1448,
+          "turn_id": null
+        }
+      ],
+      "text": "sucralfate",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1453,
+          "char_end": 1455,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1456,
+          "char_end": 1468,
+          "turn_id": null
+        }
+      ],
+      "text": "pantoprazole",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1513,
+          "char_end": 1525,
+          "turn_id": null
+        }
+      ],
+      "text": "fever curves",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1561,
+          "char_end": 1570,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1696,
+          "turn_id": null
+        }
+      ],
+      "text": "upeer GI bleeding",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2130,
+          "char_end": 2136,
+          "turn_id": null
+        }
+      ],
+      "text": "Nausea",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2138,
+          "char_end": 2146,
+          "turn_id": null
+        }
+      ],
+      "text": "Vomiting",
+      "id": "e28"
+    }
+  ]
+}

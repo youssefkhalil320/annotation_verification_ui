@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 15,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 32,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 69,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 93,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 118,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 133,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 155,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 181,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 282,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 745,
@@ -146,8 +136,20 @@
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 972,
+          "char_end": 978,
+          "turn_id": null
+        }
+      ],
+      "text": "single",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 979,
@@ -156,12 +158,11 @@
         }
       ],
       "text": "intraperitoneal",
-      "id": "e11"
+      "id": "e12"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dosage_form",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 995,
@@ -170,12 +171,11 @@
         }
       ],
       "text": "injection",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1008,
@@ -184,26 +184,11 @@
         }
       ],
       "text": "Streptozotocin",
-      "id": "e13"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1024,
-          "char_end": 1027,
-          "turn_id": null
-        }
-      ],
-      "text": "STZ",
       "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1067,
@@ -217,7 +202,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1110,
@@ -231,7 +215,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1120,
@@ -245,7 +228,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1139,
@@ -259,7 +241,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1154,
@@ -273,7 +254,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1168,
@@ -287,7 +267,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1180,
@@ -301,7 +280,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1306,
@@ -315,7 +293,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1408,
@@ -329,7 +306,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1423,
@@ -343,7 +319,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1428,
@@ -357,7 +332,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1434,
@@ -371,7 +345,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1443,
@@ -385,7 +358,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1451,
@@ -399,7 +371,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1458,
@@ -413,7 +384,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1469,
@@ -427,7 +397,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1529,
@@ -441,7 +410,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1534,
@@ -455,7 +423,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1540,
@@ -469,7 +436,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1545,
@@ -483,7 +449,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1553,
@@ -497,7 +462,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1560,
@@ -511,7 +475,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1576,
@@ -525,7 +488,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1610,
@@ -539,7 +501,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1690,

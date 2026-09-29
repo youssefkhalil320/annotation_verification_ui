@@ -6,36 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 3,
-          "char_end": 14,
-          "turn_id": null
-        }
-      ],
-      "text": "stop taking",
-      "id": "e1"
-    },
-    {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "duration",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 15,
-          "char_end": 24,
-          "turn_id": null
-        }
-      ],
-      "text": "for 1 day",
-      "id": "e2"
-    },
-    {
-      "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 48,
@@ -44,12 +15,24 @@
         }
       ],
       "text": "diarrhea",
-      "id": "e3"
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 124,
+          "turn_id": null
+        }
+      ],
+      "text": "leach calcium from bone joints",
+      "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 180,
@@ -58,7 +41,7 @@
         }
       ],
       "text": "pain",
-      "id": "e4"
+      "id": "e3"
     }
   ]
 }

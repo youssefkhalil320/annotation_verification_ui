@@ -1,0 +1,1282 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18095081-DS-10:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nSulfa (Sulfonamide Antibiotics)\n\nChief Complaint:\nmelena, anemia\n\nHistory of Present Illness:\nThis is a ___ y/o female with a medical history significant for \nMDS, long-standing anemia attributed to MDS, and more recently \ndark-colored stools x months, admitted tonight after a single \nballoon enteroscopy today.  Per patient and her husband, her \nsymptoms have been long-standing and have progressively worsened \nsince ___. The patient has been evaluated numerous \ntimes for a chronic GIB leading to her anemia, but prior \nprocedures (capsule, endoscopy, and colonoscopy) have not \nisolated the source.  The most recent capsule study revealed \nactive bleeding, hence the referral here for a single balloor \nenteroscopy.  Of note, the patient has been frequently \nhospitalized over the last few months for transfusions and \nsymptomatic anemia; her last hospitalization was at ___ 1.5 \nweeks ago.  She received 1 unit of PRBCs then and IV iron.  CT \nand MRI during that admission did not reveal a source for the \nbleed.  The patient tells me she gets procrit every 3 weeks and \nIV iron every six weeks or so.\n.\nPer patient, she continues to have lightheadhedness with \nstanding, occasional palpitations/chest pain/shortness of \nbreath.  No n/v/abd pain/diarrhea/BRBPR/hematemesis.  No recent \nchanges in weight, no f/c/s. 12-pt ROS otherwise negative in \ndetail except for as noted above.\n.\nToday, patient underwent this procedure for further eval of a \npolypoid lesion in the distal ileum seen on capsule.  This area \nwas unable to be reached today; however, an angioectasia that \nwas actively bleeding in the D2 segment was seen and cauterized \nwith success.  Currently, she feels well except for some mild \nabdominal cramping and bloating.\n\nBrief Hospital Course:\nMedicine Course ___\nPt is a ___ y.o female with h.o MDS, anemia, arthritis, chronic \nGIB who presented for enteroscopy and retrograde enteroscopy, \n?ileal mass vs polyp.  \n.  \n#Gastrointestinal bleeding/melena/multifactorial anemia-Pt \nunderwent a push enteroscopy with cautery of an angioectasia in \nthe duodenum ___. Retrograde enteroscopy ___ unable to \nvisualize ileal polyp/lesion seen on capsule at OSH. MRE \nperformed ___ to further eval this lesion and was able to \nidentify an ileal lesion but not characterize it further. The \npatient was evaluated by the colorectal surgery service who took \nthe patient to the operating room on ___ for bowel resection \nand biopsy of the ileal lesion.Pt was able to tolerate a regular \ndiet prior to surgery.\n. \n#multifactorial anemia-likely due to MDS and chronic GI blood \nloss-Pt reported extensive prior w/u. She remained \nhemodynamically stable with a stable hematocrit during \nadmission.  Anemia could be due to duodenal AVM +/- ileal lesion\n-CBC f/u as outpt.\n.  \n#tension headache-tylenol was given prn. No neuro red flags.  \n.  \n#leukopenia-pt with h.o MDS. ___ febrile, not neutropenic. \nImproved.   \n.  \n#arthritis-tylenol prn.  \n.  \n#vertigo- meclizine prn per outpt regimen\n.  \nFEN: adat to regular  \n.  \nDVT PPx: pneumoboots given recent melena.  \n.  \nCODE: FULL  \n.  \n.  \n\nColorectal Surgery Course ___\nShe was taken to the OR on ___ for resection of a small \nbowel lesion. She tolerated the procedure well and was extubated \nin the OR prior to recovering in the PACU. For full details of \nthe procedure please see the dictated operative report. Post op \nshe was kept NPO with IV fluids and a PCA. A foley catheter was \nplaced in the OR. On POD 1 she was given ice chips and her foley \ncatheter was removed at midnigh. Mrs. ___ progressed well, \nshe was advanced to clear liquids and when she passed flatus on \n___ she tolerated a regular diet. The patient's pain was \ncontrolled with pain medications by mouth. When she was meeting \nall discharge criteria she was discharged home with appropriate \ndischarge instruction. The patients hematocrit drifted \npost-oepratively likely related to preoperative loses, she was \nhemodynamically stable but transfused for a hematocrit of 25.6. \nOn ___ the patient's hematocrit was 34.2 on the day of \ndischarge. She was discharged home in stable condition. The \npatient was agreeable to the discharge plan.\n\nDischarge Diagnosis:\nanemia due to GI bleeding\nduodenal AVM\nileal mass",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide Antibiotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 75,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 173,
+          "turn_id": null
+        }
+      ],
+      "text": "MDS",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 213,
+          "turn_id": null
+        }
+      ],
+      "text": "MDS",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "dark-colored stools",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 297,
+          "char_end": 316,
+          "turn_id": null
+        }
+      ],
+      "text": "balloon enteroscopy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 489,
+          "char_end": 500,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic GIB",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 522,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 547,
+          "char_end": 554,
+          "turn_id": null
+        }
+      ],
+      "text": "capsule",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 556,
+          "char_end": 565,
+          "turn_id": null
+        }
+      ],
+      "text": "endoscopy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 582,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 632,
+          "char_end": 645,
+          "turn_id": null
+        }
+      ],
+      "text": "capsule study",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 671,
+          "turn_id": null
+        }
+      ],
+      "text": "active bleeding",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "balloor \nenteroscopy",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 817,
+          "char_end": 829,
+          "turn_id": null
+        }
+      ],
+      "text": "transfusions",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 847,
+          "char_end": 853,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 921,
+          "char_end": 936,
+          "turn_id": null
+        }
+      ],
+      "text": "1 unit of PRBCs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 946,
+          "char_end": 953,
+          "turn_id": null
+        }
+      ],
+      "text": "IV iron",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 958,
+          "turn_id": null
+        }
+      ],
+      "text": "CT",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 967,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1061,
+          "char_end": 1068,
+          "turn_id": null
+        }
+      ],
+      "text": "procrit",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1069,
+          "char_end": 1082,
+          "turn_id": null
+        }
+      ],
+      "text": "every 3 weeks",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1088,
+          "char_end": 1095,
+          "turn_id": null
+        }
+      ],
+      "text": "IV iron",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1096,
+          "char_end": 1117,
+          "turn_id": null
+        }
+      ],
+      "text": "every six weeks or so",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1156,
+          "char_end": 1187,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadhedness with \nstanding",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1200,
+          "char_end": 1212,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1213,
+          "char_end": 1223,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1224,
+          "char_end": 1244,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of \nbreath",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1250,
+          "char_end": 1253,
+          "turn_id": null
+        }
+      ],
+      "text": "n/v",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1262,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1271,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1272,
+          "char_end": 1277,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1289,
+          "turn_id": null
+        }
+      ],
+      "text": "hematemesis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1303,
+          "char_end": 1320,
+          "turn_id": null
+        }
+      ],
+      "text": "changes in weight",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1325,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "f/c/s",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1464,
+          "char_end": 1499,
+          "turn_id": null
+        }
+      ],
+      "text": "polypoid lesion in the distal ileum",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1508,
+          "char_end": 1515,
+          "turn_id": null
+        }
+      ],
+      "text": "capsule",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1573,
+          "char_end": 1585,
+          "turn_id": null
+        }
+      ],
+      "text": "angioectasia",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1596,
+          "char_end": 1613,
+          "turn_id": null
+        }
+      ],
+      "text": "actively bleeding",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1645,
+          "char_end": 1655,
+          "turn_id": null
+        }
+      ],
+      "text": "cauterized",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1720,
+          "char_end": 1738,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal cramping",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1743,
+          "char_end": 1751,
+          "turn_id": null
+        }
+      ],
+      "text": "bloating",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1829,
+          "char_end": 1832,
+          "turn_id": null
+        }
+      ],
+      "text": "MDS",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1834,
+          "char_end": 1840,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1842,
+          "char_end": 1851,
+          "turn_id": null
+        }
+      ],
+      "text": "arthritis",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1853,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic \nGIB",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1900,
+          "char_end": 1922,
+          "turn_id": null
+        }
+      ],
+      "text": "retrograde enteroscopy",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1926,
+          "char_end": 1936,
+          "turn_id": null
+        }
+      ],
+      "text": "ileal mass",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1954,
+          "char_end": 1979,
+          "turn_id": null
+        }
+      ],
+      "text": "Gastrointestinal bleeding",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1980,
+          "char_end": 1986,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1987,
+          "char_end": 2008,
+          "turn_id": null
+        }
+      ],
+      "text": "multifactorial anemia",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2041,
+          "turn_id": null
+        }
+      ],
+      "text": "push enteroscopy",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2047,
+          "char_end": 2054,
+          "turn_id": null
+        }
+      ],
+      "text": "cautery",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2061,
+          "char_end": 2090,
+          "turn_id": null
+        }
+      ],
+      "text": "angioectasia in \nthe duodenum",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2096,
+          "char_end": 2118,
+          "turn_id": null
+        }
+      ],
+      "text": "Retrograde enteroscopy",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2144,
+          "char_end": 2155,
+          "turn_id": null
+        }
+      ],
+      "text": "ileal polyp",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2156,
+          "char_end": 2162,
+          "turn_id": null
+        }
+      ],
+      "text": "lesion",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2171,
+          "char_end": 2178,
+          "turn_id": null
+        }
+      ],
+      "text": "capsule",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2190,
+          "turn_id": null
+        }
+      ],
+      "text": "MRE",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2263,
+          "char_end": 2275,
+          "turn_id": null
+        }
+      ],
+      "text": "ileal lesion",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2425,
+          "char_end": 2440,
+          "turn_id": null
+        }
+      ],
+      "text": "bowel resection",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2446,
+          "char_end": 2472,
+          "turn_id": null
+        }
+      ],
+      "text": "biopsy of the ileal lesion",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2460,
+          "char_end": 2472,
+          "turn_id": null
+        }
+      ],
+      "text": "ileal lesion",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2535,
+          "char_end": 2556,
+          "turn_id": null
+        }
+      ],
+      "text": "multifactorial anemia",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2571,
+          "char_end": 2574,
+          "turn_id": null
+        }
+      ],
+      "text": "MDS",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2579,
+          "char_end": 2601,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic GI blood \nloss",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2686,
+          "char_end": 2696,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2717,
+          "char_end": 2723,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2740,
+          "char_end": 2752,
+          "turn_id": null
+        }
+      ],
+      "text": "duodenal AVM",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2771,
+          "char_end": 2774,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2794,
+          "char_end": 2810,
+          "turn_id": null
+        }
+      ],
+      "text": "tension headache",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2811,
+          "char_end": 2818,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2829,
+          "char_end": 2832,
+          "turn_id": null
+        }
+      ],
+      "text": "prn",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2861,
+          "char_end": 2871,
+          "turn_id": null
+        }
+      ],
+      "text": "leukopenia",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2884,
+          "char_end": 2887,
+          "turn_id": null
+        }
+      ],
+      "text": "MDS",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2893,
+          "char_end": 2900,
+          "turn_id": null
+        }
+      ],
+      "text": "febrile",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2906,
+          "char_end": 2917,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenic",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2938,
+          "char_end": 2947,
+          "turn_id": null
+        }
+      ],
+      "text": "arthritis",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2948,
+          "char_end": 2955,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2956,
+          "char_end": 2959,
+          "turn_id": null
+        }
+      ],
+      "text": "prn",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2968,
+          "char_end": 2975,
+          "turn_id": null
+        }
+      ],
+      "text": "vertigo",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2977,
+          "char_end": 2986,
+          "turn_id": null
+        }
+      ],
+      "text": "meclizine",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2987,
+          "char_end": 2990,
+          "turn_id": null
+        }
+      ],
+      "text": "prn",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3049,
+          "char_end": 3060,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumoboots",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3074,
+          "char_end": 3080,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3175,
+          "char_end": 3209,
+          "turn_id": null
+        }
+      ],
+      "text": "resection of a small \nbowel lesion",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3252,
+          "char_end": 3261,
+          "turn_id": null
+        }
+      ],
+      "text": "extubated",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3430,
+          "char_end": 3433,
+          "turn_id": null
+        }
+      ],
+      "text": "PCA",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3872,
+          "char_end": 3882,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3983,
+          "char_end": 3993,
+          "turn_id": null
+        }
+      ],
+      "text": "transfused",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4000,
+          "char_end": 4010,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4042,
+          "char_end": 4052,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4205,
+          "char_end": 4211,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4231,
+          "char_end": 4243,
+          "turn_id": null
+        }
+      ],
+      "text": "duodenal AVM",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4244,
+          "char_end": 4254,
+          "turn_id": null
+        }
+      ],
+      "text": "ileal mass",
+      "id": "e98"
+    }
+  ]
+}

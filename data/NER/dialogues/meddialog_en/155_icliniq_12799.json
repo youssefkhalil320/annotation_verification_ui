@@ -1,0 +1,628 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:12799:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi doctor, I am a 24 year old female. I got married a year ago. I am an audiologist. I am having pain in my shoulder, hand, neck and back more in the left side of the body. Sometimes, I feel tremor in my fingers and hand and pain throughout the nerves of hand. I have these symptoms for almost 8 months now. I used to get fever at night. I consulted a physician and he prescribed me some antibiotics and multivitamin tablets. He asked me to get a Vitamin B12 test. My vitamin B12 was 173 and vitamin D was 4.7. He suggested me to go for vitamin B12 injections. After taking injections for two days the pain became severe and my normal activity got affected. So, I stopped the injections. Then, I consulted a neurologist and he prescribed me Meganeuron and Uprise D3. I am taking that for more than a month now and I do not feel any change in pain. In fact back pain got severe now. When I hold something in hand, I feel the pain radiates from the shoulder to hand followed by nerves of hand and then throughout fingers. For past two weeks, I am having pain in my heels while walking, which is more in morning. Due to these pain, I am unable to concentrate on work and sleep. So, last week I consulted another neurologist and he gave me Rexipra and advised me to continue it for 3 months. When I got to know that it is for depression and anxiety, I did not take that. After taking B12 injections I repeated all blood tests and now my vitamin B12 level is 360. Please find the attachment and give a solution.\n[doctor] Hi. I have reviewed the attached reports (attachment removed to protect patient identity). I would here by say that you may not believe vitamin B12 and vitamin D deficiency are very common in some races and we always misdiagnose these symptoms. Your symptoms are due to anxiety and not due to Vitamin B12 and D. Moreover you have taken the treatment with no relief. Share my opinion with your doctor. I would recommend in such case SSRI (Serotonin selective reuptake inhibitor) like Escitalopram with a beta blocker like Propranolol if your chest condition, pulse rate and blood pressure permits.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 111,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 128,
+          "char_end": 132,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain hand",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 111,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 134,
+          "char_end": 138,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain neck",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 111,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 143,
+          "char_end": 147,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain back",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 126,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my shoulder",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 207,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 226,
+          "char_end": 230,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremor hand",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 221,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremor in my fingers",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 235,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain throughout the nerves of hand",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 337,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 398,
+          "char_end": 409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 414,
+          "char_end": 426,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "multivitamin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 434,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablets",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 457,
+          "char_end": 473,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vitamin B12 test",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 468,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "B12",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 478,
+          "char_end": 489,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin B12",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 502,
+          "char_end": 511,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 547,
+          "char_end": 558,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin B12",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 559,
+          "char_end": 569,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injections",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 612,
+          "char_end": 616,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 751,
+          "char_end": 761,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Meganeuron",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 775,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Uprise D3",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 815,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for more than a month",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 852,
+          "char_end": 856,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 866,
+          "char_end": 875,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 934,
+          "char_end": 973,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain radiates from the shoulder to hand",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1062,
+          "char_end": 1078,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my heels",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1144,
+          "char_end": 1153,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1178,
+          "char_end": 1183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unable to sleep",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1144,
+          "char_end": 1165,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unable to concentrate",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1253,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rexipra",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1284,
+          "char_end": 1296,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 3 months",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1332,
+          "char_end": 1342,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1347,
+          "char_end": 1354,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1361,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1366,
+          "char_end": 1375,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "did take that",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1394,
+          "char_end": 1404,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injections",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1420,
+          "char_end": 1431,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1443,
+          "char_end": 1460,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin B12 level",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1662,
+          "char_end": 1673,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1688,
+          "char_end": 1698,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin B12 deficiency",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1678,
+          "char_end": 1698,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin D deficiency",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1796,
+          "char_end": 1803,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1958,
+          "char_end": 1962,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRI",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 2002,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Serotonin selective reuptake inhibitor",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2009,
+          "char_end": 2021,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2029,
+          "char_end": 2041,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "beta blocker",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2047,
+          "char_end": 2058,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Propranolol",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2084,
+          "char_end": 2094,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pulse rate",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2099,
+          "char_end": 2113,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e45"
+    }
+  ]
+}

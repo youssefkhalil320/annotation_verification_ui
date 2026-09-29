@@ -1,0 +1,359 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:100908:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I think I am allergic to codeine ( double vision, excessive dizziness, hives, sick to my stomach which is in my records) I was prescribed Percocet yesterday for a procedure, 1 hour after taking it, I was seated on the exam table waiting for the dr. when all of a sudden I felt very sick, started sweating and dizzy then I passed out. (face first) When they woke me up I started vomiting. I spent the rest of the day in the er. My blood sugar was perfect, all tests came back healthy and fine. I was so amazingly tired for the rest of the day what are normal side effects and do you think I had an allergic reaction and should the dr. have given me something else knowing that I could not take codeine?\n[doctor] Hi, thanks for using healthcare magicThe hives that you experience when you use codeine are definitely signs of an allergic reaction.Dizziness,drowsiness , nausea and vomiting are potential side effects  (not allergic reactions) of this class of drug, some persons may experience these side effects more than others.Percocet does not contain codeine and this may be the reason that the doctor gave you this medication despite your codeine allergy.I hope this helps",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 42,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic to codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 42,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "codeine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 58,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "double vision",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 70,
+          "char_end": 79,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 86,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 106,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick to my stomach",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 156,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Percocet",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 306,
+          "char_end": 314,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sweating",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 319,
+          "char_end": 324,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 342,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "passed out",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 388,
+          "char_end": 396,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 451,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood sugar",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 522,
+          "char_end": 527,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tired",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 624,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 703,
+          "char_end": 710,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "codeine",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 762,
+          "char_end": 767,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 801,
+          "char_end": 808,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "codeine",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 836,
+          "char_end": 853,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 854,
+          "char_end": 863,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Dizziness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 864,
+          "char_end": 874,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "drowsiness",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 877,
+          "char_end": 883,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nausea",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 888,
+          "char_end": 896,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 930,
+          "char_end": 948,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reactions",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1037,
+          "char_end": 1045,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Percocet",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1063,
+          "char_end": 1070,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "codeine",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1152,
+          "char_end": 1159,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "codeine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1152,
+          "char_end": 1167,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "codeine allergy",
+      "id": "e27"
+    }
+  ]
+}

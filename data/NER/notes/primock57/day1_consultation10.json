@@ -1,0 +1,364 @@
+{
+  "doc_id": "PRIMOCK57:day1_consultation10:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "1/52 hx of dysuria, frequency and suprapubic pain. Noticed urine today was pink, nil frank haematuria. \nSuprapubic pain on PU - aching pain, nil radiating \nNil nausea/vomiting \nNil fevers \nNil new bowel sx \nCurrently sexually active - long-term partner. Nil PV discharge. LMP 2/52 \nE+D well \n\nPMH: IBS\nDH: COCP, mebeverine \nAllergic to clindamycin \nFH: nil\nSH: lives in student halls, nil smoking, social EtOH\n\nImp: UTI\n\nPlan:\n1.\tUrine dip and MSU\n2.\tStart abx - nitrofurantoin abx for 3/7 \n3.\tPush fluids \n4.\tSimple analgesia\n5.\tReview in 1/52 INB, or earlier if worsening sx (fever, back pain, vomiting)\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "frequency",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 34,
+          "char_end": 49,
+          "turn_id": null
+        }
+      ],
+      "text": "suprapubic pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 64,
+          "turn_id": null
+        },
+        {
+          "char_start": 75,
+          "char_end": 79,
+          "turn_id": null
+        }
+      ],
+      "text": "urine pink",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 101,
+          "turn_id": null
+        }
+      ],
+      "text": "haematuria",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "Suprapubic pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 175,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 187,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 270,
+          "turn_id": null
+        }
+      ],
+      "text": "PV discharge",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 301,
+          "turn_id": null
+        }
+      ],
+      "text": "IBS",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 306,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "COCP",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 312,
+          "char_end": 322,
+          "turn_id": null
+        }
+      ],
+      "text": "mebeverine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 347,
+          "turn_id": null
+        }
+      ],
+      "text": "Allergic to clindamycin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 336,
+          "char_end": 347,
+          "turn_id": null
+        }
+      ],
+      "text": "clindamycin",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 396,
+          "turn_id": null
+        }
+      ],
+      "text": "smoking",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 405,
+          "char_end": 409,
+          "turn_id": null
+        }
+      ],
+      "text": "EtOH",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 416,
+          "char_end": 419,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 430,
+          "char_end": 439,
+          "turn_id": null
+        }
+      ],
+      "text": "Urine dip",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 444,
+          "char_end": 447,
+          "turn_id": null
+        }
+      ],
+      "text": "MSU",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 457,
+          "char_end": 460,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 463,
+          "char_end": 477,
+          "turn_id": null
+        }
+      ],
+      "text": "nitrofurantoin",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 478,
+          "char_end": 481,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 482,
+          "char_end": 489,
+          "turn_id": null
+        }
+      ],
+      "text": "for 3/7",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 517,
+          "char_end": 526,
+          "turn_id": null
+        }
+      ],
+      "text": "analgesia",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 594,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 604,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e27"
+    }
+  ]
+}

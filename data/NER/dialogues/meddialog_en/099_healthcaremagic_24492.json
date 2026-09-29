@@ -1,0 +1,592 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:24492:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I ended up tearing a right shoulder muscle and ripped some cartilage around my elbow. The pain was intense and my regular physician gave me a toradol injection for the inflammation and 6 days of Prednisone. My BP was to almost 190/100. Usually I am in the 100-115/55-70 range despite smoking. The pain got worse the next day and since I felt my BP elevate as well, I went to the ER. My BP was 249/110 and they took me to an ER room. The doctor was ordering MRI s and when I told him I was on workers compensation, he suddenly decided that all I needed was xrays and only for the right shoulder at that, as if soft tissue damage will even show clearly on xrays. He kept saying I worked for WC, you can have them do all those haha. I am going on year 9, and it took 3 years to get one body part accepted while after 9 years, I still litigating over other injuries. Anyway, he left me there for 25 minutes after I had 2 techs get xrays; he speny maybe 90 seconds with me, saying this is an ER, I don t have time to listen to all your problems when I was trying to tell him what had happened. He put down calcific tendonitis (misspelt it as well), torn muscle, and elevated BP on the report. Then a nurse came all grumpy, telling me to take a clear grl yhst eas roughly the shape of a 1,000mg fish oil but had a yellow/orange color. I asked him what he was but all he told me was we give this to everyone with high BP . And they read my vitals again which showed 182/5minutes later. He adked the doctor if they should release me, and when the doc said yes, that was it. The ER was at maybe 20% capacity while the doctor eas sotting at the nurses station and chatting away with a nurse. It has been 5 days and my BP never shot above 140. However I have this dull, almost bruised feeling on my left back, right around the 5th rib which feels like a bruise. It almost feels as if it is under yhe bone and cartilage, and straight on the heart but I can t really tell and nothing makes it go away. I wasn t checked or even asked if I displayed any heart attack symptoms or anythong else other than you can get WC to take care of that . Is it possible that the high BP may have caused something or even bruised my heart somehow, or is it possible that I may have had a minor heart attack? My BP was over 180 for 2 days straight, especially considering it rarely goes above 130. And now that I checked thr online patient portal, my 240+ intake BP has also been removed from the transcripts. I am one step from filing a complaint for alst letting me die.\n[doctor] Hi,You had elevated blood pressure because you were taking Prednisone. Medications like prednisone, steroids, have a side effect of causing high blood pressure. But you should check your blood pressure also after stopping prednisone, as it is possible that you had slightly elevated blood pressure from time to time and you didn't know about it, and prednisone just made it worse.Your pain is related to your muscle and cartilage problems, don't worry, it is not a heart issue.Take careCome back if you have any further questions",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 52,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tearing a right shoulder muscle",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 63,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 69,
+          "char_end": 94,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ripped cartilage around my elbow",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 100,
+          "char_end": 104,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "toradol",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 169,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injection",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 190,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 201,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "6 days",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 215,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 222,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 237,
+          "char_end": 244,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP 190/100",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 301,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "smoking",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 355,
+          "char_end": 365,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP elevate",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 396,
+          "char_end": 398,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 403,
+          "char_end": 410,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP 249/110",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 472,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI s",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 571,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "xrays",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 619,
+          "char_end": 637,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "soft tissue damage",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 669,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "xrays",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 871,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injuries",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 937,
+          "char_end": 942,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "xrays",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1111,
+          "char_end": 1130,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "calcific tendonitis",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1154,
+          "char_end": 1165,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "torn muscle",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1171,
+          "char_end": 1182,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "elevated BP",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1416,
+          "char_end": 1423,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high BP",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1443,
+          "char_end": 1449,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitals",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1720,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1727,
+          "char_end": 1741,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP shot above 140",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1783,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bruised",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1833,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bruised feeling on my left back, right around the 5th rib",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2049,
+          "char_end": 2061,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart attack",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2161,
+          "char_end": 2168,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high BP",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2203,
+          "char_end": 2219,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bruised my heart",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2275,
+          "char_end": 2287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart attack",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2292,
+          "char_end": 2294,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 2299,
+          "char_end": 2307,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP over 180",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2436,
+          "char_end": 2445,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "intake BP",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2573,
+          "char_end": 2596,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "elevated blood pressure",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2621,
+          "char_end": 2631,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2650,
+          "char_end": 2660,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2662,
+          "char_end": 2670,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2702,
+          "char_end": 2721,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2738,
+          "char_end": 2763,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "check your blood pressure",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2784,
+          "char_end": 2794,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2836,
+          "char_end": 2859,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "elevated blood pressure",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2912,
+          "char_end": 2922,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2947,
+          "char_end": 2951,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e43"
+    }
+  ]
+}

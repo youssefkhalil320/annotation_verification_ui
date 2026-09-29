@@ -1,0 +1,631 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:102582:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi, I have been on bactrim for a UTI for about a week and throughout the week when in the shower under hot water my legs and feet get extremely red and itchy.. Several hours ago I drank two beers (2 within about 4 hours). At first my chin, side of my face, neck and ear felt itchy and hot, I went to take a shower and noticed a small rash where I had itched it seemed, I got in the shower and kept the water luke warm then turned it to hot because I got cold my legs and feet got red and itchy as always, about 10 minutes after getting out of the shower the redness on my feet and legs turned into a rash and now the rash is everywhere and it's bump and itchy. My first thought is that it's an allergic reaction to bactrim (I took cephalexin before and reacted badly with it as well), what is your opinion? And should I not take Benadryl because I drank alcohol earlier?\n[doctor] HIThank for asking to HCMYes you are right the drug which you have taken is a sulfa group of drug and known for hypersensitivity reaction, you have to change the drug, for the rashes you can take the long acting second generation antihistamine drug.1) Livocetrizine 10 mg twice in day take care and have nice day.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 29,
+          "char_end": 36,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bactrim",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 43,
+          "char_end": 46,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "UTI",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "a week",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 130,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 162,
+          "char_end": 167,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "legs itchy",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 130,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 154,
+          "char_end": 157,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "legs red",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 139,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 162,
+          "char_end": 167,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feet itchy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 139,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 154,
+          "char_end": 157,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feet red",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drank two beers",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 244,
+          "char_end": 248,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 285,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chin itchy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 244,
+          "char_end": 248,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 295,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chin hot",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 265,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 285,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "side of my face itchy",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 265,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 295,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "side of my face hot",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 271,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 285,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "neck itchy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 271,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 295,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "neck hot",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 276,
+          "char_end": 279,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 285,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ear itchy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 276,
+          "char_end": 279,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 295,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ear hot",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 348,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 361,
+          "char_end": 367,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itched",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 464,
+          "char_end": 468,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cold",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 472,
+          "char_end": 476,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 498,
+          "char_end": 503,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "legs itchy",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 472,
+          "char_end": 476,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 490,
+          "char_end": 493,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "legs red",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 481,
+          "char_end": 485,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 498,
+          "char_end": 503,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feet itchy",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 481,
+          "char_end": 485,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 490,
+          "char_end": 493,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feet red",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 575,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 591,
+          "char_end": 595,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "redness legs",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 586,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "redness on my feet",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 610,
+          "char_end": 614,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 631,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 655,
+          "char_end": 659,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bump",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 669,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itchy",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 704,
+          "char_end": 721,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 725,
+          "char_end": 732,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bactrim",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 741,
+          "char_end": 751,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cephalexin",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 847,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 871,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drank alcohol",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 968,
+          "char_end": 979,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sulfa group",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1027,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypersensitivity reaction",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1072,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rashes",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1090,
+          "char_end": 1101,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1109,
+          "char_end": 1133,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "long acting generation antihistamine",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1142,
+          "char_end": 1155,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Livocetrizine",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1156,
+          "char_end": 1161,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1162,
+          "char_end": 1174,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "twice in day",
+      "id": "e41"
+    }
+  ]
+}

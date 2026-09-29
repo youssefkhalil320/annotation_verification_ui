@@ -1,0 +1,151 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:89194:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello, My age is 28, height is 5'5\", weight is 50Kgs and I am by and large unable to take medicines like ibuprofen and even antibiotics like erythromycin etc as I develop severe stomach cramps and often diarrhea tooI would like to start the oral contraceptive and have been recommended yaminiI have read a lot about the side effects like mood swings and can corelate that to vitamin deplition etcCan you advice me about the potency of this pill and if any lower dosage ones exist that i may start with?\n[doctor] hello madam,your stomach problem are due to ibuprofen which is a known drugs to cause stomach painsdo stop it and substitute it with aceclofnec.for oral contraceptives do vists a gynaecologist",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 134,
+          "char_end": 145,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "erythromycin",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 188,
+          "char_end": 202,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach cramps",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 221,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oral contraceptive",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 348,
+          "char_end": 359,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mood swings",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 402,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin deplition",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 575,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 655,
+          "char_end": 665,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "aceclofnec",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 670,
+          "char_end": 689,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oral contraceptives",
+      "id": "e11"
+    }
+  ]
+}

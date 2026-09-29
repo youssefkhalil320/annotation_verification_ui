@@ -1,0 +1,138 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:199301:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi doctor. I have a very severe premature ejaculation. I went to Urologist and gave me zoloft and I had very bad side effect from it. I went back to him for the 2nd time and he gave me paxil which didn t do anything at all. I didn t go back to see the Urologist after that. I m having a problem now with having a hard erection which I think caused by the anxiety I have knowing that once she touch me ill ejaculate rite in there. It s kinda 2 problems now. Any advice from you please ?? George G\n[doctor] DearWe understand your concernsI went through your details. I can understand. You said you have severe premature ejaculation. Psychology based premature ejaculation can be treated with the help of awareness, psychotherapy and relaxing techniques. You should also know that, you can engage in sexual activities for a second time, after you experienced premature ejaculation. Go for the second time. You will be alright.If you require more of my help in this aspect, please use this URL. http://goo.gl/aYW2pR. Make sure that you include every minute details possible. Hope this answers your query. Available for further clarifications.Good luck.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "premature ejaculation",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 103,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zoloft",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 200,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "paxil",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 314,
+          "char_end": 336,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "having a hard erection",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 372,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 438,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ejaculate rite in there",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 618,
+          "char_end": 639,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "premature ejaculation",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 679,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Psychology based premature ejaculation",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 736,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "psychotherapy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 866,
+          "char_end": 887,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "premature ejaculation",
+      "id": "e10"
+    }
+  ]
+}

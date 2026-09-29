@@ -1,0 +1,642 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:24747:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor,I had an unprotected sexual contact with a commercial sex worker some six months ago. I do not know the health status of that lady. After 30 days of exposure, I got fever and body pain and I went to the hospital for treatment. He suggested checking a Widal test and a urine test. The results came as typhoid and I had taken medicines for that too and for stomach pain. Three courses of antibiotics have been taken. The stomach upset was the main problem that time. I am normal now. After one month, I had white plaques like formations on the tongue and one side of the tongue color also slightly changed. I consulted a dentist and he told me the tongue was normal. I went for HIV tests as below:HIV rapid test after 40 days - negative HIV Combo test after 70 days - negativeHIV CD4 test after 70 days - normal HIV Duo test after 84 days - negative HIV rapid test after 88 days - negativeSTD full test after 88 days - all negativeHIV ELISA test after 110 days - negative unit as 0.06 HIV ELISA test after 155 days - negative unit as 0.07My doubt is I have many symptoms like a sore throat with red patches, white tongue, body ache, muscle ache, white dot on the head like itching. I sometimes have a burning sensation. These symptoms have been there for three months. I am wondering it could be due to the exposure. Mostly, I have consulted with a general physician for muscle ache and body ache. I feel like my neck muscles have reduced a little bit.My doubt is whether I have been infected with HIV? My recent test is HIV antibody test at 155 days from my exposure being negative. Please advice.\n[doctor] Hello. Your screening tests have convincingly ruled out HIV (human immunodeficiency virus). Perhaps you have oral thrush which may have started because of repeated courses of oral antibiotics. I suggest you use a topical antifungal like Clotrimazole mouth paint. In addition, I also suggest you take an oral antifungal like tablet Fluconazole 50 mg once a day for two weeks. For more information consult an HIV AIDS specialist online --> https://www.icliniq.com/ask-a-doctor-online/HIV-AIDS-specialist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 87,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unprotected sexual contact with a commercial sex worker",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 188,
+          "char_end": 193,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 198,
+          "char_end": 207,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "body pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 274,
+          "char_end": 284,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Widal test",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 301,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine test",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 330,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "typhoid",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 420,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 442,
+          "char_end": 455,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach upset",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 528,
+          "char_end": 571,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "white plaques like formations on the tongue",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 604,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 619,
+          "char_end": 626,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tongue color changed",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 699,
+          "char_end": 708,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV tests",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 718,
+          "char_end": 732,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV rapid test",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 758,
+          "char_end": 772,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV Combo test",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 809,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "negativeHIV CD4 test",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 833,
+          "char_end": 845,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV Duo test",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 885,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV rapid test",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 902,
+          "char_end": 923,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "negativeSTD full test",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 944,
+          "char_end": 966,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "negativeHIV ELISA test",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1006,
+          "char_end": 1020,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV ELISA test",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1099,
+          "char_end": 1110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sore throat",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1116,
+          "char_end": 1127,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "red patches",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1129,
+          "char_end": 1141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "white tongue",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1143,
+          "char_end": 1152,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "body ache",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1154,
+          "char_end": 1165,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "muscle ache",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1167,
+          "char_end": 1188,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "white dot on the head",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1194,
+          "char_end": 1201,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1222,
+          "char_end": 1239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burning sensation",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1392,
+          "char_end": 1403,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "muscle ache",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1408,
+          "char_end": 1417,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "body ache",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1446,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1452,
+          "char_end": 1459,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "neck muscles reduced",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1519,
+          "char_end": 1522,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1542,
+          "char_end": 1559,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV antibody test",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1685,
+          "char_end": 1719,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "HIV (human immunodeficiency virus)",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1738,
+          "char_end": 1742,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oral",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1738,
+          "char_end": 1749,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oral thrush",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1804,
+          "char_end": 1808,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oral",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1809,
+          "char_end": 1820,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1842,
+          "char_end": 1849,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "topical",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1850,
+          "char_end": 1860,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antifungal",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1878,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Clotrimazole",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1879,
+          "char_end": 1890,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "mouth paint",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1937,
+          "char_end": 1947,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antifungal",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1953,
+          "char_end": 1959,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tablet",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1960,
+          "char_end": 1971,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Fluconazole",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1972,
+          "char_end": 1977,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "50 mg",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1978,
+          "char_end": 1988,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "once a day",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1989,
+          "char_end": 2002,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for two weeks",
+      "id": "e48"
+    }
+  ]
+}

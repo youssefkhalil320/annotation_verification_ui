@@ -1,0 +1,268 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:205031:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello. My mother has been taking Xanax for a few years now and had an episode of depression due to being taken out of her home environment. She will be 89 this month and has terrible vision and is almost blind, which adds anxiety and depression when she is removed from her home. Just recently, she was prescribed with Lexipro and Risperdal along with her Xanax. She is having problems with hallucinations and bad depression mood swings. Her doctor said she could stop taking the Lexipro but is still taking Risperdal. I think her problem is with the Risperdal and I want her to stop taking it. She has only been on this medication for less than a month. Her doctor wants her to stay on it so she can be examined. Is it dangerous to take her off this medication when it is apparently the reason for her latest episodes?\n[doctor] HelloAt this age, overdose of any drug can cause hallucinations. If she is still having issues, you can stop her risperdal. It does not causes withdrawal symptoms. Keep your doctor informed about this.Hope this helps.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 43,
+          "char_end": 48,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Xanax",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 68,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a few years now",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 101,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 214,
+          "char_end": 219,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blind",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 232,
+          "char_end": 239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 244,
+          "char_end": 254,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 329,
+          "char_end": 336,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexipro",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Risperdal",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 366,
+          "char_end": 371,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Xanax",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 415,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hallucinations",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 424,
+          "char_end": 434,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 446,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mood swings",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 497,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexipro",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 527,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Risperdal",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 561,
+          "char_end": 570,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Risperdal",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 646,
+          "char_end": 663,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "less than a month",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 857,
+          "char_end": 865,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "overdose",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 888,
+          "char_end": 902,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hallucinations",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 952,
+          "char_end": 961,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "risperdal",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 982,
+          "char_end": 1001,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "withdrawal symptoms",
+      "id": "e20"
+    }
+  ]
+}

@@ -1,0 +1,1755 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11335681-DS-18:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nHistory of Present Illness:\n___ yo man with a long history of CLL complicated by autoimmune \nhemolytic anemia who was most recently on Rituxan (last dose \n___ and received radiation therapy from T9 to L5 \ncompleted on ___. He has recently finished a short \ndecadron taper (given with XRT) on ___. He now presents with \ncough with clear sputum production x 10 days and fever to 100.2 \non ___. He has noted clear nasal discharge in the mornings, \nwhich perhaps is a bit worse than before but no sinus pressure \nor headaches. No myalgias. He also had 1 day of right posterior \npain on the lateral aspect of his back (near RLL of lung) which \nis non-tender on palpation. He is not short of breath, no \npalpitation, no chest pain. No pleuritic pain on left side where \nhis rib fracture is. \n\nOn arrival to ER, he was afebrile. On labs, he was noted to have \na significant decrease in all his counts (WBC, HCt and Plt) but \nno evidence of hemolysis seen. He is neutropenic with a WBC of \n4.9 but only 14% neutrophils. Given his fever and his \nneutropenia, he is being admitted for further infectious \nwork-up, monitoring and antibiotics. Of note, he received one \ndose of levaquin in ER.  \n\nTreatment History:\n1. ___ prednisone\n2. ___ and ___, treated with chlorambucil with minimal \nresponse;\nrecurrent hemolytic anemia\n3. ___ to ___, treated with 5 cycles CVP with no \nimprovement in WBC\n4. ___, treated with Adriamycin as a single agent, followed \nby Rituxan for\nthree weeks\n5. ___ to ___, treated with Rituxan for 4 doses with good \nresponse\n6. ___, Fludarabine X 1 cycle with relapse\n7. ___, Rituxan for 4 doses\n8. ___, FCR for 2 cycles with good response but developed \npancytopenia and\ninfection in ___.\n9. Relapse of disease. ___ to ___, treated with Rituxan \nfor 4 doses,\nthen 2 doses in ___.\n10. Treated with R/FCM in ___ and ___ with hemolysis in \n___\n11. Treated with periodic courses of Rituxan in ___ \nand ___.\n12. Campath sq started ___, discontinued in ___ due to \nadmission for\npneumonia. Completed 9 weeks of full dose therapy.\n13. Increased adenopathy and hemolytic anemia and started 4 week \nRituxan\ncourse with prednisone on ___ with resolution of symptoms.\n14. Recurrent abdominal distension and hemolytic anemia on \n___ and restarted another 4 week course of Rituxan- \ncompleted on ___.  \n15. He was also noted for recrudescence of his hemolytic anemia \nand has been on prednisone that is being tapered.  \n16. At the end of last year, Mr. ___ was noted for some \nincreasing lower back pain.  He has had a history of compression \nfractures. He was admitted on ___, due to increasing low \nback pain and hypercalcemia.  There was no evidence for cord \ninvolvement,\nbut an MRI of the spine did show soft tissue extending into the\nneuroforamen at T10 and T11, most likely increasing his pain.  \nHe\nsubsequently underwent radiation therapy from T9 to L5, which\ncompleted on ___.  \n17. CT scan of the torso on ___, continued to show \nextensive mediastinal and retroperitoneal adenopathy; however, \nthis had not appreciably changed since his prior scan of \n___.\n\nReview of Systems: \nHe has no pain on inspiration.  He denies any shortness of \nbreath.  He denies any pain radiating down his legs.  He has no \nnumbness or tingling in his legs as noted.  He denies any \nchanges in bowel or bladder functioning.He does have an \noccasional cough without any sputum production.  The cough \nactually does reproduce the pain in the left lower back area.  \nHis appetite is good.  He denies any nausea, vomiting, diarrhea, \nor constipation.  He has no early satiety.  He does note some \nfatigue, but is doing all his activities as he so desires\n\nBrief Hospital Course:\nMr. ___ is a ___ y.o. M with a longstanding history of CLL \ncomplicated by autoimmune hemolytic anemia admitted with fever \nto 100.2 one day prior to admission, cough x 10 days with clear \nsputum and decreased counts.\n\n# Fever: The patient was started on IV cefepime on admission.  \nHis CXR did not show any new infiltrate.  Rapid viral studies \nwere negative.  Blood cultures were no growth to date.  He \nremained afebrile while being on IV antibiotics and his URI \nsymptoms improved during his hospitalization.  Prior to \ndischarge, IV antibiotics were stopped, and he was discharged \nhome with po cefpodoxime.  \n\n# Pancytopenia: His counts improved during the course of his \nhospitalization.  His myelosuppression was most likely due to \nviral syndrome.  His ACV prophylaxis was held on admission due \nto pancytopenia.  At the time of discharge, this was \nreinstituted.  Anti-platelet Ab was pending at time of discharge \ndue to thrombocytopenia that then increased during \nhospitalization.\n\n# History of AIHA: Hemolysis labs were WNL during \nhospitalization x 2.\n  \n# CLL: The patient was started on ACV ppx upon discharge.  \n\n# Dispo: home with Heme-Onc follow up.\n\nDischarge Diagnosis:\nPrimary Diagnosis:\n1. Chronic Lymphocytic Leukemia\n2. Fever\n3. Upper Respiratory Infection",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 129,
+          "char_end": 132,
+          "turn_id": null
+        }
+      ],
+      "text": "CLL",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 176,
+          "turn_id": null
+        }
+      ],
+      "text": "autoimmune \nhemolytic anemia",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 239,
+          "char_end": 256,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation therapy",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 332,
+          "turn_id": null
+        }
+      ],
+      "text": "decadron",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "XRT",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 386,
+          "char_end": 420,
+          "turn_id": null
+        }
+      ],
+      "text": "cough with clear sputum production",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 440,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 472,
+          "char_end": 493,
+          "turn_id": null
+        }
+      ],
+      "text": "clear nasal discharge",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 560,
+          "char_end": 574,
+          "turn_id": null
+        }
+      ],
+      "text": "sinus pressure",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 588,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 624,
+          "char_end": 679,
+          "turn_id": null
+        }
+      ],
+      "text": "right posterior \npain on the lateral aspect of his back",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 630,
+          "char_end": 639,
+          "turn_id": null
+        }
+      ],
+      "text": "posterior",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 732,
+          "turn_id": null
+        }
+      ],
+      "text": "palpation",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 759,
+          "turn_id": null
+        }
+      ],
+      "text": "short of breath",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 776,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitation",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 796,
+          "char_end": 823,
+          "turn_id": null
+        }
+      ],
+      "text": "pleuritic pain on left side",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 847,
+          "turn_id": null
+        }
+      ],
+      "text": "rib fracture",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 934,
+          "char_end": 979,
+          "turn_id": null
+        }
+      ],
+      "text": "decrease in all his counts (WBC, HCt and Plt)",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 962,
+          "char_end": 965,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 967,
+          "char_end": 970,
+          "turn_id": null
+        }
+      ],
+      "text": "HCt",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 978,
+          "turn_id": null
+        }
+      ],
+      "text": "Plt",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1000,
+          "char_end": 1009,
+          "turn_id": null
+        }
+      ],
+      "text": "hemolysis",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1022,
+          "char_end": 1033,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenic",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1041,
+          "char_end": 1044,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1077,
+          "turn_id": null
+        }
+      ],
+      "text": "neutrophils",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1094,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1104,
+          "char_end": 1115,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1186,
+          "char_end": 1197,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1220,
+          "char_end": 1229,
+          "turn_id": null
+        }
+      ],
+      "text": "one \ndose",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1241,
+          "turn_id": null
+        }
+      ],
+      "text": "levaquin",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1288,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1318,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "chlorambucil",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1355,
+          "char_end": 1381,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrent hemolytic anemia",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1418,
+          "turn_id": null
+        }
+      ],
+      "text": "5 cycles",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1419,
+          "char_end": 1422,
+          "turn_id": null
+        }
+      ],
+      "text": "CVP",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1447,
+          "char_end": 1450,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1472,
+          "char_end": 1482,
+          "turn_id": null
+        }
+      ],
+      "text": "Adriamycin",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1515,
+          "char_end": 1522,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1538,
+          "turn_id": null
+        }
+      ],
+      "text": "three weeks",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1567,
+          "char_end": 1574,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1579,
+          "char_end": 1586,
+          "turn_id": null
+        }
+      ],
+      "text": "4 doses",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1615,
+          "char_end": 1626,
+          "turn_id": null
+        }
+      ],
+      "text": "Fludarabine",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1636,
+          "turn_id": null
+        }
+      ],
+      "text": "1 cycle",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1642,
+          "char_end": 1649,
+          "turn_id": null
+        }
+      ],
+      "text": "relapse",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1658,
+          "char_end": 1665,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1670,
+          "char_end": 1677,
+          "turn_id": null
+        }
+      ],
+      "text": "4 doses",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1686,
+          "char_end": 1689,
+          "turn_id": null
+        }
+      ],
+      "text": "FCR",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1694,
+          "char_end": 1702,
+          "turn_id": null
+        }
+      ],
+      "text": "2 cycles",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1737,
+          "char_end": 1749,
+          "turn_id": null
+        }
+      ],
+      "text": "pancytopenia",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1754,
+          "char_end": 1763,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1793,
+          "turn_id": null
+        }
+      ],
+      "text": "Relapse of disease",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1820,
+          "char_end": 1827,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1833,
+          "char_end": 1840,
+          "turn_id": null
+        }
+      ],
+      "text": "4 doses",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1847,
+          "char_end": 1854,
+          "turn_id": null
+        }
+      ],
+      "text": "2 doses",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1880,
+          "char_end": 1885,
+          "turn_id": null
+        }
+      ],
+      "text": "R/FCM",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1906,
+          "char_end": 1915,
+          "turn_id": null
+        }
+      ],
+      "text": "hemolysis",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1961,
+          "char_end": 1968,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1990,
+          "char_end": 1997,
+          "turn_id": null
+        }
+      ],
+      "text": "Campath",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1998,
+          "char_end": 2000,
+          "turn_id": null
+        }
+      ],
+      "text": "sq",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2056,
+          "char_end": 2065,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2077,
+          "char_end": 2084,
+          "turn_id": null
+        }
+      ],
+      "text": "9 weeks",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2121,
+          "char_end": 2131,
+          "turn_id": null
+        }
+      ],
+      "text": "adenopathy",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2136,
+          "char_end": 2152,
+          "turn_id": null
+        }
+      ],
+      "text": "hemolytic anemia",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2165,
+          "char_end": 2171,
+          "turn_id": null
+        }
+      ],
+      "text": "4 week",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2173,
+          "char_end": 2180,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2193,
+          "char_end": 2203,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2254,
+          "char_end": 2274,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal distension",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2279,
+          "char_end": 2295,
+          "turn_id": null
+        }
+      ],
+      "text": "hemolytic anemia",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2326,
+          "char_end": 2332,
+          "turn_id": null
+        }
+      ],
+      "text": "4 week",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2343,
+          "char_end": 2350,
+          "turn_id": null
+        }
+      ],
+      "text": "Rituxan",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2420,
+          "char_end": 2436,
+          "turn_id": null
+        }
+      ],
+      "text": "hemolytic anemia",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2454,
+          "char_end": 2464,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2558,
+          "char_end": 2573,
+          "turn_id": null
+        }
+      ],
+      "text": "lower back pain",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2600,
+          "char_end": 2622,
+          "turn_id": null
+        }
+      ],
+      "text": "compression \nfractures",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2666,
+          "char_end": 2680,
+          "turn_id": null
+        }
+      ],
+      "text": "low \nback pain",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2685,
+          "char_end": 2698,
+          "turn_id": null
+        }
+      ],
+      "text": "hypercalcemia",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2727,
+          "char_end": 2744,
+          "turn_id": null
+        }
+      ],
+      "text": "cord \ninvolvement",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2753,
+          "char_end": 2769,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of the spine",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2779,
+          "char_end": 2837,
+          "turn_id": null
+        }
+      ],
+      "text": "soft tissue extending into the\nneuroforamen at T10 and T11",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2900,
+          "char_end": 2917,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation therapy",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2963,
+          "char_end": 2983,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan of the torso",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3021,
+          "char_end": 3032,
+          "turn_id": null
+        },
+        {
+          "char_start": 3053,
+          "char_end": 3063,
+          "turn_id": null
+        }
+      ],
+      "text": "mediastinal adenopathy",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3037,
+          "char_end": 3063,
+          "turn_id": null
+        }
+      ],
+      "text": "retroperitoneal adenopathy",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3124,
+          "char_end": 3128,
+          "turn_id": null
+        }
+      ],
+      "text": "scan",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3169,
+          "char_end": 3188,
+          "turn_id": null
+        }
+      ],
+      "text": "pain on inspiration",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3205,
+          "char_end": 3225,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of \nbreath",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3242,
+          "char_end": 3270,
+          "turn_id": null
+        }
+      ],
+      "text": "pain radiating down his legs",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3284,
+          "char_end": 3292,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3296,
+          "char_end": 3316,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling in his legs",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3343,
+          "char_end": 3382,
+          "turn_id": null
+        }
+      ],
+      "text": "changes in bowel or bladder functioning",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3411,
+          "char_end": 3446,
+          "turn_id": null
+        }
+      ],
+      "text": "cough without any sputum production",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3453,
+          "char_end": 3458,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3488,
+          "char_end": 3520,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in the left lower back area",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3561,
+          "char_end": 3567,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3569,
+          "char_end": 3577,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3579,
+          "char_end": 3587,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3593,
+          "char_end": 3605,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3618,
+          "char_end": 3631,
+          "turn_id": null
+        }
+      ],
+      "text": "early satiety",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3653,
+          "char_end": 3660,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3790,
+          "char_end": 3793,
+          "turn_id": null
+        }
+      ],
+      "text": "CLL",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3810,
+          "char_end": 3837,
+          "turn_id": null
+        }
+      ],
+      "text": "autoimmune hemolytic anemia",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3852,
+          "char_end": 3857,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3917,
+          "char_end": 3930,
+          "turn_id": null
+        }
+      ],
+      "text": "clear \nsputum",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3935,
+          "char_end": 3951,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased counts",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3956,
+          "char_end": 3961,
+          "turn_id": null
+        }
+      ],
+      "text": "Fever",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3990,
+          "char_end": 3992,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3993,
+          "char_end": 4001,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4022,
+          "char_end": 4025,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4047,
+          "char_end": 4057,
+          "turn_id": null
+        }
+      ],
+      "text": "infiltrate",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4060,
+          "char_end": 4079,
+          "turn_id": null
+        }
+      ],
+      "text": "Rapid viral studies",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4097,
+          "char_end": 4111,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood cultures",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4174,
+          "char_end": 4176,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4177,
+          "char_end": 4188,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4197,
+          "char_end": 4200,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4270,
+          "char_end": 4272,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4273,
+          "char_end": 4284,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4335,
+          "char_end": 4346,
+          "turn_id": null
+        }
+      ],
+      "text": "cefpodoxime",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4353,
+          "char_end": 4365,
+          "turn_id": null
+        }
+      ],
+      "text": "Pancytopenia",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4435,
+          "char_end": 4451,
+          "turn_id": null
+        }
+      ],
+      "text": "myelosuppression",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4476,
+          "char_end": 4490,
+          "turn_id": null
+        }
+      ],
+      "text": "viral syndrome",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4497,
+          "char_end": 4500,
+          "turn_id": null
+        }
+      ],
+      "text": "ACV",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4543,
+          "char_end": 4555,
+          "turn_id": null
+        }
+      ],
+      "text": "pancytopenia",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4609,
+          "char_end": 4625,
+          "turn_id": null
+        }
+      ],
+      "text": "Anti-platelet Ab",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4667,
+          "char_end": 4683,
+          "turn_id": null
+        }
+      ],
+      "text": "thrombocytopenia",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4743,
+          "char_end": 4747,
+          "turn_id": null
+        }
+      ],
+      "text": "AIHA",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4749,
+          "char_end": 4763,
+          "turn_id": null
+        }
+      ],
+      "text": "Hemolysis labs",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4807,
+          "char_end": 4810,
+          "turn_id": null
+        }
+      ],
+      "text": "CLL",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4839,
+          "char_end": 4842,
+          "turn_id": null
+        }
+      ],
+      "text": "ACV",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4949,
+          "char_end": 4977,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic Lymphocytic Leukemia",
+      "id": "e132"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4981,
+          "char_end": 4986,
+          "turn_id": null
+        }
+      ],
+      "text": "Fever",
+      "id": "e133"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4990,
+          "char_end": 5017,
+          "turn_id": null
+        }
+      ],
+      "text": "Upper Respiratory Infection",
+      "id": "e134"
+    }
+  ]
+}

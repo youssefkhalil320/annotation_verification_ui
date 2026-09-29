@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 41,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 65,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 87,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 103,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 171,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 218,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 255,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 375,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 430,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 492,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 515,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 527,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 755,
@@ -203,7 +189,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 778,
@@ -217,7 +202,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 876,
@@ -231,7 +215,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 895,
@@ -245,21 +228,19 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 944,
+          "char_start": 928,
           "char_end": 953,
           "turn_id": null
         }
       ],
-      "text": "0.6 μg/kg",
+      "text": "loading dose of 0.6 μg/kg",
       "id": "e18"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 954,
@@ -272,8 +253,20 @@
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 985,
+          "char_end": 993,
+          "turn_id": null
+        }
+      ],
+      "text": "infusion",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 997,
@@ -282,12 +275,24 @@
         }
       ],
       "text": "0.25 μg/(kg h)",
-      "id": "e20"
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1037,
+          "char_end": 1049,
+          "turn_id": null
+        }
+      ],
+      "text": "loading dose",
+      "id": "e22"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1053,
@@ -296,12 +301,11 @@
         }
       ],
       "text": "dexmedetomidine",
-      "id": "e21"
+      "id": "e23"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1102,
@@ -310,12 +314,24 @@
         }
       ],
       "text": "intravenous",
-      "id": "e22"
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1114,
+          "char_end": 1119,
+          "turn_id": null
+        }
+      ],
+      "text": "bolus",
+      "id": "e25"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1123,
@@ -324,12 +340,11 @@
         }
       ],
       "text": "0.5 mg",
-      "id": "e23"
+      "id": "e26"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1130,
@@ -338,12 +353,11 @@
         }
       ],
       "text": "atropine",
-      "id": "e24"
+      "id": "e27"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1180,
@@ -352,12 +366,11 @@
         }
       ],
       "text": "intravenous",
-      "id": "e25"
+      "id": "e28"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1192,
@@ -366,12 +379,24 @@
         }
       ],
       "text": "normal saline",
-      "id": "e26"
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1206,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "bolus",
+      "id": "e30"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1239,
@@ -380,12 +405,11 @@
         }
       ],
       "text": "atropine",
-      "id": "e27"
+      "id": "e31"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1252,
@@ -394,12 +418,11 @@
         }
       ],
       "text": "ephedrine",
-      "id": "e28"
+      "id": "e32"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1305,
@@ -408,12 +431,11 @@
         }
       ],
       "text": "heart rate",
-      "id": "e29"
+      "id": "e33"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1317,
@@ -422,12 +444,11 @@
         }
       ],
       "text": "systolic blood pressure",
-      "id": "e30"
+      "id": "e34"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1342,
@@ -436,12 +457,11 @@
         }
       ],
       "text": "diastolic blood pressure",
-      "id": "e31"
+      "id": "e35"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1368,
@@ -450,12 +470,11 @@
         }
       ],
       "text": "DBP",
-      "id": "e32"
+      "id": "e36"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1378,
@@ -464,12 +483,11 @@
         }
       ],
       "text": "mean blood pressure",
-      "id": "e33"
+      "id": "e37"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1399,
@@ -478,12 +496,11 @@
         }
       ],
       "text": "MBP",
-      "id": "e34"
+      "id": "e38"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1441,
@@ -492,12 +509,11 @@
         }
       ],
       "text": "bradycardia",
-      "id": "e35"
+      "id": "e39"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1463,
@@ -506,12 +522,11 @@
         }
       ],
       "text": "atropine",
-      "id": "e36"
+      "id": "e40"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1567,
@@ -520,12 +535,11 @@
         }
       ],
       "text": "hypotension",
-      "id": "e37"
+      "id": "e41"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1587,
@@ -534,12 +548,11 @@
         }
       ],
       "text": "ephedrine",
-      "id": "e38"
+      "id": "e42"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1669,
@@ -548,12 +561,11 @@
         }
       ],
       "text": "Systolic blood pressure",
-      "id": "e39"
+      "id": "e43"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1697,
@@ -562,16 +574,15 @@
         }
       ],
       "text": "heart rate",
-      "id": "e40"
+      "id": "e44"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1832,
-          "char_end": 1841,
+          "char_end": 1844,
           "turn_id": null
         },
         {
@@ -580,13 +591,12 @@
           "turn_id": null
         }
       ],
-      "text": "increases MBP",
-      "id": "e41"
+      "text": "increases in MBP",
+      "id": "e45"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1832,
@@ -595,12 +605,11 @@
         }
       ],
       "text": "increases in DBP",
-      "id": "e42"
+      "id": "e46"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1845,
@@ -609,12 +618,11 @@
         }
       ],
       "text": "DBP",
-      "id": "e43"
+      "id": "e47"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1853,
@@ -623,12 +631,11 @@
         }
       ],
       "text": "MBP",
-      "id": "e44"
+      "id": "e48"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1924,
@@ -637,12 +644,11 @@
         }
       ],
       "text": "atropine",
-      "id": "e45"
+      "id": "e49"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1958,
@@ -651,12 +657,11 @@
         }
       ],
       "text": "bradycardia",
-      "id": "e46"
+      "id": "e50"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1993,
@@ -665,12 +670,11 @@
         }
       ],
       "text": "spinal anesthesia",
-      "id": "e47"
+      "id": "e51"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2016,
@@ -679,12 +683,11 @@
         }
       ],
       "text": "dexmedetomidine",
-      "id": "e48"
+      "id": "e52"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2032,
@@ -693,12 +696,11 @@
         }
       ],
       "text": "sedation",
-      "id": "e49"
+      "id": "e53"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2051,
@@ -712,12 +714,11 @@
         }
       ],
       "text": "DBP increases",
-      "id": "e50"
+      "id": "e54"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2051,
@@ -726,12 +727,11 @@
         }
       ],
       "text": "DBP",
-      "id": "e51"
+      "id": "e55"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2059,
@@ -745,12 +745,11 @@
         }
       ],
       "text": "MBP increases",
-      "id": "e52"
+      "id": "e56"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2059,
@@ -759,12 +758,11 @@
         }
       ],
       "text": "MBP",
-      "id": "e53"
+      "id": "e57"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2122,
@@ -773,12 +771,11 @@
         }
       ],
       "text": "atropine",
-      "id": "e54"
+      "id": "e58"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2161,
@@ -787,7 +784,7 @@
         }
       ],
       "text": "atropine",
-      "id": "e55"
+      "id": "e59"
     }
   ]
 }

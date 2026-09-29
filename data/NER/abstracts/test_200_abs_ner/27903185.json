@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 15,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 47,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 71,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 104,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 128,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 166,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 187,
@@ -104,22 +97,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 235,
-          "char_end": 244,
-          "turn_id": null
-        }
-      ],
-      "text": "morbidity",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 249,
@@ -128,12 +106,11 @@
         }
       ],
       "text": "adverse radiation effects",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 276,
@@ -142,12 +119,11 @@
         }
       ],
       "text": "AREs",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 316,
@@ -156,26 +132,11 @@
         }
       ],
       "text": "AREs",
-      "id": "e11"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 627,
-          "char_end": 634,
-          "turn_id": null
-        }
-      ],
-      "text": "symptom",
-      "id": "e12"
+      "id": "e10"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 667,
@@ -184,26 +145,11 @@
         }
       ],
       "text": "GKS",
-      "id": "e13"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 762,
-          "char_end": 769,
-          "turn_id": null
-        }
-      ],
-      "text": "symptom",
-      "id": "e14"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 938,
@@ -212,40 +158,11 @@
         }
       ],
       "text": "AREs",
-      "id": "e15"
+      "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1109,
-          "char_end": 1117,
-          "turn_id": null
-        }
-      ],
-      "text": "symptoms",
-      "id": "e16"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1137,
-          "char_end": 1145,
-          "turn_id": null
-        }
-      ],
-      "text": "symptoms",
-      "id": "e17"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1151,
@@ -254,12 +171,11 @@
         }
       ],
       "text": "vertigo",
-      "id": "e18"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1178,
@@ -268,26 +184,11 @@
         }
       ],
       "text": "gait disturbance",
-      "id": "e19"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1244,
-          "char_end": 1251,
-          "turn_id": null
-        }
-      ],
-      "text": "symptom",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1283,
@@ -296,12 +197,11 @@
         }
       ],
       "text": "hearing loss",
-      "id": "e21"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1325,
@@ -310,12 +210,11 @@
         }
       ],
       "text": "gait disturbance",
-      "id": "e22"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1359,
@@ -324,12 +223,11 @@
         }
       ],
       "text": "vertigo",
-      "id": "e23"
+      "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1546,
@@ -338,12 +236,11 @@
         }
       ],
       "text": "Gardner-Robertson (GR) class",
-      "id": "e24"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1597,
@@ -352,12 +249,11 @@
         }
       ],
       "text": "pure tone average",
-      "id": "e25"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1653,
@@ -366,12 +262,11 @@
         }
       ],
       "text": "Koos grade",
-      "id": "e26"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1682,
@@ -380,12 +275,11 @@
         }
       ],
       "text": "Koos Grade I",
-      "id": "e27"
+      "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1721,
@@ -394,12 +288,11 @@
         }
       ],
       "text": "Koos Grade II",
-      "id": "e28"
+      "id": "e22"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1763,
@@ -408,12 +301,11 @@
         }
       ],
       "text": "Koos Grade III",
-      "id": "e29"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 2335,
@@ -422,26 +314,11 @@
         }
       ],
       "text": "AREs",
-      "id": "e30"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 2452,
-          "char_end": 2461,
-          "turn_id": null
-        }
-      ],
-      "text": "morbidity",
-      "id": "e31"
+      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2534,
@@ -450,12 +327,11 @@
         }
       ],
       "text": "hearing loss",
-      "id": "e32"
+      "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2580,
@@ -464,12 +340,11 @@
         }
       ],
       "text": "hemifacial spasm",
-      "id": "e33"
+      "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2630,
@@ -478,12 +353,11 @@
         }
       ],
       "text": "dysgeusia",
-      "id": "e34"
+      "id": "e27"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2673,
@@ -492,12 +366,11 @@
         }
       ],
       "text": "radiosurgery",
-      "id": "e35"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2690,
@@ -506,12 +379,11 @@
         }
       ],
       "text": "VS",
-      "id": "e36"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2742,
@@ -520,12 +392,11 @@
         }
       ],
       "text": "vertigo",
-      "id": "e37"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2754,
@@ -534,12 +405,11 @@
         }
       ],
       "text": "gait disturbance",
-      "id": "e38"
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2807,
@@ -548,26 +418,11 @@
         }
       ],
       "text": "hearing loss",
-      "id": "e39"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 2832,
-          "char_end": 2852,
-          "turn_id": null
-        }
-      ],
-      "text": "vestibular symptom s",
-      "id": "e40"
+      "id": "e32"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 3020,
@@ -576,12 +431,11 @@
         }
       ],
       "text": "steroid",
-      "id": "e41"
+      "id": "e33"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 3047,
@@ -590,7 +444,7 @@
         }
       ],
       "text": "AREs",
-      "id": "e42"
+      "id": "e34"
     }
   ]
 }

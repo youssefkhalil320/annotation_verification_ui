@@ -1,0 +1,216 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:206112:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am a retired veteran suffering from PTSD. I have been in therapy for 2 years now, slowly but surely, my outlook on life is improving. I am taking prozac and bupropion, for my depression, as prescribed by my Mental Heath Dr. Both My Mental heath provider and my PCM take the time to listen and help with any problems that have occured, they are in the same clinic and talk to each other about my care. During my cognitive therapy, I was having problems sleeping, mainly because of nightmares. I am unable to take sleep aids because, they make me to drowsy to get to work the next day. So i can only take them on weekends. because of this, I found myself binge eating. I was also drinking around a Gallon of soda a day, had to stay awake at work. this has resulted in me becoming Type II Diabetic. I also have been recently diagnosed with mild sleep apnea. from research I have seen many studies on how PTSD is a Major factor in both of these problems. My problem is my Medical team is not will ing to put it in writing that the 2 conditions could have been caused ( not the right word I know). by the PTSD. How do I find someone that I can get a second opinion from, that would be willing to put it in writing.\n[doctor] HiThanks for using healthcare magicIn that case, better to consult a psychiatrist. You need written medical certificate for your problem. Only psychiatrist could help you in this matter. In case, you need further help, you can ask.Thanks",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 52,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PTSD",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 158,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prozac",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 178,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bupropion",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 197,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 423,
+          "char_end": 440,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cognitive therapy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 472,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "problems sleeping",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 502,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nightmares",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 524,
+          "char_end": 534,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep aids",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 560,
+          "char_end": 566,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drowsy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 631,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "on weekends",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 665,
+          "char_end": 677,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "binge eating",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 728,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drinking around a Gallon of soda a day",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 806,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Type II Diabetic",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 854,
+          "char_end": 865,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep apnea",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 917,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PTSD",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1112,
+          "char_end": 1116,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PTSD",
+      "id": "e16"
+    }
+  ]
+}

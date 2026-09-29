@@ -1,0 +1,1110 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:16671253-DS-7:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nInfluenza Pneumonia\n\nHistory of Present Illness:\n___ year old Female diagnosed 4 days prior to presentation with \ninfluenza via DFA at health services at ___. \nPatient had Tmax then of 105 for 48 hours. Subsequently seen 1 \nday prior to this presentation in the ___ ED and discharged \nwith concern of possible interstitial pneumonia and started on \ndoxycycline, returned the day of presentation, after taking \nmorning doxycycline with worsening cough, and repeat x-ray \nsubsequently found to have significant worsening of her \nmulti-focal pneumonia along with pulmonary edema and a small \neffusion. Tmax in ED prior to admission 103.\n\nInitial vitals in the ___ ED T 99.7, P ___, 105/50, 18, 98% \nRA. Given Vancomycin and ceftriaxone for concern of MRSA \npneumonia, along with IV fluids, ondansetron and ketorolac.\n\nBrief Hospital Course:\n___ F with no significant PMH presenting with acute hypoxemic\nrespiratory failure in s/o influenza infection.  Now stable on \nNC\nO2 and transferred to the floor.\n\n# Acute hypoxemic respiratory failure\n# Influenza infection\n# ?Superimposed bacterial pna\nPt presented with worsening SOB after being diagnosed with \ninfluenza on ___.  CXR on admission showed worsening \ninterstitial pneumonia, unclear if this is flu-related pna vs. \nsuperimposed bacterial infection.  Initially admitted to the \nfloor but decompensated rapidly on NC O2 and got transferred to \nthe FICU for acute hypoxemic respiratory failure.  In the FICU, \nshe was stabilized on an NRB and weaned back down to NC O2 and \ntransferred back to the floor.  ID was consulted and recommended \nVanc/CTX/azithro for empiric coverage of MRSA pna and other \nsuperimposed bacterial pna's.  She was also started on Tamiflu \non ___ for a 5 day course, last day ___.  CT thorax was \nobtained on ___ given prolonged fevers and hypoxia and this did \nnot show loculated effusions or empyema.  Her abx were \neventually changed to levofloxacin for completion of an 8 day \ncourse, last day ___.\n\n# Microcytic Anemia\nUnclear chronicity of anemia as no prior H/H's in our chart. She \nreports low-iron intake at baseline as she is a vegetarian.  \nSuspect component related to acute bone marrow suppression in \ns/o recent illness with likely component from ?menorrhagia \n(recently started on depo shots).  Iron studies more c/w chronic \ndisease rather than iron deficiency (high ferritin, low TIBC).  \nPt got Ferrlict x1 and B12 supplementation.  Hb remained stable \nin the 8's.\nShe will need output f/u. \n\n# Hyponatremia\nNa nadired at 132.  Likely SIADH from pulmonary infection.  \nResolved with treatment of lung infection.\n\n# Hypokalemia\nK nadired at 2.7.  Likely in s/o nebs and IVF's.  Resolved with \nprn repletion.\n\nTRANSITIONAL ISSUES:\n[ ] Pt needs further w/u and monitoring of her microcytic \nanemia.\n\nDischarge Diagnosis:\nInfluenza\nCommunity acquired pneumonia\nIron deficiency anemia",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 14,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Known",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 92,
+          "turn_id": null
+        }
+      ],
+      "text": "Influenza Pneumonia",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 196,
+          "turn_id": null
+        }
+      ],
+      "text": "influenza",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 204,
+          "turn_id": null
+        }
+      ],
+      "text": "DFA",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 249,
+          "turn_id": null
+        },
+        {
+          "char_start": 258,
+          "char_end": 261,
+          "turn_id": null
+        }
+      ],
+      "text": "Tmax 105",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "Tmax",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 405,
+          "turn_id": null
+        }
+      ],
+      "text": "interstitial pneumonia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 422,
+          "char_end": 433,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 491,
+          "char_end": 502,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 518,
+          "char_end": 523,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 541,
+          "turn_id": null
+        }
+      ],
+      "text": "x-ray",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 600,
+          "char_end": 621,
+          "turn_id": null
+        }
+      ],
+      "text": "multi-focal pneumonia",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 633,
+          "char_end": 648,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary edema",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 670,
+          "turn_id": null
+        }
+      ],
+      "text": "effusion",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 676,
+          "turn_id": null
+        },
+        {
+          "char_start": 702,
+          "char_end": 705,
+          "turn_id": null
+        }
+      ],
+      "text": "Tmax 103",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 676,
+          "turn_id": null
+        }
+      ],
+      "text": "Tmax",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 779,
+          "char_end": 789,
+          "turn_id": null
+        }
+      ],
+      "text": "Vancomycin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 805,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 821,
+          "char_end": 836,
+          "turn_id": null
+        }
+      ],
+      "text": "MRSA \npneumonia",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 849,
+          "char_end": 851,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 871,
+          "turn_id": null
+        }
+      ],
+      "text": "ondansetron",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 876,
+          "char_end": 885,
+          "turn_id": null
+        }
+      ],
+      "text": "ketorolac",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 957,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "acute hypoxemic\nrespiratory failure",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1000,
+          "char_end": 1019,
+          "turn_id": null
+        }
+      ],
+      "text": "influenza infection",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1037,
+          "char_end": 1039,
+          "turn_id": null
+        }
+      ],
+      "text": "NC",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1040,
+          "char_end": 1042,
+          "turn_id": null
+        }
+      ],
+      "text": "O2",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1076,
+          "char_end": 1111,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute hypoxemic respiratory failure",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1114,
+          "char_end": 1133,
+          "turn_id": null
+        }
+      ],
+      "text": "Influenza infection",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1137,
+          "char_end": 1163,
+          "turn_id": null
+        }
+      ],
+      "text": "Superimposed bacterial pna",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1192,
+          "char_end": 1195,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1246,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1300,
+          "turn_id": null
+        }
+      ],
+      "text": "interstitial pneumonia",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1321,
+          "char_end": 1336,
+          "turn_id": null
+        }
+      ],
+      "text": "flu-related pna",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1374,
+          "turn_id": null
+        }
+      ],
+      "text": "superimposed bacterial infection",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1439,
+          "char_end": 1441,
+          "turn_id": null
+        }
+      ],
+      "text": "NC",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1442,
+          "char_end": 1444,
+          "turn_id": null
+        }
+      ],
+      "text": "O2",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1482,
+          "char_end": 1517,
+          "turn_id": null
+        }
+      ],
+      "text": "acute hypoxemic respiratory failure",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1559,
+          "char_end": 1562,
+          "turn_id": null
+        }
+      ],
+      "text": "NRB",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1587,
+          "char_end": 1589,
+          "turn_id": null
+        }
+      ],
+      "text": "NC",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1590,
+          "char_end": 1592,
+          "turn_id": null
+        }
+      ],
+      "text": "O2",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1669,
+          "char_end": 1672,
+          "turn_id": null
+        }
+      ],
+      "text": "CTX",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1673,
+          "char_end": 1680,
+          "turn_id": null
+        }
+      ],
+      "text": "azithro",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1705,
+          "char_end": 1713,
+          "turn_id": null
+        }
+      ],
+      "text": "MRSA pna",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1725,
+          "char_end": 1753,
+          "turn_id": null
+        }
+      ],
+      "text": "superimposed bacterial pna's",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1780,
+          "char_end": 1787,
+          "turn_id": null
+        }
+      ],
+      "text": "Tamiflu",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1802,
+          "char_end": 1814,
+          "turn_id": null
+        }
+      ],
+      "text": "5 day course",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1831,
+          "char_end": 1840,
+          "turn_id": null
+        }
+      ],
+      "text": "CT thorax",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1878,
+          "char_end": 1884,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1896,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxia",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1939,
+          "turn_id": null
+        }
+      ],
+      "text": "loculated effusions",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1943,
+          "char_end": 1950,
+          "turn_id": null
+        }
+      ],
+      "text": "empyema",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 1960,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1989,
+          "char_end": 2001,
+          "turn_id": null
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2023,
+          "char_end": 2036,
+          "turn_id": null
+        }
+      ],
+      "text": "8 day \ncourse",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2055,
+          "char_end": 2072,
+          "turn_id": null
+        }
+      ],
+      "text": "Microcytic Anemia",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2095,
+          "char_end": 2101,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2114,
+          "char_end": 2119,
+          "turn_id": null
+        }
+      ],
+      "text": "H/H's",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2230,
+          "char_end": 2259,
+          "turn_id": null
+        }
+      ],
+      "text": "acute bone marrow suppression",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2311,
+          "char_end": 2322,
+          "turn_id": null
+        }
+      ],
+      "text": "menorrhagia",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2345,
+          "char_end": 2349,
+          "turn_id": null
+        }
+      ],
+      "text": "depo",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2350,
+          "char_end": 2355,
+          "turn_id": null
+        }
+      ],
+      "text": "shots",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2359,
+          "char_end": 2371,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron studies",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2410,
+          "char_end": 2425,
+          "turn_id": null
+        }
+      ],
+      "text": "iron deficiency",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2427,
+          "char_end": 2440,
+          "turn_id": null
+        }
+      ],
+      "text": "high ferritin",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2432,
+          "char_end": 2440,
+          "turn_id": null
+        }
+      ],
+      "text": "ferritin",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2442,
+          "char_end": 2450,
+          "turn_id": null
+        }
+      ],
+      "text": "low TIBC",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2446,
+          "char_end": 2450,
+          "turn_id": null
+        }
+      ],
+      "text": "TIBC",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2462,
+          "char_end": 2470,
+          "turn_id": null
+        }
+      ],
+      "text": "Ferrlict",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2471,
+          "char_end": 2473,
+          "turn_id": null
+        }
+      ],
+      "text": "x1",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2478,
+          "char_end": 2481,
+          "turn_id": null
+        }
+      ],
+      "text": "B12",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2500,
+          "char_end": 2502,
+          "turn_id": null
+        }
+      ],
+      "text": "Hb",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2562,
+          "char_end": 2574,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyponatremia",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2575,
+          "char_end": 2577,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2575,
+          "char_end": 2592,
+          "turn_id": null
+        }
+      ],
+      "text": "Na nadired at 132",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2602,
+          "char_end": 2607,
+          "turn_id": null
+        }
+      ],
+      "text": "SIADH",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2613,
+          "char_end": 2632,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary infection",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2663,
+          "char_end": 2677,
+          "turn_id": null
+        }
+      ],
+      "text": "lung infection",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2682,
+          "char_end": 2693,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypokalemia",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2694,
+          "char_end": 2710,
+          "turn_id": null
+        }
+      ],
+      "text": "K nadired at 2.7",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2759,
+          "char_end": 2762,
+          "turn_id": null
+        }
+      ],
+      "text": "prn",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2825,
+          "char_end": 2861,
+          "turn_id": null
+        }
+      ],
+      "text": "monitoring of her microcytic \nanemia",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2843,
+          "char_end": 2861,
+          "turn_id": null
+        }
+      ],
+      "text": "microcytic \nanemia",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2895,
+          "char_end": 2923,
+          "turn_id": null
+        }
+      ],
+      "text": "Community acquired pneumonia",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2924,
+          "char_end": 2946,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron deficiency anemia",
+      "id": "e84"
+    }
+  ]
+}

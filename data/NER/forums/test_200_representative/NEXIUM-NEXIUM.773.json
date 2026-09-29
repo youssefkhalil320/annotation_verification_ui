@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -20,8 +19,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 11,
@@ -34,8 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 22,
@@ -49,35 +46,19 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 39,
-          "char_end": 44,
-          "turn_id": null
-        }
-      ],
-      "text": "aches",
-      "id": "e4"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 49,
           "char_end": 54,
           "turn_id": null
         }
       ],
-      "text": "pains",
-      "id": "e5"
+      "text": "aches and pains",
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 55,
@@ -86,12 +67,11 @@
         }
       ],
       "text": "anxiety",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 63,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "tiredness",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 74,
@@ -114,12 +93,11 @@
         }
       ],
       "text": "exhaustion",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 86,
@@ -128,12 +106,11 @@
         }
       ],
       "text": "constipating",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 99,
@@ -142,12 +119,11 @@
         }
       ],
       "text": "weight gain",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 130,
@@ -156,12 +132,11 @@
         }
       ],
       "text": "Nexium",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 164,
@@ -170,12 +145,11 @@
         }
       ],
       "text": "hip pain",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 173,
@@ -184,12 +158,11 @@
         }
       ],
       "text": "back pain",
-      "id": "e13"
+      "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 197,
@@ -198,7 +171,7 @@
         }
       ],
       "text": "reflux",
-      "id": "e14"
+      "id": "e13"
     }
   ]
 }

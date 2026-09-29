@@ -1,0 +1,369 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:145276:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am 40y male with hypertension and I have had back pain for the past week. Last week I was throwing a football and over extended my throw. It caused some brief pain in my right back by the scapula and spine. Later that night I was sitting on the couch leaning forward and started to feel an intense sharp pain in my right chest. I sat up straight and it went away. It did happen a second time that night from leaning forward. The next couple of days I felt like I had a knot in my back and some tightness. Eventually this led to me waking up with the right side of my back swollen and having random shooting pains in my back and chest. It got to the point where I was in so much discomfort that I went to the ER. The hospital did verify that it is not a cardiac issue. I am out of the hospital now and was told to take ibuprofen and rest up. Which is what I am doing. I am just concerned about my symptoms. I generally feel very run down with feelings of having a hot face, a little diarrhea (maybe from the pain meds at ER?) and elevated blood pressure. Is it normal for back pain to cause symptoms like this?\n[doctor] Hi there, it sounds like the doctors at the hospital thought this might be costochondritis or perhaps muscle strain/ spasm given the recommendation for ibuprofen and rest. If no CT scan or MRI was done of your Thoracic spine, that would be the next step if your complaints of shooting pain don't get better (especially if they wrap around your chest to the front) to make sure there is not a bulged disc there that is causing your symptoms. Back pain specifically is not known to cause elevated blood pressure, but pain certainly can do this.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 29,
+          "char_end": 41,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 66,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 217,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my right back by the scapula and spine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 316,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my right chest",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 481,
+          "char_end": 496,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "knot in my back",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 515,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tightness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 562,
+          "char_end": 591,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "right side of my back swollen",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 610,
+          "char_end": 635,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shooting pains in my back",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 700,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "discomfort",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 830,
+          "char_end": 839,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 948,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "run down",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 983,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hot face",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 1002,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1019,
+          "char_end": 1028,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain meds",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1041,
+          "char_end": 1064,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "elevated blood pressure",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1083,
+          "char_end": 1092,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1206,
+          "char_end": 1221,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "costochondritis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1246,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "muscle strain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1253,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "spasm",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1283,
+          "char_end": 1292,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1309,
+          "char_end": 1316,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1333,
+          "char_end": 1355,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CT scan of your Thoracic spine",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1323,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1333,
+          "char_end": 1355,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MRI of your Thoracic spine",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1407,
+          "char_end": 1420,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "shooting pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1523,
+          "char_end": 1534,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bulged disc",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1572,
+          "char_end": 1581,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Back pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1617,
+          "char_end": 1640,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "elevated blood pressure",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1646,
+          "char_end": 1650,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e27"
+    }
+  ]
+}

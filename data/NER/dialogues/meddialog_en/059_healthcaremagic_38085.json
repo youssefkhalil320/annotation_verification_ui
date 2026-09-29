@@ -1,0 +1,283 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:38085:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am 82 yrs. old. My primary doctor gave me a DTP shot on 6/12/14. On Sat., 6/14/14 I got up and within a few minutes I felt faint. I was sweaty and lightheaded. I took my blood pressure and it was 104 over 70. Is this a reaction from the DPT shot? I felt poorly for 2 days then started to feel more normal. Today is Tues. 6/17/14. My arm at injection point is still bruised and my upper arm is red and itches. Is there anything I should do or should I just give it time to wear off?\n[doctor] Hello, Thank you for your contact to health care magic. I understand your concern. If I am your doctor I suggest you that either you had allergy or reaction to DPT vaccine. You have to be careful when you go for second dose. Right now you can take a ORS and chlorpheniramine maleate as antihistaminic to relieve from such s light headedness also think for low dose prednisolone for further improvement.I will be happy to answer your further concernYou can contact me. Dr Arun Tank. Infectious disease specialist. Thank you.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 64,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "DTP shot",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 135,
+          "char_end": 140,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "faint",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 154,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sweaty",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 170,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lightheaded",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 174,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "took my blood pressure",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 257,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "reaction from the DPT shot",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 257,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "DPT shot",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 266,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "poorly",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 367,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 371,
+          "char_end": 384,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arm at injection point still bruised",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 401,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 413,
+          "char_end": 419,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "upper arm itches",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 401,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 405,
+          "char_end": 408,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "upper arm red",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 640,
+          "char_end": 647,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 674,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "reaction to DPT vaccine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 663,
+          "char_end": 674,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "DPT vaccine",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 753,
+          "char_end": 756,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ORS",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 785,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chlorpheniramine maleate",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 803,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihistaminic",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 843,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "light headedness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 867,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "low dose",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 868,
+          "char_end": 880,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prednisolone",
+      "id": "e20"
+    }
+  ]
+}

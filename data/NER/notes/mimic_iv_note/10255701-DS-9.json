@@ -1,0 +1,1651 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10255701-DS-9:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nDecreased spontaneous speech, withdrawal\n\nHistory of Present Illness:\n___ yo Gujarati speaking female w/ h/o HTN and right total knee \nreplacement (___), presenting w/ gradual onset diminished \nspeech output and withdrawal. She is normally conversant and \ninteractive. For about 6 weeks she has had increased worrying \nand decreased sleep. Her son says she has been worrying \nexcessively about her daughter and son's health issues, as well \nas her right knee. 1.5 weeks ago, her PCP prescribed alprazolam \n0.25mg as needed for sleep.\n\nAfter taking one pill of the alprazolam, however, her son and \nnephew noticed that she began to have a slow decline in her \nspeech output. Her sentences became shorter, and she was less \ninteractive. She did not make any errors in her speech and \ncontinued to answer questions appropriately. A few days after \nthe first dose, she tried the alprazolam again. It again did not \nhelp with sleep, but after this dose, she again had a decrease \nin her speech output and level of interaction. The decline has \nbeen gradual over the past week or so and there has not been any \nclear episodic nature. The family has also noted that she has \nbecome somewhat tremulous over the past few days. As she was \nstill not sleeping well, and the alprazolam did not help, her \nPCP prescribed flurazepam 30mg, which she took the night prior \nto arrival. Her family brought her to the ED today as she has\ncontinued to worsen and they are concerned. The family denies \nany\nsimilar episodes in the past.\n\nThey went to an outside hospital 2 days ago where she underwent \na head CT which was unremarkable and was discharged home. \nHowever, after contacting her primary care physician they were \ntold to come to the emergency department at ___ for a \npossible neurology evaluation. Patient denies any headache or \nvision changes but does report chronic pain in her right knee \nrelated to a total knee replacement. She denies any chest pain, \nshortness of breath, abdominal pain, nausea, vomiting, dysuria, \nbowel changes. When asked if she feels depressed or sad, she \nsays yes, but is unable to elaborate further.  She has had \ndecreased sleep and lower appetite lately.\n\nIn the ED, initial VS were 97.1, HR 110, 158/88, RR 20, 98% RA\nLabs showed WBC 12.5, positive urine benzo's\nImaging showed unremarkable CT head, CXR w/ no acute process.\n\nDecision was made to admit to medicine for further management.\n\nBrief Hospital Course:\nMs. ___ is a ___ Y/O F with subacute onset of decreased \nspontaneous speech and withdrawal as well as periods of \nnon-interactiveness, consistent with major depressive episode, \ncomplicated by intermittent fevers and tachycardia.\n \n# Depression\n# Catatonia\n# Decreased speech output: \nThe patient presented with decreased spontaneous speech without \naphasia. She was evaluated by neuro in the ED, no focal neuro \nsigns. Question of possible adverse reaction to the benzo's she \nhad been receiving, but she had received small doses for short \nperiods of time, and was having symptoms prior. TSH, RPR, EEG, \nB12, Folate were normal. Notably, she had multiple features of \ndepression, including decreased sleep, decreased appetite, \nanhedonia, and withdrawal. MRI brain w/ scattered white matter \nchanges that were nonspecific. Inpatient, she appeared to have \nfeatures of catatonia, including holding poses for brief periods \nof time. Her LP was within normal limits. She had mildly \nabnormal awake EEG that Neurology felt was not concerning or \nrelated to her mental status changes. The patient had resolved \nalmost to baseline on ___ following a dose of ativan but was \nback to minimally responsive on ___. She tended to improve most \nat night. She improved on standing Ativan and was medically \ncleared for discharge to inpatient psychiatric facility. \n\n#Urinary retention: Pt was found on bladder scan to have >700ccs \nurine during a period of exhibiting catatonic features. She was \ntaken to bathroom where she voided but still retained ~400cc. \nHowever, she is able to void volitionally during more lucid \nperiods. Thus her retention is less likely to be neurogenic.\n\n# Tachycardia: The patient was found to be tachycardic regulalry \n>120. She spiked temp of 101.6 on ___ without known source; it \ndid not recur. Her tachycardia did not improve with IV fluids. \nTSH normal. She had an elevated WBC on admission, and also ___, \nbut it normalized. She had no evidence of infection based on UA, \nCXR, or blood cultures. Her tachycardia was most likely due to \nanxiety and it improved during her lucid. \n\n# Leukocytosis: Her WBCs were 12.5 on admission with 78% N's, \nalso elevated to 12.1 on ___ but quickly normalized back to \n9's. She had no obvious infection but did have temp of 101.6 on \n___. Her LP was negative. \n\n# HTN: The patient takes telmisartan 40mg daily as outpatient \nbut this is nonformulary. BP's 130-150's since admission. \nLosartan 50mg daily was given while in house (equivalent per \npharm). \n\n# HLD: continue home atorvastatin 10mg nightly\n\nTRANSITIONAL ISSUES:\n[] Altered mental status: patient seems to respond to Ativan. \nWill be discharged to Deac 4 Inpatient Psych\n[] Sinus tachycardia: Likely anxiety-related. Would follow as \noutpatient. \n[] Urinary retention: Patient intermittently retaining urine\n[] Blood culture ___ pending x2, csf spinal fluid enterovirus \nculture pending\n\nCODE: Full (confirmed)\n\nDischarge Diagnosis:\n1. Depressive episode with catatonic features",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 101,
+          "turn_id": null
+        }
+      ],
+      "text": "Decreased spontaneous speech",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 113,
+          "turn_id": null
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 219,
+          "turn_id": null
+        }
+      ],
+      "text": "right total knee \nreplacement",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 280,
+          "turn_id": null
+        }
+      ],
+      "text": "diminished \nspeech output",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 285,
+          "char_end": 295,
+          "turn_id": null
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 382,
+          "char_end": 390,
+          "turn_id": null
+        }
+      ],
+      "text": "worrying",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 396,
+          "char_end": 411,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased sleep",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 439,
+          "char_end": 447,
+          "turn_id": null
+        }
+      ],
+      "text": "worrying",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 567,
+          "char_end": 577,
+          "turn_id": null
+        }
+      ],
+      "text": "alprazolam",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 585,
+          "turn_id": null
+        }
+      ],
+      "text": "0.25mg",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 586,
+          "char_end": 605,
+          "turn_id": null
+        }
+      ],
+      "text": "as needed for sleep",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 621,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "one pill",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 637,
+          "char_end": 647,
+          "turn_id": null
+        }
+      ],
+      "text": "alprazolam",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 716,
+          "char_end": 745,
+          "turn_id": null
+        }
+      ],
+      "text": "decline in her \nspeech output",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 806,
+          "turn_id": null
+        }
+      ],
+      "text": "less \ninteractive",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 958,
+          "turn_id": null
+        }
+      ],
+      "text": "alprazolam",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1038,
+          "char_end": 1068,
+          "turn_id": null
+        }
+      ],
+      "text": "decrease \nin her speech output",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1257,
+          "char_end": 1266,
+          "turn_id": null
+        }
+      ],
+      "text": "tremulous",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1313,
+          "char_end": 1326,
+          "turn_id": null
+        }
+      ],
+      "text": "sleeping well",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1336,
+          "char_end": 1346,
+          "turn_id": null
+        }
+      ],
+      "text": "alprazolam",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1381,
+          "char_end": 1391,
+          "turn_id": null
+        }
+      ],
+      "text": "flurazepam",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1392,
+          "char_end": 1396,
+          "turn_id": null
+        }
+      ],
+      "text": "30mg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1657,
+          "char_end": 1664,
+          "turn_id": null
+        }
+      ],
+      "text": "head CT",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1883,
+          "char_end": 1891,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1896,
+          "char_end": 1910,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1935,
+          "char_end": 1957,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in her right knee",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1972,
+          "char_end": 1994,
+          "turn_id": null
+        }
+      ],
+      "text": "total knee replacement",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2011,
+          "char_end": 2021,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2024,
+          "char_end": 2043,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2045,
+          "char_end": 2059,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2061,
+          "char_end": 2067,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2069,
+          "char_end": 2077,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2079,
+          "char_end": 2086,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2089,
+          "char_end": 2102,
+          "turn_id": null
+        }
+      ],
+      "text": "bowel changes",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2128,
+          "char_end": 2137,
+          "turn_id": null
+        }
+      ],
+      "text": "depressed",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2141,
+          "char_end": 2144,
+          "turn_id": null
+        }
+      ],
+      "text": "sad",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2211,
+          "char_end": 2226,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased sleep",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2231,
+          "char_end": 2245,
+          "turn_id": null
+        }
+      ],
+      "text": "lower appetite",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2288,
+          "char_end": 2294,
+          "turn_id": null
+        }
+      ],
+      "text": "HR 110",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2296,
+          "char_end": 2302,
+          "turn_id": null
+        }
+      ],
+      "text": "158/88",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2330,
+          "char_end": 2333,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2330,
+          "char_end": 2338,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC 12.5",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2340,
+          "char_end": 2362,
+          "turn_id": null
+        }
+      ],
+      "text": "positive urine benzo's",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2349,
+          "char_end": 2362,
+          "turn_id": null
+        }
+      ],
+      "text": "urine benzo's",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2355,
+          "char_end": 2362,
+          "turn_id": null
+        }
+      ],
+      "text": "benzo's",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2391,
+          "char_end": 2398,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2400,
+          "char_end": 2403,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2559,
+          "char_end": 2588,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased \nspontaneous speech",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2593,
+          "char_end": 2603,
+          "turn_id": null
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2627,
+          "char_end": 2646,
+          "turn_id": null
+        }
+      ],
+      "text": "non-interactiveness",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2664,
+          "char_end": 2688,
+          "turn_id": null
+        }
+      ],
+      "text": "major depressive episode",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2719,
+          "char_end": 2725,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2730,
+          "char_end": 2741,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2747,
+          "char_end": 2757,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2760,
+          "char_end": 2769,
+          "turn_id": null
+        }
+      ],
+      "text": "Catatonia",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2772,
+          "char_end": 2795,
+          "turn_id": null
+        }
+      ],
+      "text": "Decreased speech output",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2825,
+          "char_end": 2853,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased spontaneous speech",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2863,
+          "char_end": 2870,
+          "turn_id": null
+        }
+      ],
+      "text": "aphasia",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2913,
+          "char_end": 2931,
+          "turn_id": null
+        }
+      ],
+      "text": "focal neuro \nsigns",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3103,
+          "char_end": 3106,
+          "turn_id": null
+        }
+      ],
+      "text": "TSH",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3108,
+          "char_end": 3111,
+          "turn_id": null
+        }
+      ],
+      "text": "RPR",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3113,
+          "char_end": 3116,
+          "turn_id": null
+        }
+      ],
+      "text": "EEG",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3119,
+          "char_end": 3122,
+          "turn_id": null
+        }
+      ],
+      "text": "B12",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3124,
+          "char_end": 3130,
+          "turn_id": null
+        }
+      ],
+      "text": "Folate",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3183,
+          "char_end": 3193,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3205,
+          "char_end": 3220,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased sleep",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3222,
+          "char_end": 3240,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased appetite",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3243,
+          "char_end": 3252,
+          "turn_id": null
+        }
+      ],
+      "text": "anhedonia",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3258,
+          "char_end": 3268,
+          "turn_id": null
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3270,
+          "char_end": 3279,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI brain",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3293,
+          "char_end": 3314,
+          "turn_id": null
+        }
+      ],
+      "text": "white matter \nchanges",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3383,
+          "char_end": 3392,
+          "turn_id": null
+        }
+      ],
+      "text": "catatonia",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3404,
+          "char_end": 3417,
+          "turn_id": null
+        }
+      ],
+      "text": "holding poses",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3450,
+          "char_end": 3452,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3495,
+          "char_end": 3513,
+          "turn_id": null
+        }
+      ],
+      "text": "abnormal awake EEG",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3510,
+          "char_end": 3513,
+          "turn_id": null
+        }
+      ],
+      "text": "EEG",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3572,
+          "char_end": 3593,
+          "turn_id": null
+        }
+      ],
+      "text": "mental status changes",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3667,
+          "char_end": 3673,
+          "turn_id": null
+        }
+      ],
+      "text": "ativan",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3691,
+          "char_end": 3711,
+          "turn_id": null
+        }
+      ],
+      "text": "minimally responsive",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3783,
+          "char_end": 3789,
+          "turn_id": null
+        }
+      ],
+      "text": "Ativan",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3869,
+          "char_end": 3886,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinary retention",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3904,
+          "char_end": 3916,
+          "turn_id": null
+        }
+      ],
+      "text": "bladder scan",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3970,
+          "char_end": 3988,
+          "turn_id": null
+        }
+      ],
+      "text": "catatonic features",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4044,
+          "char_end": 4059,
+          "turn_id": null
+        }
+      ],
+      "text": "retained ~400cc",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4187,
+          "char_end": 4198,
+          "turn_id": null
+        }
+      ],
+      "text": "Tachycardia",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4228,
+          "char_end": 4239,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardic",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4268,
+          "char_end": 4281,
+          "turn_id": null
+        }
+      ],
+      "text": "temp of 101.6",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4334,
+          "char_end": 4345,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 4367,
+          "char_end": 4376,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4379,
+          "char_end": 4382,
+          "turn_id": null
+        }
+      ],
+      "text": "TSH",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4402,
+          "char_end": 4414,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated WBC",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4411,
+          "char_end": 4414,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4486,
+          "char_end": 4495,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4505,
+          "char_end": 4507,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4510,
+          "char_end": 4513,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4518,
+          "char_end": 4532,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4538,
+          "char_end": 4549,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4574,
+          "char_end": 4581,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4620,
+          "char_end": 4632,
+          "turn_id": null
+        }
+      ],
+      "text": "Leukocytosis",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4638,
+          "char_end": 4642,
+          "turn_id": null
+        },
+        {
+          "char_start": 4648,
+          "char_end": 4652,
+          "turn_id": null
+        }
+      ],
+      "text": "WBCs 12.5",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4638,
+          "char_end": 4642,
+          "turn_id": null
+        }
+      ],
+      "text": "WBCs",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4766,
+          "char_end": 4775,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4789,
+          "char_end": 4802,
+          "turn_id": null
+        }
+      ],
+      "text": "temp of 101.6",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4816,
+          "char_end": 4818,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4837,
+          "char_end": 4840,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4860,
+          "char_end": 4871,
+          "turn_id": null
+        }
+      ],
+      "text": "telmisartan",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4872,
+          "char_end": 4876,
+          "turn_id": null
+        }
+      ],
+      "text": "40mg",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4877,
+          "char_end": 4882,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4924,
+          "char_end": 4938,
+          "turn_id": null
+        }
+      ],
+      "text": "BP's 130-150's",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4957,
+          "char_end": 4965,
+          "turn_id": null
+        }
+      ],
+      "text": "Losartan",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4966,
+          "char_end": 4970,
+          "turn_id": null
+        }
+      ],
+      "text": "50mg",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4971,
+          "char_end": 4976,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5031,
+          "char_end": 5034,
+          "turn_id": null
+        }
+      ],
+      "text": "HLD",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5050,
+          "char_end": 5062,
+          "turn_id": null
+        }
+      ],
+      "text": "atorvastatin",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 5063,
+          "char_end": 5067,
+          "turn_id": null
+        }
+      ],
+      "text": "10mg",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 5068,
+          "char_end": 5075,
+          "turn_id": null
+        }
+      ],
+      "text": "nightly",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 5101,
+          "char_end": 5122,
+          "turn_id": null
+        }
+      ],
+      "text": "Altered mental status",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5152,
+          "char_end": 5158,
+          "turn_id": null
+        }
+      ],
+      "text": "Ativan",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5209,
+          "char_end": 5226,
+          "turn_id": null
+        }
+      ],
+      "text": "Sinus tachycardia",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 5235,
+          "char_end": 5242,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5285,
+          "char_end": 5302,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinary retention",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 5327,
+          "char_end": 5342,
+          "turn_id": null
+        }
+      ],
+      "text": "retaining urine",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 5346,
+          "char_end": 5359,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood culture",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 5376,
+          "char_end": 5413,
+          "turn_id": null
+        }
+      ],
+      "text": "csf spinal fluid enterovirus \nculture",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 5471,
+          "char_end": 5513,
+          "turn_id": null
+        }
+      ],
+      "text": "Depressive episode with catatonic features",
+      "id": "e126"
+    }
+  ]
+}

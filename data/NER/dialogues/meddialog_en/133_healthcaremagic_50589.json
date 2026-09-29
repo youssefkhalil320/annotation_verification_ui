@@ -1,0 +1,608 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:50589:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Dear Doctor ,       Last May 2012 end I had severe abdominal pain starting from middle of stomach to  till lower part on left side.I couldn't able to sit or stand at that time. Then I went to Gp's clinic near by.He send me to Ultrasound scanning.The radiologist found my  left kidney is hydronephrotic (due to stone in my uretor).After that doctor gave me Tablets , and late after 2 weeks again I undergone another scan.This time hydronephrotis gone.They  discovered 10mm renal calculiin left kidney.From that time to till3 months before I am continuing the medication.Cyctone is the tablet given for kidney stone.While taking it ,I have contant constipation...some times laxatives are needed.I stopped the medicine and again went to GP's ,this time he change medicine,that also causing constipation.After that last week i Have severe pain in my stomach lower abdomen part and lower joint.Stomach bloated and inside some itching feeling .constipated for almost 2-3 days .then doctor gave medicine.Even though constipation is ok I have severe discomfort in stomach and sometimes stool is so hard to pass.some times ok.When it is hard some times I can see blood in stools.I did Ultrasound scan of Abdomen and pelvis.After that I went to Urologist .He send me to CT KUB .Kidney stone size reduced  to 3mm .My urologist is telling Stomach pain is not due to Kidney stone have to do ectoscopy. .Gp is telling it is due to kidney stone.Last october I did Ultrasound scan for utreus also.Now I am so stressed.Once I know ,nothing wrong in my stomach only I feel ok.I have a small kid .I am praying to God nothing bad  to hear.Symptomsin and off stomach inflammation after passing stool and urinenow after taking medicine constipation ok,now it is normalbut I can see blood spots in stools.almost 2-3 months I have in and off constipation,last week only it got worsed.Have kidney stone in left kidney with 3mmplease suggest what I have to do, colonoscopy,ectoscopy or CT abdomen\n[doctor] take plenty of fluids,get checked with surgeon,to rule out piles ,fistula.get protoscopy first.get blood test -Hb%.take high fiber content food,laxative if very hard stools,",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 75,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 255,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ultrasound scanning",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 282,
+          "char_end": 293,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 297,
+          "char_end": 311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "left kidney hydronephrotic",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stone in my uretor",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 425,
+          "char_end": 429,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scan",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 454,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydronephrotis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 482,
+          "char_end": 509,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "renal calculiin left kidney",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 586,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cyctone",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 600,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablet",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 611,
+          "char_end": 623,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kidney stone",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 668,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipation",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 682,
+          "char_end": 691,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "laxatives",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 809,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipation",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 849,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 887,
+          "char_end": 898,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain lower joint",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 882,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my stomach lower abdomen part",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 914,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Stomach bloated",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 931,
+          "char_end": 946,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching feeling",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 959,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipated",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1019,
+          "char_end": 1031,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipation",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1052,
+          "char_end": 1073,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "discomfort in stomach",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1088,
+          "char_end": 1093,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1097,
+          "char_end": 1112,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stool so hard to pass",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1164,
+          "char_end": 1179,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood in stools",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1186,
+          "char_end": 1223,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ultrasound scan of Abdomen and pelvis",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1270,
+          "char_end": 1276,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CT KUB",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Kidney stone",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1337,
+          "char_end": 1349,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Stomach pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1364,
+          "char_end": 1376,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Kidney stone",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1388,
+          "char_end": 1397,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ectoscopy",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1427,
+          "char_end": 1439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kidney stone",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1485,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ultrasound scan for utreus",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1503,
+          "char_end": 1511,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stressed",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1668,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach inflammation",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1724,
+          "char_end": 1736,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipation",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1770,
+          "char_end": 1791,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood spots in stools",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1828,
+          "char_end": 1840,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "constipation",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1875,
+          "char_end": 1902,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "kidney stone in left kidney",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1945,
+          "char_end": 1956,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 1966,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ectoscopy",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1970,
+          "char_end": 1980,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CT abdomen",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2049,
+          "char_end": 2054,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "piles",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2056,
+          "char_end": 2063,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fistula",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2068,
+          "char_end": 2078,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "protoscopy",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2089,
+          "char_end": 2104,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood test -Hb%",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2134,
+          "char_end": 2142,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "laxative",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2151,
+          "char_end": 2162,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hard stools",
+      "id": "e45"
+    }
+  ]
+}

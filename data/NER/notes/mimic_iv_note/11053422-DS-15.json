@@ -1,0 +1,819 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11053422-DS-15:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nFlagyl\n\nChief Complaint:\nProteinuria\n\nHistory of Present Illness:\n___ G3P0 at ___ presents after results of a 24H urine \nreturned revealing 1428mg of protein.  \n\nPatient has baseline protienuria first noted at age ___ during \npre-operative screening for a CCY.  The patient had a baseline \n24hour collected ___ which was significant for a total \nprotein of 410mg.   She has never had glomerulonephritis or \nother renal disease.  An autoimmune etiology was entertained by \nher PCP though ___ factor, ___, anti-dsDNA, and ___ \nantibody testing was negative.  Dr. ___, saw \nher ___ and found her renal status to be stable and that she \nhad a small amount of microalbinuria present and no obvious \nevidence of renal disease. \n\nPatient was seen in ob triage on ___ with headache, visual \nchanges, and upper and lower extremity swelling.  She had PEC \nlabs checked which were notable for Pr/Cr of 0.5 with the rest \nof her labs WNL.  Her blood pressures were all normal.  The \npatient was sent home to collect a 24hour urine.  The results of \nthis are noted above.\n\nCurrently the patient reports that she does have some spots in \nher vision, similar to floaters, which have been present for \napprox 2 weeks.  She denies any HA/Abd pain.  She denies any \nLOF/VB.  She endorses active fetal movement.\n\nBrief Hospital Course:\nThe patient is a ___ year old gravida 3 para 0 who was admitted \nto the antepartum service for expectant management of \npre-eclampsia in the setting of baseline proteinuria.  \n.\n*) Pre-Eclampsia:  The patient initially complained of floaters \nin her vision on arrival.  These resolved spontaneously.  She \nalso had intermittent mild headaches which were relieved by \nTylenol.  She never had any epigastric pain.  Her blood \npressures were mostly within normal limits.  She had a few blood \npressures with systolics at 140 or diastolics up to 90.  Her \nlabs were checked twice per week and were only notable for a \nmildly elevated uric acid which peaked at 6.2 and a 24hour urine \ndone on ___ which was 1428mg.  The patient was evaluated by ___ \nand renal while in house. ___ felt that the patient was \nsuffering from superimposed pre-eclampsia.  Renal agreed with \nthis.  The patient was made BMZ complete by ___.  She was \nseen by the NICU.  She had several ultrasounds done.  She had an \nEFW on ___ which was 1430g, ___ percentile and on ___ which \nwas 1591g, ___. \nOn ___ a repeat ___ was noted to be greater than 6 grams \nof protein and she had a persistent headache. The decision was \nmade to proceed with delivery given the worsening pre-eclampsia \nand the fact that she was Betamethasone complete.\nThe options for delivery were discussed and pt elected to \nproceed to\ncesarean delivery. She had an uncomplicated low transverse \ncesarean section on ___.\n\n*) Postpartum her blood pressures were well controlled at goal \nwithout antihypertensives. She received magnesium for 24 hours \npostpartum for seizure prophylaxis. She remained without \nsymptoms of pre-eclampsia except for an occasional mild headache \nwhich resolved with sleep and Tylenol. Her HEELP labs remained \nnormal and her uric acid trended down to 5.9.\n\nOf note, the patient had a remote history of marijuana use early \nin the pregnancy.  She had a negative utox on admission.\n\nDischarge Diagnosis:\nSevere Preeclampsia\nPrimary LTCS at 34 wks",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 47,
+          "turn_id": null
+        }
+      ],
+      "text": "Proteinuria",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 130,
+          "turn_id": null
+        }
+      ],
+      "text": "24H urine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 168,
+          "turn_id": null
+        }
+      ],
+      "text": "1428mg of protein",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "protienuria",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 270,
+          "turn_id": null
+        }
+      ],
+      "text": "CCY",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 364,
+          "turn_id": null
+        }
+      ],
+      "text": "total \nprotein",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 373,
+          "turn_id": null
+        }
+      ],
+      "text": "total \nprotein of 410mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 413,
+          "turn_id": null
+        }
+      ],
+      "text": "glomerulonephritis",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 424,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "renal disease",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 525,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-dsDNA",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 680,
+          "turn_id": null
+        }
+      ],
+      "text": "microalbinuria",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 717,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "renal disease",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 776,
+          "char_end": 784,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 801,
+          "turn_id": null
+        }
+      ],
+      "text": "visual \nchanges",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 807,
+          "char_end": 812,
+          "turn_id": null
+        },
+        {
+          "char_start": 823,
+          "char_end": 841,
+          "turn_id": null
+        }
+      ],
+      "text": "upper extremity swelling",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 817,
+          "char_end": 841,
+          "turn_id": null
+        }
+      ],
+      "text": "lower extremity swelling",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 852,
+          "char_end": 861,
+          "turn_id": null
+        }
+      ],
+      "text": "PEC \nlabs",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 893,
+          "char_end": 898,
+          "turn_id": null
+        }
+      ],
+      "text": "Pr/Cr",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 943,
+          "char_end": 958,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1017,
+          "char_end": 1029,
+          "turn_id": null
+        }
+      ],
+      "text": "24hour urine",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1145,
+          "turn_id": null
+        }
+      ],
+      "text": "spots in \nher vision",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1166,
+          "turn_id": null
+        }
+      ],
+      "text": "floaters",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1229,
+          "char_end": 1231,
+          "turn_id": null
+        }
+      ],
+      "text": "HA",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1232,
+          "char_end": 1240,
+          "turn_id": null
+        }
+      ],
+      "text": "Abd pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1259,
+          "char_end": 1262,
+          "turn_id": null
+        }
+      ],
+      "text": "LOF",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1265,
+          "turn_id": null
+        }
+      ],
+      "text": "VB",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1448,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "pre-eclampsia",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1489,
+          "char_end": 1500,
+          "turn_id": null
+        }
+      ],
+      "text": "proteinuria",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1509,
+          "char_end": 1522,
+          "turn_id": null
+        }
+      ],
+      "text": "Pre-Eclampsia",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1561,
+          "char_end": 1584,
+          "turn_id": null
+        }
+      ],
+      "text": "floaters \nin her vision",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1661,
+          "char_end": 1670,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1695,
+          "char_end": 1702,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1723,
+          "char_end": 1738,
+          "turn_id": null
+        }
+      ],
+      "text": "epigastric pain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1745,
+          "char_end": 1761,
+          "turn_id": null
+        }
+      ],
+      "text": "blood \npressures",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1833,
+          "char_end": 1849,
+          "turn_id": null
+        }
+      ],
+      "text": "systolics at 140",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1853,
+          "char_end": 1872,
+          "turn_id": null
+        }
+      ],
+      "text": "diastolics up to 90",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1958,
+          "char_end": 1967,
+          "turn_id": null
+        }
+      ],
+      "text": "uric acid",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1958,
+          "char_end": 1987,
+          "turn_id": null
+        }
+      ],
+      "text": "uric acid which peaked at 6.2",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1994,
+          "char_end": 2006,
+          "turn_id": null
+        }
+      ],
+      "text": "24hour urine",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2145,
+          "char_end": 2171,
+          "turn_id": null
+        }
+      ],
+      "text": "superimposed pre-eclampsia",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2221,
+          "char_end": 2224,
+          "turn_id": null
+        }
+      ],
+      "text": "BMZ",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2287,
+          "char_end": 2298,
+          "turn_id": null
+        }
+      ],
+      "text": "ultrasounds",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2318,
+          "char_end": 2321,
+          "turn_id": null
+        }
+      ],
+      "text": "EFW",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2432,
+          "char_end": 2464,
+          "turn_id": null
+        }
+      ],
+      "text": "greater than 6 grams \nof protein",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2479,
+          "char_end": 2498,
+          "turn_id": null
+        }
+      ],
+      "text": "persistent headache",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2568,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "pre-eclampsia",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2609,
+          "char_end": 2622,
+          "turn_id": null
+        }
+      ],
+      "text": "Betamethasone",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2703,
+          "char_end": 2720,
+          "turn_id": null
+        }
+      ],
+      "text": "cesarean delivery",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2747,
+          "char_end": 2779,
+          "turn_id": null
+        }
+      ],
+      "text": "low transverse \ncesarean section",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2807,
+          "char_end": 2822,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2861,
+          "char_end": 2878,
+          "turn_id": null
+        }
+      ],
+      "text": "antihypertensives",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2893,
+          "char_end": 2902,
+          "turn_id": null
+        }
+      ],
+      "text": "magnesium",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2907,
+          "char_end": 2915,
+          "turn_id": null
+        }
+      ],
+      "text": "24 hours",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2987,
+          "char_end": 3000,
+          "turn_id": null
+        }
+      ],
+      "text": "pre-eclampsia",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3071,
+          "char_end": 3078,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3084,
+          "char_end": 3094,
+          "turn_id": null
+        }
+      ],
+      "text": "HEELP labs",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3120,
+          "char_end": 3129,
+          "turn_id": null
+        }
+      ],
+      "text": "uric acid",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3197,
+          "char_end": 3210,
+          "turn_id": null
+        }
+      ],
+      "text": "marijuana use",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3256,
+          "char_end": 3260,
+          "turn_id": null
+        }
+      ],
+      "text": "utox",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3304,
+          "char_end": 3316,
+          "turn_id": null
+        }
+      ],
+      "text": "Preeclampsia",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3325,
+          "char_end": 3329,
+          "turn_id": null
+        }
+      ],
+      "text": "LTCS",
+      "id": "e62"
+    }
+  ]
+}

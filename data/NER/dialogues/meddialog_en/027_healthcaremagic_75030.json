@@ -1,0 +1,481 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:75030:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I m a 50 yr woman, had total hysterectomy 7 years ago. I was sick in December with asthmatic bronchitis and again in Jauary. Both time I spent a week in hospital. Was put on prednisone and was off it by March. Right after I got ou, I started to have stomach issuess, reflux, I iad thrush all the way down my throat, I also had a pounding heart for months. They sent me to cardiologist he said MVP with mild regergitation wanted to use Beta Blockers but I can t take because of asthma so he s doing nothing say s he dosen t think I should be feeling my syptoms. I have a lacey kind of look to my skin, very fatigued sweat profusley at times even with out doing anything and in front of AC. I also had a few night of extrem tingling in hands, face and my hands swelled very badley left more than right. Went to make sure I wasn t having stroke or something. I have gone to a Rheumatologist and all my tests are coming back normal. The fatigue and sweating are so bad I almost can t work. They did Brain MRI and Bone scan to rule out MS, brain cancer and the bone scan didn t show polyarthritis. I also found I have a mottled look to my skin and when I went to tweeze my eyebrows after skin around eyebrows broke out into hives.I don t feel like I m in the right place, but I do know since I was sick I have not returned back to myself and now anxiety is starting to take over any clues or ideas?\n[doctor] Respected madam, hi sorry to hear about your issue.Most probably this is (1)steroid induced g.i.problems(2)later on effects of steroid withdrawl.Many simple tiny measures you have to take to come back to normal which will take time.* Maintain your hydration.* Maintain BP , Blood Sugar levels.* Maintain your weight.* Regular walking in fresh air with concentration exercises and YOGA 30    min. a day without failure.* Diet rich in protein , fibers, iron.* Multivitamins, multiminerals tablets daily once.* Bath tub bath in leukwarm water with added 10 gm ipsom salt and 5 ml    of Lavender oil.* Avoid smoking / alcohol / any abuse substance if using.* Have patience have confidence  in yourself , nobody is going to cure you   except your innner counciousness.* Engage yourself in more activities of your choice.* Laugh more which you are not doing at all at present.* BE POSITIVE every morning brings new rays of hopes in everybody`s life   it`s how your eyes look at them.* Change your perspectives towards the situations and situations will    change for you. Hope this helps you to any extent . Thanks for using Health Care Magic & reviewing my answer carefully. Regards Wishing you happy healthy life ahead . Take care Dear Bye",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 33,
+          "char_end": 51,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "total hysterectomy",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 113,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthmatic bronchitis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 194,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 275,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach issuess",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 277,
+          "char_end": 283,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "reflux",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 324,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thrush all the way down my throat",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 353,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pounding heart",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 406,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MVP",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 417,
+          "char_end": 430,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "regergitation",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 458,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Beta Blockers",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 609,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lacey kind of look to my skin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 624,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fatigued",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 625,
+          "char_end": 640,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sweat profusley",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 740,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 751,
+          "char_end": 755,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling face",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 749,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling in hands",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 763,
+          "char_end": 776,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hands swelled",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 851,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stroke",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 955,
+          "char_end": 963,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sweating",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1005,
+          "char_end": 1014,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Brain MRI",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1019,
+          "char_end": 1028,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Bone scan",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1041,
+          "char_end": 1043,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MS",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1045,
+          "char_end": 1057,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "brain cancer",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1075,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bone scan",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1088,
+          "char_end": 1101,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "polyarthritis",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1148,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mottled look to my skin",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1229,
+          "char_end": 1234,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1351,
+          "char_end": 1358,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1489,
+          "char_end": 1496,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1547,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1557,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid withdrawl",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1871,
+          "char_end": 1884,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Multivitamins",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1886,
+          "char_end": 1899,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "multiminerals",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1900,
+          "char_end": 1907,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tablets",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1908,
+          "char_end": 1918,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "daily once",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2017,
+          "char_end": 2024,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "smoking",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 2027,
+          "char_end": 2034,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "alcohol",
+      "id": "e36"
+    }
+  ]
+}

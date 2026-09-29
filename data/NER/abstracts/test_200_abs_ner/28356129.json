@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 15,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 29,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 58,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 106,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 189,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 206,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 235,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 339,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 431,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 524,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 537,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 575,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 609,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 675,
@@ -203,7 +189,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 806,
@@ -216,22 +201,7 @@
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "duration",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 951,
-          "char_end": 959,
-          "turn_id": null
-        }
-      ],
-      "text": "6 months",
-      "id": "e16"
-    },
-    {
-      "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 963,
@@ -240,12 +210,11 @@
         }
       ],
       "text": "6 g/d",
-      "id": "e17"
+      "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 969,
@@ -254,12 +223,11 @@
         }
       ],
       "text": "probiotic",
-      "id": "e18"
+      "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1006,
@@ -268,12 +236,11 @@
         }
       ],
       "text": "fecal abundance of bacteria",
-      "id": "e19"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1035,
@@ -282,12 +249,11 @@
         }
       ],
       "text": "blood pressure",
-      "id": "e20"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1051,
@@ -296,12 +262,11 @@
         }
       ],
       "text": "height",
-      "id": "e21"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1059,
@@ -310,45 +275,24 @@
         }
       ],
       "text": "weight",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1071,
+          "char_end": 1099,
+          "turn_id": null
+        }
+      ],
+      "text": "waist and hip circumferences",
       "id": "e22"
     },
     {
       "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1071,
-          "char_end": 1076,
-          "turn_id": null
-        },
-        {
-          "char_start": 1085,
-          "char_end": 1099,
-          "turn_id": null
-        }
-      ],
-      "text": "waist circumferences",
-      "id": "e23"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "exam",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1081,
-          "char_end": 1099,
-          "turn_id": null
-        }
-      ],
-      "text": "hip circumferences",
-      "id": "e24"
-    },
-    {
-      "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1160,
@@ -357,12 +301,11 @@
         }
       ],
       "text": "plasma lipid profiles",
-      "id": "e25"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1183,
@@ -371,12 +314,11 @@
         }
       ],
       "text": "HbA1C",
-      "id": "e26"
+      "id": "e24"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1190,
@@ -385,12 +327,11 @@
         }
       ],
       "text": "fasting plasma glucose",
-      "id": "e27"
+      "id": "e25"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1218,
@@ -399,12 +340,11 @@
         }
       ],
       "text": "insulin levels",
-      "id": "e28"
+      "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1255,
@@ -413,12 +353,11 @@
         }
       ],
       "text": "insulin resistance",
-      "id": "e29"
+      "id": "e27"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1275,
@@ -427,12 +366,24 @@
         }
       ],
       "text": "HOMA-IR",
-      "id": "e30"
+      "id": "e28"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1288,
+          "char_end": 1306,
+          "turn_id": null
+        }
+      ],
+      "text": "beta-cell function",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
           "char_start": 1308,
@@ -441,12 +392,11 @@
         }
       ],
       "text": "HOMA-B",
-      "id": "e31"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1661,
@@ -455,12 +405,11 @@
         }
       ],
       "text": "metabolic syndrome",
-      "id": "e32"
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1683,
@@ -469,7 +418,7 @@
         }
       ],
       "text": "prediabetes",
-      "id": "e33"
+      "id": "e32"
     }
   ]
 }

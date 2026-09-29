@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 25,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 42,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dosage_form",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 174,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 192,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 207,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 215,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 240,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 315,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 322,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 401,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dosage_form",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 451,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 469,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 473,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 521,
@@ -203,21 +189,19 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 585,
+          "char_start": 574,
           "char_end": 593,
           "turn_id": null
         }
       ],
-      "text": "seizures",
+      "text": "persistent seizures",
       "id": "e15"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 599,
@@ -231,7 +215,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 641,
@@ -243,23 +226,8 @@
       "id": "e17"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 659,
-          "char_end": 673,
-          "turn_id": null
-        }
-      ],
-      "text": "adverse events",
-      "id": "e18"
-    },
-    {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 711,
@@ -268,12 +236,11 @@
         }
       ],
       "text": "Adverse Events Profile",
-      "id": "e19"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 735,
@@ -282,12 +249,11 @@
         }
       ],
       "text": "AEP",
-      "id": "e20"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 780,
@@ -296,12 +262,11 @@
         }
       ],
       "text": "Quality of Life in Epilepsy Inventory 10",
-      "id": "e21"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 822,
@@ -310,12 +275,11 @@
         }
       ],
       "text": "QOLIE-10",
-      "id": "e22"
+      "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 863,
@@ -324,12 +288,11 @@
         }
       ],
       "text": "reaction time",
-      "id": "e23"
+      "id": "e22"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 900,
@@ -338,12 +301,11 @@
         }
       ],
       "text": "Test Battery for Attention Performance version 2.3",
-      "id": "e24"
+      "id": "e23"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1032,
@@ -352,12 +314,11 @@
         }
       ],
       "text": "OXC",
-      "id": "e25"
+      "id": "e24"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1039,
@@ -366,12 +327,11 @@
         }
       ],
       "text": "ESL",
-      "id": "e26"
+      "id": "e25"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1166,
@@ -380,12 +340,11 @@
         }
       ],
       "text": "OXC",
-      "id": "e27"
+      "id": "e26"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1173,
@@ -394,12 +353,11 @@
         }
       ],
       "text": "ESL",
-      "id": "e28"
+      "id": "e27"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1233,
@@ -408,12 +366,11 @@
         }
       ],
       "text": "AEP",
-      "id": "e29"
+      "id": "e28"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1247,
@@ -422,12 +379,11 @@
         }
       ],
       "text": "QOLIE-10",
-      "id": "e30"
+      "id": "e29"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1289,
@@ -436,12 +392,11 @@
         }
       ],
       "text": "Adverse Events Profile",
-      "id": "e31"
+      "id": "e30"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1363,
@@ -450,12 +405,11 @@
         }
       ],
       "text": "QOLIE-10",
-      "id": "e32"
+      "id": "e31"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1546,
@@ -464,12 +418,11 @@
         }
       ],
       "text": "twice-daily",
-      "id": "e33"
+      "id": "e32"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1558,
@@ -478,12 +431,11 @@
         }
       ],
       "text": "OXC",
-      "id": "e34"
+      "id": "e33"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1565,
@@ -492,12 +444,11 @@
         }
       ],
       "text": "once-daily",
-      "id": "e35"
+      "id": "e34"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1576,
@@ -506,12 +457,11 @@
         }
       ],
       "text": "ESL",
-      "id": "e36"
+      "id": "e35"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1597,
@@ -520,21 +470,7 @@
         }
       ],
       "text": "drug-resistant focal epilepsies",
-      "id": "e37"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1657,
-          "char_end": 1669,
-          "turn_id": null
-        }
-      ],
-      "text": "side effects",
-      "id": "e38"
+      "id": "e36"
     }
   ]
 }

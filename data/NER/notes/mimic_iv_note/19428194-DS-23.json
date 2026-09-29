@@ -1,0 +1,190 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19428194-DS-23:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nHaldol\n\nChief Complaint:\nHip fracture\n\nHistory of Present Illness:\nMr. ___ is an ___ year old man who had a fall at home while \ntrying to reach the refrigerator.  He was taken to ___ \n___ and found to have a left hip fracture.  \nHe was then transferred to the ___ per his family's request.\n\nBrief Hospital Course:\nMr. ___ presented to the ___ on ___ via transfer \nfrom ___ with a left hip fracture.  He \nwas evaluated by the medical and orthopaedic surgery service.  \nHe was prepped and consented, and later on ___ he was taken \nto the operating room and underwent a left hip hemiarthroplasty. \n He tolerated the procedure well, was extubated, transferred to \nthe recovery room, and then to the floor.  On the floor he was \nseen by physical therapy to improve his strength and mobility. \nOn the floor he was hypertensive and Hydralazine PO was added to \nregimen on day of discharge for blood pressure control. \n The rest of his hospital stay was uneventful with his lab data, \nincluding hematocrit, and vitals signs were within normal limits \nand his pain controlled.  He was discharged to an extended care \nfacility for further recovery.\n\nDischarge Diagnosis:\ns/p fall\nLeft hip fracture",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "Haldol",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "Hip fracture",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 236,
+          "turn_id": null
+        }
+      ],
+      "text": "left hip fracture",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 408,
+          "turn_id": null
+        }
+      ],
+      "text": "left hip fracture",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 578,
+          "char_end": 603,
+          "turn_id": null
+        }
+      ],
+      "text": "left hip hemiarthroplasty",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 653,
+          "turn_id": null
+        }
+      ],
+      "text": "extubated",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 759,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 831,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertensive",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 836,
+          "char_end": 847,
+          "turn_id": null
+        }
+      ],
+      "text": "Hydralazine",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 848,
+          "char_end": 850,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 998,
+          "char_end": 1008,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1014,
+          "char_end": 1026,
+          "turn_id": null
+        }
+      ],
+      "text": "vitals signs",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1062,
+          "char_end": 1066,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1181,
+          "char_end": 1198,
+          "turn_id": null
+        }
+      ],
+      "text": "Left hip fracture",
+      "id": "e14"
+    }
+  ]
+}

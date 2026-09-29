@@ -1,0 +1,918 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15258511-DS-12:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nAugmentin / Spiriva with HandiHaler / ciprofloxacin / Bactrim\n\nChief Complaint:\nMalaise, cough\n\nHistory of Present Illness:\n___ with h/o tracheobroncheomalacia s/p tracheobronchoplasty in \n___, now with mesh erosion s/p repeat bronchoscopy between \n___ and ___, COPD, now presents with SOB x 2 days.  \nPt reports worsening SOB over the last 2 days with chest \ncongestion. She has a chronic productive cough but reports it is \nmore dry and she has trouble getting up secretions over the last \ncouple of days. When she gets up sputum, it is sparse and \nyellow-green. She had a low-grade fever to 100 approx 1wk ago \nand intermitent chills since. Mild malaise. Occasional chest \npain that has been ongoing. She reports taking the Cipro/Bactrim \nfor approx ___ after discharge in ___ but stopped because she \nfelt they made her fatigued and sick. She is not currently on \nany ABX. She reports she feels she has an ongoing lung/airway \ninfection. No wheezing. She has lost 15lbs in the last few weeks \nto months.  \nPt admitted ___ bronch done during admission. Pt seen by \nID. Put on IV cefepime and then PO Cipro and Bactrim as \nsuppressive therapy. Pt seen in ___ clinic today and sent in for \nadmission and IV ABX before considering repeat bronch.  \n \nIn the ED, initial vitals were: 98.9 80 146/79 18 100% ra  \n- Exam: Afebrile, HDS, 100% RA. Cardiac normal. RLL rhonchi, \nfaint b/l crackles. Abd normal. No peripheral edema  \n- Labs were significant for: WBC 7.8, Hb 11, normal lytes with K \nof 3, lactate 1.1  \n- Imaging revealed: CXR negative  \n- The patient was given: Vanc/cefepime, PO K  \n- ___ y/o F with recurrent PNA, TBM, found to grow pseudo on \nbronchoscopy ___, here with dyspnea and cough, RLL rhonchi on \nexam. CXR negative for obvious infiltrate, but patient known to \nhave grown pseudomonas on bronchoscopy cultures, also having \ndifficulty managing worsening secretions given obstruction from \nmesh erosion. Will require inpatient admission for antibiotics \nand management of secretions. Interventional pulmonology will \nconsult.  \n \nUpon arrival to the floor, pt is without complaints other than \nsame SOB that brought her in.  \nREVIEW OF SYSTEMS:  \n(+) Per HPI  \nDenies n/v/d, dysuria, no hx of malignancy, no recent \nimmobilization or surgery\n\nDischarge Diagnosis:\nTracheobronchomalacia\nTrachebronchitis",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 20,
+          "turn_id": null
+        }
+      ],
+      "text": "Augmentin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "Spiriva",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "HandiHaler",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 65,
+          "char_end": 72,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 98,
+          "turn_id": null
+        }
+      ],
+      "text": "Malaise",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 100,
+          "char_end": 105,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 170,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheobroncheomalacia",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "tracheobronchoplasty",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 214,
+          "char_end": 226,
+          "turn_id": null
+        }
+      ],
+      "text": "mesh erosion",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 250,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchoscopy",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 273,
+          "char_end": 277,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 297,
+          "char_end": 300,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 334,
+          "char_end": 337,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 371,
+          "char_end": 381,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "productive cough",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 458,
+          "char_end": 487,
+          "turn_id": null
+        }
+      ],
+      "text": "trouble getting up secretions",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 647,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 667,
+          "turn_id": null
+        }
+      ],
+      "text": "malaise",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 687,
+          "char_end": 691,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 738,
+          "char_end": 743,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 751,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 843,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigued",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 848,
+          "char_end": 852,
+          "turn_id": null
+        }
+      ],
+      "text": "sick",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 883,
+          "char_end": 886,
+          "turn_id": null
+        }
+      ],
+      "text": "ABX",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 929,
+          "char_end": 951,
+          "turn_id": null
+        }
+      ],
+      "text": "lung/airway \ninfection",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 964,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezing",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 984,
+          "turn_id": null
+        }
+      ],
+      "text": "lost 15lbs",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1037,
+          "char_end": 1043,
+          "turn_id": null
+        }
+      ],
+      "text": "bronch",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1090,
+          "char_end": 1092,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1093,
+          "char_end": 1101,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1111,
+          "char_end": 1113,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1114,
+          "char_end": 1119,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1124,
+          "char_end": 1131,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1216,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1219,
+          "char_end": 1222,
+          "turn_id": null
+        }
+      ],
+      "text": "ABX",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1249,
+          "char_end": 1255,
+          "turn_id": null
+        }
+      ],
+      "text": "bronch",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1380,
+          "turn_id": null
+        }
+      ],
+      "text": "RLL rhonchi",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1401,
+          "turn_id": null
+        }
+      ],
+      "text": "b/l crackles",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1418,
+          "char_end": 1434,
+          "turn_id": null
+        }
+      ],
+      "text": "peripheral edema",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1466,
+          "char_end": 1469,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1475,
+          "char_end": 1477,
+          "turn_id": null
+        }
+      ],
+      "text": "Hb",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1489,
+          "char_end": 1494,
+          "turn_id": null
+        }
+      ],
+      "text": "lytes",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1500,
+          "char_end": 1501,
+          "turn_id": null
+        }
+      ],
+      "text": "K",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1509,
+          "char_end": 1516,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1543,
+          "char_end": 1546,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1583,
+          "char_end": 1587,
+          "turn_id": null
+        }
+      ],
+      "text": "Vanc",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1588,
+          "char_end": 1596,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1598,
+          "char_end": 1600,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1601,
+          "char_end": 1602,
+          "turn_id": null
+        }
+      ],
+      "text": "K",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1632,
+          "char_end": 1635,
+          "turn_id": null
+        }
+      ],
+      "text": "PNA",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1637,
+          "char_end": 1640,
+          "turn_id": null
+        }
+      ],
+      "text": "TBM",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1667,
+          "char_end": 1679,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchoscopy",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1695,
+          "char_end": 1702,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1707,
+          "char_end": 1712,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1714,
+          "char_end": 1725,
+          "turn_id": null
+        }
+      ],
+      "text": "RLL rhonchi",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1736,
+          "char_end": 1739,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1761,
+          "char_end": 1771,
+          "turn_id": null
+        }
+      ],
+      "text": "infiltrate",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1821,
+          "char_end": 1833,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchoscopy",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1821,
+          "char_end": 1842,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchoscopy cultures",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1904,
+          "char_end": 1915,
+          "turn_id": null
+        }
+      ],
+      "text": "obstruction",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1922,
+          "char_end": 1934,
+          "turn_id": null
+        }
+      ],
+      "text": "mesh erosion",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1973,
+          "char_end": 1984,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2131,
+          "char_end": 2134,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2200,
+          "char_end": 2205,
+          "turn_id": null
+        }
+      ],
+      "text": "n/v/d",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2207,
+          "char_end": 2214,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2225,
+          "char_end": 2235,
+          "turn_id": null
+        }
+      ],
+      "text": "malignancy",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2296,
+          "char_end": 2317,
+          "turn_id": null
+        }
+      ],
+      "text": "Tracheobronchomalacia",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2318,
+          "char_end": 2334,
+          "turn_id": null
+        }
+      ],
+      "text": "Trachebronchitis",
+      "id": "e70"
+    }
+  ]
+}

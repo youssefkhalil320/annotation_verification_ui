@@ -1,0 +1,291 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:155249:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am a cancer patient being treated for rectal cancer. Last summer I went thru radiation concurrent with chemotherapy, both of which ended somewhere between the end of August and the middle of September. In October my rectum was removed and I was fitted with a colostomy. Since about mid-January I have gone back on chemo, three days per week, every other week, with my last treatment coming mid-April. My problem is that recently I have been suffering from what feels like chapped lips on the INSIDE of my lips. I have to say my oral hygiene hasn t been up to par due to my simply feeling crappy from the chemo. So, does the problem inside my lips sound like a result of the chemotherapy or could it be some sort of a periodontal disease caused by my intermittent brushing? — John in Sacramento\n[doctor] Chappy lips is a very common side effect of most chemotherapy drugs and is a result of poor oral intake and vitamin deficiencies. Poor oral hygiene adds to this situation. So while there is nothing to worry about, you can get rid of the situation by trying to eat as much as possible (whatever suits your altered taste), and to take a vitamin supplement.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 23,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cancer",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 50,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rectal cancer",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "radiation",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 127,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 228,
+          "char_end": 234,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 239,
+          "char_end": 246,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rectum removed",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 280,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "colostomy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 331,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chemo",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 333,
+          "char_end": 370,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "three days per week, every other week",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 484,
+          "char_end": 521,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chapped lips on the INSIDE of my lips",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 559,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 565,
+          "char_end": 574,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oral hygiene hasn t up to par",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 606,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feeling crappy",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 686,
+          "char_end": 698,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 748,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "periodontal disease",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 762,
+          "char_end": 783,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "intermittent brushing",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 815,
+          "char_end": 826,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Chappy lips",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 864,
+          "char_end": 876,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 902,
+          "char_end": 918,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "poor oral intake",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 943,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin deficiencies",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 962,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Poor oral hygiene",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1133,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "altered taste",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1168,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin supplement",
+      "id": "e21"
+    }
+  ]
+}

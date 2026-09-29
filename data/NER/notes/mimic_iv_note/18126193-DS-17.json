@@ -1,0 +1,1131 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18126193-DS-17:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins / Codeine / Lactose / Bee Sting Kit\n\nChief Complaint:\nAbdominal pain\n\nHistory of Present Illness:\n___ yo female with chronic pancreatitis (four previous episodes, \nprior ERCP ___ ___ with mildly dilate PD, and pt states \nlast ERCP in ___ c/b pancreatitis) presents with recurrent \nabdominal pain.  She underwent outptatient ERCP this afternoon \nwith pancreatic duct stent placement and pancreatic and biliary \nsphincterotomies.  She had some mild nausea and abdominal pain \npost procedure (epigastric -->RUQ) which was successfully \ntreateed with IV Zofran 4mg and Demerol 12.5mg once each.  She \nwas also given one dose of IV Ciprofloxacin.\n\nCurrently, she endorses ___ abdominal pain, more like an \nepigastric fullness, without radiation.  No nausea.\n\nBrief Hospital Course:\n___ female with PMHx s/p CCY, migraine headaches, presented \nwith recurrent pancreatitis symptoms and was taken to ERCP, \nwhere she underwent pancreatic and biliary sphincterotomies and \nPD stent placement.  After the procedure, she had significant \nabdominal pain requiring bowel rest, IV fluids, and IV opiods \nfor pain control.  Her abdominal pain gradually improved, but \nadvancing her diet was challenged by several setbacks with \nincreased abdominal pain. She also developed low grade fevers \nand a leukocytosis concerning for cholangitis, so she was \nstarted on Cipro/Flagyl for a 7 day course.  Her fevers and \nleukocytosis resolved.  Her abdominal pain eventually subsided, \nand her diet was successfully advanced to a full liquid diet \nwith instructions for gradual advancement as her symptoms \ntolerate.  She will return for repeat ERCP with PD stent removal \non ___ ___.\n.  \n# Hypokalemia  \nPatient had periods of hypokalemia, which was repleted by IV to \navoid GI upset which may confuse situtation.  Her potassium was \nWNL by time of discharge.  \n.  \n# Hypophosphatemia  \nLikely caused by diarrhea in setting of pancreatitis. She was \nrepleted by IV, and her Phos was WNL by time of discharge.\n.  \n# Diarrhea  \nPatient had moderate diarrhea during the admission which was \ntested c-diff negative. There was no suggestion of infectious \netiology, and was thought likely d/t pancreatitis. She received \n1 dose of imodium with resolution of symptoms. \nShe can resume cholestyramine as an outpt once tolerating diet \nwithout difficulty. \n.  \n# Hyperlipidemia  \n- held lipitor during the admission, which she will resume at \ntime of discharge.\n.  \n# Migraine headaches  \nPatient had several episodes of migraine headaches, which she \nfeels was triggered by caffeine withdrawl.  She was treated with \nher home fioricet with resolution of her symptoms.\n.  \nPPx: Heparin SQ  \nDISP: discharged to home with ERCP followup.\n\nDischarge Diagnosis:\n# Biliary and pancreatic benign papillary stenosis \n# Pancreatitis, acute\n# Hypokalemia\n# Hypophosphatemia\n# Anemia, NOS\n# Diarrhea\n# Migraine headaches",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 42,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactose",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "Bee Sting Kit",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 77,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 160,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic pancreatitis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 197,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 227,
+          "turn_id": null
+        }
+      ],
+      "text": "dilate PD",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 277,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatitis",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 304,
+          "char_end": 318,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 351,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 373,
+          "char_end": 404,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatic duct stent placement",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 424,
+          "char_end": 449,
+          "turn_id": null
+        }
+      ],
+      "text": "biliary \nsphincterotomies",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 476,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 481,
+          "char_end": 495,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 570,
+          "char_end": 572,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 573,
+          "char_end": 579,
+          "turn_id": null
+        }
+      ],
+      "text": "Zofran",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 583,
+          "turn_id": null
+        }
+      ],
+      "text": "4mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 588,
+          "char_end": 595,
+          "turn_id": null
+        }
+      ],
+      "text": "Demerol",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": "12.5mg",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 603,
+          "char_end": 612,
+          "turn_id": null
+        }
+      ],
+      "text": "once each",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 643,
+          "turn_id": null
+        }
+      ],
+      "text": "one dose",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 647,
+          "char_end": 649,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 663,
+          "turn_id": null
+        }
+      ],
+      "text": "Ciprofloxacin",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 694,
+          "char_end": 708,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 724,
+          "char_end": 743,
+          "turn_id": null
+        }
+      ],
+      "text": "epigastric fullness",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 774,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 828,
+          "turn_id": null
+        }
+      ],
+      "text": "CCY",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 830,
+          "char_end": 848,
+          "turn_id": null
+        }
+      ],
+      "text": "migraine headaches",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 876,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatitis",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 915,
+          "char_end": 919,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 957,
+          "char_end": 981,
+          "turn_id": null
+        }
+      ],
+      "text": "biliary sphincterotomies",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 1005,
+          "turn_id": null
+        }
+      ],
+      "text": "PD stent placement",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1050,
+          "char_end": 1064,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1075,
+          "char_end": 1085,
+          "turn_id": null
+        }
+      ],
+      "text": "bowel rest",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1096,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1105,
+          "char_end": 1111,
+          "turn_id": null
+        }
+      ],
+      "text": "opiods",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1136,
+          "char_end": 1150,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1260,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1291,
+          "char_end": 1297,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1317,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1333,
+          "char_end": 1344,
+          "turn_id": null
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1375,
+          "char_end": 1381,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1382,
+          "char_end": 1400,
+          "turn_id": null
+        }
+      ],
+      "text": "for a 7 day course",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1407,
+          "char_end": 1413,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1419,
+          "char_end": 1431,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1447,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1643,
+          "char_end": 1647,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1669,
+          "turn_id": null
+        }
+      ],
+      "text": "PD stent removal",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1689,
+          "char_end": 1700,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypokalemia",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1726,
+          "char_end": 1737,
+          "turn_id": null
+        }
+      ],
+      "text": "hypokalemia",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1761,
+          "char_end": 1763,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1774,
+          "char_end": 1782,
+          "turn_id": null
+        }
+      ],
+      "text": "GI upset",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1818,
+          "char_end": 1827,
+          "turn_id": null
+        }
+      ],
+      "text": "potassium",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1867,
+          "char_end": 1883,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypophosphatemia",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1903,
+          "char_end": 1911,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1926,
+          "char_end": 1938,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatitis",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1961,
+          "char_end": 1963,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1973,
+          "char_end": 1977,
+          "turn_id": null
+        }
+      ],
+      "text": "Phos",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2014,
+          "char_end": 2022,
+          "turn_id": null
+        }
+      ],
+      "text": "Diarrhea",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2046,
+          "char_end": 2054,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2094,
+          "char_end": 2100,
+          "turn_id": null
+        }
+      ],
+      "text": "c-diff",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2199,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatitis",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2215,
+          "char_end": 2221,
+          "turn_id": null
+        }
+      ],
+      "text": "1 dose",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2225,
+          "char_end": 2232,
+          "turn_id": null
+        }
+      ],
+      "text": "imodium",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2278,
+          "char_end": 2292,
+          "turn_id": null
+        }
+      ],
+      "text": "cholestyramine",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2354,
+          "char_end": 2368,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyperlipidemia",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2378,
+          "char_end": 2385,
+          "turn_id": null
+        }
+      ],
+      "text": "lipitor",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2459,
+          "char_end": 2477,
+          "turn_id": null
+        }
+      ],
+      "text": "Migraine headaches",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2512,
+          "char_end": 2530,
+          "turn_id": null
+        }
+      ],
+      "text": "migraine headaches",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 2566,
+          "char_end": 2574,
+          "turn_id": null
+        }
+      ],
+      "text": "caffeine",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2566,
+          "char_end": 2584,
+          "turn_id": null
+        }
+      ],
+      "text": "caffeine withdrawl",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2618,
+          "char_end": 2626,
+          "turn_id": null
+        }
+      ],
+      "text": "fioricet",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2669,
+          "char_end": 2676,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2677,
+          "char_end": 2679,
+          "turn_id": null
+        }
+      ],
+      "text": "SQ",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2712,
+          "char_end": 2716,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2751,
+          "char_end": 2758,
+          "turn_id": null
+        },
+        {
+          "char_start": 2774,
+          "char_end": 2799,
+          "turn_id": null
+        }
+      ],
+      "text": "Biliary benign papillary stenosis",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2763,
+          "char_end": 2799,
+          "turn_id": null
+        }
+      ],
+      "text": "pancreatic benign papillary stenosis",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2803,
+          "char_end": 2822,
+          "turn_id": null
+        }
+      ],
+      "text": "Pancreatitis, acute",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2825,
+          "char_end": 2836,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypokalemia",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2839,
+          "char_end": 2855,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypophosphatemia",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2858,
+          "char_end": 2869,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia, NOS",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2872,
+          "char_end": 2880,
+          "turn_id": null
+        }
+      ],
+      "text": "Diarrhea",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2883,
+          "char_end": 2901,
+          "turn_id": null
+        }
+      ],
+      "text": "Migraine headaches",
+      "id": "e86"
+    }
+  ]
+}

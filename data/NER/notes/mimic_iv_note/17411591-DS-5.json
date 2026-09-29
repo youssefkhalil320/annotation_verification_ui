@@ -1,0 +1,647 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17411591-DS-5:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nSolu-Medrol / Tree Nut\n\nChief Complaint:\nRight lower quadrant abdominal pain\n\nHistory of Present Illness:\nMs ___ is a ___, PMH significant for ileal and perianal\ncrohn's disease, related intraabdominal absesses and\nfistula-in-ano, status post drainage, ___ placement, and\nfistulotomy (___), presented with complaints of Right \nlower\nquadrant pain. By her testimony, the pain had began 1 week prior\nand has been progressively increasing to ___ today. This\nprompted her ED presentation. She noted the intensity now is\nassociated with po intolerance as well as nausea and vomiting.\nShe also endorses some abdominal distension. She denied other GI\nsymptoms and has had normal, nonbloody, regular consistency \nbowel\nmovements. She also denied urinary symptoms. Over the prior 2\ndays, she endorsed fevers and chills. No chest pain or shortness\nof breath. She notes that this feels similar to previous \nepisodes\nof Crohn's flares. \n\nHer last colonoscopy was in ___, which was unremarkable. She\ncurrently takes mercaptopurine, and is being followed by\ngastroenterologist, Dr. ___.\n\nBrief Hospital Course:\nMrs. ___ presented to ___ holding at ___ on ___ \nwith right lower quadrant abdominal pain and was found to have \nfluid collections, which subsequently had a CT guided placement \nof an ___ pigtail drainage catheter. She tolerated the \nprocedure well without complications (Please see operative note \nfor further details). The patient was transferred to the floor \nfor further post-operative management.  \nNeuro:  Pain was well controlled \nCV: Vital signs were routinely monitored during the patient's \nlength of stay. \nPulm:  The patient was encouraged to ambulate, sit and get out \nof bed, use the incentive spirometer, and had oxygen saturation \nlevels monitored as indicated.\nGI: The GI service followed the patient and will have follow up \nwith the patient in outpatient clinic with Dr. ___. \nID:  The patient's vital signs were monitored for signs of \ninfection and fever. The patient was started on/continued on \nantibiotics as indicated.\nHeme: The patient had blood levels checked post operatively \nduring the hospital course to monitor for signs of bleeding. The \npatient had vital signs, including heart rate and blood \npressure, monitored throughout the hospital stay.  \nOn ___, the patient was discharged to home. At discharge, she \nwas tolerating a regular diet, passing flatus, stooling, \nvoiding, and ambulating independently She will follow-up in the \nclinic in 1 week. This information was communicated to the \npatient directly prior to discharge.  \n  \nPost-Surgical Complications During Inpatient Admission:  \n[ ] Post-Operative Ileus resolving w/o NGT  \n[ ] Post-Operative Ileus requiring management with NGT  \n[ ] UTI  \n[ ] Wound Infection  \n[ ] Anastomotic Leak  \n[ ] Staple Line Bleed  \n[ ] Congestive Heart failure  \n[ ] ARF  \n[ ] Acute Urinary retention, failure to void after Foley D/C'd  \n[ ] Acute Urinary Retention requiring discharge with Foley \nCatheter  \n[ ] DVT  \n[ ] Pneumonia  \n[ ] Abscess  \n[x] None  \n\nSocial Issues Causing a Delay in Discharge:  \n[ ] Delay in organization of ___ services  \n[ ] Difficulty finding appropriate rehab hospital disposition.  \n[ ] Lack of insurance coverage for ___ services  \n[ ] Lack of insurance coverage for prescribed medications.  \n[ ] Family not agreeable to discharge plan.  \n[ ] Patient knowledge deficit related to ileostomy delaying \ndispo\n[x] No social factors contributing in delay of discharge.\n\nDischarge Diagnosis:\nLeft lower quadrant fluid collections",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Solu-Medrol",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 52,
+          "char_end": 87,
+          "turn_id": null
+        }
+      ],
+      "text": "Right lower quadrant abdominal pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "ileal and perianal\ncrohn's disease",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 198,
+          "char_end": 221,
+          "turn_id": null
+        }
+      ],
+      "text": "intraabdominal absesses",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 240,
+          "turn_id": null
+        }
+      ],
+      "text": "fistula-in-ano",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 262,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 294,
+          "turn_id": null
+        }
+      ],
+      "text": "fistulotomy",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 331,
+          "char_end": 357,
+          "turn_id": null
+        }
+      ],
+      "text": "Right \nlower\nquadrant pain",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 543,
+          "char_end": 557,
+          "turn_id": null
+        }
+      ],
+      "text": "po intolerance",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 569,
+          "char_end": 575,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 588,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 613,
+          "char_end": 633,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal distension",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 803,
+          "char_end": 809,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 820,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 835,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 858,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness\nof breath",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 919,
+          "char_end": 933,
+          "turn_id": null
+        }
+      ],
+      "text": "Crohn's flares",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 946,
+          "char_end": 957,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1014,
+          "char_end": 1028,
+          "turn_id": null
+        }
+      ],
+      "text": "mercaptopurine",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1162,
+          "char_end": 1197,
+          "turn_id": null
+        }
+      ],
+      "text": "right lower quadrant abdominal pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1238,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid collections",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1265,
+          "char_end": 1267,
+          "turn_id": null
+        }
+      ],
+      "text": "CT",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1275,
+          "char_end": 1321,
+          "turn_id": null
+        }
+      ],
+      "text": "placement \nof an ___ pigtail drainage catheter",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1520,
+          "char_end": 1524,
+          "turn_id": null
+        }
+      ],
+      "text": "Pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1550,
+          "char_end": 1561,
+          "turn_id": null
+        },
+        {
+          "char_start": 1567,
+          "char_end": 1586,
+          "turn_id": null
+        }
+      ],
+      "text": "Vital signs routinely monitored",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1736,
+          "char_end": 1771,
+          "turn_id": null
+        }
+      ],
+      "text": "oxygen saturation \nlevels monitored",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1923,
+          "char_end": 1934,
+          "turn_id": null
+        },
+        {
+          "char_start": 1940,
+          "char_end": 1949,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs monitored",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 1973,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2026,
+          "char_end": 2037,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2074,
+          "char_end": 2094,
+          "turn_id": null
+        }
+      ],
+      "text": "blood levels checked",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2164,
+          "char_end": 2172,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2229,
+          "char_end": 2244,
+          "turn_id": null
+        },
+        {
+          "char_start": 2246,
+          "char_end": 2255,
+          "turn_id": null
+        }
+      ],
+      "text": "blood \npressure monitored",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2638,
+          "char_end": 2658,
+          "turn_id": null
+        }
+      ],
+      "text": "Post-Operative Ileus",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2683,
+          "char_end": 2703,
+          "turn_id": null
+        }
+      ],
+      "text": "Post-Operative Ileus",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2740,
+          "char_end": 2743,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2750,
+          "char_end": 2765,
+          "turn_id": null
+        }
+      ],
+      "text": "Wound Infection",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2772,
+          "char_end": 2788,
+          "turn_id": null
+        }
+      ],
+      "text": "Anastomotic Leak",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2795,
+          "char_end": 2812,
+          "turn_id": null
+        }
+      ],
+      "text": "Staple Line Bleed",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2819,
+          "char_end": 2843,
+          "turn_id": null
+        }
+      ],
+      "text": "Congestive Heart failure",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2850,
+          "char_end": 2853,
+          "turn_id": null
+        }
+      ],
+      "text": "ARF",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2860,
+          "char_end": 2883,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute Urinary retention",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2885,
+          "char_end": 2900,
+          "turn_id": null
+        }
+      ],
+      "text": "failure to void",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2925,
+          "char_end": 2948,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute Urinary Retention",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2996,
+          "char_end": 2999,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3006,
+          "char_end": 3015,
+          "turn_id": null
+        }
+      ],
+      "text": "Pneumonia",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3022,
+          "char_end": 3029,
+          "turn_id": null
+        }
+      ],
+      "text": "Abscess",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3397,
+          "char_end": 3406,
+          "turn_id": null
+        }
+      ],
+      "text": "ileostomy",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3503,
+          "char_end": 3540,
+          "turn_id": null
+        }
+      ],
+      "text": "Left lower quadrant fluid collections",
+      "id": "e48"
+    }
+  ]
+}

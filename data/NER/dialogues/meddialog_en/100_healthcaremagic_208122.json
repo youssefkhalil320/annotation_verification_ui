@@ -1,0 +1,723 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:208122:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] What is the maximum allowed dosage of fluvoxamine for healthy 30 year old man? Is it safe to have 200 mg fluvoxamine per day ?Hi, at the age of 23 I was having Fluoxamine per day 175mg  to 200mg ( morning 1.5 (75mg), afternoon - 0 and night 2 ( 100mg) ) for Depression, OCD, ADD and social anxiety. In this dosage i was feeling very well and happy. Along with that i was also having Alzolam 0.25 mg per day. I was continuing this for 5 years. In between i sometimes stop medication completely and whenever i feel discomfort i restart the medication.  Later on i switched to Venlafaxine and then to Sertraline thinking that it could give me much better benefits however it didnt' work that well with me. I don't know whether it is because of lower dosage of what i am having.  Currently i am having sertraline 25mg per day however it gives me side effects like on interest in sex, feeling sleepy, etc. Around 9 months back i was having Crestor 10mg per day for cholesterol but now i have stopped it.Now i want to switch again to Fluvoxamine as i think this was working well with me than any other medicine but in a higher dosage.  Is it safe to have 200 mg or 175 mg per day ? I am a 30 yr old health male.\n[doctor] Hi, thanks for the query. First & foremost I would strongly urge you to NOT to change/switch any medication on your own & what ever are your issues with current set of medications should be discussed & dealt with only under supervision of a qualified medical doctor preferably a Psychiatrist. I am using strong words since all these aforementioned medications come under category of SSRI/SNRI & taking 2 SSRI together can cause a potentially dangerous condition named serotonin syndrome; while abruptly stopping any or all of these medications cause a flu like discontinuation syndrome; not to mention flaring up the symptoms of original illness (OCD; Depression in your case). Coming to your query; Fluvoxamine is a very good choice for controlling symptoms of both OCD & Depression & maximum permissible dose of Fluvoxamine is 300mg/day in a healthy person; so depending upon your symptom response; 175-200mg/day is perfectly fine. I would like to know your symptom profile of both OCD & depression so that I can advice whether we can plan for additional therapy in addition to medications for quicker response. Good Luck",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 59,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluvoxamine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 108,
+          "char_end": 114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200 mg",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 126,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluvoxamine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 134,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fluoxamine",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 188,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 189,
+          "char_end": 194,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "175mg",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 204,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 214,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "morning",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 236,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "afternoon",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 250,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "night",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 268,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Depression",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 280,
+          "char_end": 283,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "OCD",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 285,
+          "char_end": 288,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ADD",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 293,
+          "char_end": 307,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "social anxiety",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 400,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Alzolam",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 408,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "0.25 mg",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 416,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 451,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 5 years",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 502,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stop medication completely",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 523,
+          "char_end": 533,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "discomfort",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 584,
+          "char_end": 595,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Venlafaxine",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 608,
+          "char_end": 618,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Sertraline",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 808,
+          "char_end": 818,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sertraline",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 823,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "25mg",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 831,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 888,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "on interest in sex",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 890,
+          "char_end": 904,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feeling sleepy",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 952,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Crestor",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 953,
+          "char_end": 957,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10mg",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 958,
+          "char_end": 965,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 970,
+          "char_end": 981,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cholesterol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1004,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1038,
+          "char_end": 1049,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fluvoxamine",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1159,
+          "char_end": 1165,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200 mg",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1169,
+          "char_end": 1175,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "175 mg",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1608,
+          "char_end": 1617,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRI/SNRI",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1633,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRI",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1693,
+          "char_end": 1711,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "serotonin syndrome",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1768,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "abruptly stopping any or all of these medications",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1777,
+          "char_end": 1810,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "flu like discontinuation syndrome",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1872,
+          "char_end": 1875,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "OCD",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1877,
+          "char_end": 1887,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Depression",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1925,
+          "char_end": 1936,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Fluvoxamine",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1992,
+          "char_end": 1995,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "OCD",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1998,
+          "char_end": 2008,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Depression",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2039,
+          "char_end": 2050,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Fluvoxamine",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2054,
+          "char_end": 2059,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "300mg",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2060,
+          "char_end": 2063,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "day",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2126,
+          "char_end": 2135,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "175-200mg",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2136,
+          "char_end": 2139,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "day",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2209,
+          "char_end": 2212,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "OCD",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2215,
+          "char_end": 2225,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e55"
+    }
+  ]
+}

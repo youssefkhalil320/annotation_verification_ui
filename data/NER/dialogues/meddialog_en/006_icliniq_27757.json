@@ -1,0 +1,278 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:27757:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I just started taking Hydralazine 25 mg three times a day yesterday. Today, I started feeling jittery with a very bad sinus pressure and a headache. My blood pressure is down to 115/75 after being at 145/93. My heart rate has increased to 90. I feel very cold like I have a fever, and a little dizzy as well. Could this be due to my medication or do I have a virus? I am also on Quinapril 40 mg twice a day and Amlodipine besylate 10 mg once a day.\n[doctor] Hello. For further queries consult an internal medicine physician online --> https://icliniq.com./ask-a-doctor-online/internal-medicine-physician",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 57,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hydralazine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 58,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "25 mg",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 81,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "three times a day",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 125,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "jittery",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 156,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus pressure",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 171,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headache",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 190,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 224,
+          "char_end": 230,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure 145/93",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 190,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 235,
+          "char_end": 245,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 250,
+          "char_end": 265,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart rate increased to 90",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 235,
+          "char_end": 245,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart rate",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 279,
+          "char_end": 283,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cold",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 303,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 323,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 388,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "virus",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 412,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Quinapril",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 413,
+          "char_end": 418,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "40 mg",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 430,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twice a day",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 454,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Amlodipine besylate",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 460,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 461,
+          "char_end": 471,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once a day",
+      "id": "e20"
+    }
+  ]
+}

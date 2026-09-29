@@ -1,0 +1,429 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19834853-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\nAppendicitis\n\nHistory of Present Illness:\n___ o/w healthy male with no significant PMH who presents with \nabd pain. The patient reports having sudden onset abd pain after \nhis morning run yesterday. This pain began in the RLQ and was \nassociated with fevers, but no nausea, vomiting, diarrhea, or \nconstipation. At bedside, Mr. ___ is lying in bed \ncomfortably with minimal pain at baseline. Options for both abx \nand surgery\ndiscussed and he was enrolled in the ___ trail. WBC 10.1, \nafebrile in ED.\n\nBrief Hospital Course:\nThe patient was admitted to the General Surgical Service on \n___  for evaluation and treatment of abdominal pain.  \nAdmission abdominal/pelvic CT revealed appendicitis with an \nappendicolith. WBC was elevated at 10.1. The patient underwent \nlaparoscopic appendectomy, which went well without complication \n(reader referred to the Operative Note for details). After a \nbrief, uneventful stay in the PACU, the patient arrived on the \nfloor tolerating on IV fluids, and tramadol and acetaminophen \nfor pain control.  The patient was hemodynamically stable.\n\nDiet was progressively advanced as tolerated to a regular diet \nwith good tolerability. The patient voided without problem. \nDuring this hospitalization, the patient ambulated early and \nfrequently, was adherent with respiratory toilet and incentive \nspirometry, and actively participated in the plan of care. The \npatient received subcutaneous heparin and venodyne boots were \nused during this stay.\n\nAt the time of discharge, the patient was doing well, afebrile \nwith stable vital signs.  The patient was tolerating a regular \ndiet, ambulating, voiding without assistance, and pain was well \ncontrolled.  The patient was discharged home without services. \nThe patient received discharge teaching and follow-up \ninstructions with understanding verbalized and agreement with \nthe discharge plan.\n\nDischarge Diagnosis:\nAcute appendicitis with appendicolith",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 53,
+          "turn_id": null
+        }
+      ],
+      "text": "Appendicitis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 155,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 245,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 292,
+          "char_end": 298,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 313,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 323,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 333,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 351,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 415,
+          "char_end": 419,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 450,
+          "char_end": 453,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 518,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 678,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 711,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal/pelvic CT",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 733,
+          "turn_id": null
+        }
+      ],
+      "text": "appendicitis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 756,
+          "turn_id": null
+        }
+      ],
+      "text": "appendicolith",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 758,
+          "char_end": 761,
+          "turn_id": null
+        },
+        {
+          "char_start": 766,
+          "char_end": 774,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC elevated",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 758,
+          "char_end": 761,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 807,
+          "char_end": 832,
+          "turn_id": null
+        }
+      ],
+      "text": "laparoscopic appendectomy",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1018,
+          "char_end": 1027,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1033,
+          "char_end": 1041,
+          "turn_id": null
+        }
+      ],
+      "text": "tramadol",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1046,
+          "char_end": 1059,
+          "turn_id": null
+        }
+      ],
+      "text": "acetaminophen",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1065,
+          "char_end": 1069,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1338,
+          "char_end": 1356,
+          "turn_id": null
+        }
+      ],
+      "text": "respiratory toilet",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1361,
+          "char_end": 1382,
+          "turn_id": null
+        }
+      ],
+      "text": "incentive \nspirometry",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1453,
+          "char_end": 1465,
+          "turn_id": null
+        }
+      ],
+      "text": "subcutaneous",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1466,
+          "char_end": 1473,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1610,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1701,
+          "char_end": 1705,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1940,
+          "char_end": 1958,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute appendicitis",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 1977,
+          "turn_id": null
+        }
+      ],
+      "text": "appendicolith",
+      "id": "e32"
+    }
+  ]
+}

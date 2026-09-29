@@ -1,0 +1,715 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18942190-DS-17:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPercocet\n\nChief Complaint:\nabdominal pain, chills\n\nHistory of Present Illness:\n___ w/ LLQ abd pain 2days, constant, localized.  Had some\nmild discomfort ongoing for past 2 weeks then acutely worsened\nyesterday.  Felt feverish yesterday but did not measure.  No \nN/V,\nno chills or night sweats.  Not associated with diarrhea, has \nhad\nconstipation and yesterday with dark BM.  No blood per rectum. \nNo dysuria, hematuria.  Dizzy today and syncopized after BM.\n\nBrief Hospital Course:\nMrs. ___ was admitted to the hospital, kept NPO, hydrated \nwith IV fluids and treated with broad spectrum antibiotics.  \nBased on the findings on her abdominal CT heparin was started \nfor her septic thrombophlebitis of the IMV and splenic vein.  \nShe was followed closely with serial abdominal exams and her \npain was relieved with Dilaudid.  Her WBC which was 19 on \nadmission came down nicely.  \nShe did however continue to have occasional temperature spikes \nand was pan cultured on multiple occasions.\n\nHer initial set of blood cultures were positive for E Coli and \nshe was placed on a 14 day course on Zosyn.  Her abdominal exam \nremained diffuse tender initially but improved over a few days \nand she was eventually started on clear liquids.  Her diet was \nadvanced very slowly over the next 3 days and eventually she was \ntolerating a regular diet.  She had another elevation of her WBC \nassociated with diarrhea but on multiple checks her C Diff was \nnegative.  The diarrhea resolved and she continued treatment \nwith Zosyn.\n\nCoumadin therapy was started after she was able to tolerate a \ndiet and currently her INR is 1.6 which reflects Coumadin 5 mg \ndaily.  She was bridged with Lovenox and will return home on \nLovenox and Coumadin until her INR is greater than 2.0.  Her \nfamily was instructed in Lovenox administration and the ___ will \nalso follow along.\n\nMrs. ___ was tolerating her diet well over time, she was \nafebrile over the last 48 hours and generally was feeling much \nbetter.  She was discharged to home on ___ and will follow \nup with Dr. ___ in 1 week and the ___ clinic in 4 weeks \nwith a repeat abdominal CT.\n\nDischarge Diagnosis:\ndiverticulitis\nseptic thrombosis of IMV and splenic vein thrombus\nEcoli bacteremia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Percocet",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 60,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 109,
+          "turn_id": null
+        }
+      ],
+      "text": "LLQ abd pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 163,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 228,
+          "char_end": 236,
+          "turn_id": null
+        }
+      ],
+      "text": "feverish",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 273,
+          "char_end": 276,
+          "turn_id": null
+        }
+      ],
+      "text": "N/V",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 303,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 357,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 377,
+          "char_end": 384,
+          "turn_id": null
+        }
+      ],
+      "text": "dark BM",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 390,
+          "char_end": 406,
+          "turn_id": null
+        }
+      ],
+      "text": "blood per rectum",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 412,
+          "char_end": 419,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 430,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 433,
+          "char_end": 438,
+          "turn_id": null
+        }
+      ],
+      "text": "Dizzy",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 449,
+          "char_end": 459,
+          "turn_id": null
+        }
+      ],
+      "text": "syncopized",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 558,
+          "char_end": 567,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 611,
+          "turn_id": null
+        }
+      ],
+      "text": "broad spectrum antibiotics",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal CT",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 657,
+          "char_end": 664,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 686,
+          "char_end": 737,
+          "turn_id": null
+        }
+      ],
+      "text": "septic thrombophlebitis of the IMV and splenic vein",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 771,
+          "char_end": 793,
+          "turn_id": null
+        }
+      ],
+      "text": "serial abdominal exams",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 803,
+          "char_end": 807,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 834,
+          "turn_id": null
+        }
+      ],
+      "text": "Dilaudid",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 841,
+          "char_end": 844,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 936,
+          "char_end": 954,
+          "turn_id": null
+        }
+      ],
+      "text": "temperature spikes",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "pan cultured",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1020,
+          "char_end": 1034,
+          "turn_id": null
+        },
+        {
+          "char_start": 1040,
+          "char_end": 1048,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures positive",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1020,
+          "char_end": 1034,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1085,
+          "char_end": 1098,
+          "turn_id": null
+        }
+      ],
+      "text": "14 day course",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1107,
+          "turn_id": null
+        }
+      ],
+      "text": "Zosyn",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1147,
+          "char_end": 1153,
+          "turn_id": null
+        }
+      ],
+      "text": "tender",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1368,
+          "char_end": 1388,
+          "turn_id": null
+        }
+      ],
+      "text": "elevation of her WBC",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1385,
+          "char_end": 1388,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1406,
+          "char_end": 1414,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1442,
+          "char_end": 1448,
+          "turn_id": null
+        }
+      ],
+      "text": "C Diff",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1469,
+          "char_end": 1477,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1521,
+          "char_end": 1526,
+          "turn_id": null
+        }
+      ],
+      "text": "Zosyn",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1529,
+          "char_end": 1537,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1615,
+          "char_end": 1618,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1649,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1654,
+          "turn_id": null
+        }
+      ],
+      "text": "5 mg",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1656,
+          "char_end": 1661,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1685,
+          "char_end": 1692,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1725,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1730,
+          "char_end": 1738,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1749,
+          "char_end": 1752,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1805,
+          "char_end": 1812,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2119,
+          "char_end": 2131,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal CT",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2155,
+          "char_end": 2169,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulitis",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2170,
+          "char_end": 2194,
+          "turn_id": null
+        }
+      ],
+      "text": "septic thrombosis of IMV",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2199,
+          "char_end": 2220,
+          "turn_id": null
+        }
+      ],
+      "text": "splenic vein thrombus",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2221,
+          "char_end": 2237,
+          "turn_id": null
+        }
+      ],
+      "text": "Ecoli bacteremia",
+      "id": "e54"
+    }
+  ]
+}

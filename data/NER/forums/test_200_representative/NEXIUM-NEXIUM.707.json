@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 40,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 117,
@@ -33,23 +31,8 @@
       "id": "e2"
     },
     {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "duration",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 147,
-          "char_end": 153,
-          "turn_id": null
-        }
-      ],
-      "text": "a week",
-      "id": "e3"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 157,
@@ -58,7 +41,7 @@
         }
       ],
       "text": "nexium",
-      "id": "e4"
+      "id": "e3"
     }
   ]
 }

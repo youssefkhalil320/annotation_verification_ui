@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "family",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 22,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 74,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 105,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 131,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 183,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 202,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 319,
@@ -105,21 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "family",
-      "spans": [
-        {
-          "char_start": 341,
-          "char_end": 354,
-          "turn_id": null
-        }
-      ],
-      "text": "complications",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 380,
@@ -128,7 +106,7 @@
         }
       ],
       "text": "cancer",
-      "id": "e9"
+      "id": "e8"
     }
   ]
 }

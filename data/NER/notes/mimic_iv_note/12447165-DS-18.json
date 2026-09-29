@@ -1,0 +1,931 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12447165-DS-18:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nChief Complaint:\nAbdominal Pain\n\nHistory of Present Illness:\n___ year old female with PMH of ___ dz s/p ileocecectomy with \nrecent resection and ileocolic anastomosis on ___ here with \nabomdinal pain. Patient was recently tapered off steroids 5 days \nprior to admission. She had also been on a course of flagyl for \napproximately 5 days which she did not tolerate secondary to \nheadaches. She developed diffuse abdominal pain ___ last night \nthat has persisted. She denies fevers, chills, diarrhea, BRBPR. \nShe vomited on arrival to the floor and continues to have \nnausea. Her last BM was yesterday and was normal. She presented \nto the ED for further evaluation.\n\nIn the ED, initial VS: 98.6, HR 101, 140/85 18 95%RA. Repeat HR \n96. She underwent CT abdomen that was notable for acute ___ \nflare in distal small bowel just proximal to anastomosis and \nassociated low-grade obstruction with small bowel dilation. She \nreceived morphine 4mg IV x 2 with good effect, 1L NS and \nsolumedrol 20mg IV x 1. She was transferred to the floor at \nwhich point she vomited clear mucus.\n\nROS: Reported one day history of bilateral elbow pain and knee \npain. No swelling or erythema. Resolved without intervention.\n\nBrief Hospital Course:\nThis is a ___ year old female with a past medical history of \nCrohns status post resection x 2 and ileocolic anastamosis \n(___) recently tapered off steroids who presents with acute \n___ flare and low grade obstruction on CT.\n\n# ___ flare: Patient made NPO, given intravenous fluids and \nintravenous pain medications and started on solumedrol 20mg IV \nq8. These treatments resulted in resolution of abdominal pain. \nPatient transitioned to a clear diet which she tolerated well \nand steroids changed from IV solumedrol to prednisone 40 mg, \nwhich patient also tolerated well. Patient discharged on \nprednisone 40 mg daily. She is to stop taking asacol until she \nsees her gastroenterologist Dr. ___ in clinic. Patient \ninstructed to make a follow up appointment to see Dr. ___ on \n___. Dr. ___ plan is to begin certolizumab next week to \ninduce ___ remission and get her off steroids.\n\n# Iron Deficiency Anemia: Patient found to have iron level of 17 \nand ferritin of 14. Patient should continue taking iron \nsupplementation as an outpatient.\n\n# Vitamin B12 Deficiency: B12 level continues to be low normal. \nPatient should continue B12 supplementation. \n\n# Osteoporosis: Patient at risk of osteoporosis given chronic \nsteroid use. Suggested that she take elemental calcium and \nvitamin D. She plans to resume taking Viactiv.\n\nPatient was a FULL code during this admission.\n\nDischarge Diagnosis:\nPrimary:\n___ disease\nSmall bowel obstruction\nSecondary:\nMicrocytic anemia-iron deficiency",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 98,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal Pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "ileocecectomy",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 198,
+          "char_end": 207,
+          "turn_id": null
+        }
+      ],
+      "text": "resection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 212,
+          "char_end": 233,
+          "turn_id": null
+        }
+      ],
+      "text": "ileocolic anastomosis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 266,
+          "turn_id": null
+        }
+      ],
+      "text": "abomdinal pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 301,
+          "char_end": 309,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 371,
+          "char_end": 377,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 383,
+          "char_end": 403,
+          "turn_id": null
+        }
+      ],
+      "text": "approximately 5 days",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 454,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 478,
+          "char_end": 492,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 546,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 548,
+          "char_end": 554,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 556,
+          "char_end": 564,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 571,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 578,
+          "char_end": 585,
+          "turn_id": null
+        }
+      ],
+      "text": "vomited",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 633,
+          "char_end": 639,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 816,
+          "char_end": 826,
+          "turn_id": null
+        }
+      ],
+      "text": "CT abdomen",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 953,
+          "turn_id": null
+        }
+      ],
+      "text": "obstruction",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 959,
+          "char_end": 979,
+          "turn_id": null
+        }
+      ],
+      "text": "small bowel dilation",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 995,
+          "char_end": 1003,
+          "turn_id": null
+        }
+      ],
+      "text": "morphine",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1004,
+          "char_end": 1007,
+          "turn_id": null
+        }
+      ],
+      "text": "4mg",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1008,
+          "char_end": 1010,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1011,
+          "char_end": 1014,
+          "turn_id": null
+        }
+      ],
+      "text": "x 2",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1033,
+          "char_end": 1035,
+          "turn_id": null
+        }
+      ],
+      "text": "1L",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1038,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1044,
+          "char_end": 1054,
+          "turn_id": null
+        }
+      ],
+      "text": "solumedrol",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1055,
+          "char_end": 1059,
+          "turn_id": null
+        }
+      ],
+      "text": "20mg",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1060,
+          "char_end": 1062,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1063,
+          "char_end": 1066,
+          "turn_id": null
+        }
+      ],
+      "text": "x 1",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1121,
+          "char_end": 1128,
+          "turn_id": null
+        }
+      ],
+      "text": "vomited",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1186,
+          "char_end": 1196,
+          "turn_id": null
+        }
+      ],
+      "text": "elbow pain",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1201,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "knee \npain",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1216,
+          "char_end": 1224,
+          "turn_id": null
+        }
+      ],
+      "text": "swelling",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1228,
+          "char_end": 1236,
+          "turn_id": null
+        }
+      ],
+      "text": "erythema",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1355,
+          "char_end": 1361,
+          "turn_id": null
+        }
+      ],
+      "text": "Crohns",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1374,
+          "char_end": 1383,
+          "turn_id": null
+        }
+      ],
+      "text": "resection",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1392,
+          "char_end": 1413,
+          "turn_id": null
+        }
+      ],
+      "text": "ileocolic anastamosis",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1442,
+          "char_end": 1450,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1500,
+          "char_end": 1511,
+          "turn_id": null
+        }
+      ],
+      "text": "obstruction",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1557,
+          "char_end": 1575,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous fluids",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1581,
+          "char_end": 1592,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1625,
+          "char_end": 1635,
+          "turn_id": null
+        }
+      ],
+      "text": "solumedrol",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1636,
+          "char_end": 1640,
+          "turn_id": null
+        }
+      ],
+      "text": "20mg",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1643,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1645,
+          "char_end": 1647,
+          "turn_id": null
+        }
+      ],
+      "text": "q8",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1692,
+          "char_end": 1706,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1784,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1798,
+          "char_end": 1800,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1801,
+          "char_end": 1811,
+          "turn_id": null
+        }
+      ],
+      "text": "solumedrol",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1815,
+          "char_end": 1825,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1826,
+          "char_end": 1831,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1892,
+          "char_end": 1902,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1903,
+          "char_end": 1908,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1909,
+          "char_end": 1914,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1938,
+          "char_end": 1944,
+          "turn_id": null
+        }
+      ],
+      "text": "asacol",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2104,
+          "char_end": 2116,
+          "turn_id": null
+        }
+      ],
+      "text": "certolizumab",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2168,
+          "char_end": 2176,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2181,
+          "char_end": 2203,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron Deficiency Anemia",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2227,
+          "char_end": 2237,
+          "turn_id": null
+        }
+      ],
+      "text": "iron level",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2249,
+          "char_end": 2257,
+          "turn_id": null
+        }
+      ],
+      "text": "ferritin",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2296,
+          "char_end": 2300,
+          "turn_id": null
+        }
+      ],
+      "text": "iron",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2339,
+          "char_end": 2361,
+          "turn_id": null
+        }
+      ],
+      "text": "Vitamin B12 Deficiency",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2363,
+          "char_end": 2366,
+          "turn_id": null
+        }
+      ],
+      "text": "B12",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2363,
+          "char_end": 2372,
+          "turn_id": null
+        }
+      ],
+      "text": "B12 level",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2451,
+          "char_end": 2463,
+          "turn_id": null
+        }
+      ],
+      "text": "Osteoporosis",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2484,
+          "char_end": 2496,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoporosis",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2549,
+          "char_end": 2566,
+          "turn_id": null
+        }
+      ],
+      "text": "elemental calcium",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2572,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2610,
+          "char_end": 2617,
+          "turn_id": null
+        }
+      ],
+      "text": "Viactiv",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2710,
+          "char_end": 2733,
+          "turn_id": null
+        }
+      ],
+      "text": "Small bowel obstruction",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2745,
+          "char_end": 2778,
+          "turn_id": null
+        }
+      ],
+      "text": "Microcytic anemia-iron deficiency",
+      "id": "e71"
+    }
+  ]
+}

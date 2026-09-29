@@ -1,0 +1,993 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:106953:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am having lower back pain for two weeks. The pain is now causing nausea. I do have lupus. I am on anastrozole from Breast cancer in 2014, diagnosed with lupu in 2008 and take plaquenil I only have mild symptoms if any from this. I take synthroid 75mg. I have a low white blood cell count but think it is from anastrozole but not sure.. not sure which direction to go so need advice\n[doctor] hi sir/madam,Thanks for your question on Healthcare Magic.Let me advice you for your problem.Low back ache may be a pre-monitory (prodromal) symptom in fistula in ano, sciatica, gouty arthritis, hernia, emaciation disorder etc. Pain is confined to lower part of the spine (back bone) especially lumbar region or lumbo-sacral area (rarely sacro-iliac region also). If it is secondary, earlier history of fall or injury may be associated. Rarely, radiating pain may be complained by the patient towards lower limbs. But it is quite common in low back aches if the defect is in the discs between vertebrae (back bones). Often the movements of lumbo-sacral region like flexion and rotation are hampered either partially or completely.Low back pain may be found in mild form in case of anemia, sciatica, rheumatoid arthritis, hemorrhoids, urinary calculi, uterine disorders etc also.Line of treatment as per Ayurveda:-The general principles of treatment of vata dosha are adopted in case of katishoola (low back pain). It includes various measures to suit its varied clinical entities, stages and associated complaints.1. Snehana (oleation) – by sneha dhara (pouring oil), abhyanga (oil massage), avagaha (tub bath with oil or oleaginous medicaments), kati basti (retaining medicaments on the back) etc.2. Swedana (sudation) –avagaha sweda  (sweating treatment with tub bath), pizichil (kayaseka), nadi sweda (sudation through a tubular device – local sudation), panda sweda (sudation through medicated paste or powder) etc.3. Mridu Samshodhana -mild purgation.4. Basti (medicated enema) like eranda basti, vaitarana basti, pippalyadianuvasana basti etc.Formulations indicated in Low back ache as per Ayurveda:-1. Dashamoola kwatha.2.Maharasnadi kashaya.3. Rasnaerandadi kashaya.4. Sahacharadi kashaya.5. Gandharvahastadi kashaya.6. Trayodashanga guggulu.And for local application these oils will help:-1. Ksheerabala tail.2. Mahanarayana tail.3. Dhanwantaram tail.4. Maha narayan tail.Avoid these for better results:-1.Bitter, astringent and pungent food2.Cold water3.Fear4.Exhaustion5.Standing6.Driving7.Cold food and beverages etc.Yoga is also very helpful in treating your back ache.Now for your backache do these yoga aasana:-1. Ardha Matsyendrasana(Sitting Spinal Twist).2.  Dhanurasana (Bow Pose).3. Marjariasana (Cat Stretch).4. Balasana(Child Pose).5. Halasana(Plow Pose).6. SUPTA MATSYENDRASANA(THE TWO KNEE SPINAL TWIST POSE).7.Adhomukha Shwanasana (Downward Facing Dog).8. Urdhva Mukha Svanasana(Upward Facing Dog Pose).9. Paschimottanasana(Seated Forward Fold).Follow these yogas you will get best results for your problems.Hope i was helpful.Have a healthy day.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 37,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower back pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 61,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 77,
+          "char_end": 83,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 100,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lupus",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 121,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anastrozole",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 140,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Breast cancer",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "plaquenil",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 248,
+          "char_end": 257,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "synthroid",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 262,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "75mg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 273,
+          "char_end": 299,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "low white blood cell count",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 277,
+          "char_end": 299,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "white blood cell count",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 332,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anastrozole",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 496,
+          "char_end": 509,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Low back ache",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 569,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fistula in ano",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 579,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sciatica",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 581,
+          "char_end": 596,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gouty arthritis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 598,
+          "char_end": 604,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hernia",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 606,
+          "char_end": 625,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "emaciation disorder",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 635,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 820,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "injury",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 848,
+          "char_end": 862,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "radiating pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 943,
+          "char_end": 957,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "low back aches",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 971,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 975,
+          "char_end": 1005,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "defect in the discs between vertebrae",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1030,
+          "char_end": 1088,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1093,
+          "char_end": 1101,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "movements of lumbo-sacral region like flexion and rotation hampered",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1133,
+          "char_end": 1146,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Low back pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1184,
+          "char_end": 1190,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anemia",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1192,
+          "char_end": 1200,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sciatica",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1202,
+          "char_end": 1222,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rheumatoid arthritis",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1224,
+          "char_end": 1235,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hemorrhoids",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1237,
+          "char_end": 1252,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "urinary calculi",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1271,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "uterine disorders",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1399,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "katishoola",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1401,
+          "char_end": 1414,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "low back pain",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1520,
+          "char_end": 1527,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Snehana",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1529,
+          "char_end": 1537,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oleation",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1544,
+          "char_end": 1555,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sneha dhara",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1557,
+          "char_end": 1568,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pouring oil",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1571,
+          "char_end": 1579,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "abhyanga",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1581,
+          "char_end": 1592,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oil massage",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1595,
+          "char_end": 1602,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "avagaha",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1604,
+          "char_end": 1647,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tub bath with oil or oleaginous medicaments",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1660,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "kati basti",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1662,
+          "char_end": 1695,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "retaining medicaments on the back",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1704,
+          "char_end": 1711,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Swedana",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1713,
+          "char_end": 1721,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sudation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1724,
+          "char_end": 1737,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "avagaha sweda",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1740,
+          "char_end": 1772,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sweating treatment with tub bath",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1783,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pizichil",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1785,
+          "char_end": 1793,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "kayaseka",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1796,
+          "char_end": 1806,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nadi sweda",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1808,
+          "char_end": 1841,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sudation through a tubular device",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1844,
+          "char_end": 1858,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "local sudation",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1861,
+          "char_end": 1872,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "panda sweda",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1874,
+          "char_end": 1916,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sudation through medicated paste or powder",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1925,
+          "char_end": 1942,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mridu Samshodhana",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1949,
+          "char_end": 1958,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "purgation",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1962,
+          "char_end": 1967,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Basti",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1969,
+          "char_end": 1984,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "medicated enema",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1991,
+          "char_end": 2003,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "eranda basti",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2005,
+          "char_end": 2020,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vaitarana basti",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2022,
+          "char_end": 2047,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pippalyadianuvasana basti",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2078,
+          "char_end": 2091,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Low back ache",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2112,
+          "char_end": 2129,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Dashamoola kwatha",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2132,
+          "char_end": 2151,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Maharasnadi kashaya",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2155,
+          "char_end": 2176,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Rasnaerandadi kashaya",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2180,
+          "char_end": 2199,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Sahacharadi kashaya",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2203,
+          "char_end": 2227,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Gandharvahastadi kashaya",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2231,
+          "char_end": 2252,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Trayodashanga guggulu",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2304,
+          "char_end": 2320,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Ksheerabala tail",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2324,
+          "char_end": 2341,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Mahanarayana tail",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2345,
+          "char_end": 2362,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Dhanwantaram tail",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2366,
+          "char_end": 2383,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Maha narayan tail",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2467,
+          "char_end": 2472,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Fear4",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2473,
+          "char_end": 2484,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Exhaustion5",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2598,
+          "char_end": 2606,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "backache",
+      "id": "e75"
+    }
+  ]
+}

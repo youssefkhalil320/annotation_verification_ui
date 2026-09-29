@@ -1,0 +1,320 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:16137946-DS-20:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nBactrim / Iodine; Iodine Containing\n\nChief Complaint:\nPatient admitted for incisional hernia repair.\n\nHistory of Present Illness:\n___ year old female status post several abdominal surgeries who \nnow has discomfort related to hernias and wishes to have this \nrepaired.\n\nBrief Hospital Course:\nPatient admitted and underwent laparoscopic incisional hernia \nrepair with mesh. She tolerated the procedure very well. On \npostoperative day one her urine output decreased and her \ncreatinine rose to 2.2. She was bolused with intravenous fluids, \nrenal service was consulted and she was monitored closely in the \nintensive care unit. With fluids her urine output picked up and \nher creatinine dropped back to baseline. On postoperative day \ntwo she was started on clear liquids and resumed her lasix.\n\nCurrently she is tolerating a regular diet, passing gas and has \ngood pain control with oral narcotics. We will discharge her to \nhome with follow up with Dr. ___ have instructed her \nto follow up with her primary care and endocrinologist.\n\nDischarge Diagnosis:\nPrimary Diagnosis: Incisional Hernia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 29,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 103,
+          "turn_id": null
+        }
+      ],
+      "text": "incisional hernia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 110,
+          "turn_id": null
+        }
+      ],
+      "text": "incisional hernia repair",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal surgeries",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 214,
+          "char_end": 224,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "hernias",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 334,
+          "char_end": 382,
+          "turn_id": null
+        }
+      ],
+      "text": "laparoscopic incisional hernia \nrepair with mesh",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 364,
+          "turn_id": null
+        }
+      ],
+      "text": "incisional hernia",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 465,
+          "turn_id": null
+        }
+      ],
+      "text": "urine output",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 475,
+          "turn_id": null
+        }
+      ],
+      "text": "urine output decreased",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 495,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 507,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine rose to 2.2",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 517,
+          "char_end": 548,
+          "turn_id": null
+        }
+      ],
+      "text": "bolused with intravenous fluids",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 541,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 591,
+          "char_end": 608,
+          "turn_id": null
+        }
+      ],
+      "text": "monitored closely",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 654,
+          "char_end": 666,
+          "turn_id": null
+        }
+      ],
+      "text": "urine output",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 686,
+          "char_end": 696,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 798,
+          "char_end": 803,
+          "turn_id": null
+        }
+      ],
+      "text": "lasix",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 876,
+          "char_end": 880,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 894,
+          "char_end": 898,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 908,
+          "turn_id": null
+        }
+      ],
+      "text": "narcotics",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "Incisional Hernia",
+      "id": "e24"
+    }
+  ]
+}

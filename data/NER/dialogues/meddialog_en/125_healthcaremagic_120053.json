@@ -1,0 +1,400 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:120053:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi I am a 51 yr male in Chennai India. About 2-3 yrs ago I started having pain in the legs and knees and had difficulty walking. Went through the normal mri etc believing could be age related arthiritis or rheumatism. However all tests are clear and do not indicate same. Now I can barely walk - doctors say muscle deterioration - but cannot figure out the reason - all normal tests done again this week and all clear - have also been undergoing strenous physiotherapy for last 6 months no relief - any suggestions? I feel this could be linked to some kind of infection as I also have a dermatological problem for last 15 years - I get these big boils/ulcers on the foot (fungal/bacterial cause)which then burst or are punctured by a doctor with a needle - and typically antibiotics prescribed - the recurrence of these has increased over past 1-2 years - i feel the two problems could be linked - any suggestions on treatments? any recommendations on good dermatologists in chennai for this kind of problem and/or ortho specialists? PS: I am not diabetic. Since last 2 years am having medication for hypertension (telesartan) and was for a little high cholesterol (atocor). Have stopped anti-cholesterol medication as the phsio felt the muscle weakness and stiffness could be a side-effect of the statins\n[doctor] Hello,  Skin problem ulcers over foot with joint pain in a female should rule out Systemic Lupus Erythematous condition.   And also need to think about various autoimmune disorders. Knee joint pain could be due to synovitis, ice pack applications and non steroidal anti inflammatory drugs will give good relief.  Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr. Krishnakanth. K",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 88,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 105,
+          "char_end": 110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain knees",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 100,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in the legs",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 137,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "difficulty walking",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 166,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mri",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 212,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arthiritis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 216,
+          "char_end": 226,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rheumatism",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "muscle deterioration",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 478,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "physiotherapy",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 570,
+          "char_end": 579,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "infection",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 661,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 669,
+          "char_end": 680,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "boils on the foot",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 680,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ulcers on the foot",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 764,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "punctured by a doctor with a needle",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 792,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1057,
+          "char_end": 1065,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diabetic",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1111,
+          "char_end": 1123,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1135,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "telesartan",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1174,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high cholesterol",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1182,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "atocor",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1198,
+          "char_end": 1214,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anti-cholesterol",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1254,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1268,
+          "char_end": 1277,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "muscle stiffness",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1263,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "muscle weakness",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1308,
+          "char_end": 1315,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "statins",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1346,
+          "char_end": 1362,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ulcers over foot",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1368,
+          "char_end": 1378,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "joint pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1407,
+          "char_end": 1434,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Systemic Lupus Erythematous",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1485,
+          "char_end": 1505,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "autoimmune disorders",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1507,
+          "char_end": 1522,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Knee joint pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1539,
+          "char_end": 1548,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "synovitis",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1576,
+          "char_end": 1607,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "non steroidal anti inflammatory",
+      "id": "e29"
+    }
+  ]
+}

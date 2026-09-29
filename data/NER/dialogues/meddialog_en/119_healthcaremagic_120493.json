@@ -1,0 +1,283 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:120493:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been having this strange feeling as well, the butterfly, twitch, spasim what ever that feeling is under my left ribs. I have had a ultra sound done just days prior to the sensation comming on for a routine check up and everything was fine. I had blood work done also and all was well, I also had a colonoscopy and the other end too, again all was fine. My Doc says that the feeling is do to the high level of Anxiety that I have, but I have been close to Anxiety free for a week or so now and the flutter is still there. I went and got a 2nd opinion and he looked at my chart and said that it started about the same time I started Buspar(for anxiety) and Kapidex(for acid reflux), so he is having me stop the Kapidex for a week to see if anything changes, I guess he thinks that because it is such a weird symptom that it could be a side effect from meds. I feel what you are all feeling and am very supprised that for as long as this post is going no one has came back and shared the wealth of how the Dr. visits went or a diagnoses. On one hand I am glad to see that there are others like me so its just not one more thing ill feel weird about and alone, but on the otherhand I feel bad that you guys have this CRAP too. So if any one has info or a diag please feel free to share...\n[doctor] Hello,I read carefully your query and understand your concern. The symptoms seem to a muscle spasm in  the ribs area.I suggest using a spasmolytic such as Baclofen three times a day. I also suggest using magnesium supplements for muscle relaxation. I recommend using warm compresses for local application. Hope my answer was helpful.If you have further queries feel free to contact me again.Kind regards! Dr.Dorina Gurabardhi General &Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 63,
+          "char_end": 72,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 115,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "butterfly under my left ribs",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 80,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 115,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twitch under my left ribs",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 88,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 115,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spasim under my left ribs",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ultra sound",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 273,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood work",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 326,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 433,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 472,
+          "char_end": 479,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 495,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a week",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 521,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flutter",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 648,
+          "char_end": 654,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Buspar",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 659,
+          "char_end": 666,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 679,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Kapidex",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 684,
+          "char_end": 695,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acid reflux",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 726,
+          "char_end": 733,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Kapidex",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1397,
+          "char_end": 1427,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "muscle spasm in  the ribs area",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1446,
+          "char_end": 1457,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "spasmolytic",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1466,
+          "char_end": 1474,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Baclofen",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1475,
+          "char_end": 1492,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "three times a day",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1515,
+          "char_end": 1536,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "magnesium supplements",
+      "id": "e20"
+    }
+  ]
+}

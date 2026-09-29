@@ -6,22 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 24,
-          "char_end": 37,
-          "turn_id": null
-        }
-      ],
-      "text": "high-fat diet",
-      "id": "e1"
-    },
-    {
-      "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 218,
@@ -30,12 +15,11 @@
         }
       ],
       "text": "malnutrition",
-      "id": "e2"
+      "id": "e1"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 290,
@@ -44,40 +28,11 @@
         }
       ],
       "text": "metabolic diseases",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 353,
-          "char_end": 366,
-          "turn_id": null
-        }
-      ],
-      "text": "high-fat diet",
-      "id": "e4"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 368,
-          "char_end": 371,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e5"
+      "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 391,
@@ -86,12 +41,11 @@
         }
       ],
       "text": "metabolic syndrome",
-      "id": "e6"
+      "id": "e3"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 588,
@@ -100,12 +54,11 @@
         }
       ],
       "text": "BMI",
-      "id": "e7"
+      "id": "e4"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 617,
@@ -114,12 +67,11 @@
         }
       ],
       "text": "BMI",
-      "id": "e8"
+      "id": "e5"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 671,
@@ -128,26 +80,11 @@
         }
       ],
       "text": "BMI",
-      "id": "e9"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 719,
-          "char_end": 722,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e10"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 733,
@@ -156,40 +93,11 @@
         }
       ],
       "text": "obesity",
-      "id": "e11"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 988,
-          "char_end": 991,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e12"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1056,
-          "char_end": 1059,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e13"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1154,
@@ -203,12 +111,11 @@
         }
       ],
       "text": "weight gain",
-      "id": "e14"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1165,
@@ -217,12 +124,11 @@
         }
       ],
       "text": "fat gain",
-      "id": "e15"
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1175,
@@ -231,12 +137,11 @@
         }
       ],
       "text": "glucose intolerance",
-      "id": "e16"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1196,
@@ -245,12 +150,11 @@
         }
       ],
       "text": "hypertriglyceridemia",
-      "id": "e17"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1218,
@@ -259,12 +163,24 @@
         }
       ],
       "text": "abnormal adipocytokine levels",
-      "id": "e18"
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1227,
+          "char_end": 1247,
+          "turn_id": null
+        }
+      ],
+      "text": "adipocytokine levels",
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1249,
@@ -273,63 +189,7 @@
         }
       ],
       "text": "hypertension",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1424,
-          "char_end": 1427,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1532,
-          "char_end": 1535,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e21"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1653,
-          "char_end": 1656,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1723,
-          "char_end": 1726,
-          "turn_id": null
-        }
-      ],
-      "text": "HFD",
-      "id": "e23"
+      "id": "e14"
     }
   ]
 }

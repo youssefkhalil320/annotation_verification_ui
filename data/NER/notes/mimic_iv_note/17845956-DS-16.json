@@ -1,0 +1,611 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17845956-DS-16:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nDemerol / codeine / Seconal / Penicillins / Sulfa (Sulfonamide \nAntibiotics) / Gantrisin / erythromycin base / ciprofloxacin / \nVibramycin / doxycycline / Keflex / tetracycline / tetracycline \n/ Librax (with clidinium) / IVP dye / hydriotic acid / \nmethylprednisolone / cefaclor\n\nChief Complaint:\nLeft intertrochanteric femur fracture, left\ndisplaced olecranon fracture\n\nHistory of Present Illness:\nHPI: ___ female history of osteoporosis presents with\nleft intertrochanteric femur fracture and left displaced\nolecranon fracture status post fall after being pushed by a few\nof her friends dogs.  She denies any numbness, tingling, motor\nweakness in her left lower extremity or her left upper \nextremity.\nShe denies hitting her head or any loss of consciousness.  She\ndenies any other injury sustained.  She denies any history of\nanticoagulation.  She is otherwise independent and lives by\nherself.\n\nBrief Hospital Course:\nThe patient presented to the emergency department and was \nevaluated by the orthopedic surgery team. The patient was found \nto have a left intertrochanteric femur fracture, displaced left \nolecranon fracture and was admitted to the orthopedic surgery \nservice. The patient was taken to the operating room on \n___ for operative fixation of femur fracture by TFN, she \nwas also placed in a posterior slab splint for her olecranon \nfracture. the patient tolerated surgery well. For full details \nof the procedure please see the separately dictated operative \nreport. The patient was taken from the OR to the PACU in stable \ncondition and after satisfactory recovery from anesthesia was \ntransferred to the floor. The patient was initially given IV \nfluids and IV pain medications, and progressed to a regular diet \nand oral medications by POD#1. The patient was given \n___ antibiotics and anticoagulation per routine. The \npatient's home medications were continued throughout this \nhospitalization. The patient worked with ___ who determined that \ndischarge to rehab was appropriate. The ___ hospital \ncourse was otherwise unremarkable.\n\nAt the time of discharge the patient's pain was well controlled \nwith oral medications, incisions were clean/dry/intact, and the \npatient was voiding/moving bowels spontaneously. The patient is \nnonweightbearing in the left upper extremity and weightbearing \nas tolerated in the left lower extremity, and will be discharged \non Lovenox for DVT prophylaxis. The patient will follow up with \nDr. ___ routine. A thorough discussion was had with the \npatient regarding the diagnosis and expected post-discharge \ncourse including reasons to call the office or return to the \nhospital, and all questions were answered. The patient was also \ngiven written instructions concerning precautionary instructions \nand the appropriate follow-up care. The patient expressed \nreadiness for discharge.\n\nDischarge Diagnosis:\nLeft intertrochanteric femur fracture, displaced left olecranon \nfracture",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Demerol",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "codeine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "Seconal",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 60,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 62,
+          "char_end": 86,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide \nAntibiotics",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 99,
+          "turn_id": null
+        }
+      ],
+      "text": "Gantrisin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 102,
+          "char_end": 119,
+          "turn_id": null
+        }
+      ],
+      "text": "erythromycin base",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 135,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 139,
+          "char_end": 149,
+          "turn_id": null
+        }
+      ],
+      "text": "Vibramycin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 163,
+          "turn_id": null
+        }
+      ],
+      "text": "doxycycline",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 172,
+          "turn_id": null
+        }
+      ],
+      "text": "Keflex",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 187,
+          "turn_id": null
+        }
+      ],
+      "text": "tetracycline",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "tetracycline",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 206,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "Librax",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 228,
+          "turn_id": null
+        }
+      ],
+      "text": "clidinium",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 232,
+          "char_end": 239,
+          "turn_id": null
+        }
+      ],
+      "text": "IVP dye",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 242,
+          "char_end": 256,
+          "turn_id": null
+        }
+      ],
+      "text": "hydriotic acid",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 278,
+          "turn_id": null
+        }
+      ],
+      "text": "methylprednisolone",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 289,
+          "turn_id": null
+        }
+      ],
+      "text": "cefaclor",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 308,
+          "char_end": 345,
+          "turn_id": null
+        }
+      ],
+      "text": "Left intertrochanteric femur fracture",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 380,
+          "turn_id": null
+        }
+      ],
+      "text": "left\ndisplaced olecranon fracture",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 449,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoporosis",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 464,
+          "char_end": 501,
+          "turn_id": null
+        }
+      ],
+      "text": "left intertrochanteric femur fracture",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 539,
+          "turn_id": null
+        }
+      ],
+      "text": "left displaced\nolecranon fracture",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 630,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 632,
+          "char_end": 640,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 656,
+          "turn_id": null
+        },
+        {
+          "char_start": 692,
+          "char_end": 713,
+          "turn_id": null
+        }
+      ],
+      "text": "motor\nweakness left upper \nextremity",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 684,
+          "turn_id": null
+        }
+      ],
+      "text": "motor\nweakness in her left lower extremity",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 771,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of consciousness",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 840,
+          "char_end": 855,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 891,
+          "char_end": 907,
+          "turn_id": null
+        }
+      ],
+      "text": "lives by\nherself",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "left intertrochanteric femur fracture",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1106,
+          "char_end": 1140,
+          "turn_id": null
+        }
+      ],
+      "text": "displaced left \nolecranon fracture",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1250,
+          "char_end": 1293,
+          "turn_id": null
+        }
+      ],
+      "text": "operative fixation of femur fracture by TFN",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1309,
+          "char_end": 1342,
+          "turn_id": null
+        }
+      ],
+      "text": "placed in a posterior slab splint",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1351,
+          "char_end": 1370,
+          "turn_id": null
+        }
+      ],
+      "text": "olecranon \nfracture",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1693,
+          "char_end": 1697,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1693,
+          "char_end": 1709,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1803,
+          "char_end": 1814,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1819,
+          "char_end": 1834,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1991,
+          "char_end": 1996,
+          "turn_id": null
+        }
+      ],
+      "text": "rehab",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2396,
+          "char_end": 2403,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2408,
+          "char_end": 2411,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2875,
+          "char_end": 2912,
+          "turn_id": null
+        }
+      ],
+      "text": "Left intertrochanteric femur fracture",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2914,
+          "char_end": 2948,
+          "turn_id": null
+        }
+      ],
+      "text": "displaced left olecranon \nfracture",
+      "id": "e46"
+    }
+  ]
+}

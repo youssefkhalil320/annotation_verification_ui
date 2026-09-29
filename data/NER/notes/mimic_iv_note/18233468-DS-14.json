@@ -1,0 +1,494 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18233468-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nChief Complaint:\nPalpitations and lightheadedness\n\nHistory of Present Illness:\n___ yo female with history of PAF who had her sotolol \ndiscontinued due to complaint of fatigue, however, cardiazem did \nnot prevent recurrent episodes of  symptomatic atrial \nfibrillation.  Admitted for initiation of dofetilide.\n\nBrief Hospital Course:\nPatient was admitted for the initiation of dofetilide 250 mcg 1 \npill twice daily (dosed per EP).  INR was 2.0 at time of \nadmission.  Upon arival to the floor her device was interrogated \nand she was found to have 1 isolated episode of atrial \nfibrillation lasting 1 minute.   She was maintained on warfarin \nwith goal INR of ___ during her hospitalization. EKG was \nperformed monitoring QTc 2 hours after each dose of dofetilide.  \n\n\nMrs. ___ did complain of weakness in late afteroon but \nstates that this is not unlike what she experiences at home \nevery afteroon.  No correlation with arrythmia.  Vital signs \nstable with each episode.\n\nPatient was discharged to home on dofetilide 250 mcg 1 pill \ntwice daily and warfarin per INR.  Digoxin was discontinued and \ncardiazem was decreased to 12o mg daily.\n\nShe was dispensed a 1 week course of 250 mcg dofetilide at time \nof discharge and her prescription will be filled at local ___ in \n___.  Followup with Dr. ___.\n\nDischarge Diagnosis:\nParoxysmal Atrial fibrillation",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 96,
+          "turn_id": null
+        }
+      ],
+      "text": "Palpitations",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 116,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "PAF",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 199,
+          "turn_id": null
+        }
+      ],
+      "text": "sotolol",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 241,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 261,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiazem",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 314,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nfibrillation",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 364,
+          "char_end": 374,
+          "turn_id": null
+        }
+      ],
+      "text": "dofetilide",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 443,
+          "char_end": 453,
+          "turn_id": null
+        }
+      ],
+      "text": "dofetilide",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 454,
+          "char_end": 461,
+          "turn_id": null
+        }
+      ],
+      "text": "250 mcg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 462,
+          "char_end": 469,
+          "turn_id": null
+        }
+      ],
+      "text": "1 \npill",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 481,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 499,
+          "char_end": 502,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 570,
+          "turn_id": null
+        },
+        {
+          "char_start": 575,
+          "char_end": 587,
+          "turn_id": null
+        }
+      ],
+      "text": "device interrogated",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 637,
+          "char_end": 657,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nfibrillation",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 674,
+          "turn_id": null
+        }
+      ],
+      "text": "lasting 1 minute",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 700,
+          "char_end": 708,
+          "turn_id": null
+        }
+      ],
+      "text": "warfarin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 723,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 759,
+          "char_end": 762,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 792,
+          "turn_id": null
+        }
+      ],
+      "text": "monitoring QTc",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 820,
+          "char_end": 830,
+          "turn_id": null
+        }
+      ],
+      "text": "dofetilide",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 869,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 990,
+          "char_end": 999,
+          "turn_id": null
+        }
+      ],
+      "text": "arrythmia",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1013,
+          "turn_id": null
+        }
+      ],
+      "text": "Vital signs",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1076,
+          "char_end": 1086,
+          "turn_id": null
+        }
+      ],
+      "text": "dofetilide",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1094,
+          "turn_id": null
+        }
+      ],
+      "text": "250 mcg",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1095,
+          "char_end": 1101,
+          "turn_id": null
+        }
+      ],
+      "text": "1 pill",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1103,
+          "char_end": 1114,
+          "turn_id": null
+        }
+      ],
+      "text": "twice daily",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1119,
+          "char_end": 1127,
+          "turn_id": null
+        }
+      ],
+      "text": "warfarin",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1138,
+          "char_end": 1145,
+          "turn_id": null
+        }
+      ],
+      "text": "Digoxin",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1168,
+          "char_end": 1177,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiazem",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1201,
+          "turn_id": null
+        }
+      ],
+      "text": "12o mg",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1230,
+          "char_end": 1243,
+          "turn_id": null
+        }
+      ],
+      "text": "1 week course",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1247,
+          "char_end": 1254,
+          "turn_id": null
+        }
+      ],
+      "text": "250 mcg",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1255,
+          "char_end": 1265,
+          "turn_id": null
+        }
+      ],
+      "text": "dofetilide",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1392,
+          "char_end": 1422,
+          "turn_id": null
+        }
+      ],
+      "text": "Paroxysmal Atrial fibrillation",
+      "id": "e37"
+    }
+  ]
+}

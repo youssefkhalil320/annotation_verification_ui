@@ -1,0 +1,806 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12575337-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCodeine / Lipitor / Sulfa (Sulfonamide Antibiotics)\n\nChief Complaint:\nLLQ pain and chills\n\nHistory of Present Illness:\nMr. ___ is a ___ w/ CKD, melanoma stage IIIb, CAD s/p \nDES to LAD and known occluded RCA and OM1, AAA of 8 cm p/w 2 \ndays of vague lower abdominal pain and chills. He describes the \npain as persistent, dull pain located in the LLQ consistent with \nprior episodes.  At its worst, he reports that it is ___. He \nreports anorexia and intermittent nausea associated with this \npain. Of note, he does report that he had not had a BM for 5 or \n6 days, and after he came to ED, he had a large BM that resolved \nthe pain to ___. Denies fevers, BRBPR, vomitting.\n\nIn the ED, initial vitals were: T 98.0, HR 76, BP 164/105, RR 18 \nO2 99% on RA. Physical exam notable for slightly distended \nabdomen with mild soft suprapubic tenderness. Mr. ___ \nreceived 1mg dilaudid and 500mg acetominophen, and nicardipine \nIV 40 mg for BP control. Labs and imaging notable for normal WBC \nand for CT ab/pelvis that showed fat stranding around AAA \nconcerning for leak. Vascular surgery was consulted in ED, and \ninformed patient of \"possible impending AAA rupture\". Discussed \nthat patient was poor surgical candidate. The patient was in \nagreement and declined any potential surgery as he had in the \npast. \n\nGiven that pt. was still on nicardipine gtt, he was admitted to \nthe CCU for BP and pain control. On arrival to the unit, BP \n148/83 on 0.5mcg.kg.min nocardipine, HR 100, SpO2 99% on RA.  \nPt. reported mild LLQ pain but was otherwised feeling well and \nasymptomatic.\n\nBrief Hospital Course:\n___ w/ known AAA, CAD s/p DES to LAD and known occluded RCA \nand OM1, PVD, CKD, and melanoma stage IIIb who presented with 2 \ndays of abdominal pain found on imaging to have likely unstable \nAAA concerning for rupture with decsion to manage medically.\n\n# Expanding AAA; Fat stranding noted on imaging was suggestive \nof \"impending rupture.\"  Pt. has been evaluated by vascular \nsurgery in the past and again this admission, and there has been \nconsistent mutual agreement not to undergo surgical intervention \neven if AAA should rupture. # ___\nPatient was clear about decision to be DNR/DNI and not to \nundergo saurgical repair of AAA.  Daughter is also aware and in \nagreement.  The patients care was shifted to ___ \n___ on ___ and he expired on ___ at 1743.\n\nDischarge Diagnosis:\nabdominal aortic aneurysm",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "Lipitor",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 61,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide Antibiotics",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "LLQ pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 100,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "CKD",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "melanoma stage IIIb",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "DES to LAD",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 206,
+          "char_end": 214,
+          "turn_id": null
+        },
+        {
+          "char_start": 223,
+          "char_end": 226,
+          "turn_id": null
+        }
+      ],
+      "text": "occluded OM1",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 206,
+          "char_end": 218,
+          "turn_id": null
+        }
+      ],
+      "text": "occluded RCA",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 228,
+          "char_end": 231,
+          "turn_id": null
+        }
+      ],
+      "text": "AAA",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 281,
+          "turn_id": null
+        }
+      ],
+      "text": "lower abdominal pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 360,
+          "turn_id": null
+        }
+      ],
+      "text": "pain located in the LLQ",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 448,
+          "char_end": 456,
+          "turn_id": null
+        }
+      ],
+      "text": "anorexia",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 480,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 503,
+          "char_end": 507,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 574,
+          "turn_id": null
+        }
+      ],
+      "text": "BM for 5 or \n6 days",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 664,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 671,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 682,
+          "turn_id": null
+        }
+      ],
+      "text": "vomitting",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 742,
+          "turn_id": null
+        }
+      ],
+      "text": "BP 164/105",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 800,
+          "char_end": 818,
+          "turn_id": null
+        }
+      ],
+      "text": "distended \nabdomen",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 834,
+          "char_end": 855,
+          "turn_id": null
+        }
+      ],
+      "text": "suprapubic tenderness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 878,
+          "turn_id": null
+        }
+      ],
+      "text": "1mg",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 887,
+          "turn_id": null
+        }
+      ],
+      "text": "dilaudid",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 892,
+          "char_end": 897,
+          "turn_id": null
+        }
+      ],
+      "text": "500mg",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 898,
+          "char_end": 911,
+          "turn_id": null
+        }
+      ],
+      "text": "acetominophen",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 917,
+          "char_end": 928,
+          "turn_id": null
+        }
+      ],
+      "text": "nicardipine",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 930,
+          "char_end": 932,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 938,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1004,
+          "char_end": 1016,
+          "turn_id": null
+        }
+      ],
+      "text": "CT ab/pelvis",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1029,
+          "char_end": 1053,
+          "turn_id": null
+        }
+      ],
+      "text": "fat stranding around AAA",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1070,
+          "char_end": 1074,
+          "turn_id": null
+        }
+      ],
+      "text": "leak",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1159,
+          "char_end": 1170,
+          "turn_id": null
+        }
+      ],
+      "text": "AAA rupture",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1345,
+          "char_end": 1356,
+          "turn_id": null
+        }
+      ],
+      "text": "nicardipine",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1357,
+          "char_end": 1360,
+          "turn_id": null
+        }
+      ],
+      "text": "gtt",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1439,
+          "char_end": 1449,
+          "turn_id": null
+        }
+      ],
+      "text": "BP \n148/83",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1453,
+          "char_end": 1466,
+          "turn_id": null
+        }
+      ],
+      "text": "0.5mcg.kg.min",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1467,
+          "char_end": 1478,
+          "turn_id": null
+        }
+      ],
+      "text": "nocardipine",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1524,
+          "char_end": 1532,
+          "turn_id": null
+        }
+      ],
+      "text": "LLQ pain",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1621,
+          "char_end": 1624,
+          "turn_id": null
+        }
+      ],
+      "text": "AAA",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1626,
+          "char_end": 1629,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1634,
+          "char_end": 1644,
+          "turn_id": null
+        }
+      ],
+      "text": "DES to LAD",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1667,
+          "turn_id": null
+        }
+      ],
+      "text": "occluded RCA",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1678,
+          "char_end": 1681,
+          "turn_id": null
+        }
+      ],
+      "text": "PVD",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1683,
+          "char_end": 1686,
+          "turn_id": null
+        }
+      ],
+      "text": "CKD",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1692,
+          "char_end": 1711,
+          "turn_id": null
+        }
+      ],
+      "text": "melanoma stage IIIb",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1766,
+          "char_end": 1773,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1799,
+          "char_end": 1802,
+          "turn_id": null
+        }
+      ],
+      "text": "AAA",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1818,
+          "char_end": 1825,
+          "turn_id": null
+        }
+      ],
+      "text": "rupture",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1863,
+          "char_end": 1876,
+          "turn_id": null
+        }
+      ],
+      "text": "Expanding AAA",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1878,
+          "char_end": 1891,
+          "turn_id": null
+        }
+      ],
+      "text": "Fat stranding",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1901,
+          "char_end": 1908,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1929,
+          "char_end": 1946,
+          "turn_id": null
+        }
+      ],
+      "text": "impending rupture",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2126,
+          "char_end": 2129,
+          "turn_id": null
+        }
+      ],
+      "text": "AAA",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2137,
+          "char_end": 2144,
+          "turn_id": null
+        }
+      ],
+      "text": "rupture",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2219,
+          "char_end": 2242,
+          "turn_id": null
+        }
+      ],
+      "text": "saurgical repair of AAA",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2390,
+          "char_end": 2415,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal aortic aneurysm",
+      "id": "e61"
+    }
+  ]
+}

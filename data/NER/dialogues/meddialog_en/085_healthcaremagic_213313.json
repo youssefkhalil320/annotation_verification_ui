@@ -1,0 +1,346 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:213313:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I had sufuring form IBS from 1990 to 1995. The dr. give me Fluoxetine 20 mg + amitriptilyne 12.5 mg daily for five years. Then I was OK . After Six months by taoering the dose I discontinue these madicines.But I had panic attack.So my psychiartic give me Escitalopram 20mg a day + clonazepam 0.5 mg 3 time a day ( I am also suffuring from verious type of phobias ). From 2001 to till date I have takeing this madication. Now I want to discontinu this medicine ASAP. Kindly give me guidence. ( If i mis one time dose of clonazepam ihave panic)\n[doctor] Hi,  Panic, phobia and IBS are common in anxiety disorders. Anxiety disorders are chronic illness and patient may need treatment for years, even for lifelong in some cases.   In your case clonazepam doses can be tapered gradually. so ask for that from your psychiatrist. As you are still having some symptoms then it is not advisable to stop treatment in your case.  I hope this information has been both informative and helpful for you. Wish you Good Health.  Regards, Dr. Ashish Mittal www.99doctor.com",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 33,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "IBS",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 79,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fluoxetine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 80,
+          "char_end": 85,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20 mg",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 101,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amitriptilyne",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 102,
+          "char_end": 109,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "12.5 mg",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 115,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 130,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for five years",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 238,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "panic attack",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 277,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 278,
+          "char_end": 282,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20mg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 288,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "a day",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 301,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clonazepam",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 302,
+          "char_end": 308,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "0.5 mg",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 321,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 time a day",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 372,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "phobias",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 398,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "From 2001 to till date",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 508,
+          "char_end": 539,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mis one time dose of clonazepam",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 546,
+          "char_end": 551,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "panic",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 567,
+          "char_end": 572,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Panic",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 580,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "phobia",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 588,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "IBS",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 603,
+          "char_end": 620,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety disorders",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 639,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Anxiety disorders",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 691,
+          "char_end": 700,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for years",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 707,
+          "char_end": 719,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for lifelong",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 760,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clonazepam",
+      "id": "e26"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:29436:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi doctor, I am suffering from acne for five years. I took Accutane for two months and stopped it recently due to side effects. My acne again started to come back after a month. Now, I am following a diet with no sugar or fast food and fewer dairy products. Also, I am using Benzoyl peroxide face wash. I am taking Omega 3 supplement (300mg) daily. It has improved by skin texture and reduced the redness of my acne to some extent. Shall I continue these drugs throughout my life? Will it have side effects? Will it affect my fertility? If I cannot continue it throughout my life, then how long should I stay? I just loved the way it gave me a good skin with less inflammation.\n[doctor] Hi. For further information consult an internal medicine physician online --> https://www.icliniq.com/ask-a-doctor-online/internal-medicine-physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 45,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acne",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 77,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Accutane",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 92,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for two months",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 145,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acne",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 285,
+          "char_end": 301,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benzoyl peroxide",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 302,
+          "char_end": 311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "face wash",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 343,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Omega 3 supplement",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "300mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 352,
+          "char_end": 357,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 414,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "redness",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 425,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acne",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 471,
+          "char_end": 489,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "throughout my life",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 589,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "throughout my life",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 604,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "how long",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 686,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e15"
+    }
+  ]
+}

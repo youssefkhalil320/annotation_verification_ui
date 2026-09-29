@@ -1,0 +1,470 @@
+{
+  "doc_id": "PRIMOCK57:day5_consultation01:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "Left sided headache since yesterday morning. Intermittent. Non positional. Not woken her up. No altered smell/taste.  E&D normally. No prodromal illness, no viral symptoms, sore ears/coryzal sx.  Doesn't feel feverish but hasn't checked temperature. No N&V. No tingling/numbness/weakness/rash. Worse with light but vision not altered. Taken paracetamol only. Period stopped last week.\nNo hx headaches.\nPMH: Nil significant\nDH: Microgynon - no SEs, BP was normal when checked for last prescription ? when.\nFH: Mother has hypertension and migraines.\nSH: Lives with flatmates, alcohol - few glasses wine at weekends, non smoker.\nSome stress at work recently. \nImp: ? Tension headache/first episode migraine. No features meningitic illness but is worse with light.\n Plan: Advised to get BP and temp checked and to call straight back if worsening/persistent headache/fever/rash/new symptoms. Advised to start regular ibuprofen with food. To have a review if regular headaches. \n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 0,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Left sided headache",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "Non",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 103,
+          "turn_id": null
+        },
+        {
+          "char_start": 110,
+          "char_end": 115,
+          "turn_id": null
+        }
+      ],
+      "text": "altered taste",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 109,
+          "turn_id": null
+        }
+      ],
+      "text": "altered smell",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "sore ears",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 193,
+          "turn_id": null
+        }
+      ],
+      "text": "coryzal sx",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 217,
+          "turn_id": null
+        }
+      ],
+      "text": "feverish",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 229,
+          "char_end": 248,
+          "turn_id": null
+        }
+      ],
+      "text": "checked temperature",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 256,
+          "turn_id": null
+        }
+      ],
+      "text": "V",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 269,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 270,
+          "char_end": 278,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 279,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "Worse with light",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 321,
+          "turn_id": null
+        },
+        {
+          "char_start": 326,
+          "char_end": 333,
+          "turn_id": null
+        }
+      ],
+      "text": "vision altered",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 352,
+          "turn_id": null
+        }
+      ],
+      "text": "paracetamol",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 359,
+          "char_end": 373,
+          "turn_id": null
+        }
+      ],
+      "text": "Period stopped",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 400,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "Microgynon",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 448,
+          "char_end": 450,
+          "turn_id": null
+        },
+        {
+          "char_start": 467,
+          "char_end": 474,
+          "turn_id": null
+        }
+      ],
+      "text": "BP checked",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 520,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 546,
+          "turn_id": null
+        }
+      ],
+      "text": "migraines",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 612,
+          "turn_id": null
+        }
+      ],
+      "text": "alcohol - few glasses wine at weekends",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 614,
+          "char_end": 624,
+          "turn_id": null
+        }
+      ],
+      "text": "non smoker",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 645,
+          "turn_id": null
+        }
+      ],
+      "text": "stress at work",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 680,
+          "turn_id": null
+        }
+      ],
+      "text": "Tension headache",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 717,
+          "char_end": 735,
+          "turn_id": null
+        }
+      ],
+      "text": "meningitic illness",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 759,
+          "turn_id": null
+        }
+      ],
+      "text": "worse with light",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 785,
+          "turn_id": null
+        },
+        {
+          "char_start": 795,
+          "char_end": 802,
+          "turn_id": null
+        }
+      ],
+      "text": "BP checked",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 802,
+          "turn_id": null
+        }
+      ],
+      "text": "temp checked",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 868,
+          "char_end": 872,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 904,
+          "char_end": 911,
+          "turn_id": null
+        }
+      ],
+      "text": "regular",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 912,
+          "char_end": 921,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 961,
+          "char_end": 970,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e34"
+    }
+  ]
+}

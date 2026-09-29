@@ -1,0 +1,881 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:207120:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] i am sumit khaitan(25years old) the patient of depression and chronic tension type headache since 6 years i was taking amtripytiline 1oo mg daily at night for 6 years last year i had severe nausea so i went for a lft test and it shows the higher sgpt and sgot so doctors stooped the medicine from last year still now have withdrawl effects and i have severe giddiness and weakness i need your opinion as soon as possible plz mention your fees and details if possible i need some consideration. i cn t able to work because of this problems. I am the patient of chronic hepatitis(elevated liver enzymes) since last one year. Before that I was taking amytripytiline 100mgdaily for 6year as per treatment of MHC&H of Bagyam for chronic headache and depression. But last year I had severe nasea so I go for a LFT test it shows that the higher liver enzymes. So as per doctor advise I had stooped the Amytripityline and taking lonzeep md 0.25mg as per need and monitor the sgpt and sgot level. Last(Nov-2010) time you saw me and you had advised to avoid medication and do physical exercise i am trying to do but (severe cough and headache, severe lower back pain and urine pain, sleep disorder, giddiness, nausea, mild pain over liver area )forced me for medication. Now i am taking only cough syrup here doctor fear to treat me after seeing the report. so please suggest some antibiotics and anxiety relief medicines which can I take as per need .Now I am taking C-Stone 2tab at morning but it is also not working. I have done usg 1 months ago it shows now stone size is 4.2mm in left kidney in lower poll . I have lower back pain and lower abdomen pain all the time and problem in urination and frequently urine infection is happened I can not take antibiotic’s frequently for liver . Fever is still continuing. Dr shab I am in very big problem what I can do please suggest me as soon as possible.\n[doctor] For the treatment of anxiety, you can take escitalopram and clonazepam as and when required for sleep. Kiney stone will pass away through urine with heavy fluid intake. For problem in urination, you can take antibiotic azitgromycin which is liver safe.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 67,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 101,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chronic tension type headache",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 129,
+          "char_end": 142,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amtripytiline",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 143,
+          "char_end": 149,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1oo mg",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily at night",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 176,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 6 years",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 200,
+          "char_end": 206,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 231,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lft test",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 255,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 265,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "higher sgot",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "higher sgpt",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 256,
+          "char_end": 260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sgpt",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sgot",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 349,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawl effects",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 368,
+          "char_end": 377,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "giddiness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 382,
+          "char_end": 390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weakness",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 570,
+          "char_end": 587,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chronic hepatitis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 588,
+          "char_end": 610,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "elevated liver enzymes",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 610,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "liver enzymes",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 672,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amytripytiline",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 683,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100mgdaily",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 684,
+          "char_end": 693,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 6year",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 734,
+          "char_end": 750,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chronic headache",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 755,
+          "char_end": 765,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 799,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nasea",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 822,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "LFT test",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 841,
+          "char_end": 861,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "higher liver enzymes",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 848,
+          "char_end": 861,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "liver enzymes",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 919,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Amytripityline",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 931,
+          "char_end": 938,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lonzeep",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 939,
+          "char_end": 941,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "md",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 948,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "0.25mg",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 949,
+          "char_end": 960,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "as per need",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 976,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 986,
+          "char_end": 996,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "monitor the sgot level",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 981,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "monitor the sgpt",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 977,
+          "char_end": 981,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sgpt",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 986,
+          "char_end": 990,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sgot",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1124,
+          "char_end": 1129,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cough",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1151,
+          "char_end": 1166,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower back pain",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1171,
+          "char_end": 1181,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine pain",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1183,
+          "char_end": 1197,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep disorder",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1199,
+          "char_end": 1208,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "giddiness",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1210,
+          "char_end": 1216,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1223,
+          "char_end": 1243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain over liver area",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1292,
+          "char_end": 1303,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cough syrup",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1381,
+          "char_end": 1392,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1397,
+          "char_end": 1421,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety relief medicines",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1439,
+          "char_end": 1450,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "as per need",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1468,
+          "char_end": 1475,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "C-Stone",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1476,
+          "char_end": 1480,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2tab",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1481,
+          "char_end": 1491,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "at morning",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1532,
+          "char_end": 1535,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "usg",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1562,
+          "char_end": 1567,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1582,
+          "char_end": 1610,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stone in left kidney in lower poll",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1620,
+          "char_end": 1635,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower back pain",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1640,
+          "char_end": 1658,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower abdomen pain",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1676,
+          "char_end": 1696,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "problem in urination",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1712,
+          "char_end": 1727,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine infection",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1755,
+          "char_end": 1767,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic’s",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1791,
+          "char_end": 1796,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fever",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1934,
+          "char_end": 1941,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1956,
+          "char_end": 1968,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "escitalopram",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1973,
+          "char_end": 1983,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clonazepam",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1984,
+          "char_end": 2014,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "as and when required for sleep",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2016,
+          "char_end": 2027,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Kiney stone",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2086,
+          "char_end": 2106,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "problem in urination",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2121,
+          "char_end": 2131,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2132,
+          "char_end": 2144,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "azitgromycin",
+      "id": "e66"
+    }
+  ]
+}

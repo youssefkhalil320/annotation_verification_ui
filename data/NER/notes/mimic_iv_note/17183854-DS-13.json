@@ -1,0 +1,247 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17183854-DS-13:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nvancomycin\n\nChief Complaint:\nBack pain with left sided radiculopathy.\n\nHistory of Present Illness:\nMr. ___ is a ___ y/o male with hx of childhood obesity and disc \nherniation at ___ s/p microdiscectomy at the age of ___ with \nre-herniation of L4-5 disc & new herniation of L5-S1 9 months \nago, s/p left hemilaminectomy and discectomy of L4-5 and L5-S1 \nat ___ on ___, now presenting with back pain and left sided \nradiculopathy, found to have re-herniation of L4-5 and L5-S1.\n\nBrief Hospital Course:\nOn ___, Mr. ___ presented for elective L4-5 and L5-1 \nexploration and microdiscectomy.  His operative course was \nuncomplicated, please see operative note for full details. \nPostoperatively he recovered in PACU and was transferred to the  \nfloor where he remained neurologically stable. On ___ the \npatient reported adequate pain control, was tolerating a regular \ndiet, and ambulating independently. He was discharged to home \nwith planned follow-up with Dr. ___.\n\nDischarge Diagnosis:\nLeft sided radiculopathy.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 49,
+          "turn_id": null
+        }
+      ],
+      "text": "Back pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 79,
+          "turn_id": null
+        }
+      ],
+      "text": "left sided radiculopathy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 164,
+          "turn_id": null
+        }
+      ],
+      "text": "obesity",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "disc \nherniation",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "microdiscectomy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 237,
+          "char_end": 263,
+          "turn_id": null
+        }
+      ],
+      "text": "re-herniation of L4-5 disc",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 270,
+          "char_end": 289,
+          "turn_id": null
+        }
+      ],
+      "text": "herniation of L5-S1",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "left hemilaminectomy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 334,
+          "char_end": 362,
+          "turn_id": null
+        }
+      ],
+      "text": "discectomy of L4-5 and L5-S1",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 399,
+          "char_end": 408,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 413,
+          "char_end": 438,
+          "turn_id": null
+        }
+      ],
+      "text": "left sided \nradiculopathy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 454,
+          "char_end": 470,
+          "turn_id": null
+        },
+        {
+          "char_start": 480,
+          "char_end": 485,
+          "turn_id": null
+        }
+      ],
+      "text": "re-herniation of L5-S1",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 454,
+          "char_end": 475,
+          "turn_id": null
+        }
+      ],
+      "text": "re-herniation of L4-5",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 576,
+          "turn_id": null
+        }
+      ],
+      "text": "L4-5 and L5-1 \nexploration",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 581,
+          "char_end": 596,
+          "turn_id": null
+        }
+      ],
+      "text": "microdiscectomy",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 836,
+          "char_end": 840,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 998,
+          "char_end": 1022,
+          "turn_id": null
+        }
+      ],
+      "text": "Left sided radiculopathy",
+      "id": "e18"
+    }
+  ]
+}

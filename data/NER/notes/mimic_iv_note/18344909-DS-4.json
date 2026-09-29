@@ -1,0 +1,405 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:18344909-DS-4:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nmorphine\n\nChief Complaint:\nSymptomatic overhanging pannus\n\nHistory of Present Illness:\n___ female with a history of having significant weight \nloss.  Her original weight was 225 pounds, she currently is 143 \npounds.  She has a body mass index of 26.2.  She states that she \nwishes to have her pannus treated with respect to the \nintertriginous changes.  She states that she has rashes and no \ncurrent infections that causes discomfort.  She does treat the \narea with nystatin cream.\n\nBrief Hospital Course:\nThe patient was admitted to the plastic surgery service on \n___ and had a panniculectomy with vertical abdominoplasty.  \nThe patient tolerated the procedure well. \n.\nNeuro: Post-operatively, the patient received IV pain medication \nwith good effect and adequate pain control. When tolerating oral \nintake, the patient was transitioned to oral pain medications. \n.\nCV: The patient was stable from a cardiovascular standpoint; \nvital signs were routinely monitored.\n.\nPulmonary: The patient was stable from a pulmonary standpoint; \nvital signs were routinely monitored.\n.\nGI/GU: Post-operatively, the patient was given IV fluids until \ntolerating oral intake. Her diet was advanced when appropriate, \nwhich was tolerated well. She was also started on a bowel \nregimen to encourage bowel movement. Foley was removed on POD#1. \nIntake and output were closely monitored. \n.\nID: Post-operatively, the patient was started on IV cefazolin, \nthen switched to PO cefadroxil for discharge home. The patient's \ntemperature was closely watched for signs of infection. \n.\nProphylaxis: The patient received subcutaneous heparin during \nthis stay, and was encouraged to get up and ambulate as early as \npossible. \n.\nAt the time of discharge on POD#1, the patient was doing well, \nafebrile with stable vital signs, tolerating a regular diet, \nambulating, voiding without assistance, and pain was well \ncontrolled.  Lower and vertical abdominal incisions were intact \nwith dressing in place.  JP x 2 with serous fluid.\n\nDischarge Diagnosis:\nSymptomatic overhanging pannus",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "morphine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 68,
+          "turn_id": null
+        }
+      ],
+      "text": "Symptomatic overhanging pannus",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "body mass index",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 340,
+          "char_end": 362,
+          "turn_id": null
+        }
+      ],
+      "text": "intertriginous changes",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 395,
+          "turn_id": null
+        }
+      ],
+      "text": "rashes",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 412,
+          "char_end": 422,
+          "turn_id": null
+        }
+      ],
+      "text": "infections",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 445,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 478,
+          "char_end": 486,
+          "turn_id": null
+        }
+      ],
+      "text": "nystatin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 487,
+          "char_end": 492,
+          "turn_id": null
+        }
+      ],
+      "text": "cream",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 606,
+          "turn_id": null
+        }
+      ],
+      "text": "panniculectomy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 612,
+          "char_end": 635,
+          "turn_id": null
+        }
+      ],
+      "text": "vertical abdominoplasty",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 730,
+          "char_end": 732,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 733,
+          "char_end": 737,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 780,
+          "char_end": 784,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 814,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 865,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 944,
+          "char_end": 955,
+          "turn_id": null
+        },
+        {
+          "char_start": 961,
+          "char_end": 980,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs routinely monitored",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1048,
+          "char_end": 1059,
+          "turn_id": null
+        },
+        {
+          "char_start": 1065,
+          "char_end": 1084,
+          "turn_id": null
+        }
+      ],
+      "text": "vital signs routinely monitored",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1135,
+          "char_end": 1137,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1135,
+          "char_end": 1144,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1313,
+          "char_end": 1318,
+          "turn_id": null
+        },
+        {
+          "char_start": 1323,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "Foley removed",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1334,
+          "char_end": 1337,
+          "turn_id": null
+        }
+      ],
+      "text": "POD",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "Intake and output",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1439,
+          "char_end": 1448,
+          "turn_id": null
+        }
+      ],
+      "text": "cefazolin",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1481,
+          "turn_id": null
+        }
+      ],
+      "text": "cefadroxil",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1517,
+          "char_end": 1528,
+          "turn_id": null
+        },
+        {
+          "char_start": 1541,
+          "char_end": 1548,
+          "turn_id": null
+        }
+      ],
+      "text": "temperature watched",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1622,
+          "turn_id": null
+        }
+      ],
+      "text": "subcutaneous",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1623,
+          "char_end": 1630,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2041,
+          "char_end": 2071,
+          "turn_id": null
+        }
+      ],
+      "text": "Symptomatic overhanging pannus",
+      "id": "e29"
+    }
+  ]
+}

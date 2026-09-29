@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 11,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 33,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 48,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 57,
@@ -75,9 +70,21 @@
       "id": "e5"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 109,
+          "turn_id": null
+        }
+      ],
+      "text": "coming down off of cocaine high",
+      "id": "e6"
+    },
+    {
       "coarse_type": "MEDICATION",
       "fine_type": "substance",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 97,
@@ -86,12 +93,11 @@
         }
       ],
       "text": "cocaine",
-      "id": "e6"
+      "id": "e7"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 188,
@@ -100,12 +106,11 @@
         }
       ],
       "text": "klonopin",
-      "id": "e7"
+      "id": "e8"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 202,
@@ -114,12 +119,11 @@
         }
       ],
       "text": "prn",
-      "id": "e8"
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 269,
@@ -128,12 +132,11 @@
         }
       ],
       "text": "rash on my arm",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 313,
@@ -142,7 +145,7 @@
         }
       ],
       "text": "anxiety",
-      "id": "e10"
+      "id": "e11"
     }
   ]
 }

@@ -1,0 +1,806 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:14531073-DS-20:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nceftriaxone\n\nChief Complaint:\nRight knee pain, Epidural abscess\n\nHistory of Present Illness:\n___ woman with history of hypertension who had an arthrocentesis \nperformed 2 weeks ago during an outpatient orthopedic surgery \nappointment which, per report, revealed crystals c/w CPPD. She \nwas given prescriptions for meloxicam, acetaminophen/codeine, \nand cyclobenzaprine for symptomatic management. \n\nShe represented to ___ on ___ with ongoing knee \npain and fevers. She was found to have a leukocytosis to 19k and \nbe anemic with Hgb ___ ___. Repeat arthrocentesis while inpatient \nrevealed pus, but gram stain was negative. She was treated for \nseptic arthritis with vancomycin and zosyn (___) and has had \nsome improvement ___ her leukocytosis. However, she later \ndeveloped back pain and an MRI revealed an epidural collection \nat L4 as well as an 8x6cm collection ___ the iliacus muscle. She \nwas therefore transferred to ___ for neurosurgery evaluation \nand further management.\n\nInterventions:\n- ___ Arthrocentesis of R knee: reportedly c/w pseudo-gout\n- ___ Drainage of posterior R knee collection: 50cc pus \n(accidentally discarded)\n- ___ OR washout of R knee: 74k polys, many RBCs, no crystals \nor organisms\n- ___ Repeat drainage of posterior R knee collection: 15cc \ndrained\n\nOf note, ___ the process of her workup the patient had numerous \nimaging studies that demonstrated multiple bony abnormalities \nincluding a R distal femur and mid and distal tibia sclerotic \nabnormality c/f osteoblastic metastatic disease, mid and lower \nvertebral bodies with sclerotic findings.\n\nOn transfer, vitals were:  T 98.4, BP 140/96, HR 101, RR 19, Sat \n97%, Weight 78.3 kg (172 lbs)\n\nOn arrival to the MICU, the patient reported constipation (last \nbowel movement was 5 days ago) but no bowel or bladder \nincontinence or urinary retention. She endorses normal sensation \n___ her extremities, no visual changes, and no back pain.\n\nDischarge Diagnosis:\nPRIMARY DIAGNOSES\n=================\nEpidural abscess\nIliacus abscess s/p drainage\nRight gastrocnemius abscess s/p drainage\nAbnormal skeletal imaging\nAcute kidney injury\nAnemia\nElevated trasnaminases\nCoagulopathy\nsclerotic bone lesions",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 56,
+          "turn_id": null
+        }
+      ],
+      "text": "Right knee pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 58,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "Epidural abscess",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 142,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 168,
+          "turn_id": null
+        }
+      ],
+      "text": "arthrocentesis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 273,
+          "char_end": 281,
+          "turn_id": null
+        }
+      ],
+      "text": "crystals",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 290,
+          "turn_id": null
+        }
+      ],
+      "text": "CPPD",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 325,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 336,
+          "char_end": 357,
+          "turn_id": null
+        }
+      ],
+      "text": "acetaminophen/codeine",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 364,
+          "char_end": 379,
+          "turn_id": null
+        }
+      ],
+      "text": "cyclobenzaprine",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 463,
+          "turn_id": null
+        }
+      ],
+      "text": "knee \npain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 468,
+          "char_end": 474,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 512,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 528,
+          "char_end": 534,
+          "turn_id": null
+        }
+      ],
+      "text": "anemic",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 543,
+          "turn_id": null
+        }
+      ],
+      "text": "Hgb",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 553,
+          "char_end": 574,
+          "turn_id": null
+        }
+      ],
+      "text": "Repeat arthrocentesis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 601,
+          "char_end": 604,
+          "turn_id": null
+        }
+      ],
+      "text": "pus",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 610,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "gram stain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 672,
+          "turn_id": null
+        }
+      ],
+      "text": "septic arthritis",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 678,
+          "char_end": 688,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 693,
+          "char_end": 698,
+          "turn_id": null
+        }
+      ],
+      "text": "zosyn",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 755,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 796,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 804,
+          "char_end": 807,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 820,
+          "char_end": 846,
+          "turn_id": null
+        }
+      ],
+      "text": "epidural collection \nat L4",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 867,
+          "char_end": 900,
+          "turn_id": null
+        }
+      ],
+      "text": "collection ___ the iliacus muscle",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1015,
+          "char_end": 1039,
+          "turn_id": null
+        }
+      ],
+      "text": "Arthrocentesis of R knee",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1067,
+          "turn_id": null
+        }
+      ],
+      "text": "pseudo-gout",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1074,
+          "char_end": 1113,
+          "turn_id": null
+        }
+      ],
+      "text": "Drainage of posterior R knee collection",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1086,
+          "char_end": 1113,
+          "turn_id": null
+        }
+      ],
+      "text": "posterior R knee collection",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1123,
+          "turn_id": null
+        }
+      ],
+      "text": "pus",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1156,
+          "char_end": 1176,
+          "turn_id": null
+        }
+      ],
+      "text": "OR washout of R knee",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1178,
+          "char_end": 1187,
+          "turn_id": null
+        }
+      ],
+      "text": "74k polys",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1194,
+          "char_end": 1198,
+          "turn_id": null
+        }
+      ],
+      "text": "RBCs",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1203,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "crystals",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1232,
+          "char_end": 1278,
+          "turn_id": null
+        }
+      ],
+      "text": "Repeat drainage of posterior R knee collection",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1278,
+          "turn_id": null
+        }
+      ],
+      "text": "posterior R knee collection",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1360,
+          "char_end": 1375,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging studies",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1435,
+          "char_end": 1449,
+          "turn_id": null
+        },
+        {
+          "char_start": 1475,
+          "char_end": 1497,
+          "turn_id": null
+        }
+      ],
+      "text": "R distal femur sclerotic \nabnormality",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1454,
+          "char_end": 1497,
+          "turn_id": null
+        }
+      ],
+      "text": "mid and distal tibia sclerotic \nabnormality",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1502,
+          "char_end": 1533,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoblastic metastatic disease",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1535,
+          "char_end": 1590,
+          "turn_id": null
+        }
+      ],
+      "text": "mid and lower \nvertebral bodies with sclerotic findings",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1628,
+          "char_end": 1637,
+          "turn_id": null
+        }
+      ],
+      "text": "BP 140/96",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1639,
+          "char_end": 1645,
+          "turn_id": null
+        }
+      ],
+      "text": "HR 101",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1735,
+          "char_end": 1747,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1802,
+          "char_end": 1823,
+          "turn_id": null
+        }
+      ],
+      "text": "bladder \nincontinence",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1827,
+          "char_end": 1844,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary retention",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1901,
+          "char_end": 1915,
+          "turn_id": null
+        }
+      ],
+      "text": "visual changes",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1924,
+          "char_end": 1933,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1993,
+          "char_end": 2009,
+          "turn_id": null
+        }
+      ],
+      "text": "Epidural abscess",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2010,
+          "char_end": 2025,
+          "turn_id": null
+        }
+      ],
+      "text": "Iliacus abscess",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2030,
+          "char_end": 2038,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2039,
+          "char_end": 2066,
+          "turn_id": null
+        }
+      ],
+      "text": "Right gastrocnemius abscess",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2105,
+          "turn_id": null
+        }
+      ],
+      "text": "Abnormal skeletal imaging",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2089,
+          "char_end": 2105,
+          "turn_id": null
+        }
+      ],
+      "text": "skeletal imaging",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2106,
+          "char_end": 2125,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute kidney injury",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2126,
+          "char_end": 2132,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2133,
+          "char_end": 2155,
+          "turn_id": null
+        }
+      ],
+      "text": "Elevated trasnaminases",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2142,
+          "char_end": 2155,
+          "turn_id": null
+        }
+      ],
+      "text": "trasnaminases",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2156,
+          "char_end": 2168,
+          "turn_id": null
+        }
+      ],
+      "text": "Coagulopathy",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2169,
+          "char_end": 2191,
+          "turn_id": null
+        }
+      ],
+      "text": "sclerotic bone lesions",
+      "id": "e61"
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15582551-DS-15:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nSulfonamides\n\nChief Complaint:\nabdominal pain, planned ERCP in AM\n\nHistory of Present Illness:\nThis is a ___ year-old female with a history of hypertension, \nhyperlipidemia who presents with nausea, abdominal pain, \nweakness, and mental status changes.  Per patient's family, she \nreported being more confused for past one day, although she does \nhave a baseline history of \"short-term memory loss.\"  She also \nreported difficulty standing, and was normally able to walk \nusing a walker.  Patient reported diffuse abdominal pain and \nnausea, but no vomitting.  There were no fevers or chills at \nhome.  Patient's PCP was contacted and advised ED evaluation.\n\nBrief Hospital Course:\nAssessment: This is a ___ year-old female with a history of \nhypertension, hyperlipidemia who presents with likely \ncholangitis.\n.  \nPlan:  \n# Cholangitis - Unclear aetiology.  Unusual that it may be \nrelated to stone given patient has had cholecystectomy.\n- Continue ciprofloxacin, metronidazole.\n- NPO IV fluids\n- Monitor temperature curve and broaden antiobiotics if \nnecessary\n- ERCP in AM\n- Hold anti-hypertensives for now, hold aspirin\n.\n# Depression/Anxiety - Continue alprazolam, citalopram\n.  \n# FEN:  Resume B12 and multivitamin once eating, continue IV \nfluids as above.\n.  \nShe then went for ERCP on ___ and finding were:\nUlceration seen superior to the major papilla consistent with a \ncholedocoduodenal fistula. There was pus discharge in the major \npapilla. \nSuccesful sphincterotomy was performed throught the fistula \ntract in the 12 o'clock position using a sphincterotome over an \nexisting guidewire. \nSuccesful extraction of Sludge and pus was removed using a 12 mm \nballoon. \nFollowing the procedure, the patients saturation dropped, \ntherefore given the large sphicterotomy and clearance of duct, \nit was decided not to stent the common bile duct. \n \nShe was ordered for Cipro/Flagyl and will complete a 2 week \ncourse.\n\nShe will need a follow-up with EGD on ___.\n\nShe was admitted to the floor and did well without \ncomplications. Her diet was advanced and she reported no pain. \nHer abdomen was soft and nontender. \n\nShe will need continued ___.\n\nDischarge Diagnosis:\ncholedocoduodenal fistula - Pus discharge in the major papilla",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 23,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamides",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 56,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperlipidemia",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 224,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 235,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 241,
+          "char_end": 262,
+          "turn_id": null
+        }
+      ],
+      "text": "mental status changes",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 312,
+          "char_end": 320,
+          "turn_id": null
+        }
+      ],
+      "text": "confused",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 386,
+          "char_end": 408,
+          "turn_id": null
+        }
+      ],
+      "text": "short-term memory loss",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 431,
+          "char_end": 450,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty standing",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 517,
+          "char_end": 539,
+          "turn_id": null
+        }
+      ],
+      "text": "diffuse abdominal pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 551,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 560,
+          "char_end": 569,
+          "turn_id": null
+        }
+      ],
+      "text": "vomitting",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 586,
+          "char_end": 592,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 596,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 754,
+          "char_end": 766,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperlipidemia",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 809,
+          "char_end": 820,
+          "turn_id": null
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 836,
+          "char_end": 847,
+          "turn_id": null
+        }
+      ],
+      "text": "Cholangitis",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 948,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 961,
+          "char_end": 974,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 976,
+          "char_end": 989,
+          "turn_id": null
+        }
+      ],
+      "text": "metronidazole",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1034,
+          "turn_id": null
+        }
+      ],
+      "text": "Monitor temperature curve",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1047,
+          "char_end": 1059,
+          "turn_id": null
+        }
+      ],
+      "text": "antiobiotics",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1076,
+          "char_end": 1080,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1112,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-hypertensives",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1127,
+          "char_end": 1134,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1139,
+          "char_end": 1149,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1157,
+          "turn_id": null
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1169,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "alprazolam",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1181,
+          "char_end": 1191,
+          "turn_id": null
+        }
+      ],
+      "text": "citalopram",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1211,
+          "char_end": 1214,
+          "turn_id": null
+        }
+      ],
+      "text": "B12",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1219,
+          "char_end": 1231,
+          "turn_id": null
+        }
+      ],
+      "text": "multivitamin",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1264,
+          "turn_id": null
+        }
+      ],
+      "text": "IV \nfluids",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1297,
+          "char_end": 1301,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1327,
+          "char_end": 1337,
+          "turn_id": null
+        }
+      ],
+      "text": "Ulceration",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1392,
+          "char_end": 1417,
+          "turn_id": null
+        }
+      ],
+      "text": "choledocoduodenal fistula",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1429,
+          "char_end": 1464,
+          "turn_id": null
+        }
+      ],
+      "text": "pus discharge in the major \npapilla",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1477,
+          "char_end": 1491,
+          "turn_id": null
+        }
+      ],
+      "text": "sphincterotomy",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1624,
+          "char_end": 1652,
+          "turn_id": null
+        }
+      ],
+      "text": "extraction of Sludge and pus",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1638,
+          "char_end": 1644,
+          "turn_id": null
+        }
+      ],
+      "text": "Sludge",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1649,
+          "char_end": 1652,
+          "turn_id": null
+        }
+      ],
+      "text": "pus",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1728,
+          "char_end": 1746,
+          "turn_id": null
+        }
+      ],
+      "text": "saturation dropped",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1775,
+          "char_end": 1788,
+          "turn_id": null
+        }
+      ],
+      "text": "sphicterotomy",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1835,
+          "char_end": 1861,
+          "turn_id": null
+        }
+      ],
+      "text": "stent the common bile duct",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1886,
+          "char_end": 1891,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1892,
+          "char_end": 1898,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1919,
+          "char_end": 1933,
+          "turn_id": null
+        }
+      ],
+      "text": "2 week \ncourse",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1967,
+          "char_end": 1970,
+          "turn_id": null
+        }
+      ],
+      "text": "EGD",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2089,
+          "char_end": 2093,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2185,
+          "char_end": 2210,
+          "turn_id": null
+        }
+      ],
+      "text": "choledocoduodenal fistula",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2213,
+          "char_end": 2247,
+          "turn_id": null
+        }
+      ],
+      "text": "Pus discharge in the major papilla",
+      "id": "e55"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:100553:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi, I'm allergic to alot of abx,PCN's included. My daughter was recently given Amoxicillin 400/5ml. I accidently got a little bit on my finger 2 days ago and absently licked it off without thinking about it. This morning I woke up and realized i was having an allergic reaction very similar to how I react to PCN. I took a Benadryl and it seemed to help, but my itching has returned.  Is it possible for me to be reacting to my daughter's medicine or could I be reacting to the new Antacid or Prozac that I recently started?\n[doctor] Hello,Thank you for asking at HCM.I went through your history and would like to make suggestions for you as follows:1. As you are allergic to antibiotics, I would first think of amoxicillin. I would suggest you to take an antihistamine like Benadryl (that you have already taken) or cetirizine or hydroxyzine for 3 days.2. Antacids like Prozac can rarely cause allergies but it is not very common.Hope above suggestions will be helpful to you.Should you have any further query, please feel free to ask at HCM.Wish you the best of the health and a very good recovery.Thank you & Regards.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 29,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 38,
+          "char_end": 41,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic to abx",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 41,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "abx",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 47,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "PCN's",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 100,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Amoxicillin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 108,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "400/5ml",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 270,
+          "char_end": 287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 333,
+          "char_end": 341,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 379,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 499,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Antacid",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 503,
+          "char_end": 509,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prozac",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 697,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic to antibiotics",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 686,
+          "char_end": 697,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 722,
+          "char_end": 733,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 779,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihistamine",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 785,
+          "char_end": 793,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 837,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cetirizine",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 841,
+          "char_end": 852,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hydroxyzine",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 863,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for 3 days",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 867,
+          "char_end": 875,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Antacids",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 881,
+          "char_end": 887,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Prozac",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 914,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergies",
+      "id": "e21"
+    }
+  ]
+}

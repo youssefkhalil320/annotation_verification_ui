@@ -1,0 +1,229 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:191941:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My wife is diabetic, has high blood pressure and high cholesterol as well as generalized anxiety disorder. She had stopped taking all her medications and her anxiety level increased. She is back on her medications. This morning she was very dizzy and fell down a few times. I did not give her the prescribed medication for blood pressure this morning...Co-candestran HTC 16/12.5mg. I was able to get hold of a instrument to measure blood pressure. I just checked her pressure and it was 104 over 69. The question is...should I give her the pressure medication if her pressure is under 120 over 80? Is it possible that her dizziness in the morning was caused by low blood pressure? Thank you for your kind response. Sorry, I tried to proceed and found out that advise required payment. I am in Toronto Canada and we have free medical consultation paid by OHIP...Thank you all the same\n[doctor] HI, thanks for using healthcare magicIt is possible that her dizziness is related to her blood pressure readings especially if her reading is normally higher than this.You may want to withhold the medication for now and consult her doctor. She  may need a trial off or with reduced medication to see what her readings are like.I hope this helps",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 29,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diabetic",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 54,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 75,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high cholesterol",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 87,
+          "char_end": 115,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "generalized anxiety disorder",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped taking all her medications",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 191,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety level increased",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 256,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 347,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "medication for blood pressure",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 363,
+          "char_end": 380,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Co-candestran HTC",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 381,
+          "char_end": 390,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "16/12.5mg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 456,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "measure blood pressure",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 485,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "checked her pressure",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 569,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pressure medication",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 632,
+          "char_end": 641,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 671,
+          "char_end": 689,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "low blood pressure",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 973,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dizziness",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 992,
+          "char_end": 1015,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood pressure readings",
+      "id": "e17"
+    }
+  ]
+}

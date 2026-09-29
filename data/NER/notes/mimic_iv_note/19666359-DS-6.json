@@ -1,0 +1,1994 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19666359-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\ncodeine\n\nChief Complaint:\nHypotension\n\nHistory of Present Illness:\nMs. ___ is a ___ year old female with PMH significant for \nHTN, HLD, DMII who presented to ___ with nausea, \nvomiting, diarrhea, abdominal pain, hypotensive, found to be \nseptic ___ cholangitis now transferred for further management of \nsepsis and possible ERCP.\n\nPt. had been in her usual state of health until the evening of \n___ when she noted the acute onset of nausea, vomiting, large \nwell-formed bowel movements, and diffuse mild abdominal pain.  \nPt. also endorses associated worsening of her mid back pain, \nchills, malaise, and generalized weakness but denies any \nsubjective fever, , rigors, or sick contacts.  Per pt's daughter \nwho she ___ with, no evidence of coffee ground emesis or \nblood in  On the morning of ___, pt. presented to ___ \n___.  At this time, her initial VS T 98.5, Tmax102.5, HR \n105, BP 131/85, RR 18, Sat 97% on RA.  She was noted to be in \nNAD and was given 1L NS, zofran, protonix, and pepcid.  CXR \nrevealed a possible infiltrate in the left lower lobe.  She was \nlater admitted to medicine where a Abdominal ultrasound revealed \ncholedocholithiasis, mild intrahepatic biliary dilation, stones \nin the gallbladder neck, and dilation of common left hepatic \nduct.  An MRCP was later done which confirmed \ncholedocholithiasis, cholelithiasis, 3 calculi in the common \nbile duct, intra/extra hepatic biliary duct dilation.  A HIDA \nscan was then performed which showed likely cystic duct \nobstruction and partial CBD obstruction. Pt. was initially \nstarted on cefazolin.   Her blood cultures from ___ later \ngrew GNRs.  She was transferred to ___ for further management. \n  \n\nOn arrival to the ___ ED, pt's VS were 98.6, 155/97, 82, RR \n18, Sat 100% on 2L NC.  Pt. received 1L NS and Zosyn 4.5G IV x1. \n She was transferred to the ___ at that time.\n\nOn arrival to the ___, pt. was noted to be in NAD, \nhemodynamically stable, and alert/oriented partially to place, \nfully to person and time.  Pt. denies any current nausea, \nvomiting, abdominal pain, diarrhea, CP, SOB, lightheadedness, \ndizziness, fevers, chills, or rigors.\n\nBrief Hospital Course:\nMs. ___ is a ___ year old female with PMH significant for \nHTN, HLD, DMII who presented to ___ with nausea, \nvomiting, diarrhea, abdominal pain, hypotensive, found to be \nseptic with cholangitis transferred for further management of \nsepsis and possible ERCP.\n\n# Sepsis, cholangitis, bacteremia.  Pt. with acute onset of \nnausea/vomiting.  Presented to OSH with elevated LFTs, TBili, \nlipase later found to have evidence of cholelithiasis, \ncholedocholethiasis, and likely cholangitis on abdominal \nultrasound, MRCP, and HIDA scan.  Pt. was placed on cefazolin at \nthe outside hospital and given several liters of IVF.  OSH Blood \ncultures later pan-sensitive Ecoli. Antibiotics will continue \nfor a 14 day course(day #1 ___. Patient was on IV \nantibiotics (Zosyn) initially, and then transitioned to cipro \nlast day of antibiotics ___. Patient will need repeat ERCP \nin 4 weeks for stent removal. Dr. ___ will contact \nthe patient with an appointment.\n\n#Pancreatitis:  Pt. with acute worsening of chronic back pain \nlocated in middle of back at midline later found to have an \nelevated lipase to 2000s at OSH.  Likely ___ gallstone \npancreatitis. Pt received upportive treatment with IV fluids, \nbowel rest and pain management. The patient was tolerating a \nregular diet prior to discharge.\n\n# Left lower lobe infiltrate:  Pt. with evidence of LLL \ninfiltrate at OSH.  Pt. without evidence of cough, SOB, or other \nsymptoms suggestive of pneumonia. She was not given antibiotics \nfor pneumonia while hospitalized. \n\n# Anemia:  Pt. with normocytic anemia. Last hct at PCP office \nwas in ___ (34). Recommend repeat CBC next week. HCT on \ndischarge 27.4.\n\n# ___:  Pt. with evidence of elevated creatinine and elevated \nBUN/Creatinine ratio, likely pre-renal. Improved with IV fluids. \nCreatinine on discharge 1.3. Recommend repeat BUN/Cr check next \nweek. \n\n#Hypertension, benign\nPatient with history of hypertension, antihypertensives were \nheld on admission in the setting of sepsis and cholangitis. \nRecommend resuming Amlodipine and Metoprolol. IF blood pressure \ntolerates, can resume additonal blood pressure medications.\n\n#B/L foot pain\nPatient had complaints of B/L foot pain on the day prior to \ndischarge. She underwent xrays which were negative for fracture. \nIt is possible her foot pain represents neuropathy given that it \nis bilateral and burning in nature. Could consider trial of \ngabapentin if persits.\n\nTransitional issues:\n- FULL CODE\n- Needs repeat ERCP In 4 weeks for stent pull\n- Recommend rechecking CBC and Chem-7 this week\n- Anti-hypertensives were held while hospitalized. Recommend \nresuming amlodipine and metoprolol. Resume additional BP meds as \nblood pressure tolerates.\n\nDischarge Diagnosis:\nCholangitis\nCholedocholithiasis\nBacteremia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypotension",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 140,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 145,
+          "turn_id": null
+        }
+      ],
+      "text": "HLD",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "DMII",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 184,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 195,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 221,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 234,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 249,
+          "char_end": 255,
+          "turn_id": null
+        }
+      ],
+      "text": "septic",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 271,
+          "turn_id": null
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 321,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 339,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 339,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 444,
+          "char_end": 450,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 452,
+          "char_end": 460,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 529,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 592,
+          "turn_id": null
+        }
+      ],
+      "text": "mid back pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 603,
+          "char_end": 610,
+          "turn_id": null
+        }
+      ],
+      "text": "malaise",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 636,
+          "turn_id": null
+        }
+      ],
+      "text": "generalized weakness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 669,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 679,
+          "turn_id": null
+        }
+      ],
+      "text": "rigors",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 752,
+          "char_end": 772,
+          "turn_id": null
+        }
+      ],
+      "text": "coffee ground emesis",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 882,
+          "turn_id": null
+        }
+      ],
+      "text": "Tmax102",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 884,
+          "turn_id": null
+        }
+      ],
+      "text": "Tmax102.5",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 893,
+          "turn_id": null
+        }
+      ],
+      "text": "HR \n105",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 971,
+          "char_end": 973,
+          "turn_id": null
+        }
+      ],
+      "text": "1L",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 978,
+          "char_end": 984,
+          "turn_id": null
+        }
+      ],
+      "text": "zofran",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 986,
+          "char_end": 994,
+          "turn_id": null
+        }
+      ],
+      "text": "protonix",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1000,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "pepcid",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1012,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1067,
+          "turn_id": null
+        }
+      ],
+      "text": "infiltrate in the left lower lobe",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1114,
+          "char_end": 1134,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal ultrasound",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1145,
+          "char_end": 1164,
+          "turn_id": null
+        }
+      ],
+      "text": "choledocholithiasis",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1171,
+          "char_end": 1200,
+          "turn_id": null
+        }
+      ],
+      "text": "intrahepatic biliary dilation",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1202,
+          "char_end": 1233,
+          "turn_id": null
+        }
+      ],
+      "text": "stones \nin the gallbladder neck",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1239,
+          "char_end": 1276,
+          "turn_id": null
+        }
+      ],
+      "text": "dilation of common left hepatic \nduct",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1282,
+          "char_end": 1286,
+          "turn_id": null
+        }
+      ],
+      "text": "MRCP",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1319,
+          "char_end": 1338,
+          "turn_id": null
+        }
+      ],
+      "text": "choledocholithiasis",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1340,
+          "char_end": 1354,
+          "turn_id": null
+        }
+      ],
+      "text": "cholelithiasis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1390,
+          "turn_id": null
+        }
+      ],
+      "text": "calculi in the common \nbile duct",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1392,
+          "char_end": 1433,
+          "turn_id": null
+        }
+      ],
+      "text": "intra/extra hepatic biliary duct dilation",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1438,
+          "char_end": 1448,
+          "turn_id": null
+        }
+      ],
+      "text": "HIDA \nscan",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1488,
+          "char_end": 1512,
+          "turn_id": null
+        }
+      ],
+      "text": "cystic duct \nobstruction",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1517,
+          "char_end": 1540,
+          "turn_id": null
+        }
+      ],
+      "text": "partial CBD obstruction",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1572,
+          "char_end": 1581,
+          "turn_id": null
+        }
+      ],
+      "text": "cefazolin",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1589,
+          "char_end": 1603,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1786,
+          "char_end": 1788,
+          "turn_id": null
+        }
+      ],
+      "text": "1L",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 1789,
+          "char_end": 1791,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1796,
+          "char_end": 1801,
+          "turn_id": null
+        }
+      ],
+      "text": "Zosyn",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1802,
+          "char_end": 1806,
+          "turn_id": null
+        }
+      ],
+      "text": "4.5G",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1807,
+          "char_end": 1809,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2028,
+          "char_end": 2034,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2037,
+          "char_end": 2045,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2047,
+          "char_end": 2061,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2063,
+          "char_end": 2071,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2077,
+          "char_end": 2080,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2082,
+          "char_end": 2097,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2100,
+          "char_end": 2109,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2111,
+          "char_end": 2117,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2119,
+          "char_end": 2125,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2130,
+          "char_end": 2136,
+          "turn_id": null
+        }
+      ],
+      "text": "rigors",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2221,
+          "char_end": 2224,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2226,
+          "char_end": 2229,
+          "turn_id": null
+        }
+      ],
+      "text": "HLD",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2231,
+          "char_end": 2235,
+          "turn_id": null
+        }
+      ],
+      "text": "DMII",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2262,
+          "char_end": 2268,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2271,
+          "char_end": 2279,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2281,
+          "char_end": 2289,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2291,
+          "char_end": 2305,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2307,
+          "char_end": 2318,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2333,
+          "char_end": 2339,
+          "turn_id": null
+        }
+      ],
+      "text": "septic",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2345,
+          "char_end": 2356,
+          "turn_id": null
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2396,
+          "char_end": 2402,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2416,
+          "char_end": 2420,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2425,
+          "char_end": 2431,
+          "turn_id": null
+        }
+      ],
+      "text": "Sepsis",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2433,
+          "char_end": 2444,
+          "turn_id": null
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2446,
+          "char_end": 2456,
+          "turn_id": null
+        }
+      ],
+      "text": "bacteremia",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2484,
+          "char_end": 2490,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2491,
+          "char_end": 2499,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2524,
+          "char_end": 2532,
+          "turn_id": null
+        },
+        {
+          "char_start": 2539,
+          "char_end": 2544,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated TBili",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2524,
+          "char_end": 2537,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated LFTs",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2533,
+          "char_end": 2537,
+          "turn_id": null
+        }
+      ],
+      "text": "LFTs",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2539,
+          "char_end": 2544,
+          "turn_id": null
+        }
+      ],
+      "text": "TBili",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2547,
+          "char_end": 2553,
+          "turn_id": null
+        }
+      ],
+      "text": "lipase",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2586,
+          "char_end": 2600,
+          "turn_id": null
+        }
+      ],
+      "text": "cholelithiasis",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2603,
+          "char_end": 2622,
+          "turn_id": null
+        }
+      ],
+      "text": "choledocholethiasis",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2635,
+          "char_end": 2646,
+          "turn_id": null
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2650,
+          "char_end": 2671,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal \nultrasound",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2673,
+          "char_end": 2677,
+          "turn_id": null
+        }
+      ],
+      "text": "MRCP",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2683,
+          "char_end": 2692,
+          "turn_id": null
+        }
+      ],
+      "text": "HIDA scan",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2713,
+          "char_end": 2722,
+          "turn_id": null
+        }
+      ],
+      "text": "cefazolin",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2776,
+          "char_end": 2779,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2786,
+          "char_end": 2801,
+          "turn_id": null
+        },
+        {
+          "char_start": 2808,
+          "char_end": 2827,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood \ncultures pan-sensitive Ecoli",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2786,
+          "char_end": 2801,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood \ncultures",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2860,
+          "char_end": 2875,
+          "turn_id": null
+        }
+      ],
+      "text": "a 14 day course",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2907,
+          "char_end": 2918,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2920,
+          "char_end": 2925,
+          "turn_id": null
+        }
+      ],
+      "text": "Zosyn",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2963,
+          "char_end": 2968,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3024,
+          "char_end": 3028,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3045,
+          "char_end": 3058,
+          "turn_id": null
+        }
+      ],
+      "text": "stent removal",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3117,
+          "char_end": 3129,
+          "turn_id": null
+        }
+      ],
+      "text": "Pancreatitis",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3168,
+          "char_end": 3215,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain \nlocated in middle of back at midline",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3240,
+          "char_end": 3264,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated lipase to 2000s",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3249,
+          "char_end": 3255,
+          "turn_id": null
+        }
+      ],
+      "text": "lipase",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3285,
+          "char_end": 3308,
+          "turn_id": null
+        }
+      ],
+      "text": "gallstone \npancreatitis",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3457,
+          "char_end": 3483,
+          "turn_id": null
+        }
+      ],
+      "text": "Left lower lobe infiltrate",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3507,
+          "char_end": 3522,
+          "turn_id": null
+        }
+      ],
+      "text": "LLL \ninfiltrate",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3556,
+          "char_end": 3561,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3563,
+          "char_end": 3566,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3601,
+          "char_end": 3610,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3647,
+          "char_end": 3656,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3681,
+          "char_end": 3687,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3699,
+          "char_end": 3716,
+          "turn_id": null
+        }
+      ],
+      "text": "normocytic anemia",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3723,
+          "char_end": 3726,
+          "turn_id": null
+        }
+      ],
+      "text": "hct",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3776,
+          "char_end": 3779,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3791,
+          "char_end": 3794,
+          "turn_id": null
+        }
+      ],
+      "text": "HCT",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3845,
+          "char_end": 3864,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated creatinine",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3854,
+          "char_end": 3864,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3869,
+          "char_end": 3899,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated \nBUN/Creatinine ratio",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3879,
+          "char_end": 3899,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN/Creatinine ratio",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3991,
+          "char_end": 4003,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN/Cr check",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4019,
+          "char_end": 4031,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4064,
+          "char_end": 4076,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4078,
+          "char_end": 4095,
+          "turn_id": null
+        }
+      ],
+      "text": "antihypertensives",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4138,
+          "char_end": 4144,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4149,
+          "char_end": 4160,
+          "turn_id": null
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4182,
+          "char_end": 4192,
+          "turn_id": null
+        }
+      ],
+      "text": "Amlodipine",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4197,
+          "char_end": 4207,
+          "turn_id": null
+        }
+      ],
+      "text": "Metoprolol",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4212,
+          "char_end": 4226,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e132"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 4260,
+          "char_end": 4274,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e133"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4260,
+          "char_end": 4286,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure medications",
+      "id": "e134"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4290,
+          "char_end": 4303,
+          "turn_id": null
+        }
+      ],
+      "text": "B/L foot pain",
+      "id": "e135"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4330,
+          "char_end": 4343,
+          "turn_id": null
+        }
+      ],
+      "text": "B/L foot pain",
+      "id": "e136"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4390,
+          "char_end": 4395,
+          "turn_id": null
+        }
+      ],
+      "text": "xrays",
+      "id": "e137"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 4420,
+          "char_end": 4428,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture",
+      "id": "e138"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4471,
+          "char_end": 4481,
+          "turn_id": null
+        }
+      ],
+      "text": "neuropathy",
+      "id": "e139"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4514,
+          "char_end": 4521,
+          "turn_id": null
+        }
+      ],
+      "text": "burning",
+      "id": "e140"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4558,
+          "char_end": 4568,
+          "turn_id": null
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e141"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4630,
+          "char_end": 4634,
+          "turn_id": null
+        }
+      ],
+      "text": "ERCP",
+      "id": "e142"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 4650,
+          "char_end": 4660,
+          "turn_id": null
+        }
+      ],
+      "text": "stent pull",
+      "id": "e143"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4684,
+          "char_end": 4687,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e144"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4692,
+          "char_end": 4698,
+          "turn_id": null
+        }
+      ],
+      "text": "Chem-7",
+      "id": "e145"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4711,
+          "char_end": 4729,
+          "turn_id": null
+        }
+      ],
+      "text": "Anti-hypertensives",
+      "id": "e146"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4780,
+          "char_end": 4790,
+          "turn_id": null
+        }
+      ],
+      "text": "amlodipine",
+      "id": "e147"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4795,
+          "char_end": 4805,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e148"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4825,
+          "char_end": 4832,
+          "turn_id": null
+        }
+      ],
+      "text": "BP meds",
+      "id": "e149"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4885,
+          "char_end": 4896,
+          "turn_id": null
+        }
+      ],
+      "text": "Cholangitis",
+      "id": "e150"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4897,
+          "char_end": 4916,
+          "turn_id": null
+        }
+      ],
+      "text": "Choledocholithiasis",
+      "id": "e151"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4917,
+          "char_end": 4927,
+          "turn_id": null
+        }
+      ],
+      "text": "Bacteremia",
+      "id": "e152"
+    }
+  ]
+}

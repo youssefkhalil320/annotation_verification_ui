@@ -1,0 +1,455 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:209515:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have chronic akathisa, which I have had for about 2 years (diagnosed by UCLA movement disorder clinic).  I have been on multiple medications (narcotics from failed back fusion--cold turkey withdraw 3 years ago, reglan for motility issues related to narcotics, but cease after 3 months about 3 years ago, neurontin and lyrica for back pain nerve damage, ceased 1 1/2 year ago, prozac for depression due to back pain and stomach pain, but cease 1 1/2 years ago).  I have tried valium/klonopin but causes GI motility problems and so cease 6 months ago, and tried beta blocker, but it made me feel very very sick.  I now exercise, meditate, yoga, hot baths.  But I am still absolutely coming out of my skin and have anger issues which blackens my soul.  Yesterday tried passion flower extract, but it not help and not like reaction of feel like I was rushing.  I doubt there is anything else, but open to suggestions.  Thanks.\n[doctor] HIThanks for using healthcare magicIn akathisia, you can try central anticholinergic drugs and benzodiazepine. You have already tried beta blocker, so there is no need to take them. Alone with these drugs, you can try vitamin E or clonidine etc. In your case, getting response with these drugs is difficult. Commonly drugs in akathisia are beta blocker and central anticholinergic drugs. Try them and in case, you need further help, you can ask.Thanks",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 25,
+          "char_end": 33,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "akathisa",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "narcotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 187,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back fusion",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 209,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdraw",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 229,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "reglan",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 249,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "motility issues",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 270,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "narcotics",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 296,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 months",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 316,
+          "char_end": 325,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "neurontin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 336,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lyrica",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 363,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nerve damage",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 388,
+          "char_end": 394,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prozac",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 399,
+          "char_end": 409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 417,
+          "char_end": 426,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "back pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 431,
+          "char_end": 443,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach pain",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 487,
+          "char_end": 493,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "valium",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 502,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "klonopin",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 534,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "GI motility problems",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 584,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "beta blocker",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 620,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 693,
+          "char_end": 714,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "coming out of my skin",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 724,
+          "char_end": 736,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anger issues",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 800,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "passion flower extract",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 843,
+          "char_end": 852,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 859,
+          "char_end": 866,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "feel like rushing",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 982,
+          "char_end": 991,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "akathisia",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1005,
+          "char_end": 1034,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "central anticholinergic drugs",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1039,
+          "char_end": 1053,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "benzodiazepine",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1078,
+          "char_end": 1090,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "beta blocker",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1162,
+          "char_end": 1171,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin E",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1184,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clonidine",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1270,
+          "char_end": 1279,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "akathisia",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1284,
+          "char_end": 1296,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "beta blocker",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1301,
+          "char_end": 1330,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "central anticholinergic drugs",
+      "id": "e34"
+    }
+  ]
+}

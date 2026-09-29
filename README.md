@@ -1,6 +1,6 @@
 # Entity Review
 
-Static deployment of the physician annotation interface with 240 ACI Bench documents, 200 MEDMENTIONS abstracts, and 200 representative CADEC forum documents. `index.html` is the entry point.
+Static deployment of the physician annotation interface with 1004 NER_V2 documents: 240 ACI Bench, 200 MEDMENTIONS abstracts, 200 representative CADEC forum documents, 168 MedDialog dialogues, 164 MIMIC-IV notes, and 32 PriMock57 documents (16 dialogues, 16 notes). `index.html` is the entry point.
 
 ## Multi-annotator review storage
 

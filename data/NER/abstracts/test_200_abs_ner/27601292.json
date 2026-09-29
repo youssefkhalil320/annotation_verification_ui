@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 48,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 92,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 105,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 233,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 323,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 361,
@@ -103,9 +96,21 @@
       "id": "e7"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 422,
+          "char_end": 463,
+          "turn_id": null
+        }
+      ],
+      "text": "higher voriconazole trough concentrations",
+      "id": "e8"
+    },
+    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 429,
@@ -114,12 +119,11 @@
         }
       ],
       "text": "voriconazole",
-      "id": "e8"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 429,
@@ -128,12 +132,11 @@
         }
       ],
       "text": "voriconazole trough concentrations",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 511,
@@ -142,12 +145,11 @@
         }
       ],
       "text": "inflammation",
-      "id": "e10"
+      "id": "e11"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 527,
@@ -156,12 +158,11 @@
         }
       ],
       "text": "voriconazole",
-      "id": "e11"
+      "id": "e12"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 555,
@@ -170,12 +171,11 @@
         }
       ],
       "text": "voriconazole",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 555,
@@ -184,12 +184,11 @@
         }
       ],
       "text": "voriconazole trough concent ratio ns",
-      "id": "e13"
+      "id": "e14"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 766,
@@ -198,26 +197,29 @@
         }
       ],
       "text": "voriconazole",
-      "id": "e14"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 780,
-          "char_end": 792,
-          "turn_id": null
-        }
-      ],
-      "text": "Voriconazole",
       "id": "e15"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 780,
+          "char_end": 792,
+          "turn_id": null
+        },
+        {
+          "char_start": 818,
+          "char_end": 832,
+          "turn_id": null
+        }
+      ],
+      "text": "Voriconazole concentrations",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
       "spans": [
         {
           "char_start": 780,
@@ -226,12 +228,24 @@
         }
       ],
       "text": "Voriconazole",
-      "id": "e16"
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 809,
+          "turn_id": null
+        }
+      ],
+      "text": "voriconazole",
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 797,
@@ -240,12 +254,11 @@
         }
       ],
       "text": "voriconazole-N-oxide concentrations",
-      "id": "e17"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 904,
@@ -254,40 +267,24 @@
         }
       ],
       "text": "inflammation",
-      "id": "e18"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 918,
-          "char_end": 936,
+          "char_end": 957,
           "turn_id": null
         }
       ],
-      "text": "C-reactive protein",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 938,
-          "char_end": 941,
-          "turn_id": null
-        }
-      ],
-      "text": "CRP",
-      "id": "e20"
+      "text": "C-reactive protein (CRP) concentrations",
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1050,
@@ -296,12 +293,11 @@
         }
       ],
       "text": "inflammation",
-      "id": "e21"
+      "id": "e22"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1070,
@@ -310,30 +306,15 @@
         }
       ],
       "text": "metabolic ratio",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1090,
-          "char_end": 1102,
-          "turn_id": null
-        }
-      ],
-      "text": "voriconazole",
       "id": "e23"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 1174,
-          "char_end": 1186,
+          "char_start": 1090,
+          "char_end": 1102,
           "turn_id": null
         }
       ],
@@ -343,7 +324,32 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1090,
+          "char_end": 1123,
+          "turn_id": null
+        }
+      ],
+      "text": "voriconazole trough concentration",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1174,
+          "char_end": 1186,
+          "turn_id": null
+        }
+      ],
+      "text": "voriconazole",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
           "char_start": 1174,
@@ -352,12 +358,11 @@
         }
       ],
       "text": "voriconazole trough concentrations",
-      "id": "e25"
+      "id": "e27"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1284,
@@ -366,12 +371,11 @@
         }
       ],
       "text": "inflammation",
-      "id": "e26"
+      "id": "e28"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1311,
@@ -380,12 +384,11 @@
         }
       ],
       "text": "CRP concentrations",
-      "id": "e27"
+      "id": "e29"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1361,
@@ -394,12 +397,11 @@
         }
       ],
       "text": "metabolic ratio",
-      "id": "e28"
+      "id": "e30"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1378,
@@ -408,58 +410,28 @@
         }
       ],
       "text": "voriconazole",
-      "id": "e29"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1416,
-          "char_end": 1450,
-          "turn_id": null
-        }
-      ],
-      "text": "voriconazole-N-oxide concentration",
-      "id": "e30"
+      "id": "e31"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 1522,
-          "char_end": 1534,
+          "char_start": 1416,
+          "char_end": 1428,
           "turn_id": null
         }
       ],
       "text": "voriconazole",
-      "id": "e31"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1551,
-          "char_end": 1566,
-          "turn_id": null
-        }
-      ],
-      "text": "metabolic ratio",
       "id": "e32"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 1603,
-          "char_end": 1637,
+          "char_start": 1416,
+          "char_end": 1450,
           "turn_id": null
         }
       ],
@@ -469,7 +441,63 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1534,
+          "turn_id": null
+        }
+      ],
+      "text": "voriconazole",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1551,
+          "char_end": 1566,
+          "turn_id": null
+        },
+        {
+          "char_start": 1571,
+          "char_end": 1580,
+          "turn_id": null
+        }
+      ],
+      "text": "metabolic ratio decreased",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1551,
+          "char_end": 1566,
+          "turn_id": null
+        }
+      ],
+      "text": "metabolic ratio",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1603,
+          "char_end": 1615,
+          "turn_id": null
+        }
+      ],
+      "text": "voriconazole",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
       "spans": [
         {
           "char_start": 1663,
@@ -478,40 +506,11 @@
         }
       ],
       "text": "voriconazole",
-      "id": "e34"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1663,
-          "char_end": 1696,
-          "turn_id": null
-        }
-      ],
-      "text": "voriconazole trough concentration",
-      "id": "e35"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1756,
-          "char_end": 1759,
-          "turn_id": null
-        }
-      ],
-      "text": "CRP",
-      "id": "e36"
+      "id": "e38"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1799,
@@ -520,12 +519,11 @@
         }
       ],
       "text": "voriconazole",
-      "id": "e37"
+      "id": "e39"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1843,
@@ -534,58 +532,28 @@
         }
       ],
       "text": "inflammation",
-      "id": "e38"
+      "id": "e40"
     },
     {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "patient",
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
-          "char_start": 1877,
-          "char_end": 1889,
-          "turn_id": null
-        }
-      ],
-      "text": "voriconazole",
-      "id": "e39"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1877,
+          "char_start": 1870,
           "char_end": 1912,
           "turn_id": null
         }
       ],
-      "text": "voriconazole trough concentration s",
-      "id": "e40"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "monitoring",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1934,
-          "char_end": 1981,
-          "turn_id": null
-        }
-      ],
-      "text": "monitoring of voriconazole serum concentrations",
+      "text": "higher voriconazole trough concentration s",
       "id": "e41"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 1948,
-          "char_end": 1960,
+          "char_start": 1877,
+          "char_end": 1889,
           "turn_id": null
         }
       ],
@@ -595,7 +563,32 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1877,
+          "char_end": 1912,
+          "turn_id": null
+        }
+      ],
+      "text": "voriconazole trough concentration s",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1934,
+          "char_end": 1981,
+          "turn_id": null
+        }
+      ],
+      "text": "monitoring of voriconazole serum concentrations",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
           "char_start": 1948,
@@ -604,12 +597,11 @@
         }
       ],
       "text": "voriconazole serum concentrations",
-      "id": "e43"
+      "id": "e45"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2025,
@@ -618,7 +610,7 @@
         }
       ],
       "text": "inflammation",
-      "id": "e44"
+      "id": "e46"
     }
   ]
 }

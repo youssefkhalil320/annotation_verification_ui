@@ -1,0 +1,265 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:85367:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My doc asked me to stop taking Losartan Potassium HCTZ (50 & 12.5 mg) because of side effects like sleep problems, eye pain and increase in heart palpitations. I stopped 4 days so far after taking it almost 18 months and my BP now is 125 / 87. I m 40+. Any risk of stroke?\n[doctor] Hello,  A daytime blood pressure above 130/80 (either one of those numbers) is considered to be high blood pressure, which is a known risk factor for stroke. So if your BP continues to have a lower number higher than 80, I would consider talking with your doctor about how to manage that. Diet and exercise can often lower it without medications as well. That being said, if this is your only risk factor for stroke, and your cholesterol is good, and no diabetes, I would consider your risk for stroke to be very low.Hope I have answered your query. Let me know if I can assist you further.  Regards, Dr. Aaron Branch, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 64,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Losartan Potassium HCTZ",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 78,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "50 & 12.5 mg",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 123,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep problems",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "eye pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 168,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart palpitations",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 180,
+          "char_end": 186,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4 days",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 217,
+          "char_end": 226,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "18 months",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 236,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 248,
+          "char_end": 252,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP / 87",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 236,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 281,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stroke",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 310,
+          "char_end": 337,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood pressure above 130/80",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 388,
+          "char_end": 407,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 442,
+          "char_end": 448,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stroke",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 461,
+          "char_end": 463,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 484,
+          "char_end": 511,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "BP lower number higher than 80",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 461,
+          "char_end": 463,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "BP",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 701,
+          "char_end": 707,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stroke",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 718,
+          "char_end": 729,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cholesterol",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 746,
+          "char_end": 754,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 793,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stroke",
+      "id": "e19"
+    }
+  ]
+}

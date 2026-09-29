@@ -1,0 +1,265 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:84946:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My 3 yr old s scrotum is bright purple on the top part and darker than normal on the bottom half. He is acting normal, no fever, no swelling. We found out he is allergic to ibuprofen last week, with lip swelling two times we gave it to him, so we are sure he is allergic to ibuprofen. Could this color change in his scrotum be at all related to having given him the ibuprofen from five days ago? We notice the discoloration started yesterday (4 days afterward) and thought he was just cold from being in the ocean. We are seeing our ped later today, but wanted to do some research in the meantime. Thanks if you have any thoughts.\n[doctor] Hello,  In my opinion, the symptoms of scrotal discoloration are not related to Ibuprofen allergy.  There are many other conditions that can cause scrotal discoloration. One of them is testicle torsion. So, I suggest doing a scrotal ultrasound to confirm the diagnosis.   Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr Dorina Gurabardhi, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 31,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 69,
+          "char_end": 87,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scrotum darker than normal",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 31,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 42,
+          "char_end": 48,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scrotum purple",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 132,
+          "char_end": 137,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 150,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 192,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic to ibuprofen",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 192,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 221,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lip swelling",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 293,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic to ibuprofen",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 284,
+          "char_end": 293,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 306,
+          "char_end": 333,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "color change in his scrotum",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 385,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 420,
+          "char_end": 433,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "discoloration",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 495,
+          "char_end": 499,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cold",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 710,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "scrotal discoloration",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 730,
+          "char_end": 739,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Ibuprofen",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 730,
+          "char_end": 747,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Ibuprofen allergy",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 818,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "scrotal discoloration",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 851,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "testicle torsion",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 893,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "scrotal ultrasound",
+      "id": "e19"
+    }
+  ]
+}

@@ -1,0 +1,1357 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12007546-DS-11:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nHemoptysis\n\nHistory of Present Illness:\nMs. ___ is a ___ w/ PMH seizure disorder (on ___,\nNHL (s/p XRT ___, in remission, c/b radiation fibrosis) who\npresented s/p episode of hemoptysis on ___.  She reports\nbeing in her usual state of health on ___, without sick \ncontacts, sinusitis, URI or LRI symptoms. That evening, she \nsuddenly felt fluid build in her chest, noticed rattling \nbreathing & felt strong urge to cough. Expectorated quarter \nsized congealed-bright red blood without mucus, which repeated \nseveral times over a 30min period. She estimates a total of ___ \ncup and describes that the blood was thick at first and then \nbecame more thin & mixed with saliva. No mucus throughout. \nHusband called EMS, who noted wheezing with O2sats ~85% which \nimproved to 94% with nasal cannula. She was taken to ___, \nunderwent CTA Chest negative for PE but could not r/o atypical \nPNA. She was transferred to ___ as she receives her Oncology \ncare here. By the time she was in the ___, O2 sat 97% on room \nair. \n\nShe was admitted to the floor and started on ceftriaxone and \nazithromycin. She had no recurrent hemoptysis until the morning \nof ___, which also produced small blood clots. She had \nsustained desaturation to the ___. She was started on \nsupplemental oxygen and sats improved to 100% on facemask and \nnasal cannula. In this setting, she was transferred to the FICU. \n\n\nVitals on transfer:97.9, 125, 132/89, 21, 99% on 5L\n\nIn the FICU, she denies respiratory distress. She is having \nintermittent coughing without ongoing hemoptysis at time of \ninterview. Continues to have sore throat. Remains \nhemodynamically stable but tachycardic to 110s, satting >95% on \n5L NC. Had pneumonia in ___ with fevers, chills, malaise, \ndyspnea and feels nothing like that now. Denies night sweats, \nweight loss, rashes/bruising. LMP 2\nwks ago. Traveled to ___ at end ___ in good health.\n\nBrief Hospital Course:\nMrs. ___ is a ___ year-old lady w/ PMH seizure \ndisorder (on ___, NHL (s/p XRT ___, in remission, c/b \nradiation fibrosis) admitted with episode of hemoptysis and was \ntransferred to the FICU for recurrent large volume hemoptysis \nand worsening respiratory status, now s/p ___ embolization with \ncourse complicated by shock requiring pressors and altered \nmental status, both likely ___ sedation. \n\n=================  \nACTIVE ISSUES  \n=================  \n# Hemoptysis\n# Acute respiratory failure, s/p intubatioon\nHemoptysis may have been secondary to evolution of her radiation \nfibrosis, perhaps with erosion into a vessel resulting in \nspontaneous bleed. She was intubated for ongoing hemoptysis on \n___. Bronchoscopy on ___ showed evidence of bleeding in left \nmainstem, so left mainstem bronchial blocker was placed. ___ \nperformed right and left bronchial artery embolization on ___. \nShe underwent a second bronchoscopy during which blood clots \nwere removed from the airway, and there was no evidence of \nongoing active bleeding. The bronchial blocker was removed. CTA \nat OSH negative for PE. She was extubated on ___ without issue. \n\n- Follow up with IP was arranged on ___\n- she was encouraged to continue incentive spirometer\n\n# Acute encephalopathy\nDecreased interaction and flat affect s/p extubation, which is a \nchange from her baseline. This improved somewhat over time, so \nAMS was thought likely ___ sedatives/analgesia. She does have \nhistory of seizure d/o and had been told only to take brand name \n___, but while NPO due to intubation was receiving IV \nLevetiracetam as IV brand name ___ was not available. An EEG \nwas performed, which showed slow, diffuse cerebral dysfunction \nbut no epileptiform discharges or seizures.  She returned to her \nbaseline after discharge from the ICU\n\n# Bacterial PNA\nPatient had leukocytosis on admission, and CT showed \nconsolidation on left side and left apex. She completed 5 day \ncourse of ceftriaxone/azithromycin.\n\n=================  \nCHRONIC ISSUES  \n=================  \n# Seizure disorder\nContinued ___. When patient was taking po was taking her own \nmedication. Switched to IV after intubation.  Resumed home \nmedication on DC\n \n# Hypothyroidism\nContinue home levothyroxine. Switched from 75mcg po to 37.5mcg \nIV while intubated. \n\n# h/o Mediastinal lymphoma\nOncology consulted and followed peripherally\n\nDischarge Diagnosis:\nHemoptysis\nAtelectasis\nSeizure disorder\nDeconditioning",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 83,
+          "turn_id": null
+        }
+      ],
+      "text": "Hemoptysis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "seizure disorder",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "NHL",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 172,
+          "char_end": 175,
+          "turn_id": null
+        }
+      ],
+      "text": "XRT",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 217,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation fibrosis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 248,
+          "char_end": 258,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 279,
+          "turn_id": null
+        }
+      ],
+      "text": "reports",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 347,
+          "char_end": 356,
+          "turn_id": null
+        }
+      ],
+      "text": "sinusitis",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 361,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 365,
+          "char_end": 368,
+          "turn_id": null
+        }
+      ],
+      "text": "LRI",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 412,
+          "char_end": 436,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid build in her chest",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 446,
+          "char_end": 465,
+          "turn_id": null
+        }
+      ],
+      "text": "rattling \nbreathing",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 488,
+          "char_end": 493,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 798,
+          "char_end": 806,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezing",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 823,
+          "turn_id": null
+        }
+      ],
+      "text": "O2sats ~85%",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 909,
+          "turn_id": null
+        }
+      ],
+      "text": "CTA Chest",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 925,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 944,
+          "char_end": 957,
+          "turn_id": null
+        }
+      ],
+      "text": "atypical \nPNA",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1142,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1160,
+          "turn_id": null
+        }
+      ],
+      "text": "azithromycin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1183,
+          "char_end": 1193,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1247,
+          "char_end": 1258,
+          "turn_id": null
+        }
+      ],
+      "text": "blood clots",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1279,
+          "char_end": 1291,
+          "turn_id": null
+        }
+      ],
+      "text": "desaturation",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1324,
+          "char_end": 1343,
+          "turn_id": null
+        }
+      ],
+      "text": "supplemental oxygen",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1532,
+          "char_end": 1552,
+          "turn_id": null
+        }
+      ],
+      "text": "respiratory distress",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1582,
+          "char_end": 1590,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1607,
+          "char_end": 1617,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1659,
+          "char_end": 1670,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1708,
+          "char_end": 1727,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardic to 110s",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1757,
+          "char_end": 1766,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1779,
+          "char_end": 1785,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1787,
+          "char_end": 1793,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1795,
+          "char_end": 1802,
+          "turn_id": null
+        }
+      ],
+      "text": "malaise",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1805,
+          "char_end": 1812,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1853,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1868,
+          "char_end": 1879,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1881,
+          "char_end": 1887,
+          "turn_id": null
+        }
+      ],
+      "text": "rashes",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1888,
+          "char_end": 1896,
+          "turn_id": null
+        }
+      ],
+      "text": "bruising",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2019,
+          "char_end": 2036,
+          "turn_id": null
+        }
+      ],
+      "text": "seizure \ndisorder",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2046,
+          "char_end": 2049,
+          "turn_id": null
+        }
+      ],
+      "text": "NHL",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2055,
+          "char_end": 2058,
+          "turn_id": null
+        }
+      ],
+      "text": "XRT",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2083,
+          "char_end": 2101,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation fibrosis",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2128,
+          "char_end": 2138,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2199,
+          "char_end": 2209,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2215,
+          "char_end": 2243,
+          "turn_id": null
+        }
+      ],
+      "text": "worsening respiratory status",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2257,
+          "char_end": 2269,
+          "turn_id": null
+        }
+      ],
+      "text": "embolization",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2298,
+          "char_end": 2303,
+          "turn_id": null
+        }
+      ],
+      "text": "shock",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2314,
+          "char_end": 2322,
+          "turn_id": null
+        }
+      ],
+      "text": "pressors",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2327,
+          "char_end": 2349,
+          "turn_id": null
+        }
+      ],
+      "text": "altered \nmental status",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2399,
+          "char_end": 2405,
+          "turn_id": null
+        }
+      ],
+      "text": "ACTIVE",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2437,
+          "char_end": 2447,
+          "turn_id": null
+        }
+      ],
+      "text": "Hemoptysis",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2450,
+          "char_end": 2475,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute respiratory failure",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2481,
+          "char_end": 2492,
+          "turn_id": null
+        }
+      ],
+      "text": "intubatioon",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2493,
+          "char_end": 2503,
+          "turn_id": null
+        }
+      ],
+      "text": "Hemoptysis",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2548,
+          "char_end": 2567,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation \nfibrosis",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2618,
+          "char_end": 2629,
+          "turn_id": null
+        }
+      ],
+      "text": "spontaneous",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2618,
+          "char_end": 2635,
+          "turn_id": null
+        }
+      ],
+      "text": "spontaneous bleed",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2645,
+          "char_end": 2654,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2667,
+          "char_end": 2677,
+          "turn_id": null
+        }
+      ],
+      "text": "hemoptysis",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2687,
+          "char_end": 2699,
+          "turn_id": null
+        }
+      ],
+      "text": "Bronchoscopy",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2726,
+          "char_end": 2752,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding in left \nmainstem",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2757,
+          "char_end": 2788,
+          "turn_id": null
+        },
+        {
+          "char_start": 2793,
+          "char_end": 2799,
+          "turn_id": null
+        }
+      ],
+      "text": "left mainstem bronchial blocker placed",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2816,
+          "char_end": 2860,
+          "turn_id": null
+        }
+      ],
+      "text": "right and left bronchial artery embolization",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2893,
+          "char_end": 2905,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchoscopy",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2919,
+          "char_end": 2930,
+          "turn_id": null
+        }
+      ],
+      "text": "blood clots",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3000,
+          "char_end": 3015,
+          "turn_id": null
+        }
+      ],
+      "text": "active bleeding",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3021,
+          "char_end": 3038,
+          "turn_id": null
+        },
+        {
+          "char_start": 3043,
+          "char_end": 3050,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchial blocker removed",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3077,
+          "char_end": 3079,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3089,
+          "char_end": 3098,
+          "turn_id": null
+        }
+      ],
+      "text": "extubated",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3220,
+          "char_end": 3240,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute encephalopathy",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3241,
+          "char_end": 3262,
+          "turn_id": null
+        }
+      ],
+      "text": "Decreased interaction",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3267,
+          "char_end": 3278,
+          "turn_id": null
+        }
+      ],
+      "text": "flat affect",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3283,
+          "char_end": 3293,
+          "turn_id": null
+        }
+      ],
+      "text": "extubation",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3371,
+          "char_end": 3374,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3398,
+          "char_end": 3407,
+          "turn_id": null
+        }
+      ],
+      "text": "sedatives",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3408,
+          "char_end": 3417,
+          "turn_id": null
+        }
+      ],
+      "text": "analgesia",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3445,
+          "char_end": 3456,
+          "turn_id": null
+        }
+      ],
+      "text": "seizure d/o",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3526,
+          "char_end": 3536,
+          "turn_id": null
+        }
+      ],
+      "text": "intubation",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3551,
+          "char_end": 3553,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3555,
+          "char_end": 3568,
+          "turn_id": null
+        }
+      ],
+      "text": "Levetiracetam",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3572,
+          "char_end": 3574,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3612,
+          "char_end": 3615,
+          "turn_id": null
+        }
+      ],
+      "text": "EEG",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3645,
+          "char_end": 3679,
+          "turn_id": null
+        }
+      ],
+      "text": "slow, diffuse cerebral dysfunction",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3688,
+          "char_end": 3711,
+          "turn_id": null
+        }
+      ],
+      "text": "epileptiform discharges",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3715,
+          "char_end": 3723,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3788,
+          "char_end": 3801,
+          "turn_id": null
+        }
+      ],
+      "text": "Bacterial PNA",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3814,
+          "char_end": 3826,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3856,
+          "char_end": 3896,
+          "turn_id": null
+        }
+      ],
+      "text": "consolidation on left side and left apex",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 3912,
+          "char_end": 3925,
+          "turn_id": null
+        }
+      ],
+      "text": "5 day \ncourse",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3929,
+          "char_end": 3940,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3941,
+          "char_end": 3953,
+          "turn_id": null
+        }
+      ],
+      "text": "azithromycin",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4015,
+          "char_end": 4031,
+          "turn_id": null
+        }
+      ],
+      "text": "Seizure disorder",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4118,
+          "char_end": 4120,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 4127,
+          "char_end": 4137,
+          "turn_id": null
+        }
+      ],
+      "text": "intubation",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4175,
+          "char_end": 4189,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypothyroidism",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4204,
+          "char_end": 4217,
+          "turn_id": null
+        }
+      ],
+      "text": "levothyroxine",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4233,
+          "char_end": 4238,
+          "turn_id": null
+        }
+      ],
+      "text": "75mcg",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4245,
+          "char_end": 4252,
+          "turn_id": null
+        }
+      ],
+      "text": "37.5mcg",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 4263,
+          "char_end": 4272,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4282,
+          "char_end": 4302,
+          "turn_id": null
+        }
+      ],
+      "text": "Mediastinal lymphoma",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4381,
+          "char_end": 4392,
+          "turn_id": null
+        }
+      ],
+      "text": "Atelectasis",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4393,
+          "char_end": 4409,
+          "turn_id": null
+        }
+      ],
+      "text": "Seizure disorder",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4410,
+          "char_end": 4424,
+          "turn_id": null
+        }
+      ],
+      "text": "Deconditioning",
+      "id": "e103"
+    }
+  ]
+}

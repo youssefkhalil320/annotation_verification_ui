@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 23,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 131,
@@ -48,22 +45,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 155,
-          "char_end": 175,
-          "turn_id": null
-        }
-      ],
-      "text": "inert gas saturation",
-      "id": "e4"
-    },
-    {
-      "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 202,
@@ -72,12 +54,11 @@
         }
       ],
       "text": "CO2 toxicity",
-      "id": "e5"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 219,
@@ -86,12 +67,11 @@
         }
       ],
       "text": "decompression sickness",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 243,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "DCS",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 249,
@@ -114,12 +93,11 @@
         }
       ],
       "text": "Propranolol",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 357,
@@ -128,68 +106,24 @@
         }
       ],
       "text": "DCS",
-      "id": "e9"
-    },
-    {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "dose",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 404,
-          "char_end": 408,
-          "turn_id": null
-        }
-      ],
-      "text": "100%",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 409,
-          "char_end": 415,
-          "turn_id": null
-        }
-      ],
-      "text": "oxygen",
-      "id": "e11"
+      "id": "e8"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 409,
+          "char_start": 404,
           "char_end": 426,
           "turn_id": null
         }
       ],
-      "text": "oxygen prebreathe",
-      "id": "e12"
-    },
-    {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "intervention",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 428,
-          "char_end": 431,
-          "turn_id": null
-        }
-      ],
-      "text": "OPB",
-      "id": "e13"
+      "text": "100% oxygen prebreathe",
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 441,
@@ -198,12 +132,11 @@
         }
       ],
       "text": "DCS",
-      "id": "e14"
+      "id": "e10"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 585,
@@ -212,12 +145,11 @@
         }
       ],
       "text": "propranolol",
-      "id": "e15"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 600,
@@ -226,12 +158,24 @@
         }
       ],
       "text": "DCS",
-      "id": "e16"
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 648,
+          "char_end": 651,
+          "turn_id": null
+        }
+      ],
+      "text": "OPB",
+      "id": "e13"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 737,
@@ -240,12 +184,11 @@
         }
       ],
       "text": "Propranolol",
-      "id": "e17"
+      "id": "e14"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 749,
@@ -254,12 +197,11 @@
         }
       ],
       "text": "1.0 mg · kg-1",
-      "id": "e18"
+      "id": "e15"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 764,
@@ -268,12 +210,11 @@
         }
       ],
       "text": "IV",
-      "id": "e19"
+      "id": "e16"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 785,
@@ -282,12 +223,11 @@
         }
       ],
       "text": "at 21.25 h",
-      "id": "e20"
+      "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 859,
@@ -296,12 +236,11 @@
         }
       ],
       "text": "DCS",
-      "id": "e21"
+      "id": "e18"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 976,
@@ -310,12 +249,24 @@
         }
       ],
       "text": "OPB45",
-      "id": "e22"
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1051,
+          "char_end": 1054,
+          "turn_id": null
+        }
+      ],
+      "text": "OPB",
+      "id": "e20"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1248,
@@ -324,12 +275,11 @@
         }
       ],
       "text": "propranolol",
-      "id": "e23"
+      "id": "e21"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1260,
@@ -338,26 +288,37 @@
         }
       ],
       "text": "0.5 mg · kg-1",
-      "id": "e24"
+      "id": "e22"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1274,
-          "char_end": 1285,
+          "char_end": 1277,
           "turn_id": null
         }
       ],
-      "text": "bis (twice)",
-      "id": "e25"
+      "text": "bis",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1279,
+          "char_end": 1284,
+          "turn_id": null
+        }
+      ],
+      "text": "twice",
+      "id": "e24"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1287,
@@ -366,12 +327,11 @@
         }
       ],
       "text": "IV",
-      "id": "e26"
+      "id": "e25"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1308,
@@ -380,12 +340,11 @@
         }
       ],
       "text": "at 22 h and 26 h",
-      "id": "e27"
+      "id": "e26"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1373,
@@ -394,26 +353,11 @@
         }
       ],
       "text": "normal saline",
-      "id": "e28"
-    },
-    {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "intervention",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1388,
-          "char_end": 1391,
-          "turn_id": null
-        }
-      ],
-      "text": "OPB",
-      "id": "e29"
+      "id": "e27"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1552,
@@ -422,12 +366,11 @@
         }
       ],
       "text": "beta blockers",
-      "id": "e30"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1620,
@@ -436,12 +379,11 @@
         }
       ],
       "text": "DCS",
-      "id": "e31"
+      "id": "e29"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1768,
@@ -450,12 +392,11 @@
         }
       ],
       "text": "Propranolol",
-      "id": "e32"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1791,
@@ -464,7 +405,7 @@
         }
       ],
       "text": "decompression sickness",
-      "id": "e33"
+      "id": "e31"
     }
   ]
 }

@@ -1,0 +1,327 @@
+{
+  "doc_id": "PRIMOCK57:day2_consultation09:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "Hx:  Difficulty moving left arm, occurred upon waking this morning\nFeels no pain, but still can't move it\nNo previous similar episodes\nSlept as per normal last night\nNo discolouration in hand, arm doesn't feel cold\nSymptoms limited to left arm, not in left leg\nTingling present on left side of face over the same period (1 hour)\nPatient has not noticed any facial asymmetry\nDifficulty swallowing water- dribbled water\nSpeech seems ‘harder' or ‘slow'\nNo-one at home with patient\nPmhx: T2dm, HTN\nDH: metformin, losartan, amlodipine\nAllergic to penicillin\nFH: father hs ‘heart disease'\nSH: lives alone, ex smoker, mild- moderate alcohol intake.\nImp: ? CVA\nLAS called- blue light, pt to keep front door open, will stay on line till LAS arrives and hand over.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 5,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "Difficulty moving left arm",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 76,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 92,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "can't move",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 191,
+          "turn_id": null
+        }
+      ],
+      "text": "discolouration in hand",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 196,
+          "turn_id": null
+        },
+        {
+          "char_start": 205,
+          "char_end": 214,
+          "turn_id": null
+        }
+      ],
+      "text": "arm feel cold",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 269,
+          "turn_id": null
+        },
+        {
+          "char_start": 278,
+          "char_end": 298,
+          "turn_id": null
+        }
+      ],
+      "text": "Tingling on left side of face",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 373,
+          "turn_id": null
+        }
+      ],
+      "text": "facial asymmetry",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 374,
+          "char_end": 401,
+          "turn_id": null
+        }
+      ],
+      "text": "Difficulty swallowing water",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "dribbled water",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 418,
+          "char_end": 424,
+          "turn_id": null
+        },
+        {
+          "char_start": 432,
+          "char_end": 439,
+          "turn_id": null
+        }
+      ],
+      "text": "Speech harder'",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 418,
+          "char_end": 424,
+          "turn_id": null
+        },
+        {
+          "char_start": 444,
+          "char_end": 449,
+          "turn_id": null
+        }
+      ],
+      "text": "Speech slow'",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 484,
+          "char_end": 488,
+          "turn_id": null
+        }
+      ],
+      "text": "T2dm",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 493,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 498,
+          "char_end": 507,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 517,
+          "turn_id": null
+        }
+      ],
+      "text": "losartan",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 519,
+          "char_end": 529,
+          "turn_id": null
+        }
+      ],
+      "text": "amlodipine",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 552,
+          "turn_id": null
+        }
+      ],
+      "text": "Allergic to penicillin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 552,
+          "turn_id": null
+        }
+      ],
+      "text": "penicillin",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 582,
+          "turn_id": null
+        }
+      ],
+      "text": "heart disease'",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 587,
+          "char_end": 598,
+          "turn_id": null
+        }
+      ],
+      "text": "lives alone",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 600,
+          "char_end": 609,
+          "turn_id": null
+        }
+      ],
+      "text": "ex smoker",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 640,
+          "turn_id": null
+        }
+      ],
+      "text": "alcohol intake",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 649,
+          "char_end": 652,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA",
+      "id": "e23"
+    }
+  ]
+}

@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 34,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 40,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 59,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 91,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 113,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 137,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 176,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 199,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 241,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 263,
@@ -159,9 +148,21 @@
       "id": "e11"
     },
     {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "bone mineral density",
+      "id": "e12"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 314,
@@ -170,12 +171,11 @@
         }
       ],
       "text": "cardiovascular disease",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 354,
@@ -184,12 +184,11 @@
         }
       ],
       "text": "AI",
-      "id": "e13"
+      "id": "e14"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 370,
@@ -198,26 +197,24 @@
         }
       ],
       "text": "prednisolone",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "disease",
       "spans": [
         {
-          "char_start": 449,
-          "char_end": 465,
+          "char_start": 701,
+          "char_end": 703,
           "turn_id": null
         }
       ],
-      "text": "excess mortality",
-      "id": "e15"
+      "text": "AI",
+      "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 739,
@@ -226,12 +223,11 @@
         }
       ],
       "text": "prednisolone",
-      "id": "e16"
+      "id": "e17"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 753,
@@ -240,12 +236,11 @@
         }
       ],
       "text": "3-6 mg/day",
-      "id": "e17"
+      "id": "e18"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 776,
@@ -254,12 +249,11 @@
         }
       ],
       "text": "hydrocortisone",
-      "id": "e18"
+      "id": "e19"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 792,
@@ -268,12 +262,11 @@
         }
       ],
       "text": "15-30 mg/day",
-      "id": "e19"
+      "id": "e20"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 862,
@@ -282,12 +275,11 @@
         }
       ],
       "text": "prednisolone",
-      "id": "e20"
+      "id": "e21"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 876,
@@ -296,12 +288,11 @@
         }
       ],
       "text": "hydrocortisone",
-      "id": "e21"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1030,
@@ -310,12 +301,11 @@
         }
       ],
       "text": "congenital adrenal hyperplasia",
-      "id": "e22"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1162,
@@ -324,12 +314,11 @@
         }
       ],
       "text": "low-density lipoprotein (LDL) cholesterol levels",
-      "id": "e23"
+      "id": "e24"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1288,
@@ -338,12 +327,11 @@
         }
       ],
       "text": "prednisolone",
-      "id": "e24"
+      "id": "e25"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1318,
@@ -352,12 +340,11 @@
         }
       ],
       "text": "hydrocortisone",
-      "id": "e25"
+      "id": "e26"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1403,
@@ -366,31 +353,24 @@
         }
       ],
       "text": "HbA1c",
-      "id": "e26"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1410,
-          "char_end": 1434,
-          "turn_id": null
-        },
-        {
-          "char_start": 1452,
-          "char_end": 1458,
-          "turn_id": null
-        }
-      ],
-      "text": "high-density lipoprotein levels",
       "id": "e27"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1434,
+          "turn_id": null
+        }
+      ],
+      "text": "high-density lipoprotein",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
           "char_start": 1439,
@@ -399,12 +379,11 @@
         }
       ],
       "text": "triglyceride levels",
-      "id": "e28"
+      "id": "e29"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1460,
@@ -413,12 +392,11 @@
         }
       ],
       "text": "body mass index",
-      "id": "e29"
+      "id": "e30"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1477,
@@ -432,12 +410,11 @@
         }
       ],
       "text": "systolic blood pressure",
-      "id": "e30"
+      "id": "e31"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1490,
@@ -446,12 +423,11 @@
         }
       ],
       "text": "diastolic blood pressure",
-      "id": "e31"
+      "id": "e32"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1519,
@@ -460,12 +436,11 @@
         }
       ],
       "text": "waist circumference",
-      "id": "e32"
+      "id": "e33"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1635,
@@ -474,12 +449,11 @@
         }
       ],
       "text": "higher LDL levels",
-      "id": "e33"
+      "id": "e34"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1642,
@@ -488,12 +462,11 @@
         }
       ],
       "text": "LDL levels",
-      "id": "e34"
+      "id": "e35"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1675,
@@ -502,12 +475,11 @@
         }
       ],
       "text": "prednisolone",
-      "id": "e35"
+      "id": "e36"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1700,
@@ -516,12 +488,11 @@
         }
       ],
       "text": "hydrocortisone",
-      "id": "e36"
+      "id": "e37"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1755,
@@ -530,7 +501,7 @@
         }
       ],
       "text": "cardiovascular disease",
-      "id": "e37"
+      "id": "e38"
     }
   ]
 }

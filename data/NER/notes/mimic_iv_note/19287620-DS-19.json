@@ -1,0 +1,1206 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19287620-DS-19:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\nfever, altered mental status\n\nHistory of Present Illness:\n___ w/ h/o severe Alzhemier dementia, non-verbal at baseline, \nbrought in from ___ with fevers, hypoxia, and altered \nmental status, found to be profoundly dehydrated with serum \nsodium of 172. He has had some intermittent hypoxia and \nshortness of breath. Significantly decreased POs for several \ndays. Na+ was 160 2 days ago, but no IV fluids were given at \nrehab. \n\nIn the ED, initial vitals: 104.4 119 80/48 42 100% \nNon-Rebreather. Sodium was 172, lactate 4.5, BUN 93, Cr 3.6, \nglucose 581. He received 4L normal saline as well as a dose of \nvancomycin, cefepime, and levofloxacin. \n\nOn transfer, vitals were:  100.8 ___ 36 98% Non-Rebreather \n\n\nOn arrival to the MICU, patient is not responsive and in \nsignificant respiratory distress.\n\nBrief Hospital Course:\n___ w/ h/o severe Alzhemier dementia, non-verbal at baseline, \nbrought in from ___ with fevers, hypoxia, and altered \nmental status, found to be profoundly dehydrated with serum \nsodium of 172.\n\n#) Septic Shock ___ multifocal pneumonia - presented with \nhypoxemia, fevers, leukocytosis, and e/o multifocal pna on CXR \nalong with end organ damage as evidenced by lactic acidemia, \nAMS, and ___.  Pt was intubated and CVL/Aline was placed.  \nStarted on vanc/cefepime/levaquin and levophed/vasopressin for \nabx and pressor therapy.  Blood cx grew GPCs preliminarily.  \nDespite ventilatory support, volume resuscitation, and abx and \npressor therapy, pt developed progressive oliguria, worsening \nacidemia, and further hypoxemia.  Pt ultimately was maxed out on \nlevophed, phenylephrine, and vasopressin.  His blood pressures \nwould not tolerate the additional PEEP required to adequately \noxygenate the patient. As a result, his status progressively \nworsened, and he went into asystole at 0525.   \n\n#) DVT with presumed PE - extensive clot burden in RLE.  Heparin \ngtt was started.  Presumed PE may have been contributing to \nprogressive hypoxemia.\n\n#) Hyperglycemia - Pt started on insulin gtt with improvement in \nhyperglycemia noted.\n\n#) Hypernatremia - Likely developed in setting of progressive \nosmotic diuresis from hyperglycemia and AMS in the setting of \npneumonia and inadequate free water intake.  Volume resuscitate \nwith isotonic fluids here, which were relatively hypotonic to \nhis Na in the 170s.\n\n#) Goals of Care - Pt had DNR/DNI in the chart on presentation.  \nThis was reversed however in discussion with Rabbi ___ and the \npts wife.  ___ was performed as above.  However, with the \npatients underlying poor substrate and maximal pressor therapy, \ndiscussions with Rabbi ___ were aimed at ensuring a DNR \nstatus.  Ultimately, she was made \"CPR is not indicated\" per Dr. \n___ attending.\n\nDischarge Diagnosis:\nSeptic Shock ___ Multifocal Pneumonia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 46,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 69,
+          "turn_id": null
+        }
+      ],
+      "text": "altered mental status",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 135,
+          "turn_id": null
+        }
+      ],
+      "text": "Alzhemier dementia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 147,
+          "turn_id": null
+        }
+      ],
+      "text": "non-verbal",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 193,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 230,
+          "turn_id": null
+        }
+      ],
+      "text": "altered \nmental status",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 255,
+          "char_end": 265,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydrated",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 284,
+          "turn_id": null
+        }
+      ],
+      "text": "serum \nsodium",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 291,
+          "turn_id": null
+        }
+      ],
+      "text": "serum \nsodium of 172",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 322,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxia",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 335,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 370,
+          "char_end": 383,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased POs",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 406,
+          "turn_id": null
+        },
+        {
+          "char_start": 411,
+          "char_end": 414,
+          "turn_id": null
+        }
+      ],
+      "text": "Na+ 160",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 406,
+          "turn_id": null
+        }
+      ],
+      "text": "Na+",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 443,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 542,
+          "turn_id": null
+        },
+        {
+          "char_start": 547,
+          "char_end": 550,
+          "turn_id": null
+        }
+      ],
+      "text": "Sodium 172",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 536,
+          "char_end": 542,
+          "turn_id": null
+        }
+      ],
+      "text": "Sodium",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 552,
+          "char_end": 559,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 552,
+          "char_end": 563,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate 4.5",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 565,
+          "char_end": 568,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 565,
+          "char_end": 571,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN 93",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 573,
+          "char_end": 575,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 573,
+          "char_end": 579,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr 3.6",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 582,
+          "char_end": 589,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 582,
+          "char_end": 593,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose 581",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 609,
+          "turn_id": null
+        }
+      ],
+      "text": "4L",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 610,
+          "char_end": 623,
+          "turn_id": null
+        }
+      ],
+      "text": "normal saline",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 646,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 666,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 684,
+          "turn_id": null
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 789,
+          "char_end": 799,
+          "turn_id": null
+        }
+      ],
+      "text": "responsive",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 820,
+          "char_end": 840,
+          "turn_id": null
+        }
+      ],
+      "text": "respiratory distress",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 884,
+          "char_end": 902,
+          "turn_id": null
+        }
+      ],
+      "text": "Alzhemier dementia",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 904,
+          "char_end": 914,
+          "turn_id": null
+        }
+      ],
+      "text": "non-verbal",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 954,
+          "char_end": 960,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 962,
+          "char_end": 969,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxia",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 997,
+          "turn_id": null
+        }
+      ],
+      "text": "altered \nmental status",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1022,
+          "char_end": 1032,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydrated",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1038,
+          "char_end": 1051,
+          "turn_id": null
+        }
+      ],
+      "text": "serum \nsodium",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1038,
+          "char_end": 1058,
+          "turn_id": null
+        }
+      ],
+      "text": "serum \nsodium of 172",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1064,
+          "char_end": 1076,
+          "turn_id": null
+        }
+      ],
+      "text": "Septic Shock",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1081,
+          "char_end": 1101,
+          "turn_id": null
+        }
+      ],
+      "text": "multifocal pneumonia",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1129,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxemia",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1137,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1139,
+          "char_end": 1151,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1161,
+          "char_end": 1175,
+          "turn_id": null
+        }
+      ],
+      "text": "multifocal pna",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1179,
+          "char_end": 1182,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1228,
+          "char_end": 1243,
+          "turn_id": null
+        }
+      ],
+      "text": "lactic acidemia",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1249,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1268,
+          "char_end": 1277,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1282,
+          "char_end": 1291,
+          "turn_id": null
+        },
+        {
+          "char_start": 1296,
+          "char_end": 1302,
+          "turn_id": null
+        }
+      ],
+      "text": "CVL/Aline placed",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1322,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1331,
+          "char_end": 1339,
+          "turn_id": null
+        }
+      ],
+      "text": "levaquin",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1344,
+          "char_end": 1352,
+          "turn_id": null
+        }
+      ],
+      "text": "levophed",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1353,
+          "char_end": 1364,
+          "turn_id": null
+        }
+      ],
+      "text": "vasopressin",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1370,
+          "char_end": 1373,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1378,
+          "char_end": 1385,
+          "turn_id": null
+        }
+      ],
+      "text": "pressor",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1396,
+          "char_end": 1404,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood cx",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1396,
+          "char_end": 1414,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood cx grew GPCs",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1440,
+          "char_end": 1459,
+          "turn_id": null
+        }
+      ],
+      "text": "ventilatory support",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1461,
+          "char_end": 1481,
+          "turn_id": null
+        }
+      ],
+      "text": "volume resuscitation",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1487,
+          "char_end": 1490,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1496,
+          "char_end": 1503,
+          "turn_id": null
+        }
+      ],
+      "text": "pressor",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1538,
+          "char_end": 1546,
+          "turn_id": null
+        }
+      ],
+      "text": "oliguria",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1581,
+          "char_end": 1590,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxemia",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1625,
+          "char_end": 1633,
+          "turn_id": null
+        }
+      ],
+      "text": "levophed",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1635,
+          "char_end": 1648,
+          "turn_id": null
+        }
+      ],
+      "text": "phenylephrine",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1654,
+          "char_end": 1665,
+          "turn_id": null
+        }
+      ],
+      "text": "vasopressin",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1687,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1723,
+          "char_end": 1727,
+          "turn_id": null
+        }
+      ],
+      "text": "PEEP",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1841,
+          "char_end": 1849,
+          "turn_id": null
+        }
+      ],
+      "text": "asystole",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1869,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1884,
+          "char_end": 1886,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1899,
+          "char_end": 1917,
+          "turn_id": null
+        }
+      ],
+      "text": "clot burden in RLE",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1927,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2002,
+          "char_end": 2011,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoxemia",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2017,
+          "char_end": 2030,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyperglycemia",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2047,
+          "char_end": 2054,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2093,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperglycemia",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2105,
+          "char_end": 2118,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypernatremia",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2165,
+          "char_end": 2181,
+          "turn_id": null
+        }
+      ],
+      "text": "osmotic diuresis",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2200,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperglycemia",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2205,
+          "char_end": 2208,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2273,
+          "char_end": 2291,
+          "turn_id": null
+        }
+      ],
+      "text": "Volume resuscitate",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2298,
+          "char_end": 2313,
+          "turn_id": null
+        }
+      ],
+      "text": "isotonic fluids",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2613,
+          "char_end": 2620,
+          "turn_id": null
+        }
+      ],
+      "text": "pressor",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2723,
+          "char_end": 2726,
+          "turn_id": null
+        }
+      ],
+      "text": "CPR",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2791,
+          "char_end": 2803,
+          "turn_id": null
+        }
+      ],
+      "text": "Septic Shock",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2808,
+          "char_end": 2828,
+          "turn_id": null
+        }
+      ],
+      "text": "Multifocal Pneumonia",
+      "id": "e91"
+    }
+  ]
+}

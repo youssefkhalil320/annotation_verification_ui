@@ -1,0 +1,715 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19220361-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nalendronate sodium / lisinopril / Crestor\n\nChief Complaint:\nTarry stools\n\nHistory of Present Illness:\nThis is a ___ year old ___ past medical history of \nhypertension, atrial fibrillation on apixaban, polymyalgia \nrheumatica, NAFLD, presenting with several episodes of black \ntarry stools. Patient reports he was in his normal state of \nhealth until 1 day prior to admission when he was eating beef \nstew and felt a sensation of pain as he swallowed a piece of \nmeat, which he thought was \"the beef getting stuck and then \nscraping [him]\"; the next day (the day of admission) at 4pm he \nhad an episode of black tarry stools; no associated dizziness, \ndyspnea, chest pain. No nausea or vomiting. He presented to the \nthe ED.  \n In the ED initial VS were 100.2 72 133/83 16 100% RA. Labs \nnotable for WBC 7.4, Hgb 11.2, Plt 207, Na 127, Cr 1.4. ED \ncourse notable for 2 additional episodes of tarry stool. GI \nconsulted and patient was admitted to medicine  \n On arrival to the floor, patient was comfortable and reported \nfeeling in his normal state of health. He reported recent \ndowntitration of his chlorthalidone due to hyponatremia. He had \npreviously been scheduled for an outpatient elective colonoscopy \nin 1 week. Full 10 point review of systems positive as above, \notherwise negative.\n\nBrief Hospital Course:\n___ year old male admitted for black tarry stools, hyponatremia, \nand ___. \n\n# Hyponatremia: Resolved with holding of chlorthalidone, which \nwas also held on discharge. Patient advised to follow up with \nPCP regarding starting ___ different ___ medication. \n\n\n# ___: Resolved with holding of chlorthalidone, which was also \nheld on discharge. Patient advised to follow up with PCP \nregarding starting ___ different ___ medication. \n\n# Melena: Patient had an EGD to evaluate etiology of melena that \nshowed antral polyp that was biopsied but no source of bleeding. \nApixiban was discontinued on discharge and patient was advised \nto follow up wth PCP, ___, and GI.\n\nTRANSITIONAL ISSUES:\n- apixiban and chlorthalidone discontinued on this admission, \napixiban was discontinued due to GIB and chlorthalidone was \ndiscontinued due to hyponatremia (Na nadir 127)\n- follow up with PCP after colonoscopy regarding whether to \nre-start apixiban\n- follow up with PCP regarding ___ regimen, should \nlikely avoid chlorthalidone in future \n- follow up with GI regarding results of biopsy and for \ncolonoscopy later in ___\n\n Contact - Emergency contact is ___ ___. \n Code status - Full confirmed on admission\n\nDischarge Diagnosis:\nPRIMARY DIAGONSIS:\nMelena\nAntral gastric polyp\nNormocytic anemia\nHyponatremia\nAcute kidney injury",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "alendronate sodium",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 42,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "Crestor",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "Crestor",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 83,
+          "turn_id": null
+        }
+      ],
+      "text": "Tarry stools",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 177,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 198,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 210,
+          "turn_id": null
+        }
+      ],
+      "text": "apixaban",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 237,
+          "char_end": 242,
+          "turn_id": null
+        }
+      ],
+      "text": "NAFLD",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 287,
+          "char_end": 299,
+          "turn_id": null
+        }
+      ],
+      "text": "tarry stools",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 447,
+          "turn_id": null
+        },
+        {
+          "char_start": 451,
+          "char_end": 460,
+          "turn_id": null
+        }
+      ],
+      "text": "pain as swallowed",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 634,
+          "turn_id": null
+        }
+      ],
+      "text": "black tarry stools",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 659,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 669,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 671,
+          "char_end": 681,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 686,
+          "char_end": 692,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 696,
+          "char_end": 704,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 813,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 822,
+          "turn_id": null
+        }
+      ],
+      "text": "Hgb",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 829,
+          "char_end": 832,
+          "turn_id": null
+        }
+      ],
+      "text": "Plt",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 838,
+          "char_end": 840,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1112,
+          "char_end": 1126,
+          "turn_id": null
+        }
+      ],
+      "text": "chlorthalidone",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1134,
+          "char_end": 1146,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1209,
+          "char_end": 1220,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1360,
+          "char_end": 1378,
+          "turn_id": null
+        }
+      ],
+      "text": "black tarry stools",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1380,
+          "char_end": 1392,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1408,
+          "char_end": 1420,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyponatremia",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1447,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "chlorthalidone",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1621,
+          "char_end": 1635,
+          "turn_id": null
+        }
+      ],
+      "text": "chlorthalidone",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1764,
+          "char_end": 1770,
+          "turn_id": null
+        }
+      ],
+      "text": "Melena",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1787,
+          "char_end": 1790,
+          "turn_id": null
+        }
+      ],
+      "text": "EGD",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1815,
+          "char_end": 1821,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1835,
+          "char_end": 1847,
+          "turn_id": null
+        }
+      ],
+      "text": "antral polyp",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1857,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "biopsied",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1883,
+          "char_end": 1891,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1894,
+          "char_end": 1902,
+          "turn_id": null
+        }
+      ],
+      "text": "Apixiban",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2017,
+          "char_end": 2025,
+          "turn_id": null
+        }
+      ],
+      "text": "apixiban",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2030,
+          "char_end": 2044,
+          "turn_id": null
+        }
+      ],
+      "text": "chlorthalidone",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2078,
+          "char_end": 2086,
+          "turn_id": null
+        }
+      ],
+      "text": "apixiban",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2111,
+          "char_end": 2114,
+          "turn_id": null
+        }
+      ],
+      "text": "GIB",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2119,
+          "char_end": 2133,
+          "turn_id": null
+        }
+      ],
+      "text": "chlorthalidone",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2159,
+          "char_end": 2171,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2173,
+          "char_end": 2175,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2173,
+          "char_end": 2185,
+          "turn_id": null
+        }
+      ],
+      "text": "Na nadir 127",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2214,
+          "char_end": 2225,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2257,
+          "char_end": 2265,
+          "turn_id": null
+        }
+      ],
+      "text": "apixiban",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2331,
+          "char_end": 2345,
+          "turn_id": null
+        }
+      ],
+      "text": "chlorthalidone",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2398,
+          "char_end": 2404,
+          "turn_id": null
+        }
+      ],
+      "text": "biopsy",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2414,
+          "char_end": 2425,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2566,
+          "char_end": 2572,
+          "turn_id": null
+        }
+      ],
+      "text": "Melena",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2573,
+          "char_end": 2593,
+          "turn_id": null
+        }
+      ],
+      "text": "Antral gastric polyp",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2594,
+          "char_end": 2611,
+          "turn_id": null
+        }
+      ],
+      "text": "Normocytic anemia",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2612,
+          "char_end": 2624,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyponatremia",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2625,
+          "char_end": 2644,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute kidney injury",
+      "id": "e54"
+    }
+  ]
+}

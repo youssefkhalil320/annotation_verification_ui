@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 29,
@@ -21,35 +20,19 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 83,
-          "char_end": 129,
+          "char_end": 142,
           "turn_id": null
         }
       ],
-      "text": "recombinant human insulin-like growth factor-1",
+      "text": "recombinant human insulin-like growth factor-1 (mecasermin)",
       "id": "e2"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 131,
-          "char_end": 141,
-          "turn_id": null
-        }
-      ],
-      "text": "mecasermin",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 143,
@@ -58,12 +41,11 @@
         }
       ],
       "text": "Mecasermin",
-      "id": "e4"
+      "id": "e3"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 171,
@@ -72,26 +54,37 @@
         }
       ],
       "text": "elevated blood sugar",
-      "id": "e5"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 230,
+          "char_start": 203,
           "char_end": 249,
           "turn_id": null
         }
       ],
-      "text": "Laron-type dwarfism",
+      "text": "growth hormone - resistant Laron-type dwarfism",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 261,
+          "turn_id": null
+        }
+      ],
+      "text": "Mecasermin",
       "id": "e6"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 479,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 547,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 574,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 608,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 652,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 691,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 810,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 846,
@@ -203,7 +189,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 866,
@@ -217,7 +202,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 941,
@@ -231,7 +215,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 978,
@@ -245,7 +228,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1002,
@@ -259,7 +241,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1017,
@@ -273,7 +254,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1061,
@@ -287,7 +267,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1096,
@@ -301,7 +280,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1195,
@@ -315,7 +293,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1228,
@@ -327,23 +304,8 @@
       "id": "e23"
     },
     {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1248,
-          "char_end": 1270,
-          "turn_id": null
-        }
-      ],
-      "text": "free-SH: protein ratio",
-      "id": "e24"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1274,
@@ -352,12 +314,11 @@
         }
       ],
       "text": "mecasermin",
-      "id": "e25"
+      "id": "e24"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1361,
@@ -366,12 +327,11 @@
         }
       ],
       "text": "ESI-IMS-MS",
-      "id": "e26"
+      "id": "e25"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1487,
@@ -380,12 +340,11 @@
         }
       ],
       "text": "mecasermin",
-      "id": "e27"
+      "id": "e26"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1499,
@@ -394,12 +353,11 @@
         }
       ],
       "text": "ESI-IMS-MS",
-      "id": "e28"
+      "id": "e27"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1523,
@@ -408,26 +366,11 @@
         }
       ],
       "text": "SEC-mode HPLC",
-      "id": "e29"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1584,
-          "char_end": 1606,
-          "turn_id": null
-        }
-      ],
-      "text": "free-SH: protein ratio",
-      "id": "e30"
+      "id": "e28"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1610,
@@ -436,12 +379,11 @@
         }
       ],
       "text": "mecasermin",
-      "id": "e31"
+      "id": "e29"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1702,
@@ -450,12 +392,11 @@
         }
       ],
       "text": "mecasermin",
-      "id": "e32"
+      "id": "e30"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1714,
@@ -464,12 +405,11 @@
         }
       ],
       "text": "ESI-IMS-MS",
-      "id": "e33"
+      "id": "e31"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1888,
@@ -478,7 +418,7 @@
         }
       ],
       "text": "mecasermin",
-      "id": "e34"
+      "id": "e32"
     }
   ]
 }

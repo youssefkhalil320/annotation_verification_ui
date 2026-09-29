@@ -1,0 +1,462 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15701011-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nsulfasalazine / Pyridium / heparin / codeine / tramadol\n\nChief Complaint:\nWorsening sensation changes in arms and legs.  Pt states, \"I\nfeel weird all over\".\n\nHistory of Present Illness:\nMrs. ___ is a ___ year-old female with a two year history of\nperipheral neuralgia of her hands and feet.  She has sought care\nvia her primary care physician and ___ neurologist for this\ncondition, among others as listed in her history (noted below). \nThe patient states that over the last month, she has begun to\nexperience worsening back pain (\"my spine feels like it's on\nfire\"), as well as pain and numbness of her legs.  She also\nstates that over the last two weeks, she suffered frequent\nepisodes of urinary and rectal incontinence.  \n\nToday, ___, Mrs. ___ saw her neurologist to review a MRI of\nher spine.  Due to concerns of spinal stenosis, the physician\nadvised the patient to seek care at the nearest emergency\ndepartment.\n\nOn exam, the patient explains that she has back pain from her\nposterior neck down her entire spine, mainly mid-line.  \nSensation\nin her arms is symmetrical bilaterally.  The patient states she\nhas pain in her anterior groin and thighs.  Sensation is reduced\nin both legs but symmetrical.\n\nBrief Hospital Course:\nMs. ___ was admitted to the Neurosurgery service on ___ due \nto concerns, as exhibited on MRI, of a spinal cord lesion at the \nC5-C6 level.  She was admitted to the inpatient ward and kept \nNPO, given IV fluids overnight in preparation for an operative \nintervention on her cervical spine. Surgical intervention was \ndiscussed on ___. Dr ___ surgery's risks and \nbenefits and the patient consented to surgery. Surgery was moved \nto ___ because of OR scheduling/ timing. The patient was kept \ninpatient in preparation for surgery. On ___ Ms. ___ remains \nneurologically intact with the exception of motor strength 4- \nbilat tricep and 4+ right quad/hamstring. Ms. ___ was \nconsented for the OR and will be NPO for planned C6 corpectomy \nand C5-C7 fusion on ___.\n\nOn ___, the patient was taken to the OR for her scheduled \nprocedure, which she tolerated well. Please see the operative \nreport for further details. Post-operatively, the patient was \nrecovered in the PACU and transferred to the inpatient ward for \nfurther management and observation. Her pain was controlled with \nnarcotic and non-narcotic analgesics. On ___ her JP drain was \ndiscontinued and her pain was controlled. She was ambulating \nindependently.\n\nDischarge Diagnosis:\nCervical stenosis",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 24,
+          "turn_id": null
+        }
+      ],
+      "text": "sulfasalazine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 35,
+          "turn_id": null
+        }
+      ],
+      "text": "Pyridium",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 38,
+          "char_end": 45,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 55,
+          "turn_id": null
+        }
+      ],
+      "text": "codeine",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 58,
+          "char_end": 66,
+          "turn_id": null
+        }
+      ],
+      "text": "tramadol",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 115,
+          "turn_id": null
+        },
+        {
+          "char_start": 125,
+          "char_end": 129,
+          "turn_id": null
+        }
+      ],
+      "text": "sensation changes in legs",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 120,
+          "turn_id": null
+        }
+      ],
+      "text": "sensation changes in arms",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "feel weird all over",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 300,
+          "turn_id": null
+        }
+      ],
+      "text": "peripheral neuralgia of her hands and feet",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 540,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 546,
+          "char_end": 562,
+          "turn_id": null
+        },
+        {
+          "char_start": 563,
+          "char_end": 575,
+          "turn_id": null
+        }
+      ],
+      "text": "spine feels like it's on\nfire",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 590,
+          "char_end": 594,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 599,
+          "char_end": 619,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness of her legs",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 709,
+          "turn_id": null
+        },
+        {
+          "char_start": 721,
+          "char_end": 733,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary incontinence",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 714,
+          "char_end": 733,
+          "turn_id": null
+        }
+      ],
+      "text": "rectal incontinence",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 807,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of\nher spine",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 829,
+          "char_end": 844,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal stenosis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1128,
+          "char_end": 1139,
+          "turn_id": null
+        },
+        {
+          "char_start": 1159,
+          "char_end": 1165,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in her thighs",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1128,
+          "char_end": 1154,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in her anterior groin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1168,
+          "char_end": 1177,
+          "turn_id": null
+        },
+        {
+          "char_start": 1181,
+          "char_end": 1201,
+          "turn_id": null
+        }
+      ],
+      "text": "Sensation reduced\nin both legs",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1333,
+          "char_end": 1336,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1343,
+          "char_end": 1381,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal cord lesion at the \nC5-C6 level",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1444,
+          "char_end": 1446,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1444,
+          "char_end": 1453,
+          "turn_id": null
+        }
+      ],
+      "text": "IV fluids",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1486,
+          "char_end": 1531,
+          "turn_id": null
+        }
+      ],
+      "text": "operative \nintervention on her cervical spine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1841,
+          "char_end": 1872,
+          "turn_id": null
+        }
+      ],
+      "text": "motor strength 4- \nbilat tricep",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1880,
+          "char_end": 1900,
+          "turn_id": null
+        }
+      ],
+      "text": "right quad/hamstring",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 1977,
+          "turn_id": null
+        }
+      ],
+      "text": "C6 corpectomy",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1983,
+          "char_end": 1995,
+          "turn_id": null
+        }
+      ],
+      "text": "C5-C7 fusion",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2321,
+          "char_end": 2329,
+          "turn_id": null
+        }
+      ],
+      "text": "narcotic",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2334,
+          "char_end": 2357,
+          "turn_id": null
+        }
+      ],
+      "text": "non-narcotic analgesics",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2483,
+          "char_end": 2500,
+          "turn_id": null
+        }
+      ],
+      "text": "Cervical stenosis",
+      "id": "e33"
+    }
+  ]
+}

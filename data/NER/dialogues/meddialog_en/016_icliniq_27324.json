@@ -1,0 +1,814 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:27324:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I am a 36 year old male. 17 years ago, I began experiencing high levels of anxiety and depression. I was put on Zoloft. After about five years, I was moved to Lexapro as Zoloft was not working. After being on Lexapro for five years, I was moved to Pristiq. After 5 years on Pristiq, I finally had enough. With each of these medications, I had a very similar side effect. I became emotionally numb. Before going through this, I was a very active, outgoing individual. While on these medications, I became removed, uninterested, and experienced very little emotions. So, I decided to take an extensive test to identify if I had other mental health issues. The results came back that I do have general anxiety but, also ADHD. I was put on Adderall XR and I did not like it. It made me very irritable. I have stopped taking that. Now, my doctor has me on Wellbutrin while at the same time taking me off off Pristiq. I do feel a decent amount of the emotional numbness is gone since going to Wellbutrin. Here is my question: I feel like the Wellbutrin is helping the ADHD. I am not sure though if it is helping my anxiety and depression. What suggestion do you have regarding medication to tackle this? I am currently taking the Wellbutrin SR 100. Can you please help?\n[doctor] Hello, Welcome to iclinq.com. I have gone through your query and understand your concern. It is true that SSRIs (selective serotonin reuptake inhibitor) make the person emotionally blunt when on a long term use. In your case, SSRI (Zoloft and Lexapro) and Pristiq (Desvenlafaxine) are ineffective and making you emotionally numb. You are diagnosed with ADHD (attention deficit and hyperactivity disorder) and anxiety, and Adderall ( a combination of Amphetamine and Dextroamphetamine) makes you irritable. So, that did not help you as well. Now, over to your question. Wellbutrin is the second drug of choice in ADHD after psychostimulants. So, it will definitely help you. This drug is also effective in depression and it reduces the emotional numbness caused by SSRI. The doses of Wellbutrin can be increased up to 300 mg per day in divided doses. But, Wellbutrin is not effective in anxiety. So, to control anxiety you can try a beta-blocker like Propranolol or Benzodiazepine for the short term. Try meditation or cognitive behavioral therapy to manage anxiety in the long term. Thanks and regards. For more information consult a psychiatrist online --> https://icliniq.com./ask-a-doctor-online/psychiatrist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 106,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 121,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 136,
+          "char_end": 142,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zoloft",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 190,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 200,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zoloft",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 240,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 279,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pristiq",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 305,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pristiq",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 420,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "emotionally numb",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 528,
+          "char_end": 535,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "removed",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 549,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "uninterested",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 730,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "general anxiety",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 741,
+          "char_end": 745,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ADHD",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 760,
+          "char_end": 768,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Adderall",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 771,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "XR",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 811,
+          "char_end": 820,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irritable",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 885,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 927,
+          "char_end": 934,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pristiq",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 969,
+          "char_end": 987,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "emotional numbness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1011,
+          "char_end": 1021,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1060,
+          "char_end": 1070,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1086,
+          "char_end": 1090,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ADHD",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1133,
+          "char_end": 1140,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1145,
+          "char_end": 1155,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1258,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1259,
+          "char_end": 1261,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "SR",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1403,
+          "char_end": 1408,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRIs",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1448,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "selective serotonin reuptake inhibitor",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1466,
+          "char_end": 1483,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "emotionally blunt",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1503,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "long term",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1523,
+          "char_end": 1527,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRI",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1529,
+          "char_end": 1535,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Zoloft",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1547,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1553,
+          "char_end": 1560,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Pristiq",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1562,
+          "char_end": 1576,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Desvenlafaxine",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1625,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "emotionally numb",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1654,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ADHD",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1656,
+          "char_end": 1700,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "attention deficit and hyperactivity disorder",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1706,
+          "char_end": 1713,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1727,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Adderall",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1747,
+          "char_end": 1758,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Amphetamine",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1763,
+          "char_end": 1780,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Dextroamphetamine",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1792,
+          "char_end": 1801,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "irritable",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1876,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1909,
+          "char_end": 1913,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ADHD",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1936,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "psychostimulants",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2002,
+          "char_end": 2012,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2032,
+          "char_end": 2050,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "emotional numbness",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2061,
+          "char_end": 2065,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRI",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2090,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2114,
+          "char_end": 2120,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "300 mg",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2121,
+          "char_end": 2128,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "per day",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2129,
+          "char_end": 2145,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "in divided doses",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2152,
+          "char_end": 2162,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2183,
+          "char_end": 2190,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2207,
+          "char_end": 2214,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2229,
+          "char_end": 2241,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "beta-blocker",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2247,
+          "char_end": 2258,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Propranolol",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2262,
+          "char_end": 2276,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Benzodiazepine",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2285,
+          "char_end": 2295,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "short term",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2315,
+          "char_end": 2343,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cognitive behavioral therapy",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2354,
+          "char_end": 2361,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e62"
+    }
+  ]
+}

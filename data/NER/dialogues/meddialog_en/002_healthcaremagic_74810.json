@@ -1,0 +1,1061 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:74810:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am a 64 yrs old woman, weighing 40kg and height 5 2 taking medication for hypertension since 1992. I have been an allergic asthma patient since 1994 and have been on inhalers like asthalin and Aerocort. After a pneumonia attack in 2005, I was put on Forocort inhaler (1 puff) 1-1-1 and Duova inhaler (1 puff) 0-0-1. Recently in Dec 2010, I was hospitalized after a severe lung infection and asthma attack and was treated for wheezing, fever and breathlessness with steroids and antibiotics for 3 weeks. I experienced a lot of side effects like mouth sores, loss of appetite, insomnia, tremors, depression, fear and anxiety resulting in weight loss and weakness. Presently, my asthma is quite manageable except for severe weakness, insomnia, bloating and fullness with my blood potassium lowering to 3.1. I was prescribed with Glycomet for induced blood sugar, Losar for BP, Forocort inhaler 1-0-1 inhaler, Slow potassium tablets 1-1-1, Multivitamin, Calcium and Albuterol inhaler ( 2 puffs once in the late afternoon mostly). My general health has not improved remarkably primarily due to sleeplessness, bloating and constant fullness. So, I have now been given Glipiside for Blood sugar, Kimpride (1-1-1) ,Potklor syrup (2tsp-0-2tsp), Montasma plus, Dell 400 and Asthalin (as needed or emergency). I have now tried to take walks for 15 min in the past 2 days inspite of feeling very weak in my legs and feet, fatigue and tired. I am also taking Potassium rich foods. Please provide me with your kind suggestions since I am feeling sick of taking medications and not improved on my health.\n[doctor] Respected user, hi I evaluated your query thoroughly.* Enough has been given in forms of medications till now .* In my opinion now you require a holistic approach for handling your    symptoms rather than additional drugs , these things will help you    definitely but at slow rate with lifetime results - maintain your hydration levels by taking plenty of liquids .- balanced nutritious diet rich in all components  like carbohydrates,   vitamins, minerals, anti-oxidants , trace elements , fats , proteins etc.- keep your BP , Blood sugar, S.Potassium,Cholesterol levels under control .- avoid excess sugars / artificial sweeteners / oily / spicy- avoid smoking / alcohol / any abuse substances if using - avoid stress / anxiety for which meditations & YOGA are corner stone of    the therapy - most neglected & most vital part of management in your   case.- have regular sound sleep of 6-7 hours- keep weight chart record- avoid steroids till possible - '' BE  POSITIVE '' attitude in life , till now you have fought so much like a  brave soldier & still God wants you to fight ahead towards every possible  ailments with laughing face .- remain ambulatory , manage fresh air walking till possible Hope this helps you.Welcome for any further queries.Thanks for using Health care magic & giving me an opportunity to assist you in the time of your medical needs.Wishing you a happy healthy life ahead.Regards dear take care.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 86,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic asthma",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 186,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhalers",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 200,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthalin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 205,
+          "char_end": 213,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Aerocort",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 232,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 262,
+          "char_end": 270,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Forocort",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 280,
+          "char_end": 286,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1 puff",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 293,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1-1-1",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 303,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Duova",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 304,
+          "char_end": 311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 313,
+          "char_end": 319,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1 puff",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 326,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "0-0-1",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 384,
+          "char_end": 398,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lung infection",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 416,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthma attack",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 445,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "wheezing",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 452,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 457,
+          "char_end": 471,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "breathlessness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 477,
+          "char_end": 485,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroids",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 501,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 502,
+          "char_end": 513,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 3 weeks",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 556,
+          "char_end": 567,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mouth sores",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 569,
+          "char_end": 585,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "loss of appetite",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 587,
+          "char_end": 595,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 604,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremors",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 606,
+          "char_end": 616,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 618,
+          "char_end": 622,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fear",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 634,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 648,
+          "char_end": 659,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weight loss",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 664,
+          "char_end": 672,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weakness",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 694,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthma",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 733,
+          "char_end": 741,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weakness",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 751,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 753,
+          "char_end": 761,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloating",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 774,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fullness",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 798,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood potassium",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 814,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood potassium lowering to 3.1",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 838,
+          "char_end": 846,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Glycomet",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 859,
+          "char_end": 870,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood sugar",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 872,
+          "char_end": 877,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Losar",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 882,
+          "char_end": 884,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BP",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 894,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Forocort",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 895,
+          "char_end": 902,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 908,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1-0-1",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 909,
+          "char_end": 916,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 932,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Slow potassium",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 940,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablets",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 941,
+          "char_end": 946,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1-1-1",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 960,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Multivitamin",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 962,
+          "char_end": 969,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Calcium",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 983,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Albuterol",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 1001,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 puffs",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1035,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once in the late afternoon mostly",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1101,
+          "char_end": 1114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleeplessness",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1116,
+          "char_end": 1124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloating",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1138,
+          "char_end": 1146,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fullness",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1174,
+          "char_end": 1183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Glipiside",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1188,
+          "char_end": 1199,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Blood sugar",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1201,
+          "char_end": 1209,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Kimpride",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1211,
+          "char_end": 1216,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1-1-1",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1219,
+          "char_end": 1226,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Potklor",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1227,
+          "char_end": 1232,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "syrup",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1234,
+          "char_end": 1245,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2tsp-0-2tsp",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1261,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Montasma plus",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1267,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Dell",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1276,
+          "char_end": 1284,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Asthalin",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1286,
+          "char_end": 1308,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "as needed or emergency",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1396,
+          "char_end": 1420,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weak in my legs and feet",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1422,
+          "char_end": 1429,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fatigue",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tired",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1544,
+          "char_end": 1548,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2135,
+          "char_end": 2137,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "BP",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2140,
+          "char_end": 2151,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Blood sugar",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2164,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "S.Potassium",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2165,
+          "char_end": 2183,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Cholesterol levels",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2267,
+          "char_end": 2274,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "smoking",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 2277,
+          "char_end": 2284,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "alcohol",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2325,
+          "char_end": 2331,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stress",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2334,
+          "char_end": 2341,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2543,
+          "char_end": 2551,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e81"
+    }
+  ]
+}

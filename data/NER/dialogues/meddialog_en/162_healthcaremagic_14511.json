@@ -1,0 +1,359 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:14511:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Concerned our teenage daughter started this summer with when getting overheated she develope a rash.  Now instead of a rash it is itchy welts the size of a breath mint.  It only occurs when she does a physical activity or from taking hot shower. Our doctor prescribed singulair this summer which didn't work so we discontinued, now she is trying zafirlukast 20mg.  She has only been taking it for one week, but I see no difference. To be quite honest, the only thing that actually works is products like benedryl (which sometimes make her drowsy).  I did give her a generic form of antihistamine yesterday which worked well, without the drowsiness.  I would really like to know what this is and how long it will last as I really do not want her on meds.\n[doctor] Hello. Thank you for writing to us at healthcaremagicThis condition is known as cholinergic urticaria.Cholinergic Urticaria classically presents with itchy, welts which are small and uniform in size, distributed all over the body. The reaction is intense and sudden but short lasting.The reaction commonly develops in response to certain stimuli which raise core body temperature e.g exercise/ physical activity, hot shower, spicy food Or in response to strong emotional reactions like anger etc.It is a type of physical urticaria and is usually chronic and recurrent.Apart from avoiding activities that trigger this type of urticaria, treatment is symptomatic with Oral antihistamines e.g cetrizine or loratadine. A single dose once daily is usually enough.Topically she may use a soothing lotion e.g calamine, during an episode of cholinergic urticaria.Regards",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 109,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 129,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 151,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itchy welts",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 278,
+          "char_end": 287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "singulair",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 356,
+          "char_end": 367,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zafirlukast",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 368,
+          "char_end": 372,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20mg",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 415,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for one week",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 522,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "benedryl",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 555,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drowsy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 605,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antihistamine",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 647,
+          "char_end": 657,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drowsiness",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 874,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cholinergic urticaria",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 896,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Cholinergic Urticaria",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 928,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itchy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 930,
+          "char_end": 935,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "welts",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1259,
+          "char_end": 1264,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anger",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1285,
+          "char_end": 1303,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "physical urticaria",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1385,
+          "char_end": 1407,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "this type of urticaria",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1439,
+          "char_end": 1443,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Oral",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1444,
+          "char_end": 1458,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihistamines",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1463,
+          "char_end": 1472,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cetrizine",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1476,
+          "char_end": 1486,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "loratadine",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1488,
+          "char_end": 1501,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "A single dose",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1502,
+          "char_end": 1512,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "once daily",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1531,
+          "char_end": 1540,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Topically",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1575,
+          "char_end": 1583,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "calamine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1627,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cholinergic urticaria",
+      "id": "e27"
+    }
+  ]
+}

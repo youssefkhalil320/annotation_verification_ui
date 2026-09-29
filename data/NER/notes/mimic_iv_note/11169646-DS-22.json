@@ -1,0 +1,1903 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11169646-DS-22:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nKeflex\n\nChief Complaint:\nAbd pain\n\nHistory of Present Illness:\n___ yo F with dx of IBD, followed by Dr. ___ from \nhome to ED with severe abd pain x 5 days.  She was recently \ndischarged approx 2 wks ago (___) and was on DC'ed on Pentasa, \nwhich was stopped on ___, started Cipro/Flagyl on \n___, plan for Remicade (approved by insurance) to start later \nthis week, but started developing abd pain on ___, did not \nrespond to oxycodone, went to ___ ED yesterday, refused \nadmission, called Dr. ___ today and referred to ED.\nPt states pain is ___, severe, sharp and crampy, \ndiffuse/generalized, non-radiating, no exacerbating/alleviating \nfactors, with associated episodes of nausea, non-billous \nnon-bloody emesis, non-bloody diarrhea, up to 8 - 10 loose BM's \ndaiy, although has last BM this AM was formed.  Denies fevers, \nbut some associated chills, fatigue/malaise.  Endorses loss of \nappetite, poor PO intake. \n.\nIn reviewing her history, her GI symptoms initially began in \n___ and she went to see her GI doctor who was concerned for \nsevere constipation, but then developed bloody diarrhea.  She \nwas admitted to ___, underwent a colonoscopy \nwith 3 biopsies showing Crohns. She was started on Pentasa which \nhelped stopped the bleeding, but abdominal pain persisted.  She \nwas then started on prednisone, without improvement of symptoms. \nIn late ___, she was readmitted to ___ with \nsevere constipation, refractory to multiple meds including \nGolytely. She was transferred to ___, where she had \nBMs, and underwent a repeat colonoscopy, which showed left sided \ncolonic erosions, concerning for UC. She was discharged and \nstarted on beladonna, but with worsening pain. She was then \nre-admitted to ___ over the weekend, with severe diarrhea and \nBRBPR up to ___ daily.  There was concern for gallbladder \ndisease but a HIDA was negative. She was started on mesalamine \nwithout improvement.\nShe was then discharged from ___ with plan to come to ___ \nfor a second opinion from Dr. ___. Was seen in clinic but \nnoted to have excurtiating pain and she was sent to the ED and \nsubsequently admitted inpatient evaluation.  CT scan showed \npan-colitis and then underwent a flex-sig with bx showing mild \ncolitis.  She was seen by Rheumatology and Chronic Pain Service \non this admission.  She was felt to have unlikely vasculitis \ngiven benign rheumatologic w/u.  A trial of Nortriptyline failed \nfor abdominal pain.  She was discharged on ___ on Pentasa with \nplan to f/u as outpt with GI for Remicade initiation.    \n.  \n-In the ED, initial VS: 998.4 115/74 104 18 98%RA  \n-Exam notable for:  diffuse TTP  \n-Labs notable for: pyuria, otherwise unremarkable.  \n-The pt underwent: CT scan abd/pelvis, which showed interval \nimprovement of hepatic flexure colitis with minimal if any \nresidual wall thickening. Moderate amt of fecal material \nthroughout the colon. No obstruction. Terminal ileum \nunremarkable.  \n-The pt received: 3L NS, Dilaudid 0.5mg IV x2, Zofran 4mg IV, \nFentyl 50mcg x 2, IV Cipro/Flagyl, Ativan 1mg IV.   \n-The pt was seen by:  no consults\n-Vitals prior to transfer: 98, 88, 14, 100/55, 100 RA \n.  \nROS: Endorses migraine HA.  Denies fever, night sweats, vision \nchanges, rhinorrhea, congestion, sore throat, cough, shortness \nof breath, chest pain, BRBPR, melena, hematochezia, dysuria, \nhematuria, rash, arthralgias, myalgias. All other ROS negative.  \n\n.  \nMEDICAL & SURGICAL HISTORY:  \n-inflammatory bowel disease\n-hemorrhoids s/p sphincterotomy one year ago  \n-migraines\nHealth Maintenance:\n-reports a history of chickenpox.  \n-not been previously vaccinated against hepatitis B.  \n-negative PPD performed while an inpatient in ___.  \n.\n\nBrief Hospital Course:\n___ yo F with recent diagnosis of inflammatory bowel disease, \nfailing conservative therapy with 5-ASA and steroids, with \nplanned initiation of Remicade, now presents with worsening \nabdominal pain with N/V/D.\n\nShe has quite severe pain given colonoscopy findings and \nmoderate colitis on biopsy.  She had a CT scan that did not show \nany abcess or infection and thus she received Infliximab 300mg \n(first dose on ___ with consulation with GI, Dr. ___.   She \nremained on ciprofloxacin/flagyl until flagyl was discontinued \ndue to GI intolerance.  She received anti-emetics and PPI (GERD \nsymptoms).  She tolerated POs well beginning on ___ and her \npain began to improve on hospital day 4 and she only required \nminimal oral pain medicines prior to discharge.  \n\nShe will call Dr. ___ to discuss when she will receive her \nnext dose of infliximab in 2 weeks.  She will complete 5 \nadditional days of ciprofloxacin.  She said that she was \nactually not on prednisone for 3 weeks prior to admission at \n___ as prednisone was started/stopped after a brief period of \nunder ___ weeks in late ___.  Thus, she was not \ndischarged on prednisone, but she should discuss this with Dr. \n___ in followup.  She had moderate constipation and was \ndischarged on multiple bowel meds including colace/senna/miralax \nPRN/metamucil.\n\nIn terms of notable labs her ESR/CRP were moderately elevated.\n\nDischarge Diagnosis:\ninflammatory bowel disease\nGERD",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "Keflex",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 36,
+          "char_end": 44,
+          "turn_id": null
+        }
+      ],
+      "text": "Abd pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "IBD",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 97,
+          "turn_id": null
+        }
+      ],
+      "text": "IBD",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 156,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "approx 2",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 247,
+          "turn_id": null
+        }
+      ],
+      "text": "Pentasa",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 284,
+          "char_end": 289,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 296,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 323,
+          "turn_id": null
+        }
+      ],
+      "text": "Remicade",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 398,
+          "char_end": 406,
+          "turn_id": null
+        }
+      ],
+      "text": "abd pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 444,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycodone",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 543,
+          "char_end": 547,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 685,
+          "char_end": 691,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 693,
+          "char_end": 723,
+          "turn_id": null
+        }
+      ],
+      "text": "non-billous \nnon-bloody emesis",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 725,
+          "char_end": 744,
+          "turn_id": null
+        }
+      ],
+      "text": "non-bloody diarrhea",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 759,
+          "char_end": 769,
+          "turn_id": null
+        }
+      ],
+      "text": "loose BM's",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 832,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 855,
+          "char_end": 861,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 870,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 878,
+          "turn_id": null
+        }
+      ],
+      "text": "malaise",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 890,
+          "char_end": 907,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of \nappetite",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 909,
+          "char_end": 923,
+          "turn_id": null
+        }
+      ],
+      "text": "poor PO intake",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1058,
+          "char_end": 1070,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1147,
+          "char_end": 1158,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1167,
+          "char_end": 1175,
+          "turn_id": null
+        }
+      ],
+      "text": "biopsies",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1184,
+          "char_end": 1190,
+          "turn_id": null
+        }
+      ],
+      "text": "Crohns",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1211,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "Pentasa",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1259,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1311,
+          "char_end": 1321,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1409,
+          "char_end": 1421,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1462,
+          "char_end": 1470,
+          "turn_id": null
+        }
+      ],
+      "text": "Golytely",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1543,
+          "char_end": 1554,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1569,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "left sided \ncolonic erosions",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1614,
+          "char_end": 1616,
+          "turn_id": null
+        }
+      ],
+      "text": "UC",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1662,
+          "turn_id": null
+        }
+      ],
+      "text": "beladonna",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1683,
+          "char_end": 1687,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1752,
+          "char_end": 1760,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1766,
+          "char_end": 1771,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1812,
+          "char_end": 1832,
+          "turn_id": null
+        }
+      ],
+      "text": "gallbladder \ndisease",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1839,
+          "char_end": 1843,
+          "turn_id": null
+        }
+      ],
+      "text": "HIDA",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1877,
+          "char_end": 1887,
+          "turn_id": null
+        }
+      ],
+      "text": "mesalamine",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2055,
+          "char_end": 2059,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2137,
+          "char_end": 2144,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2164,
+          "turn_id": null
+        }
+      ],
+      "text": "pan-colitis",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2186,
+          "char_end": 2194,
+          "turn_id": null
+        }
+      ],
+      "text": "flex-sig",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2200,
+          "char_end": 2202,
+          "turn_id": null
+        }
+      ],
+      "text": "bx",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2217,
+          "char_end": 2224,
+          "turn_id": null
+        }
+      ],
+      "text": "colitis",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2332,
+          "char_end": 2342,
+          "turn_id": null
+        }
+      ],
+      "text": "vasculitis",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2357,
+          "char_end": 2374,
+          "turn_id": null
+        }
+      ],
+      "text": "rheumatologic w/u",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2388,
+          "char_end": 2401,
+          "turn_id": null
+        }
+      ],
+      "text": "Nortriptyline",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2388,
+          "char_end": 2401,
+          "turn_id": null
+        }
+      ],
+      "text": "Nortriptyline",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2414,
+          "char_end": 2428,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2460,
+          "char_end": 2467,
+          "turn_id": null
+        }
+      ],
+      "text": "Pentasa",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2507,
+          "char_end": 2515,
+          "turn_id": null
+        }
+      ],
+      "text": "Remicade",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2556,
+          "char_end": 2558,
+          "turn_id": null
+        }
+      ],
+      "text": "VS",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2608,
+          "char_end": 2619,
+          "turn_id": null
+        }
+      ],
+      "text": "diffuse TTP",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2641,
+          "char_end": 2647,
+          "turn_id": null
+        }
+      ],
+      "text": "pyuria",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2694,
+          "char_end": 2712,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan abd/pelvis",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2752,
+          "char_end": 2775,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatic flexure colitis",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2797,
+          "char_end": 2821,
+          "turn_id": null
+        }
+      ],
+      "text": "residual wall thickening",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2839,
+          "char_end": 2875,
+          "turn_id": null
+        }
+      ],
+      "text": "fecal material \nthroughout the colon",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2880,
+          "char_end": 2891,
+          "turn_id": null
+        }
+      ],
+      "text": "obstruction",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2943,
+          "char_end": 2945,
+          "turn_id": null
+        }
+      ],
+      "text": "3L",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2946,
+          "char_end": 2948,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2950,
+          "char_end": 2958,
+          "turn_id": null
+        }
+      ],
+      "text": "Dilaudid",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2959,
+          "char_end": 2964,
+          "turn_id": null
+        }
+      ],
+      "text": "0.5mg",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2965,
+          "char_end": 2967,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2968,
+          "char_end": 2970,
+          "turn_id": null
+        }
+      ],
+      "text": "x2",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2972,
+          "char_end": 2978,
+          "turn_id": null
+        }
+      ],
+      "text": "Zofran",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2979,
+          "char_end": 2982,
+          "turn_id": null
+        }
+      ],
+      "text": "4mg",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2983,
+          "char_end": 2985,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2988,
+          "char_end": 2994,
+          "turn_id": null
+        }
+      ],
+      "text": "Fentyl",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2995,
+          "char_end": 3000,
+          "turn_id": null
+        }
+      ],
+      "text": "50mcg",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3006,
+          "char_end": 3008,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3009,
+          "char_end": 3014,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3015,
+          "char_end": 3021,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3023,
+          "char_end": 3029,
+          "turn_id": null
+        }
+      ],
+      "text": "Ativan",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3030,
+          "char_end": 3033,
+          "turn_id": null
+        }
+      ],
+      "text": "1mg",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3034,
+          "char_end": 3036,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3148,
+          "char_end": 3159,
+          "turn_id": null
+        }
+      ],
+      "text": "migraine HA",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3176,
+          "char_end": 3188,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3190,
+          "char_end": 3205,
+          "turn_id": null
+        }
+      ],
+      "text": "vision \nchanges",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3207,
+          "char_end": 3217,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3219,
+          "char_end": 3229,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3231,
+          "char_end": 3242,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3244,
+          "char_end": 3249,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3251,
+          "char_end": 3271,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness \nof breath",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3273,
+          "char_end": 3283,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3285,
+          "char_end": 3290,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3292,
+          "char_end": 3298,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3300,
+          "char_end": 3312,
+          "turn_id": null
+        }
+      ],
+      "text": "hematochezia",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3314,
+          "char_end": 3321,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3324,
+          "char_end": 3333,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3335,
+          "char_end": 3339,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3341,
+          "char_end": 3352,
+          "turn_id": null
+        }
+      ],
+      "text": "arthralgias",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3354,
+          "char_end": 3362,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3426,
+          "char_end": 3452,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory bowel disease",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3454,
+          "char_end": 3465,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhoids",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 3470,
+          "char_end": 3484,
+          "turn_id": null
+        }
+      ],
+      "text": "sphincterotomy",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3501,
+          "char_end": 3510,
+          "turn_id": null
+        }
+      ],
+      "text": "migraines",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3553,
+          "char_end": 3563,
+          "turn_id": null
+        }
+      ],
+      "text": "chickenpox",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3588,
+          "char_end": 3618,
+          "turn_id": null
+        }
+      ],
+      "text": "vaccinated against hepatitis B",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3632,
+          "char_end": 3635,
+          "turn_id": null
+        }
+      ],
+      "text": "PPD",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3735,
+          "char_end": 3761,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory bowel disease",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3798,
+          "char_end": 3803,
+          "turn_id": null
+        }
+      ],
+      "text": "5-ASA",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3808,
+          "char_end": 3816,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 3846,
+          "char_end": 3854,
+          "turn_id": null
+        }
+      ],
+      "text": "Remicade",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3885,
+          "char_end": 3899,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3934,
+          "char_end": 3938,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3945,
+          "char_end": 3956,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3991,
+          "char_end": 3997,
+          "turn_id": null
+        }
+      ],
+      "text": "biopsy",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4010,
+          "char_end": 4017,
+          "turn_id": null
+        }
+      ],
+      "text": "CT scan",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4041,
+          "char_end": 4047,
+          "turn_id": null
+        }
+      ],
+      "text": "abcess",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4051,
+          "char_end": 4060,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4083,
+          "char_end": 4093,
+          "turn_id": null
+        }
+      ],
+      "text": "Infliximab",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4094,
+          "char_end": 4099,
+          "turn_id": null
+        }
+      ],
+      "text": "300mg",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4174,
+          "char_end": 4187,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4188,
+          "char_end": 4194,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4201,
+          "char_end": 4207,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4233,
+          "char_end": 4247,
+          "turn_id": null
+        }
+      ],
+      "text": "GI intolerance",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4263,
+          "char_end": 4275,
+          "turn_id": null
+        }
+      ],
+      "text": "anti-emetics",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4280,
+          "char_end": 4283,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4285,
+          "char_end": 4289,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4428,
+          "char_end": 4442,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medicines",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4539,
+          "char_end": 4549,
+          "turn_id": null
+        }
+      ],
+      "text": "infliximab",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4550,
+          "char_end": 4560,
+          "turn_id": null
+        }
+      ],
+      "text": "in 2 weeks",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 4581,
+          "char_end": 4599,
+          "turn_id": null
+        }
+      ],
+      "text": "5 \nadditional days",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4603,
+          "char_end": 4616,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4658,
+          "char_end": 4668,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 4669,
+          "char_end": 4680,
+          "turn_id": null
+        }
+      ],
+      "text": "for 3 weeks",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4711,
+          "char_end": 4721,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e132"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4830,
+          "char_end": 4840,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e133"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4915,
+          "char_end": 4927,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e134"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4981,
+          "char_end": 4987,
+          "turn_id": null
+        }
+      ],
+      "text": "colace",
+      "id": "e135"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4988,
+          "char_end": 4993,
+          "turn_id": null
+        }
+      ],
+      "text": "senna",
+      "id": "e136"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4994,
+          "char_end": 5001,
+          "turn_id": null
+        }
+      ],
+      "text": "miralax",
+      "id": "e137"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 5003,
+          "char_end": 5006,
+          "turn_id": null
+        }
+      ],
+      "text": "PRN",
+      "id": "e138"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5007,
+          "char_end": 5016,
+          "turn_id": null
+        }
+      ],
+      "text": "metamucil",
+      "id": "e139"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 5048,
+          "char_end": 5051,
+          "turn_id": null
+        },
+        {
+          "char_start": 5072,
+          "char_end": 5080,
+          "turn_id": null
+        }
+      ],
+      "text": "ESR elevated",
+      "id": "e140"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 5048,
+          "char_end": 5051,
+          "turn_id": null
+        }
+      ],
+      "text": "ESR",
+      "id": "e141"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 5052,
+          "char_end": 5055,
+          "turn_id": null
+        },
+        {
+          "char_start": 5072,
+          "char_end": 5080,
+          "turn_id": null
+        }
+      ],
+      "text": "CRP elevated",
+      "id": "e142"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 5052,
+          "char_end": 5055,
+          "turn_id": null
+        }
+      ],
+      "text": "CRP",
+      "id": "e143"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5104,
+          "char_end": 5130,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory bowel disease",
+      "id": "e144"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5131,
+          "char_end": 5135,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e145"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:14845483-DS-5:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nClaritin / Penicillins\n\nChief Complaint:\nRUQ pain\n\nHistory of Present Illness:\nPatient is a ___ female with congenital solitary right kidney\nand history of urolithiasis, seen in the ED for oliguria, \nnausea,\nvomiting, and right flank pain. She reports pain, nausea, and\nNBNB vomiting developing yesterday evening. She last voided 5pm\nand hasn't had any urge since. She notes some pinkness when she\nwiped at 5pm, but denies any dysuria, urinary urgency, \nfrequency,\nchest pain or shortness of breath. CT imaging was notable for a\n5x6x8mm right mid ureteral stone with proximal hydronephrosis \nand\nfat stranding. Labs were notable for a mildly elevated WBC to\n13.2 and a creatinine of 1.4 from a baseline of 0.7.\n\nDischarge Diagnosis:\nRight ureteral stone",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Claritin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 33,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 52,
+          "char_end": 60,
+          "turn_id": null
+        }
+      ],
+      "text": "RUQ pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "congenital solitary right kidney",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "urolithiasis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 200,
+          "char_end": 208,
+          "turn_id": null
+        }
+      ],
+      "text": "oliguria",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 211,
+          "char_end": 217,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 227,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "right flank pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 267,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 281,
+          "char_end": 294,
+          "turn_id": null
+        }
+      ],
+      "text": "NBNB vomiting",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 399,
+          "turn_id": null
+        }
+      ],
+      "text": "pinkness",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 438,
+          "char_end": 445,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 462,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary urgency",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 474,
+          "turn_id": null
+        }
+      ],
+      "text": "frequency",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 486,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 509,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 511,
+          "char_end": 521,
+          "turn_id": null
+        }
+      ],
+      "text": "CT imaging",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 548,
+          "char_end": 572,
+          "turn_id": null
+        }
+      ],
+      "text": "right mid ureteral stone",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 587,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "hydronephrosis",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 607,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "fat stranding",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 653,
+          "char_end": 665,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated WBC",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 665,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 680,
+          "char_end": 690,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 764,
+          "turn_id": null
+        }
+      ],
+      "text": "Right ureteral stone",
+      "id": "e26"
+    }
+  ]
+}

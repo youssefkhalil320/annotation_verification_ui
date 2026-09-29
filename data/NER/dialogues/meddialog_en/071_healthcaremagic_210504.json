@@ -1,0 +1,255 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:210504:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi.....I have been diagnosed with major depression and generalized anxiety disorder. I tried 4 ant-depressants but all made me slightly manic....I also tried trileptal and one similar which made me very aggressive.... now I have been just taking ativan as needed and think my depression is creeping back in... have been off meds for 3 months... when weaning , I felt pretty good on 5mg Paxil... should I go back to my psychiatrist and ask for that? What would be good since nothing works?\n[doctor] Hello,Thanks for choosing health care magic for posting your query.I have gone through your question in detail and I can understand what you are going through.Paxil is a very good drug for anxiety and depression, and I use it as a drug of choice. Although 5 mg dose is on the lower side but it can be gradually increased. You should visit your psychiatrist. The fact that you had improvement earlier with paxil suggest that there could be improvement with paxil even now. Hope I am able to answer your concerns.If you have any further query, I would be glad to help you.In future if you wish to contact me directly, you can use the below mentioned link:bit.ly/dr-srikanth-reddy",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 60,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "major depression",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 65,
+          "char_end": 93,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "generalized anxiety disorder",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ant-depressants",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 151,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "manic",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 177,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "trileptal",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 223,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "aggressive",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 256,
+          "char_end": 262,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ativan",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "as needed",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 296,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "off meds",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 351,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 3 months",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 395,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "5mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 396,
+          "char_end": 401,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Paxil",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 667,
+          "char_end": 672,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Paxil",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 697,
+          "char_end": 704,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 709,
+          "char_end": 719,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 768,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "5 mg",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 918,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paxil",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 969,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "paxil",
+      "id": "e19"
+    }
+  ]
+}

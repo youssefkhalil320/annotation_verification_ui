@@ -1,0 +1,1100 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19029474-DS-15:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins / Fish Containing Products\n\nChief Complaint:\naltered mental status, vomiting, fever\n\nHistory of Present Illness:\nMs. ___ is a ___ female with history of \nHTN, HLD, AS who was transferred from ___ for \nworkup of thrombocytopenia, AMS, and NSTEMI, now transferred to \nMICU with tachycardia and tachypnea. \n\nThe following history is taken from WebOMR notes, as patient is \nunable to provide a history at this time. \n\nSHe originally presented to ___ after her son called EMS \nand reported dehydration, with decreased p.o. intake, nausea, \nvomiting, confusion. This was in the setting of taking a steroid \ndose pack given concern for temporal arteritis after pt \ndeveloped R temporal pain. Per ID note: \"Her son reports that at \nbaseline she is independent, drives and walks her dog. \n___, she developed right knee pain despite no trauma. She \nwas favoring that knee. She was becoming progressively weaker \nand the knee pain limited her. She required help in ambulation \nwhich is a major change for her. She vomited ___ to ___ \nand then started slurring her speech so\nbrought to ED ___ by her son for that reason.\"\n\nPer ___ admission note: \" At outside hospital, had negative \nhead CT, nonfocal CT abdomen. They attempted an LP which was \nunsuccessful. Utox pos for cannabis. Was noted to have troponin \nof 3.2 with normal EKG, concern for possible myocarditis. \nNotably platelets 225--> 107 over three days. Concern for \npossible TTP, transferred for further workup.\"\n\nSince arrival here, troponins were trended to peak and she was \nfound to have high grade MSSA bacteremia and R knee staph aureus \nseptic arthritis. She had an MRI brain this evening that showed \nnumerous lesions concerning for septic emboli. \n\nAfter returning from MRI, pt became increasingly tachycardic and \ntachypneic. BP and O2 sat remained stable. Nightfloat team \ntreated patient with 1.5L fluid bolus, nebs, and IV Tylenol for \npain control, but her tachycardia and tachypnea, as well as \nsomnolence, persisted. She was thus transferred to MICU for \nfurther care.\n\nOn arrival to the MICU, pt is somnolent and unable to provide \nhistory. She is tachycardic to the 120s and tachypneic to the \n___, with stable BP and O2 sat. POCUS showed no RV dilation, \ncollapsible IVC.\n\nBrief Hospital Course:\nMs. ___ is a ___ with a HTN, HLD, & AS, \nwho presented as a transfer ___, where she \ninitially presented w/ altered mental status, ultimately found \nto have severe right knee pain, thrombocytopenia, tropinemia, & \nhigh-grade S. aureus bacteremia.  The patient was transferred to \nthe ___ MICU for further stabilization; her course was \ncomplicated by septic arthritis of the right knee s/p I&D, \nseptic emboli to brain, as well as native aortic and mitral \nvalve endocarditis with aortic root abscesses. Further, \npatient's course was complicated by AMS, VAP, and NSTEMI. \nPatient was receiving a load of fosphenytoin for seizure \nprophylaxis on ___ when she became bradycardic and lost her \npulse. ROSC was achieved initially but patient lost her pulse \nagain and despite resuscitation efforts, she died on ___.\n\nDischarge Diagnosis:\nPrimary Diagnosis \n==================\nMSSA bacteremia \nNSTEMI\nAMS\nSeptic arthritis\nSeptic emboli",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 89,
+          "turn_id": null
+        }
+      ],
+      "text": "altered mental status",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 99,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 106,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 177,
+          "char_end": 180,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 185,
+          "turn_id": null
+        }
+      ],
+      "text": "HLD",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 189,
+          "turn_id": null
+        }
+      ],
+      "text": "AS",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 250,
+          "turn_id": null
+        }
+      ],
+      "text": "thrombocytopenia",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 252,
+          "char_end": 255,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 267,
+          "turn_id": null
+        }
+      ],
+      "text": "NSTEMI",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 299,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 324,
+          "turn_id": null
+        }
+      ],
+      "text": "tachypnea",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 508,
+          "char_end": 519,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 526,
+          "char_end": 547,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased p.o. intake",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 555,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 558,
+          "char_end": 566,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 577,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 622,
+          "turn_id": null
+        }
+      ],
+      "text": "steroid",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 670,
+          "turn_id": null
+        }
+      ],
+      "text": "temporal arteritis",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 691,
+          "char_end": 706,
+          "turn_id": null
+        }
+      ],
+      "text": "R temporal pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 822,
+          "char_end": 837,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 917,
+          "char_end": 923,
+          "turn_id": null
+        }
+      ],
+      "text": "weaker",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 942,
+          "turn_id": null
+        }
+      ],
+      "text": "knee pain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1063,
+          "char_end": 1082,
+          "turn_id": null
+        }
+      ],
+      "text": "slurring her speech",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1202,
+          "turn_id": null
+        }
+      ],
+      "text": "head CT",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1213,
+          "char_end": 1223,
+          "turn_id": null
+        }
+      ],
+      "text": "CT abdomen",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1245,
+          "turn_id": null
+        }
+      ],
+      "text": "LP",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1275,
+          "turn_id": null
+        }
+      ],
+      "text": "Utox",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 1284,
+          "char_end": 1292,
+          "turn_id": null
+        }
+      ],
+      "text": "cannabis",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1312,
+          "char_end": 1320,
+          "turn_id": null
+        }
+      ],
+      "text": "troponin",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1341,
+          "char_end": 1344,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1367,
+          "char_end": 1378,
+          "turn_id": null
+        }
+      ],
+      "text": "myocarditis",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1398,
+          "turn_id": null
+        }
+      ],
+      "text": "platelets",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1449,
+          "char_end": 1452,
+          "turn_id": null
+        }
+      ],
+      "text": "TTP",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1508,
+          "char_end": 1517,
+          "turn_id": null
+        }
+      ],
+      "text": "troponins",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1566,
+          "char_end": 1592,
+          "turn_id": null
+        }
+      ],
+      "text": "high grade MSSA bacteremia",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1597,
+          "char_end": 1634,
+          "turn_id": null
+        }
+      ],
+      "text": "R knee staph aureus \nseptic arthritis",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1647,
+          "char_end": 1656,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI brain",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1683,
+          "char_end": 1699,
+          "turn_id": null
+        }
+      ],
+      "text": "numerous lesions",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1715,
+          "char_end": 1728,
+          "turn_id": null
+        }
+      ],
+      "text": "septic emboli",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1753,
+          "char_end": 1756,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1781,
+          "char_end": 1792,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardic",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1798,
+          "char_end": 1808,
+          "turn_id": null
+        }
+      ],
+      "text": "tachypneic",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1810,
+          "char_end": 1812,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1817,
+          "char_end": 1823,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1884,
+          "char_end": 1895,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid bolus",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1907,
+          "char_end": 1909,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1910,
+          "char_end": 1917,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1945,
+          "char_end": 1956,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1961,
+          "char_end": 1970,
+          "turn_id": null
+        }
+      ],
+      "text": "tachypnea",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1984,
+          "char_end": 1994,
+          "turn_id": null
+        }
+      ],
+      "text": "somnolence",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2090,
+          "char_end": 2099,
+          "turn_id": null
+        }
+      ],
+      "text": "somnolent",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2139,
+          "char_end": 2150,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardic",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2167,
+          "char_end": 2177,
+          "turn_id": null
+        }
+      ],
+      "text": "tachypneic",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2203,
+          "char_end": 2205,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 2210,
+          "char_end": 2216,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2218,
+          "char_end": 2223,
+          "turn_id": null
+        }
+      ],
+      "text": "POCUS",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2234,
+          "char_end": 2245,
+          "turn_id": null
+        }
+      ],
+      "text": "RV dilation",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2313,
+          "char_end": 2316,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2318,
+          "char_end": 2321,
+          "turn_id": null
+        }
+      ],
+      "text": "HLD",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2325,
+          "char_end": 2327,
+          "turn_id": null
+        }
+      ],
+      "text": "AS",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2397,
+          "char_end": 2418,
+          "turn_id": null
+        }
+      ],
+      "text": "altered mental status",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2453,
+          "char_end": 2468,
+          "turn_id": null
+        }
+      ],
+      "text": "right knee pain",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2470,
+          "char_end": 2486,
+          "turn_id": null
+        }
+      ],
+      "text": "thrombocytopenia",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2488,
+          "char_end": 2498,
+          "turn_id": null
+        }
+      ],
+      "text": "tropinemia",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2503,
+          "char_end": 2534,
+          "turn_id": null
+        }
+      ],
+      "text": "high-grade S. aureus bacteremia",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2640,
+          "char_end": 2674,
+          "turn_id": null
+        }
+      ],
+      "text": "septic arthritis of the right knee",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2680,
+          "char_end": 2682,
+          "turn_id": null
+        }
+      ],
+      "text": "&D",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2685,
+          "char_end": 2707,
+          "turn_id": null
+        }
+      ],
+      "text": "septic emboli to brain",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2738,
+          "char_end": 2764,
+          "turn_id": null
+        }
+      ],
+      "text": "mitral \nvalve endocarditis",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2770,
+          "char_end": 2791,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic root abscesses",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2839,
+          "char_end": 2842,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2844,
+          "char_end": 2847,
+          "turn_id": null
+        }
+      ],
+      "text": "VAP",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2853,
+          "char_end": 2859,
+          "turn_id": null
+        }
+      ],
+      "text": "NSTEMI",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2894,
+          "char_end": 2906,
+          "turn_id": null
+        }
+      ],
+      "text": "fosphenytoin",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2955,
+          "char_end": 2966,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardic",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2971,
+          "char_end": 2986,
+          "turn_id": null
+        }
+      ],
+      "text": "lost her \npulse",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2988,
+          "char_end": 2992,
+          "turn_id": null
+        }
+      ],
+      "text": "ROSC",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3028,
+          "char_end": 3042,
+          "turn_id": null
+        }
+      ],
+      "text": "lost her pulse",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3162,
+          "char_end": 3177,
+          "turn_id": null
+        }
+      ],
+      "text": "MSSA bacteremia",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3179,
+          "char_end": 3185,
+          "turn_id": null
+        }
+      ],
+      "text": "NSTEMI",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3186,
+          "char_end": 3189,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3190,
+          "char_end": 3206,
+          "turn_id": null
+        }
+      ],
+      "text": "Septic arthritis",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3207,
+          "char_end": 3220,
+          "turn_id": null
+        }
+      ],
+      "text": "Septic emboli",
+      "id": "e84"
+    }
+  ]
+}

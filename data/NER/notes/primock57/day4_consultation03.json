@@ -1,0 +1,216 @@
+{
+  "doc_id": "PRIMOCK57:day4_consultation03:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "PC SOBAR, c section 2-3 weeks ago\n\nHPC;\nSOBAR while watching tv, acute onset.  Cough 1/7 previously, unproductive.\nNo fever, no chills, non positional.\nNo chest pain, no pain on inspiration\n\nC section 2-3 weeks ago. No complications, baby well.  No symptoms.\nNo of blood thinners.\n\n\nPMHx nill\nDhx. allergies to ibuprofen \n\n\nOex HR via telephone roughly 120bpm . tachy, regular\n\n\nFHx,\nMother hx of clots on legs.\n\nDDx: PE\n\nPlan : Further examination and investigation in acute setting.\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3,
+          "char_end": 8,
+          "turn_id": null
+        }
+      ],
+      "text": "SOBAR",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "c section",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 45,
+          "turn_id": null
+        }
+      ],
+      "text": "SOBAR",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 79,
+          "char_end": 84,
+          "turn_id": null
+        }
+      ],
+      "text": "Cough",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 123,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 128,
+          "char_end": 134,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 189,
+          "turn_id": null
+        }
+      ],
+      "text": "pain on inspiration",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "C section",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 279,
+          "turn_id": null
+        }
+      ],
+      "text": "blood thinners",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 320,
+          "turn_id": null
+        }
+      ],
+      "text": "allergies to ibuprofen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 320,
+          "turn_id": null
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 328,
+          "char_end": 330,
+          "turn_id": null
+        }
+      ],
+      "text": "HR",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 362,
+          "char_end": 367,
+          "turn_id": null
+        }
+      ],
+      "text": "tachy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 397,
+          "char_end": 410,
+          "turn_id": null
+        }
+      ],
+      "text": "clots on legs",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 418,
+          "char_end": 420,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e16"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:177985:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi, My Daughter is 17 months old and she was immunised with the MMR vaccine 4 days back and she developed fever since last 2 days (today is 3rd day). The temperature is shooting up to 102F, we are giving her the paracetamol+ibuprofen (combination) suspension. however it is working temporarily and she is getting back the fever again in 6 hours. She is not eating anything and not even opening her mouth for any thing, apart from drinking some spoons of water. She is still on breast and always preferring only that. Please advise\n[doctor] Hi, I'am Dr Suresh K Yadav MD (paediatrics), I had gone through your question and understand your concerns,It is not due to MMR vaccine as fever after MMR vaccine usually occurs after 7-10 days , and such a high grade fever  is not usual after MMR vaccine . Moreover fever is running on 3rd day, her appetite is poor , she needs to evaluated for cause of fever and need of hospitalisation and intravenous hydration . Meanwhile continue antipyretic plus add tepid sponging to bring down fever.Hope this answers your question. If you have additional questions or follow up questions then please do not hesitate in writing to us. I will be happy to answer your questionsTake care.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 85,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MMR vaccine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 121,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 164,
+          "char_end": 175,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 179,
+          "char_end": 198,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "temperature shooting up to 102F",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 222,
+          "char_end": 243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "paracetamol+ibuprofen",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 268,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "suspension",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 337,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 367,
+          "char_end": 382,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "eating anything",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 413,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "even opening her mouth",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 685,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MMR vaccine",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 694,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 701,
+          "char_end": 712,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MMR vaccine",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 773,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 805,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MMR vaccine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 817,
+          "char_end": 822,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 850,
+          "char_end": 858,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 862,
+          "char_end": 866,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "appetite poor",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 910,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 938,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hospitalisation",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 943,
+          "char_end": 964,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "intravenous hydration",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 986,
+          "char_end": 997,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antipyretic",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1041,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever",
+      "id": "e20"
+    }
+  ]
+}

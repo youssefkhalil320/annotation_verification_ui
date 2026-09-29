@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 80,
@@ -35,21 +33,37 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 96,
+          "char_end": 106,
+          "turn_id": null
+        },
+        {
+          "char_start": 134,
           "char_end": 143,
           "turn_id": null
         }
       ],
-      "text": "Rho kinase/norepinephrine transporter inhibitor",
+      "text": "Rho kinase inhibitor",
       "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 143,
+          "turn_id": null
+        }
+      ],
+      "text": "norepinephrine transporter inhibitor",
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 190,
@@ -58,12 +72,11 @@
         }
       ],
       "text": "glaucoma",
-      "id": "e4"
+      "id": "e5"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 264,
@@ -72,12 +85,11 @@
         }
       ],
       "text": "netarsudil-M1",
-      "id": "e5"
+      "id": "e6"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 463,
@@ -86,31 +98,11 @@
         }
       ],
       "text": "netarsudil-M1",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 886,
-          "char_end": 892,
-          "turn_id": null
-        },
-        {
-          "char_start": 906,
-          "char_end": 913,
-          "turn_id": null
-        }
-      ],
-      "text": "global imaging",
       "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 897,
@@ -124,7 +116,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 993,
@@ -143,7 +134,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1003,
@@ -162,7 +152,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1014,
@@ -176,7 +165,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1050,
@@ -190,7 +178,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1672,

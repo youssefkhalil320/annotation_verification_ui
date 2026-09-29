@@ -1,0 +1,299 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:87415:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have stopped taking Phentermine around last July I was having real bad steady stomach pain i had an upper GI done the inside of my stomach is really red the GI Dr asked what have i been taking i said Phentermine that is it he said no aspirin or anything with aspirin i said no he prescribed me Prilosec it really didnt help i went to the Emergency room several times they gave me a Rx for carafate since then i went to another Dr (family Dr) he told me first thing to try is take more carafate and prilosec it has helped since then i havent had any pain and i have been able to eat the foods that would normally irritate my stomach and make it hurt when the pain happened it would go for hrs and on a scale from 1-10 it was a 20\n[doctor] Hi,Looking to the history it seems that you are having severe gastritis giving this problem and having red inflamed stomach mucosa.Take pentaprazole daily for some time.Change your food habit.Take light diet like milk, rice, buttermilk etc.Avoid fried, chillies and junk food.Avoid stress.Avoid taking any pain reliever medicines.Ok and take care.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 43,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Phentermine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 90,
+          "char_end": 102,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "upper GI",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 143,
+          "char_end": 150,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 161,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach red",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 212,
+          "char_end": 223,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Phentermine",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 253,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "aspirin",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "aspirin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 306,
+          "char_end": 314,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prilosec",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "carafate",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 497,
+          "char_end": 505,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "carafate",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 510,
+          "char_end": 518,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prilosec",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 561,
+          "char_end": 565,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 624,
+          "char_end": 643,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irritate my stomach",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 660,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hurt",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 670,
+          "char_end": 674,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 821,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gastritis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 880,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "red inflamed stomach mucosa",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 898,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pentaprazole",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 904,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "daily",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 905,
+          "char_end": 918,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for some time",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1038,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stress",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1069,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain reliever",
+      "id": "e22"
+    }
+  ]
+}

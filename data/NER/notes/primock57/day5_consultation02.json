@@ -1,0 +1,281 @@
+{
+  "doc_id": "PRIMOCK57:day5_consultation02:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "PC: Dysuria\nHPC: 6/7 hx dysuria, burning stinging sensation when PUs. No problem with actually passing urine. Strong odour. E&D normally. No new PV discharge. No back/loin pain. Not feverish but not checked temp.No obvious trigger, no hx dehydration/frequent SI. \nNo PHx urine infections/similar sx. \nNo recent change in BH/blood in stool.\nPMH: IBS\nFH: Nil\nDH: Mebeverine 200mg TDS. NKDA.\n\nSH: Lives with friends. Works as support worker. Non smoker. Drinks 1 unit/week.\nImp: Likely UTI.\nPlan: Nitrofurantoin 3/7 course. \nAdvised patient to contact us if fever/back pain/persistent symptoms or if recurrent episodes of similar symptoms occurs. \n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4,
+          "char_end": 11,
+          "turn_id": null
+        }
+      ],
+      "text": "Dysuria",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 31,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 33,
+          "char_end": 59,
+          "turn_id": null
+        }
+      ],
+      "text": "burning stinging sensation",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 122,
+          "turn_id": null
+        }
+      ],
+      "text": "Strong odour",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "PV discharge",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 176,
+          "turn_id": null
+        }
+      ],
+      "text": "back/loin pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 190,
+          "turn_id": null
+        }
+      ],
+      "text": "feverish",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 211,
+          "turn_id": null
+        }
+      ],
+      "text": "checked temp",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 249,
+          "turn_id": null
+        }
+      ],
+      "text": "dehydration",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 271,
+          "char_end": 287,
+          "turn_id": null
+        }
+      ],
+      "text": "urine infections",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 338,
+          "turn_id": null
+        }
+      ],
+      "text": "blood in stool",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 348,
+          "turn_id": null
+        }
+      ],
+      "text": "IBS",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 361,
+          "char_end": 371,
+          "turn_id": null
+        }
+      ],
+      "text": "Mebeverine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 377,
+          "turn_id": null
+        }
+      ],
+      "text": "200mg",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 381,
+          "turn_id": null
+        }
+      ],
+      "text": "TDS",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 439,
+          "char_end": 449,
+          "turn_id": null
+        }
+      ],
+      "text": "Non smoker",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 451,
+          "char_end": 469,
+          "turn_id": null
+        }
+      ],
+      "text": "Drinks 1 unit/week",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 486,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 508,
+          "turn_id": null
+        }
+      ],
+      "text": "Nitrofurantoin",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 519,
+          "turn_id": null
+        }
+      ],
+      "text": "3/7 course",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 561,
+          "char_end": 570,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e21"
+    }
+  ]
+}

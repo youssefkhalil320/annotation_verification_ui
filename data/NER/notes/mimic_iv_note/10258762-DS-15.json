@@ -1,0 +1,944 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10258762-DS-15:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCelexa / Wellbutrin\n\nChief Complaint:\nAltered mental status\n\nHistory of Present Illness:\nThe pt is a ___ year old man with history of HTN, CKD, DM, OSA,\ndepression/anxiety, intellectual disability, drug-induced\nparkinsonism, who presents as transfer for worsening confusion\nover days, slurred speech, and facial asymmetry, found to have a\nright subdural hematoma. Neurology is consulted for ?stroke as\nthe laterality of his symptoms do not appear to be clearly\ncorrelated to the subdural hematoma.\n\nHistory is obtained via records brought via transfer as pt \ncannot\nprovide history and family members could not be contacted.\nAccording to EMS and ___ documents, pt was noted\nby family and friends to be \"not acting right\" since yesterday\nmorning and \"had been increasingly confused all week. When she\nreturned around 6PM to help him with his medications she noticed\nhe had slurred speech and facial asymmetry. Speaking with his\nmother she reports she noticed slurred speech and facial\nasymmetry tonight as well around 7PM...he reportedly felt \n'spaced\nout'...He reports he feels weak all over\".\n\nInitial tele-code stroke was called, however upon completion of\nCT it was discovered he had a right-sided acute on chronic\nsubdural hematoma. He was subsequently transferred to ___ for\nneurosurgical evaluation.\n\nOn history with the patient, he perseverates on discomfort in \nhis\nbuttocks. He is unable to provide additional history or ROS.\n\nBrief Hospital Course:\nMr. ___ is a ___ yo gentleman with HTN, DM, OSA, \ndepression/anxiety, intellectual disability, and psychosis c/b \ndrug-induced parkinsonism, who presented with two days of \nprogressive confusion, as well as several hours of slurred \nspeech, facial asymmetry and inability to stand. CT head \ndemonstrated a right-sided small acute and larger chronic \nsubdural hematoma, and he was admitted to the neurology service \nfor evaluation for possible superimpose infarct given loss of \nability to ambulate. Exam is significant for left lower facial \ndroop, which is likely secondary to the subdural hematoma. \nAdditionally, he was quite somnolent, requiring repeated deep \nnoxious stimuli to obtained sustained arousal. He was therefore \nunable to participate in confrontational strength testing. Toxic \nmetabolic workup was initiated, which revealed a urinary tract \ninfection, treated with ceftriaxone. His somnolence improved \nwith treatemtn of the UTI, though he continued to have \ndifficulty participating in confrontational strength testing. \nMRI was obtained to rule out infarct, which redemonstrates \nsubdural hematoma, and is without evidence of infarct or other \nacute intracranial process. \n\nEchocardiogram performed to evaluate for cardiac etiologies of \nBNP 3000 on admission as well as chronic four extremity edema, \nand it did not reveal any heart failure. \n\n=============================================\nTransitional issues: \n- Aspirin stopped this admission; if strong indications for \nAspirin are found, consider risk/benefit of restarting ASA. \n- Has subdural hematoma and history of falls. We recommend \nconsideration of fall precautions and home safety evaluation. \n==============================================\n\nAHA/ASA Core Measures for Intracerebral Hemorrhage  \n1. Dysphagia screening before any PO intake? (x) Yes - () No  \n2. DVT Prophylaxis administered? (x) Yes - () No  \n3. Smoking cessation counseling given? () Yes - (x) No [reason \n(x) non-smoker - () unable to participate]  \n4. Stroke education (personal modifiable risk factors, how to \nactivate EMS for stroke, stroke warning signs and symptoms, \nprescribed medications, need for followup) given (verbally or \nwritten)? (x) Yes - () No  \n5. Assessment for rehabilitation and/or rehab services \nconsidered? (x) Yes - () No\n\nDischarge Diagnosis:\nSubdural hematoma",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "Celexa",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 30,
+          "turn_id": null
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "Altered mental status",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "CKD",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 157,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 159,
+          "char_end": 162,
+          "turn_id": null
+        }
+      ],
+      "text": "OSA",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 164,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 182,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 207,
+          "turn_id": null
+        }
+      ],
+      "text": "intellectual disability",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 209,
+          "char_end": 234,
+          "turn_id": null
+        }
+      ],
+      "text": "drug-induced\nparkinsonism",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 284,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 310,
+          "turn_id": null
+        }
+      ],
+      "text": "slurred speech",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 316,
+          "char_end": 332,
+          "turn_id": null
+        }
+      ],
+      "text": "facial asymmetry",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 373,
+          "turn_id": null
+        }
+      ],
+      "text": "right subdural hematoma",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 409,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 507,
+          "turn_id": null
+        }
+      ],
+      "text": "subdural hematoma",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 718,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "acting right",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 791,
+          "turn_id": null
+        }
+      ],
+      "text": "confused",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 883,
+          "char_end": 897,
+          "turn_id": null
+        }
+      ],
+      "text": "slurred speech",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 902,
+          "char_end": 918,
+          "turn_id": null
+        }
+      ],
+      "text": "facial asymmetry",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 969,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "slurred speech",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 988,
+          "char_end": 1004,
+          "turn_id": null
+        }
+      ],
+      "text": "facial\nasymmetry",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1054,
+          "char_end": 1066,
+          "turn_id": null
+        }
+      ],
+      "text": "'spaced\nout'",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1102,
+          "turn_id": null
+        }
+      ],
+      "text": "weak all over",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1124,
+          "char_end": 1130,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1170,
+          "char_end": 1172,
+          "turn_id": null
+        }
+      ],
+      "text": "CT",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1200,
+          "char_end": 1246,
+          "turn_id": null
+        }
+      ],
+      "text": "right-sided acute on chronic\nsubdural hematoma",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1366,
+          "char_end": 1393,
+          "turn_id": null
+        }
+      ],
+      "text": "discomfort in \nhis\nbuttocks",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1505,
+          "char_end": 1508,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1512,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1514,
+          "char_end": 1517,
+          "turn_id": null
+        }
+      ],
+      "text": "OSA",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1520,
+          "char_end": 1530,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1531,
+          "char_end": 1538,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1563,
+          "turn_id": null
+        }
+      ],
+      "text": "intellectual disability",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1569,
+          "char_end": 1578,
+          "turn_id": null
+        }
+      ],
+      "text": "psychosis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1584,
+          "char_end": 1609,
+          "turn_id": null
+        }
+      ],
+      "text": "drug-induced parkinsonism",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1664,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1694,
+          "char_end": 1709,
+          "turn_id": null
+        }
+      ],
+      "text": "slurred \nspeech",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1727,
+          "turn_id": null
+        }
+      ],
+      "text": "facial asymmetry",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1732,
+          "char_end": 1750,
+          "turn_id": null
+        }
+      ],
+      "text": "inability to stand",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1752,
+          "char_end": 1759,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1837,
+          "turn_id": null
+        }
+      ],
+      "text": "right-sided small acute and larger chronic \nsubdural hematoma",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1925,
+          "char_end": 1932,
+          "turn_id": null
+        }
+      ],
+      "text": "infarct",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1939,
+          "char_end": 1967,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of \nability to ambulate",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1993,
+          "char_end": 2017,
+          "turn_id": null
+        }
+      ],
+      "text": "left lower facial \ndroop",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2052,
+          "char_end": 2069,
+          "turn_id": null
+        }
+      ],
+      "text": "subdural hematoma",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2099,
+          "char_end": 2108,
+          "turn_id": null
+        }
+      ],
+      "text": "somnolent",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2225,
+          "char_end": 2257,
+          "turn_id": null
+        }
+      ],
+      "text": "confrontational strength testing",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2259,
+          "char_end": 2282,
+          "turn_id": null
+        }
+      ],
+      "text": "Toxic \nmetabolic workup",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2315,
+          "char_end": 2339,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary tract \ninfection",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2354,
+          "char_end": 2365,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2371,
+          "char_end": 2381,
+          "turn_id": null
+        }
+      ],
+      "text": "somnolence",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2414,
+          "char_end": 2417,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2476,
+          "char_end": 2508,
+          "turn_id": null
+        }
+      ],
+      "text": "confrontational strength testing",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2511,
+          "char_end": 2514,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2540,
+          "char_end": 2547,
+          "turn_id": null
+        }
+      ],
+      "text": "infarct",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2617,
+          "char_end": 2624,
+          "turn_id": null
+        }
+      ],
+      "text": "infarct",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2665,
+          "char_end": 2679,
+          "turn_id": null
+        }
+      ],
+      "text": "Echocardiogram",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2729,
+          "char_end": 2732,
+          "turn_id": null
+        }
+      ],
+      "text": "BNP",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2770,
+          "char_end": 2790,
+          "turn_id": null
+        }
+      ],
+      "text": "four extremity edema",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2819,
+          "char_end": 2832,
+          "turn_id": null
+        }
+      ],
+      "text": "heart failure",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2906,
+          "char_end": 2913,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2965,
+          "char_end": 2972,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3020,
+          "char_end": 3023,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3065,
+          "char_end": 3070,
+          "turn_id": null
+        }
+      ],
+      "text": "falls",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3223,
+          "char_end": 3247,
+          "turn_id": null
+        }
+      ],
+      "text": "Intracerebral Hemorrhage",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3253,
+          "char_end": 3272,
+          "turn_id": null
+        }
+      ],
+      "text": "Dysphagia screening",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3284,
+          "char_end": 3286,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3316,
+          "char_end": 3319,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3553,
+          "char_end": 3559,
+          "turn_id": null
+        }
+      ],
+      "text": "stroke",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3794,
+          "char_end": 3811,
+          "turn_id": null
+        }
+      ],
+      "text": "Subdural hematoma",
+      "id": "e72"
+    }
+  ]
+}

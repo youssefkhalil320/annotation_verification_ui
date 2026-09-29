@@ -1,0 +1,437 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:77019:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have ben going to the Dr for a month about my coughing,wheezing, stuffy nose and gurgiling sound in my lungs. He say, I had inflammation of the lungs and asthama. he prescribed these medications. Methylpredisolone Asmanex-- symptoms I got an itichy reaction Symbicort--symptoms I felt like I was on crack Singulair-- symptoms N/A Dulera-- symptoms After 3 days of taking my condition got worst Astepro symptoms Stopped my nasil drip  If you can please advise. Thank you\n[doctor] Hi thanks for contacting HCM...Noted you have inflammation induce asthma precipitation...You are prescribed steroid for it...So yes it is needed..taken for short duration.For dyspnea nebulization by levosalbutamol and budesonide respule needed.For rhinitis and congestive symptoms take azelestine nasal spray....Steam inhalation done.Plenty of fluids....You can take cetrizine if congestion more.After recovery if needed maintainance inhaler prescribed like long acting formeterol as maintainance....Take test.Hope your concern solved.Dr.Parth",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 58,
+          "char_end": 66,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "coughing",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 75,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "wheezing",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 77,
+          "char_end": 88,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stuffy nose",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gurgiling sound in my lungs",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 136,
+          "char_end": 161,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inflammation of the lungs",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 173,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthama",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 225,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Methylpredisolone",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 233,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Asmanex",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itichy reaction",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 270,
+          "char_end": 279,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Symbicort",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 316,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "crack",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 317,
+          "char_end": 326,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Singulair",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 348,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Dulera",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 360,
+          "char_end": 382,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "After 3 days of taking",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 406,
+          "char_end": 413,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Astepro",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 444,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nasil drip",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 577,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "inflammation induce asthma precipitation",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 599,
+          "char_end": 606,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 647,
+          "char_end": 661,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "short duration",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 673,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 686,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nebulization",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 704,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "levosalbutamol",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 709,
+          "char_end": 719,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "budesonide",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 727,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "respule",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 739,
+          "char_end": 747,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rhinitis",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 752,
+          "char_end": 771,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "congestive symptoms",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 777,
+          "char_end": 787,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "azelestine",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 788,
+          "char_end": 793,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nasal",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 799,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "spray",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 867,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cetrizine",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 871,
+          "char_end": 881,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "congestion",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 925,
+          "char_end": 932,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 961,
+          "char_end": 971,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "formeterol",
+      "id": "e33"
+    }
+  ]
+}

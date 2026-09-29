@@ -1,0 +1,1144 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13134463-DS-27:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nChief Complaint:\nDyspnea x ___ days\n\nHistory of Present Illness:\nMr. ___ is a ___ year old gentleman with a history of COPD and \nHIV (VL-, CD4 under 250 since ___, on HAART and Bactrim \nprophylaxis) presenting with ___ days of dyspnea and cough \nwithout fever, chills or weight loss.  His dyspnea is not \nexertional in nature, as he does not move around the house very \nmuch and finds himself short of breath while laying in bed.  He \nhas been taking his nebulizer treatments every ___s his albuterol more often than usual.  He attributes this to \nthe heat and denies being sick recently or any sick contacts.  \nDenies environmental exposures or potential allergens as \ntriggers to his shortness of breath.  \n.\nHe was recently admitted on ___ for COPD exacerbation.  He \nreports that he was intubated, but it does not indicate this in \nthe record.     \n.  \nIn the ED, initial vs were: 97.7 74 134/80 20 100 2L. Patient \nwas given Albuterol, Ipratropium, Prednisone 20mg and 500mg of \nAzithromycin, as well as a subset of his AM Meds by MERIT as per \nPOE.  \n.  \nOn the floor, patient is stable and laying in bed complaining of \npains in his calves and feet as well as some SOB.  He is asking \nfor pain medication and a nebulizer treatment.  \n.  \nReview of sytems:  \n(+) Per HPI + bilateral calf/foot pain \n(-) Denies fever, chills, night sweats, recent weight loss or \ngain. Denies headache, sinus tenderness, rhinorrhea or \ncongestion. Denied cough, shortness of breath. Denied chest pain \nor tightness, palpitations. Denied nausea, vomiting, diarrhea, \nconstipation or abdominal pain. No recent change in bowel or \nbladder habits. No dysuria.\n\nBrief Hospital Course:\n1) COPD exacerbation - Patient was previously admitted for \nsimilar symptoms and treated for COPD exacerbation in ___.  He \nis on 2L O2 at home, at baseline.  The cause of exacerbation at \nthis visit was presumed to be the hot and humid air, per report \nfrom the patient. He was not in air conditioned areas and his \nfan wasn't working. He was treated with azithromycin 500mg in \nthe ED, but there was no evidence of an acute infiltrate seen on \nCXR.  Though this patient was unlikely to mount a fever response \nor have a leukocytosis, given his neutropenia and \nimmunocompromised state, he remained asymptomatic and infection \nwas considered to be unlikely.  He was started on 60mg of \nprednisone, albuterol nebs and inhaler alternating q4h, as \nneeded, and supplemental O2. He continued to improve over the \ncourse of the day and returned to his baseline by the morning of \ndischarge.  Due to the mild nature of this exacerbation and his \nrapid return to his baseline lung function, steroids were not \ncontinued on discharge.\n  \n2) HIV - Patient was continued on his HAART regimen and Bactrim \nDS prophylaxis for CD4 <250.  Patient has been compliant with \nhis medications and frequent physician ___.  He will \nfollow-up with ID as scheduled as an outpatient.\n\n4) Anemia - His anemia is likely multifactorial: (1) anemia of \nchronic disease, (2) iron deficiency, (3) decreased bone marrow \nactivity, given pancytopenia, and (4) secondary to HAART, This \nissue is stable and well known.  Iron supplementation was \ncontinued and hematocrit was trended and stable.\n\nDischarge Diagnosis:\nPrimary diagnosis:\nCOPD exacerbation",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "Dyspnea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 190,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 199,
+          "turn_id": null
+        }
+      ],
+      "text": "HIV",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "VL",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 206,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "CD4",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 206,
+          "char_end": 219,
+          "turn_id": null
+        }
+      ],
+      "text": "CD4 under 250",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 234,
+          "char_end": 239,
+          "turn_id": null
+        }
+      ],
+      "text": "HAART",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 244,
+          "char_end": 251,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 301,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 306,
+          "char_end": 311,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 326,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 328,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 349,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 356,
+          "char_end": 363,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 460,
+          "char_end": 475,
+          "turn_id": null
+        }
+      ],
+      "text": "short of breath",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 522,
+          "char_end": 542,
+          "turn_id": null
+        }
+      ],
+      "text": "nebulizer treatments",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 558,
+          "char_end": 567,
+          "turn_id": null
+        }
+      ],
+      "text": "albuterol",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 753,
+          "char_end": 772,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 831,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD exacerbation",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 867,
+          "turn_id": null
+        }
+      ],
+      "text": "intubated",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 997,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "Albuterol",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1008,
+          "char_end": 1019,
+          "turn_id": null
+        }
+      ],
+      "text": "Ipratropium",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1021,
+          "char_end": 1031,
+          "turn_id": null
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1036,
+          "turn_id": null
+        }
+      ],
+      "text": "20mg",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1041,
+          "char_end": 1046,
+          "turn_id": null
+        }
+      ],
+      "text": "500mg",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1051,
+          "char_end": 1063,
+          "turn_id": null
+        }
+      ],
+      "text": "Azithromycin",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1194,
+          "char_end": 1199,
+          "turn_id": null
+        },
+        {
+          "char_start": 1218,
+          "char_end": 1222,
+          "turn_id": null
+        }
+      ],
+      "text": "pains feet",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1194,
+          "char_end": 1213,
+          "turn_id": null
+        }
+      ],
+      "text": "pains in his calves",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1239,
+          "char_end": 1242,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1263,
+          "char_end": 1278,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1346,
+          "char_end": 1370,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral calf/foot pain",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1383,
+          "char_end": 1388,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1390,
+          "char_end": 1396,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1398,
+          "char_end": 1410,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1419,
+          "char_end": 1430,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1448,
+          "char_end": 1456,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1458,
+          "char_end": 1474,
+          "turn_id": null
+        }
+      ],
+      "text": "sinus tenderness",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1476,
+          "char_end": 1486,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1491,
+          "char_end": 1501,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1515,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1517,
+          "char_end": 1536,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1545,
+          "char_end": 1555,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1571,
+          "char_end": 1583,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1592,
+          "char_end": 1598,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1608,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1610,
+          "char_end": 1618,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1621,
+          "char_end": 1633,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1637,
+          "char_end": 1651,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1702,
+          "char_end": 1709,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1738,
+          "char_end": 1755,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD exacerbation",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1828,
+          "char_end": 1845,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD exacerbation",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1865,
+          "char_end": 1867,
+          "turn_id": null
+        }
+      ],
+      "text": "2L",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1868,
+          "char_end": 1870,
+          "turn_id": null
+        }
+      ],
+      "text": "O2",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2092,
+          "char_end": 2104,
+          "turn_id": null
+        }
+      ],
+      "text": "azithromycin",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2105,
+          "char_end": 2110,
+          "turn_id": null
+        }
+      ],
+      "text": "500mg",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2161,
+          "char_end": 2171,
+          "turn_id": null
+        }
+      ],
+      "text": "infiltrate",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2181,
+          "char_end": 2184,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2231,
+          "char_end": 2236,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2257,
+          "char_end": 2269,
+          "turn_id": null
+        }
+      ],
+      "text": "leukocytosis",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2281,
+          "char_end": 2292,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2298,
+          "char_end": 2321,
+          "turn_id": null
+        }
+      ],
+      "text": "immunocompromised state",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2352,
+          "char_end": 2361,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2413,
+          "char_end": 2417,
+          "turn_id": null
+        }
+      ],
+      "text": "60mg",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2422,
+          "char_end": 2432,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2434,
+          "char_end": 2443,
+          "turn_id": null
+        }
+      ],
+      "text": "albuterol",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2444,
+          "char_end": 2448,
+          "turn_id": null
+        }
+      ],
+      "text": "nebs",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2453,
+          "char_end": 2460,
+          "turn_id": null
+        }
+      ],
+      "text": "inhaler",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2473,
+          "char_end": 2476,
+          "turn_id": null
+        }
+      ],
+      "text": "q4h",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2478,
+          "char_end": 2488,
+          "turn_id": null
+        }
+      ],
+      "text": "as \nneeded",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2507,
+          "char_end": 2509,
+          "turn_id": null
+        }
+      ],
+      "text": "O2",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2720,
+          "char_end": 2728,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2769,
+          "char_end": 2772,
+          "turn_id": null
+        }
+      ],
+      "text": "HIV",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2804,
+          "char_end": 2809,
+          "turn_id": null
+        }
+      ],
+      "text": "HAART",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2822,
+          "char_end": 2829,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2831,
+          "char_end": 2833,
+          "turn_id": null
+        }
+      ],
+      "text": "DS",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2850,
+          "char_end": 2853,
+          "turn_id": null
+        }
+      ],
+      "text": "CD4",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2850,
+          "char_end": 2858,
+          "turn_id": null
+        }
+      ],
+      "text": "CD4 <250",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3001,
+          "char_end": 3007,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3014,
+          "char_end": 3020,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3051,
+          "char_end": 3077,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia of \nchronic disease",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3083,
+          "char_end": 3098,
+          "turn_id": null
+        }
+      ],
+      "text": "iron deficiency",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3104,
+          "char_end": 3135,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased bone marrow \nactivity",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3143,
+          "char_end": 3155,
+          "turn_id": null
+        }
+      ],
+      "text": "pancytopenia",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3178,
+          "char_end": 3183,
+          "turn_id": null
+        }
+      ],
+      "text": "HAART",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3224,
+          "char_end": 3228,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3264,
+          "char_end": 3274,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3340,
+          "char_end": 3357,
+          "turn_id": null
+        }
+      ],
+      "text": "COPD exacerbation",
+      "id": "e87"
+    }
+  ]
+}

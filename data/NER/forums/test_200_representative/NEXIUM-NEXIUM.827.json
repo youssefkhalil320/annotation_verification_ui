@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 95,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 112,
@@ -34,8 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "family",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 160,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 204,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 251,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 270,
@@ -89,23 +83,26 @@
       "id": "e6"
     },
     {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "family",
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
       "spans": [
         {
-          "char_start": 445,
+          "char_start": 421,
+          "char_end": 424,
+          "turn_id": null
+        },
+        {
+          "char_start": 429,
           "char_end": 451,
           "turn_id": null
         }
       ],
-      "text": "Nexium",
+      "text": "did give my dad his Nexium",
       "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 531,
@@ -124,7 +121,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 537,
@@ -138,7 +134,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 567,
@@ -152,7 +147,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 600,
@@ -171,7 +165,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 607,
@@ -185,7 +178,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 725,
@@ -199,7 +191,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 805,
@@ -213,7 +204,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 824,
@@ -227,7 +217,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 862,
@@ -241,7 +230,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "family",
       "spans": [
         {
           "char_start": 1056,

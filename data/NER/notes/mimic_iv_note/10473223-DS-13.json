@@ -1,0 +1,1014 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10473223-DS-13:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nsimvastatin\n\nChief Complaint:\nAbdominal Pain\n\nHistory of Present Illness:\nMr. ___ is a ___ year old gentleman who unfortunately \ndeveloped a shooting LLQ pain yesterday with nausea/vomiting \nthat has not resolved.  He has not experienced this pain before, \nhas no recent sick contacts and denies constipation, diarrhea, \nblack or bloody stools or fevers.  He presented to the ED for \nfurther evaluation.\n.\n.  \n-In the ED, initial VS: 98.6 66 161/83 18 98% RA   \n-Exam notable for:  guaiac negative stool\n-Labs notable for:  Lactate 3.2->1.8\n-The pt underwent:  CT Abdomen which demonstrated diverticulitis\n-The pt received: Morphine/Zofran, Cipro/Flagyl & IVF\n-The pt was seen by:  \n-Vitals prior to transfer reviewed in chart.\n.  \nOn arrival Mr. ___ is uncomfortable due to his abdominal pain \nbut has no other complaints.  \n.\nROS: Denies fever, chills, night sweats, headache, vision \nchanges, rhinorrhea, congestion, sore throat, cough, shortness \nof breath, chest pain, diarrhea, constipation, BRBPR, melena, \nhematochezia, dysuria, hematuria. All other ROS negative.\n\nBrief Hospital Course:\nMr. ___ is a very pleasant ___ year old gentleman with the \nunfortunate fate of diverticulitis, apparently uncomplicated \nthus far based on imaging and clinical status.\n.  \n1) Diverticulitis:  Mr. ___ has what appears to be \nuncomplicated diverticulitis with an elevated lactate resolving \nwith hydration.  Started on cipro/flagyl.  Over 24 hrs his abd \npain resolved, he had no fever, and was able to tolerate low \nresidue diet.  His antibiotics were converted to oral, which he \ntolerated well.\n- Discharged to complete ___ntbx\n- should consider colonoscopy after resolution to exclude \nmalignancy\n.\n2) CKD Stage III- Per records, currently at baseline\n.\n3) Hypertension, CAD, Hyperlipidemia:\n- Continued Atorvastatin, ASA, Atenolol & Lisinopril\n.\n4) Elevated MCV: No anemia but still could portend vitamin \ndeficiences\n- B12/folate normal\n.\n5) BPH: Continued Flomax\n.\n6) ADHD/Depression: continued cymbalta and ritalin\n\nDischarge Diagnosis:\nAcute sigmoid divertivulitis\nCAD, native\nHypertension\nHyperlipidemia\nBPH",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "simvastatin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 55,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal Pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "shooting LLQ pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 191,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 258,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 319,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 329,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 337,
+          "turn_id": null
+        },
+        {
+          "char_start": 348,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "black stools",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 341,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "bloody stools",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 364,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 493,
+          "char_end": 499,
+          "turn_id": null
+        }
+      ],
+      "text": "guaiac",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 535,
+          "char_end": 542,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactate",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 582,
+          "turn_id": null
+        }
+      ],
+      "text": "CT Abdomen",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 602,
+          "char_end": 616,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulitis",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 643,
+          "turn_id": null
+        }
+      ],
+      "text": "Morphine",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 650,
+          "turn_id": null
+        }
+      ],
+      "text": "Zofran",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 657,
+          "turn_id": null
+        }
+      ],
+      "text": "Cipro",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 664,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 667,
+          "char_end": 670,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 804,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 851,
+          "char_end": 856,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 864,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 866,
+          "char_end": 878,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 880,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 890,
+          "char_end": 905,
+          "turn_id": null
+        }
+      ],
+      "text": "vision \nchanges",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 907,
+          "char_end": 917,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 919,
+          "char_end": 929,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 931,
+          "char_end": 942,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 944,
+          "char_end": 949,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 951,
+          "char_end": 971,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness \nof breath",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 973,
+          "char_end": 983,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 985,
+          "char_end": 993,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 995,
+          "char_end": 1007,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1014,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1016,
+          "char_end": 1022,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1025,
+          "char_end": 1037,
+          "turn_id": null
+        }
+      ],
+      "text": "hematochezia",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1039,
+          "char_end": 1046,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1048,
+          "char_end": 1057,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1187,
+          "char_end": 1201,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulitis",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1247,
+          "char_end": 1254,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1283,
+          "char_end": 1297,
+          "turn_id": null
+        }
+      ],
+      "text": "Diverticulitis",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1346,
+          "char_end": 1360,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulitis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1385,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated lactate",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1378,
+          "char_end": 1385,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1425,
+          "char_end": 1430,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1431,
+          "char_end": 1437,
+          "turn_id": null
+        }
+      ],
+      "text": "flagyl",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1456,
+          "char_end": 1465,
+          "turn_id": null
+        }
+      ],
+      "text": "abd \npain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1542,
+          "char_end": 1553,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1572,
+          "char_end": 1576,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1666,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1696,
+          "char_end": 1706,
+          "turn_id": null
+        }
+      ],
+      "text": "malignancy",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1712,
+          "char_end": 1725,
+          "turn_id": null
+        }
+      ],
+      "text": "CKD Stage III",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1767,
+          "char_end": 1779,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1781,
+          "char_end": 1784,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1786,
+          "char_end": 1800,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyperlipidemia",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1814,
+          "char_end": 1826,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1828,
+          "char_end": 1831,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1833,
+          "char_end": 1841,
+          "turn_id": null
+        }
+      ],
+      "text": "Atenolol",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1844,
+          "char_end": 1854,
+          "turn_id": null
+        }
+      ],
+      "text": "Lisinopril",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1860,
+          "char_end": 1872,
+          "turn_id": null
+        }
+      ],
+      "text": "Elevated MCV",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1869,
+          "char_end": 1872,
+          "turn_id": null
+        }
+      ],
+      "text": "MCV",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1877,
+          "char_end": 1883,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1908,
+          "char_end": 1928,
+          "turn_id": null
+        }
+      ],
+      "text": "vitamin \ndeficiences",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1931,
+          "char_end": 1934,
+          "turn_id": null
+        }
+      ],
+      "text": "B12",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1935,
+          "char_end": 1941,
+          "turn_id": null
+        }
+      ],
+      "text": "folate",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1954,
+          "char_end": 1957,
+          "turn_id": null
+        }
+      ],
+      "text": "BPH",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1969,
+          "char_end": 1975,
+          "turn_id": null
+        }
+      ],
+      "text": "Flomax",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1981,
+          "char_end": 1985,
+          "turn_id": null
+        }
+      ],
+      "text": "ADHD",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1986,
+          "char_end": 1996,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2008,
+          "char_end": 2016,
+          "turn_id": null
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2021,
+          "char_end": 2028,
+          "turn_id": null
+        }
+      ],
+      "text": "ritalin",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2079,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute sigmoid divertivulitis",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2091,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD, native",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2092,
+          "char_end": 2104,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2105,
+          "char_end": 2119,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyperlipidemia",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2120,
+          "char_end": 2123,
+          "turn_id": null
+        }
+      ],
+      "text": "BPH",
+      "id": "e77"
+    }
+  ]
+}

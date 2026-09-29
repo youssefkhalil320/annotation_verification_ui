@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "injury",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 58,
@@ -26,7 +25,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 134,
@@ -40,21 +38,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "injury",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 191,
-          "char_end": 202,
-          "turn_id": null
-        }
-      ],
-      "text": "cell damage",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 476,
@@ -68,12 +51,11 @@
         }
       ],
       "text": "renal /R injury",
-      "id": "e4"
+      "id": "e3"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 550,
@@ -82,12 +64,11 @@
         }
       ],
       "text": "AgNOR proteins amount",
-      "id": "e5"
+      "id": "e4"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 576,
@@ -96,12 +77,11 @@
         }
       ],
       "text": "histopathological injuring score",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 829,
@@ -110,12 +90,11 @@
         }
       ],
       "text": "renal pedicle occlusion",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 986,
@@ -124,12 +103,11 @@
         }
       ],
       "text": "histopathological injury score",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1018,
@@ -138,26 +116,24 @@
         }
       ],
       "text": "mean AgNOR number",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1040,
+          "char_end": 1082,
+          "turn_id": null
+        }
+      ],
+      "text": "total AgNOR area / nuclear area (TAA / NA)",
       "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1073,
-          "char_end": 1081,
-          "turn_id": null
-        }
-      ],
-      "text": "TAA / NA",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1179,
@@ -166,12 +142,11 @@
         }
       ],
       "text": "histopathological injury scores",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1302,
@@ -180,16 +155,28 @@
         }
       ],
       "text": "mean AgNOR number",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1336,
+          "char_end": 1348,
+          "turn_id": null
+        }
+      ],
+      "text": "TAA/NA ratio",
       "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
-          "char_start": 1336,
-          "char_end": 1348,
+          "char_start": 1417,
+          "char_end": 1429,
           "turn_id": null
         }
       ],
@@ -199,21 +186,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1417,
-          "char_end": 1429,
-          "turn_id": null
-        }
-      ],
-      "text": "TAA/NA ratio",
-      "id": "e14"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1434,
@@ -222,12 +194,11 @@
         }
       ],
       "text": "histopathological injury score",
-      "id": "e15"
+      "id": "e14"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1500,
@@ -236,12 +207,24 @@
         }
       ],
       "text": "mean AgNOR number",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1552,
+          "turn_id": null
+        }
+      ],
+      "text": "histopathological injury score",
       "id": "e16"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1594,
@@ -255,7 +238,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "injury",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1760,
@@ -265,20 +247,6 @@
       ],
       "text": "/R injury",
       "id": "e18"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "injury",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1774,
-          "char_end": 1789,
-          "turn_id": null
-        }
-      ],
-      "text": "cellular damage",
-      "id": "e19"
     }
   ]
 }

@@ -1,0 +1,1167 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:504:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I have taken meningitis vaccination for visa process. I suffered headache with visual aura with dreamy sleep and less sleep for three months. I started treatment in India and took Cipralex, and Escitalopram. CT scan was normal. My symptoms relieved for about 80-90%. I gradually tapered off the treatment. Later, mild dreamy sleep problem with mild and sound sensitivity occurs. I did not took any medicine for that. I also suffered from scalp pain in head and treated for three months with Phenergan, and Neocalm plus. I felt only temporary relief. MRI was done in consultation with neurologist. Results are normal. I was on Cipralex 10 mg, Naproxen sodium 250 mg then gradually tapered. After that I am suffering from dreamy sleep all day and localized head pain episodes 2-3 times in a week when sleep disturbed in the previous night. Meanwhile, I was heavily stressed due to family issues and job pressure. Once again I was prescribed the same medicines but I did not take and tried to control it with yoga and meditation. I have mild light and sound sensitivity which is quite tolerable. My major problem is disturbed dreamy sleep and episodes of localized head pain in the scalp only. I took vitamin D, B12, calcium for six months. My elevated triglycerides are due to SSRI 230 mg/dl. At present, I am alright but want to get rid of symptoms. My symptoms are muscle tension and nerve pain. I did eyes test OCT and my eyes are normal. My questions are even if I am not stressed I do not get dreamless and refreshing sleep why? Which is suitable medicine in general? Can Flunarizine cause more deficiency of calcium as already I am deficient? Cipralex and Esclitopram are habit forming but I was very comfortable with that it causes weight gain and elevation of triglycerides so I tapered off to end. But after some time dreamy sleep and scalp mild pain comes back. What to do? Kindly suggest and advise some medicines.\n[doctor] Hello. Your symptoms seem to be related to tension type headache, which is a benign headache. Light and sound intolerance are features of migraine, but the other symptoms you explain, are more compatible with tension type headache. Nevertheless, I agree with your doctor treatment regarding Escitalopram. You should know that the sleep disorders are related to different causes depression, daily stress and anxiety, vitamin D deficiency, an abnormal sleep regime, caffeine intake, etc. I would recommend taking Vitamin D if there is low plasma levels of this vitamin. Regarding your sleep disorder, I would recommend starting Zolpidem for a couple of weeks 10 mg before sleep. You can try half a tablet before going to 10 mg. Melatonine intake can regulate your sleep rhythms too, but it is taken for a more prolonged time than Zolpidem and its effects are lower. A good sleeping hygiene (sleep always at the same time, avoid straining physical or emotional activities before sleep, avoid caffeine intake) would help too. If all these tips and drugs are not helpful, a prolonged brain EEG (electroencephalogram) during sleep would help diagnose any possible sleeping disorders. Regarding Flunarizine, I would explain that this is a calcium channel blocker and as such it can interact with calcium or vitamin D in high amounts. But usually it does not affect the calcium levels. You can try taking Escitalopram for three months initially and then try Flunarizine, if no good results on Escitalopram. I would not recommend taking them both initially. You should know that Escitalopram achieves its effect after three weeks from the starting, and the main changes to be seen are a reduce in the frequency of headaches and also mood changes (optimism). You can try taking Amitriptyline too, if you do not have any symptoms relief after the first month on Escitalopram. It can be really helpful with the sleep too. All the drugs have some adverse effects, but the benefits are higher. I hope this helps.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 59,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "meningitis vaccination",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 97,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headache",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "visual aura",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 120,
+          "char_end": 132,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dreamy sleep",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 147,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "less sleep",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for three months",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 204,
+          "char_end": 212,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cipralex",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 218,
+          "char_end": 230,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 232,
+          "char_end": 239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CT scan",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 354,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dreamy sleep",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 377,
+          "char_end": 394,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sound sensitivity",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 462,
+          "char_end": 480,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scalp pain in head",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 524,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Phenergan",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 542,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Neocalm plus",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 574,
+          "char_end": 577,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 658,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cipralex",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 659,
+          "char_end": 664,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 681,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Naproxen sodium",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 682,
+          "char_end": 688,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "250 mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 756,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dreamy sleep",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 788,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "localized head pain",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 838,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep disturbed",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 887,
+          "char_end": 895,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stressed",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1063,
+          "char_end": 1068,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1079,
+          "char_end": 1090,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "light sensitivity",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1073,
+          "char_end": 1090,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sound sensitivity",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1147,
+          "char_end": 1159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dreamy sleep",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1208,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "localized head pain in the scalp",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1222,
+          "char_end": 1231,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1236,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "B12",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1238,
+          "char_end": 1245,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "calcium",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for six months",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1265,
+          "char_end": 1287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "elevated triglycerides",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1274,
+          "char_end": 1287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "triglycerides",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1299,
+          "char_end": 1303,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "SSRI",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1389,
+          "char_end": 1403,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "muscle tension",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1408,
+          "char_end": 1418,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nerve pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1436,
+          "char_end": 1439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "OCT",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1610,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Flunarizine",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1622,
+          "char_end": 1643,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "deficiency of calcium",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1671,
+          "char_end": 1679,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cipralex",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1684,
+          "char_end": 1695,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Esclitopram",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1761,
+          "char_end": 1772,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weight gain",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1777,
+          "char_end": 1803,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "elevation of triglycerides",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1790,
+          "char_end": 1803,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "triglycerides",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1849,
+          "char_end": 1861,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dreamy sleep",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1871,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1877,
+          "char_end": 1881,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scalp pain",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2000,
+          "char_end": 2021,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tension type headache",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2041,
+          "char_end": 2049,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "headache",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2056,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2067,
+          "char_end": 2078,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Light intolerance",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2061,
+          "char_end": 2078,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sound intolerance",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2095,
+          "char_end": 2103,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "migraine",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2166,
+          "char_end": 2187,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tension type headache",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2248,
+          "char_end": 2260,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2287,
+          "char_end": 2302,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sleep disorders",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2335,
+          "char_end": 2345,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2347,
+          "char_end": 2359,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "daily stress",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2364,
+          "char_end": 2371,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2373,
+          "char_end": 2382,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin D",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2373,
+          "char_end": 2393,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vitamin D deficiency",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2398,
+          "char_end": 2419,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "abnormal sleep regime",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2421,
+          "char_end": 2436,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "caffeine intake",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2468,
+          "char_end": 2477,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Vitamin D",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2490,
+          "char_end": 2523,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "low plasma levels of this vitamin",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2583,
+          "char_end": 2591,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Zolpidem",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2592,
+          "char_end": 2613,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for a couple of weeks",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2614,
+          "char_end": 2619,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2646,
+          "char_end": 2659,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "half a tablet",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2676,
+          "char_end": 2681,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2683,
+          "char_end": 2693,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Melatonine",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 2754,
+          "char_end": 2779,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for a more prolonged time",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2785,
+          "char_end": 2793,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Zolpidem",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2946,
+          "char_end": 2961,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "caffeine intake",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 3036,
+          "char_end": 3068,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "brain EEG (electroencephalogram)",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3115,
+          "char_end": 3133,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sleeping disorders",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3145,
+          "char_end": 3156,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Flunarizine",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3189,
+          "char_end": 3196,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "calcium",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3189,
+          "char_end": 3212,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "calcium channel blocker",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3319,
+          "char_end": 3333,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "calcium levels",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3354,
+          "char_end": 3366,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 3367,
+          "char_end": 3383,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for three months",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3407,
+          "char_end": 3418,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Flunarizine",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3442,
+          "char_end": 3454,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3527,
+          "char_end": 3539,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3662,
+          "char_end": 3671,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "headaches",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3681,
+          "char_end": 3693,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "mood changes",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3725,
+          "char_end": 3738,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Amitriptyline",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 3789,
+          "char_end": 3804,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "the first month",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3808,
+          "char_end": 3820,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Escitalopram",
+      "id": "e88"
+    }
+  ]
+}

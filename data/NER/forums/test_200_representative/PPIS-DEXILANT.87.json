@@ -5,23 +5,8 @@
   "text": "The first month I took Dexilant it worked great.\nAfter that, the second I would eat ANYTHING I would develop horrible abdominal pain & diarrhea.\n",
   "entities": [
     {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "duration",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 4,
-          "char_end": 15,
-          "turn_id": null
-        }
-      ],
-      "text": "first month",
-      "id": "e1"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 23,
@@ -30,12 +15,11 @@
         }
       ],
       "text": "Dexilant",
-      "id": "e2"
+      "id": "e1"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 118,
@@ -44,12 +28,11 @@
         }
       ],
       "text": "abdominal pain",
-      "id": "e3"
+      "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 135,
@@ -58,7 +41,7 @@
         }
       ],
       "text": "diarrhea",
-      "id": "e4"
+      "id": "e3"
     }
   ]
 }

@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 61,
@@ -34,8 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 98,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 259,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 289,
@@ -76,27 +71,33 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 308,
-          "char_end": 330,
-          "turn_id": null
-        },
-        {
-          "char_start": 337,
           "char_end": 348,
           "turn_id": null
         }
       ],
-      "text": "central nervous system involvement",
+      "text": "central nervous system (CNS) involvement",
       "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "CNS+",
+      "id": "e7"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 369,
@@ -105,12 +106,11 @@
         }
       ],
       "text": "allogeneic hematopoietic stem cell transplantation",
-      "id": "e7"
+      "id": "e8"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 421,
@@ -119,12 +119,11 @@
         }
       ],
       "text": "allo-SCT",
-      "id": "e8"
+      "id": "e9"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 492,
@@ -133,12 +132,11 @@
         }
       ],
       "text": "allo-SCT",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 519,
@@ -147,12 +145,11 @@
         }
       ],
       "text": "CNS involvement",
-      "id": "e10"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 560,
@@ -161,12 +158,11 @@
         }
       ],
       "text": "CNS involvement",
-      "id": "e11"
+      "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 577,
@@ -175,12 +171,11 @@
         }
       ],
       "text": "CNS-",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 680,
@@ -189,12 +184,11 @@
         }
       ],
       "text": "ALL",
-      "id": "e13"
+      "id": "e14"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 710,
@@ -203,12 +197,11 @@
         }
       ],
       "text": "allo-SCT",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 752,
@@ -217,12 +210,11 @@
         }
       ],
       "text": "SCT",
-      "id": "e15"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 794,
@@ -231,12 +223,11 @@
         }
       ],
       "text": "CNS+",
-      "id": "e16"
+      "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 817,
@@ -245,12 +236,11 @@
         }
       ],
       "text": "CNS-",
-      "id": "e17"
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 872,
@@ -259,12 +249,11 @@
         }
       ],
       "text": "CNS-",
-      "id": "e18"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 887,
@@ -273,12 +262,11 @@
         }
       ],
       "text": "CNS+",
-      "id": "e19"
+      "id": "e20"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 943,
@@ -287,26 +275,11 @@
         }
       ],
       "text": "SCT",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 955,
-          "char_end": 980,
-          "turn_id": null
-        }
-      ],
-      "text": "poorer performance status",
       "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 962,
@@ -320,7 +293,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 982,
@@ -334,7 +306,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 989,
@@ -347,8 +318,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1018,
@@ -361,8 +331,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1040,
@@ -375,8 +344,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1083,
@@ -389,8 +357,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1186,
@@ -404,7 +371,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1269,
@@ -417,22 +383,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1276,
-          "char_end": 1278,
-          "turn_id": null
-        }
-      ],
-      "text": "CR",
-      "id": "e30"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1337,
@@ -441,12 +392,11 @@
         }
       ],
       "text": "CNS+",
-      "id": "e31"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1346,
@@ -455,12 +405,11 @@
         }
       ],
       "text": "CNS-",
-      "id": "e32"
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1375,
@@ -469,12 +418,11 @@
         }
       ],
       "text": "CNS involvement",
-      "id": "e33"
+      "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1458,
@@ -483,26 +431,11 @@
         }
       ],
       "text": "CNS+",
-      "id": "e34"
+      "id": "e33"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1485,
-          "char_end": 1487,
-          "turn_id": null
-        }
-      ],
-      "text": "CR",
-      "id": "e35"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1520,
@@ -511,7 +444,7 @@
         }
       ],
       "text": "CNS-",
-      "id": "e36"
+      "id": "e34"
     }
   ]
 }

@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 59,
@@ -19,9 +18,21 @@
       "id": "e1"
     },
     {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 59,
+          "char_end": 92,
+          "turn_id": null
+        }
+      ],
+      "text": "migraine prophylactic medications",
+      "id": "e2"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 98,
@@ -30,26 +41,11 @@
         }
       ],
       "text": "migraine",
-      "id": "e2"
-    },
-    {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "frequency",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 121,
-          "char_end": 126,
-          "turn_id": null
-        }
-      ],
-      "text": "daily",
       "id": "e3"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 181,
@@ -61,9 +57,21 @@
       "id": "e4"
     },
     {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 299,
+          "turn_id": null
+        }
+      ],
+      "text": "medications for migraine prophylaxis",
+      "id": "e5"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 279,
@@ -72,12 +80,11 @@
         }
       ],
       "text": "migraine",
-      "id": "e5"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 456,
@@ -86,30 +93,15 @@
         }
       ],
       "text": "headache",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 623,
-          "char_end": 639,
-          "turn_id": null
-        }
-      ],
-      "text": "headache attacks",
       "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 684,
-          "char_end": 692,
+          "char_start": 519,
+          "char_end": 527,
           "turn_id": null
         }
       ],
@@ -118,36 +110,33 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "symptom",
       "spans": [
         {
-          "char_start": 932,
-          "char_end": 944,
+          "char_start": 623,
+          "char_end": 639,
           "turn_id": null
         }
       ],
-      "text": "side effects",
+      "text": "headache attacks",
       "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
-          "char_start": 932,
-          "char_end": 944,
+          "char_start": 684,
+          "char_end": 697,
           "turn_id": null
         }
       ],
-      "text": "side effects",
+      "text": "headache days",
       "id": "e10"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 986,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1005,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1018,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1030,
@@ -203,7 +189,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1047,
@@ -217,7 +202,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1235,
@@ -229,23 +213,8 @@
       "id": "e16"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1306,
-          "char_end": 1317,
-          "turn_id": null
-        }
-      ],
-      "text": "side effect",
-      "id": "e17"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1330,
@@ -254,12 +223,11 @@
         }
       ],
       "text": "divalproex sodium",
-      "id": "e18"
+      "id": "e17"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1407,
@@ -268,12 +236,11 @@
         }
       ],
       "text": "gabapentin",
-      "id": "e19"
+      "id": "e18"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1419,
@@ -282,12 +249,11 @@
         }
       ],
       "text": "propranolol",
-      "id": "e20"
+      "id": "e19"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1436,
@@ -296,12 +262,11 @@
         }
       ],
       "text": "topiramate",
-      "id": "e21"
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1609,
@@ -310,12 +275,11 @@
         }
       ],
       "text": "headache",
-      "id": "e22"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1708,
@@ -324,12 +288,11 @@
         }
       ],
       "text": "headache -related disability",
-      "id": "e23"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1738,
@@ -338,12 +301,11 @@
         }
       ],
       "text": "depressive symptoms",
-      "id": "e24"
+      "id": "e23"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1763,
@@ -352,20 +314,32 @@
         }
       ],
       "text": "pain medication",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1763,
+          "char_end": 1787,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication concerns",
       "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "mental_health_finding",
       "spans": [
         {
-          "char_start": 1806,
+          "char_start": 1798,
           "char_end": 1815,
           "turn_id": null
         }
       ],
-      "text": "tolerance",
+      "text": "fear of tolerance",
       "id": "e26"
     }
   ]

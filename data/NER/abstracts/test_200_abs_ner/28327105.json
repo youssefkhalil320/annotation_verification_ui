@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 102,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 333,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 392,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 439,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 583,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 774,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 791,
@@ -103,9 +96,57 @@
       "id": "e7"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 837,
+          "turn_id": null
+        },
+        {
+          "char_start": 879,
+          "char_end": 899,
+          "turn_id": null
+        }
+      ],
+      "text": "lower concentrations of alkaline phosphatase",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 837,
+          "turn_id": null
+        },
+        {
+          "char_start": 854,
+          "char_end": 873,
+          "turn_id": null
+        }
+      ],
+      "text": "lower concentrations of parathyroid hormone",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 852,
+          "turn_id": null
+        }
+      ],
+      "text": "lower concentrations of serum ferritin",
+      "id": "e10"
+    },
+    {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 838,
@@ -114,12 +155,11 @@
         }
       ],
       "text": "serum ferritin",
-      "id": "e8"
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 854,
@@ -128,12 +168,11 @@
         }
       ],
       "text": "parathyroid hormone",
-      "id": "e9"
+      "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 879,
@@ -142,12 +181,11 @@
         }
       ],
       "text": "alkaline phosphatase",
-      "id": "e10"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 901,
@@ -156,12 +194,11 @@
         }
       ],
       "text": "Sarcopenia",
-      "id": "e11"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 987,
@@ -170,12 +207,11 @@
         }
       ],
       "text": "underweight",
-      "id": "e12"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1040,
@@ -184,12 +220,11 @@
         }
       ],
       "text": "central obesity",
-      "id": "e13"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1162,
@@ -198,12 +233,11 @@
         }
       ],
       "text": "cardiovascular diseases",
-      "id": "e14"
+      "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1428,
@@ -212,12 +246,29 @@
         }
       ],
       "text": "smoking",
-      "id": "e15"
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1461,
+          "char_end": 1468,
+          "turn_id": null
+        },
+        {
+          "char_start": 1482,
+          "char_end": 1489,
+          "turn_id": null
+        }
+      ],
+      "text": "general obesity",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1472,
@@ -226,12 +277,11 @@
         }
       ],
       "text": "abdominal obesity",
-      "id": "e16"
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1573,
@@ -240,12 +290,11 @@
         }
       ],
       "text": "cardiovascular diseases",
-      "id": "e17"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1598,
@@ -254,12 +303,11 @@
         }
       ],
       "text": "stroke",
-      "id": "e18"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1606,
@@ -268,12 +316,11 @@
         }
       ],
       "text": "myocardial infarction",
-      "id": "e19"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1629,
@@ -282,12 +329,11 @@
         }
       ],
       "text": "stable angina",
-      "id": "e20"
+      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1648,
@@ -296,7 +342,7 @@
         }
       ],
       "text": "chronic renal disease",
-      "id": "e21"
+      "id": "e25"
     }
   ]
 }

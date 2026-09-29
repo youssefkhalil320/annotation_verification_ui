@@ -1,0 +1,551 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11781229-DS-2:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nsurgical tape / amoxicillin\n\nChief Complaint:\nWound drainage\n\nHistory of Present Illness:\n___ male s/p uncomplicated left L4-5 microdiscectomy on \n___ ___ presented back to clinic ___ with \ndrainage from his surgical incision. On wound evaluation, \npatient was found to have small amounts of clear thin drainage \nexpressible from incision. At that time, patient also reported \ngeneralized severe headaches that had been worsening with \nincrease in fluid drainage. He was again seen in clinic on \n___ ___. Sutures were removed at that time and he \nwas noted to have a small opening at the distal end of the \nincision with drainage. CT lumbar spine was ordered, which \nshowed a fluid collection in the subcutaneous soft tissue at \nL3-4. Given concern for CSF leak, patient was taken to the OR on \n___ for surgical intervention.\n\nBrief Hospital Course:\n#CSF leak\n___ who presented for elective L4-5 re-exploration with \nmicrodiscectomy and dural tear repair with Dr. ___. Please see \noperative report in OMR for more information. CSF was sent from \nthe OR for culture, which showed no growth. Postop, patient was \nkept HOB -2 degrees for 72 hours. He was started on Vancomycin \npost-op for post-surgical antibiotics, which was switched to \nKeflex for a total of 7 days of antibiotics. Patient was \nintermittently non-compliant with head of bed flat. Multiple \ndiscussions were had with the patient regarding the rationale \nfor laying flat. Patient expressed understanding but continued \nto sit up for meals and walk around. Head of bed was liberalized \n___ AM, then the patient began to actively drain from the distal \npole of his incision. He denied any headaches. CT L spine showed \nSimilar appearance of edema and fluid in the left L4-5 \nlaminectomy bed.  If \nthere is persistent clinical concern for CSF leak/fistula. The \nincision was oversewen by Dr. ___. On ___, the incision \nremained dry. \n\n#DM\nPostop, patient was restarted on home Metformin and Glipizide. \nOn POD1 patient had blood sugars >350. He was restarted on home \nLantus. Regular insulin sliding scale was ordered.\n\nDischarge Diagnosis:\nDural tear, CSF leak",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 38,
+          "turn_id": null
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 71,
+          "turn_id": null
+        }
+      ],
+      "text": "Wound drainage",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 128,
+          "char_end": 153,
+          "turn_id": null
+        }
+      ],
+      "text": "left L4-5 microdiscectomy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 236,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage from his surgical incision",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 314,
+          "char_end": 349,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage \nexpressible from incision",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 407,
+          "char_end": 416,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 459,
+          "char_end": 473,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid drainage",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 523,
+          "turn_id": null
+        },
+        {
+          "char_start": 529,
+          "char_end": 536,
+          "turn_id": null
+        }
+      ],
+      "text": "Sutures removed",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 584,
+          "char_end": 626,
+          "turn_id": null
+        }
+      ],
+      "text": "opening at the distal end of the \nincision",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 657,
+          "turn_id": null
+        }
+      ],
+      "text": "CT lumbar spine",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 687,
+          "char_end": 744,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid collection in the subcutaneous soft tissue at \nL3-4",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 772,
+          "turn_id": null
+        }
+      ],
+      "text": "CSF leak",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 862,
+          "char_end": 870,
+          "turn_id": null
+        }
+      ],
+      "text": "CSF leak",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 902,
+          "char_end": 921,
+          "turn_id": null
+        }
+      ],
+      "text": "L4-5 re-exploration",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 928,
+          "char_end": 943,
+          "turn_id": null
+        }
+      ],
+      "text": "microdiscectomy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 958,
+          "turn_id": null
+        }
+      ],
+      "text": "dural tear",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 965,
+          "turn_id": null
+        }
+      ],
+      "text": "dural tear repair",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1174,
+          "char_end": 1184,
+          "turn_id": null
+        }
+      ],
+      "text": "Vancomycin",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1212,
+          "char_end": 1223,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1248,
+          "char_end": 1254,
+          "turn_id": null
+        }
+      ],
+      "text": "Keflex",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1255,
+          "char_end": 1276,
+          "turn_id": null
+        }
+      ],
+      "text": "for a total of 7 days",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1280,
+          "char_end": 1291,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1321,
+          "char_end": 1356,
+          "turn_id": null
+        }
+      ],
+      "text": "non-compliant with head of bed flat",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1604,
+          "char_end": 1647,
+          "turn_id": null
+        }
+      ],
+      "text": "drain from the distal \npole of his incision",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1663,
+          "char_end": 1672,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1674,
+          "char_end": 1684,
+          "turn_id": null
+        }
+      ],
+      "text": "CT L spine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1715,
+          "char_end": 1720,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1725,
+          "char_end": 1764,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid in the left L4-5 \nlaminectomy bed",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1812,
+          "char_end": 1820,
+          "turn_id": null
+        }
+      ],
+      "text": "CSF leak",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1821,
+          "char_end": 1828,
+          "turn_id": null
+        }
+      ],
+      "text": "fistula",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1835,
+          "char_end": 1843,
+          "turn_id": null
+        },
+        {
+          "char_start": 1848,
+          "char_end": 1857,
+          "turn_id": null
+        }
+      ],
+      "text": "incision oversewen",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1909,
+          "char_end": 1911,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1950,
+          "char_end": 1959,
+          "turn_id": null
+        }
+      ],
+      "text": "Metformin",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 1973,
+          "turn_id": null
+        }
+      ],
+      "text": "Glipizide",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1996,
+          "char_end": 2008,
+          "turn_id": null
+        }
+      ],
+      "text": "blood sugars",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1996,
+          "char_end": 2013,
+          "turn_id": null
+        }
+      ],
+      "text": "blood sugars >350",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2041,
+          "char_end": 2047,
+          "turn_id": null
+        }
+      ],
+      "text": "Lantus",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2049,
+          "char_end": 2064,
+          "turn_id": null
+        }
+      ],
+      "text": "Regular insulin",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2065,
+          "char_end": 2078,
+          "turn_id": null
+        }
+      ],
+      "text": "sliding scale",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2114,
+          "char_end": 2124,
+          "turn_id": null
+        }
+      ],
+      "text": "Dural tear",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2126,
+          "char_end": 2134,
+          "turn_id": null
+        }
+      ],
+      "text": "CSF leak",
+      "id": "e41"
+    }
+  ]
+}

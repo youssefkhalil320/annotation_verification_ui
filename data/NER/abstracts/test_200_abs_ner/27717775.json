@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 14,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "injury",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 71,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 110,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 180,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 212,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 250,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 318,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 331,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 356,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 459,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 470,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 479,
@@ -173,9 +161,8 @@
       "id": "e12"
     },
     {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "surgery",
-      "experiencer": "other",
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
       "spans": [
         {
           "char_start": 555,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 617,
@@ -201,9 +187,21 @@
       "id": "e14"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 772,
+          "char_end": 800,
+          "turn_id": null
+        }
+      ],
+      "text": "damaged segments of the dura",
+      "id": "e15"
+    },
+    {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 817,
@@ -212,12 +210,11 @@
         }
       ],
       "text": "histologically evaluated",
-      "id": "e15"
+      "id": "e16"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 999,
@@ -226,12 +223,11 @@
         }
       ],
       "text": "systematic",
-      "id": "e16"
+      "id": "e17"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1029,
@@ -240,12 +236,11 @@
         }
       ],
       "text": "l-arginine",
-      "id": "e17"
+      "id": "e18"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1563,
@@ -254,12 +249,11 @@
         }
       ],
       "text": "systemic",
-      "id": "e18"
+      "id": "e19"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1591,
@@ -268,7 +262,7 @@
         }
       ],
       "text": "l-arginine",
-      "id": "e19"
+      "id": "e20"
     }
   ]
 }

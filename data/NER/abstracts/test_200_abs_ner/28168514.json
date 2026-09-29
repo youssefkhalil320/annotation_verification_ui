@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 52,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 83,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 123,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 148,
@@ -63,21 +59,37 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
+        {
+          "char_start": 185,
+          "char_end": 190,
+          "turn_id": null
+        },
         {
           "char_start": 202,
           "char_end": 212,
           "turn_id": null
         }
       ],
-      "text": "chest pain",
+      "text": "acute chest pain",
       "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 212,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic chest pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 269,
@@ -86,40 +98,11 @@
         }
       ],
       "text": "increased Agatston score",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 279,
-          "char_end": 293,
-          "turn_id": null
-        }
-      ],
-      "text": "Agatston score",
       "id": "e7"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 295,
-          "char_end": 297,
-          "turn_id": null
-        }
-      ],
-      "text": "AS",
-      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 300,
@@ -128,12 +111,11 @@
         }
       ],
       "text": "increased heart rate",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 322,
@@ -142,12 +124,11 @@
         }
       ],
       "text": "arrhythmia",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 344,
@@ -156,12 +137,24 @@
         }
       ],
       "text": "obesity",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 425,
+          "char_end": 451,
+          "turn_id": null
+        }
+      ],
+      "text": "-generation dual-source CT",
       "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 453,
@@ -175,7 +168,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 463,
@@ -188,8 +180,20 @@
     },
     {
       "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 575,
+          "turn_id": null
+        }
+      ],
+      "text": "BMI",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 633,
@@ -198,12 +202,11 @@
         }
       ],
       "text": "CTA",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 642,
@@ -212,68 +215,37 @@
         }
       ],
       "text": "DSCT",
-      "id": "e15"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 757,
-          "char_end": 767,
-          "turn_id": null
-        }
-      ],
-      "text": "sequential",
       "id": "e16"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 769,
-          "char_end": 772,
+          "char_start": 757,
+          "char_end": 773,
           "turn_id": null
         }
       ],
-      "text": "SSM",
+      "text": "sequential (SSM)",
       "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 787,
-          "char_end": 804,
+          "char_end": 810,
           "turn_id": null
         }
       ],
-      "text": "helical scan mode",
+      "text": "helical scan mode (HSM)",
       "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 806,
-          "char_end": 809,
-          "turn_id": null
-        }
-      ],
-      "text": "HSM",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 922,
@@ -282,12 +254,11 @@
         }
       ],
       "text": "invasive angiography",
-      "id": "e20"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 983,
@@ -296,12 +267,11 @@
         }
       ],
       "text": "CTA",
-      "id": "e21"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 988,
@@ -310,12 +280,11 @@
         }
       ],
       "text": "SSM",
-      "id": "e22"
+      "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1008,
@@ -324,26 +293,11 @@
         }
       ],
       "text": "HSM",
-      "id": "e23"
+      "id": "e22"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1110,
-          "char_end": 1112,
-          "turn_id": null
-        }
-      ],
-      "text": "AS",
-      "id": "e24"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1182,
@@ -352,12 +306,11 @@
         }
       ],
       "text": "SSM",
-      "id": "e25"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1222,
@@ -366,16 +319,41 @@
         }
       ],
       "text": "HSM",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1279,
+          "char_end": 1282,
+          "turn_id": null
+        }
+      ],
+      "text": "SSM",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1300,
+          "char_end": 1309,
+          "turn_id": null
+        }
+      ],
+      "text": "AS ≥2,000",
       "id": "e26"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 1279,
-          "char_end": 1282,
+          "char_start": 1322,
+          "char_end": 1325,
           "turn_id": null
         }
       ],
@@ -385,49 +363,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1300,
-          "char_end": 1302,
-          "turn_id": null
-        }
-      ],
-      "text": "AS",
-      "id": "e28"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1300,
-          "char_end": 1309,
-          "turn_id": null
-        }
-      ],
-      "text": "AS ≥2,000",
-      "id": "e29"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1322,
-          "char_end": 1325,
-          "turn_id": null
-        }
-      ],
-      "text": "SSM",
-      "id": "e30"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1395,
@@ -436,16 +371,54 @@
         }
       ],
       "text": "HSM",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1516,
+          "char_end": 1519,
+          "turn_id": null
+        }
+      ],
+      "text": "SSM",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1579,
+          "char_end": 1582,
+          "turn_id": null
+        }
+      ],
+      "text": "HSM",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1636,
+          "char_end": 1639,
+          "turn_id": null
+        }
+      ],
+      "text": "BMI",
       "id": "e31"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 1516,
-          "char_end": 1519,
+          "char_start": 1658,
+          "char_end": 1661,
           "turn_id": null
         }
       ],
@@ -455,35 +428,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1579,
-          "char_end": 1582,
-          "turn_id": null
-        }
-      ],
-      "text": "HSM",
-      "id": "e33"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1658,
-          "char_end": 1661,
-          "turn_id": null
-        }
-      ],
-      "text": "SSM",
-      "id": "e34"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1670,
@@ -492,26 +436,11 @@
         }
       ],
       "text": "-generation DSCT",
-      "id": "e35"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1782,
-          "char_end": 1784,
-          "turn_id": null
-        }
-      ],
-      "text": "AS",
-      "id": "e36"
+      "id": "e33"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1834,
@@ -520,7 +449,7 @@
         }
       ],
       "text": "obesity",
-      "id": "e37"
+      "id": "e34"
     }
   ]
 }

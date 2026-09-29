@@ -1,0 +1,468 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:17663:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been in pain management since 2007 because I need my knees replaced, 5 discs in my back fused. there are a few more thins but those are the main ones. I have been on methadone for over 3 years at 160mg. 4 10mg 4x a day. they just changed my medicine to give my body a break for a few months. they put me on exalgo er at first 3 16mg 1x in the morning. they tapered me off the methadone and tapered me on the exalgo er at the same time in a week. they told me I wouldn t have any withdrawal but I have had bad withdrawal even though I have another drug in my body. my b.p. has been normal and my pulse has to but ever since this my b.p. has been 167over140 and pulse at 120. it has varied the past 2 weeks but it has still been around these levels. Is it because of the withdrawal or from the exalgo? they gave me valium to help my body with it s cravings but it hasn t helped my blood pressure or pulse either. My question is what is causing it and when will it stop??\n[doctor] Hello,  I passed carefully through your question and would explain that your question and would explain that high blood pressure values could be related to the withdrawal syndrome and increased pain or anxiety.   Anyway, I recommend you to closely monitor your blood pressure values in the next week. If high blood pressure values persist, I would recommend starting antihypertensive therapy.   Some blood lab tests (complete blood count, kidney and liver function tests, blood electrolytes, etc.) are necessary too.   Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr Ilir Sharka, Cardiologist",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 70,
+          "char_end": 84,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "knees replaced",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "discs in my back fused",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "there",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 183,
+          "char_end": 192,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "methadone",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 193,
+          "char_end": 209,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for over 3 years",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 197,
+          "char_end": 201,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "over",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 218,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "160mg",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 226,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4 10mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 227,
+          "char_end": 235,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4x a day",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 307,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a few months",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 330,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "exalgo",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 343,
+          "char_end": 349,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 16mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 367,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1x in the morning",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 402,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "methadone",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 425,
+          "char_end": 431,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "exalgo",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 452,
+          "char_end": 461,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "in a week",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 496,
+          "char_end": 506,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 526,
+          "char_end": 536,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 677,
+          "char_end": 689,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pulse at 120",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 796,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 809,
+          "char_end": 815,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "exalgo",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 830,
+          "char_end": 836,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "valium",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 871,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cravings",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1104,
+          "char_end": 1130,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "high blood pressure values",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1155,
+          "char_end": 1174,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "withdrawal syndrome",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1189,
+          "char_end": 1193,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1197,
+          "char_end": 1204,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1277,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "monitor your blood pressure values",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1299,
+          "char_end": 1325,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "high blood pressure values",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1362,
+          "char_end": 1378,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihypertensive",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1395,
+          "char_end": 1410,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood lab tests",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1412,
+          "char_end": 1432,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "complete blood count",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1434,
+          "char_end": 1440,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1451,
+          "char_end": 1465,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "kidney function tests",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1445,
+          "char_end": 1465,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "liver function tests",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1467,
+          "char_end": 1485,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood electrolytes",
+      "id": "e35"
+    }
+  ]
+}

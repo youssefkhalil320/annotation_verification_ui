@@ -1,0 +1,255 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12438344-DS-8:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nLithium\n\nChief Complaint:\nBilateral lower extremity claudication, left greater than right.\n\nHistory of Present Illness:\n___ male who presents with short-distance claudication \naffecting both\nlower extremities. His symptoms are worse on the left.  He is \nonly able to walk approximately one-half to one block before \nhaving to stop and rest due to calf pain.  Once he rests for ___ \nminutes, he is then again able to walk the same distance.  He is \nparticularly limited when walking up inclines.  He does not\ncomplain of foot pain at night to suggest resting ischemia.  \nThere is no history of back problems or back pain.  He does have \narthritis and previously underwent bilateral knee replacements, \nbut does not complain of pain in the joints.  He underwent \npreoperative evaluation by conventional angiography, and this \ndemonstrated an atherosclerotic calcified lesion in the common \nfemoral arteries bilaterally.\nIt was elected to treat him in a staged manner.  Because the \nsymptoms are worse on the left, the left side was treated first.\n\nBrief Hospital Course:\nMr. ___ is a ___ year old male with bilateral lower extremity \nclaudication who was admitted to the ___ \n___ on ___ for planned left femoral \nendarterectomy. The patient was taken to the endovascular suite \nand underwent left common femoral endarterectomy and patch \nclosure using a  \nHemashield Dacron patch. For details of the procedure, please \nsee the surgeon's operative note. The patient tolerated the \nprocedure well without complications and was brought to the \npost-anesthesia care unit in stable condition. He had palpable \ndistal pulses in his bilateral lower extremities \npost-operatively and throughout his hospital stay. After a brief \nstay in the PACU, the patient was transferred to the vascular \nsurgery floor where he remained through the rest of the \nhospitalization.  He did well without any groin swelling. On POD \n1 the patient was given a regular diet which he tolerated well. \nOn POD 2 he was able to get out of bed and ambulate without \nassistance, void without issues, and pain was controlled on oral \nmedications alone. He was deemed ready for discharge, and was \ngiven the appropriate discharge and follow-up instructions.  He \nwas discharged with home services for physical therapy and wound \nchecks.\n\nDischarge Diagnosis:\nBilateral lower extremity claudication, left greater than right.",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Lithium",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 75,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilateral lower extremity claudication",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 367,
+          "turn_id": null
+        }
+      ],
+      "text": "calf pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 540,
+          "turn_id": null
+        }
+      ],
+      "text": "foot pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 561,
+          "char_end": 577,
+          "turn_id": null
+        }
+      ],
+      "text": "resting ischemia",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 621,
+          "char_end": 630,
+          "turn_id": null
+        }
+      ],
+      "text": "back pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 647,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "arthritis",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 682,
+          "char_end": 709,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral knee replacements",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 737,
+          "char_end": 755,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in the joints",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 823,
+          "turn_id": null
+        }
+      ],
+      "text": "conventional angiography",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 851,
+          "char_end": 915,
+          "turn_id": null
+        }
+      ],
+      "text": "atherosclerotic calcified lesion in the common \nfemoral arteries",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1116,
+          "char_end": 1155,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral lower extremity \nclaudication",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1208,
+          "char_end": 1236,
+          "turn_id": null
+        }
+      ],
+      "text": "left femoral \nendarterectomy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1301,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "left common femoral endarterectomy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1340,
+          "char_end": 1354,
+          "turn_id": null
+        }
+      ],
+      "text": "patch \nclosure",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1892,
+          "char_end": 1906,
+          "turn_id": null
+        }
+      ],
+      "text": "groin swelling",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2274,
+          "char_end": 2290,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2295,
+          "char_end": 2308,
+          "turn_id": null
+        }
+      ],
+      "text": "wound \nchecks",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2332,
+          "char_end": 2370,
+          "turn_id": null
+        }
+      ],
+      "text": "Bilateral lower extremity claudication",
+      "id": "e19"
+    }
+  ]
+}

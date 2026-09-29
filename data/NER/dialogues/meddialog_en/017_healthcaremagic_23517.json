@@ -1,0 +1,356 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:23517:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Lisinopril was prescribed to lower my blood pressure.  It helped a lot or about a week-- but then I got a terrible hacking cough that took  8 days to go away.  The doctor switched me over to losartan.  It worked pretty well--  but after 2 weeks I got a bad, hacking cough again.  I cut the dosage in 1/4 (one tablet, 25 mg. is 4 pieces).  That worked for a few days then I got horrible flu symptoms and the cough came back.I don't relish taking any pills ever-- but, my blood pressure is out of control without it.  Because of a history of allergies and autoimmune things--  my theory about this sudden High BP is an allergy to cottonwood which is blanketing the entire town.I do have heart problems-- AI, AR, MVP, MR and a pulmonary vale & triscupid valve problem.  I'm 60-- but in pretty good shape.Maybe my heart is just worn outor maybe I have allergy myocarditisI know see a doctor-- but none have openings and they are way, way too expensive anyway\n[doctor] your medicine comes under the class of drugs called ace inhibitorsone of the main side effect of this drug is dry coughso dont worry it the commenest side effect encountered by many patientsjust switch to another group of drugs called AT1 antagonist which has almost the same mechanism of action but dry cough is not a side effectswitch off current medicationand start tablet telma h once dailythank you!!",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 20,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lisinopril",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 138,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hacking cough",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 209,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "losartan",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 268,
+          "char_end": 281,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hacking cough",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 310,
+          "char_end": 313,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1/4",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 325,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one tablet",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 327,
+          "char_end": 333,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "25 mg.",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 345,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4 pieces",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 396,
+          "char_end": 408,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flu symptoms",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 417,
+          "char_end": 422,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cough",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 480,
+          "char_end": 494,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 498,
+          "char_end": 512,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure out of control",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 559,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergies",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 613,
+          "char_end": 620,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "High BP",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 648,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergy to cottonwood",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 701,
+          "char_end": 709,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 734,
+          "char_end": 748,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "problems pulmonary vale",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 712,
+          "char_end": 714,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "AI",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 716,
+          "char_end": 718,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "AR",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 723,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MVP",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 725,
+          "char_end": 727,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MR",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 751,
+          "char_end": 774,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "triscupid valve problem",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 878,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergy myocarditisI",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1084,
+          "char_end": 1095,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dry coughso",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1209,
+          "char_end": 1223,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "AT1 antagonist",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1343,
+          "char_end": 1349,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tablet",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1350,
+          "char_end": 1357,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "telma h",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1373,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "once dailythank",
+      "id": "e26"
+    }
+  ]
+}

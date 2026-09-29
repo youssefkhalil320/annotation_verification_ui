@@ -1,0 +1,819 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17521365-DS-11:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nWellbutrin\n\nChief Complaint:\nSOB\n\nHistory of Present Illness:\nMr ___ is a ___ ex-smoker who reports shortness of breath\nsince ___, found to have on ___ CT persistent elevation of\nthe right hemidiaphragm. He underwent a fluoro sniff test \n___\nwhich confirmed paralysis of the right hemidiaphragm. His PFTs\n___ were indicative of moderate restrictive disease.\n\nHe first began to have shortness of breath since the time of his\nlap chole ___. Since then, the shortness of breath \nwaxes\nand wanes and is now stable but persistent. He does not have\nhoarseness but reports that his voice gets weaker and he has\ntrouble breathing when he talks for long periods of time. In\naddition, he reports that he has oxygen desaturations with\nexercise to the high ___. He has had multiple orthopedic\noperations and reports that after one of the operations, he was\ntold that he had neck injuries.\n\nBrief Hospital Course:\nMr. ___ was admitted to the hospital and taken to the \nOperating Room where he underwent a right thoracotomy and \nplication of diaphragm.  He tolerated the procedure well and \nreturned to the PACU in stable consdition.  He maintained stable \nhemodynamics and his pain was controlled with an epidural \ncatheter along with his standard pre op narcotics.  His chest \nxray was much improved with his right hemidiaphram much lower \nthan pre op.  His chest tube drained minimally and was without \nair leak.\n\nFollowing transfer to the Surgical floor he underwent vigorous \npulmonary toilet and his chest tube was removed the following \nmorning.  He complained of increased right shoulder pain and \ngeneral incisional discomfort and his epidural was changed to \njust Bupivicaine and oral narcotics were increased.  His pain \nwas more controlled but after going for a walk in the hallway he \ndeveloped a heart rate of 50 (sinus) as opposed to his general \nrange of 70-80.  His blood pressure was 70/40 from the 120-130 \nrange.  His epidural was turned off and he was given IV fluids \nalong with small doses of Narcan.  His saturations were \ndifficult to manage due to his constricted state and he was \nplaced on a 100% NRB.  He briefly required Neosynephrine and his \nblood pressure and heart rate normalized within 30 minutes.  He \nwas transferred to the SICU for further management.\n\nHis creatinine rose to 1.7 and returned to normal within 24 \nhours.  The Cardiology service evaluated him and felt that the \nepisode was related to vagotonia.  His EKG showed no ischemic \nchanges and his EF was normal on TTE without any WMA.  His \ntroponins were cycled and peaked at 0.04.\n\nHe was transferred back to the Surgical floor and had problems \nwith desaturation with ambulation on room air to 88%.  He also \nhad intermittent wheezing and was treated with bronchodilators \nwith some effect.  His chest xray showed significant bibasilar \natelectesis and he continued to use his incentive spirometer and \nwalk frequently.  He was afebrile with a normal WBC and \neventually his saturations on room air were >90%.  He was \ndischarged home on ___ and will follow up in the Thoracic \nClinic in 2 weeks.\n\nDischarge Diagnosis:\nParalysis of right hemidiaphragm\nAcute kidney injury\nVagotonia causing hypotension and bradycardia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "Wellbutrin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 43,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 89,
+          "char_end": 98,
+          "turn_id": null
+        }
+      ],
+      "text": "ex-smoker",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 130,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "CT",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 177,
+          "char_end": 213,
+          "turn_id": null
+        }
+      ],
+      "text": "elevation of\nthe right hemidiaphragm",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 247,
+          "turn_id": null
+        }
+      ],
+      "text": "fluoro sniff test",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 305,
+          "turn_id": null
+        }
+      ],
+      "text": "paralysis of the right hemidiaphragm",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 315,
+          "turn_id": null
+        }
+      ],
+      "text": "PFTs",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 348,
+          "char_end": 367,
+          "turn_id": null
+        }
+      ],
+      "text": "restrictive disease",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 412,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 444,
+          "turn_id": null
+        }
+      ],
+      "text": "lap chole",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 466,
+          "char_end": 485,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 554,
+          "char_end": 564,
+          "turn_id": null
+        }
+      ],
+      "text": "hoarseness",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 586,
+          "char_end": 603,
+          "turn_id": null
+        }
+      ],
+      "text": "voice gets weaker",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 632,
+          "turn_id": null
+        }
+      ],
+      "text": "trouble breathing",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 709,
+          "char_end": 729,
+          "turn_id": null
+        }
+      ],
+      "text": "oxygen desaturations",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 802,
+          "turn_id": null
+        }
+      ],
+      "text": "orthopedic\noperations",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 873,
+          "char_end": 886,
+          "turn_id": null
+        }
+      ],
+      "text": "neck injuries",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1003,
+          "char_end": 1020,
+          "turn_id": null
+        }
+      ],
+      "text": "right thoracotomy",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1026,
+          "char_end": 1048,
+          "turn_id": null
+        }
+      ],
+      "text": "plication of diaphragm",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1203,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "epidural",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1253,
+          "char_end": 1262,
+          "turn_id": null
+        }
+      ],
+      "text": "narcotics",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1269,
+          "char_end": 1280,
+          "turn_id": null
+        }
+      ],
+      "text": "chest \nxray",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1357,
+          "char_end": 1367,
+          "turn_id": null
+        }
+      ],
+      "text": "chest tube",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1403,
+          "char_end": 1411,
+          "turn_id": null
+        }
+      ],
+      "text": "air leak",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1478,
+          "char_end": 1494,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary toilet",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1503,
+          "char_end": 1513,
+          "turn_id": null
+        }
+      ],
+      "text": "chest tube",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1578,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "right shoulder pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1632,
+          "turn_id": null
+        }
+      ],
+      "text": "incisional discomfort",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1649,
+          "turn_id": null
+        }
+      ],
+      "text": "epidural",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1671,
+          "char_end": 1682,
+          "turn_id": null
+        }
+      ],
+      "text": "Bupivicaine",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1687,
+          "char_end": 1691,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1692,
+          "char_end": 1701,
+          "turn_id": null
+        }
+      ],
+      "text": "narcotics",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1723,
+          "char_end": 1727,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1807,
+          "char_end": 1823,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rate of 50",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1880,
+          "char_end": 1894,
+          "turn_id": null
+        },
+        {
+          "char_start": 1899,
+          "char_end": 1904,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure 70/40",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1935,
+          "char_end": 1943,
+          "turn_id": null
+        }
+      ],
+      "text": "epidural",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1976,
+          "char_end": 1978,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2013,
+          "char_end": 2019,
+          "turn_id": null
+        }
+      ],
+      "text": "Narcan",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2148,
+          "char_end": 2161,
+          "turn_id": null
+        }
+      ],
+      "text": "Neosynephrine",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2293,
+          "char_end": 2303,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2293,
+          "char_end": 2315,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine rose to 1.7",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2437,
+          "char_end": 2446,
+          "turn_id": null
+        }
+      ],
+      "text": "vagotonia",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2453,
+          "char_end": 2456,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2467,
+          "char_end": 2484,
+          "turn_id": null
+        }
+      ],
+      "text": "ischemic \nchanges",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2510,
+          "char_end": 2513,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2526,
+          "char_end": 2529,
+          "turn_id": null
+        }
+      ],
+      "text": "WMA",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2537,
+          "char_end": 2546,
+          "turn_id": null
+        }
+      ],
+      "text": "troponins",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2649,
+          "char_end": 2696,
+          "turn_id": null
+        }
+      ],
+      "text": "desaturation with ambulation on room air to 88%",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2725,
+          "char_end": 2733,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezing",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2755,
+          "char_end": 2770,
+          "turn_id": null
+        }
+      ],
+      "text": "bronchodilators",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2795,
+          "char_end": 2805,
+          "turn_id": null
+        }
+      ],
+      "text": "chest xray",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2825,
+          "char_end": 2847,
+          "turn_id": null
+        }
+      ],
+      "text": "bibasilar \natelectesis",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2876,
+          "char_end": 2896,
+          "turn_id": null
+        }
+      ],
+      "text": "incentive spirometer",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2950,
+          "char_end": 2953,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3118,
+          "char_end": 3150,
+          "turn_id": null
+        }
+      ],
+      "text": "Paralysis of right hemidiaphragm",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3151,
+          "char_end": 3170,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute kidney injury",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3171,
+          "char_end": 3180,
+          "turn_id": null
+        }
+      ],
+      "text": "Vagotonia",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3189,
+          "char_end": 3200,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3205,
+          "char_end": 3216,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardia",
+      "id": "e62"
+    }
+  ]
+}

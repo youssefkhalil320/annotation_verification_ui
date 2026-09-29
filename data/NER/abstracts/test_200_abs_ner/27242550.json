@@ -6,106 +6,38 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 243,
-          "char_end": 270,
-          "turn_id": null
-        }
-      ],
-      "text": "increased olfactory ability",
-      "id": "e1"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 313,
-          "char_end": 351,
-          "turn_id": null
-        }
-      ],
-      "text": "increased abundance of olfactory cilia",
-      "id": "e2"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 486,
-          "char_end": 506,
-          "turn_id": null
-        }
-      ],
-      "text": "lo wer b o dy weight",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 512,
-          "char_end": 534,
-          "turn_id": null
-        }
-      ],
-      "text": "de creased a d iposity",
-      "id": "e4"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 536,
-          "char_end": 571,
-          "turn_id": null
-        }
-      ],
-      "text": "in creased total energy expenditure",
-      "id": "e5"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 579,
-          "char_end": 607,
-          "turn_id": null
-        }
-      ],
-      "text": "increased locomotor activity",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
+        {
+          "char_start": 632,
+          "char_end": 636,
+          "turn_id": null
+        },
         {
           "char_start": 659,
           "char_end": 666,
           "turn_id": null
         }
       ],
-      "text": "obesity",
-      "id": "e7"
+      "text": "diet obesity",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 666,
+          "turn_id": null
+        }
+      ],
+      "text": "genetic-induced obesity",
+      "id": "e2"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 851,
@@ -114,12 +46,11 @@
         }
       ],
       "text": "in situ hybridization",
-      "id": "e8"
+      "id": "e3"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1608,
@@ -128,26 +59,24 @@
         }
       ],
       "text": "transmission electron microscopy",
-      "id": "e9"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
-          "char_start": 1718,
+          "char_start": 1705,
           "char_end": 1725,
           "turn_id": null
         }
       ],
-      "text": "obesity",
-      "id": "e10"
+      "text": "diet-induced obesity",
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1727,
@@ -156,12 +85,11 @@
         }
       ],
       "text": "DIO",
-      "id": "e11"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1942,
@@ -170,7 +98,7 @@
         }
       ],
       "text": "D IO",
-      "id": "e12"
+      "id": "e7"
     }
   ]
 }

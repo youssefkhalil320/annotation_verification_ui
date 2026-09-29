@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 30,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 53,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 74,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 104,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 131,
@@ -90,8 +84,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 163,
@@ -105,21 +98,32 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 192,
-          "char_end": 226,
+          "char_end": 213,
           "turn_id": null
         }
       ],
-      "text": "Bethesda Category III (AUS / FLUS)",
+      "text": "Bethesda Category III",
       "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 215,
+          "char_end": 225,
+          "turn_id": null
+        }
+      ],
+      "text": "AUS / FLUS",
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 230,
@@ -128,12 +132,11 @@
         }
       ],
       "text": "cytology",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 257,
@@ -142,12 +145,11 @@
         }
       ],
       "text": "malignancy",
-      "id": "e10"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 328,
@@ -156,12 +158,11 @@
         }
       ],
       "text": "nodules",
-      "id": "e11"
+      "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 341,
@@ -170,12 +171,11 @@
         }
       ],
       "text": "atypia of undetermined significance",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 379,
@@ -184,26 +184,24 @@
         }
       ],
       "text": "follicular lesion of undetermined significance",
-      "id": "e13"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 469,
-          "char_end": 487,
-          "turn_id": null
-        }
-      ],
-      "text": "ultrasonographical",
       "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 437,
+          "turn_id": null
+        }
+      ],
+      "text": "AUS / FLUS",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 529,
@@ -212,26 +210,37 @@
         }
       ],
       "text": "malignancy",
-      "id": "e15"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 602,
-          "char_end": 636,
-          "turn_id": null
-        }
-      ],
-      "text": "Bethesda Category III (AUS / FLUS)",
       "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 602,
+          "char_end": 623,
+          "turn_id": null
+        }
+      ],
+      "text": "Bethesda Category III",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 625,
+          "char_end": 635,
+          "turn_id": null
+        }
+      ],
+      "text": "AUS / FLUS",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 637,
@@ -240,12 +249,11 @@
         }
       ],
       "text": "thyroid nodules",
-      "id": "e17"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 711,
@@ -254,12 +262,11 @@
         }
       ],
       "text": "nodules",
-      "id": "e18"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 755,
@@ -268,12 +275,24 @@
         }
       ],
       "text": "histopathology",
-      "id": "e19"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 915,
+          "char_end": 925,
+          "turn_id": null
+        }
+      ],
+      "text": "AUS / FLUS",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 926,
@@ -282,12 +301,11 @@
         }
       ],
       "text": "nodules",
-      "id": "e20"
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 973,
@@ -296,12 +314,11 @@
         }
       ],
       "text": "malignancy",
-      "id": "e21"
+      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1045,
@@ -310,68 +327,37 @@
         }
       ],
       "text": "malignancy",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1070,
-          "char_end": 1077,
-          "turn_id": null
-        }
-      ],
-      "text": "nodules",
-      "id": "e23"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1083,
-          "char_end": 1086,
-          "turn_id": null
-        }
-      ],
-      "text": "AUS",
-      "id": "e24"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1110,
-          "char_end": 1117,
-          "turn_id": null
-        }
-      ],
-      "text": "nodules",
       "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
-          "char_start": 1123,
+          "char_start": 1070,
+          "char_end": 1086,
+          "turn_id": null
+        }
+      ],
+      "text": "nodules with AUS",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1110,
           "char_end": 1127,
           "turn_id": null
         }
       ],
-      "text": "FLUS",
-      "id": "e26"
+      "text": "nodules with FLUS",
+      "id": "e27"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1194,
@@ -380,12 +366,11 @@
         }
       ],
       "text": "histopathology",
-      "id": "e27"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1222,
@@ -394,12 +379,11 @@
         }
       ],
       "text": "papillary thyroid carcinoma",
-      "id": "e28"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1251,
@@ -408,26 +392,24 @@
         }
       ],
       "text": "PTC",
-      "id": "e29"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
-          "char_start": 1330,
+          "char_start": 1320,
           "char_end": 1337,
           "turn_id": null
         }
       ],
-      "text": "nodules",
-      "id": "e30"
+      "text": "malignant nodules",
+      "id": "e31"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1341,
@@ -436,26 +418,24 @@
         }
       ],
       "text": "histopathology",
-      "id": "e31"
+      "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
-          "char_start": 1390,
+          "char_start": 1383,
           "char_end": 1397,
           "turn_id": null
         }
       ],
-      "text": "nodules",
-      "id": "e32"
+      "text": "benign nodules",
+      "id": "e33"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1401,
@@ -464,12 +444,11 @@
         }
       ],
       "text": "histopathology",
-      "id": "e33"
+      "id": "e34"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1584,
@@ -478,12 +457,11 @@
         }
       ],
       "text": "higher AP/T ratio",
-      "id": "e34"
+      "id": "e35"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1606,
@@ -492,30 +470,15 @@
         }
       ],
       "text": "microcalcification",
-      "id": "e35"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1660,
-          "char_end": 1670,
-          "turn_id": null
-        }
-      ],
-      "text": "malignancy",
       "id": "e36"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1687,
-          "char_end": 1697,
+          "char_start": 1660,
+          "char_end": 1670,
           "turn_id": null
         }
       ],
@@ -525,11 +488,10 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1828,
-          "char_end": 1838,
+          "char_start": 1687,
+          "char_end": 1697,
           "turn_id": null
         }
       ],
@@ -539,7 +501,19 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1828,
+          "char_end": 1838,
+          "turn_id": null
+        }
+      ],
+      "text": "malignancy",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1843,
@@ -548,12 +522,11 @@
         }
       ],
       "text": "Hashimoto's thyroiditis",
-      "id": "e39"
+      "id": "e40"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1870,
@@ -562,12 +535,11 @@
         }
       ],
       "text": "histopathology",
-      "id": "e40"
+      "id": "e41"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1925,
@@ -576,12 +548,11 @@
         }
       ],
       "text": "Bethesda Category III",
-      "id": "e41"
+      "id": "e42"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1947,
@@ -590,12 +561,11 @@
         }
       ],
       "text": "nodules",
-      "id": "e42"
+      "id": "e43"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1960,
@@ -604,12 +574,11 @@
         }
       ],
       "text": "higher AP/T ratio",
-      "id": "e43"
+      "id": "e44"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1982,
@@ -618,12 +587,11 @@
         }
       ],
       "text": "microcalcification",
-      "id": "e44"
+      "id": "e45"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2078,
@@ -632,20 +600,6 @@
         }
       ],
       "text": "fine-needle aspiration biopsy",
-      "id": "e45"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "monitoring",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 2111,
-          "char_end": 2122,
-          "turn_id": null
-        }
-      ],
-      "text": "observation",
       "id": "e46"
     }
   ]

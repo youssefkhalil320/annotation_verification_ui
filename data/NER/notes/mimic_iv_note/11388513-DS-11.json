@@ -1,0 +1,915 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11388513-DS-11:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPenicillins\n\nChief Complaint:\nAbnormal labs\n\nHistory of Present Illness:\nMs ___ is a ___ h/o tobacco use,\nhypothyroidism, presenting from her PCP with with acute anemia\n(hb 5.4, most recent prior hgb was nl in ___ in the setting of\n6 month history of loss of appetite, nausea, vomiting and 30 lbs\nweight loss over 3 months.  Pt states that she went to her PCP\nfor evaluation of wt loss, and anemia was discovered during w/u\nfor the wt loss.  While at her PCPs office, she states she felt\ndizzy however did not have any other sxs. She has had no \nappetite\nrecently, states everything smells bad.  She also endorses\nnon-bloody emesis, ___ x ___ m.  She denies SOB, CP, abd \npain,\ncough, diarrhea.  No bloody or black stools.  Per notes, she is\nnot up to date on her colonoscopy or pap smear however is\nfollowed at ___ for breast cysts and reportedly has had\nbiopsies in the past which has been negative.  \n\nIn the ED, initial vitals were: 96.8 72 91/31 16 100% RA. \nPressures dropped to systolic 77 however improved to 100 at the\ntime of transfer.  Rectal exam was notably heme neg.  Labs were\nnotable for crit 21.0-->26.3 with 1 u PRBCs, plts 128, AST 52,\nLDH 407, Iron 17, ferritin 18, normal hapto, nl bili.  CT C/A/P\nshowed small to moderate bilat pleural effusions, nodular breast\ntissue, 2 mm pulm nodule.  \n\nOn the floor, pt has no complaints.  She tells me she started\nmirtazipine yesterday.  She expresses concerns regarding dust in\nher apartment causing her asthma to flare on occasion, but \nstates\nthat it is generally well controlled.\n\nReview of systems:\n(+) Per HPI\n(-) Denies fever, chills, night sweats. Denies headache, sinus\ntenderness, rhinorrhea or congestion. Denies cough, shortness of\nbreath. Denies chest pain or tightness, palpitations. Denies\ndiarrhea, constipation or abdominal pain. No recent change in\nbowel or bladder habits. No dysuria. Denies arthralgias or\nmyalgias. 10 pt ros otherwise negative.\n\nDischarge Diagnosis:\nIron Deficiency Anemia\nDuodenitis\nDuodenal ulcers\nWeight loss",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 115,
+          "turn_id": null
+        }
+      ],
+      "text": "tobacco use",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 117,
+          "char_end": 131,
+          "turn_id": null
+        }
+      ],
+      "text": "hypothyroidism",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 156,
+          "turn_id": null
+        }
+      ],
+      "text": "PCP",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "acute anemia",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "hb",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 210,
+          "turn_id": null
+        }
+      ],
+      "text": "hgb",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 262,
+          "char_end": 278,
+          "turn_id": null
+        }
+      ],
+      "text": "loss of appetite",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 280,
+          "char_end": 286,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 296,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 308,
+          "char_end": 319,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 396,
+          "turn_id": null
+        }
+      ],
+      "text": "wt loss",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 402,
+          "char_end": 408,
+          "turn_id": null
+        }
+      ],
+      "text": "anemia",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 443,
+          "char_end": 450,
+          "turn_id": null
+        }
+      ],
+      "text": "wt loss",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 499,
+          "char_end": 504,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 565,
+          "turn_id": null
+        }
+      ],
+      "text": "appetite",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 604,
+          "turn_id": null
+        }
+      ],
+      "text": "smells bad",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 636,
+          "char_end": 642,
+          "turn_id": null
+        }
+      ],
+      "text": "emesis",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 669,
+          "char_end": 672,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 678,
+          "char_end": 687,
+          "turn_id": null
+        }
+      ],
+      "text": "abd \npain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 694,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 696,
+          "char_end": 704,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 732,
+          "turn_id": null
+        }
+      ],
+      "text": "black stools",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 775,
+          "char_end": 786,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 799,
+          "turn_id": null
+        }
+      ],
+      "text": "pap smear",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 831,
+          "char_end": 843,
+          "turn_id": null
+        }
+      ],
+      "text": "breast cysts",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 867,
+          "char_end": 875,
+          "turn_id": null
+        }
+      ],
+      "text": "biopsies",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 1007,
+          "turn_id": null
+        }
+      ],
+      "text": "Pressures dropped to systolic 77",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1058,
+          "char_end": 1069,
+          "turn_id": null
+        }
+      ],
+      "text": "Rectal exam",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1082,
+          "char_end": 1086,
+          "turn_id": null
+        }
+      ],
+      "text": "heme",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1115,
+          "char_end": 1119,
+          "turn_id": null
+        }
+      ],
+      "text": "crit",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1137,
+          "char_end": 1140,
+          "turn_id": null
+        }
+      ],
+      "text": "1 u",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1152,
+          "turn_id": null
+        }
+      ],
+      "text": "plts",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1161,
+          "turn_id": null
+        }
+      ],
+      "text": "AST",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1166,
+          "char_end": 1169,
+          "turn_id": null
+        }
+      ],
+      "text": "LDH",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1175,
+          "char_end": 1179,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1184,
+          "char_end": 1192,
+          "turn_id": null
+        }
+      ],
+      "text": "ferritin",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1204,
+          "char_end": 1209,
+          "turn_id": null
+        }
+      ],
+      "text": "hapto",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1214,
+          "char_end": 1218,
+          "turn_id": null
+        }
+      ],
+      "text": "bili",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1229,
+          "turn_id": null
+        }
+      ],
+      "text": "CT C/A/P",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1255,
+          "char_end": 1278,
+          "turn_id": null
+        }
+      ],
+      "text": "bilat pleural effusions",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1280,
+          "char_end": 1301,
+          "turn_id": null
+        }
+      ],
+      "text": "nodular breast\ntissue",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1308,
+          "char_end": 1319,
+          "turn_id": null
+        }
+      ],
+      "text": "pulm nodule",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1386,
+          "char_end": 1397,
+          "turn_id": null
+        }
+      ],
+      "text": "mirtazipine",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1477,
+          "char_end": 1483,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1599,
+          "char_end": 1604,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1612,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1614,
+          "char_end": 1626,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1635,
+          "char_end": 1643,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1645,
+          "char_end": 1661,
+          "turn_id": null
+        }
+      ],
+      "text": "sinus\ntenderness",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1663,
+          "char_end": 1673,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1677,
+          "char_end": 1687,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1696,
+          "char_end": 1701,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1703,
+          "char_end": 1722,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of\nbreath",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1731,
+          "char_end": 1736,
+          "turn_id": null
+        },
+        {
+          "char_start": 1745,
+          "char_end": 1754,
+          "turn_id": null
+        }
+      ],
+      "text": "chest tightness",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1731,
+          "char_end": 1741,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1756,
+          "char_end": 1768,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1777,
+          "char_end": 1785,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1787,
+          "char_end": 1799,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1803,
+          "char_end": 1817,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1839,
+          "char_end": 1844,
+          "turn_id": null
+        },
+        {
+          "char_start": 1856,
+          "char_end": 1862,
+          "turn_id": null
+        }
+      ],
+      "text": "bowel habits",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1848,
+          "char_end": 1862,
+          "turn_id": null
+        }
+      ],
+      "text": "bladder habits",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1867,
+          "char_end": 1874,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1883,
+          "char_end": 1894,
+          "turn_id": null
+        }
+      ],
+      "text": "arthralgias",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1898,
+          "char_end": 1906,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1960,
+          "char_end": 1982,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron Deficiency Anemia",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1983,
+          "char_end": 1993,
+          "turn_id": null
+        }
+      ],
+      "text": "Duodenitis",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1994,
+          "char_end": 2009,
+          "turn_id": null
+        }
+      ],
+      "text": "Duodenal ulcers",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2010,
+          "char_end": 2021,
+          "turn_id": null
+        }
+      ],
+      "text": "Weight loss",
+      "id": "e69"
+    }
+  ]
+}

@@ -1,0 +1,949 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:101238:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have a consistent dry, sometimes heaving, cough. This has been going on for a year or more. I am diabetic and have high blood pressure, high cholesterol, asthma, and gastroparesis. My med list is overwhelming...up to 12 tablets a day plus insulin. Could the losartan I take for pressure be the cause of my crazy cough spasms? Am I having an allergic reaction to it or the combination with my other meds. 65 units of Novalog insulin before am/pm meals 10mg Zetia daily 3.125mg Carvedilol twice daily 5mg (2) Glyburide twice daily 20mg Omeprazole daily 25mg Hydrochlorothiazide daily 5mg Metoclopramide 4 times daily (be efore meals and at bedtime) 20 mg Pravastatin daily 50mg Losartan daily 160/4.5 Symbiotic 2 puffs twice daily 90mcg Abuterol 2 puffs four times daily 59mcg Fluticasone Propionate 2 sprays each nostril daily 2500mcg Methycobalamin (B12) daily 1000 IU Vitamin D daily 500mg Inositol daily 3000mcg Biotiln daily 50mg Tramadol as needed for pain every 8-12 hours\n[doctor] Welcome. Ace inhibitors r known to cause dry cough. losartan is an arb receptor blocker but it too can cause dry cough less so than ace is. u need to do 2 things 1st) ask ur doc to change ur bp med to observe any improvement, perinodopril is a good option. 2ndly) go to a pulmonologist n get ur pulmonary function tests, cxr pa view done to rule out any co morbidity n do proper referal. thanx hope that helps.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 33,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 54,
+          "char_end": 59,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dry cough",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diabetic",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 146,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high blood pressure",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 148,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high cholesterol",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 172,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthma",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 178,
+          "char_end": 191,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gastroparesis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 229,
+          "char_end": 239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "12 tablets",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 245,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "a day",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 258,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insulin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 270,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "losartan",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 336,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cough spasms",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 353,
+          "char_end": 370,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 416,
+          "char_end": 424,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "65 units",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 428,
+          "char_end": 443,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Novalog insulin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 444,
+          "char_end": 462,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "before am/pm meals",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 463,
+          "char_end": 467,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10mg",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 468,
+          "char_end": 473,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zetia",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 479,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 480,
+          "char_end": 487,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3.125mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 488,
+          "char_end": 498,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Carvedilol",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 499,
+          "char_end": 510,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twice daily",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 511,
+          "char_end": 518,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "5mg (2)",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 519,
+          "char_end": 528,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Glyburide",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 540,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twice daily",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 545,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20mg",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 546,
+          "char_end": 556,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Omeprazole",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 562,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 587,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hydrochlorothiazide",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 598,
+          "char_end": 612,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Metoclopramide",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 613,
+          "char_end": 626,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4 times daily",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 628,
+          "char_end": 657,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "be efore meals and at bedtime",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 659,
+          "char_end": 664,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20 mg",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 665,
+          "char_end": 676,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pravastatin",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 677,
+          "char_end": 682,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 683,
+          "char_end": 687,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "50mg",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 696,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Losartan",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 697,
+          "char_end": 702,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 703,
+          "char_end": 710,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "160/4.5",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 711,
+          "char_end": 720,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Symbiotic",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 721,
+          "char_end": 728,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 puffs",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 740,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twice daily",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 741,
+          "char_end": 746,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "90mcg",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 747,
+          "char_end": 755,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Abuterol",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 756,
+          "char_end": 763,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 puffs",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 780,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "four times daily",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 786,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "59mcg",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 787,
+          "char_end": 809,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fluticasone Propionate",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 810,
+          "char_end": 818,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 sprays",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 831,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "each nostril",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 837,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 838,
+          "char_end": 845,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2500mcg",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 846,
+          "char_end": 866,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Methycobalamin (B12)",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 867,
+          "char_end": 872,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 873,
+          "char_end": 880,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1000 IU",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 881,
+          "char_end": 890,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vitamin D",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 897,
+          "char_end": 902,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "500mg",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 911,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Inositol",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 925,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3000mcg",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 926,
+          "char_end": 933,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Biotiln",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 944,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "50mg",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 953,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Tramadol",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 954,
+          "char_end": 989,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "as needed for pain every 8-12 hours",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 968,
+          "char_end": 972,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1008,
+          "char_end": 1022,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Ace inhibitors",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1040,
+          "char_end": 1049,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dry cough",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1051,
+          "char_end": 1059,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "losartan",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1066,
+          "char_end": 1086,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "arb receptor blocker",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1108,
+          "char_end": 1117,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dry cough",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1131,
+          "char_end": 1134,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ace",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1225,
+          "char_end": 1237,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "perinodopril",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1294,
+          "char_end": 1318,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pulmonary function tests",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1331,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cxr pa view",
+      "id": "e72"
+    }
+  ]
+}

@@ -1,0 +1,993 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11263623-DS-5:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPatient recorded as having No Known Allergies to Drugs\n\nChief Complaint:\nsyncopal episode\n\nHistory of Present Illness:\n___ yo ___ speaking M was at \nclinic this am, was sitting down and started feeling dizzy and \neverything got dark, then LOC, fell and hit head. States he woke \nup a second later, knew where he was, no bladder or bowel \nincontinence.  \n.  \nDenies SOB, CP, h/a's, no vision changes or hearing changes, no \npalpitations no facial droop, no clumsiness of hands or feet. No \npost ictal sxs.  \nDenies previous episodes like this in the past. Endorsed \ndecreased PO intake in the ED, but denied this to me.  \n.  \nIn the emergency department, initial vitals: 97.8 69 `112/63 18 \n99%RA. Labs--CBC with 8.7 WBC, h/h 11.0/34.4 and plts 289. \nChemistry normal with BUN/Cr ___ and glucose 100. Negative \nset of enzymes x1. EKG NSR at 75bpm, normal intervals, normal \naxis, T wave flattening in I, aVL, V5, V6, but no Q waves or ST \nchanges.  \n.  \nKnee plain film preliminary normal. CT head without hemorrhage, \nwith small R frontal cephalohematoma. CT neck with ___ changes \nbut no fx's. CXR with mild pulmonary edema versus positional \nprominence of central vessels--recommend repeat upright PA, and \nideally lateral, radiographs.  \n.  \nReview of systems:  \n(+) Per HPI\n\nBrief Hospital Course:\nASSESSMENT AND PLAN:  ___ yo ___ speaking male with HTN, HPL, \nsmoker, who presents with syncopal episode.\n.\n1. Syncope--The pt was admitted and kept on telemetry, however \nhad no arrhymthmias while admitted. Negative orthostatics. We \ncontacted ___ where the pt stated he \ngot primary care to see if any recent cardiac diagnostic tests \nwere available, which none were. An echo was performed which was \nsignificant for Grade I diastolic dysfunction, EF >55%, no \naortic stenosis or anything to explain his symptoms. \n\nImmediately after the pt got back from his echo, he left AMA. \nThe other pt in his room stated he got back, put his clothes on, \nand walked out. His grandson ___ was called, who \nstated that he had just picked his grandfather up from the \nhospital and taken him home. He stated that the pt was \ncompletely asymptomatic. \n\nHe is also on 4 bp meds, including a dual diuretic (Dyazide = \nHCTZ/triamterene), a BB, and CCB, and I wonder if this is too \nmuch and his blood pressure bottomed out. \n\n2. HTN--Pt was admitted with home med list of Dyazide, Atenolol, \nLisinopril, Nifedipine SR. He was unsure which he had actually \nbeen taking though. Due to syncopal episode, bp meds were held. \nOn the second day, Atenolol and Nifedipine were restarted. We \nwere unable to counsel the pt as to whether to restart the other \ntwo after discharge because he left AMA. This should be \naddressed by PCP in the future. \n\n3. HPL--A home med statin and Fenofibrate were started. \n\n4. Disposition--The pt left AMA and so clear discharge \ninformation was not able to be conveyed to the pt. However, in \nagreement with the grandson with whom I spoke after he left, the \ndischarge papers were mailed to him c/o the pt as below:\n___ \n___\nThe discharge paperwork, including a followup appt with Dr. \n___ at ___ on ___ 8:40am, ___. ___, were sent to the above address (please see letter in OMR).\n\nDischarge Diagnosis:\nPrimary diagnosis:\n1. Syncope, unknown etiology\n.\nSecondary diagnoses:\n1. Hypertension\n2. Hyperlipidemia\n2. HPL",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 65,
+          "turn_id": null
+        }
+      ],
+      "text": "Allergies to Drugs",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 100,
+          "turn_id": null
+        }
+      ],
+      "text": "syncopal episode",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 218,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 224,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "everything got dark",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "LOC",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 361,
+          "turn_id": null
+        }
+      ],
+      "text": "bowel \nincontinence",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 376,
+          "char_end": 379,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 381,
+          "char_end": 383,
+          "turn_id": null
+        }
+      ],
+      "text": "CP",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 390,
+          "turn_id": null
+        }
+      ],
+      "text": "h/a's",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 409,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 413,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "hearing changes",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 446,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 450,
+          "char_end": 462,
+          "turn_id": null
+        }
+      ],
+      "text": "facial droop",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 480,
+          "turn_id": null
+        },
+        {
+          "char_start": 490,
+          "char_end": 494,
+          "turn_id": null
+        }
+      ],
+      "text": "clumsiness of feet",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 486,
+          "turn_id": null
+        }
+      ],
+      "text": "clumsiness of hands",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 514,
+          "turn_id": null
+        }
+      ],
+      "text": "post ictal sxs",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 576,
+          "char_end": 595,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased PO intake",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 714,
+          "char_end": 717,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 730,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 735,
+          "turn_id": null
+        }
+      ],
+      "text": "h/h",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 754,
+          "turn_id": null
+        }
+      ],
+      "text": "plts",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 770,
+          "turn_id": null
+        }
+      ],
+      "text": "Chemistry",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 783,
+          "char_end": 789,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN/Cr",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 798,
+          "char_end": 805,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 828,
+          "char_end": 835,
+          "turn_id": null
+        }
+      ],
+      "text": "enzymes",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 840,
+          "char_end": 843,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 844,
+          "char_end": 847,
+          "turn_id": null
+        }
+      ],
+      "text": "NSR",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 890,
+          "char_end": 910,
+          "turn_id": null
+        },
+        {
+          "char_start": 914,
+          "char_end": 925,
+          "turn_id": null
+        }
+      ],
+      "text": "T wave flattening in aVL, V5, V6",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 934,
+          "char_end": 941,
+          "turn_id": null
+        }
+      ],
+      "text": "Q waves",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 945,
+          "char_end": 956,
+          "turn_id": null
+        }
+      ],
+      "text": "ST \nchanges",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 964,
+          "char_end": 979,
+          "turn_id": null
+        }
+      ],
+      "text": "Knee plain film",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1000,
+          "char_end": 1007,
+          "turn_id": null
+        }
+      ],
+      "text": "CT head",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1016,
+          "char_end": 1026,
+          "turn_id": null
+        }
+      ],
+      "text": "hemorrhage",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1040,
+          "char_end": 1065,
+          "turn_id": null
+        }
+      ],
+      "text": "R frontal cephalohematoma",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1074,
+          "turn_id": null
+        }
+      ],
+      "text": "CT neck",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1100,
+          "char_end": 1104,
+          "turn_id": null
+        }
+      ],
+      "text": "fx's",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1106,
+          "char_end": 1109,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary edema",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1155,
+          "char_end": 1184,
+          "turn_id": null
+        }
+      ],
+      "text": "prominence of central vessels",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1203,
+          "char_end": 1213,
+          "turn_id": null
+        }
+      ],
+      "text": "upright PA",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1228,
+          "char_end": 1248,
+          "turn_id": null
+        }
+      ],
+      "text": "lateral, radiographs",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1365,
+          "char_end": 1368,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1370,
+          "char_end": 1373,
+          "turn_id": null
+        }
+      ],
+      "text": "HPL",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1376,
+          "char_end": 1382,
+          "turn_id": null
+        }
+      ],
+      "text": "smoker",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1402,
+          "char_end": 1418,
+          "turn_id": null
+        }
+      ],
+      "text": "syncopal episode",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1425,
+          "char_end": 1432,
+          "turn_id": null
+        }
+      ],
+      "text": "Syncope",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1466,
+          "char_end": 1475,
+          "turn_id": null
+        }
+      ],
+      "text": "telemetry",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1493,
+          "char_end": 1505,
+          "turn_id": null
+        }
+      ],
+      "text": "arrhymthmias",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1531,
+          "char_end": 1543,
+          "turn_id": null
+        }
+      ],
+      "text": "orthostatics",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1687,
+          "char_end": 1691,
+          "turn_id": null
+        }
+      ],
+      "text": "echo",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1733,
+          "char_end": 1762,
+          "turn_id": null
+        }
+      ],
+      "text": "Grade I diastolic dysfunction",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1777,
+          "char_end": 1792,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic stenosis",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1875,
+          "char_end": 1879,
+          "turn_id": null
+        }
+      ],
+      "text": "echo",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2196,
+          "char_end": 2204,
+          "turn_id": null
+        }
+      ],
+      "text": "diuretic",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2206,
+          "char_end": 2213,
+          "turn_id": null
+        }
+      ],
+      "text": "Dyazide",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2217,
+          "char_end": 2221,
+          "turn_id": null
+        }
+      ],
+      "text": "HCTZ",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2222,
+          "char_end": 2233,
+          "turn_id": null
+        }
+      ],
+      "text": "triamterene",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2238,
+          "char_end": 2240,
+          "turn_id": null
+        }
+      ],
+      "text": "BB",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2246,
+          "char_end": 2249,
+          "turn_id": null
+        }
+      ],
+      "text": "CCB",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2293,
+          "char_end": 2320,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressure bottomed out",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2327,
+          "char_end": 2330,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2370,
+          "char_end": 2377,
+          "turn_id": null
+        }
+      ],
+      "text": "Dyazide",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2379,
+          "char_end": 2387,
+          "turn_id": null
+        }
+      ],
+      "text": "Atenolol",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2390,
+          "char_end": 2400,
+          "turn_id": null
+        }
+      ],
+      "text": "Lisinopril",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2402,
+          "char_end": 2412,
+          "turn_id": null
+        }
+      ],
+      "text": "Nifedipine",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2481,
+          "char_end": 2497,
+          "turn_id": null
+        }
+      ],
+      "text": "syncopal episode",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2538,
+          "char_end": 2546,
+          "turn_id": null
+        }
+      ],
+      "text": "Atenolol",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2551,
+          "char_end": 2561,
+          "turn_id": null
+        }
+      ],
+      "text": "Nifedipine",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2742,
+          "char_end": 2745,
+          "turn_id": null
+        }
+      ],
+      "text": "HPL",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2758,
+          "char_end": 2764,
+          "turn_id": null
+        }
+      ],
+      "text": "statin",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2769,
+          "char_end": 2780,
+          "turn_id": null
+        }
+      ],
+      "text": "Fenofibrate",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3249,
+          "char_end": 3256,
+          "turn_id": null
+        }
+      ],
+      "text": "Syncope",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3301,
+          "char_end": 3313,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3317,
+          "char_end": 3331,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyperlipidemia",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3335,
+          "char_end": 3338,
+          "turn_id": null
+        }
+      ],
+      "text": "HPL",
+      "id": "e75"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:212327:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] i am trying to find an anti-depressant that works well with 12mg suboxone..i am currently on 150mg zoloft, but the side effects are extreme tiredness..could sleep all day. i spoke with my primary dr.on thursday and he increased zoloft 50mg because i have been feeling extremely depressed. but i see on drug interaction page that there is a moderate interaction..i usually only suffer from seasonal depression...any suggestion would be greatly appreciated as the way i am feeling tired depressed and lack of energy will lead me back to opiate use as this was the reasons that i enjoyed them in the first place..thank you jessica\n[doctor] Hi, thank you for using health care magic.  Zoloft is very good anti depressant drugs that has very less drug interaction with suboxone. Your extreme tiredness may be due to 1) Opiate withdrawal 2) as a symptom of depression 3) as a  side effect of Zoloft 4) Vitamin B12 or Vitamin D Deficiency You should consult a psychiatrist for detailed evaluation and proper case management. the treatment depends on the cause of treatment. For seasonal affective disorder, many times tricyclic anti depressants like clomipramine are very good. I hope you will be fine soon.  thanks Dr Nehal Shah M.D.PSychiatrist",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 33,
+          "char_end": 48,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anti-depressant",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 70,
+          "char_end": 74,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "12mg",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 75,
+          "char_end": 83,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "suboxone",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 108,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "150mg",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 115,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zoloft",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tiredness",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep all day",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 244,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zoloft",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 297,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depressed",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 399,
+          "char_end": 418,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "seasonal depression",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 495,
+          "char_end": 504,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depressed",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 523,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lack of energy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 555,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "opiate use",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 691,
+          "char_end": 697,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Zoloft",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 711,
+          "char_end": 726,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti depressant",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 774,
+          "char_end": 782,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "suboxone",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 806,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tiredness",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 841,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Opiate withdrawal",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 871,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 896,
+          "char_end": 902,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Zoloft",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 906,
+          "char_end": 917,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 931,
+          "char_end": 941,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Vitamin B12 Deficiency",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 921,
+          "char_end": 941,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Vitamin D Deficiency",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1081,
+          "char_end": 1108,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "seasonal affective disorder",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1121,
+          "char_end": 1147,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tricyclic anti depressants",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1153,
+          "char_end": 1165,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clomipramine",
+      "id": "e25"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:16855:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I have taken antidepressants, in particular, Lexapro 20/10 mg for about five years for Generalized Anxiety Disorder. Unfortunately, I had stopped taking the anti-depressants cold turkey for about a month and a half due to negligence on my part. During the month and a half, I only experienced heightened anxiety or palpitations. When I realized on Thursday that I had not been taking the anti-depressants, I started taking them again. On Friday, I took my second dose of 10 mg because I have been weaning off the 20 mg for about six months now. Then, I had this scary thought of killing myself. Now mind you, I love my life and I do not ever want to kill myself. With that said, I never experienced this disturbing thought before during my five years of taking Lexapro. I called my psychiatrist who told me that it is withdrawal and that my brain is deprived of the medicines. Now, I tend to disagree. My question is, do you think it is the Lexapro that is causing these disturbing thoughts? Meaning that, since I have re-administered the Lexapro 10 mg, can it cause new symptoms that I have never experienced before or is it like she says withdrawal? Mind you, during the withdrawals, I never had this suicidal thought before as well as not having it while on Lexapro for five years. And neither my psychologist nor my psychiatrist has ever diagnosed me with depression.\n[doctor] Hello.  Hope this solves your query. Feel free to ask if you have any further queries. For more information consult a psychiatrist online --> https://icliniq.com./ask-a-doctor-online/psychiatrist",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 52,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antidepressants",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 76,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 77,
+          "char_end": 85,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20/10 mg",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 106,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "five years",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 139,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Generalized Anxiety Disorder",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 209,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped taking the anti-depressants cold turkey",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 238,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "a month and a half",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 328,
+          "char_end": 335,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 351,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "palpitations",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 401,
+          "char_end": 428,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "taking the anti-depressants",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 495,
+          "char_end": 500,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 542,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20 mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 553,
+          "char_end": 563,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "six months",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 617,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thought of killing myself",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 666,
+          "char_end": 685,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "want to kill myself",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 764,
+          "char_end": 774,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "five years",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 785,
+          "char_end": 792,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 842,
+          "char_end": 852,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 972,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1063,
+          "char_end": 1070,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1071,
+          "char_end": 1076,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1164,
+          "char_end": 1174,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawal",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1197,
+          "char_end": 1208,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "withdrawals",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1227,
+          "char_end": 1243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "suicidal thought",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1285,
+          "char_end": 1292,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexapro",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1297,
+          "char_end": 1307,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "five years",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1384,
+          "char_end": 1394,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e27"
+    }
+  ]
+}

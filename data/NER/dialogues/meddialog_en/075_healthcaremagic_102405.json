@@ -1,0 +1,411 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:102405:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Asthma/reflux cough and esophageal spasms and anxiety.  How do I get rid of this???  Zantac makes the spasms worse, Nexium causes jittery shakiness and afraid to try anothe rmed.  Take prilosec 20 mg in the am and gavascon as needed. Nebulizer for asthma.  Cough is worse in the cold but also seems gerd related.  I'm a mess.  Have Barretts and Gerd.\n[doctor] Hello dear,The symptoms as mentioned in your post are all related to each other.Gastro esophageal reflux disease is caused by the reflux of acid from stomach to esophagus due to relaxation of the sphincter at the lower part of esophagus.The cough can be explained on the basis of aspiration of refluxed acid.The role of anxiety needs to be ruled out as an etiological factor.Management consists of:1. Lifestyle modification- like weight reduction, sleeping on the left side, or with upper body raised.2. Dietary modification- avoid consuming irritating substances such as acidic & rich foods, caffeine, nicotine, and alcohol.3. Medical management- Proton pump inhibitors like Omeprazole, Pantoprazole,etc. (which prevent acid formation in stomach)4. Nebulization + Bronchodilator for relief from asthma.If symptoms still persist, it will be better to consult a Gastroenterologist.There is no need to worry...you will be fine.Wish you a good health & speedy recovery.Take care.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 10,
+          "char_end": 16,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Asthma",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 29,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "reflux cough",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 34,
+          "char_end": 51,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "esophageal spasms",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 101,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zantac",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 118,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spasms",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 132,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Nexium",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 157,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "jittery shakiness",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 203,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prilosec",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 204,
+          "char_end": 209,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20 mg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 219,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "in the am",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 224,
+          "char_end": 232,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gavascon",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 242,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "as needed",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 264,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "asthma",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 272,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cough",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 309,
+          "char_end": 313,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gerd",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Barretts",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 355,
+          "char_end": 359,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Gerd",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 450,
+          "char_end": 482,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Gastro esophageal reflux disease",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 611,
+          "char_end": 616,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cough",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 677,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "aspiration of refluxed acid",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 697,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 963,
+          "char_end": 971,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "caffeine",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 973,
+          "char_end": 981,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nicotine",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 987,
+          "char_end": 994,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "alcohol",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1018,
+          "char_end": 1040,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Proton pump inhibitors",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1046,
+          "char_end": 1056,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Omeprazole",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1058,
+          "char_end": 1070,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Pantoprazole",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1132,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Nebulization",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1135,
+          "char_end": 1149,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Bronchodilator",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1166,
+          "char_end": 1172,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "asthma",
+      "id": "e31"
+    }
+  ]
+}

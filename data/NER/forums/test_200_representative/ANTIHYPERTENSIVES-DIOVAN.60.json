@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 18,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 31,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 181,
@@ -47,9 +44,21 @@
       "id": "e3"
     },
     {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "TO\nMUCH",
+      "id": "e4"
+    },
+    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 283,
@@ -58,7 +67,7 @@
         }
       ],
       "text": "DIOVAN/VALSARTAN",
-      "id": "e4"
+      "id": "e5"
     }
   ]
 }

@@ -1,0 +1,720 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:294:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am suffering from severe skin red rash problem in both inner thighs. The rash is so itchy and it has completely destroyed my life. It looks like fugal like ringworm or jock itch. at past also, i was suffering from same thing but that time it was scaly like liquid was coming out with foul smell. And i visited a doctor and the medicine i used had cured me. i forgot the medicine tablet taken but had use itraconazole dusting powder and fluconazole lotion. At that time my mother and i have visited the doctor at same time coz she also ha d fungal infection but completely different then mine. Now the current situation is very bad. it is so irritating and itches a lot. but no scaly liquid is coming out now. The same thing now can be seen in my neck and face. Please i need a good dermatologist attention. I am in great suffer in this pandemic and lockdown so i am searching online for medication. I have recently taken arzole capsule once weekly for 3 weeks. And used dipsalic ointment and also clotrimazole cream which shows no better treatment. I was so depressed and used steroid cream called dermicom oc plus only two times as it shows some severe bad red rash so i discontnued it. I live in hot and humid climate and had wore tight clothes in past. The area of rash is always at little more tempreature.\n[doctor] Hi. Thanks for sharing your query. You seem to be very distressed by the problem. As I can see in the picture it is Tinea. Since it is extensive it is important to start proper treatment with oral antifungals for a good length of time to clear the infection. You have been using steroid creams which is going to worsen the infection and make it spread further. So you should stop using dipsalic and other steroid applications and start proper treatment. You should get your LFT and KFT done and you can follow up with dermatologist. Usually itraconazole or terbinafine are given orally along with some creams like luliconazole or sertaconazole, etc. Itching can be controlled with antiallergics. Treatment of family members with infection is equally important. Let me know if you have more queries Hope this helps.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 79,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin red rash problem in both inner thighs",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 89,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 101,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itchy",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 162,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fugal",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 176,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ringworm",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 180,
+          "char_end": 189,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "jock itch",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 263,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scaly",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 275,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 280,
+          "char_end": 306,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "liquid coming out with foul smell",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 416,
+          "char_end": 428,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itraconazole",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 443,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dusting powder",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 448,
+          "char_end": 459,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluconazole",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 460,
+          "char_end": 466,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lotion",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 552,
+          "char_end": 568,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fungal infection",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 653,
+          "char_end": 663,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irritating",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 674,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itches",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 701,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 705,
+          "char_end": 715,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scaly liquid coming out",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 939,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arzole",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 947,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "capsule",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 959,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once weekly",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 960,
+          "char_end": 971,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 3 weeks",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 982,
+          "char_end": 990,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dipsalic",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 991,
+          "char_end": 999,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ointment",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1021,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clotrimazole",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1022,
+          "char_end": 1027,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1070,
+          "char_end": 1079,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depressed",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1096,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1102,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1110,
+          "char_end": 1126,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dermicom oc plus",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1132,
+          "char_end": 1141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "two times",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1170,
+          "char_end": 1178,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "red rash",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1280,
+          "char_end": 1284,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1321,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "more tempreature",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1387,
+          "char_end": 1397,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "distressed",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1448,
+          "char_end": 1453,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Tinea",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1524,
+          "char_end": 1528,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oral",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1529,
+          "char_end": 1540,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antifungals",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1541,
+          "char_end": 1566,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "for a good length of time",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1580,
+          "char_end": 1589,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infection",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1618,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1619,
+          "char_end": 1625,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "creams",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1664,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infection",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1718,
+          "char_end": 1726,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dipsalic",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1737,
+          "char_end": 1744,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1806,
+          "char_end": 1809,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "LFT",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1814,
+          "char_end": 1817,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "KFT",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1873,
+          "char_end": 1885,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itraconazole",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1900,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "terbinafine",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1911,
+          "char_end": 1917,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "orally",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1934,
+          "char_end": 1940,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "creams",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1946,
+          "char_end": 1958,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "luliconazole",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1962,
+          "char_end": 1975,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sertaconazole",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1982,
+          "char_end": 1989,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Itching",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2013,
+          "char_end": 2026,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antiallergics",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2061,
+          "char_end": 2070,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infection",
+      "id": "e54"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:15580:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi my name is leah, i just give birth last july 1, and i had develop a rash from one of the antibiotics that they gave for my epidoral.... i had a rashes around my tommy they gave me a benadril prescription from the hospital. The rash is gone on my tommy but i had another rashes again all over my body now its redesh and super itchy what can i do with this?\n[doctor] Hello,Thanks for the query.You have developed a drug allergy.Keep taking benadryl, this will help in controlling itch.For the rash you can apply a mild steroid cream.Mild steroids can be used during breast feeding, so dont worry regarding that.Let me know if you have any other doubt.you can ask a direct question to me on this forum, following the below link.https://urldefense.com/v3/__http://www.healthcaremagic.com/doctors/dr-rahul-kumar/64818Wishing__;!!Mih3wA!SBzm6_kI6hCZ58EPH6N_05MFfiPbxWXT0a2TJCdFQObRWm5mV5ur7hUOMa8clQ$  you a good health.Thank you",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 85,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 102,
+          "char_end": 113,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 136,
+          "char_end": 144,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "epidoral",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 179,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rashes around my tommy",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 203,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "benadril",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 312,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rashes again all over my body",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 327,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "redesh",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 343,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itchy",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 438,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "drug allergy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 451,
+          "char_end": 459,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "benadryl",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 491,
+          "char_end": 495,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itch",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 504,
+          "char_end": 508,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rash",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 537,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 538,
+          "char_end": 543,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cream",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 557,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e15"
+    }
+  ]
+}

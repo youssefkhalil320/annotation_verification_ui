@@ -1,0 +1,278 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13958307-DS-19:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nCodeine / Bactrim\n\nChief Complaint:\nLeft midshaft radius and ulna fractures\n\nHistory of Present Illness:\n___ female presents with left midshaft radius and ulna\nfracture after being a pedestrian struck while crossing the\nstreet.  Patient also has pain in the left shoulder.  She denies\nany distal paresthesias or weakness.\n\nBrief Hospital Course:\nThe patient presented to the emergency department and was \nevaluated by the orthopedic surgery team. The patient was found \nto have a left radial and ulnar fracture and possible AC joint \nseparation and was admitted to the orthopedic surgery service. \nThe patient's pain was well controlled with oral pain \nmedications and she was able to ambulate independently.  She \nelected to go home and return for elective surgical fixation \nnext week. The patient is nonweightbearing in the left upper \nextremity in a splint and sling for comfort, and will be \ndischarged on aspirin 325 mg daily for DVT prophylaxis.  She \nwill return for surgery next week.  A thorough discussion was \nhad with the patient regarding the diagnosis and expected \npost-discharge course including reasons to call the office or \nreturn to the hospital, and all questions were answered. The \npatient was also given written instructions concerning \nprecautionary instructions and the appropriate follow-up care. \nThe patient expressed readiness for discharge.\n\nDischarge Diagnosis:\nLeft radius and ulna fractures",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "Bactrim",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 47,
+          "char_end": 67,
+          "turn_id": null
+        },
+        {
+          "char_start": 77,
+          "char_end": 86,
+          "turn_id": null
+        }
+      ],
+      "text": "Left midshaft radius fractures",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 86,
+          "turn_id": null
+        }
+      ],
+      "text": "ulna fractures",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "ulna\nfracture",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 257,
+          "char_end": 282,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in the left shoulder",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 319,
+          "turn_id": null
+        }
+      ],
+      "text": "paresthesias",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 331,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 507,
+          "char_end": 521,
+          "turn_id": null
+        }
+      ],
+      "text": "ulnar fracture",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 535,
+          "char_end": 555,
+          "turn_id": null
+        }
+      ],
+      "text": "AC joint \nseparation",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 623,
+          "char_end": 627,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 653,
+          "char_end": 657,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 675,
+          "turn_id": null
+        }
+      ],
+      "text": "pain \nmedications",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 786,
+          "turn_id": null
+        }
+      ],
+      "text": "surgical fixation",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 922,
+          "char_end": 929,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 930,
+          "char_end": 936,
+          "turn_id": null
+        }
+      ],
+      "text": "325 mg",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 937,
+          "char_end": 942,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 947,
+          "char_end": 950,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1406,
+          "char_end": 1417,
+          "turn_id": null
+        },
+        {
+          "char_start": 1427,
+          "char_end": 1436,
+          "turn_id": null
+        }
+      ],
+      "text": "Left radius fractures",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1422,
+          "char_end": 1436,
+          "turn_id": null
+        }
+      ],
+      "text": "ulna fractures",
+      "id": "e20"
+    }
+  ]
+}

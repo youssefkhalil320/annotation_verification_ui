@@ -1,0 +1,390 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17995246-DS-11:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nerythromycin base / Penicillins / Septra / Avelox\n\nChief Complaint:\nLeft thigh pain\n\nHistory of Present Illness:\nMs. ___ is a pleasant ___ female, visiting from \n___ to run in the ___ Marathon, who presented to \nthe ___ ED on ___ with severe leg pain.  She states was at \nmile 22 when she \"stepped on something,\" and felt her left leg \n\"snap\" and had immediate onset of pain and inability to bear \nweight.  She denied pain leading up to this event as well as \npain over the past several weeks during her training.  She \ndenied history of\nstress fractures.  She also denied other injuries or pain in\nother areas. She did not fall or hit her head and denied\nnumbness/parasthesias in her left leg, but does endorse\nsignificant pain in her left thigh that is made worse with any\nmovement or palpation of the injured area.  She had no other \ncomplaints.\n\nBrief Hospital Course:\nThe patient presented to the emergency department and was \nevaluated by the orthopedic surgery team. The patient was found \nto have a left femur fracture and was admitted to the orthopedic \nsurgery service. The patient was taken to the operating room on \n___ for surgical fixation of her left femur with an \nintramedullary, which the patient tolerated well. For full \ndetails of the procedure please see the separately dictated \noperative report. The patient was taken from the OR to the PACU \nin stable condition and after satisfactory recovery from \nanesthesia was transferred to the floor. The patient was \ninitially given IV fluids and IV pain medications, and \nprogressed to a regular diet and oral medications by POD#1. The \npatient was given ___ antibiotics and anticoagulation \nper routine. The patient's home medications were continued \nthroughout this hospitalization. The patient worked with ___ who \ndetermined that discharge to home was appropriate. The ___ \nhospital course was otherwise unremarkable.\n\nAt the time of discharge the patient's pain was well controlled \nwith oral medications, incisions were clean/dry/intact, and the \npatient was voiding/moving bowels spontaneously. The patient is \nweight-bearing as tolerated on the left lower extremity, and \nwill be discharged on Lovenox for DVT prophylaxis. The patient \nplans to return to ___ and ___ follow up with an \northopedist close to home. A thorough discussion was had with \nthe patient regarding the diagnosis and expected post-discharge \ncourse including reasons to call the office or return to the \nhospital, and all questions were answered. The patient was also \ngiven written instructions concerning precautionary instructions \nand the appropriate follow-up care. The patient expressed \nreadiness for discharge.\n\nDischarge Diagnosis:\nLeft femur fracture",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 28,
+          "turn_id": null
+        }
+      ],
+      "text": "erythromycin base",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 31,
+          "char_end": 42,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "Septra",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 60,
+          "turn_id": null
+        }
+      ],
+      "text": "Avelox",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 79,
+          "char_end": 94,
+          "turn_id": null
+        }
+      ],
+      "text": "Left thigh pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 253,
+          "char_end": 261,
+          "turn_id": null
+        }
+      ],
+      "text": "leg pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 381,
+          "char_end": 385,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 390,
+          "char_end": 415,
+          "turn_id": null
+        }
+      ],
+      "text": "inability to bear \nweight",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 433,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 471,
+          "char_end": 475,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 549,
+          "char_end": 565,
+          "turn_id": null
+        }
+      ],
+      "text": "stress fractures",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 590,
+          "char_end": 598,
+          "turn_id": null
+        }
+      ],
+      "text": "injuries",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 602,
+          "char_end": 621,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in\nother areas",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 667,
+          "char_end": 675,
+          "turn_id": null
+        },
+        {
+          "char_start": 689,
+          "char_end": 704,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in her left leg",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 704,
+          "turn_id": null
+        }
+      ],
+      "text": "parasthesias in her left leg",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 735,
+          "char_end": 757,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in her left thigh",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1018,
+          "char_end": 1037,
+          "turn_id": null
+        }
+      ],
+      "text": "left femur fracture",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1147,
+          "char_end": 1182,
+          "turn_id": null
+        }
+      ],
+      "text": "surgical fixation of her left femur",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1510,
+          "char_end": 1512,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1524,
+          "char_end": 1526,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1527,
+          "char_end": 1543,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1583,
+          "char_end": 1587,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1637,
+          "char_end": 1648,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1653,
+          "char_end": 1668,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1940,
+          "char_end": 1944,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1971,
+          "char_end": 1975,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2180,
+          "char_end": 2187,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2192,
+          "char_end": 2195,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2699,
+          "char_end": 2718,
+          "turn_id": null
+        }
+      ],
+      "text": "Left femur fracture",
+      "id": "e29"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:214028:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] for months now i have been having problems trembling and twitching in the mouth/lip area. i have been suffering for along time with depression/ocd/anxiety/stress in which i have tried many ways to be stress free and was prescribed with fluoxetine 20mg, now i m not sure whether that has been the problem for this but i had to come of it because it seemed to make it worse. now i thought coming off the medication would relieve my problems but it has not. i am still getting the same problems, and it s affecting me socially and even when alone it still a big problem. recently i have been taking atenolol beta-blocker 50mg, but that to has not helped. it would be great help for someone to tell me what is going on, because i am not sure what to do now. i ve tried to diagnose my problems online, either i have some thyroid condition, tremor problems, or phycological issues. it would be great to get some help.\n[doctor] Hi   Your problem looks like \"Oro-facial Dyskinesia\" ...in ordinary words \"mouth-face disordered movements\".   Usually antipsychotics i.e medicines used for psychosis cause dyskinesias but sometimes SSRI antidepressants like Fluoxetene MAY cause this problem.   Usually the first mode of treatment is stopping medication or decreasing the dose if stopping worsens the depression. We may also try some other medication to try and see if it helps. Unfortunately, for a few percentage of people, the problem is irreversible.   BUT IT CAN NOT BE PREDICTED AS TO WHO WILL HAVE IRREVERSIBLE AND WHO WILL HAVE REVERSIBLE PROBLEMS. so we consider all cases as reversible and try our best.  Please consult a psychiatrist for treatment.  I would honestly like to know why so many patients, already under psychiatrists, don't tell them about their problems but seek help from other sources. I would really like to know so that I can not do what these psychiatrist may be doing wrong, if any.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 53,
+          "char_end": 62,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 77,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "trembling in the mouth/lip area",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twitching in the mouth/lip area",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 152,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 156,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ocd",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 157,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 171,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stress",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 210,
+          "char_end": 216,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stress",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 246,
+          "char_end": 256,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluoxetine",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 257,
+          "char_end": 261,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20mg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 606,
+          "char_end": 614,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "atenolol",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 615,
+          "char_end": 627,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "beta-blocker",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 628,
+          "char_end": 632,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "50mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 843,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thyroid condition",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 860,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremor problems",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 961,
+          "char_end": 982,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Oro-facial Dyskinesia",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1006,
+          "char_end": 1037,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "mouth-face disordered movements",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1050,
+          "char_end": 1064,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antipsychotics",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1088,
+          "char_end": 1097,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "psychosis",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1104,
+          "char_end": 1115,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "dyskinesias",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1130,
+          "char_end": 1150,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "SSRI antidepressants",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1156,
+          "char_end": 1166,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Fluoxetene",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1299,
+          "char_end": 1309,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e22"
+    }
+  ]
+}

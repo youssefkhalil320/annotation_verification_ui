@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 18,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 26,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 58,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 74,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 119,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 184,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 222,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 239,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 273,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 369,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 386,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 535,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 636,
@@ -187,46 +174,38 @@
       "id": "e13"
     },
     {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
-          "char_start": 719,
-          "char_end": 743,
-          "turn_id": null
-        },
-        {
-          "char_start": 770,
-          "char_end": 780,
+          "char_start": 955,
+          "char_end": 957,
           "turn_id": null
         }
       ],
-      "text": "Epstein-Barr virus (EBV) serostatus",
+      "text": "CF",
       "id": "e14"
     },
     {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
-          "char_start": 748,
-          "char_end": 780,
+          "char_start": 959,
+          "char_end": 963,
           "turn_id": null
         }
       ],
-      "text": "cytomegalovirus (CMV) serostatus",
+      "text": "PTLD",
       "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 955,
-          "char_end": 957,
+          "char_start": 983,
+          "char_end": 985,
           "turn_id": null
         }
       ],
@@ -236,25 +215,23 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 959,
-          "char_end": 963,
+          "char_start": 1020,
+          "char_end": 1022,
           "turn_id": null
         }
       ],
-      "text": "PTLD",
+      "text": "CF",
       "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 983,
-          "char_end": 985,
+          "char_start": 1061,
+          "char_end": 1063,
           "turn_id": null
         }
       ],
@@ -264,35 +241,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1020,
-          "char_end": 1022,
-          "turn_id": null
-        }
-      ],
-      "text": "CF",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1061,
-          "char_end": 1063,
-          "turn_id": null
-        }
-      ],
-      "text": "CF",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1076,
@@ -301,12 +249,11 @@
         }
       ],
       "text": "CF",
-      "id": "e21"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1115,
@@ -320,12 +267,11 @@
         }
       ],
       "text": "EBV seronegativity",
-      "id": "e22"
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1123,
@@ -334,12 +280,11 @@
         }
       ],
       "text": "CMV seronegativity",
-      "id": "e23"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1178,
@@ -348,31 +293,29 @@
         },
         {
           "char_start": 1190,
-          "char_end": 1198,
+          "char_end": 1206,
           "turn_id": null
         }
       ],
-      "text": "EBV mismatch",
-      "id": "e24"
+      "text": "EBV mismatch (D+/R-)",
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1186,
-          "char_end": 1198,
+          "char_end": 1206,
           "turn_id": null
         }
       ],
-      "text": "CMV mismatch",
-      "id": "e25"
+      "text": "CMV mismatch (D+/R-)",
+      "id": "e23"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1251,
@@ -381,12 +324,11 @@
         }
       ],
       "text": "CF",
-      "id": "e26"
+      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1277,
@@ -395,12 +337,11 @@
         }
       ],
       "text": "PTLD",
-      "id": "e27"
+      "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1375,
@@ -409,12 +350,11 @@
         }
       ],
       "text": "EBV negative",
-      "id": "e28"
+      "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1392,
@@ -423,12 +363,11 @@
         }
       ],
       "text": "CF",
-      "id": "e29"
+      "id": "e27"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1457,
@@ -437,12 +376,11 @@
         }
       ],
       "text": "PTLD",
-      "id": "e30"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1471,
@@ -451,12 +389,11 @@
         }
       ],
       "text": "EBV negative",
-      "id": "e31"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1484,
@@ -465,12 +402,11 @@
         }
       ],
       "text": "CF",
-      "id": "e32"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1537,
@@ -479,12 +415,11 @@
         }
       ],
       "text": "CF",
-      "id": "e33"
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1574,
@@ -493,12 +428,11 @@
         }
       ],
       "text": "PTLD",
-      "id": "e34"
+      "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1595,
@@ -507,7 +441,7 @@
         }
       ],
       "text": "CF",
-      "id": "e35"
+      "id": "e33"
     }
   ]
 }

@@ -1,0 +1,1677 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10894956-DS-10:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nSulfa (Sulfonamide Antibiotics)\n\nChief Complaint:\nChest and Neck Pain\nShortness of Breath\n\nHistory of Present Illness:\nMs. ___ is ___ with history of HTN breast CA s/p bilateral \nmastectomy in ___ currently getting radiation therapy (17.5 \ntreatments, started on ___, and RLE DVT in ___ in the \ncontext of taking tamoxifen s/p Lovenox/Coumadin p/w with chest \npressure and dyspnea that started the day prior to admission.  \n\nAs per the patient's daughter in law, the patient reported \nfeeling a heaviness in her chest and tightness in her neck \nyesterday.  Specifically in the early morning, pt reported \nfeeling irregular heart beat with associated throat tightness \nand chest heaviness.  Reports that these symtpoms persisted.  \nFamily checked her vitals (on ___ and found to have HR 57 \n160/50.  The patient's daugher in law was also commenting about \nhow the patient was having some shallow breathing and had to \nremind herself to take deep breaths.  Reports feeling fatigue \nyesterday, difficulty with deciding what to wear.  The patient \nhad urinary retention, which is something that she has had in \nthe past.  Had difficulty finding the strength to \"push out\" \nurine.  The patient then had similar symptoms while at her \nradiation session today.\n\nAt radiation session, VS 98.___ O2 sat 98 and given \nher symptoms over the last few days she was transferred to the \n___ ED.\n\nOf note, the patient does have a history of palpitations, with \nholter monitoring in the past.  In ___, reports with e/o \npredominant SR with rates 45-96; found to have 86 atrial \npremature beats, up to 9/hour.  Also had some ventricular \npremature beats.  During this holter monitoring, no cardiac \nsymptoms noted. \n\nOf note, since starting radiation, the patient reports decreased \neyesight, decreased balance, fatigue, slow speech.  She is \nambulating with a cane now, which she did not really need prior \nto starting radiation.  The patient's daughter in law also \nreports that the patient has had increased shortness of breath \nwith exertion since starting radiation.\n\nIn the ED, initial VS: 97.2, 53, 133/40, 16, 98% RA. Labs were \nnotable for TnT <0.01, Hct 30.6, and DDimer 998. EKG \ndemonstrated new STE in V2-V3 compared to ___, and code STEMI \nwas called. CXR was negative. She received ASA 81mg and \nnitroglycerin x1, but heparin was held. Chest CT showed No PE or \nacute aortic process.  As per ER documentation, Cards was at the \nbedside and did not think that this was an acute STEMI.   \n\nROS as per HPI.  On the floor, the patient endorses only \nfatigue.  Denies any current chest pain or shortness of breath. \nNo n/v, no diaphoresis.  Does report having some ankle swelling, \nwhich she says is her baseline.\n\nBrief Hospital Course:\nMs. ___ is ___ with hx  ___ F hx HTN, HL, Breast CA s/p \nbilateral mastectomy in ___ on radiation therapy, and RLE DVT \nin ___ in s/o tamoxifen tx s/p Lovenox/Coumadin p/w with chest \npressure and dyspnea, as well as fatigue since starting \nradiation in early ___.\n\n# Chest Pain: At home before admission, the patient reported \nfeeling an irregular heart beat with associated throat tightness \nand chest heaviness, as well as fatigue and mild urinary \nretention. According to family members she was also having some \nshallow breathing. When she reported these symptoms while at \nradiation therapy, she was send to the ___ ED. In the ED \ninitial vitals were stable. The patient had ST elevations in \nleads V1-V3 which were thought to be new compared to ___.  She \nreceived 81mg ASA and 1x SL nitroglycerin but Cardiology did not \nthink patient was having STEMI and three troponins and CK-MB \nwere negative. \n\nShe had an elevated D-Dimer to 998 but a PE CTA was done which \nwas negative for PE or acute aortic process. She was admitted to \nthe floor for chest pain monitoring.  She did fine and reported \nminimal symptoms on the floor.  She reports a history of \npalpations and a holter in the past showed e/o premature beats.  \nOvernight monitoring with telemetry during this hospitalization \nalso showed few premature beats. No cardiac or pulmonary \netiology for her pain was found. She was continued on 81mg \naspirin.\n\n# fatigue: The patient reports having fatigue; as per daughter \nin law, the patient has been having this fatigue since starting \nradiation. During hospitalization there were no issues. Physical \ntherapy evaluated her and determined that she was fit to go home \nwith ___ services and ___.\n\n# SOB/DOE:  As per the patient's daughter in law, the patient \nhas been have increasing SOB/DOE since starting radiation. The \npatient was never hypoxic and maintained good O2 saturations and \nwas never short of breath. \n\n# HTN: She was continued on her home dose of lisinopril 10 mg \ndaily. She remained normotensive during hospitalization.\n\n# breast cancer: Pt initially found to have R breast DCIS in \n___, then later e/o L breast invasive lobular CA, ER/PR+, \nHer2/Neu negative and area of poorly differentiated invasive CA. \n She was started on tamoxifen which she was tolerating well, \nwhich was then d/ced in the setting of DVT in ___.  Has since \nfound new chest wall mass in ___ and has tried other \ntherapies; recently started on radiation therapy.  On HD#2 she \nwent to radiation therapy to receive her regularly scheduled \nradiation. \n\nTransitional Issues:\n- The patient was DNR/DNI during this hospitalization.\n\nDischarge Diagnosis:\nNeck tightness\nshortness of breath",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide Antibiotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 66,
+          "turn_id": null
+        },
+        {
+          "char_start": 76,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest Pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "Neck Pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 100,
+          "turn_id": null
+        }
+      ],
+      "text": "Shortness of Breath",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 164,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "breast CA",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 179,
+          "char_end": 200,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral \nmastectomy",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 226,
+          "char_end": 235,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 290,
+          "turn_id": null
+        }
+      ],
+      "text": "RLE DVT",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 333,
+          "turn_id": null
+        }
+      ],
+      "text": "tamoxifen",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 338,
+          "char_end": 345,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 364,
+          "char_end": 379,
+          "turn_id": null
+        }
+      ],
+      "text": "chest \npressure",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 384,
+          "char_end": 391,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 528,
+          "turn_id": null
+        }
+      ],
+      "text": "heaviness in her chest",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 533,
+          "char_end": 554,
+          "turn_id": null
+        }
+      ],
+      "text": "tightness in her neck",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 624,
+          "char_end": 644,
+          "turn_id": null
+        }
+      ],
+      "text": "irregular heart beat",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 661,
+          "char_end": 677,
+          "turn_id": null
+        }
+      ],
+      "text": "throat tightness",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 683,
+          "char_end": 698,
+          "turn_id": null
+        }
+      ],
+      "text": "chest heaviness",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 799,
+          "turn_id": null
+        }
+      ],
+      "text": "HR 57",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 898,
+          "char_end": 915,
+          "turn_id": null
+        }
+      ],
+      "text": "shallow breathing",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 982,
+          "char_end": 989,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1039,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty with deciding what to wear",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1059,
+          "char_end": 1076,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary retention",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1133,
+          "char_end": 1185,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty finding the strength to \"push out\" \nurine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1240,
+          "char_end": 1249,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1269,
+          "char_end": 1278,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1436,
+          "char_end": 1448,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1456,
+          "char_end": 1473,
+          "turn_id": null
+        }
+      ],
+      "text": "holter monitoring",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1564,
+          "char_end": 1587,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \npremature beats",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1646,
+          "turn_id": null
+        }
+      ],
+      "text": "ventricular \npremature beats",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 1661,
+          "char_end": 1678,
+          "turn_id": null
+        }
+      ],
+      "text": "holter monitoring",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1734,
+          "char_end": 1743,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1765,
+          "char_end": 1784,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased \neyesight",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1786,
+          "char_end": 1803,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased balance",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1805,
+          "char_end": 1812,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1814,
+          "char_end": 1825,
+          "turn_id": null
+        }
+      ],
+      "text": "slow speech",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1913,
+          "char_end": 1922,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2004,
+          "char_end": 2038,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath \nwith exertion",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2054,
+          "char_end": 2063,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2142,
+          "char_end": 2145,
+          "turn_id": null
+        }
+      ],
+      "text": "TnT",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2156,
+          "turn_id": null
+        }
+      ],
+      "text": "Hct",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2161,
+          "turn_id": null
+        }
+      ],
+      "text": "Hct 30.6",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2167,
+          "char_end": 2173,
+          "turn_id": null
+        }
+      ],
+      "text": "DDimer",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2167,
+          "char_end": 2177,
+          "turn_id": null
+        }
+      ],
+      "text": "DDimer 998",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2179,
+          "char_end": 2182,
+          "turn_id": null
+        }
+      ],
+      "text": "EKG",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2201,
+          "char_end": 2213,
+          "turn_id": null
+        }
+      ],
+      "text": "STE in V2-V3",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2240,
+          "char_end": 2245,
+          "turn_id": null
+        }
+      ],
+      "text": "STEMI",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2259,
+          "char_end": 2262,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2290,
+          "char_end": 2293,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2294,
+          "char_end": 2298,
+          "turn_id": null
+        }
+      ],
+      "text": "81mg",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2304,
+          "char_end": 2317,
+          "turn_id": null
+        }
+      ],
+      "text": "nitroglycerin",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2318,
+          "char_end": 2320,
+          "turn_id": null
+        }
+      ],
+      "text": "x1",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2326,
+          "char_end": 2333,
+          "turn_id": null
+        }
+      ],
+      "text": "heparin",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2344,
+          "char_end": 2352,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest CT",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2363,
+          "char_end": 2365,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2370,
+          "char_end": 2390,
+          "turn_id": null
+        }
+      ],
+      "text": "acute aortic process",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2479,
+          "char_end": 2490,
+          "turn_id": null
+        }
+      ],
+      "text": "acute STEMI",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2554,
+          "char_end": 2561,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2583,
+          "char_end": 2593,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2597,
+          "char_end": 2616,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2622,
+          "char_end": 2625,
+          "turn_id": null
+        }
+      ],
+      "text": "n/v",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2630,
+          "char_end": 2641,
+          "turn_id": null
+        }
+      ],
+      "text": "diaphoresis",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2668,
+          "char_end": 2682,
+          "turn_id": null
+        }
+      ],
+      "text": "ankle swelling",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2774,
+          "char_end": 2777,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2779,
+          "char_end": 2781,
+          "turn_id": null
+        }
+      ],
+      "text": "HL",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2783,
+          "char_end": 2792,
+          "turn_id": null
+        }
+      ],
+      "text": "Breast CA",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2798,
+          "char_end": 2818,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral mastectomy",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2829,
+          "char_end": 2838,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2852,
+          "char_end": 2859,
+          "turn_id": null
+        }
+      ],
+      "text": "RLE DVT",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2875,
+          "char_end": 2884,
+          "turn_id": null
+        }
+      ],
+      "text": "tamoxifen",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2892,
+          "char_end": 2899,
+          "turn_id": null
+        }
+      ],
+      "text": "Lovenox",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2900,
+          "char_end": 2908,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2918,
+          "char_end": 2933,
+          "turn_id": null
+        }
+      ],
+      "text": "chest \npressure",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2938,
+          "char_end": 2945,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2958,
+          "char_end": 2965,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2982,
+          "char_end": 2991,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3009,
+          "char_end": 3019,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest Pain",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3080,
+          "char_end": 3100,
+          "turn_id": null
+        }
+      ],
+      "text": "irregular heart beat",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3117,
+          "char_end": 3133,
+          "turn_id": null
+        }
+      ],
+      "text": "throat tightness",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3139,
+          "char_end": 3154,
+          "turn_id": null
+        }
+      ],
+      "text": "chest heaviness",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3167,
+          "char_end": 3174,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3184,
+          "char_end": 3202,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary \nretention",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3258,
+          "char_end": 3275,
+          "turn_id": null
+        }
+      ],
+      "text": "shallow breathing",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 3320,
+          "char_end": 3329,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3422,
+          "char_end": 3451,
+          "turn_id": null
+        }
+      ],
+      "text": "ST elevations in \nleads V1-V3",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3513,
+          "char_end": 3517,
+          "turn_id": null
+        }
+      ],
+      "text": "81mg",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3518,
+          "char_end": 3521,
+          "turn_id": null
+        }
+      ],
+      "text": "ASA",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3526,
+          "char_end": 3528,
+          "turn_id": null
+        }
+      ],
+      "text": "1x",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3529,
+          "char_end": 3531,
+          "turn_id": null
+        }
+      ],
+      "text": "SL",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3532,
+          "char_end": 3545,
+          "turn_id": null
+        }
+      ],
+      "text": "nitroglycerin",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3611,
+          "char_end": 3620,
+          "turn_id": null
+        }
+      ],
+      "text": "troponins",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3625,
+          "char_end": 3630,
+          "turn_id": null
+        }
+      ],
+      "text": "CK-MB",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3660,
+          "char_end": 3676,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated D-Dimer",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3669,
+          "char_end": 3676,
+          "turn_id": null
+        }
+      ],
+      "text": "D-Dimer",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3690,
+          "char_end": 3692,
+          "turn_id": null
+        }
+      ],
+      "text": "PE",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3690,
+          "char_end": 3696,
+          "turn_id": null
+        }
+      ],
+      "text": "PE CTA",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3736,
+          "char_end": 3756,
+          "turn_id": null
+        }
+      ],
+      "text": "acute aortic process",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3793,
+          "char_end": 3814,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain monitoring",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3902,
+          "char_end": 3912,
+          "turn_id": null
+        }
+      ],
+      "text": "palpations",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3978,
+          "char_end": 4003,
+          "turn_id": null
+        }
+      ],
+      "text": "monitoring with telemetry",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4145,
+          "char_end": 4149,
+          "turn_id": null
+        }
+      ],
+      "text": "81mg",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4151,
+          "char_end": 4158,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4163,
+          "char_end": 4170,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4199,
+          "char_end": 4206,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4266,
+          "char_end": 4273,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4290,
+          "char_end": 4299,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4346,
+          "char_end": 4363,
+          "turn_id": null
+        }
+      ],
+      "text": "Physical \ntherapy",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4452,
+          "char_end": 4459,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB/DOE",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4538,
+          "char_end": 4545,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB/DOE",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4561,
+          "char_end": 4570,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4653,
+          "char_end": 4668,
+          "turn_id": null
+        }
+      ],
+      "text": "short of breath",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4674,
+          "char_end": 4677,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4717,
+          "char_end": 4727,
+          "turn_id": null
+        }
+      ],
+      "text": "lisinopril",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4728,
+          "char_end": 4733,
+          "turn_id": null
+        }
+      ],
+      "text": "10 mg",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4735,
+          "char_end": 4740,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4795,
+          "char_end": 4808,
+          "turn_id": null
+        }
+      ],
+      "text": "breast cancer",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4837,
+          "char_end": 4850,
+          "turn_id": null
+        }
+      ],
+      "text": "R breast DCIS",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4875,
+          "char_end": 4903,
+          "turn_id": null
+        }
+      ],
+      "text": "L breast invasive lobular CA",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4944,
+          "char_end": 4977,
+          "turn_id": null
+        }
+      ],
+      "text": "poorly differentiated invasive CA",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5000,
+          "char_end": 5009,
+          "turn_id": null
+        }
+      ],
+      "text": "tamoxifen",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5081,
+          "char_end": 5084,
+          "turn_id": null
+        }
+      ],
+      "text": "DVT",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 5115,
+          "char_end": 5130,
+          "turn_id": null
+        }
+      ],
+      "text": "chest wall mass",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 5190,
+          "char_end": 5199,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 5231,
+          "char_end": 5240,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 5285,
+          "char_end": 5294,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 5396,
+          "char_end": 5410,
+          "turn_id": null
+        }
+      ],
+      "text": "Neck tightness",
+      "id": "e128"
+    }
+  ]
+}

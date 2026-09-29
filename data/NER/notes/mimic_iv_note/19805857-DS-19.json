@@ -1,0 +1,1604 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19805857-DS-19:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nWeakness, hyponatremia, failure to thrive\n\nHistory of Present Illness:\nMs. ___ is a ___ with untreated thyroid cancer with \nresultant neck mass (diagnosed ___, refused treatment), HTN, \nosteoarthritis, advanced glaucoma with near-blindness, who \npresented to the ED with weakness and hyponatremia on the \nbackground of failure to thrive.\n\nHer family tells me that she lives in an ALF. She is typically \n\"completely independent\" but needs guidance due to her \nblindness. However, over the past few months her family has \nnoticed enlargement of her neck mass, spitting up after eating, \ndecreased oral intake, and weight loss. During this interval, \nshe also developed some leg swelling. Last week, she had \nincreasing pain in her left hip/groin, and saw her PCP who \napparently checked labs and noted a low sodium level. Over the \npast few days she became increasingly weak, and then today she \nwas having difficulty even getting out of bed, so her family \ndecided to bring her to the ___ ED.\n\nHer family describes her as very stubborn. She has never been to \na hospital. She sees a doctor only reluctantly. She typically \ndrinks a lot of water, but her solid food intake has been \nsignificantly worse recently.\n\nIn the ED, she had stable vital signs. She had labs showing Na \n125. She was given 1L NS and admission was requested.\n\nREVIEW OF SYSTEMS\nA full 10 point review of systems was performed and is otherwise \nnegative except as noted above.\n\nBrief Hospital Course:\nThis is a ___ with untreated thyroid cancer with resultant neck \nmass (diagnosed ___, refused treatment), HTN, osteoarthritis, \nadvanced glaucoma with near-total blindness, who presented to \nthe ED with weakness and hyponatremia on the background of \nfailure to thrive.\n\n# Weakness and\n# Progressively worsening PO intake with\n# Likely hypovolemic hyponatremia, suggestive of\n# Failure to thrive likely due to\n# Thyroid cancer with enlarging neck mass for which she does not \nwant treatment and some\n# Underlying esophageal dysmotility for which she does not want \nfurther workup and treatment: \n     Her presentation was thought most likely due to \nprogressively worsening PO intake (with possibility of some \nexcessive free water intake), in the context of use of HCTZ and \nNSAIDs which are known to cause hyponatremia. She improved with \nfluid administration from the ED followed by encouragement of \noral solute intake on the floor with a 2L fluid restriction \ninitially.\n    The poor PO intake is likely due to cancer related \ncachexia/FTT along with tumor related esophageal compression and \npossibly some underlying esophageal dysmotility. She appeared to \nhave obvious difficulty with swallowing regular consistency \nfood, with sensation of food getting stuck and some retching. \nThis could easily lead to malnutrition, hyponatremia, worsening \nweakness. Barium swallow reassuring overall but does show some \nesophageal dysmotility. She improved with dietary \nconsistency/texture modifications and was able to tolerate POs \nwithout difficulty at the ground/thin consistency level. She was \nseen by SLP and cleared from an oropharyngeal standpoint. She \nand her family declined further evaluation of dysmotility, \npreferring minimalist approach to her care given her age and \ncomorbid untreated thyroid cancer\n    ___ was consulted for weakness and recommended rehab \nplacement.\n- HCTZ and NSAIDs were discontinued\n- Continue to encourage PO intake with appropriate consistency \nand supervision\n-- 1:1 supervision with all meals, moist ground solids with thin \nliquids\n-- Encourage supplement intake (e.g. Ensure) with each meal\n- All medications should be administered as crushed in puree\n- Continue physical therapy with goal of returning to ALF with \nservices\n- Monitor sodium level weekly; if sodium level is low and PO \nintake is adequate, would recommend initiation of fluid \nrestriction of 2L as she has a tendency to drink excessive free \nwater (feels like it helps clear her esophagus)\n\n# Lower extremity edema: Likely due to malnutrition in setting \nof above issues. DDX includes CHF - no signs - liver disease - \nno signs - or thyroid disease - no signs and TSH normal.\n- Leg elevation\n- Can consider outpatient workup including echocardiogram, RUQUS \ndepending on course. She and her family are minimalistic and \nhave stated she would not want much by way of invasive testing \nor treatment.\n\n# Anemia: Hct stable serially, MCV low at 80. Iron studies with \nelevated ferritin more suggestive of chronic disease/ \ninflammation.\n\n# HTN: BP are in acceptable range here at this point, off \nmedications.\n- Discontinued HCTZ as above\n\n# Hip pain likely due to\n# Osteoarthritis: Currently without significant pain. Her pain \nhas been ascribed to osteoarthritis but given her history of \nthyroid cancer she could have an issue related to this.\n- Continue APAP PRN\n- Discontinued Naproxen as it can worsen hyponatremia\n- If pain becomes an issue, would consider further imaging to \nrule out a bony metastasis or fracture\n\n# Glaucoma: Stable. Continue home eye drops.\n\n# Chest pain: Determined to be gas or GERD pain after extensive \nhistory taking attempt night after admission. Resolved with GI \ncocktail. Tn negative x2. Started PPI with improvement. Could be \nrelated to esophageal dysmotility.\n- Continue PPI daily\n\nCode status: Full code, confirmed with patient/family. They \nrecognize the disconnect between her historical refusal of \ntreatment for this cancer and the desire to remain full code.\n\n>30 minutes spent coordinating discharge to rehab\n\nDischarge Diagnosis:\nHyponatremia, hypovolemic\nEsophageal dysphagia\nNeck mass due to thyroid cancer",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 81,
+          "turn_id": null
+        }
+      ],
+      "text": "Weakness",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 95,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 114,
+          "turn_id": null
+        }
+      ],
+      "text": "failure to thrive",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 190,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid cancer",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "neck mass",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 250,
+          "turn_id": null
+        }
+      ],
+      "text": "refused treatment",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 253,
+          "char_end": 256,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 273,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 284,
+          "char_end": 292,
+          "turn_id": null
+        }
+      ],
+      "text": "glaucoma",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 298,
+          "char_end": 312,
+          "turn_id": null
+        }
+      ],
+      "text": "near-blindness",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 352,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 357,
+          "char_end": 369,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 409,
+          "turn_id": null
+        }
+      ],
+      "text": "failure to thrive",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 601,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "enlargement of her neck mass",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 631,
+          "char_end": 642,
+          "turn_id": null
+        }
+      ],
+      "text": "spitting up",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 658,
+          "char_end": 679,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased oral intake",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 685,
+          "char_end": 696,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 745,
+          "char_end": 757,
+          "turn_id": null
+        }
+      ],
+      "text": "leg swelling",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 816,
+          "turn_id": null
+        }
+      ],
+      "text": "pain in her left hip/groin",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 862,
+          "turn_id": null
+        }
+      ],
+      "text": "labs",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 875,
+          "char_end": 891,
+          "turn_id": null
+        }
+      ],
+      "text": "low sodium level",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 891,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium level",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 978,
+          "char_end": 1012,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty even getting out of bed",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1216,
+          "turn_id": null
+        }
+      ],
+      "text": "drinks a lot of water",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1226,
+          "char_end": 1243,
+          "turn_id": null
+        }
+      ],
+      "text": "solid food intake",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1332,
+          "char_end": 1336,
+          "turn_id": null
+        }
+      ],
+      "text": "labs",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1345,
+          "char_end": 1347,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1345,
+          "char_end": 1352,
+          "turn_id": null
+        }
+      ],
+      "text": "Na \n125",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1368,
+          "char_end": 1370,
+          "turn_id": null
+        }
+      ],
+      "text": "1L",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1371,
+          "char_end": 1373,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1573,
+          "char_end": 1587,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid cancer",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1603,
+          "char_end": 1613,
+          "turn_id": null
+        }
+      ],
+      "text": "neck \nmass",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1630,
+          "char_end": 1647,
+          "turn_id": null
+        }
+      ],
+      "text": "refused treatment",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1653,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1669,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1681,
+          "char_end": 1689,
+          "turn_id": null
+        }
+      ],
+      "text": "glaucoma",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1695,
+          "char_end": 1715,
+          "turn_id": null
+        }
+      ],
+      "text": "near-total blindness",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1747,
+          "char_end": 1755,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1760,
+          "char_end": 1772,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1795,
+          "char_end": 1812,
+          "turn_id": null
+        }
+      ],
+      "text": "failure to thrive",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1817,
+          "char_end": 1825,
+          "turn_id": null
+        }
+      ],
+      "text": "Weakness",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1846,
+          "char_end": 1865,
+          "turn_id": null
+        }
+      ],
+      "text": "worsening PO intake",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1880,
+          "char_end": 1904,
+          "turn_id": null
+        }
+      ],
+      "text": "hypovolemic hyponatremia",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1922,
+          "char_end": 1939,
+          "turn_id": null
+        }
+      ],
+      "text": "Failure to thrive",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1956,
+          "char_end": 1970,
+          "turn_id": null
+        }
+      ],
+      "text": "Thyroid cancer",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1976,
+          "char_end": 1995,
+          "turn_id": null
+        }
+      ],
+      "text": "enlarging neck mass",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2057,
+          "char_end": 2079,
+          "turn_id": null
+        }
+      ],
+      "text": "esophageal dysmotility",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2094,
+          "char_end": 2098,
+          "turn_id": null
+        },
+        {
+          "char_start": 2103,
+          "char_end": 2137,
+          "turn_id": null
+        }
+      ],
+      "text": "does want \nfurther workup and treatment",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2208,
+          "char_end": 2227,
+          "turn_id": null
+        }
+      ],
+      "text": "worsening PO intake",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 2255,
+          "char_end": 2282,
+          "turn_id": null
+        }
+      ],
+      "text": "excessive free water intake",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2310,
+          "char_end": 2314,
+          "turn_id": null
+        }
+      ],
+      "text": "HCTZ",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2320,
+          "char_end": 2326,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDs",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2352,
+          "char_end": 2364,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2385,
+          "char_end": 2405,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid administration",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2528,
+          "char_end": 2542,
+          "turn_id": null
+        }
+      ],
+      "text": "poor PO intake",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2560,
+          "char_end": 2584,
+          "turn_id": null
+        }
+      ],
+      "text": "cancer related \ncachexia",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2585,
+          "char_end": 2588,
+          "turn_id": null
+        }
+      ],
+      "text": "FTT",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2600,
+          "char_end": 2636,
+          "turn_id": null
+        }
+      ],
+      "text": "tumor related esophageal compression",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2667,
+          "char_end": 2689,
+          "turn_id": null
+        }
+      ],
+      "text": "esophageal dysmotility",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2721,
+          "char_end": 2773,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty with swallowing regular consistency \nfood",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2780,
+          "char_end": 2811,
+          "turn_id": null
+        }
+      ],
+      "text": "sensation of food getting stuck",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2821,
+          "char_end": 2829,
+          "turn_id": null
+        }
+      ],
+      "text": "retching",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2858,
+          "char_end": 2870,
+          "turn_id": null
+        }
+      ],
+      "text": "malnutrition",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2872,
+          "char_end": 2884,
+          "turn_id": null
+        }
+      ],
+      "text": "hyponatremia",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2897,
+          "char_end": 2905,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2907,
+          "char_end": 2921,
+          "turn_id": null
+        }
+      ],
+      "text": "Barium swallow",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2961,
+          "char_end": 2983,
+          "turn_id": null
+        }
+      ],
+      "text": "esophageal dysmotility",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3346,
+          "char_end": 3360,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid cancer",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3387,
+          "char_end": 3395,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3432,
+          "char_end": 3436,
+          "turn_id": null
+        }
+      ],
+      "text": "HCTZ",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3441,
+          "char_end": 3447,
+          "turn_id": null
+        }
+      ],
+      "text": "NSAIDs",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3657,
+          "char_end": 3663,
+          "turn_id": null
+        }
+      ],
+      "text": "Ensure",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 3752,
+          "char_end": 3768,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3816,
+          "char_end": 3843,
+          "turn_id": null
+        }
+      ],
+      "text": "Monitor sodium level weekly",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3824,
+          "char_end": 3836,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium level",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3848,
+          "char_end": 3860,
+          "turn_id": null
+        },
+        {
+          "char_start": 3864,
+          "char_end": 3867,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium level low",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3848,
+          "char_end": 3860,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium level",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3976,
+          "char_end": 4003,
+          "turn_id": null
+        }
+      ],
+      "text": "drink excessive free \nwater",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4049,
+          "char_end": 4070,
+          "turn_id": null
+        }
+      ],
+      "text": "Lower extremity edema",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4086,
+          "char_end": 4098,
+          "turn_id": null
+        }
+      ],
+      "text": "malnutrition",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4141,
+          "char_end": 4144,
+          "turn_id": null
+        }
+      ],
+      "text": "CHF",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4158,
+          "char_end": 4171,
+          "turn_id": null
+        }
+      ],
+      "text": "liver disease",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4189,
+          "char_end": 4204,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid disease",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4220,
+          "char_end": 4223,
+          "turn_id": null
+        }
+      ],
+      "text": "TSH",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4291,
+          "char_end": 4305,
+          "turn_id": null
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4307,
+          "char_end": 4312,
+          "turn_id": null
+        }
+      ],
+      "text": "RUQUS",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4457,
+          "char_end": 4463,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4465,
+          "char_end": 4468,
+          "turn_id": null
+        }
+      ],
+      "text": "Hct",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4486,
+          "char_end": 4489,
+          "turn_id": null
+        }
+      ],
+      "text": "MCV",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4501,
+          "char_end": 4513,
+          "turn_id": null
+        }
+      ],
+      "text": "Iron studies",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 4520,
+          "char_end": 4537,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated ferritin",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4529,
+          "char_end": 4537,
+          "turn_id": null
+        }
+      ],
+      "text": "ferritin",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4575,
+          "char_end": 4587,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammation",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4592,
+          "char_end": 4595,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 4597,
+          "char_end": 4599,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4677,
+          "char_end": 4681,
+          "turn_id": null
+        }
+      ],
+      "text": "HCTZ",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4694,
+          "char_end": 4702,
+          "turn_id": null
+        }
+      ],
+      "text": "Hip pain",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4719,
+          "char_end": 4733,
+          "turn_id": null
+        }
+      ],
+      "text": "Osteoarthritis",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4765,
+          "char_end": 4769,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4802,
+          "char_end": 4816,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4843,
+          "char_end": 4857,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid cancer",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4910,
+          "char_end": 4914,
+          "turn_id": null
+        }
+      ],
+      "text": "APAP",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4915,
+          "char_end": 4918,
+          "turn_id": null
+        }
+      ],
+      "text": "PRN",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4934,
+          "char_end": 4942,
+          "turn_id": null
+        }
+      ],
+      "text": "Naproxen",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 5024,
+          "char_end": 5031,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5047,
+          "char_end": 5062,
+          "turn_id": null
+        }
+      ],
+      "text": "bony metastasis",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 5066,
+          "char_end": 5074,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5078,
+          "char_end": 5086,
+          "turn_id": null
+        }
+      ],
+      "text": "Glaucoma",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 5124,
+          "char_end": 5134,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 5153,
+          "char_end": 5156,
+          "turn_id": null
+        }
+      ],
+      "text": "gas",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5160,
+          "char_end": 5164,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 5160,
+          "char_end": 5169,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD pain",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5247,
+          "char_end": 5259,
+          "turn_id": null
+        }
+      ],
+      "text": "GI \ncocktail",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 5261,
+          "char_end": 5263,
+          "turn_id": null
+        }
+      ],
+      "text": "Tn",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 5285,
+          "char_end": 5288,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5328,
+          "char_end": 5350,
+          "turn_id": null
+        }
+      ],
+      "text": "esophageal dysmotility",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 5363,
+          "char_end": 5366,
+          "turn_id": null
+        }
+      ],
+      "text": "PPI",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 5483,
+          "char_end": 5520,
+          "turn_id": null
+        }
+      ],
+      "text": "refusal of \ntreatment for this cancer",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5630,
+          "char_end": 5655,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyponatremia, hypovolemic",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5656,
+          "char_end": 5676,
+          "turn_id": null
+        }
+      ],
+      "text": "Esophageal dysphagia",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 5677,
+          "char_end": 5686,
+          "turn_id": null
+        }
+      ],
+      "text": "Neck mass",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5694,
+          "char_end": 5708,
+          "turn_id": null
+        }
+      ],
+      "text": "thyroid cancer",
+      "id": "e122"
+    }
+  ]
+}

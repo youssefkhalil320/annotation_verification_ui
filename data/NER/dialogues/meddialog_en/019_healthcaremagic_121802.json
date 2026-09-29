@@ -1,0 +1,260 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:121802:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am a 29-year old female, recently diagnosed with AS (ankylosing spondylitis). I also had spine surgery in July, for 2 thoracic discs that were herniated. I just started Humira last Thursday and weaned off of Prednisone that day as well. In the meantime, over the past 2-3 weeks, I have had a lot of pain in the area where I had my surgery. I am now on a 5-day steroid burst of Prednisone. I took the first dose of 25 mg today, and within a couple of hours, I began feeling like I had the flu...my entire body aches from head to toe. I have had this happen with a Medrol Dose Pack in the past, as well as after receiving an epidural steroid injection. Is this a common reaction from higher doses of Prednisone? It usually only lasts about a day or so, and then I wake up feeling better the next day.\n[doctor] Hello,  At higher doses of prednisolone, these are the common side effects. The symptoms will gradually decrease in next few days. There is no need to worry.   Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr Praveen Tayal, Orthopaedic Surgeon",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 63,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "AS",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 65,
+          "char_end": 87,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ankylosing spondylitis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 101,
+          "char_end": 114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "spine surgery",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 144,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 155,
+          "char_end": 164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thoracic discs herniated",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 181,
+          "char_end": 187,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Humira",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 220,
+          "char_end": 230,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 311,
+          "char_end": 315,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 366,
+          "char_end": 371,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "5-day",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 379,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 399,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 431,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "25 mg",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 503,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flu",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 526,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "body aches",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 575,
+          "char_end": 581,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Medrol",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 643,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "epidural",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 661,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "epidural steroid injection",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 651,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 720,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 847,
+          "char_end": 859,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "prednisolone",
+      "id": "e19"
+    }
+  ]
+}

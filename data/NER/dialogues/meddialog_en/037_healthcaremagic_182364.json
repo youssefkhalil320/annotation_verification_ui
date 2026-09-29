@@ -1,0 +1,332 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:182364:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I had an infected tooth that was causing me severe pain up into my head, jaw, and behind my eye. I got a root canal 2 days ago and immediatly had sinus issues after. Today my skin has been very itchy/burning and my stool is black. Could the tooth infection/root canal have caused this or is it a reaction to the drugs I was prescribed (Ibuprofen 800mg and amoxicillan)?\n[doctor] yes it does, you will have sinus issues due to infection with your upper molar teeth, and black stools may be due to hyperacidity caused by your amoxicillin and ibuprofen. itching may be  due to allergy to amoxicillin, so please conact ur health care provider and see if something can be done about it.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 19,
+          "char_end": 33,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "infected tooth",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 65,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 92,
+          "char_end": 105,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain behind my eye",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 65,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 83,
+          "char_end": 86,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain jaw",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 81,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain up into my head",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 125,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "root canal",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 156,
+          "char_end": 168,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus issues",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 189,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 210,
+          "char_end": 217,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin burning",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 189,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 204,
+          "char_end": 209,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin itchy",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 225,
+          "char_end": 230,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 234,
+          "char_end": 239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stool black",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 266,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tooth infection",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 267,
+          "char_end": 277,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "root canal",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 355,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ibuprofen",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 356,
+          "char_end": 361,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "800mg",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 366,
+          "char_end": 377,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amoxicillan",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 416,
+          "char_end": 428,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sinus issues",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 436,
+          "char_end": 473,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infection with your upper molar teeth",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 491,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "black stools",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 518,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hyperacidity",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 534,
+          "char_end": 545,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 559,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ibuprofen",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 561,
+          "char_end": 568,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itching",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 584,
+          "char_end": 606,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergy to amoxicillin",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 595,
+          "char_end": 606,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e23"
+    }
+  ]
+}

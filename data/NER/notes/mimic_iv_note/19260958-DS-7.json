@@ -1,0 +1,954 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:19260958-DS-7:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\naspirin / Sulfa (Sulfonamide Antibiotics) / oxcarbazepine / \nMapap (acetaminophen) / hydrocodone / Penicillins\n\nChief Complaint:\nHip pain\n\nHistory of Present Illness:\n___ F presenting from OSH after mechanical fall \n\nPresented because she fell and her neighbor found her on the\nfloor acting strangely. She took her to ___. On\ncoumadin for bilateral PEs 5 mo ago. Supratherapeutic INR at \n___.\nHead CT at OSH negative for acute process. Got vit K\nand transferred to ___ ED on ___ for ? altered mental status. \nIn ___ ED original concern was for AMS, but patient was\noriented x3. No further investigation was done.\n\nHistory of Left hip pain x1 month after fall. Because of pain \nwas\nevaluated by ___. Independent with ADLs with recent difficulty\nnoted during activities requiring active hip flexion on Left. ___\nnoted left sided posterior hip/buttock pain that\nlimited tolerance for sitting EOB and standing despite use of \nRW.\npt is unsafe for d/c home at this time as she is requiring \nassist\nfor all mobility and can not tolerate out of bed mobility due to\nsevere pain. Could not go home and ___'s admission \noffice\nnot open until ___.\n\nIn terms of falls, patient's history somewhat confusing. Says \nshe\nfalls because her gait is poor and she gets bad headaches. But\nmore importantly the floor in her apartment has holes and she\nforgets and falls. She has fallen ~4x in last few months. The\nfall that triggered left hip pain was particularly severe. A\ncomplicating factor is a history of seizures (non-epileptiform\nper patient - ? pseudo-seizures). She gave me different \nresponses\nto whether she loses conciousness. She reports that she always\nremembers falling, but then today was a bit confused afterwards.\n\nPain:  ___ ___ with activity.  ___ at recovery.\n     Location: Left posterior hip/buttocks\n     Quality: throbbing, ache\n     Intervention: repositioning with pillow under L hip, heat\n\nRadiates down leg. Some numbness in foot. no incontinence\n\nBrief Hospital Course:\n___ y/o woman admitted for placement. Unable to ambulate safely. \nHx and pain and exam suggestive of sciatica.  MRI of lumbar \nspine showed no significant disc herniation.     She was \ncontinued on gabapentin, and was also given limited amounts of \noxycodone, which she reported helped her pain.  \n\n#Sciatica:   SIgnificant improvement in symptoms during \nhospitalization.  Attempted to arrange f/u with pain clinic, but \nunable to obtain appt, so was given phone number to call for \nappt.  She was initially advised to go to rehab, but she was \nultimately cleared to go home by ___ physical therapy.  She \nwas given a prescription for outpatient physical therapy.  \n#Hip pain: Likely due to antecedant fall.  No fracture seen on \nxray.  No hematoma on exam.\n#Pulmonary Embolism:  Patient with markedly elevated INR on \nadmit, and received vitamin K.    INR was 1.9 on discharge; she \nwill resume her home dose, which is slightly higher than what \nshe received during admit and will f/u with her PCP for recheck.\n# HTN:  Home meds Continued initially, but her blood pressures \nwere frequently below 120s/80s.  GIven her fall, and possible \northostasis as a contributant, it was decided to stop her \nverapamil.  Moreover, verapamil was prescribed to reduce \nfrequency of headaches, and patient reported that it was \nineffective.\n#Social Stressors:  Patient with multiple social stressors (poor \nsupports, poor health, limited finances) and met with ___ \nsocial work.\n#Obesity:  Patient counselled on need to lose weight.  A1c is \n6.1.\n\nDischarge Diagnosis:\nSciatica\nHypertension\nAnxiety\nConstipation\nHistory of pulmonary embolism",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 26,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 28,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide Antibiotics",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 68,
+          "turn_id": null
+        }
+      ],
+      "text": "oxcarbazepine",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 72,
+          "char_end": 77,
+          "turn_id": null
+        }
+      ],
+      "text": "Mapap",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 79,
+          "char_end": 92,
+          "turn_id": null
+        }
+      ],
+      "text": "acetaminophen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 96,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "hydrocodone",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 110,
+          "char_end": 121,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 140,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "Hip pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 311,
+          "turn_id": null
+        }
+      ],
+      "text": "acting strangely",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 345,
+          "turn_id": null
+        }
+      ],
+      "text": "coumadin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 363,
+          "turn_id": null
+        }
+      ],
+      "text": "bilateral PEs",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 374,
+          "char_end": 394,
+          "turn_id": null
+        }
+      ],
+      "text": "Supratherapeutic INR",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 394,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 404,
+          "char_end": 411,
+          "turn_id": null
+        }
+      ],
+      "text": "Head CT",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 451,
+          "char_end": 456,
+          "turn_id": null
+        }
+      ],
+      "text": "vit K",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 496,
+          "char_end": 517,
+          "turn_id": null
+        }
+      ],
+      "text": "altered mental status",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 558,
+          "turn_id": null
+        }
+      ],
+      "text": "AMS",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 636,
+          "char_end": 649,
+          "turn_id": null
+        }
+      ],
+      "text": "Left hip pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 682,
+          "char_end": 686,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 815,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty\nnoted during activities requiring active hip flexion on Left",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 827,
+          "char_end": 864,
+          "turn_id": null
+        }
+      ],
+      "text": "left sided posterior hip/buttock pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1025,
+          "char_end": 1028,
+          "turn_id": null
+        },
+        {
+          "char_start": 1033,
+          "char_end": 1061,
+          "turn_id": null
+        }
+      ],
+      "text": "can tolerate out of bed mobility",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1076,
+          "char_end": 1080,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1234,
+          "char_end": 1238,
+          "turn_id": null
+        },
+        {
+          "char_start": 1242,
+          "char_end": 1246,
+          "turn_id": null
+        }
+      ],
+      "text": "gait poor",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1264,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1341,
+          "char_end": 1358,
+          "turn_id": null
+        }
+      ],
+      "text": "forgets and falls",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1423,
+          "char_end": 1436,
+          "turn_id": null
+        }
+      ],
+      "text": "left hip pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1500,
+          "char_end": 1508,
+          "turn_id": null
+        }
+      ],
+      "text": "seizures",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1543,
+          "char_end": 1558,
+          "turn_id": null
+        }
+      ],
+      "text": "pseudo-seizures",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1627,
+          "turn_id": null
+        }
+      ],
+      "text": "loses conciousness",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1701,
+          "char_end": 1709,
+          "turn_id": null
+        }
+      ],
+      "text": "confused",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1786,
+          "char_end": 1813,
+          "turn_id": null
+        }
+      ],
+      "text": "Left posterior hip/buttocks",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1828,
+          "char_end": 1837,
+          "turn_id": null
+        }
+      ],
+      "text": "throbbing",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1908,
+          "char_end": 1925,
+          "turn_id": null
+        }
+      ],
+      "text": "Radiates down leg",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1932,
+          "char_end": 1948,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness in foot",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1953,
+          "char_end": 1965,
+          "turn_id": null
+        }
+      ],
+      "text": "incontinence",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2028,
+          "char_end": 2053,
+          "turn_id": null
+        }
+      ],
+      "text": "Unable to ambulate safely",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2091,
+          "char_end": 2099,
+          "turn_id": null
+        }
+      ],
+      "text": "sciatica",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2102,
+          "char_end": 2122,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI of lumbar \nspine",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2145,
+          "char_end": 2160,
+          "turn_id": null
+        }
+      ],
+      "text": "disc herniation",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2188,
+          "char_end": 2198,
+          "turn_id": null
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2239,
+          "char_end": 2248,
+          "turn_id": null
+        }
+      ],
+      "text": "oxycodone",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2280,
+          "char_end": 2284,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2290,
+          "char_end": 2298,
+          "turn_id": null
+        }
+      ],
+      "text": "Sciatica",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2573,
+          "char_end": 2589,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2637,
+          "char_end": 2653,
+          "turn_id": null
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2658,
+          "char_end": 2666,
+          "turn_id": null
+        }
+      ],
+      "text": "Hip pain",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2703,
+          "char_end": 2711,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2721,
+          "char_end": 2725,
+          "turn_id": null
+        }
+      ],
+      "text": "xray",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2731,
+          "char_end": 2739,
+          "turn_id": null
+        }
+      ],
+      "text": "hematoma",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2750,
+          "char_end": 2768,
+          "turn_id": null
+        }
+      ],
+      "text": "Pulmonary Embolism",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2793,
+          "char_end": 2805,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated INR",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2802,
+          "char_end": 2805,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2830,
+          "char_end": 2839,
+          "turn_id": null
+        }
+      ],
+      "text": "vitamin K",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2844,
+          "char_end": 2847,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3005,
+          "char_end": 3008,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 3050,
+          "char_end": 3065,
+          "turn_id": null
+        }
+      ],
+      "text": "blood pressures",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3130,
+          "char_end": 3141,
+          "turn_id": null
+        }
+      ],
+      "text": "orthostasis",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3189,
+          "char_end": 3198,
+          "turn_id": null
+        }
+      ],
+      "text": "verapamil",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3211,
+          "char_end": 3220,
+          "turn_id": null
+        }
+      ],
+      "text": "verapamil",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3260,
+          "char_end": 3269,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3378,
+          "char_end": 3392,
+          "turn_id": null
+        }
+      ],
+      "text": "poor \nsupports",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3394,
+          "char_end": 3405,
+          "turn_id": null
+        }
+      ],
+      "text": "poor health",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 3407,
+          "char_end": 3423,
+          "turn_id": null
+        }
+      ],
+      "text": "limited finances",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3457,
+          "char_end": 3464,
+          "turn_id": null
+        }
+      ],
+      "text": "Obesity",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3511,
+          "char_end": 3514,
+          "turn_id": null
+        }
+      ],
+      "text": "A1c",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3546,
+          "char_end": 3554,
+          "turn_id": null
+        }
+      ],
+      "text": "Sciatica",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3555,
+          "char_end": 3567,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3568,
+          "char_end": 3575,
+          "turn_id": null
+        }
+      ],
+      "text": "Anxiety",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3576,
+          "char_end": 3588,
+          "turn_id": null
+        }
+      ],
+      "text": "Constipation",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3600,
+          "char_end": 3618,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary embolism",
+      "id": "e72"
+    }
+  ]
+}

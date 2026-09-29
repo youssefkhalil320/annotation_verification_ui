@@ -1,0 +1,876 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17670016-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nAdrenalin Chloride / Amoxicillin / Sulfa (Sulfonamide \nAntibiotics)\n\nChief Complaint:\n\"Confusion\".\n\nHistory of Present Illness:\nThis is an ___ year old female with PMH significant for HTN, \ndepression, hypothyroidism, Sjogren's syndrome, s/p recent \nmechanical fall leading to L humerus fracture who was referred \nto the ED by her PCP for further evaluation of depression, \nfailure to thrive, and a sodium of 128.  \n.  \nPatient fell a month ago and sustained left humerus fracture. \nShe was briefly hospitalized and sent to rehabilization, and \nreturned home earlier this week with ___ services. Since her \nhospitalization, her pain control was reportedly difficult, \ndespite vicodin medication. She was evaluated by her PCP \nyesterday as part of routine follow up and found to have a \nsodium level of 128 in the setting of depression and failure to \nthrive. She was referred to the ED for further evaluation.  \n.  \nHistory is obtained through patient and her daughter, who is \npresent. Patient reports that her mood \"sucks,\" which has been \n\"present for years,\" and it remains unclear if her mood has \nacutely changed. She denies any SI/HI. Her sleep is intact, \nthough she does endorse night terrors. Her energy level is low. \nSIGECAPS otherwise negative. Her sertraline was recently \nincreased on ___. Daughter believes her to be more \ndepressed since her recent hospitalization. She denies \nconfusion, but reports that she has becoming more forgetful. No \nincontinence or gait disturbance.  \n.  \nPatient's daughter also concerned about her mother's food \nintake, and is suspicious of her mother having an eating \ndisorder. Patient admits to being a \"nibbler\" all her life, but \nreports that her weight has been stable at 127 lbs. Per her \ndaughter, she weighed 105lbs one year prior. Over the last \nseveral months, patient reports that her appetite has been poor. \nShe eats ice cream but not much else. She denies abdominal pain, \nnausea, vomiting, constipation. She denies any chest pain, \nshortness of breath, confusion, dysuria. Of note, she has been \ntaking PO narcotics for pain control secondary to her recent \nfracture.  \n.  \nIn the ED, initial vs were: T: 97.6, P: 76, BP: 163/70, R: 18, \nO2 sat: 100%RA. Labs notable for sodium of 130, and hematocrit \nof 34.3. Patient was given 1L NS. No imaging was performed.  \n.  \nOn the floor, patient reports that she is comfortable. She \ndenies any SI/HI. She is not in any pain. She is not confused. \nShe denies any headaches, vision changes, or seizure like \nactivity.\n\nDischarge Diagnosis:\n1. Hyponatremia\n2. Depression complicated by Anorexia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "Adrenalin Chloride",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 43,
+          "turn_id": null
+        }
+      ],
+      "text": "Amoxicillin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 53,
+          "char_end": 77,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide \nAntibiotics",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 98,
+          "char_end": 107,
+          "turn_id": null
+        }
+      ],
+      "text": "Confusion",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 129,
+          "turn_id": null
+        }
+      ],
+      "text": "Present",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 139,
+          "char_end": 143,
+          "turn_id": null
+        }
+      ],
+      "text": "This",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 198,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 211,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 213,
+          "char_end": 227,
+          "turn_id": null
+        }
+      ],
+      "text": "hypothyroidism",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 229,
+          "char_end": 247,
+          "turn_id": null
+        }
+      ],
+      "text": "Sjogren's syndrome",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 306,
+          "turn_id": null
+        }
+      ],
+      "text": "L humerus fracture",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 372,
+          "char_end": 382,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 402,
+          "turn_id": null
+        }
+      ],
+      "text": "failure to thrive",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 410,
+          "char_end": 416,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 410,
+          "char_end": 423,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium of 128",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 491,
+          "turn_id": null
+        }
+      ],
+      "text": "left humerus fracture",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 535,
+          "char_end": 549,
+          "turn_id": null
+        }
+      ],
+      "text": "rehabilization",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 639,
+          "char_end": 643,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 687,
+          "char_end": 694,
+          "turn_id": null
+        }
+      ],
+      "text": "vicodin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 809,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium level",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 816,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium level of 128",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 845,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 850,
+          "char_end": 868,
+          "turn_id": null
+        }
+      ],
+      "text": "failure to \nthrive",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1146,
+          "char_end": 1151,
+          "turn_id": null
+        }
+      ],
+      "text": "SI/HI",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1199,
+          "char_end": 1212,
+          "turn_id": null
+        }
+      ],
+      "text": "night terrors",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1218,
+          "char_end": 1230,
+          "turn_id": null
+        },
+        {
+          "char_start": 1234,
+          "char_end": 1237,
+          "turn_id": null
+        }
+      ],
+      "text": "energy level low",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1273,
+          "char_end": 1283,
+          "turn_id": null
+        }
+      ],
+      "text": "sertraline",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1350,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "depressed",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1406,
+          "char_end": 1415,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1456,
+          "char_end": 1465,
+          "turn_id": null
+        }
+      ],
+      "text": "forgetful",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1483,
+          "turn_id": null
+        }
+      ],
+      "text": "incontinence",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1487,
+          "char_end": 1503,
+          "turn_id": null
+        }
+      ],
+      "text": "gait disturbance",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1620,
+          "char_end": 1636,
+          "turn_id": null
+        }
+      ],
+      "text": "eating \ndisorder",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1855,
+          "char_end": 1863,
+          "turn_id": null
+        },
+        {
+          "char_start": 1873,
+          "char_end": 1877,
+          "turn_id": null
+        }
+      ],
+      "text": "appetite poor",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1929,
+          "char_end": 1943,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1946,
+          "char_end": 1952,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1954,
+          "char_end": 1962,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1964,
+          "char_end": 1976,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1993,
+          "char_end": 2003,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2006,
+          "char_end": 2025,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2027,
+          "char_end": 2036,
+          "turn_id": null
+        }
+      ],
+      "text": "confusion",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2038,
+          "char_end": 2045,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2077,
+          "char_end": 2079,
+          "turn_id": null
+        }
+      ],
+      "text": "PO",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2089,
+          "turn_id": null
+        }
+      ],
+      "text": "narcotics",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2094,
+          "char_end": 2098,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 2132,
+          "char_end": 2140,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2192,
+          "char_end": 2194,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2192,
+          "char_end": 2202,
+          "turn_id": null
+        }
+      ],
+      "text": "BP: 163/70",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2204,
+          "char_end": 2205,
+          "turn_id": null
+        }
+      ],
+      "text": "R",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2212,
+          "char_end": 2218,
+          "turn_id": null
+        }
+      ],
+      "text": "O2 sat",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2245,
+          "char_end": 2251,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2245,
+          "char_end": 2258,
+          "turn_id": null
+        }
+      ],
+      "text": "sodium of 130",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2264,
+          "char_end": 2274,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2264,
+          "char_end": 2283,
+          "turn_id": null
+        }
+      ],
+      "text": "hematocrit \nof 34.3",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2303,
+          "char_end": 2305,
+          "turn_id": null
+        }
+      ],
+      "text": "1L",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2306,
+          "char_end": 2308,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2413,
+          "char_end": 2418,
+          "turn_id": null
+        }
+      ],
+      "text": "SI/HI",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2438,
+          "char_end": 2442,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2455,
+          "char_end": 2463,
+          "turn_id": null
+        }
+      ],
+      "text": "confused",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2481,
+          "char_end": 2490,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2492,
+          "char_end": 2506,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2511,
+          "char_end": 2533,
+          "turn_id": null
+        }
+      ],
+      "text": "seizure like \nactivity",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2560,
+          "char_end": 2572,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyponatremia",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2576,
+          "char_end": 2586,
+          "turn_id": null
+        }
+      ],
+      "text": "Depression",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2602,
+          "char_end": 2610,
+          "turn_id": null
+        }
+      ],
+      "text": "Anorexia",
+      "id": "e66"
+    }
+  ]
+}

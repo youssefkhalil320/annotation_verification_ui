@@ -1,0 +1,624 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:212649:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am writing because I would like to have a confirmation and I want an alternative method to the hinder the progression of MS. My investigations were motivated because I want to stop taking interferon beta and find an alternative method that is based on a natural basis. The long-term study results from last summer that were on interferon-beta, have not had a positive outcome: (MS Society - WWW.WWWW.WW / NY Times: WWW.WWWW.WW . After 4 years of taking Avonex, I still experience serious side effects that have been fought with Celebrex and Ritalin. There are also positive side effects, because I do not get ill as often as I did. After weeks of research, I reached the following conclusions: I understand that a vitamin D deficiency is a component for some diseases and one is MS. Vitamin D increases the interleukin (IL) 10, and simultaneously reduces the IL-6 and IL-17. It retains these two cytokines in balance. An increased IL-6 creates plaques in the brain and IL-17 is responsible for the autoimmune system. Should the IL-17 be too high, it upsets the immune system and it begins to attack its own cells. Interferon-beta is mainly focused on the IL-17 and neglects the IL-6. I also struggle with the herpes virus which is designated as vIL-10, and this fits into the same receptors that are intended for IL-10. Vitamin D is as you know, created by sunshine and after a 30 minute long sunbath in the summer time, you can have up to 20,000 IU in the body. So I think that a 10,000 IU per day cannot cause toxicity . Vitamin D is dependent on vitamin K , zinc, magnesium and boron, to activate it. I would like to take the following orally: - Vitamin D3 - 10,000 IU - Multivitamins per day which includes, among other things: o Vitamin K - 20 - 60 micrograms (mcg) o Zinc - 11 - 15 milligrams (mg) o magnesium - 100 - 120 mg o Boron - 150 mcg - Omega 3 to 1272 mg - Omega 6-928 mg - Omega 9-475 mg o A balance of Omega 3 and 6 is wanted If the above values are too high, or if there is something missing, please let me know? I will continue taking interferon, but I would like to stop it as soon as possible. I am 39, 150lbs, 5 8 and suffer from RemittingRelapsing MS\n[doctor] Hi there ~  I empathize with your situation and that you have been having a tough time with relapsing remitting multiple sclerosis.  One thing that you may have noticed yourself is that you are focusing too much on labs.  One way to reduce your anxiety is to distract yourself from thinking about your condition too much.  If you start acting like you have no symptoms you probably will end up not having any problems.  I know this is easier said than done but one thing that surely is treated is the anxiety which can make MS symptoms worse.  Consulting a psychiatrist may help with getting you on anti anxiety medications and appropriate therapy referral.  I hope this helps.  Take care.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 133,
+          "char_end": 135,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MS",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 200,
+          "char_end": 215,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "interferon beta",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 354,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "interferon-beta",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 454,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4 years",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 471,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Avonex",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 548,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Celebrex",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 553,
+          "char_end": 560,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ritalin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 726,
+          "char_end": 746,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin D deficiency",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 793,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MS",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 976,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "plaques in the brain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1126,
+          "char_end": 1141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Interferon-beta",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1233,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "herpes virus",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1493,
+          "char_end": 1502,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10,000 IU",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1503,
+          "char_end": 1510,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1524,
+          "char_end": 1532,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "toxicity",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1561,
+          "char_end": 1570,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vitamin K",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1573,
+          "char_end": 1577,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "zinc",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1579,
+          "char_end": 1588,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "magnesium",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1593,
+          "char_end": 1598,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "boron",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1651,
+          "char_end": 1657,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "orally",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1661,
+          "char_end": 1671,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vitamin D3",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1674,
+          "char_end": 1683,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10,000 IU",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1686,
+          "char_end": 1699,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Multivitamins",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1700,
+          "char_end": 1707,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1746,
+          "char_end": 1755,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vitamin K",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1758,
+          "char_end": 1782,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20 - 60 micrograms (mcg)",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1785,
+          "char_end": 1789,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zinc",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1792,
+          "char_end": 1815,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "11 - 15 milligrams (mg)",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1818,
+          "char_end": 1827,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "magnesium",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1830,
+          "char_end": 1842,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100 - 120 mg",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1845,
+          "char_end": 1850,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Boron",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1853,
+          "char_end": 1860,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "150 mcg",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1863,
+          "char_end": 1870,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Omega 3",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1874,
+          "char_end": 1881,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1272 mg",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1884,
+          "char_end": 1891,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Omega 6",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1892,
+          "char_end": 1898,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "928 mg",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1901,
+          "char_end": 1908,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Omega 9",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1909,
+          "char_end": 1915,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "475 mg",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1931,
+          "char_end": 1936,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1943,
+          "char_end": 1944,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Omega 6",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1931,
+          "char_end": 1938,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Omega 3",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2066,
+          "char_end": 2076,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "interferon",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2164,
+          "char_end": 2185,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "RemittingRelapsing MS",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2287,
+          "char_end": 2325,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "relapsing remitting multiple sclerosis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2440,
+          "char_end": 2447,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2696,
+          "char_end": 2703,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2719,
+          "char_end": 2721,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MS",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2794,
+          "char_end": 2806,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti anxiety",
+      "id": "e47"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:103762:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] thank you - was referred to Heart Specialist (from Rheumotologist) had heart palpitations. Heart Dr office did 5 tests on me (4 total hours) Lexiscan, UltraSound, Chemical Stress Test (didn't like this one - the gal administrating it casually called it a 'chemically induced heart attack'...). others ? name. I did not see the Heart Dr... he did not even pop in to check on me. Next day, got a call from office girl with \"You have a normally functioning Heart and a mild leak in heart bicuspid valve\" - I asked was that all... does it show what was causing the palps. (PS no monitor used in the tests) She repeated and said the results will be sent to the Rheum. as he was the one that referred me. Went for OV to him - he said results not in his notes/computer... will have his Nurse follow-up + let me know. Heard nothing for 3 weeks. I typed a letter re-stating above story and took it to Rheum office to give to him... have heard nothing. What should I do... Make another appt to see Rheum (6 month visit not till July-I mentioned that in my letter to him as well... Quandry as to what to do. Your professional opinion is requested please. I am a sincere, retired professional woman 65 with many health issues ie: Lupus SLE, Fibro, Cervical Dystonia, Chronic-Obstructive Asthma... on very few meds. Was using Nebulizer w/ albuteral vials at that time... stopped using them and the major 'thumps' have subsided but still have heart flutters and feel the need to draw deep breathes. On 90 Cymbalta (one 30 + one 60); Plaquenil generic; Clonazapam .05 for sleep; Advair 150/50 once a day; stopped nebulizer.. I appreciate your time.\n[doctor] you are having all pobem which devlopin this age due to long diseasesyour copd as written snd medicines you are taking might be causing problems written bu u .chronic abstructv asthma can bhve like this to effect like this but no need to add anything for thee resultshave to feel light with almedicines to prevent further pressure on heart to increase its symptopms controll all other symptomps well ith your medicines so that no other syatem is affected in future",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 99,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart palpitations",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lexiscan",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 171,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "UltraSound",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 193,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Chemical Stress Test",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 285,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart attack'",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 481,
+          "char_end": 509,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "leak in heart bicuspid valve",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 576,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "palps",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 585,
+          "char_end": 592,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "monitor",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1228,
+          "char_end": 1237,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lupus SLE",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1239,
+          "char_end": 1244,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fibro",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1263,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cervical Dystonia",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1265,
+          "char_end": 1291,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Chronic-Obstructive Asthma",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1336,
+          "char_end": 1345,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "albuteral",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1346,
+          "char_end": 1351,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vials",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1395,
+          "char_end": 1409,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "major 'thumps'",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1439,
+          "char_end": 1453,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heart flutters",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1467,
+          "char_end": 1493,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "need to draw deep breathes",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1509,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1529,
+          "char_end": 1538,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Plaquenil",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1548,
+          "char_end": 1558,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Clonazapam",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1580,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Advair",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1581,
+          "char_end": 1587,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "150/50",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1588,
+          "char_end": 1598,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once a day",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1727,
+          "char_end": 1731,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "copd",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1812,
+          "char_end": 1836,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chronic abstructv asthma",
+      "id": "e25"
+    }
+  ]
+}

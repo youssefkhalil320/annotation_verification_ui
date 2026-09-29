@@ -1,0 +1,216 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:105472:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Dear Sir, I am 26y M. I just have Checked my Thyroid blood test coz I am suffering from Essential Tremor(Shaking hands) Since last 8 yrs. I also have allergy with salbutamol group of medicince. when i take my tremor increase dramatically. My Test results as below from thyrocare test lab: TOTAL TRIIODOTHYRONINE (T3) C.L.I.A 125 ng/dl TOTAL THYROXINE (T4) C.L.I.A 8.8 μg/dl THYROID STIMULATING HORMONE (TSH) C.L.I.A 0.89 μIU/ml Comments: SUGGESTING THYRONORMALCY kindly advice me the right treatmentorany other meditation. I feel very stressed due to my tremor. My life is like unuse to stay live. thanks in advance for you early replies..\n[doctor] Dear friend, welcome to HCM. what are you taking salbutamol for? how long? what dose is it must? have bronchospastic disorder?  because salbutamol can usually cause tremors. TFTs are normal. pl. revert with deatils . take care and pl. keep me posted on the progress.",
+  "entities": [
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 73,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Thyroid blood test",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 98,
+          "char_end": 114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Essential Tremor",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 128,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Shaking hands",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 160,
+          "char_end": 183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergy with salbutamol",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "salbutamol",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 225,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremor",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 299,
+          "char_end": 326,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "TOTAL TRIIODOTHYRONINE (T3)",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 365,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "TOTAL THYROXINE (T4)",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 384,
+          "char_end": 417,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "THYROID STIMULATING HORMONE (TSH)",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 553,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stressed",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 570,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tremor",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 708,
+          "char_end": 718,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "salbutamol",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 784,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bronchospastic disorder",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 795,
+          "char_end": 805,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "salbutamol",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 824,
+          "char_end": 831,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tremors",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 833,
+          "char_end": 837,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "TFTs",
+      "id": "e16"
+    }
+  ]
+}

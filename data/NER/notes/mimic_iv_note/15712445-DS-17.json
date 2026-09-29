@@ -1,0 +1,1204 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15712445-DS-17:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nNo Known Allergies / Adverse Drug Reactions\n\nChief Complaint:\nbright red blood per rectum\n\nHistory of Present Illness:\n___ PMH subacute hyperthyroidism p/w several episodes of bright \nred blood per rectum. At 7 pm night prior to admission patient \nwent to the bathroom and noticed a toilet bowl full of blood \n(about 100-200cc), no stool. He denies any pain associated with \nthe episode. He reports having several more episodes over the \ncourse of the evening, about 7, when he and his son decided to \ncome to the ED. He denies any previous similar episodes. Denies \nany associated abdominal pain, fevers/chills/night sweats. Mr. \n___ had colonoscopy in ___ of this year that was notable \nfor diverticulum w/ clot (? recent bleed) and cryptitis on \npathology. He did not have any polyps removed. He denies any \ndizziness, chest pain, shortness of breath or chronic fatigue. \nColonoscopy ___ years ago did demonstrate polyps.\n\nHe denies any recent travel or sick contacts. His son has \nulcerative colitis. For his subclinical hyperthyroidism, he was \non methimazole which was discontinued a few days ago because of \nliver enzyme elevation per report. He denies any recent \nincreased anxiety, sweating, diarrhea. He endorses recent weight \nloss/difficulty sleeping which he has had prior and attributes \nto his hyperthyroidism.\n\nHe has a history of proctitis in the 1980s, diagnosed at ___ \n___, hospitalized twice, underwent treatment and has \notherwise resolved\n \nIn the ED initial vitals were: 97.8 79 184/100 16 100% RA. Labs \nwere significant for H/H 15.3/44.7 from baseline Hgb of 16, with \nnormal WBC and platelets. INR 1.2. Electrolyte panel wnl (Cr \n0.9). Patient was typed and crossed. He did not receive fluids \nin the ED. \n \nVitals prior to transfer were:  T98.1 P82 BP152/89 RR16 O2 sat \n99% RA \n\nOn the floor, he continued to have episodes of BRBPR, though \ndiminishing in quantity and frequency. He continued to deny \nCP/SOB, dizziness.  \n\nReview of Systems:  \n(+) per HPI  \n(-) fever, chills, night sweats, headache, vision changes, \nrhinorrhea, congestion, sore throat, cough, shortness of breath, \nchest pain, abdominal pain, nausea, vomiting, constipation, \ndysuria, hematuria.\n\nBrief Hospital Course:\nMr. ___ is a ___ yo man w/ h/o subclinical hyperthyroidism \npresenting with painless BRBPR likely ___ known diverticula. \n\n# GI bleed - With a history of diverticulum with clot seen on \n___ colonoscopy, no polypectomy, otherwise normal \ncolonoscopy, and in the setting of hemodynamic stability and \nnon-paniful BRBPR, this is likely a LGIB, most likely \ndiverticular. Pt does endorse remote history (1980s) of \nproctitis, which has been in remission off treatment for ___ \nyears. Mr. ___ had about 7 total episodes of BRBPR, which \ndiminished in quantity over the course of his hospitalization. \nHe was hemodynamically stable throughout his stay. Hct went from \n44.7 to 41.6 as his bleeding ceased. He denied any chest pain, \nshortness of breath, or dizziness. He did not receive any fluid \nresuscitation. GI was consulted and will follow up with him as \nan outpatient. Although reportedly had history of melena, \nfurther discussion with patient revealed dark brown stools, not \nblack, not suggestive of true melena. Prior to discharge, pt was \ncounseled extensively regarding indications to immediately seek \nmedical attention.\n\n# Subclinical hyperthyroidism: No longer on methimazole per Dr. \n___ ___ note given LFT abnormalities. Plan to consider \ntreatment with radioiodine. Throughout hospitalization, Mr. \n___ had stable HR, BP, non-anxious, so no concern for acute \nhyperthyroidism at this time. \n\n# anxiety: Patient was stable on his home lorazepam.\n\nTransitional issues\n[] scheduled for f/u with GI\n\nDischarge Diagnosis:\nlower GI bleeding",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 73,
+          "char_end": 100,
+          "turn_id": null
+        }
+      ],
+      "text": "bright red blood per rectum",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 138,
+          "char_end": 162,
+          "turn_id": null
+        }
+      ],
+      "text": "subacute hyperthyroidism",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 215,
+          "turn_id": null
+        }
+      ],
+      "text": "bright \nred blood per rectum",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 364,
+          "char_end": 368,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 607,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 609,
+          "char_end": 615,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 616,
+          "char_end": 622,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 623,
+          "char_end": 635,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 661,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 704,
+          "char_end": 716,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulum",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 724,
+          "turn_id": null
+        }
+      ],
+      "text": "clot",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 735,
+          "char_end": 740,
+          "turn_id": null
+        }
+      ],
+      "text": "bleed",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 746,
+          "char_end": 755,
+          "turn_id": null
+        }
+      ],
+      "text": "cryptitis",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 760,
+          "char_end": 769,
+          "turn_id": null
+        }
+      ],
+      "text": "pathology",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 797,
+          "turn_id": null
+        }
+      ],
+      "text": "polyps",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 822,
+          "char_end": 831,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 833,
+          "char_end": 843,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 845,
+          "char_end": 864,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 868,
+          "char_end": 883,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic fatigue",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 886,
+          "char_end": 897,
+          "turn_id": null
+        }
+      ],
+      "text": "Colonoscopy",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 928,
+          "char_end": 934,
+          "turn_id": null
+        }
+      ],
+      "text": "polyps",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 996,
+          "char_end": 1014,
+          "turn_id": null
+        }
+      ],
+      "text": "ulcerative colitis",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1051,
+          "turn_id": null
+        }
+      ],
+      "text": "subclinical hyperthyroidism",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1064,
+          "char_end": 1075,
+          "turn_id": null
+        }
+      ],
+      "text": "methimazole",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1126,
+          "char_end": 1138,
+          "turn_id": null
+        }
+      ],
+      "text": "liver enzyme",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1126,
+          "char_end": 1148,
+          "turn_id": null
+        }
+      ],
+      "text": "liver enzyme elevation",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1193,
+          "char_end": 1200,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1202,
+          "char_end": 1210,
+          "turn_id": null
+        }
+      ],
+      "text": "sweating",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1212,
+          "char_end": 1220,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1241,
+          "char_end": 1253,
+          "turn_id": null
+        }
+      ],
+      "text": "weight \nloss",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty sleeping",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperthyroidism",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1367,
+          "turn_id": null
+        }
+      ],
+      "text": "proctitis",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1514,
+          "char_end": 1521,
+          "turn_id": null
+        }
+      ],
+      "text": "184/100",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1561,
+          "char_end": 1564,
+          "turn_id": null
+        }
+      ],
+      "text": "H/H",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1589,
+          "char_end": 1592,
+          "turn_id": null
+        }
+      ],
+      "text": "Hgb",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1613,
+          "char_end": 1616,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1621,
+          "char_end": 1630,
+          "turn_id": null
+        }
+      ],
+      "text": "platelets",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1632,
+          "char_end": 1635,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1641,
+          "char_end": 1658,
+          "turn_id": null
+        }
+      ],
+      "text": "Electrolyte panel",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1664,
+          "char_end": 1666,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1686,
+          "char_end": 1703,
+          "turn_id": null
+        }
+      ],
+      "text": "typed and crossed",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1788,
+          "char_end": 1796,
+          "turn_id": null
+        }
+      ],
+      "text": "BP152/89",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1866,
+          "char_end": 1871,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1942,
+          "char_end": 1944,
+          "turn_id": null
+        }
+      ],
+      "text": "CP",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1945,
+          "char_end": 1948,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1950,
+          "char_end": 1959,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2010,
+          "char_end": 2016,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2018,
+          "char_end": 2030,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2032,
+          "char_end": 2040,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2042,
+          "char_end": 2056,
+          "turn_id": null
+        }
+      ],
+      "text": "vision changes",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2059,
+          "char_end": 2069,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2071,
+          "char_end": 2081,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2083,
+          "char_end": 2094,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2096,
+          "char_end": 2101,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2103,
+          "char_end": 2122,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2125,
+          "char_end": 2135,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2137,
+          "char_end": 2151,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2153,
+          "char_end": 2159,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2161,
+          "char_end": 2169,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2171,
+          "char_end": 2183,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2186,
+          "char_end": 2193,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2195,
+          "char_end": 2204,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2261,
+          "char_end": 2288,
+          "turn_id": null
+        }
+      ],
+      "text": "subclinical hyperthyroidism",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2315,
+          "char_end": 2320,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2355,
+          "char_end": 2363,
+          "turn_id": null
+        }
+      ],
+      "text": "GI bleed",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2384,
+          "char_end": 2396,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticulum",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2402,
+          "char_end": 2406,
+          "turn_id": null
+        }
+      ],
+      "text": "clot",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2420,
+          "char_end": 2431,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2467,
+          "char_end": 2478,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2541,
+          "char_end": 2546,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2565,
+          "char_end": 2569,
+          "turn_id": null
+        }
+      ],
+      "text": "LGIB",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2584,
+          "char_end": 2596,
+          "turn_id": null
+        }
+      ],
+      "text": "diverticular",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2641,
+          "char_end": 2650,
+          "turn_id": null
+        }
+      ],
+      "text": "proctitis",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2748,
+          "char_end": 2753,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2877,
+          "char_end": 2880,
+          "turn_id": null
+        }
+      ],
+      "text": "Hct",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2912,
+          "char_end": 2920,
+          "turn_id": null
+        }
+      ],
+      "text": "bleeding",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2943,
+          "char_end": 2953,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2956,
+          "char_end": 2975,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2980,
+          "char_end": 2989,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3135,
+          "char_end": 3141,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3239,
+          "char_end": 3245,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3362,
+          "char_end": 3389,
+          "turn_id": null
+        }
+      ],
+      "text": "Subclinical hyperthyroidism",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3404,
+          "char_end": 3415,
+          "turn_id": null
+        }
+      ],
+      "text": "methimazole",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3444,
+          "char_end": 3447,
+          "turn_id": null
+        }
+      ],
+      "text": "LFT",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3444,
+          "char_end": 3461,
+          "turn_id": null
+        }
+      ],
+      "text": "LFT abnormalities",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3496,
+          "char_end": 3507,
+          "turn_id": null
+        }
+      ],
+      "text": "radioiodine",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3565,
+          "char_end": 3576,
+          "turn_id": null
+        }
+      ],
+      "text": "non-anxious",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3596,
+          "char_end": 3618,
+          "turn_id": null
+        }
+      ],
+      "text": "acute \nhyperthyroidism",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 3637,
+          "char_end": 3644,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3677,
+          "char_end": 3686,
+          "turn_id": null
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3760,
+          "char_end": 3777,
+          "turn_id": null
+        }
+      ],
+      "text": "lower GI bleeding",
+      "id": "e92"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "doc_id": "PRIMOCK57:day2_consultation06:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "Worried about difficulty breathing and lip swelling, also localized rash\nNo PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note\n SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise. No rash seen on arm\nImp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis\nPlan: for OTC antihistamines\n Warned re red flags sings/ symptoms- if these occur to get urgent medical review\nNo need for allergy testing on a one-off episode\nTo ring back if any concerns/ anxiety- may need more reassurance\nPt has had a bee/wasp bite a few minutes prior to appointment\nWorried about difficulty breathing and lip swelling, also localized rash\nNo PMHx of anaphylaxis, no use of epipen in past\nHas had anxiety in past- felt panicked now\nNo Fh of note\n SH: software engineer, has cat at home\nEx: Now: no lip swelling seen, speaking normally, no airways compromise. No rash seen on arm\nImp: localized inflammatory reaction to insect bite, no evidence of acute anaphylactic reaction or cellulitis\nPlan: for OTC antihistamines\n Warned re red flags sings/ symptoms- if these occur to get urgent medical review\nNo need for allergy testing on a one-off episode\nTo ring back if any concerns/ anxiety- may need more reassurance\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 14,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty breathing",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 39,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "lip swelling",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 72,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 95,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylaxis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 113,
+          "turn_id": null
+        }
+      ],
+      "text": "epipen",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 130,
+          "char_end": 137,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 160,
+          "turn_id": null
+        }
+      ],
+      "text": "panicked",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 243,
+          "turn_id": null
+        }
+      ],
+      "text": "lip swelling",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 290,
+          "turn_id": null
+        }
+      ],
+      "text": "airways compromise",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 299,
+          "turn_id": null
+        },
+        {
+          "char_start": 305,
+          "char_end": 311,
+          "turn_id": null
+        }
+      ],
+      "text": "rash on arm",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 327,
+          "char_end": 348,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory reaction",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 352,
+          "char_end": 363,
+          "turn_id": null
+        }
+      ],
+      "text": "insect bite",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 386,
+          "char_end": 407,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactic reaction",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 421,
+          "turn_id": null
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 436,
+          "char_end": 450,
+          "turn_id": null
+        }
+      ],
+      "text": "antihistamines",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 560,
+          "turn_id": null
+        }
+      ],
+      "text": "allergy testing",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 612,
+          "char_end": 619,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 673,
+          "turn_id": null
+        }
+      ],
+      "text": "bee/wasp bite",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 743,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty breathing",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 748,
+          "char_end": 760,
+          "turn_id": null
+        }
+      ],
+      "text": "lip swelling",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 777,
+          "char_end": 781,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 793,
+          "char_end": 804,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylaxis",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 816,
+          "char_end": 822,
+          "turn_id": null
+        }
+      ],
+      "text": "epipen",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 846,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 869,
+          "turn_id": null
+        }
+      ],
+      "text": "panicked",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 952,
+          "turn_id": null
+        }
+      ],
+      "text": "lip swelling",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 981,
+          "char_end": 999,
+          "turn_id": null
+        }
+      ],
+      "text": "airways compromise",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1004,
+          "char_end": 1008,
+          "turn_id": null
+        },
+        {
+          "char_start": 1014,
+          "char_end": 1020,
+          "turn_id": null
+        }
+      ],
+      "text": "rash on arm",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1057,
+          "turn_id": null
+        }
+      ],
+      "text": "inflammatory reaction",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1061,
+          "char_end": 1072,
+          "turn_id": null
+        }
+      ],
+      "text": "insect bite",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1095,
+          "char_end": 1116,
+          "turn_id": null
+        }
+      ],
+      "text": "anaphylactic reaction",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1130,
+          "turn_id": null
+        }
+      ],
+      "text": "cellulitis",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1145,
+          "char_end": 1159,
+          "turn_id": null
+        }
+      ],
+      "text": "antihistamines",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1269,
+          "turn_id": null
+        }
+      ],
+      "text": "allergy testing",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1321,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e35"
+    }
+  ]
+}

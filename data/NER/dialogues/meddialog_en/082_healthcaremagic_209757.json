@@ -1,0 +1,229 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:209757:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I was attacked by split personality on feb 6th after that took medicines like olanzapine,clonozapine,oleanz,fluanxol,joykem,parkin pills.From past 1 month i stopped medication i.e.,from june now i feel tired and sleepy all day please help me with a solution one more thing is m kind of inactive all day and just feel like sitting numb without even getting up.i took oleanz on decreasing dosage like 20mg 10mg 5mg is it due to the medicines its causing inactiveness other than this my mental state is perfectly alright\n[doctor] Medicines in such a large no is probably causing you sedation and not allowing you to remain active to work. Ask your doctor to lower down doses if you are stable now.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 28,
+          "char_end": 45,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "split personality",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 88,
+          "char_end": 98,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "olanzapine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 99,
+          "char_end": 110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clonozapine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 111,
+          "char_end": 117,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oleanz",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 118,
+          "char_end": 126,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fluanxol",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 127,
+          "char_end": 133,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "joykem",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 134,
+          "char_end": 140,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "parkin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 167,
+          "char_end": 185,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped medication",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 212,
+          "char_end": 217,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tired",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 222,
+          "char_end": 228,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleepy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 304,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inactive",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 340,
+          "char_end": 344,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "numb",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 413,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20mg",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 414,
+          "char_end": 418,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10mg",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 422,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "5mg",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 462,
+          "char_end": 474,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inactiveness",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 590,
+          "char_end": 598,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sedation",
+      "id": "e17"
+    }
+  ]
+}

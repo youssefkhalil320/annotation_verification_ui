@@ -1,0 +1,671 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:12375281-DS-22:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nHeparin Agents\n\nChief Complaint:\nJaundice\n\nHistory of Present Illness:\nMr. ___ is a ___ old male, with multiple medical\nproblems, with a history of a duodenal resection for adenoidCA \nin\nthe ___ portion of his duodenum, in ___ ___.  He \nis\nnoted to have recurrence to mediastinal nodes ___. He was\nrecently admitted over a 4 day period with a small bowel\nobstruction which has resolved and he is not currently having \nany\nobstructive symptoms. He had an appointment with his oncologist\ntoday who noticed his jaundice, checked his labs and foudna\nbilirubin of 15 an dsent him to the ED. Otherwise the patient\nfeels fine. Passing flatus, no nausea or vomiting, eating okay.\nafebrile, no chills.\n.\n\nBrief Hospital Course:\n___ with metastatic duodenal adenocarcinoid tumor, now with \nbiliary obstruction and persistent duodenal obstruction.  \n.  \n# duodenal adenocarcinoid tumor - pt's duodenum was unable to be \nstented with more durable metallic stent. Patient has been \ntolerating clears ok and diet was advanced to regulars upon \ndischarge. Plan was for chemotherapy to be started at the week \nfollowing the discharge, which will hopefully shrink duodenal \ntumor and relieve obstruction  \n.  \n# biliary obstruction - PTC drain currently in place, and \ndraining fluid.  \n.  \n# diarrhea - improved slightly although still loose stools. \nStool studies were negative for C.diff, and it was thought to be \nmost likely related to patients current abdominal pathology.\n.  \n# Acute renal failure - Creatinine up from 0.9 to 1.2 over the \ncourse of the day. Most likely ATN in the setting of \nhypotension. Expect slow improvement over the course of several \ndays. Continue with supportive therapy for now and renal dose \nmeds.\n.  \n# CHF - chronic diastolic dysfunction. Not particularly volume \noverloaded on exam, but exam may be limited by obesity. Held \nLasix given slightly borderline BP, and restarted upon \ndischarge.\n.  \n# DM2 - Reduced insulin standing dose from 30units in AM to 25 \nunits, given patient was continuously hypoglycemic.  \n.  \n# PPX - on fondaparinux for HIT.  \n.  \n# Code - full  \n.\n\nDischarge Diagnosis:\nBiliary Obstruction\nadenocarcinoma\ndiabetes mellitus\nhypertension\nchronic diastolic congestive heart failure",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin Agents",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "Jaundice",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 161,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "duodenal resection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 184,
+          "char_end": 193,
+          "turn_id": null
+        }
+      ],
+      "text": "adenoidCA",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 296,
+          "turn_id": null
+        }
+      ],
+      "text": "recurrence to mediastinal nodes",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 354,
+          "char_end": 377,
+          "turn_id": null
+        }
+      ],
+      "text": "small bowel\nobstruction",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 433,
+          "char_end": 453,
+          "turn_id": null
+        }
+      ],
+      "text": "obstructive symptoms",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 519,
+          "char_end": 527,
+          "turn_id": null
+        }
+      ],
+      "text": "jaundice",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 545,
+          "turn_id": null
+        }
+      ],
+      "text": "labs",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 566,
+          "turn_id": null
+        }
+      ],
+      "text": "bilirubin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 650,
+          "char_end": 656,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 668,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 696,
+          "char_end": 702,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 739,
+          "char_end": 779,
+          "turn_id": null
+        }
+      ],
+      "text": "metastatic duodenal adenocarcinoid tumor",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 810,
+          "turn_id": null
+        }
+      ],
+      "text": "biliary obstruction",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 815,
+          "char_end": 846,
+          "turn_id": null
+        }
+      ],
+      "text": "persistent duodenal obstruction",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 856,
+          "char_end": 885,
+          "turn_id": null
+        }
+      ],
+      "text": "duodenal adenocarcinoid tumor",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 920,
+          "char_end": 927,
+          "turn_id": null
+        }
+      ],
+      "text": "stented",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1065,
+          "char_end": 1077,
+          "turn_id": null
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1173,
+          "turn_id": null
+        }
+      ],
+      "text": "duodenal \ntumor",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1186,
+          "char_end": 1197,
+          "turn_id": null
+        }
+      ],
+      "text": "obstruction",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1206,
+          "char_end": 1225,
+          "turn_id": null
+        }
+      ],
+      "text": "biliary obstruction",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1228,
+          "char_end": 1237,
+          "turn_id": null
+        }
+      ],
+      "text": "PTC drain",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1287,
+          "char_end": 1295,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1331,
+          "char_end": 1343,
+          "turn_id": null
+        }
+      ],
+      "text": "loose stools",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1346,
+          "char_end": 1359,
+          "turn_id": null
+        }
+      ],
+      "text": "Stool studies",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1479,
+          "char_end": 1498,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute renal failure",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1511,
+          "turn_id": null
+        }
+      ],
+      "text": "Creatinine",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1501,
+          "char_end": 1514,
+          "turn_id": null
+        }
+      ],
+      "text": "Creatinine up",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1572,
+          "char_end": 1575,
+          "turn_id": null
+        }
+      ],
+      "text": "ATN",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1595,
+          "char_end": 1606,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1735,
+          "char_end": 1738,
+          "turn_id": null
+        }
+      ],
+      "text": "CHF",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1741,
+          "char_end": 1770,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic diastolic dysfunction",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1789,
+          "char_end": 1807,
+          "turn_id": null
+        }
+      ],
+      "text": "volume \noverloaded",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1844,
+          "char_end": 1851,
+          "turn_id": null
+        }
+      ],
+      "text": "obesity",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1859,
+          "char_end": 1864,
+          "turn_id": null
+        }
+      ],
+      "text": "Lasix",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1880,
+          "char_end": 1893,
+          "turn_id": null
+        }
+      ],
+      "text": "borderline BP",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1891,
+          "char_end": 1893,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1932,
+          "char_end": 1935,
+          "turn_id": null
+        }
+      ],
+      "text": "DM2",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1946,
+          "char_end": 1953,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1973,
+          "char_end": 1980,
+          "turn_id": null
+        }
+      ],
+      "text": "30units",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1981,
+          "char_end": 1986,
+          "turn_id": null
+        }
+      ],
+      "text": "in AM",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1990,
+          "char_end": 1999,
+          "turn_id": null
+        }
+      ],
+      "text": "25 \nunits",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2032,
+          "char_end": 2044,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoglycemic",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2063,
+          "char_end": 2075,
+          "turn_id": null
+        }
+      ],
+      "text": "fondaparinux",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2080,
+          "char_end": 2083,
+          "turn_id": null
+        }
+      ],
+      "text": "HIT",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2131,
+          "char_end": 2150,
+          "turn_id": null
+        }
+      ],
+      "text": "Biliary Obstruction",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2151,
+          "char_end": 2165,
+          "turn_id": null
+        }
+      ],
+      "text": "adenocarcinoma",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2166,
+          "char_end": 2183,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes mellitus",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2184,
+          "char_end": 2196,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2197,
+          "char_end": 2239,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic diastolic congestive heart failure",
+      "id": "e51"
+    }
+  ]
+}

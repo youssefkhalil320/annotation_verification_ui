@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 10,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 104,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 142,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 289,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 387,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 410,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 427,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 449,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 460,
@@ -133,7 +124,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 523,
@@ -147,7 +137,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 534,
@@ -161,7 +150,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 570,
@@ -175,7 +163,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 580,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 621,
@@ -202,8 +188,59 @@
     },
     {
       "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 715,
+          "char_end": 725,
+          "turn_id": null
+        }
+      ],
+      "text": "microscope",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 730,
+          "char_end": 749,
+          "turn_id": null
+        }
+      ],
+      "text": "electron microscope",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 766,
+          "char_end": 794,
+          "turn_id": null
+        }
+      ],
+      "text": "plasma cholecystokinin (CCK)",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 807,
+          "turn_id": null
+        }
+      ],
+      "text": "[Ca(2+)]",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
           "char_start": 839,
@@ -212,12 +249,11 @@
         }
       ],
       "text": "radioimmunoassay",
-      "id": "e15"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 860,
@@ -226,12 +262,11 @@
         }
       ],
       "text": "flow cytometry",
-      "id": "e16"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 955,
@@ -240,40 +275,24 @@
         }
       ],
       "text": "western blotting",
-      "id": "e17"
+      "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 976,
-          "char_end": 1011,
+          "char_end": 1020,
           "turn_id": null
         }
       ],
-      "text": "real time polymerase chain reaction",
-      "id": "e18"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1013,
-          "char_end": 1019,
-          "turn_id": null
-        }
-      ],
-      "text": "RT-PCR",
-      "id": "e19"
+      "text": "real time polymerase chain reaction (RT-PCR)",
+      "id": "e22"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1022,
@@ -282,12 +301,11 @@
         }
       ],
       "text": "Emodin",
-      "id": "e20"
+      "id": "e23"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1032,
@@ -296,12 +314,11 @@
         }
       ],
       "text": "UA",
-      "id": "e21"
+      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1047,
@@ -310,12 +327,11 @@
         }
       ],
       "text": "pathogenic changes in epithelial cells and muscle cells in gallbladder",
-      "id": "e22"
+      "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1137,
@@ -324,12 +340,86 @@
         }
       ],
       "text": "cholesterol calculus",
-      "id": "e23"
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1208,
+          "turn_id": null
+        }
+      ],
+      "text": "transmission electron microscope",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1266,
+          "turn_id": null
+        },
+        {
+          "char_start": 1281,
+          "char_end": 1290,
+          "turn_id": null
+        }
+      ],
+      "text": "CCK levels in plasma decreased",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1246,
+          "char_end": 1266,
+          "turn_id": null
+        }
+      ],
+      "text": "CCK levels in plasma",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1279,
+          "turn_id": null
+        },
+        {
+          "char_start": 1281,
+          "char_end": 1290,
+          "turn_id": null
+        }
+      ],
+      "text": "[Ca(2+)] decreased",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1279,
+          "turn_id": null
+        }
+      ],
+      "text": "[Ca(2+)]",
+      "id": "e31"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1394,
@@ -338,12 +428,11 @@
         }
       ],
       "text": "Emodin",
-      "id": "e24"
+      "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1447,
@@ -352,12 +441,11 @@
         }
       ],
       "text": "gallstone",
-      "id": "e25"
+      "id": "e33"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1471,
@@ -366,12 +454,37 @@
         }
       ],
       "text": "pathogenic change in epithelial cells and muscle cells",
-      "id": "e26"
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1537,
+          "char_end": 1557,
+          "turn_id": null
+        }
+      ],
+      "text": "CCK levels in plasma",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1562,
+          "char_end": 1570,
+          "turn_id": null
+        }
+      ],
+      "text": "[Ca(2+)]",
+      "id": "e36"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1729,
@@ -380,12 +493,11 @@
         }
       ],
       "text": "cholesterol calculus",
-      "id": "e27"
+      "id": "e37"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1755,
@@ -394,26 +506,50 @@
         }
       ],
       "text": "dysfunction of gallbladder contraction",
-      "id": "e28"
+      "id": "e38"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1812,
-          "char_end": 1893,
+          "char_start": 1905,
+          "char_end": 1930,
           "turn_id": null
         }
       ],
-      "text": "disorders of mobility signal transduction system in cholecyst smooth muscle cells",
-      "id": "e29"
+      "text": "low content of plasma CCK",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1930,
+          "turn_id": null
+        }
+      ],
+      "text": "plasma CCK",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1935,
+          "char_end": 1943,
+          "turn_id": null
+        }
+      ],
+      "text": "[Ca(2+)]",
+      "id": "e41"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2010,
@@ -422,12 +558,11 @@
         }
       ],
       "text": "Emodin",
-      "id": "e30"
+      "id": "e42"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2078,
@@ -436,7 +571,33 @@
         }
       ],
       "text": "cholestasis",
-      "id": "e31"
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2104,
+          "char_end": 2121,
+          "turn_id": null
+        }
+      ],
+      "text": "plasma CCK levels",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2123,
+          "char_end": 2131,
+          "turn_id": null
+        }
+      ],
+      "text": "[Ca(2+)]",
+      "id": "e45"
     }
   ]
 }

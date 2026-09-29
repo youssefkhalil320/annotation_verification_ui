@@ -1,0 +1,382 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:188102:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi Doc,  First went to see my surgeon for my wisdom teeth because I had an infection to the gum area and it as swelling and hurting.  The dentist/surgeon gave me amoxicillin for 2 week.   My surgery was schedule right after my medication ended.  My wisdom teeth were extraxted and I was prescibed again amoxicillin and porcacet.  After the 3rd day taken those medication, I felt my tongue numb and no taste.   I was old that can be a lingual nerve. However, I stopped taken Amoxicillin for 2 days and I was feeling to get better, less numb and getting a little more taste to food.   Today, I took the amoxicillin again, and my tongue feels more numb, and no taste, for tingling and burning cold hot feeling that was fading away.   You think that instead of having a lingual nerve damage because of the surgery, I can be allergic to the Amoxicillin and if so, would I be able to get my taste and normal tongue back???\n[doctor] Hello, thank you for consulting with healthcaremagic. I don't think that allergy of amoxicillin causes these kind of symptoms like numbness of the tongue,  because before the surgery also you were taking it if it did not caused numbness at that time,  then it should not happen this time. It is some complication of the surgery only.I think you should visit your dentist again for the problem. Because damage to lingual nerve can be diagnosed in X-ray. He will prescribe you the medications and you will be fine. Hope it will help you.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 85,
+          "char_end": 110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "infection to the gum area",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 129,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 134,
+          "char_end": 141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hurting",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 172,
+          "char_end": 183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 188,
+          "char_end": 194,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 week",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 271,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 277,
+          "char_end": 286,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "wisdom teeth extraxted",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 313,
+          "char_end": 324,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 329,
+          "char_end": 337,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "porcacet",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 350,
+          "char_end": 357,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3rd day",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 403,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tongue numb",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 416,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "taste",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 484,
+          "char_end": 495,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Amoxicillin",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 506,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 days",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 545,
+          "char_end": 549,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "numb",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 611,
+          "char_end": 622,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 637,
+          "char_end": 649,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 655,
+          "char_end": 659,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tongue feels numb",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 668,
+          "char_end": 673,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "taste",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 679,
+          "char_end": 687,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 692,
+          "char_end": 716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burning cold hot feeling",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 776,
+          "char_end": 796,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lingual nerve damage",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 830,
+          "char_end": 857,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic to the Amoxicillin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 846,
+          "char_end": 857,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Amoxicillin",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1031,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergy of amoxicillin",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1020,
+          "char_end": 1031,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1089,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "numbness of the tongue",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1164,
+          "char_end": 1172,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "numbness",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1338,
+          "char_end": 1361,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "damage to lingual nerve",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1382,
+          "char_end": 1387,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "X-ray",
+      "id": "e28"
+    }
+  ]
+}

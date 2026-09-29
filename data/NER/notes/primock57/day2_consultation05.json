@@ -1,0 +1,260 @@
+{
+  "doc_id": "PRIMOCK57:day2_consultation05:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "(the above consultation reason doesn't correlate with the patient's presentation)\nHx: episodes of unilateral right hand numbness/ pins and needles, with some right leg weakness and noticeable gait disturbances, ongoing for 1.5 months\noccurring with increasing frequency- initially once a week, now more often, occurring daily\n symptoms not present now\nno dysphagia, no dysphasia\nno Pmhx of CVA/TIA\nFather had CVA- appears to have had carotid endarterectomy\nNon smoker, normal blood tests for diabetes/ cholesterol when checked a few years ago\nPMHx and FH: otherwise nil of note\nDH PT IS TAKING Aspirin daily on his own accord due to his FH\nSH: pt is a medical doctor, plastic surgeon, lives with wife\nImp: TIAs- despite young age (need to exclude any systemic disease, eg antiphospholipid syndrome, that could be cause)\nPlan: needs to be seen urgently in TIA clinic- will fax referral now. Pt to contact them via PALS/ clinic no to ensure f/u\nIf any prolonged symptoms occur- to attend A/E\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 119,
+          "turn_id": null
+        },
+        {
+          "char_start": 130,
+          "char_end": 146,
+          "turn_id": null
+        }
+      ],
+      "text": "right hand pins and needles",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 109,
+          "char_end": 128,
+          "turn_id": null
+        }
+      ],
+      "text": "right hand numbness",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 158,
+          "char_end": 176,
+          "turn_id": null
+        }
+      ],
+      "text": "right leg weakness",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "gait disturbances",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 325,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 355,
+          "char_end": 364,
+          "turn_id": null
+        }
+      ],
+      "text": "dysphagia",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 369,
+          "char_end": 378,
+          "turn_id": null
+        }
+      ],
+      "text": "dysphasia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 390,
+          "char_end": 393,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 394,
+          "char_end": 397,
+          "turn_id": null
+        }
+      ],
+      "text": "TIA",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 412,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 456,
+          "turn_id": null
+        }
+      ],
+      "text": "carotid endarterectomy",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 461,
+          "char_end": 467,
+          "turn_id": null
+        }
+      ],
+      "text": "smoker",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 487,
+          "turn_id": null
+        }
+      ],
+      "text": "blood tests",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 500,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 502,
+          "char_end": 513,
+          "turn_id": null
+        }
+      ],
+      "text": "cholesterol",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 601,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 706,
+          "char_end": 710,
+          "turn_id": null
+        }
+      ],
+      "text": "TIAs",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 772,
+          "char_end": 797,
+          "turn_id": null
+        }
+      ],
+      "text": "antiphospholipid syndrome",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 855,
+          "char_end": 858,
+          "turn_id": null
+        }
+      ],
+      "text": "TIA",
+      "id": "e19"
+    }
+  ]
+}

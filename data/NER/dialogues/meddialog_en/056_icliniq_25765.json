@@ -1,0 +1,382 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:25765:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I had hip pain mostly related to sciatic and hip muscle pain. The doctor gave me Methylprednisolone 1000 mg yesterday. The pain subsided but blood pressure slightly elevated at 135/75 and heartbeat at 110 to 120. Earlier, it was 125/80 and heartbeat at 90 to 95. I feel slight heaviness at center and back. It may be due to long bed rest or something else. Fast heartbeat bothers me. It is like I am in full-time anxiety. What should I do? Can I continue with that or should I take blood pressure lowering drug like Propranolol HCL? Please advise how to relieve these symptoms resulted due to Methylprednisolone.\n[doctor] Hello. You are having this tachycardia and hypertension due to the intake of steroid in a high dose. Once when you are off the medicine, your vitals will normalize. There is no need to take any anti-hypertensives. For fast heart rate, I suggest you take tablet Metoprolol Sustained Release 50 mg at 8 a.m. Consult your specialist doctor, discuss with him or her and with their consent take the medicines. I suggest you do a D-dimer test to rule out pulmonary embolism. Review with a repeat ECG (echocardiogram) and report. For more information consult a cardiologist online --> https://www.icliniq.com/ask-a-doctor-online/cardiologist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 38,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hip pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 64,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 80,
+          "char_end": 84,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sciatic pain",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 84,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hip muscle pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 123,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Methylprednisolone",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 131,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1000 mg",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 147,
+          "char_end": 151,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 179,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 189,
+          "char_end": 207,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure elevated at 135/75",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 212,
+          "char_end": 235,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heartbeat at 110 to 120",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 301,
+          "char_end": 329,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "heaviness at center and back",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 381,
+          "char_end": 395,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fast heartbeat",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 437,
+          "char_end": 444,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 506,
+          "char_end": 529,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure lowering",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 555,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Propranolol HCL",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 617,
+          "char_end": 635,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Methylprednisolone",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 684,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 689,
+          "char_end": 701,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 723,
+          "char_end": 730,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroid",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 840,
+          "char_end": 858,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti-hypertensives",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 864,
+          "char_end": 879,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fast heart rate",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 906,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tablet",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 907,
+          "char_end": 917,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Metoprolol",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 935,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Sustained Release",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 936,
+          "char_end": 941,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "50 mg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 951,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "at 8 a.m.",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1070,
+          "char_end": 1082,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "D-dimer test",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1095,
+          "char_end": 1113,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pulmonary embolism",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1136,
+          "char_end": 1139,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ECG",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1141,
+          "char_end": 1155,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e28"
+    }
+  ]
+}

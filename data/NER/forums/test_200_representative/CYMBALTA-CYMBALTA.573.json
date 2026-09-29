@@ -6,8 +6,7 @@
   "entities": [
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 22,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 54,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 86,
@@ -62,36 +58,20 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "patient",
+      "fine_type": "symptom",
       "spans": [
         {
           "char_start": 100,
-          "char_end": 112,
+          "char_end": 118,
           "turn_id": null
         }
       ],
-      "text": "fibromyalgia",
+      "text": "fibromyalgia pains",
       "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 113,
-          "char_end": 118,
-          "turn_id": null
-        }
-      ],
-      "text": "pains",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 151,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "numbness",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 163,
@@ -114,26 +93,11 @@
         }
       ],
       "text": "problems sleeping",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 204,
-          "char_end": 213,
-          "turn_id": null
-        }
-      ],
-      "text": "taper off",
-      "id": "e9"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 242,
@@ -142,12 +106,11 @@
         }
       ],
       "text": "numb",
-      "id": "e10"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 283,
@@ -156,12 +119,11 @@
         }
       ],
       "text": "moody",
-      "id": "e11"
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 290,
@@ -170,26 +132,11 @@
         }
       ],
       "text": "impatient",
-      "id": "e12"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 350,
-          "char_end": 362,
-          "turn_id": null
-        }
-      ],
-      "text": "weird bubble",
-      "id": "e13"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 385,
@@ -198,12 +145,11 @@
         }
       ],
       "text": "double vision",
-      "id": "e14"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 423,
@@ -212,12 +158,24 @@
         }
       ],
       "text": "head pressure",
-      "id": "e15"
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 449,
+          "char_end": 470,
+          "turn_id": null
+        }
+      ],
+      "text": "a week and a half off",
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 488,
@@ -226,12 +184,11 @@
         }
       ],
       "text": "pain",
-      "id": "e16"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 527,
@@ -240,12 +197,11 @@
         }
       ],
       "text": "hand hurts",
-      "id": "e17"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 557,
@@ -254,12 +210,11 @@
         }
       ],
       "text": "pain",
-      "id": "e18"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 584,
@@ -268,12 +223,11 @@
         }
       ],
       "text": "miserable",
-      "id": "e19"
+      "id": "e17"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 595,
@@ -282,7 +236,7 @@
         }
       ],
       "text": "Cymbalta",
-      "id": "e20"
+      "id": "e18"
     }
   ]
 }

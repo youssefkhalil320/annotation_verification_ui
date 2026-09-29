@@ -1,0 +1,268 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:193379:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hallo I got psoriasis from while using lithium.  But at that time was not masturbating for 6 months or a 1 year, started masturbating because of bad sex eduction and teachers closing doors and teaching only certain kids, also maybe started a bit late and hear from other kid about the white stuff on your dick.  Used the lithium for a year and the psoriasis started under my sperm bag with skin burning.  Was first diagnose with eczema.  I got it at 21 know it is burning and not good between my anus and sperm bag.  My underwear was tight and my also played a roll and my Grand Mother had it.  I just want to know can you cut it out or cut my private part that there is no pain and itching?  But still usable.  Also want to know if not masturbating and using lithium plays a roll in getting psoriasis?\n[doctor] Hello,  Psoriasis is a common skin condition that speeds up the life cycle of skin cells. It causes cells to build up rapidly on the surface of the skin.   The extra skin cells form scales and red patches that are itchy and sometimes painful. Psoriasis is a chronic disease that often comes and goes.   Psoriasis is thought to be an immune system problem. Triggers include infections, stress and cold.   Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr K. V. Anand, Psychologist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 31,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "psoriasis",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 56,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lithium",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 331,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lithium",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 339,
+          "char_end": 349,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for a year",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 367,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "psoriasis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 400,
+          "char_end": 412,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin burning",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 439,
+          "char_end": 445,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "eczema",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 481,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burning",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 684,
+          "char_end": 688,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 693,
+          "char_end": 700,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 777,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lithium",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 802,
+          "char_end": 811,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "psoriasis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 830,
+          "char_end": 839,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Psoriasis",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1004,
+          "char_end": 1010,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "scales",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1015,
+          "char_end": 1026,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "red patches",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1041,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itchy",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1056,
+          "char_end": 1063,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "painful",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1065,
+          "char_end": 1074,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Psoriasis",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1134,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Psoriasis",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1195,
+          "char_end": 1205,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infections",
+      "id": "e20"
+    }
+  ]
+}

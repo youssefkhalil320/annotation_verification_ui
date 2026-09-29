@@ -6,78 +6,43 @@
   "entities": [
     {
       "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 31,
-          "char_end": 45,
-          "turn_id": null
-        }
-      ],
-      "text": "essential oils",
-      "id": "e1"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 260,
-          "char_end": 274,
-          "turn_id": null
-        }
-      ],
-      "text": "essential oils",
-      "id": "e2"
-    },
-    {
-      "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 276,
           "char_end": 279,
           "turn_id": null
-        }
-      ],
-      "text": "MEO",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "other",
-      "spans": [
+        },
         {
           "char_start": 293,
           "char_end": 298,
           "turn_id": null
         }
       ],
-      "text": "thyme",
-      "id": "e4"
+      "text": "MEO thyme",
+      "id": "e1"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
+        {
+          "char_start": 276,
+          "char_end": 279,
+          "turn_id": null
+        },
         {
           "char_start": 300,
           "char_end": 305,
           "turn_id": null
         }
       ],
-      "text": "clove",
-      "id": "e5"
+      "text": "MEO clove",
+      "id": "e2"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 310,
@@ -86,12 +51,11 @@
         }
       ],
       "text": "cinnamon EO",
-      "id": "e6"
+      "id": "e3"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 571,
@@ -100,12 +64,29 @@
         }
       ],
       "text": "MEO",
-      "id": "e7"
+      "id": "e4"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 591,
+          "char_end": 594,
+          "turn_id": null
+        },
+        {
+          "char_start": 604,
+          "char_end": 608,
+          "turn_id": null
+        }
+      ],
+      "text": "0.8 mL/d",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
       "spans": [
         {
           "char_start": 600,
@@ -114,12 +95,11 @@
         }
       ],
       "text": "1.6 mL/d",
-      "id": "e8"
+      "id": "e6"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 801,
@@ -128,12 +108,11 @@
         }
       ],
       "text": "Ruminal pH",
-      "id": "e9"
+      "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 813,
@@ -142,12 +121,11 @@
         }
       ],
       "text": "total volatile fatty acids (VFA) concentration",
-      "id": "e10"
+      "id": "e8"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 861,
@@ -156,12 +134,11 @@
         }
       ],
       "text": "molar proportion of individual VFA",
-      "id": "e11"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 897,
@@ -170,12 +147,11 @@
         }
       ],
       "text": "acetate: propionate ratio",
-      "id": "e12"
+      "id": "e10"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 969,
@@ -184,12 +160,11 @@
         }
       ],
       "text": "MEO",
-      "id": "e13"
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 999,
@@ -198,26 +173,24 @@
         }
       ],
       "text": "Small peptides plus amino acid nitrogen",
-      "id": "e14"
+      "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1043,
-          "char_end": 1080,
+          "char_end": 1095,
           "turn_id": null
         }
       ],
-      "text": "large peptides nitrogen concentration",
-      "id": "e15"
+      "text": "large peptides nitrogen concentration in rumen fluid",
+      "id": "e13"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1119,
@@ -226,12 +199,11 @@
         }
       ],
       "text": "MEO",
-      "id": "e16"
+      "id": "e14"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1147,
@@ -240,12 +212,11 @@
         }
       ],
       "text": "rumen fluid ammonia nitrogen concentration",
-      "id": "e17"
+      "id": "e15"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1243,
@@ -254,12 +225,11 @@
         }
       ],
       "text": "1.6 mL/d",
-      "id": "e18"
+      "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1255,
@@ -268,12 +238,11 @@
         }
       ],
       "text": "MEO",
-      "id": "e19"
+      "id": "e17"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1306,
@@ -282,12 +251,11 @@
         }
       ],
       "text": "0.8 mL/d",
-      "id": "e20"
+      "id": "e18"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1318,
@@ -296,31 +264,11 @@
         }
       ],
       "text": "MEO",
-      "id": "e21"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1353,
-          "char_end": 1383,
-          "turn_id": null
-        },
-        {
-          "char_start": 1388,
-          "char_end": 1394,
-          "turn_id": null
-        }
-      ],
-      "text": "ammonia nitrogen concentration higher",
-      "id": "e22"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1353,
@@ -329,12 +277,11 @@
         }
       ],
       "text": "ammonia nitrogen concentration",
-      "id": "e23"
+      "id": "e20"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1417,
@@ -343,12 +290,11 @@
         }
       ],
       "text": "0.8 mL/d",
-      "id": "e24"
+      "id": "e21"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1429,
@@ -357,12 +303,11 @@
         }
       ],
       "text": "MEO",
-      "id": "e25"
+      "id": "e22"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1445,
@@ -371,12 +316,11 @@
         }
       ],
       "text": "1.6 mL/d",
-      "id": "e26"
+      "id": "e23"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1572,
@@ -385,12 +329,11 @@
         }
       ],
       "text": "MEO",
-      "id": "e27"
+      "id": "e24"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1654,
@@ -399,12 +342,11 @@
         }
       ],
       "text": "white blood cells",
-      "id": "e28"
+      "id": "e25"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1673,
@@ -413,12 +355,11 @@
         }
       ],
       "text": "hemoglobin",
-      "id": "e29"
+      "id": "e26"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1685,
@@ -427,12 +368,11 @@
         }
       ],
       "text": "hematocrit",
-      "id": "e30"
+      "id": "e27"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1697,
@@ -441,12 +381,11 @@
         }
       ],
       "text": "glucose",
-      "id": "e31"
+      "id": "e28"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1706,
@@ -455,12 +394,11 @@
         }
       ],
       "text": "beta-hydroxybutyric acid",
-      "id": "e32"
+      "id": "e29"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1732,
@@ -469,12 +407,11 @@
         }
       ],
       "text": "cholesterol",
-      "id": "e33"
+      "id": "e30"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1745,
@@ -483,12 +420,11 @@
         }
       ],
       "text": "total protein",
-      "id": "e34"
+      "id": "e31"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1760,
@@ -497,12 +433,11 @@
         }
       ],
       "text": "albumin",
-      "id": "e35"
+      "id": "e32"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1769,
@@ -511,12 +446,11 @@
         }
       ],
       "text": "blood urea nitrogen",
-      "id": "e36"
+      "id": "e33"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1793,
@@ -525,12 +459,11 @@
         }
       ],
       "text": "aspartate aminotransferase",
-      "id": "e37"
+      "id": "e34"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1824,
@@ -539,12 +472,11 @@
         }
       ],
       "text": "alanine aminotransferase concentration",
-      "id": "e38"
+      "id": "e35"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1995,
@@ -553,12 +485,11 @@
         }
       ],
       "text": "MEO",
-      "id": "e39"
+      "id": "e36"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 2083,
@@ -567,7 +498,7 @@
         }
       ],
       "text": "MEO",
-      "id": "e40"
+      "id": "e37"
     }
   ]
 }

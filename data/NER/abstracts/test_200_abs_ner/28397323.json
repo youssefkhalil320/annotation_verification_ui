@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 53,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 137,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 206,
@@ -47,37 +44,21 @@
       "id": "e3"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 255,
-          "char_end": 279,
-          "turn_id": null
-        }
-      ],
-      "text": "intracranial abnormality",
-      "id": "e4"
-    },
-    {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 294,
+          "char_start": 304,
           "char_end": 325,
           "turn_id": null
         }
       ],
-      "text": "antenatal ultrasonography (USS)",
-      "id": "e5"
+      "text": "ultrasonography (USS)",
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 374,
@@ -86,12 +67,11 @@
         }
       ],
       "text": "abnormalities of the posterior fossa",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 434,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "USS",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 455,
@@ -114,12 +93,11 @@
         }
       ],
       "text": "ventriculomegaly",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 506,
@@ -128,16 +106,28 @@
         }
       ],
       "text": "iuMR imaging",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 537,
+          "char_end": 540,
+          "turn_id": null
+        }
+      ],
+      "text": "USS",
       "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 537,
-          "char_end": 540,
+          "char_start": 611,
+          "char_end": 614,
           "turn_id": null
         }
       ],
@@ -147,21 +137,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 611,
-          "char_end": 614,
-          "turn_id": null
-        }
-      ],
-      "text": "USS",
-      "id": "e11"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 619,
@@ -170,26 +145,11 @@
         }
       ],
       "text": "iuMR",
-      "id": "e12"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 734,
-          "char_end": 779,
-          "turn_id": null
-        }
-      ],
-      "text": "Abnormalities confined to the posterior fossa",
-      "id": "e13"
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 793,
@@ -198,12 +158,11 @@
         }
       ],
       "text": "USS",
-      "id": "e14"
+      "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 831,
@@ -217,12 +176,11 @@
         }
       ],
       "text": "parenchymal lesions",
-      "id": "e15"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 855,
@@ -231,26 +189,24 @@
         }
       ],
       "text": "CSF -containing lesions",
-      "id": "e16"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 930,
+          "char_start": 939,
           "char_end": 966,
           "turn_id": null
         }
       ],
-      "text": "isolated posterior fossa abnormality",
-      "id": "e17"
+      "text": "posterior fossa abnormality",
+      "id": "e15"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 979,
@@ -259,12 +215,11 @@
         }
       ],
       "text": "USS",
-      "id": "e18"
+      "id": "e16"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 995,
@@ -273,12 +228,11 @@
         }
       ],
       "text": "iuMR",
-      "id": "e19"
+      "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1286,
@@ -287,12 +241,11 @@
         }
       ],
       "text": "iuMR imaging",
-      "id": "e20"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1352,
@@ -301,12 +254,24 @@
         }
       ],
       "text": "iuMR imaging",
-      "id": "e21"
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1415,
+          "char_end": 1419,
+          "turn_id": null
+        }
+      ],
+      "text": "iuMR",
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1575,
@@ -315,26 +280,11 @@
         }
       ],
       "text": "posterior fossa abnormality",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1615,
-          "char_end": 1635,
-          "turn_id": null
-        }
-      ],
-      "text": "intracranial finding",
-      "id": "e23"
+      "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1639,
@@ -343,12 +293,11 @@
         }
       ],
       "text": "USS",
-      "id": "e24"
+      "id": "e22"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1655,
@@ -357,7 +306,7 @@
         }
       ],
       "text": "iuMR imaging",
-      "id": "e25"
+      "id": "e23"
     }
   ]
 }

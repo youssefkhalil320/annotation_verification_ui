@@ -1,0 +1,819 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:53:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I gave birth a year ago. I have had problems with diarrhea ever since (periodically). I did tests for candida, Helicobacter pylori, bleeding, parasites. All negative. I have a slightly weaker blood count. I did a stomach ultrasound and everything is fine. I suffer from post-traumatic stress and the doctors told me I had diarrhea because of it. I've been taking post-traumatic stress therapy and I've been feeling slightly better, but the diarrhea hasn't stopped in the last month. I go to the toilet 3-5 times a day. In the morning as soon as I wake up I have to go to the toilet and a few more times during the day. I am currently taking the following therapy: - Orvagyl 400 - 3 daily  - Probiotic forte - 2 daily - Heferol - 2 daily - C vitamin - 2 daily - Seroxat 20mg - 1 daily - Eglonil 100 mg- 1 daily - Prazepam 10mg - 1 daily\n[doctor] Hello. I welcome you to icliniq. I can understand you must be upset about your symptoms. Well the part of problem is explained by certain drugs you are taking like heferol which is iron and usually causes gastrointestinal upset some feel constipation and somw feel diarrhea . but drug side effects usually settle once culprit medication is stopped. I do not whether you taking heferol since last year or started recently. and whether you gave a drug free trial to see if it improve your symptoms of diarrhea. There is long list of conditions which can cause intermittent diarrhea the few such example is giardiasis, Food allergies, and allergic gastroenteritis. I want you to upload all previous testing that you have done and provide me more details about your diarrhea before I can be able to suggest you something. Below I write down some investigations that you should get before we meet again. Or if already these tests are available kindly share with me the reports. I will help you to settle your problem. good day giardiasis  food allergies celiac  small intestinal.bacterial overgrowth functional diarrhea  Irritable bowel syndrome complete blood count TSh Ft3 Ft4 serum ferrtin level stool detail report stool for ova and parasites stool for fecal calprotectin  stool for c difficle antigen  stool for giardiasis antigen  stool for fat globules and reducing substance  stool for.spot Na and Spot K serum.cr. serum.Na and serum K see me after investigations will decide treatment.plan afterwards see me after investigations will decide treatment.plan",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 68,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 150,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bleeding",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 213,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weaker blood count",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 202,
+          "char_end": 213,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood count",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 223,
+          "char_end": 241,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach ultrasound",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 280,
+          "char_end": 301,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "post-traumatic stress",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 332,
+          "char_end": 340,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 373,
+          "char_end": 394,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "post-traumatic stress",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 450,
+          "char_end": 458,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 683,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Orvagyl",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 684,
+          "char_end": 687,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "400",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 690,
+          "char_end": 697,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 daily",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 701,
+          "char_end": 716,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Probiotic forte",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 719,
+          "char_end": 726,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 daily",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 736,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Heferol",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 739,
+          "char_end": 746,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 daily",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 749,
+          "char_end": 758,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "C vitamin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 768,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 daily",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 771,
+          "char_end": 778,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Seroxat",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 779,
+          "char_end": 783,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20mg",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 793,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1 daily",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 796,
+          "char_end": 803,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Eglonil",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 804,
+          "char_end": 810,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100 mg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 819,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1 daily",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 822,
+          "char_end": 830,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Prazepam",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 831,
+          "char_end": 835,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10mg",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 838,
+          "char_end": 845,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1 daily",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1019,
+          "char_end": 1026,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "heferol",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1040,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "iron",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1060,
+          "char_end": 1082,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gastrointestinal upset",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1093,
+          "char_end": 1105,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "constipation",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1120,
+          "char_end": 1128,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1232,
+          "char_end": 1239,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "heferol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1354,
+          "char_end": 1362,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1426,
+          "char_end": 1434,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1469,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "giardiasis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1471,
+          "char_end": 1485,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Food allergies",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1491,
+          "char_end": 1515,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic gastroenteritis",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1617,
+          "char_end": 1625,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1877,
+          "char_end": 1887,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "giardiasis",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1903,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "food allergies",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1904,
+          "char_end": 1910,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "celiac",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1912,
+          "char_end": 1949,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "small intestinal.bacterial overgrowth",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1950,
+          "char_end": 1969,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "functional diarrhea",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1971,
+          "char_end": 1995,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Irritable bowel syndrome",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1996,
+          "char_end": 2016,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "complete blood count",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2017,
+          "char_end": 2020,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "TSh",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2021,
+          "char_end": 2024,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Ft3",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2028,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Ft4",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2029,
+          "char_end": 2048,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "serum ferrtin level",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2049,
+          "char_end": 2068,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool detail report",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2069,
+          "char_end": 2096,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool for ova and parasites",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2097,
+          "char_end": 2125,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool for fecal calprotectin",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2127,
+          "char_end": 2155,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool for c difficle antigen",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2157,
+          "char_end": 2185,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool for giardiasis antigen",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2187,
+          "char_end": 2209,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool for fat globules",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2214,
+          "char_end": 2232,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2234,
+          "char_end": 2243,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "reducing substance stool for",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2234,
+          "char_end": 2251,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool for.spot Na",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2256,
+          "char_end": 2262,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Spot K",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2263,
+          "char_end": 2271,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "serum.cr",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2273,
+          "char_end": 2281,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "serum.Na",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2286,
+          "char_end": 2293,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "serum K",
+      "id": "e62"
+    }
+  ]
+}

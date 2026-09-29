@@ -1,0 +1,325 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:58121:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] i had sudden gall bladder removal surgery 2 years back after suffering from it for a month and having jaundice . I had to go for surgery with good faith and thought trouble might be over. But i think unusual real troubles started afterwards . i suddenly developed hyper tension , higher sugar , thyroid and higher cholesterol . I am 29 years old and i did not have these troubles and i was completely healthy before gall bladder removal. i have asked numerous doctors and no one have any clue. they said you need to be treated for metabolic syndrome . Any Doctor in forum can comment that would be great. I think if i get on thyroid treatment all these other symptoms might go away. I was on statin and i had terrible side effects. After having bad experience i had started natural remedies like no sugar diet/less salt , omega 3 acids, olive oil, oats , flex seeds, an hour of gym . after doing all these although my blood pressure is 130/86 and not coming down. I am going for further checkup and i dont have any hopes after not having any results. Any one know how i can improve on this I am taking all steps but no results so really hart broken.\n[doctor] Hello & welcome to HCM,I had gone through the case, I want to know your family history of diabetes, hypertension , thyroid problem. Do you have any symptoms and sign of these problem right now like headache , obesity, rising of blood sugar etc. I will advice you to do pranayam( ANULOM-BELOM) exercise for 15 minute daily for 1 week and then major your blood pressure, definitely your problem will resolve. If not then you have to consult the doctor for hypertension, who can advice you medicine, correct diet pattern and more exercise for it. Hope so your problem will resolve.Thanks & RegardsDr Soni VermaHomoeopathic Physician & Life style counselor.",
+  "entities": [
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 23,
+          "char_end": 51,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gall bladder removal surgery",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "jaundice",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 274,
+          "char_end": 287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hyper tension",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 302,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "higher sugar",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 305,
+          "char_end": 312,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thyroid",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 317,
+          "char_end": 335,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "higher cholesterol",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 446,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gall bladder removal",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 559,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "metabolic syndrome",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 642,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thyroid",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 708,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "statin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 845,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "omega 3 acids",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 847,
+          "char_end": 856,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "olive oil",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 858,
+          "char_end": 862,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oats",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 865,
+          "char_end": 875,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flex seeds",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 928,
+          "char_end": 942,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 946,
+          "char_end": 952,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood pressure 130/86",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1147,
+          "char_end": 1158,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hart broken",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1259,
+          "char_end": 1267,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diabetes",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1269,
+          "char_end": 1281,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1284,
+          "char_end": 1299,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "thyroid problem",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1367,
+          "char_end": 1375,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "headache",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1378,
+          "char_end": 1385,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "obesity",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1387,
+          "char_end": 1408,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rising of blood sugar",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1511,
+          "char_end": 1536,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "major your blood pressure",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1623,
+          "char_end": 1635,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hypertension",
+      "id": "e24"
+    }
+  ]
+}

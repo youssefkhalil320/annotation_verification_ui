@@ -5,23 +5,8 @@
   "text": "Albumin -Bioinspired Gd: CuS Nanotheranostic Agent for In Vivo Photoacoustic / Magnetic Resonance Imaging -Guided Tumor -Targeted Photothermal Therapy Photothermal therapy (PTT) is attracting increasing interest and becoming more widely used for skin cancer therapy in the clinic, as a result of its noninvasiveness and low systemic adverse effects. However, there is an urgent need to develop biocompatible PTT agents, which enable accurate imaging, monitoring, and diagnosis. Herein, a biocompatible Gd -integrated CuS nanotheranostic agent (Gd: CuS @ BSA) was synthesized via a facile and environmentally friendly biomimetic strategy, using bovine serum albumin (BSA) as a biotemplate at physiological temperature. The as-prepared Gd: CuS @ BSA nanoparticles (NPs) with ultrasmall sizes (ca. 9 nm) exhibited high photothermal conversion efficiency and good photostability under near-infrared (NIR) laser irradiation. With doped Gd species and strong tunable NIR absorbance, Gd: CuS @ BSA NPs demonstrate prominent tumor-contrasted imaging performance both on the photoacoustic and magnetic resonance imaging modalities. The subsequent Gd: CuS @ BSA -mediated PTT result shows high therapy efficacy as a result of their potent NIR absorption and high photothermal conversion efficiency. The immune response triggered by Gd: CuS @ BSA -mediated PTT is preliminarily explored. In addition, toxicity studies in vitro and in vivo verify that Gd: CuS @ BSA NPs qualify as biocompatible agents. A biodistribution study demonstrated that the NPs can undergo hepatic clearance from the body. This study highlights the practicality and versatility of albumin -mediated biomimetic mineralization of a nanotheranostic agent and also suggests that bioinspired Gd: CuS @ BSA NPs possess promising imaging guidance and effective tumor ablation properties, with high spatial resolution and deep tissue penetration.",
   "entities": [
     {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 21,
-          "char_end": 28,
-          "turn_id": null
-        }
-      ],
-      "text": "Gd: CuS",
-      "id": "e1"
-    },
-    {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 63,
@@ -35,12 +20,11 @@
         }
       ],
       "text": "Photoacoustic Imaging",
-      "id": "e2"
+      "id": "e1"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 79,
@@ -49,26 +33,11 @@
         }
       ],
       "text": "Magnetic Resonance Imaging",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 114,
-          "char_end": 119,
-          "turn_id": null
-        }
-      ],
-      "text": "Tumor",
-      "id": "e4"
+      "id": "e2"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 130,
@@ -77,12 +46,11 @@
         }
       ],
       "text": "Photothermal Therapy",
-      "id": "e5"
+      "id": "e3"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 151,
@@ -91,12 +59,11 @@
         }
       ],
       "text": "Photothermal therapy",
-      "id": "e6"
+      "id": "e4"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 173,
@@ -105,12 +72,11 @@
         }
       ],
       "text": "PTT",
-      "id": "e7"
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 246,
@@ -119,26 +85,11 @@
         }
       ],
       "text": "skin cancer",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 333,
-          "char_end": 348,
-          "turn_id": null
-        }
-      ],
-      "text": "adverse effects",
-      "id": "e9"
+      "id": "e6"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 408,
@@ -147,68 +98,24 @@
         }
       ],
       "text": "PTT",
-      "id": "e10"
+      "id": "e7"
     },
     {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
       "spans": [
         {
-          "char_start": 544,
-          "char_end": 557,
+          "char_start": 901,
+          "char_end": 918,
           "turn_id": null
         }
       ],
-      "text": "Gd: CuS @ BSA",
-      "id": "e11"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 734,
-          "char_end": 747,
-          "turn_id": null
-        }
-      ],
-      "text": "Gd: CuS @ BSA",
-      "id": "e12"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 977,
-          "char_end": 990,
-          "turn_id": null
-        }
-      ],
-      "text": "Gd: CuS @ BSA",
-      "id": "e13"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1017,
-          "char_end": 1022,
-          "turn_id": null
-        }
-      ],
-      "text": "tumor",
-      "id": "e14"
+      "text": "laser irradiation",
+      "id": "e8"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1066,
@@ -222,12 +129,11 @@
         }
       ],
       "text": "photoacoustic imaging",
-      "id": "e15"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1084,
@@ -236,26 +142,11 @@
         }
       ],
       "text": "magnetic resonance imaging",
-      "id": "e16"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1138,
-          "char_end": 1151,
-          "turn_id": null
-        }
-      ],
-      "text": "Gd: CuS @ BSA",
-      "id": "e17"
+      "id": "e10"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1162,
@@ -264,26 +155,11 @@
         }
       ],
       "text": "PTT",
-      "id": "e18"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1322,
-          "char_end": 1335,
-          "turn_id": null
-        }
-      ],
-      "text": "Gd: CuS @ BSA",
-      "id": "e19"
+      "id": "e11"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "therapy",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1346,
@@ -292,68 +168,11 @@
         }
       ],
       "text": "PTT",
-      "id": "e20"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1390,
-          "char_end": 1398,
-          "turn_id": null
-        }
-      ],
-      "text": "toxicity",
-      "id": "e21"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1440,
-          "char_end": 1453,
-          "turn_id": null
-        }
-      ],
-      "text": "Gd: CuS @ BSA",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1750,
-          "char_end": 1763,
-          "turn_id": null
-        }
-      ],
-      "text": "Gd: CuS @ BSA",
-      "id": "e23"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1817,
-          "char_end": 1822,
-          "turn_id": null
-        }
-      ],
-      "text": "tumor",
-      "id": "e24"
+      "id": "e12"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1817,
@@ -362,7 +181,7 @@
         }
       ],
       "text": "tumor ablation",
-      "id": "e25"
+      "id": "e13"
     }
   ]
 }

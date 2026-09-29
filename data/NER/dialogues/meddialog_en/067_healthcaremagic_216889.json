@@ -1,0 +1,658 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:216889:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been taking 3- 4 hydrocodone tablets per day for approx 2 years (prescribed for fibromyalgia syndrome .) To detox, I went to a pain management clinic and was prescribed 0.1 mg. clonidine HCL TID the first day and was told to start buprenorphine 8-2 mg SL BID the following morning. I had to stop the suboxone after the first day as I developed severe itching (mostly face and scalp). I had two C-sections (the last in 2000) and experienced the same side effect (severe itching) after being given morphine. My questions: How long is typical for someone to detox from the amount of hydrocodone I was taking and length of time I was on it? Is it necessary to take both clonidine and suboxone to detox from hydrocodone? Can I detox on clonidine alone? Is severe itching a side effect of either/both suboxone and/or clonidine? Many thanks.\n[doctor] There are several stages in detox. For the acute withdrawal symptoms 1-2 weeks. But there are several other features of addiction such as the altered mentation, cravings, triggered use that require a longer period of time. clonidine helps some people with the initial symptoms of withdrawal (such as agitation, and goose flesh). But that is all clonidine does. Suboxone blocks the effects of other narcotics taken legally or illegally along with it. As such it provides a safe haven for evaluating ones relationship to narcotics. Severe itching is not a common reaction to either clonidine nor suboxone, but it is more common with suboxone.",
+  "entities": [
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 29,
+          "char_end": 33,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3- 4",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 34,
+          "char_end": 45,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydrocodone",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 46,
+          "char_end": 53,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablets",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 61,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 66,
+          "char_end": 80,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "approx 2 years",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 118,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fibromyalgia syndrome",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 130,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "detox",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 186,
+          "char_end": 193,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "0.1 mg.",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 207,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clonidine HCL",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 211,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "TID",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 212,
+          "char_end": 225,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "the first day",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 248,
+          "char_end": 261,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "buprenorphine",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 262,
+          "char_end": 268,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "8-2 mg",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 269,
+          "char_end": 271,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "SL",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 275,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BID",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 317,
+          "char_end": 325,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "suboxone",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 345,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "after the first day",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 368,
+          "char_end": 375,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 411,
+          "char_end": 421,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "C-sections",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 486,
+          "char_end": 493,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 513,
+          "char_end": 521,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "morphine",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 572,
+          "char_end": 577,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "detox",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 608,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydrocodone",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 683,
+          "char_end": 692,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clonidine",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 697,
+          "char_end": 705,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "suboxone",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 709,
+          "char_end": 714,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "detox",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 720,
+          "char_end": 731,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydrocodone",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 739,
+          "char_end": 744,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "detox",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 748,
+          "char_end": 757,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clonidine",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 775,
+          "char_end": 782,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 820,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "suboxone",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 828,
+          "char_end": 837,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "clonidine",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 889,
+          "char_end": 894,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "detox",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 904,
+          "char_end": 929,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "acute withdrawal symptoms",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 981,
+          "char_end": 990,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "addiction",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1003,
+          "char_end": 1020,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "altered mentation",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1022,
+          "char_end": 1030,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cravings",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1045,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "triggered use",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1084,
+          "char_end": 1093,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clonidine",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1129,
+          "char_end": 1151,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "symptoms of withdrawal",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1161,
+          "char_end": 1170,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "agitation",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1187,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "goose flesh",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1206,
+          "char_end": 1215,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clonidine",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1222,
+          "char_end": 1230,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Suboxone",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1259,
+          "char_end": 1268,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "narcotics",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1380,
+          "char_end": 1389,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "narcotics",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1398,
+          "char_end": 1405,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itching",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1450,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clonidine",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1455,
+          "char_end": 1463,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "suboxone",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1492,
+          "char_end": 1500,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "suboxone",
+      "id": "e50"
+    }
+  ]
+}

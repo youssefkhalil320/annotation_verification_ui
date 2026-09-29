@@ -1,0 +1,619 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:30276:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I am a 16 year old female.  I have been sick now for 5 months.  I have reoccurring bronchitis infection that has been going on for 5 months.  About 2 months ago, I was diagnosed with a psuedotumor from the medicine I was on, Tetracycline.  After I was off of the medicine, that went away, but I was still getting headaches.  They ordered an MRI or my head.  I have a sinus infection and cysts.  I also went to the allergist about 3 weeks ago.  She wanted to do another blood test.   During the 5 months, I have had 4 blood tests, but because I am allergic to Penicillin, Sulfa, and Tetracycline, they put me on prednisone, a flovent inhaler, albuteral, and a 6, 5, 4, 3, 2, 1 pack.  They are all steroids.  The allergist said that the steroids made the blood tests come back clear.  She ordered an immune system test and a CBC.  I am also having severe bone pain in my legs and itÃ¢??s not shin splints, thatÃ¢??s what my PT says.   I also expierence some bruising on my body when I wake up and I donÃ¢??t know where it comes from.  Also some lower abdominal pain like stabbing feeling.  Can you tell me what you think I have?? Or if im on the right track with the doctors??\n[doctor] You are on the right track, continue what you are doing. All the symptoms that you are currently having are due to the steroids, which are very powerful medications that will hopefully make you feel much better in the future. Continue to take them as prescribed. Bronchitis is an inflammatory disease of the lungs which is generally caused by an infection or a chemical irritant. Cough is usually the only symptom which can last for many months. In children and teenagers that get bronchitis, they should be screened for genetic and anatomic anomalies of the respiratory tract, immune systems, and for chronic asthma and allergies. Viruses such as RSV are very common at this time of the year. I would recommend frequency hand washing, update vaccinations, avoid smoking and secondhand smoking, control asthma and allergies if you have either of them, cough drops, double you fluid intake, continue the steroids, rest, treat acid reflux if you have it, tylenol for pain and headaches, bendaryl for sinus congestion, and the medications prescribed as above. You should also have an albuterol inhaler or nebulizer that you use daily.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 113,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bronchitis infection",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 206,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "psuedotumor",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 235,
+          "char_end": 247,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Tetracycline",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 332,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headaches",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 365,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI or my head",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 377,
+          "char_end": 392,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus infection",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 397,
+          "char_end": 402,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cysts",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 489,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood test",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 527,
+          "char_end": 538,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 569,
+          "char_end": 579,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Penicillin",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 581,
+          "char_end": 586,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 604,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Tetracycline",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 621,
+          "char_end": 631,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "prednisone",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 642,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flovent",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 643,
+          "char_end": 650,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 661,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "albuteral",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 706,
+          "char_end": 714,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroids",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 745,
+          "char_end": 753,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroids",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 763,
+          "char_end": 774,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 808,
+          "char_end": 826,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "immune system test",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 833,
+          "char_end": 836,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CBC",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 883,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bone pain in my legs",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 900,
+          "char_end": 912,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shin splints",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 966,
+          "char_end": 985,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bruising on my body",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1053,
+          "char_end": 1073,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower abdominal pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1313,
+          "char_end": 1321,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1457,
+          "char_end": 1467,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Bronchitis",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1540,
+          "char_end": 1549,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "infection",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1574,
+          "char_end": 1579,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Cough",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1675,
+          "char_end": 1685,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bronchitis",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1715,
+          "char_end": 1770,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "genetic and anatomic anomalies of the respiratory tract",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1796,
+          "char_end": 1810,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chronic asthma",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1815,
+          "char_end": 1824,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergies",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1937,
+          "char_end": 1949,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "vaccinations",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1957,
+          "char_end": 1964,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "smoking",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1969,
+          "char_end": 1987,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "secondhand smoking",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2008,
+          "char_end": 2017,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergies",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2097,
+          "char_end": 2105,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2119,
+          "char_end": 2130,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "acid reflux",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2147,
+          "char_end": 2154,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tylenol",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2159,
+          "char_end": 2163,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2168,
+          "char_end": 2177,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "headaches",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2179,
+          "char_end": 2187,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bendaryl",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2192,
+          "char_end": 2208,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sinus congestion",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2275,
+          "char_end": 2284,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "albuterol",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2285,
+          "char_end": 2292,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "inhaler",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2319,
+          "char_end": 2324,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "daily",
+      "id": "e47"
+    }
+  ]
+}

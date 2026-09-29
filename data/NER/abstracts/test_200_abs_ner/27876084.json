@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 29,
@@ -21,21 +20,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 123,
+          "char_start": 109,
           "char_end": 145,
           "turn_id": null
         }
       ],
-      "text": "fluid-sparing strategy",
+      "text": "goal-directed fluid-sparing strategy",
       "id": "e2"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 248,
@@ -49,21 +46,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 261,
+          "char_start": 248,
           "char_end": 274,
           "turn_id": null
         }
       ],
-      "text": "resuscitation",
+      "text": "septic shock resuscitation",
       "id": "e4"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 375,
@@ -77,7 +72,19 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 393,
+          "char_end": 412,
+          "turn_id": null
+        }
+      ],
+      "text": "intravascular fluid",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
       "spans": [
         {
           "char_start": 425,
@@ -86,12 +93,11 @@
         }
       ],
       "text": "vasoactive medication",
-      "id": "e6"
+      "id": "e7"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dosage_form",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 447,
@@ -100,26 +106,42 @@
         }
       ],
       "text": "infusions",
-      "id": "e7"
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
+        {
+          "char_start": 461,
+          "char_end": 471,
+          "turn_id": null
+        },
         {
           "char_start": 493,
           "char_end": 498,
           "turn_id": null
         }
       ],
-      "text": "shock",
-      "id": "e8"
+      "text": "persistent shock",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 498,
+          "turn_id": null
+        }
+      ],
+      "text": "fluid-refractory shock",
+      "id": "e10"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 570,
@@ -128,58 +150,28 @@
         }
       ],
       "text": "fluid administration",
-      "id": "e9"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 737,
-          "char_end": 749,
-          "turn_id": null
-        }
-      ],
-      "text": "septic shock",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "intervention",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 750,
-          "char_end": 763,
-          "turn_id": null
-        }
-      ],
-      "text": "resuscitation",
       "id": "e11"
     },
     {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "intervention",
-      "experiencer": "general",
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
       "spans": [
         {
-          "char_start": 791,
-          "char_end": 809,
+          "char_start": 689,
+          "char_end": 708,
           "turn_id": null
         }
       ],
-      "text": "vasoactive support",
+      "text": "intravascular fluid",
       "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1039,
-          "char_end": 1051,
+          "char_start": 737,
+          "char_end": 749,
           "turn_id": null
         }
       ],
@@ -189,21 +181,58 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1075,
-          "char_end": 1088,
+          "char_start": 737,
+          "char_end": 763,
           "turn_id": null
         }
       ],
-      "text": "resuscitation",
+      "text": "septic shock resuscitation",
       "id": "e14"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 809,
+          "turn_id": null
+        }
+      ],
+      "text": "vasoactive support",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1039,
+          "char_end": 1051,
+          "turn_id": null
+        }
+      ],
+      "text": "septic shock",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1067,
+          "char_end": 1088,
+          "turn_id": null
+        }
+      ],
+      "text": "ongoing resuscitation",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
       "spans": [
         {
           "char_start": 1248,
@@ -217,26 +246,11 @@
         }
       ],
       "text": "Fluid Sparing resuscitation strategy",
-      "id": "e15"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1966,
-          "char_end": 1979,
-          "turn_id": null
-        }
-      ],
-      "text": "cell-free DNA",
-      "id": "e16"
+      "id": "e18"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2155,
@@ -245,12 +259,11 @@
         }
       ],
       "text": "fluid resuscitation",
-      "id": "e17"
+      "id": "e19"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2207,
@@ -259,12 +272,11 @@
         }
       ],
       "text": "vasoactive support",
-      "id": "e18"
+      "id": "e20"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2295,
@@ -273,7 +285,7 @@
         }
       ],
       "text": "septic shock",
-      "id": "e19"
+      "id": "e21"
     }
   ]
 }

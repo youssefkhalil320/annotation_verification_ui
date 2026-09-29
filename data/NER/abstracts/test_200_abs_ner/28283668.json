@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 10,
@@ -20,8 +19,7 @@
     },
     {
       "coarse_type": "TEST",
-      "fine_type": "monitoring",
-      "experiencer": "other",
+      "fine_type": "exam",
       "spans": [
         {
           "char_start": 52,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 72,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 185,
@@ -62,8 +58,7 @@
     },
     {
       "coarse_type": "TEST",
-      "fine_type": "monitoring",
-      "experiencer": "other",
+      "fine_type": "exam",
       "spans": [
         {
           "char_start": 225,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 245,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 312,
@@ -103,23 +96,8 @@
       "id": "e7"
     },
     {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 339,
-          "char_end": 350,
-          "turn_id": null
-        }
-      ],
-      "text": "anaesthetic",
-      "id": "e8"
-    },
-    {
       "coarse_type": "TEST",
-      "fine_type": "monitoring",
-      "experiencer": "other",
+      "fine_type": "exam",
       "spans": [
         {
           "char_start": 370,
@@ -133,12 +111,11 @@
         }
       ],
       "text": "Oesophageal temperatures",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "TEST",
-      "fine_type": "monitoring",
-      "experiencer": "other",
+      "fine_type": "exam",
       "spans": [
         {
           "char_start": 386,
@@ -147,12 +124,11 @@
         }
       ],
       "text": "rectal temperatures",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 496,
@@ -161,12 +137,11 @@
         }
       ],
       "text": "lavaged",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 509,
@@ -175,12 +150,11 @@
         }
       ],
       "text": "200 ml/kg",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 527,
@@ -189,12 +163,11 @@
         }
       ],
       "text": "isotonic saline",
-      "id": "e13"
+      "id": "e12"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 687,
@@ -203,12 +176,11 @@
         }
       ],
       "text": "anaesthesia",
-      "id": "e14"
+      "id": "e13"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 724,
@@ -217,12 +189,11 @@
         }
       ],
       "text": "peritoneal lavage",
-      "id": "e15"
+      "id": "e14"
     },
     {
       "coarse_type": "TEST",
-      "fine_type": "monitoring",
-      "experiencer": "other",
+      "fine_type": "exam",
       "spans": [
         {
           "char_start": 820,
@@ -231,12 +202,24 @@
         }
       ],
       "text": "oesophageal temperature",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1115,
+          "turn_id": null
+        }
+      ],
+      "text": "rectal temperature",
       "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1202,
@@ -250,7 +233,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1236,

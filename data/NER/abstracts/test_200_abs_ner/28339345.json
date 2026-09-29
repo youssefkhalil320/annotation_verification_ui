@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,19 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "Lipotoxicity",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 70,
@@ -30,12 +41,11 @@
         }
       ],
       "text": "Hyperandrogenemia",
-      "id": "e2"
+      "id": "e3"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 102,
@@ -44,26 +54,24 @@
         }
       ],
       "text": "Polycystic Ovary Syndrome",
-      "id": "e3"
+      "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 158,
-          "char_end": 199,
+          "char_end": 205,
           "turn_id": null
         }
       ],
-      "text": "higher levels of Alanine aminotransferase",
-      "id": "e4"
+      "text": "higher levels of Alanine aminotransferase (ALT)",
+      "id": "e5"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 175,
@@ -72,54 +80,50 @@
         }
       ],
       "text": "Alanine aminotransferase (ALT)",
-      "id": "e5"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 220,
-          "char_end": 245,
-          "turn_id": null
-        }
-      ],
-      "text": "polycystic ovary syndrome",
       "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 247,
-          "char_end": 251,
+          "char_start": 220,
+          "char_end": 252,
           "turn_id": null
         }
       ],
-      "text": "PCOS",
+      "text": "polycystic ovary syndrome (PCOS)",
       "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 285,
+          "char_start": 292,
           "char_end": 302,
           "turn_id": null
         }
       ],
-      "text": "Plasma ALT levels",
+      "text": "ALT levels",
       "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 350,
+          "turn_id": null
+        }
+      ],
+      "text": "hepatic lipotoxicity",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 448,
@@ -128,12 +132,11 @@
         }
       ],
       "text": "hepatic steatosis",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 470,
@@ -142,12 +145,11 @@
         }
       ],
       "text": "hepatic insulin resistance",
-      "id": "e10"
+      "id": "e11"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 546,
@@ -156,12 +158,11 @@
         }
       ],
       "text": "PCOS",
-      "id": "e11"
+      "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 583,
@@ -170,12 +171,11 @@
         }
       ],
       "text": "ALT levels",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 701,
@@ -184,12 +184,11 @@
         }
       ],
       "text": "oral glucose tolerance test",
-      "id": "e13"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 751,
@@ -198,12 +197,11 @@
         }
       ],
       "text": "PCOS",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 804,
@@ -212,40 +210,24 @@
         }
       ],
       "text": "body mass index",
-      "id": "e15"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 850,
-          "char_end": 868,
-          "turn_id": null
-        }
-      ],
-      "text": "metabolic syndrome",
       "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 870,
-          "char_end": 874,
+          "char_start": 850,
+          "char_end": 875,
           "turn_id": null
         }
       ],
-      "text": "MetS",
+      "text": "metabolic syndrome (MetS)",
       "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 877,
@@ -259,7 +241,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 923,
@@ -273,7 +254,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 998,
@@ -287,7 +267,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1028,
@@ -301,7 +280,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1062,
@@ -315,7 +293,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1124,
@@ -329,7 +306,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1174,
@@ -343,7 +319,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1194,
@@ -357,21 +332,19 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1215,
-          "char_end": 1218,
+          "char_end": 1225,
           "turn_id": null
         }
       ],
-      "text": "ALT",
+      "text": "ALT cutoff",
       "id": "e26"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1287,
@@ -385,7 +358,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1319,
@@ -399,7 +371,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1385,
@@ -413,7 +384,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1423,
@@ -427,7 +397,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1454,
@@ -441,21 +410,32 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1520,
+          "char_start": 1527,
           "char_end": 1537,
           "turn_id": null
         }
       ],
-      "text": "Plasma ALT levels",
+      "text": "ALT levels",
       "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 1580,
+          "char_end": 1598,
+          "turn_id": null
+        }
+      ],
+      "text": "liver lipotoxicity",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 1647,
@@ -464,12 +444,11 @@
         }
       ],
       "text": "hyperandrogenemia",
-      "id": "e33"
+      "id": "e34"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1679,
@@ -478,21 +457,20 @@
         }
       ],
       "text": "PCOS",
-      "id": "e34"
+      "id": "e35"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1738,
-          "char_end": 1741,
+          "char_end": 1748,
           "turn_id": null
         }
       ],
-      "text": "ALT",
-      "id": "e35"
+      "text": "ALT cutoff",
+      "id": "e36"
     }
   ]
 }

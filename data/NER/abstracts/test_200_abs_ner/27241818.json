@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 278,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 336,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 348,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 837,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1044,
@@ -75,9 +70,21 @@
       "id": "e5"
     },
     {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1093,
+          "char_end": 1128,
+          "turn_id": null
+        }
+      ],
+      "text": "intramuscular metabolic disturbance",
+      "id": "e6"
+    },
+    {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1406,
@@ -86,12 +93,11 @@
         }
       ],
       "text": "intrathecal",
-      "id": "e6"
+      "id": "e7"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1418,
@@ -100,26 +106,24 @@
         }
       ],
       "text": "fentanyl",
-      "id": "e7"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1481,
-          "char_end": 1513,
-          "turn_id": null
-        }
-      ],
-      "text": "Vastus lateralis muscle biopsies",
       "id": "e8"
     },
     {
       "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1498,
+          "char_end": 1513,
+          "turn_id": null
+        }
+      ],
+      "text": "muscle biopsies",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1609,
@@ -128,12 +132,24 @@
         }
       ],
       "text": "vastus lateralis surface electromyography (EMG)",
-      "id": "e9"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
+      "spans": [
+        {
+          "char_start": 1688,
+          "char_end": 1713,
+          "turn_id": null
+        }
+      ],
+      "text": "intramuscular metabolites",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
           "char_start": 1737,
@@ -147,12 +163,11 @@
         }
       ],
       "text": "liquid chromatography-mass spectrometry",
-      "id": "e10"
+      "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1748,
@@ -161,12 +176,11 @@
         }
       ],
       "text": "gas chromatography-mass spectrometry",
-      "id": "e11"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "symptom",
-      "experiencer": "other",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 1786,
@@ -175,12 +189,11 @@
         }
       ],
       "text": "Quadriceps fatigue",
-      "id": "e12"
+      "id": "e14"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1859,
@@ -189,12 +202,11 @@
         }
       ],
       "text": "potentiated quadriceps twitch torque (ΔQTsingle)",
-      "id": "e13"
+      "id": "e15"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1918,
@@ -203,83 +215,63 @@
         }
       ],
       "text": "electrical femoral nerve stimulation",
-      "id": "e14"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 2278,
-          "char_end": 2303,
-          "turn_id": null
-        },
-        {
-          "char_start": 2331,
-          "char_end": 2352,
-          "turn_id": null
-        }
-      ],
-      "text": "increase in intramuscular adenosine diphosphate",
-      "id": "e15"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 2278,
-          "char_end": 2303,
-          "turn_id": null
-        },
-        {
-          "char_start": 2354,
-          "char_end": 2361,
-          "turn_id": null
-        }
-      ],
-      "text": "increase in intramuscular lactate",
       "id": "e16"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
+      "coarse_type": "TEST",
+      "fine_type": "lab",
       "spans": [
         {
-          "char_start": 2278,
-          "char_end": 2303,
+          "char_start": 2290,
+          "char_end": 2323,
           "turn_id": null
-        },
+        }
+      ],
+      "text": "intramuscular inorganic phosphate",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
         {
           "char_start": 2325,
           "char_end": 2329,
           "turn_id": null
         }
       ],
-      "text": "increase in intramuscular H(+)",
-      "id": "e17"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 2278,
-          "char_end": 2323,
-          "turn_id": null
-        }
-      ],
-      "text": "increase in intramuscular inorganic phosphate",
+      "text": "H(+)",
       "id": "e18"
     },
     {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2331,
+          "char_end": 2352,
+          "turn_id": null
+        }
+      ],
+      "text": "adenosine diphosphate",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2354,
+          "char_end": 2361,
+          "turn_id": null
+        }
+      ],
+      "text": "lactate",
+      "id": "e20"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 2366,
@@ -288,12 +280,11 @@
         }
       ],
       "text": "phosphocreatine depletion",
-      "id": "e19"
+      "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 2495,
@@ -302,12 +293,37 @@
         }
       ],
       "text": "ΔQTsingle",
-      "id": "e20"
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2644,
+          "char_end": 2663,
+          "turn_id": null
+        }
+      ],
+      "text": "inorganic phosphate",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2692,
+          "char_end": 2696,
+          "turn_id": null
+        }
+      ],
+      "text": "H(+)",
+      "id": "e24"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 3054,
@@ -316,7 +332,7 @@
         }
       ],
       "text": "peripheral fatigue",
-      "id": "e21"
+      "id": "e25"
     }
   ]
 }

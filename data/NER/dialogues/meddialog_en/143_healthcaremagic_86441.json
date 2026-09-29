@@ -1,0 +1,725 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:86441:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] In the last month I have been constantly nauseous. I have to make myself eat. I have lost 25 lbs. It all started one day when I was walking around having a good time at a casino (no alcohol). I had a terrible cramping feeling on my right side under my rib that went all the way through my back. I broke out into a sweat. This lasted about 30 minutes. I was weak and just felt like laying down. I had eggs and sausage and pancakes for breakfast that morning. I went to the restroom, and urinated an odd orangish color. I let it go until about a week later I noticed that i was passing undigested food through my bowels and having nausea. I felt terrible like I was going to die. I then went to the E.R. 3 times in 4 days. No answers. Now my pain is pretty much constant under the right rib. If I take a pain killer like hydrocodone it actually makes the area cramp more. So.....at one of my E.R. visits they checked my urine, and it showed high bilirubin level. A blood test did not show high bilirubin. I have belching (not normal for me), diarrhea, tongue coating is usually white or yellow, passing undigested foods, especially items like beans, yellow stool color, nausea, and bloating. I also have tenderness to the touch under the right rib area. Tests I have had.....CT no dye, upper abdominal ultrasound, Hida Scan with CCK, blood tests, urine tests. The only thing that ever showed anything it shouldn t was the urine have bilirubin. The rest of the tests are showing normal. The gallbladder hida scan showed ejection fraction of 59%. How am I having all the symptoms of gallbladder problems, and the tests aren t showing it. What does this sound like to you? Please give me a suggestion as to what else it may be, or other tests you feel would be needed to find the problem.\n[doctor] Hi.Thanks for your query. Read and understood your history and query. You have nausea for 1 month, a long time to keep you from a proper diagnosis; lost weight, have cramping in the right side under the rib, that is referred to the back, sweating, orange urine in the beginning. This followed after 1 week with undigested food in the stools and nausea, 3 ER visits, Hydrocodone increases pain, Urine shows raised bilirubin, coated tongue, all other tests are normal,.All the history together shows that there may be a problem of hepatitis or cholangitis or Sphincter of Oddi dysfunction. Sometimes you need to undergo repeat tests as sometimes the tests may not show the problem. I would advise the following:Get the full liver profile including GGT, this may give a clue. Therapeutic trial with an antibiotic and metronidazole may help to get well. Avoid food rich in fat and oil. Get an opinion of hepatobiliary Specialist.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 59,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nauseous",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 106,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost 25 lbs",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 199,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "alcohol",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 303,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cramping feeling on my right side under my rib that went all the way through my back",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 329,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "broke out into a sweat",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 367,
+          "char_end": 371,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weak",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 496,
+          "char_end": 526,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urinated an odd orangish color",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 586,
+          "char_end": 627,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "passing undigested food through my bowels",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 639,
+          "char_end": 645,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 754,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 812,
+          "char_end": 823,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain killer",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 829,
+          "char_end": 840,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydrocodone",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 863,
+          "char_end": 873,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "area cramp",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 917,
+          "char_end": 933,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "checked my urine",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 949,
+          "char_end": 969,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high bilirubin level",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 954,
+          "char_end": 969,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bilirubin level",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 973,
+          "char_end": 983,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood test",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1002,
+          "char_end": 1011,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bilirubin",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1020,
+          "char_end": 1028,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "belching",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1050,
+          "char_end": 1058,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1060,
+          "char_end": 1074,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tongue coating",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1103,
+          "char_end": 1127,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "passing undigested foods",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1158,
+          "char_end": 1176,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "yellow stool color",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1178,
+          "char_end": 1184,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1190,
+          "char_end": 1198,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloating",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1212,
+          "char_end": 1260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tenderness to the touch under the right rib area",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1283,
+          "char_end": 1285,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1289,
+          "char_end": 1292,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CT dye",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1294,
+          "char_end": 1320,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "upper abdominal ultrasound",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1322,
+          "char_end": 1340,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hida Scan with CCK",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1353,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1355,
+          "char_end": 1366,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine tests",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1435,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1441,
+          "char_end": 1450,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine bilirubin",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1450,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bilirubin",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1498,
+          "char_end": 1519,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gallbladder hida scan",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1589,
+          "char_end": 1609,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gallbladder problems",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1882,
+          "char_end": 1888,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nausea",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1951,
+          "char_end": 1962,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lost weight",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1969,
+          "char_end": 2015,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2019,
+          "char_end": 2039,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cramping in the right side under the rib, that referred to the back",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2041,
+          "char_end": 2049,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sweating",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2051,
+          "char_end": 2063,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "orange urine",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2114,
+          "char_end": 2143,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "undigested food in the stools",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2148,
+          "char_end": 2154,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "nausea",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2169,
+          "char_end": 2180,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Hydrocodone",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2191,
+          "char_end": 2195,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2197,
+          "char_end": 2202,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Urine",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2209,
+          "char_end": 2225,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "raised bilirubin",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2216,
+          "char_end": 2225,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bilirubin",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2227,
+          "char_end": 2240,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "coated tongue",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2332,
+          "char_end": 2341,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hepatitis",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2345,
+          "char_end": 2356,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cholangitis",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2360,
+          "char_end": 2389,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Sphincter of Oddi dysfunction",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2520,
+          "char_end": 2552,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "full liver profile including GGT",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2602,
+          "char_end": 2612,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2617,
+          "char_end": 2630,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "metronidazole",
+      "id": "e54"
+    }
+  ]
+}

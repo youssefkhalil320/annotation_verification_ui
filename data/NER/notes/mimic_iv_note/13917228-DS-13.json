@@ -1,0 +1,876 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:13917228-DS-13:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nmetoclopramide\n\nChief Complaint:\nESRD\n\nHistory of Present Illness:\n___ woman with type 1 diabetes and chronic kidney \ndisease who presents for living donor transplant.  Donor and \nrecipient are ABO compatible and\nthis was verified and documented pretransplant.\n\nBrief Hospital Course:\nOn ___, she underwent living donor kidney transplant using \nleft donor kidney\nto left iliac fossa. Surgeon was Dr. ___. Please refer \nto operative note for complete details. She received induction \nimmunosuppression that consisted of solumedrol, thymoglobulin, \nand  mycophenolate.\n\nPostop, urine output was excellent with daily increase. IV fluid \nhydration was matched then tapered off. The foley was removed on \npostop day 3 and she voided without further incident. Creatinine \ndecreased to a low of 1.4 on ___ then increased to 1.6-1.7. It \nfurther increased to 2.0 on ___ when Tacrolimus trough  was \nsupratherapeutic to 17.8. Two dose of tacrolimus were held and \nthen it was resumed for level of 11.7. Creatinine decreased to \n1.8. \n\nShe received a total of 3 doses of Thymoglobulin (100mg each \ndose). Steroids were tapered off, mycophenolate mofetil was \nchanged to mycophenolate sodium for nausea related side effects. \nTacrolimus was started with daily dose adjustments per trough \nlevels.\n\nOf note, she had an episode of chest pain without ekg changes on \n___. Cardiac enzymes were cycled and were wnl. Chest pain \nresolved and was attributed to gastroparesis symptoms. \n\nBP was elevated and metoprolol was initially used without much \nimprovement. Carvedilol was started at 12.5 bid then increased \nto 25mg bid. On the day of discharge to home, sbp ranged between \na high of 191/116  (lying)to 109/73-114/77 with heart rates in \nthe ___. Weight was 65.7 on admission which decreased to 60kg on \n___. Oral intake was excellent. She was encouraged to drink a \nvariety of fluids other than plain water. \n\nAlthough, her intermittent nausea/gas was likely related to her \ngastroparesis symptoms for which she was given zofran and ativan \nwith some relief. A bowel regimen was started that included \nLinzess. She was passing flatus and had a BM on ___. Abdomen \nwas distended per patient report, but appeared non-distended \n(thin patient). \n\nDiet was advanced. She was hyperglycemic initially postop \nrequiring an insulin drip. This was changed to Tresiba with \nfixed humalog doses to cover meals with a humalog sliding scale. \n___ providers adjusted her insulin daily. She had a \nlow of 40 in the afternoon on the day of discharge after taking \n5 units of humalog for a glucose in the high 200s. She received \n1 amp of dextrose with increase in glucose. Patient reported \nthat she probably didn't eat as much as she thought that she \ndid. \n\nShe was assisted out of bed and quickly became independent with \nambulation. Oral pain medication was given with good pain \ncontrol. \n\nIncision was intact without redness or drainage. \n\nShe was discharged to home with her family and ___ arranged to \nfollow her.\n\nDischarge Diagnosis:\nESRD s/p kidney transplant\nDM\nGastroparesis",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 25,
+          "turn_id": null
+        }
+      ],
+      "text": "metoclopramide",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 48,
+          "turn_id": null
+        }
+      ],
+      "text": "ESRD",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 93,
+          "char_end": 108,
+          "turn_id": null
+        }
+      ],
+      "text": "type 1 diabetes",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 136,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic kidney \ndisease",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 177,
+          "turn_id": null
+        }
+      ],
+      "text": "living donor transplant",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 348,
+          "turn_id": null
+        }
+      ],
+      "text": "living donor kidney transplant",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 483,
+          "char_end": 511,
+          "turn_id": null
+        }
+      ],
+      "text": "induction \nimmunosuppression",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 540,
+          "turn_id": null
+        }
+      ],
+      "text": "solumedrol",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 555,
+          "turn_id": null
+        }
+      ],
+      "text": "thymoglobulin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 563,
+          "char_end": 576,
+          "turn_id": null
+        }
+      ],
+      "text": "mycophenolate",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "monitoring",
+      "spans": [
+        {
+          "char_start": 587,
+          "char_end": 599,
+          "turn_id": null
+        }
+      ],
+      "text": "urine output",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 635,
+          "char_end": 637,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 775,
+          "turn_id": null
+        }
+      ],
+      "text": "Creatinine",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 878,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "Tacrolimus",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 878,
+          "char_end": 895,
+          "turn_id": null
+        }
+      ],
+      "text": "Tacrolimus trough",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 940,
+          "char_end": 950,
+          "turn_id": null
+        }
+      ],
+      "text": "tacrolimus",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1005,
+          "char_end": 1015,
+          "turn_id": null
+        }
+      ],
+      "text": "Creatinine",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1072,
+          "char_end": 1085,
+          "turn_id": null
+        }
+      ],
+      "text": "Thymoglobulin",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1103,
+          "turn_id": null
+        }
+      ],
+      "text": "100mg each \ndose",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1106,
+          "char_end": 1114,
+          "turn_id": null
+        }
+      ],
+      "text": "Steroids",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1133,
+          "char_end": 1154,
+          "turn_id": null
+        }
+      ],
+      "text": "mycophenolate mofetil",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1171,
+          "char_end": 1191,
+          "turn_id": null
+        }
+      ],
+      "text": "mycophenolate sodium",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1196,
+          "char_end": 1202,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1226,
+          "char_end": 1236,
+          "turn_id": null
+        }
+      ],
+      "text": "Tacrolimus",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1329,
+          "char_end": 1339,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1348,
+          "char_end": 1351,
+          "turn_id": null
+        }
+      ],
+      "text": "ekg",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1369,
+          "char_end": 1384,
+          "turn_id": null
+        }
+      ],
+      "text": "Cardiac enzymes",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1411,
+          "char_end": 1421,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1454,
+          "char_end": 1467,
+          "turn_id": null
+        }
+      ],
+      "text": "gastroparesis",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1454,
+          "char_end": 1467,
+          "turn_id": null
+        }
+      ],
+      "text": "gastroparesis",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1480,
+          "char_end": 1482,
+          "turn_id": null
+        },
+        {
+          "char_start": 1487,
+          "char_end": 1495,
+          "turn_id": null
+        }
+      ],
+      "text": "BP elevated",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1480,
+          "char_end": 1482,
+          "turn_id": null
+        }
+      ],
+      "text": "BP",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1500,
+          "char_end": 1510,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1557,
+          "char_end": 1567,
+          "turn_id": null
+        }
+      ],
+      "text": "Carvedilol",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1588,
+          "char_end": 1591,
+          "turn_id": null
+        }
+      ],
+      "text": "bid",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1611,
+          "char_end": 1615,
+          "turn_id": null
+        }
+      ],
+      "text": "25mg",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1616,
+          "char_end": 1619,
+          "turn_id": null
+        }
+      ],
+      "text": "bid",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1654,
+          "char_end": 1657,
+          "turn_id": null
+        }
+      ],
+      "text": "sbp",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1722,
+          "char_end": 1733,
+          "turn_id": null
+        }
+      ],
+      "text": "heart rates",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1747,
+          "char_end": 1753,
+          "turn_id": null
+        }
+      ],
+      "text": "Weight",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1809,
+          "char_end": 1813,
+          "turn_id": null
+        }
+      ],
+      "text": "Oral",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1938,
+          "char_end": 1944,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1976,
+          "char_end": 1989,
+          "turn_id": null
+        }
+      ],
+      "text": "gastroparesis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2023,
+          "char_end": 2029,
+          "turn_id": null
+        }
+      ],
+      "text": "zofran",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2034,
+          "char_end": 2040,
+          "turn_id": null
+        }
+      ],
+      "text": "ativan",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2103,
+          "char_end": 2110,
+          "turn_id": null
+        }
+      ],
+      "text": "Linzess",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2272,
+          "char_end": 2285,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperglycemic",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2317,
+          "char_end": 2324,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 2325,
+          "char_end": 2329,
+          "turn_id": null
+        }
+      ],
+      "text": "drip",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2351,
+          "char_end": 2358,
+          "turn_id": null
+        }
+      ],
+      "text": "Tresiba",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2371,
+          "char_end": 2378,
+          "turn_id": null
+        }
+      ],
+      "text": "humalog",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2407,
+          "char_end": 2414,
+          "turn_id": null
+        }
+      ],
+      "text": "humalog",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2458,
+          "char_end": 2465,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2549,
+          "char_end": 2556,
+          "turn_id": null
+        }
+      ],
+      "text": "5 units",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2560,
+          "char_end": 2567,
+          "turn_id": null
+        }
+      ],
+      "text": "humalog",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2574,
+          "char_end": 2581,
+          "turn_id": null
+        },
+        {
+          "char_start": 2589,
+          "char_end": 2598,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose high 200s",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2574,
+          "char_end": 2581,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2614,
+          "char_end": 2619,
+          "turn_id": null
+        }
+      ],
+      "text": "1 amp",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2623,
+          "char_end": 2631,
+          "turn_id": null
+        }
+      ],
+      "text": "dextrose",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2649,
+          "char_end": 2656,
+          "turn_id": null
+        }
+      ],
+      "text": "glucose",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2827,
+          "char_end": 2842,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medication",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2908,
+          "char_end": 2915,
+          "turn_id": null
+        }
+      ],
+      "text": "redness",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2919,
+          "char_end": 2927,
+          "turn_id": null
+        }
+      ],
+      "text": "drainage",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3029,
+          "char_end": 3033,
+          "turn_id": null
+        }
+      ],
+      "text": "ESRD",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3056,
+          "char_end": 3058,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3059,
+          "char_end": 3072,
+          "turn_id": null
+        }
+      ],
+      "text": "Gastroparesis",
+      "id": "e66"
+    }
+  ]
+}

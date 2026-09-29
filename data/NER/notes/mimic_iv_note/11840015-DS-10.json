@@ -1,0 +1,1503 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11840015-DS-10:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\namoxicillin\n\nChief Complaint:\nBacteremia\n\nHistory of Present Illness:\nMs. ___ is a ___ woman with a history of bicuspid \naortic valve who presented to the emergency department on ___ at ___ having been referred for evaluation of \npossible endocarditis.\n     \nPer OSH records, she states that on ___, she began to feel \nill. At that time, she began to feel woozy and dizzy and she \ndeveloped substernal chest tightness with deep breathing.\nShe also developed myalgias, fevers, chills, and headache. Her \nfevers were low grade, 100-101, and primarily at night. She was \nalso feeling fatigued. By ___, she presented to the Urgent \n___ evaluation. She underwent comprehensive \nevaluation, including testing for mono, Lyme disease, and other \nillnesses, although blood cultures were not done. She was \ndiagnosed with a viral syndrome.\n\nOver the next several days, she continued to feel ill and the \nsame symptoms persisted. She had several outpatient evaluations \nand on ___, blood cultures were obtained.  Within 48 \nhours, these were positive, and she was referred for \nechocardiogram. TTE was done as an outpatient, vegetation was \nnot seen, but there was noted to be a pericardial effusion. She \nwas then referred to the Emergency Department for admission. She \nwas started on antibiotic therapy with ceftriaxone. She \nunderwent TEE on ___ and no vegetation was seen but there was a \npossible small aortic root abscess.\n\nOutside hospital results\n========================================\nOSH ___ labs: AST 58 and ALT 146, bilirubin and alkaline \nphosphatase normal.  \n\nOSH ___ \n+ CBC, WBC 6.8, H/H 11.8/35.1, Plt 378\n+ LFTs,  ALT 39 AST 22 Alkphos 75 Tbili <0.2\n+ Chem 10: Na 140 K 4.3  Cl 100 HCO3 25 BUN 12, creatinine 0.7, \nCa 9.4\n+ Albumin 3.9\n+ Lactate 0.5.\n+ ESR 36\n     \nImaging:\n___ - TTE showed no valvular evidence of endocarditis, \nsmall-moderate pericardial effusion.\n___ - TEE showed no valve evidence of endocarditis, but \npossible small aortic root abscess.\n     \nMICRO:\n___ Blood culturesx1 set grew alpha hemolytic strep in 2 of 2 \nbottles.  \n___, rapid influenza PCR negative; \n___ blood cultures x2, ___ bottles growing gram-positive cocci \nin chains.\n___ Blood culture with streptococcus anginosus\n====================================================\n\nShe was thus transferred to ___ for further evaluation\nOn arrival at ___ patient reports some chest tightness but \noverall reports feeling better than initial presentation to ED. \nShe denies any fevers. She reports recent dental procedure ___ \nwhereby she has not been required to use antibiotics. \n\nREVIEW OF SYSTEMS: She reports a 5-pound weight loss during this \nillness. She denies lymphadenopathy, cough, vomiting, hematuria, \nrash, or joint swelling.\n\nBrief Hospital Course:\nMs. ___ is a ___ woman with a history of bicuspid \naortic valve who presented as a transfer from OSH with concern \nfor subacute endocarditis and positive blood cultures, \ncomplicated by TEE with concern for an aortic root abscess.\n\n# Bacteremia: Patient presented with bacteremia after systemic \nsymptoms of fevers, weakness for the past few weeks. Blood \ncultures at OSH positive for gram cocci in chains with TEE \nconcerning for aortic root abscess. No prosthetic devices or \nhardware. No abdominal pain, or CVA tenderness. However recent \ndental procedure on ___ which could have led to infection. \nShe has been on ceftriaxone at OSH (day 1: ___ and this \nwas continued given sensitivities showing organism to strep \naginosus which was pansensitive. Cardiac surgery was consulted \nat ___ who recommended repeat TEE. Repeat TEE showed no \nevidence of vegetation. Though she had 1 major and 2 minor \nDuke's criteria that is not definitive for endocarditis, she did \nhave bacteremia of unknown duration and has a predisposing risk \nfactor (bicuspid AV). Given this, our ID team advised treatment \nfor a minimum of 3 weeks of therapy. The infectious disease \nphysicians recommended ceftriaxone 2g IV q24 with end date of \n___. \n\n# Pericardial effusion: OSH echo with small pericardial \neffusion. Patient was stable with no symptoms or evidence of \nworsening effusion. Pulsus <10. No pericardial effusion on ___ \nTEE. \n\nTransitional issues\n====================\nNEW MEDICATIONS:\n- Ceftriaxone 2g IV q24h, start date: ___, end date: ___\n\nSTOPPED MEDICATIONS:\n- None\n\nCHANGED MEDICATIONS:\n- None\n\nTo dos:\n[ ] Will need infectious disease follow up - will be scheduled \nby ___ ID department. \n[ ] ___ Labs\nALL LAB RESULTS SHOULD BE SENT TO:\nATTN: ___ CLINIC - FAX: ___\nCEFTRIAXONE: WEEKLY: CBC with differential, BUN, Cr, AST, ALT,\nTotal Bili, ALK PHOS\n[ ] Follow up with a repeat ECHO 2 months after discharge. Will \nfollow closely with outpatient cardiologist Dr. ___. Please \nconsider cardiac MRI for further evaluation of valve. \n[ ] All questions regarding outpatient parenteral antibiotics \nafter\ndischarge should be directed to the ___ R.N.s at\n___ or to the on-call ID fellow when the clinic is\nclosed.\n\n#CODE: Full code\n#COMMUNICATION: Husband ___ ___\n\nDischarge Diagnosis:\nPrimary diagnosis\nBacteremia\nBicuspid aortic valve",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "amoxicillin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 51,
+          "turn_id": null
+        }
+      ],
+      "text": "Bacteremia",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 122,
+          "char_end": 144,
+          "turn_id": null
+        }
+      ],
+      "text": "bicuspid \naortic valve",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 262,
+          "turn_id": null
+        }
+      ],
+      "text": "endocarditis",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 367,
+          "char_end": 372,
+          "turn_id": null
+        }
+      ],
+      "text": "woozy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 377,
+          "char_end": 382,
+          "turn_id": null
+        }
+      ],
+      "text": "dizzy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 402,
+          "char_end": 448,
+          "turn_id": null
+        }
+      ],
+      "text": "substernal chest tightness with deep breathing",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 469,
+          "char_end": 477,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 485,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 487,
+          "char_end": 493,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 499,
+          "char_end": 507,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 520,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 600,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigued",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 718,
+          "char_end": 722,
+          "turn_id": null
+        }
+      ],
+      "text": "mono",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 724,
+          "char_end": 736,
+          "turn_id": null
+        }
+      ],
+      "text": "Lyme disease",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 769,
+          "char_end": 783,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 839,
+          "turn_id": null
+        }
+      ],
+      "text": "viral syndrome",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 910,
+          "char_end": 918,
+          "turn_id": null
+        }
+      ],
+      "text": "symptoms",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 982,
+          "char_end": 996,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1078,
+          "char_end": 1092,
+          "turn_id": null
+        }
+      ],
+      "text": "echocardiogram",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1094,
+          "char_end": 1097,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1125,
+          "char_end": 1135,
+          "turn_id": null
+        }
+      ],
+      "text": "vegetation",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1179,
+          "char_end": 1199,
+          "turn_id": null
+        }
+      ],
+      "text": "pericardial effusion",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1287,
+          "char_end": 1297,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1311,
+          "char_end": 1322,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1339,
+          "char_end": 1342,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1357,
+          "char_end": 1367,
+          "turn_id": null
+        }
+      ],
+      "text": "vegetation",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1409,
+          "char_end": 1428,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic root abscess",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1511,
+          "char_end": 1514,
+          "turn_id": null
+        }
+      ],
+      "text": "AST",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1522,
+          "char_end": 1525,
+          "turn_id": null
+        }
+      ],
+      "text": "ALT",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1531,
+          "char_end": 1540,
+          "turn_id": null
+        }
+      ],
+      "text": "bilirubin",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1545,
+          "char_end": 1566,
+          "turn_id": null
+        }
+      ],
+      "text": "alkaline \nphosphatase",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1589,
+          "char_end": 1592,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1594,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1603,
+          "char_end": 1606,
+          "turn_id": null
+        }
+      ],
+      "text": "H/H",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1618,
+          "char_end": 1621,
+          "turn_id": null
+        }
+      ],
+      "text": "Plt",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1628,
+          "char_end": 1632,
+          "turn_id": null
+        }
+      ],
+      "text": "LFTs",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1635,
+          "char_end": 1638,
+          "turn_id": null
+        }
+      ],
+      "text": "ALT",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1642,
+          "char_end": 1645,
+          "turn_id": null
+        }
+      ],
+      "text": "AST",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1649,
+          "char_end": 1656,
+          "turn_id": null
+        }
+      ],
+      "text": "Alkphos",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1660,
+          "char_end": 1665,
+          "turn_id": null
+        }
+      ],
+      "text": "Tbili",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1673,
+          "char_end": 1680,
+          "turn_id": null
+        }
+      ],
+      "text": "Chem 10",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1682,
+          "char_end": 1684,
+          "turn_id": null
+        }
+      ],
+      "text": "Na",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1689,
+          "char_end": 1690,
+          "turn_id": null
+        }
+      ],
+      "text": "K",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1696,
+          "char_end": 1698,
+          "turn_id": null
+        }
+      ],
+      "text": "Cl",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1703,
+          "char_end": 1707,
+          "turn_id": null
+        }
+      ],
+      "text": "HCO3",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1711,
+          "char_end": 1714,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1729,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1736,
+          "char_end": 1738,
+          "turn_id": null
+        }
+      ],
+      "text": "Ca",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1745,
+          "char_end": 1752,
+          "turn_id": null
+        }
+      ],
+      "text": "Albumin",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1759,
+          "char_end": 1766,
+          "turn_id": null
+        }
+      ],
+      "text": "Lactate",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1774,
+          "char_end": 1777,
+          "turn_id": null
+        }
+      ],
+      "text": "ESR",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1802,
+          "char_end": 1805,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1837,
+          "char_end": 1849,
+          "turn_id": null
+        }
+      ],
+      "text": "endocarditis",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1867,
+          "char_end": 1887,
+          "turn_id": null
+        }
+      ],
+      "text": "pericardial effusion",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1895,
+          "char_end": 1898,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1927,
+          "char_end": 1939,
+          "turn_id": null
+        }
+      ],
+      "text": "endocarditis",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1961,
+          "char_end": 1980,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic root abscess",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1999,
+          "char_end": 2015,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood culturesx1",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2074,
+          "char_end": 2093,
+          "turn_id": null
+        }
+      ],
+      "text": "rapid influenza PCR",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2109,
+          "char_end": 2123,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2476,
+          "char_end": 2482,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2614,
+          "char_end": 2633,
+          "turn_id": null
+        }
+      ],
+      "text": "5-pound weight loss",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2667,
+          "char_end": 2682,
+          "turn_id": null
+        }
+      ],
+      "text": "lymphadenopathy",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2684,
+          "char_end": 2689,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2691,
+          "char_end": 2699,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2701,
+          "char_end": 2710,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2713,
+          "char_end": 2717,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2722,
+          "char_end": 2736,
+          "turn_id": null
+        }
+      ],
+      "text": "joint swelling",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2803,
+          "char_end": 2825,
+          "turn_id": null
+        }
+      ],
+      "text": "bicuspid \naortic valve",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2881,
+          "char_end": 2902,
+          "turn_id": null
+        }
+      ],
+      "text": "subacute endocarditis",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2916,
+          "char_end": 2930,
+          "turn_id": null
+        }
+      ],
+      "text": "blood cultures",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2948,
+          "char_end": 2951,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2972,
+          "char_end": 2991,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic root abscess",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2996,
+          "char_end": 3006,
+          "turn_id": null
+        }
+      ],
+      "text": "Bacteremia",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3031,
+          "char_end": 3041,
+          "turn_id": null
+        }
+      ],
+      "text": "bacteremia",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3070,
+          "char_end": 3076,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3078,
+          "char_end": 3086,
+          "turn_id": null
+        }
+      ],
+      "text": "weakness",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3111,
+          "char_end": 3126,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood \ncultures",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3173,
+          "char_end": 3176,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3193,
+          "char_end": 3212,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic root abscess",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3253,
+          "char_end": 3267,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3272,
+          "char_end": 3286,
+          "turn_id": null
+        }
+      ],
+      "text": "CVA tenderness",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3352,
+          "char_end": 3361,
+          "turn_id": null
+        }
+      ],
+      "text": "infection",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3380,
+          "char_end": 3391,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3576,
+          "char_end": 3579,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3588,
+          "char_end": 3591,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3615,
+          "char_end": 3625,
+          "turn_id": null
+        }
+      ],
+      "text": "vegetation",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3734,
+          "char_end": 3744,
+          "turn_id": null
+        }
+      ],
+      "text": "bacteremia",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3802,
+          "char_end": 3813,
+          "turn_id": null
+        }
+      ],
+      "text": "bicuspid AV",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 3859,
+          "char_end": 3883,
+          "turn_id": null
+        }
+      ],
+      "text": "for a minimum of 3 weeks",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3943,
+          "char_end": 3954,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3955,
+          "char_end": 3957,
+          "turn_id": null
+        }
+      ],
+      "text": "2g",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3958,
+          "char_end": 3960,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3961,
+          "char_end": 3964,
+          "turn_id": null
+        }
+      ],
+      "text": "q24",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3992,
+          "char_end": 4012,
+          "turn_id": null
+        }
+      ],
+      "text": "Pericardial effusion",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4034,
+          "char_end": 4055,
+          "turn_id": null
+        }
+      ],
+      "text": "pericardial \neffusion",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4144,
+          "char_end": 4164,
+          "turn_id": null
+        }
+      ],
+      "text": "pericardial effusion",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4173,
+          "char_end": 4176,
+          "turn_id": null
+        }
+      ],
+      "text": "TEE",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4240,
+          "char_end": 4251,
+          "turn_id": null
+        }
+      ],
+      "text": "Ceftriaxone",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 4252,
+          "char_end": 4254,
+          "turn_id": null
+        }
+      ],
+      "text": "2g",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 4255,
+          "char_end": 4257,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4258,
+          "char_end": 4262,
+          "turn_id": null
+        }
+      ],
+      "text": "q24h",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4546,
+          "char_end": 4567,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC with differential",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4569,
+          "char_end": 4572,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4574,
+          "char_end": 4576,
+          "turn_id": null
+        }
+      ],
+      "text": "Cr",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4578,
+          "char_end": 4581,
+          "turn_id": null
+        }
+      ],
+      "text": "AST",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4583,
+          "char_end": 4586,
+          "turn_id": null
+        }
+      ],
+      "text": "ALT",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4588,
+          "char_end": 4598,
+          "turn_id": null
+        }
+      ],
+      "text": "Total Bili",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4600,
+          "char_end": 4608,
+          "turn_id": null
+        }
+      ],
+      "text": "ALK PHOS",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4637,
+          "char_end": 4641,
+          "turn_id": null
+        }
+      ],
+      "text": "ECHO",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4744,
+          "char_end": 4755,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiac MRI",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 4829,
+          "char_end": 4851,
+          "turn_id": null
+        }
+      ],
+      "text": "parenteral antibiotics",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5057,
+          "char_end": 5067,
+          "turn_id": null
+        }
+      ],
+      "text": "Bacteremia",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5068,
+          "char_end": 5089,
+          "turn_id": null
+        }
+      ],
+      "text": "Bicuspid aortic valve",
+      "id": "e115"
+    }
+  ]
+}

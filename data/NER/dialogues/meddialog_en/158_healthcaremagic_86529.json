@@ -1,0 +1,639 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:86529:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi, my name is Emma and I am a twenty-three year old female who has had abdominal pains for the past month. I have been tested for HIV/AIDS, STD’S and everything else so to say and the blood results are all normal. I have not had intercourse for almost a year. This is my story. Please help me! On the 29th of August 2011, I experienced extreme abdominal pain, which prevented me from standing up and walking. I immediately went to my local doctor, who referred me to the ER department, thinking it may be appendicitis. At the ER blood and urine tests were taken and the doctors found that there was nothing wrong. They suspected to see a tubular structure which according could be the appendix but insisted that it was not and thus decided to refer me to the Spectrum to do a few scans of my abdomen etc. The scans turned out normal, where only small cyst of normal size was found on or near my right ovary and a little bit of free fluid. These scans apparently were NORMAL. The doctors said that there s nothing to be concerned about and that this pain should go away soon. I was put on antibiotics in case of having caught a virus or some internal preventable infection and after almost a week of taking them, the pain became a little less, although it did not go away completely. I had to stop taking the antibiotics a little while after, as I started to experience some of the side effects such as nausea etc. At this point, seeing as my doctors believed that it may only be ovulation pain (mittelschmerz) I was relieved when I got my periods on the 13th September 2011, thinking that the pain soon after will go away. I was wrong. After my periods, on the seventh day, I had a normal shower and had some dead blood after it, which lasted for two days. I believed that this was normal seeing as how it sometimes happens after my periods. However, whilst this was the case and whilst I am still convinced that the brown spotting was normal because it sometimes happens before and after my periods, the pain continues to stay and has recently moved to the right side of my abdomen. Today, 23rd September 2011, 10 days after my last period and almost a month of this pain starting, I still have the pain like I have had since about a month ago. However, now it is solely on the right side, which I believe is exactly on the right ovary, where the normal sized cyst was found. The pain is not extreme, where I cannot move at all BUT it is quite uncomfortable, dull and to an extent quite hurtful if I could say. It is constantly there and even though it goes away for a couple of hours every now and then, when it comes back I can feel it on the right, somewhere either near or on my ovary, which then moves towards the inner side of the beginning of my outer vagina lips are. Two days ago, when the pain was there again, it even numbed my thighs and half of my right leg. I went to see the doctor immediately after this the next morning and she had told me that it is nothing. I asked her if it could possibly be endometriosis and she said ‘no’ and that I have nothing to worry about. But, how can I not worry when this pain has been constant for almost a month? I do not exercise, lay mostly in my bed to relax and it’s still there. I cannot move around too much because it keeps coming back after I move and doctors aren’t doing anything to find out what it could really be. They just keep telling me that it could be ovulation pain or something else that I should not be concerned about. However, even though this could be the case, I don’t think that ovulation pain could last every day for a whole month. Nevertheless, blood tests, urine tests and even scans have not shown anything wrong with me and even an internal scan of my pelvic, abdomen and vagina turned out to be fine except for that small normal size cyst and the free fluid, which they said is also normal. What could this be? I am planning to go and get a few more tests but don’t know what I should be testing for. PLEAS HELP!\n[doctor] Hi. Thanks for your question. Read and understood your history, reports and query. None of the medicines or lab reports are responsible for your pain in abdomen. I would advise you to consult a Gastroentrologist or a General Surgeon for clinical evaluation, investigation of blood, urine, stool, ultrasound and whichever is required. This will give diagnosis and a plan for treatment.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 97,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "abdominal pains",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 149,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV/AIDS",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 156,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "STD’S",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 208,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood results",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 528,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "appendicitis",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 545,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 556,
+          "char_end": 561,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 561,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine tests",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 810,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scans of my abdomen",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 820,
+          "char_end": 825,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scans",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 862,
+          "char_end": 866,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 906,
+          "char_end": 917,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cyst right ovary",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 938,
+          "char_end": 948,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "free fluid",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 961,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scans",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1060,
+          "char_end": 1064,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1099,
+          "char_end": 1110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1138,
+          "char_end": 1143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "virus",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1152,
+          "char_end": 1182,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "internal preventable infection",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1227,
+          "char_end": 1231,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1319,
+          "char_end": 1330,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1413,
+          "char_end": 1419,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1490,
+          "char_end": 1504,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ovulation pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1506,
+          "char_end": 1519,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mittelschmerz",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1604,
+          "char_end": 1608,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1720,
+          "char_end": 1730,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dead blood",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1928,
+          "char_end": 1942,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "brown spotting",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2016,
+          "char_end": 2020,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 2069,
+          "char_end": 2093,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain right side of my abdomen",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2179,
+          "char_end": 2183,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2211,
+          "char_end": 2215,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2372,
+          "char_end": 2376,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cyst",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2392,
+          "char_end": 2396,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2811,
+          "char_end": 2815,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2841,
+          "char_end": 2847,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 2873,
+          "char_end": 2882,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "numbed right leg",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2841,
+          "char_end": 2857,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "numbed my thighs",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3025,
+          "char_end": 3038,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "endometriosis",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3132,
+          "char_end": 3136,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3432,
+          "char_end": 3446,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ovulation pain",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3567,
+          "char_end": 3581,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ovulation pain",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3636,
+          "char_end": 3647,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3649,
+          "char_end": 3660,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "urine tests",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3670,
+          "char_end": 3675,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scans",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3726,
+          "char_end": 3772,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "internal scan of my pelvic, abdomen and vagina",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3829,
+          "char_end": 3833,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cyst",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3842,
+          "char_end": 3852,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "free fluid",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4162,
+          "char_end": 4177,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pain in abdomen",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4292,
+          "char_end": 4297,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4299,
+          "char_end": 4304,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "urine",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 4306,
+          "char_end": 4311,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "stool",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 4313,
+          "char_end": 4323,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ultrasound",
+      "id": "e47"
+    }
+  ]
+}

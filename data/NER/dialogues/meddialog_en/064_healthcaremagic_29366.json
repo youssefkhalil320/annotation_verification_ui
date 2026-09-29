@@ -1,0 +1,177 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:29366:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I took two days of keflex two weeks ago for a bacterial infection from a splinter. The dr. changed my antibiotic to doxicycline. 4 days later another big rash on my belly. It has been two weeks and I still have hives everyday. How long can this occur? They gave me a steroid but it made my bp go up. Plus, I already have high bp ( treated though) Thank you.\n[doctor] If you are having rashes two weeks after stopping the medications, then it is unlikely that it was related to them. Is there anything else that you could be having an allergic reaction to? It may also be worthwhile to see a Dermatologist to help diagnose the cause of the rash. I hope it resolves soon.",
+  "entities": [
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 17,
+          "char_end": 25,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "two days",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 29,
+          "char_end": 35,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "keflex",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 56,
+          "char_end": 75,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bacterial infection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 83,
+          "char_end": 91,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "splinter",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 122,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 126,
+          "char_end": 137,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "doxicycline",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 164,
+          "char_end": 180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash on my belly",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 221,
+          "char_end": 226,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 277,
+          "char_end": 284,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 300,
+          "char_end": 308,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bp go up",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 331,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "high bp",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 395,
+          "char_end": 401,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rashes",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 544,
+          "char_end": 561,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e13"
+    }
+  ]
+}

@@ -7,7 +7,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 48,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 57,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 77,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 101,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 120,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 125,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 147,
@@ -105,7 +98,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 171,
@@ -119,7 +111,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 247,
@@ -133,21 +124,55 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 281,
+          "char_end": 283,
+          "turn_id": null
+        },
+        {
+          "char_start": 310,
           "char_end": 314,
           "turn_id": null
         }
       ],
-      "text": "GI, digestive, upper stomach pain",
+      "text": "GI pain",
       "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 285,
+          "char_end": 294,
+          "turn_id": null
+        },
+        {
+          "char_start": 310,
+          "char_end": 314,
+          "turn_id": null
+        }
+      ],
+      "text": "digestive pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 314,
+          "turn_id": null
+        }
+      ],
+      "text": "upper stomach pain",
+      "id": "e12"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 345,
@@ -156,12 +181,11 @@
         }
       ],
       "text": "Elavil",
-      "id": "e11"
+      "id": "e13"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 353,
@@ -170,12 +194,11 @@
         }
       ],
       "text": "amitryptline",
-      "id": "e12"
+      "id": "e14"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 375,
@@ -184,12 +207,11 @@
         }
       ],
       "text": "5 days",
-      "id": "e13"
+      "id": "e15"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 384,
@@ -198,12 +220,11 @@
         }
       ],
       "text": "Prilosec",
-      "id": "e14"
+      "id": "e16"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 509,
@@ -212,12 +233,24 @@
         }
       ],
       "text": "Cymbalta",
-      "id": "e15"
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 531,
+          "turn_id": null
+        }
+      ],
+      "text": "PN",
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 529,
@@ -226,12 +259,11 @@
         }
       ],
       "text": "PN pain",
-      "id": "e16"
+      "id": "e19"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 539,
@@ -240,7 +272,7 @@
         }
       ],
       "text": "dep",
-      "id": "e17"
+      "id": "e20"
     }
   ]
 }

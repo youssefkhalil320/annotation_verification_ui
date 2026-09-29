@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 54,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 107,
@@ -35,21 +33,19 @@
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 249,
-          "char_end": 259,
+          "char_end": 276,
           "turn_id": null
         }
       ],
-      "text": "monitoring",
+      "text": "monitoring their sick child",
       "id": "e3"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 282,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 323,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 368,
@@ -89,23 +83,8 @@
       "id": "e6"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 408,
-          "char_end": 428,
-          "turn_id": null
-        }
-      ],
-      "text": "interstage mortality",
-      "id": "e7"
-    },
-    {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 437,
@@ -119,12 +98,11 @@
         }
       ],
       "text": "Norwood stages and II",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 511,
@@ -133,12 +111,11 @@
         }
       ],
       "text": "interstage home monitoring",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 633,
@@ -147,12 +124,11 @@
         }
       ],
       "text": "interstage home monitoring",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 707,
@@ -161,12 +137,11 @@
         }
       ],
       "text": "Short Form Health Survey questionnaire",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 754,
@@ -175,12 +150,11 @@
         }
       ],
       "text": "Impact of Family Scale",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 846,
@@ -189,12 +163,24 @@
         }
       ],
       "text": "stage II",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 884,
+          "char_end": 910,
+          "turn_id": null
+        }
+      ],
+      "text": "semi-structured interviews",
       "id": "e13"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1035,
@@ -208,7 +194,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1076,
@@ -222,7 +207,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1134,
@@ -234,23 +218,8 @@
       "id": "e16"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1288,
-          "char_end": 1305,
-          "turn_id": null
-        }
-      ],
-      "text": "interstage deaths",
-      "id": "e17"
-    },
-    {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1307,
@@ -259,12 +228,11 @@
         }
       ],
       "text": "Mental Health Composite Summary",
-      "id": "e18"
+      "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1307,
@@ -278,26 +246,11 @@
         }
       ],
       "text": "Mental Health Composite Summary scores low",
-      "id": "e19"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1444,
-          "char_end": 1452,
-          "turn_id": null
-        }
-      ],
-      "text": "vitality",
-      "id": "e20"
+      "id": "e18"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1519,
@@ -306,12 +259,11 @@
         }
       ],
       "text": "stage II",
-      "id": "e21"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1529,
@@ -320,40 +272,11 @@
         }
       ],
       "text": "Impact of Family Scale",
-      "id": "e22"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1573,
-          "char_end": 1597,
-          "turn_id": null
-        }
-      ],
-      "text": "daily and social burdens",
-      "id": "e23"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1697,
-          "char_end": 1722,
-          "turn_id": null
-        }
-      ],
-      "text": "fragile emotional balance",
-      "id": "e24"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "monitoring",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1743,
@@ -362,12 +285,11 @@
         }
       ],
       "text": "interstage home monitoring",
-      "id": "e25"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1809,
@@ -376,12 +298,11 @@
         }
       ],
       "text": "psychosocial burden",
-      "id": "e26"
+      "id": "e22"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1846,
@@ -390,7 +311,7 @@
         }
       ],
       "text": "stage II",
-      "id": "e27"
+      "id": "e23"
     }
   ]
 }

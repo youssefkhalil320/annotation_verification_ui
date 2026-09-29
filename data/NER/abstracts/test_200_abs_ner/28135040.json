@@ -7,7 +7,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 25,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 115,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 143,
@@ -63,7 +59,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 183,
@@ -77,7 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 229,
@@ -91,7 +85,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 282,
@@ -105,21 +98,19 @@
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 379,
+          "char_start": 387,
           "char_end": 399,
           "turn_id": null
         }
       ],
-      "text": "Testing lipid levels",
+      "text": "lipid levels",
       "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 512,
@@ -131,23 +122,8 @@
       "id": "e9"
     },
     {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 575,
-          "char_end": 590,
-          "turn_id": null
-        }
-      ],
-      "text": "anticoagulation",
-      "id": "e10"
-    },
-    {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 616,
@@ -156,12 +132,11 @@
         }
       ],
       "text": "lipid levels",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 639,
@@ -170,12 +145,11 @@
         }
       ],
       "text": "venous thrombosis",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 716,
@@ -184,12 +158,11 @@
         }
       ],
       "text": "lipids",
-      "id": "e13"
+      "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 805,
@@ -198,12 +171,11 @@
         }
       ],
       "text": "lipid levels",
-      "id": "e14"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 822,
@@ -212,12 +184,11 @@
         }
       ],
       "text": "recurrent venous thrombosis",
-      "id": "e15"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 891,
@@ -226,12 +197,11 @@
         }
       ],
       "text": "venous thrombosis",
-      "id": "e16"
+      "id": "e15"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 984,
@@ -240,12 +210,11 @@
         }
       ],
       "text": "anticoagulant",
-      "id": "e17"
+      "id": "e16"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1034,
@@ -259,12 +228,11 @@
         }
       ],
       "text": "total cholesterol",
-      "id": "e18"
+      "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1042,
@@ -278,12 +246,11 @@
         }
       ],
       "text": "low-density lipoprotein cholesterol",
-      "id": "e19"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1068,
@@ -292,12 +259,11 @@
         }
       ],
       "text": "high-density lipoprotein cholesterol",
-      "id": "e20"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1106,
@@ -306,12 +272,11 @@
         }
       ],
       "text": "triglycerides",
-      "id": "e21"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1124,
@@ -325,12 +290,11 @@
         }
       ],
       "text": "apolipoproteins A1",
-      "id": "e22"
+      "id": "e21"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1124,
@@ -339,12 +303,11 @@
         }
       ],
       "text": "apolipoproteins B",
-      "id": "e23"
+      "id": "e22"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1240,
@@ -353,26 +316,11 @@
         }
       ],
       "text": "Lipids",
-      "id": "e24"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1299,
-          "char_end": 1314,
-          "turn_id": null
-        }
-      ],
-      "text": "anticoagulation",
-      "id": "e25"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1699,
@@ -381,12 +329,11 @@
         }
       ],
       "text": "lipid levels",
-      "id": "e26"
+      "id": "e24"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1780,
@@ -395,12 +342,11 @@
         }
       ],
       "text": "body mass index",
-      "id": "e27"
+      "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1797,
@@ -409,12 +355,11 @@
         }
       ],
       "text": "diabetes",
-      "id": "e28"
+      "id": "e26"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1807,
@@ -423,12 +368,11 @@
         }
       ],
       "text": "estrogen",
-      "id": "e29"
+      "id": "e27"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1820,
@@ -437,26 +381,11 @@
         }
       ],
       "text": "statin",
-      "id": "e30"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 1848,
-          "char_end": 1863,
-          "turn_id": null
-        }
-      ],
-      "text": "anticoagulation",
-      "id": "e31"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1944,
@@ -465,12 +394,11 @@
         }
       ],
       "text": "deep vein thrombosis",
-      "id": "e32"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1968,
@@ -479,12 +407,11 @@
         }
       ],
       "text": "pulmonary embolism",
-      "id": "e33"
+      "id": "e30"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2047,
@@ -493,26 +420,24 @@
         }
       ],
       "text": "lipid levels",
-      "id": "e34"
+      "id": "e31"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "patient",
       "spans": [
         {
-          "char_start": 2081,
+          "char_start": 2089,
           "char_end": 2101,
           "turn_id": null
         }
       ],
-      "text": "Testing lipid levels",
-      "id": "e35"
+      "text": "lipid levels",
+      "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 2152,
@@ -521,21 +446,7 @@
         }
       ],
       "text": "recurrent venous thrombosis",
-      "id": "e36"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 2297,
-          "char_end": 2312,
-          "turn_id": null
-        }
-      ],
-      "text": "anticoagulation",
-      "id": "e37"
+      "id": "e33"
     }
   ]
 }

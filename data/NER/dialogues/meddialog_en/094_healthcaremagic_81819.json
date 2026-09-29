@@ -1,0 +1,359 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:81819:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] i am taking levofloxacin for four days.today I have been experiencing bad chest pain which I am attributing to indigestion which I have not had in years., mainly because I have gas and burping. I am chronic copd and currently taking only free inhalers I get from dr. breo ellipta 100mcg/25mcg. I also take synthroid and 5mg amlodipine. I am 66 years young 5ft 3 180 lbs. I have switched to wheat free diet last 3 weeks, which have totally helped swelling with osteoarthritis, , bone on bone (need knee replaced), bursitis.do you think it is unlikely that this pain is related to heart? it has been over an hour with chest pain. nothing in my arm or jaw but some headache pain(never get)\n[doctor] The chest pain is because of your acidity and gastritis due to drugs. Not because of COPD or any cardiac problem. Kindly start syrup gelusil 2 tsf 4 times daily",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 34,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 48,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for four days",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 84,
+          "char_end": 94,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 132,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "indigestion",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 187,
+          "char_end": 190,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gas",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 195,
+          "char_end": 202,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burping",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 217,
+          "char_end": 221,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "copd",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 277,
+          "char_end": 289,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "breo ellipta",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 290,
+          "char_end": 302,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100mcg/25mcg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 316,
+          "char_end": 325,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "synthroid",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 333,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "5mg",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 334,
+          "char_end": 344,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amlodipine",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 456,
+          "char_end": 464,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 470,
+          "char_end": 484,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "osteoarthritis",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 488,
+          "char_end": 500,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bone on bone",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 507,
+          "char_end": 520,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "knee replaced",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 523,
+          "char_end": 531,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bursitis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 636,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 672,
+          "char_end": 685,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headache pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 720,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chest pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 740,
+          "char_end": 747,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "acidity",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 752,
+          "char_end": 761,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gastritis",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 791,
+          "char_end": 795,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "COPD",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 833,
+          "char_end": 838,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "syrup",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 846,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "gelusil",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 847,
+          "char_end": 852,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "2 tsf",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 853,
+          "char_end": 866,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "4 times daily",
+      "id": "e27"
+    }
+  ]
+}

@@ -1,0 +1,1971 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:11714071-DS-49:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nAspirin / Penicillins / Codeine / Inderal / Isordil / Iodine; \nIodine Containing / Morphine / Celexa / Glucophage / \nAtorvastatin / Dilaudid / Vioxx / Levofloxacin / Hydralazine / \nOndansetron / Carbapenem / Lidocaine / Nortriptyline\n\nChief Complaint:\nabdominal pain\n\nHistory of Present Illness:\n___ MEDICINE ATTENDING ADMISSION NOTE \n \nDate: ___\nTime: 21:27\nPCP: ___: ___ \n\nThe patient is an ___ year old woman with a h/o coronary artery \ndisease, hypertension, type 2 diabetes, chronic renal \ninsufficiency, and a history of a cholecystectomy in ___, who \nhas had ongoing symptoms of right upper quadrant pain ever \nsince. \n\nShe was recently admitted (___) for abdominal \npain, which was evaluated by the GI consult service with MRCP \nfor possible chronic pancreatitis, which showed a normal bilary \nsystem in a post-cholecystectomy patient and a 1 cm dilated side \nbranch in the head of the pancreas which may represent a side \nbranch IPMN. She was started on a trial of ursodiol targeting \nthe possibility of lithogenic bile, continued on an aggressive \nbowel regimen and omeprazole for GERD. Also, her dicyclomine was \ndiscontinued at that time. \n\nShe now p/w with recurrent RUQ pain. She reports that she \ndiscontinued her ursodiol due to increased abdominal pain, which \nshe attributed to the medication, but is not sure. She also \nendorses vertigo for the past 2 weeks, which improves with \nmeclizine, but she had to discontinue because it upset her \nstomach. She is followed by GI as an outpatient. She also \nendorses diarrhea, nausea, a decreased PO intake, urinary \nfrequency and dysurea for the past several days. She denies cp \nand sob.\n \n\nIn ER: \nVS: 98 80 117/61 16 97%RA\nStudies: labs reveal ARF \nFluids given: 500 cc NS\nMeds given: tylenol ___ mg po x 1\nConsults called: GI (fellow Dr. ___ recommended admit \npatient for inpatient MRA/MRI)\n\nShe also reported urethral pain from the catheterization in the \nED, which has now subsided.\n \nReview of Systems:  \n(+) Per HPI  \n(-) Denies fever, chills, night sweats, recent weight loss or \ngain. Denies visual changes, headache, sinus tenderness, \nrhinorrhea, congestion or sore throat. Denies chest pain or \ntightness, palpitations, orthopnea, dyspnea on exertion. Denies \ncough, shortness of breath, wheezes or pleuritic pain. Denies \nnausea, vomiting, diarrhea, constipation, BRBPR, melena, or \nabdominal pain. No dysuria, urinary frequency. Denies \narthralgias or myalgias. Denies rashes. No numbness/tingling or \nmuscle weakness in extremities. No feelings of depression or \nanxiety. All other review of systems negative.\n\nBrief Hospital Course:\n___ h/o CAD, HTN, DM, asymptomatic bradycardia, with a recent \nadmission from ___ for RUQ abdominal pain, who now p/w \nrecurrent epigastric pain.\n\nAbdominal pain, recurrent: Unknown etiology of abdominal pain. \nThe patient has undergone a very extensive workup.  Her pain may \nbe phantom gall bladder pain given her history of pain beginning \nafter cholecystectomy.  GI was consulted and outpatient MRE and \nMRA that had been ordered were performed inpatient which \nrevealed a duodenal diverticula but no other pathology.  Her \npain improved somewhat with tylenol.  Gastroenterology will \nfollow up on the abdominal pain syndrome and MRI findings as an \noutpatient - appointments have been arranged. \n\nACUTE ON CHRONIC RENAL FAILURE: improved with rehydration.\n\nURINARY TRACTION INFECTION: Proteus UTI resistent to bactirm and \ncipro.  She has allergies to cephalosporins and penicillins, so \nthe only option was to treat with tobramycin, which was used for \nthis infection.  Her urinary tract infection improved.  She was \ngiven 1 L IVF daily while getting tobramycin to reduce risk of \nrenal failure or ototoxicity.  Her creatinine remained stable \nthroughout the hospitalization. \n\nCAD/HTN/DM: Stable. continued home ticlopidine 250 mg 1 po BID, \nsimvastatin 40 mg 1 po daily, enalapril maleate 5 mg 1 po daily, \nglargine insulin 15 U QHS and SSI.\n\nDischarge Diagnosis:\nPrimary Diagnosis: \nAcute on Chronic abdominal pain\nUrinary tract infection",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "Penicillins",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 42,
+          "turn_id": null
+        }
+      ],
+      "text": "Codeine",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 45,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "Inderal",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 62,
+          "turn_id": null
+        }
+      ],
+      "text": "Isordil",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 65,
+          "char_end": 71,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodine",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 80,
+          "turn_id": null
+        }
+      ],
+      "text": "Iodine",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 94,
+          "char_end": 102,
+          "turn_id": null
+        }
+      ],
+      "text": "Morphine",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 105,
+          "char_end": 111,
+          "turn_id": null
+        }
+      ],
+      "text": "Celexa",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 114,
+          "char_end": 124,
+          "turn_id": null
+        }
+      ],
+      "text": "Glucophage",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 128,
+          "char_end": 140,
+          "turn_id": null
+        }
+      ],
+      "text": "Atorvastatin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 143,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "Dilaudid",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 154,
+          "char_end": 159,
+          "turn_id": null
+        }
+      ],
+      "text": "Vioxx",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 162,
+          "char_end": 174,
+          "turn_id": null
+        }
+      ],
+      "text": "Levofloxacin",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 177,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "Hydralazine",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 192,
+          "char_end": 203,
+          "turn_id": null
+        }
+      ],
+      "text": "Ondansetron",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 206,
+          "char_end": 216,
+          "turn_id": null
+        }
+      ],
+      "text": "Carbapenem",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 228,
+          "turn_id": null
+        }
+      ],
+      "text": "Lidocaine",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 231,
+          "char_end": 244,
+          "turn_id": null
+        }
+      ],
+      "text": "Nortriptyline",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 277,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 339,
+          "turn_id": null
+        }
+      ],
+      "text": "ADMISSION",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 339,
+          "turn_id": null
+        }
+      ],
+      "text": "ADMISSION",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 434,
+          "char_end": 458,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary artery \ndisease",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 460,
+          "char_end": 472,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertension",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 474,
+          "char_end": 489,
+          "turn_id": null
+        }
+      ],
+      "text": "type 2 diabetes",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 491,
+          "char_end": 519,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic renal \ninsufficiency",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 540,
+          "char_end": 555,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 622,
+          "turn_id": null
+        }
+      ],
+      "text": "right upper quadrant pain",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 674,
+          "char_end": 689,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal \npain",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 742,
+          "char_end": 746,
+          "turn_id": null
+        }
+      ],
+      "text": "MRCP",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 752,
+          "char_end": 760,
+          "turn_id": null
+        }
+      ],
+      "text": "possible",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 781,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic pancreatitis",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 825,
+          "char_end": 829,
+          "turn_id": null
+        }
+      ],
+      "text": "post",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 830,
+          "char_end": 845,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 862,
+          "char_end": 913,
+          "turn_id": null
+        }
+      ],
+      "text": "cm dilated side \nbranch in the head of the pancreas",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 936,
+          "char_end": 953,
+          "turn_id": null
+        }
+      ],
+      "text": "side \nbranch IPMN",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 985,
+          "char_end": 993,
+          "turn_id": null
+        }
+      ],
+      "text": "ursodiol",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1009,
+          "char_end": 1020,
+          "turn_id": null
+        }
+      ],
+      "text": "possibility",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1024,
+          "char_end": 1039,
+          "turn_id": null
+        }
+      ],
+      "text": "lithogenic bile",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1097,
+          "turn_id": null
+        }
+      ],
+      "text": "omeprazole",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1102,
+          "char_end": 1106,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1118,
+          "char_end": 1129,
+          "turn_id": null
+        }
+      ],
+      "text": "dicyclomine",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1191,
+          "char_end": 1199,
+          "turn_id": null
+        }
+      ],
+      "text": "RUQ pain",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1205,
+          "char_end": 1212,
+          "turn_id": null
+        }
+      ],
+      "text": "reports",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1223,
+          "char_end": 1248,
+          "turn_id": null
+        }
+      ],
+      "text": "discontinued her ursodiol",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1266,
+          "char_end": 1280,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1359,
+          "char_end": 1366,
+          "turn_id": null
+        }
+      ],
+      "text": "vertigo",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1410,
+          "char_end": 1419,
+          "turn_id": null
+        }
+      ],
+      "text": "meclizine",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1459,
+          "char_end": 1477,
+          "turn_id": null
+        }
+      ],
+      "text": "upset her \nstomach",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1538,
+          "char_end": 1546,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1548,
+          "char_end": 1554,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1558,
+          "char_end": 1577,
+          "turn_id": null
+        }
+      ],
+      "text": "decreased PO intake",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1579,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary \nfrequency",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1602,
+          "char_end": 1609,
+          "turn_id": null
+        }
+      ],
+      "text": "dysurea",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1650,
+          "turn_id": null
+        }
+      ],
+      "text": "cp",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1656,
+          "char_end": 1659,
+          "turn_id": null
+        }
+      ],
+      "text": "sob",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1707,
+          "char_end": 1711,
+          "turn_id": null
+        }
+      ],
+      "text": "labs",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1719,
+          "char_end": 1722,
+          "turn_id": null
+        }
+      ],
+      "text": "ARF",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1738,
+          "char_end": 1744,
+          "turn_id": null
+        }
+      ],
+      "text": "500 cc",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1745,
+          "char_end": 1747,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1760,
+          "char_end": 1767,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1778,
+          "char_end": 1781,
+          "turn_id": null
+        }
+      ],
+      "text": "x 1",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1859,
+          "char_end": 1862,
+          "turn_id": null
+        }
+      ],
+      "text": "MRA",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1863,
+          "char_end": 1866,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1887,
+          "char_end": 1900,
+          "turn_id": null
+        }
+      ],
+      "text": "urethral pain",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1910,
+          "char_end": 1925,
+          "turn_id": null
+        }
+      ],
+      "text": "catheterization",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2010,
+          "char_end": 2015,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2017,
+          "char_end": 2023,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2037,
+          "turn_id": null
+        }
+      ],
+      "text": "night sweats",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2046,
+          "char_end": 2057,
+          "turn_id": null
+        }
+      ],
+      "text": "weight loss",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2062,
+          "char_end": 2066,
+          "turn_id": null
+        }
+      ],
+      "text": "gain",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2075,
+          "char_end": 2089,
+          "turn_id": null
+        }
+      ],
+      "text": "visual changes",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2091,
+          "char_end": 2099,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2101,
+          "char_end": 2117,
+          "turn_id": null
+        }
+      ],
+      "text": "sinus tenderness",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2120,
+          "char_end": 2130,
+          "turn_id": null
+        }
+      ],
+      "text": "rhinorrhea",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2132,
+          "char_end": 2142,
+          "turn_id": null
+        }
+      ],
+      "text": "congestion",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2146,
+          "char_end": 2157,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2166,
+          "char_end": 2176,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2181,
+          "char_end": 2190,
+          "turn_id": null
+        }
+      ],
+      "text": "tightness",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2192,
+          "char_end": 2204,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2206,
+          "char_end": 2215,
+          "turn_id": null
+        }
+      ],
+      "text": "orthopnea",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2217,
+          "char_end": 2236,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea on exertion",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2246,
+          "char_end": 2251,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2253,
+          "char_end": 2272,
+          "turn_id": null
+        }
+      ],
+      "text": "shortness of breath",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2274,
+          "char_end": 2281,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezes",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2285,
+          "char_end": 2299,
+          "turn_id": null
+        }
+      ],
+      "text": "pleuritic pain",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2309,
+          "char_end": 2315,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2317,
+          "char_end": 2325,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2327,
+          "char_end": 2335,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2337,
+          "char_end": 2349,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2351,
+          "char_end": 2356,
+          "turn_id": null
+        }
+      ],
+      "text": "BRBPR",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2358,
+          "char_end": 2364,
+          "turn_id": null
+        }
+      ],
+      "text": "melena",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2370,
+          "char_end": 2384,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2389,
+          "char_end": 2396,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2398,
+          "char_end": 2415,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary frequency",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2425,
+          "char_end": 2436,
+          "turn_id": null
+        }
+      ],
+      "text": "arthralgias",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2440,
+          "char_end": 2448,
+          "turn_id": null
+        }
+      ],
+      "text": "myalgias",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2457,
+          "char_end": 2463,
+          "turn_id": null
+        }
+      ],
+      "text": "rashes",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2468,
+          "char_end": 2476,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2477,
+          "char_end": 2485,
+          "turn_id": null
+        }
+      ],
+      "text": "tingling",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2490,
+          "char_end": 2520,
+          "turn_id": null
+        }
+      ],
+      "text": "muscle weakness in extremities",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2537,
+          "char_end": 2547,
+          "turn_id": null
+        }
+      ],
+      "text": "depression",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2552,
+          "char_end": 2559,
+          "turn_id": null
+        }
+      ],
+      "text": "anxiety",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2631,
+          "char_end": 2634,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2636,
+          "char_end": 2639,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2641,
+          "char_end": 2643,
+          "turn_id": null
+        }
+      ],
+      "text": "DM",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2658,
+          "char_end": 2669,
+          "turn_id": null
+        }
+      ],
+      "text": "bradycardia",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2709,
+          "char_end": 2727,
+          "turn_id": null
+        }
+      ],
+      "text": "RUQ abdominal pain",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2752,
+          "char_end": 2767,
+          "turn_id": null
+        }
+      ],
+      "text": "epigastric pain",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2770,
+          "char_end": 2784,
+          "turn_id": null
+        }
+      ],
+      "text": "Abdominal pain",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2817,
+          "char_end": 2831,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2903,
+          "char_end": 2928,
+          "turn_id": null
+        }
+      ],
+      "text": "phantom gall bladder pain",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2972,
+          "char_end": 2987,
+          "turn_id": null
+        }
+      ],
+      "text": "cholecystectomy",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3022,
+          "char_end": 3025,
+          "turn_id": null
+        }
+      ],
+      "text": "MRE",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3031,
+          "char_end": 3034,
+          "turn_id": null
+        }
+      ],
+      "text": "MRA",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3100,
+          "char_end": 3120,
+          "turn_id": null
+        }
+      ],
+      "text": "duodenal diverticula",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3179,
+          "char_end": 3186,
+          "turn_id": null
+        }
+      ],
+      "text": "tylenol",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 3229,
+          "char_end": 3252,
+          "turn_id": null
+        }
+      ],
+      "text": "abdominal pain syndrome",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3257,
+          "char_end": 3260,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3325,
+          "char_end": 3355,
+          "turn_id": null
+        }
+      ],
+      "text": "ACUTE ON CHRONIC RENAL FAILURE",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3385,
+          "char_end": 3411,
+          "turn_id": null
+        }
+      ],
+      "text": "URINARY TRACTION INFECTION",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3413,
+          "char_end": 3424,
+          "turn_id": null
+        }
+      ],
+      "text": "Proteus UTI",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3438,
+          "char_end": 3445,
+          "turn_id": null
+        }
+      ],
+      "text": "bactirm",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3451,
+          "char_end": 3456,
+          "turn_id": null
+        }
+      ],
+      "text": "cipro",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3480,
+          "char_end": 3494,
+          "turn_id": null
+        }
+      ],
+      "text": "cephalosporins",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3499,
+          "char_end": 3510,
+          "turn_id": null
+        }
+      ],
+      "text": "penicillins",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3550,
+          "char_end": 3560,
+          "turn_id": null
+        }
+      ],
+      "text": "tobramycin",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3603,
+          "char_end": 3626,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary tract infection",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3653,
+          "char_end": 3656,
+          "turn_id": null
+        }
+      ],
+      "text": "1 L",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "substance",
+      "spans": [
+        {
+          "char_start": 3657,
+          "char_end": 3660,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3661,
+          "char_end": 3666,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3681,
+          "char_end": 3691,
+          "turn_id": null
+        }
+      ],
+      "text": "tobramycin",
+      "id": "e132"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3711,
+          "char_end": 3724,
+          "turn_id": null
+        }
+      ],
+      "text": "renal failure",
+      "id": "e133"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3728,
+          "char_end": 3739,
+          "turn_id": null
+        }
+      ],
+      "text": "ototoxicity",
+      "id": "e134"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3746,
+          "char_end": 3756,
+          "turn_id": null
+        }
+      ],
+      "text": "creatinine",
+      "id": "e135"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3808,
+          "char_end": 3811,
+          "turn_id": null
+        }
+      ],
+      "text": "CAD",
+      "id": "e136"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3812,
+          "char_end": 3815,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e137"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3843,
+          "char_end": 3854,
+          "turn_id": null
+        }
+      ],
+      "text": "ticlopidine",
+      "id": "e138"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3855,
+          "char_end": 3861,
+          "turn_id": null
+        }
+      ],
+      "text": "250 mg",
+      "id": "e139"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3867,
+          "char_end": 3870,
+          "turn_id": null
+        }
+      ],
+      "text": "BID",
+      "id": "e140"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3873,
+          "char_end": 3884,
+          "turn_id": null
+        }
+      ],
+      "text": "simvastatin",
+      "id": "e141"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3885,
+          "char_end": 3890,
+          "turn_id": null
+        }
+      ],
+      "text": "40 mg",
+      "id": "e142"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3896,
+          "char_end": 3901,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e143"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3903,
+          "char_end": 3920,
+          "turn_id": null
+        }
+      ],
+      "text": "enalapril maleate",
+      "id": "e144"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3921,
+          "char_end": 3925,
+          "turn_id": null
+        }
+      ],
+      "text": "5 mg",
+      "id": "e145"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3931,
+          "char_end": 3936,
+          "turn_id": null
+        }
+      ],
+      "text": "daily",
+      "id": "e146"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3939,
+          "char_end": 3955,
+          "turn_id": null
+        }
+      ],
+      "text": "glargine insulin",
+      "id": "e147"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 3956,
+          "char_end": 3960,
+          "turn_id": null
+        }
+      ],
+      "text": "15 U",
+      "id": "e148"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3961,
+          "char_end": 3964,
+          "turn_id": null
+        }
+      ],
+      "text": "QHS",
+      "id": "e149"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 4016,
+          "char_end": 4047,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute on Chronic abdominal pain",
+      "id": "e150"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4048,
+          "char_end": 4071,
+          "turn_id": null
+        }
+      ],
+      "text": "Urinary tract infection",
+      "id": "e151"
+    }
+  ]
+}

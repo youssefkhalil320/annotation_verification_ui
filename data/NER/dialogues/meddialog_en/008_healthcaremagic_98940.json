@@ -1,0 +1,411 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:98940:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have previously had surgery a week ago for a cyst on my right ovary. I forgot to tell the doctor that I am allerrgic to dermabond. I have been having severe itching every since. I have tried Benadryl cream and hydrocortisone cream which made the itching worse. I have tried oral Benadryl which made my sinus flare up and had me congested afterwards. I have tried Vistaril which made me sick with nausea and vomiting. I have also had a steroid shot which helped for a couple of hours but the itching has came back. I am currently taking a Medrol dose pack and Zyrtec and I am still itching. I have made an appointment with an allergy doctor but could not be seen until the 19th. What can I do to stop itching, I have scratched so much that I am bleeding and the medications are not helping.. please help!!!\n[doctor] It is difficult to say about the cause for itching without seeing you.But looking to your complaint if you are permitting me as your doctor, i advise you to take levocetrizine +montelucast once a day. Apply clotrimezole powder twice a day might help you.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 57,
+          "char_end": 79,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cyst on my right ovary",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 141,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allerrgic to dermabond",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 176,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 203,
+          "char_end": 211,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 212,
+          "char_end": 217,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 222,
+          "char_end": 236,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hydrocortisone",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 237,
+          "char_end": 242,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cream",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 265,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 286,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oral",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 291,
+          "char_end": 299,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benadryl",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 314,
+          "char_end": 328,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus flare up",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 340,
+          "char_end": 349,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "congested",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 375,
+          "char_end": 383,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Vistaril",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 408,
+          "char_end": 414,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 427,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "vomiting",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 447,
+          "char_end": 454,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 455,
+          "char_end": 459,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "shot",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 503,
+          "char_end": 510,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 550,
+          "char_end": 556,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Medrol",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 557,
+          "char_end": 566,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dose pack",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 571,
+          "char_end": 577,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zyrtec",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 593,
+          "char_end": 600,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 712,
+          "char_end": 719,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "itching",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 756,
+          "char_end": 764,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bleeding",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 870,
+          "char_end": 877,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "itching",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 989,
+          "char_end": 1002,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "levocetrizine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1004,
+          "char_end": 1015,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "montelucast",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1016,
+          "char_end": 1026,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "once a day",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1034,
+          "char_end": 1046,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "clotrimezole",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1047,
+          "char_end": 1053,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "powder",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1054,
+          "char_end": 1065,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "twice a day",
+      "id": "e31"
+    }
+  ]
+}

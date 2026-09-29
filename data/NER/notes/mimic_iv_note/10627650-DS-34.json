@@ -1,0 +1,598 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10627650-DS-34:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nmorphine / metoprolol\n\nChief Complaint:\ns/p L ___ met head resection, cough\n\nHistory of Present Illness:\nMr. ___ is a ___ yo gentleman with HTN, ESRD on HD, DM2\n(neuropathy, nephropathy, retinopathy, gastroparesis), prior\ngastric ulcer, uremic pruritis, and severe orthostatic\nhypotension who was admitted for osteomyelitis with a ___\nmetatarsal head resection with podiatry who has had worsening \nURI\nsymptoms over the past week now transferred to Medicine. \n\nThe patient has been followed by podiatry for some time for\nmultiple amputations. His left ___ metatarsal began having\ndifficulty in ___ of this year with necrotic tissue debrieded by\npodiatry as an outpatient. Podiatry recommended a TMA, but the\npatient wanted to try salvage with a single amputation first. \n\nThe patient reports that last ___ he started getting a \ncough.\nThis has been worsening.  He has felt febrile the last 3 days\nwith a headache.  He says when he was admitted this morning for\nhis surgery his temperature went up to 101 (podiatry \ncorroborates\nhe had a temperature at or just under 101 pre-op). He notes he\nhas a sore throat that also has been worsening. He has had some\ntightening in his breathing. He says this is consistent with his\nprior admission and albuterol helped.     \n\nThe patient denies dizziness, chest pain, palpitations, nausea,\nvomiting, diarrhea, constipation, changes in urination (he still\nurinates ~1x daily).\n\nDischarge Diagnosis:\nPRIMARY DIAGNOSIS\n=================\nS/P LEFT FOOT FOURTH METATARSAL RESECTION\nBRONCHITIS\n\nSECONDARY DIAGNOSES\n===================\nESRD ON HD \nDIABETES\nHTN\nGASTROPARESIS\nHYPOTHYROIDISM",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "morphine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 32,
+          "turn_id": null
+        }
+      ],
+      "text": "metoprolol",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 79,
+          "turn_id": null
+        }
+      ],
+      "text": "L ___ met head resection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 81,
+          "char_end": 86,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 151,
+          "char_end": 154,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 156,
+          "char_end": 160,
+          "turn_id": null
+        }
+      ],
+      "text": "ESRD",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 164,
+          "char_end": 166,
+          "turn_id": null
+        }
+      ],
+      "text": "HD",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 171,
+          "turn_id": null
+        }
+      ],
+      "text": "DM2",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "neuropathy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 196,
+          "turn_id": null
+        }
+      ],
+      "text": "nephropathy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 198,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "retinopathy",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 211,
+          "char_end": 224,
+          "turn_id": null
+        }
+      ],
+      "text": "gastroparesis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 246,
+          "turn_id": null
+        }
+      ],
+      "text": "gastric ulcer",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 248,
+          "char_end": 263,
+          "turn_id": null
+        }
+      ],
+      "text": "uremic pruritis",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 276,
+          "char_end": 299,
+          "turn_id": null
+        }
+      ],
+      "text": "orthostatic\nhypotension",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "osteomyelitis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 346,
+          "char_end": 371,
+          "turn_id": null
+        }
+      ],
+      "text": "metatarsal head resection",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 409,
+          "char_end": 412,
+          "turn_id": null
+        }
+      ],
+      "text": "URI",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 552,
+          "turn_id": null
+        }
+      ],
+      "text": "amputations",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 642,
+          "turn_id": null
+        }
+      ],
+      "text": "necrotic tissue",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 706,
+          "char_end": 709,
+          "turn_id": null
+        }
+      ],
+      "text": "TMA",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 844,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 884,
+          "char_end": 891,
+          "turn_id": null
+        }
+      ],
+      "text": "febrile",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 915,
+          "char_end": 923,
+          "turn_id": null
+        }
+      ],
+      "text": "headache",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 988,
+          "char_end": 1014,
+          "turn_id": null
+        }
+      ],
+      "text": "temperature went up to 101",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1048,
+          "char_end": 1059,
+          "turn_id": null
+        },
+        {
+          "char_start": 1077,
+          "char_end": 1080,
+          "turn_id": null
+        }
+      ],
+      "text": "temperature 101",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1108,
+          "char_end": 1119,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1166,
+          "char_end": 1193,
+          "turn_id": null
+        }
+      ],
+      "text": "tightening in his breathing",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1260,
+          "turn_id": null
+        }
+      ],
+      "text": "albuterol",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1294,
+          "char_end": 1303,
+          "turn_id": null
+        }
+      ],
+      "text": "dizziness",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1315,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1317,
+          "char_end": 1329,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1331,
+          "char_end": 1337,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1339,
+          "char_end": 1347,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1349,
+          "char_end": 1357,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1359,
+          "char_end": 1371,
+          "turn_id": null
+        }
+      ],
+      "text": "constipation",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1373,
+          "char_end": 1393,
+          "turn_id": null
+        }
+      ],
+      "text": "changes in urination",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1487,
+          "char_end": 1524,
+          "turn_id": null
+        }
+      ],
+      "text": "LEFT FOOT FOURTH METATARSAL RESECTION",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1525,
+          "char_end": 1535,
+          "turn_id": null
+        }
+      ],
+      "text": "BRONCHITIS",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1577,
+          "char_end": 1581,
+          "turn_id": null
+        }
+      ],
+      "text": "ESRD",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 1585,
+          "char_end": 1587,
+          "turn_id": null
+        }
+      ],
+      "text": "HD",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1589,
+          "char_end": 1597,
+          "turn_id": null
+        }
+      ],
+      "text": "DIABETES",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1598,
+          "char_end": 1601,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1602,
+          "char_end": 1615,
+          "turn_id": null
+        }
+      ],
+      "text": "GASTROPARESIS",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1616,
+          "char_end": 1630,
+          "turn_id": null
+        }
+      ],
+      "text": "HYPOTHYROIDISM",
+      "id": "e45"
+    }
+  ]
+}

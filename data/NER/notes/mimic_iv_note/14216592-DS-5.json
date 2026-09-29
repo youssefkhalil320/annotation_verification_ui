@@ -1,0 +1,416 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:14216592-DS-5:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\ncodeine / tramadol / metformin\n\nChief Complaint:\nPneumonia\n\nHistory of Present Illness:\n___ year old Female immunosuppressed on methotrexate who presents \nwith pneumonia. The patient presents with ___ weeks of cough, \ndyspnea and low grade fevers. The patient states 1 week prior to \nadmission she developed a sore throat with low grade fevers, \nwhich then progressed to a productive cough of yellow sputum. \nShe reports that her breathing is worse when lying down. She \nwent to Urgent Care ___ the morning of admission and was \nnoted with an SAO2 of 95% and low grade temp of 100. She got \nmultiple stacked nebulizers and prednisone without improvement. \nA chest x-ray there showed mild pulmonary edema and a probable \nretrocardiac pneumonia. She was subsequently transferred to the \n___ ED.\n\nPatient reports since arrival her breathing has improved a lot, \nand her wheezing is much improved. She reports her throat is \nstill sore, but her coughing has gone down. She notes her \ncoughing was so bad at home she was worried she would fracture a \nrib.\n\nInitial vitals in the ___ ED were 98.5, 84, 141/77, 20, 92%. \nShe was given duonebs, ceftriaxone, azithromycin, and admitted \nto medicine. FluPCR was negative.\n\nDischarge Diagnosis:\nCommunity-acquired pneumonia\nAsthma exacerbation",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 18,
+          "turn_id": null
+        }
+      ],
+      "text": "codeine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "tramadol",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 32,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "metformin",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 69,
+          "turn_id": null
+        }
+      ],
+      "text": "Pneumonia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 119,
+          "char_end": 135,
+          "turn_id": null
+        }
+      ],
+      "text": "immunosuppressed",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 139,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "methotrexate",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 171,
+          "char_end": 180,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 221,
+          "char_end": 226,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 229,
+          "char_end": 236,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 251,
+          "char_end": 257,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 321,
+          "char_end": 332,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 348,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 384,
+          "char_end": 417,
+          "turn_id": null
+        }
+      ],
+      "text": "productive cough of yellow sputum",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 441,
+          "char_end": 450,
+          "turn_id": null
+        },
+        {
+          "char_start": 454,
+          "char_end": 459,
+          "turn_id": null
+        }
+      ],
+      "text": "breathing worse",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 554,
+          "char_end": 558,
+          "turn_id": null
+        }
+      ],
+      "text": "SAO2",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 580,
+          "char_end": 591,
+          "turn_id": null
+        }
+      ],
+      "text": "temp of 100",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 619,
+          "char_end": 629,
+          "turn_id": null
+        }
+      ],
+      "text": "nebulizers",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 634,
+          "char_end": 644,
+          "turn_id": null
+        }
+      ],
+      "text": "prednisone",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 669,
+          "char_end": 680,
+          "turn_id": null
+        }
+      ],
+      "text": "chest x-ray",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 699,
+          "char_end": 714,
+          "turn_id": null
+        }
+      ],
+      "text": "pulmonary edema",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 731,
+          "char_end": 753,
+          "turn_id": null
+        }
+      ],
+      "text": "retrocardiac pneumonia",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 878,
+          "char_end": 886,
+          "turn_id": null
+        }
+      ],
+      "text": "wheezing",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 952,
+          "char_end": 960,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 991,
+          "char_end": 999,
+          "turn_id": null
+        }
+      ],
+      "text": "coughing",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1045,
+          "char_end": 1060,
+          "turn_id": null
+        }
+      ],
+      "text": "fracture a \nrib",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1139,
+          "char_end": 1146,
+          "turn_id": null
+        }
+      ],
+      "text": "duonebs",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1148,
+          "char_end": 1159,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1161,
+          "char_end": 1173,
+          "turn_id": null
+        }
+      ],
+      "text": "azithromycin",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1202,
+          "char_end": 1208,
+          "turn_id": null
+        }
+      ],
+      "text": "FluPCR",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1245,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "Community-acquired pneumonia",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1274,
+          "char_end": 1293,
+          "turn_id": null
+        }
+      ],
+      "text": "Asthma exacerbation",
+      "id": "e31"
+    }
+  ]
+}

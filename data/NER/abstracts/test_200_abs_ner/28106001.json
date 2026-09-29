@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 10,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 40,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 76,
@@ -48,8 +45,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 92,
@@ -68,7 +64,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 105,
@@ -82,7 +77,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 134,
@@ -95,8 +89,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 255,
@@ -115,7 +108,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 268,
@@ -129,7 +121,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 297,
@@ -143,7 +134,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 351,
@@ -157,7 +147,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 421,
@@ -171,7 +160,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 461,
@@ -185,7 +173,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 494,
@@ -199,7 +186,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 503,
@@ -213,21 +199,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 523,
+          "char_start": 536,
           "char_end": 540,
           "turn_id": null
         }
       ],
-      "text": "transfemoral TAVI",
+      "text": "TAVI",
       "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 559,
@@ -246,7 +230,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 572,
@@ -260,21 +243,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 625,
+          "char_start": 638,
           "char_end": 642,
           "turn_id": null
         }
       ],
-      "text": "transfemoral TAVI",
+      "text": "TAVI",
       "id": "e18"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 715,
@@ -288,7 +269,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 755,
@@ -302,7 +282,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 768,
@@ -316,7 +295,6 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 865,
@@ -328,23 +306,8 @@
       "id": "e22"
     },
     {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 923,
-          "char_end": 940,
-          "turn_id": null
-        }
-      ],
-      "text": "angiographic data",
-      "id": "e23"
-    },
-    {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1033,
@@ -353,12 +316,11 @@
         }
       ],
       "text": "TAVI",
-      "id": "e24"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1047,
@@ -367,12 +329,11 @@
         }
       ],
       "text": "road mapping",
-      "id": "e25"
+      "id": "e24"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1142,
@@ -381,12 +342,11 @@
         }
       ],
       "text": "TAVI",
-      "id": "e26"
+      "id": "e25"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1155,
@@ -395,54 +355,24 @@
         }
       ],
       "text": "road mapping",
-      "id": "e27"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1260,
-          "char_end": 1275,
-          "turn_id": null
-        }
-      ],
-      "text": "anticoagulation",
-      "id": "e28"
-    },
-    {
-      "coarse_type": "PROCEDURE",
-      "fine_type": "intervention",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1334,
-          "char_end": 1354,
-          "turn_id": null
-        }
-      ],
-      "text": "suture-based closure",
-      "id": "e29"
+      "id": "e26"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "exam",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1644,
+          "char_start": 1653,
           "char_end": 1662,
           "turn_id": null
         }
       ],
-      "text": "logistic EuroSCORE",
-      "id": "e30"
+      "text": "EuroSCORE",
+      "id": "e27"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1954,
@@ -451,12 +381,11 @@
         }
       ],
       "text": "implantation of the 29 mm Edwards SAPIEN XT valve",
-      "id": "e31"
+      "id": "e28"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 2098,
@@ -465,12 +394,11 @@
         }
       ],
       "text": "vascular complications",
-      "id": "e32"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2131,
@@ -479,12 +407,11 @@
         }
       ],
       "text": "bleeding",
-      "id": "e33"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 2300,
@@ -493,12 +420,11 @@
         }
       ],
       "text": "access site-related complications",
-      "id": "e34"
+      "id": "e31"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 2466,
@@ -512,12 +438,11 @@
         }
       ],
       "text": "vascular complications",
-      "id": "e35"
+      "id": "e32"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2479,
@@ -526,26 +451,11 @@
         }
       ],
       "text": "bleeding complications",
-      "id": "e36"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 2513,
-          "char_end": 2532,
-          "turn_id": null
-        }
-      ],
-      "text": "all-cause mortality",
-      "id": "e37"
+      "id": "e33"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2576,
@@ -554,12 +464,11 @@
         }
       ],
       "text": "femoral artery puncture",
-      "id": "e38"
+      "id": "e34"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2616,
@@ -568,12 +477,11 @@
         }
       ],
       "text": "DSA",
-      "id": "e39"
+      "id": "e35"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2624,
@@ -582,12 +490,11 @@
         }
       ],
       "text": "road mapping",
-      "id": "e40"
+      "id": "e36"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
+      "fine_type": "disease",
       "spans": [
         {
           "char_start": 2678,
@@ -601,12 +508,11 @@
         }
       ],
       "text": "vascular complications",
-      "id": "e41"
+      "id": "e37"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 2691,
@@ -615,21 +521,20 @@
         }
       ],
       "text": "bleeding complications",
-      "id": "e42"
+      "id": "e38"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 2720,
+          "char_start": 2733,
           "char_end": 2737,
           "turn_id": null
         }
       ],
-      "text": "transfemoral TAVI",
-      "id": "e43"
+      "text": "TAVI",
+      "id": "e39"
     }
   ]
 }

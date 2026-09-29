@@ -1,0 +1,707 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:215651:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My son has Gillian barre AIDP pain in both legs and hands complicated by a fall on left leg resulting in broken patella and DVT. Now he has been diagnosed with RSD reflex sympathetic dystrophy in that foot. Pain specialist put him on a plan to manage pain but does not follow up or manage dosage or scheduling of meds. He has 4 doctors and no one seems to take lead on helping me implement the plan. He is on 175 mg Lyrica tid. which I try to give at 7 am 3 and 11 pm. I am to alternate 1000 mg of acetaminophen every 8 hours to prevent break through pain however if he is asleep I do not give him this but am afraid to give him this dose too close to Lyrica. I have weaned him off of oxycodone but when I introduced Robaxin 1000 mg every 6 hours and Cymbalta @ 30 mg to be increased to 60 mg daily and the palmelor 25 mg at bedtime he hit a brick wall. He’s either sedated to the point he is dizzy tachycardic and short of breath when I try to wake him for physical therapy or transfer him from wheelchair or in terrible pain and unable to sleep. Right now I stopped all meds but Lyrica but just started to introduce others toward evening to promote his sleep at night so he is functional for therapy in daytime. I gave one dose of acetaminophen 4 hours after last Lyrica dose robaxin 2 hrs after that and want to give nortrytiline and Lyrica dose near 11 pm. Can I give Lyrica and Pamelor together? Could I try giving 30 mg cymbalta tonight with these two meds? We are desperate for pain relief and sleep. Do we go to ER for help with pain management? We have been 3 days trying to get answers from 4 doctor offices\n[doctor] Hello,  You can safely take Lyrica and Pamelor together.  They will not interact with each other or affect the efficacy of one another.  Hope I have answered your query. Let me know if I can assist you further.  Regards, Dr. Shinas Hussain,  General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 21,
+          "char_end": 39,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Gillian barre AIDP",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 47,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 62,
+          "char_end": 67,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in hands",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 40,
+          "char_end": 47,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 53,
+          "char_end": 57,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in legs",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 129,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "broken patella",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 134,
+          "char_end": 137,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "DVT",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 170,
+          "char_end": 202,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "RSD reflex sympathetic dystrophy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 261,
+          "char_end": 265,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 425,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "175 mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 426,
+          "char_end": 432,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lyrica",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 433,
+          "char_end": 436,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tid",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 458,
+          "char_end": 477,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "at 7 am 3 and 11 pm",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 497,
+          "char_end": 504,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1000 mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 508,
+          "char_end": 521,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acetaminophen",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 522,
+          "char_end": 535,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every 8 hours",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 547,
+          "char_end": 565,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "break through pain",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 668,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lyrica",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 695,
+          "char_end": 704,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "oxycodone",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 727,
+          "char_end": 734,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Robaxin",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 735,
+          "char_end": 742,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1000 mg",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 743,
+          "char_end": 756,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every 6 hours",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 769,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cymbalta",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 772,
+          "char_end": 777,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "30 mg",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 797,
+          "char_end": 802,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "60 mg",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 803,
+          "char_end": 808,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 817,
+          "char_end": 825,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "palmelor",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 826,
+          "char_end": 831,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "25 mg",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 832,
+          "char_end": 842,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "at bedtime",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 876,
+          "char_end": 883,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sedated",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 903,
+          "char_end": 908,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "dizzy",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 909,
+          "char_end": 920,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tachycardic",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 925,
+          "char_end": 940,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "short of breath",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 968,
+          "char_end": 984,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "physical therapy",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1036,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1041,
+          "char_end": 1056,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unable to sleep",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1070,
+          "char_end": 1097,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stopped all meds but Lyrica",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1231,
+          "char_end": 1239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "one dose",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1243,
+          "char_end": 1256,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "acetaminophen",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1257,
+          "char_end": 1287,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "4 hours after last Lyrica dose",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1276,
+          "char_end": 1282,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lyrica",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1288,
+          "char_end": 1295,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "robaxin",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1296,
+          "char_end": 1312,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "2 hrs after that",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1330,
+          "char_end": 1342,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nortrytiline",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1347,
+          "char_end": 1353,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lyrica",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1359,
+          "char_end": 1369,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "near 11 pm",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1382,
+          "char_end": 1388,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lyrica",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1393,
+          "char_end": 1400,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Pamelor",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1430,
+          "char_end": 1435,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "30 mg",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1436,
+          "char_end": 1444,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cymbalta",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1445,
+          "char_end": 1452,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tonight",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1495,
+          "char_end": 1499,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1547,
+          "char_end": 1551,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1665,
+          "char_end": 1671,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Lyrica",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1676,
+          "char_end": 1683,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Pamelor",
+      "id": "e53"
+    }
+  ]
+}

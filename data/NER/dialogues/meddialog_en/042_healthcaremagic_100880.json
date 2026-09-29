@@ -1,0 +1,312 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:100880:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] About two weeks ago, I started taking three additional supplements to try to increase my energy: iron, niacin, and Gingko. About a week ago, a rash begin forming under my arms. I thought maybe it was a reaction to lotion, deodorant, laundry soap...so I went back to my old deodorant. Over the past week, the rash has turned into a dark red, quickly spreading, painful rash with raised bumps that expand from my armpit to short-sleeve level, down my side, and now behind my knees. A splotch just appeared inside my wrist yesterday. I stopped taking the supplements yesterday and I m trying to alleviate the symptoms with Polysporin and Caladryl. Do you think these symptoms will go away? Should I see a doctor or wait to see if the symptoms go away...if I should wait, how long would you recommend? I m wondering if I m having an allergic reaction to those new supplements. I have no known allergies to foods or medicines. Thank you for your help!\n[doctor] HI, thanks for using healthcare magicIt is possible that it is an allergic reaction to your new supplements. In addition to the medications that you are using, you should also try oral anti histamines.If it is an allergic reaction, then these would help. Oral antihistamines are available over the counter, examples are benadryl, claritine, allegra, zyrtecIf there is no improvement in 36 to 48 hours or there is worsening, then you need to consider visiting your doctor for assessment.I hope this helps",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 107,
+          "char_end": 111,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "iron",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 119,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "niacin",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 125,
+          "char_end": 131,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Gingko",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 157,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 322,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 382,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 388,
+          "char_end": 400,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "raised bumps",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 499,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "splotch",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 630,
+          "char_end": 640,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Polysporin",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 645,
+          "char_end": 653,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Caladryl",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 839,
+          "char_end": 856,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 908,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 921,
+          "char_end": 930,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergies medicines",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 917,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergies to foods",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1049,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1146,
+          "char_end": 1150,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oral",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1151,
+          "char_end": 1166,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anti histamines",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1179,
+          "char_end": 1196,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1225,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Oral",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1226,
+          "char_end": 1240,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihistamines",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1286,
+          "char_end": 1294,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "benadryl",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1296,
+          "char_end": 1305,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "claritine",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1307,
+          "char_end": 1314,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allegra",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1316,
+          "char_end": 1324,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "zyrtecIf",
+      "id": "e23"
+    }
+  ]
+}

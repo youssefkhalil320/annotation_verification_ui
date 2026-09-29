@@ -1,0 +1,294 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15319001-DS-7:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\ncephalexin / fluoxetine / Macrolide Antibiotics / ofloxacin / \nranitidine\n\nChief Complaint:\ncolonoscopy prep\n\nHistory of Present Illness:\n___ female with history of\nT2DM, asthma, HTN, and ___ hereditary osteopdystrophy who\npresents for planned extended colonoscopy prep after failed\noutpatient prep x2. \n\nPatient underwent routine colonoscopy in ___ of this year \nbut\ndue to poor prep had to repeat this in ___. In ___ she\nunderwent colonoscopy with transverse colon polypectomy but \nagain\nhad prepped poorly and decision made to plan for inpatient\nextended colonoscopy prep with clear liquids and 2 day prep with\nNulyteley per GI. Poor preps have been attributed to\nnoncompliance with clear liquid diet prior to ___. Of note,\nmother with history of colon cancer.\n\nOn arrival to the floor patient is without acute complaints. \n\nROS: Pertinent positives and negatives as noted in the HPI.  All\nother systems were reviewed and are negative.\n\nBrief Hospital Course:\nPt was admitted for colonoscopy prep over two days given \nmultiple failed preps at home.   Pt was prepped slowly over 2 \ndays and tolerated it well.  Pt was clear by ___ afternoon \nand was very eager to advance her diet.  Pt was redirected to \nremain NPO after midnight and was taken for colonoscopy without \nincident on ___.   Pt was advanced a diet without difficulty \nand was discharged home to care of family on ___.    There were \nno changes made to her home medication regimen.\n\nDischarge Diagnosis:\nAnemia\nColonoscopy",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 21,
+          "turn_id": null
+        }
+      ],
+      "text": "cephalexin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 24,
+          "char_end": 34,
+          "turn_id": null
+        }
+      ],
+      "text": "fluoxetine",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 37,
+          "char_end": 58,
+          "turn_id": null
+        }
+      ],
+      "text": "Macrolide Antibiotics",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 70,
+          "turn_id": null
+        }
+      ],
+      "text": "ofloxacin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 84,
+          "turn_id": null
+        }
+      ],
+      "text": "ranitidine",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 114,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 176,
+          "char_end": 180,
+          "turn_id": null
+        }
+      ],
+      "text": "T2DM",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 182,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "asthma",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 193,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 203,
+          "char_end": 229,
+          "turn_id": null
+        }
+      ],
+      "text": "hereditary osteopdystrophy",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 264,
+          "char_end": 275,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 342,
+          "char_end": 353,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 444,
+          "char_end": 455,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 461,
+          "char_end": 489,
+          "turn_id": null
+        }
+      ],
+      "text": "transverse colon polypectomy",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 569,
+          "char_end": 580,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 625,
+          "char_end": 634,
+          "turn_id": null
+        }
+      ],
+      "text": "Nulyteley",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 678,
+          "char_end": 714,
+          "turn_id": null
+        }
+      ],
+      "text": "noncompliance with clear liquid diet",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 761,
+          "char_end": 773,
+          "turn_id": null
+        }
+      ],
+      "text": "colon cancer",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 1005,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1262,
+          "char_end": 1273,
+          "turn_id": null
+        }
+      ],
+      "text": "colonoscopy",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1480,
+          "char_end": 1486,
+          "turn_id": null
+        }
+      ],
+      "text": "Anemia",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1487,
+          "char_end": 1498,
+          "turn_id": null
+        }
+      ],
+      "text": "Colonoscopy",
+      "id": "e22"
+    }
+  ]
+}

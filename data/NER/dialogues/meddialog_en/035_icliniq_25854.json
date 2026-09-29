@@ -1,0 +1,922 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:25854:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I had unprotected sexual exposure around four months ago and after that I found a swelling in my right scrotum (after scanning found benign) and consulted a urologist and told him about my exposure and he prescribed Azhithral injections but I was unable to take as it became allergic in the test dose and then he gave me Doxy LDR1 forte (14 no.s) and Flavospas 200 mg for one week. When I was consuming this, I got heavy pain in my body and after some days I found that fat under my thighs, palms, hands, legs, chest, feet and soles has been lost (it is still continuing). A swollen lymph node in neck appeared and my left parotid gland became swollen. I consulted an ENT. He prescribed Moxclav 625. The swelling in the parotid gland subsided and again after some days there was swelling and the doctor gave me Piroxicam. Again it subsided and then after some days again the same problem raised and the doctor gave me Claribid 500 for five days and it subsided. A scan was done on my neck and the result showed: Enlarged left parotid gland with diffuse decrease in echogenicity possibly parotitis. Cervical lymphadenitis: Enlarged lymph nodes noted in the left posterior cervical, submandibular and upper jugular group. They show maintained fatty hilum and ovoid shape. Maximum short axis diameter is 5 mm.Still, I am losing fat from thighs, glute, legs, hands, chest, palms, and soles of the feet, etc. I have a burning and tingling sensation all over the body and in the night inside of both palms become red and veins become enlarged. The following tests I did for HIV and other STDs after the above-mentioned exposure:  P24 antigen - 28th day. ELISA - 42nd day. CMIA DUO test - 75th day. ELISA - 92nd day. Hep B, HCV, and VDRL - 99th day.  All the above tests were negative. And doctors said that HIV test after 90th day is conclusive that I do not have HIV. Then please analysis my case and give me your valuable suggestions.\n[doctor] Hello. I need to know some more information such as how much weight have you lost in the last four to six months, the presence of any other symptoms like fever, diarrhea, joints pain, recurrent oral or genital ulcer. Was there any ulcer over the scrotum during the swelling? The symptoms which you have are very non-specific and can be associated with any chronic illness. So further tests will be guided by your symptoms. Are you in touch with the lady, if yes does she have any particular illness? Firstly, there is very less likelihood of HIV, almost nil. At this stage, the possibilities I would keep are of syphilis. However, your VDRL is negative. Orit may just be a psychological issue due to overthinking about that exposure. Anyway, you will need some more investigations like complete hemogram with ESR and CRP, liver and renal function test, ANA antibody test, chest X-ray. For syphilis, you will need other tests like FTA-ABS or TPPA or MHA TP. If none of the above are informative, we may need a CT scan of the neck, chest, and abdomen. So, get back with some information, and answers to my questions. Revert with more information to an internal medicine physician online --> https://www.icliniq.com/ask-a-doctor-online/internal-medicine-physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 57,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "unprotected sexual exposure",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 106,
+          "char_end": 134,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling in my right scrotum",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 142,
+          "char_end": 150,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "scanning",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 249,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Azhithral",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 250,
+          "char_end": 260,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "injections",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 324,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "test dose",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 360,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Doxy LDR1 forte",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 375,
+          "char_end": 384,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Flavospas",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 385,
+          "char_end": 391,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200 mg",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 392,
+          "char_end": 404,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for one week",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 445,
+          "char_end": 460,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my body",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 494,
+          "char_end": 556,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 566,
+          "char_end": 570,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fat under my thighs, palms, hands, legs, chest, feet and soles lost",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 599,
+          "char_end": 625,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swollen lymph node in neck",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 675,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "left parotid gland became swollen",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 711,
+          "char_end": 718,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Moxclav",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 719,
+          "char_end": 722,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "625",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 757,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling in the parotid gland",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 803,
+          "char_end": 811,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "swelling",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 835,
+          "char_end": 844,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Piroxicam",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 950,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Claribid",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 951,
+          "char_end": 954,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "500",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 955,
+          "char_end": 968,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for five days",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1036,
+          "char_end": 1101,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Enlarged left parotid gland with diffuse decrease in echogenicity",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1111,
+          "char_end": 1120,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "parotitis",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1122,
+          "char_end": 1144,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Cervical lymphadenitis",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1146,
+          "char_end": 1242,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Enlarged lymph nodes noted in the left posterior cervical, submandibular and upper jugular group",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1342,
+          "char_end": 1421,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "losing fat from thighs, glute, legs, hands, chest, palms, and soles of the feet",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1437,
+          "char_end": 1444,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1458,
+          "char_end": 1485,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "burning sensation all over the body",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1449,
+          "char_end": 1485,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tingling sensation all over the body",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1503,
+          "char_end": 1534,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inside of both palms become red",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1539,
+          "char_end": 1560,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "veins become enlarged",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1592,
+          "char_end": 1595,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1610,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "STDs",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1648,
+          "char_end": 1659,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "P24 antigen",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1677,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ELISA",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1690,
+          "char_end": 1703,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "CMIA DUO test",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1716,
+          "char_end": 1721,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "ELISA",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1734,
+          "char_end": 1739,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hep B",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1741,
+          "char_end": 1744,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HCV",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1750,
+          "char_end": 1754,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "VDRL",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1825,
+          "char_end": 1828,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1825,
+          "char_end": 1833,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV test",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1882,
+          "char_end": 1885,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "HIV",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2031,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2041,
+          "char_end": 2045,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "weight lost",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2118,
+          "char_end": 2123,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fever",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2125,
+          "char_end": 2133,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2135,
+          "char_end": 2146,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "joints pain",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2158,
+          "char_end": 2162,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2174,
+          "char_end": 2179,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oral ulcer",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2166,
+          "char_end": 2179,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "genital ulcer",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2195,
+          "char_end": 2217,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ulcer over the scrotum",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2229,
+          "char_end": 2237,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "swelling",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2506,
+          "char_end": 2509,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "HIV",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2576,
+          "char_end": 2584,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "syphilis",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2600,
+          "char_end": 2604,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "VDRL",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2637,
+          "char_end": 2656,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "psychological issue",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2664,
+          "char_end": 2676,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2683,
+          "char_end": 2696,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "overthinking that exposure",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2750,
+          "char_end": 2767,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "complete hemogram",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2773,
+          "char_end": 2776,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ESR",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2781,
+          "char_end": 2784,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CRP",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2786,
+          "char_end": 2791,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 2802,
+          "char_end": 2815,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "liver function test",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2796,
+          "char_end": 2815,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "renal function test",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2817,
+          "char_end": 2834,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ANA antibody test",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2836,
+          "char_end": 2847,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "chest X-ray",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2853,
+          "char_end": 2861,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "syphilis",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2894,
+          "char_end": 2901,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "FTA-ABS",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2905,
+          "char_end": 2909,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "TPPA",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2913,
+          "char_end": 2919,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "MHA TP",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2973,
+          "char_end": 3012,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "CT scan of the neck, chest, and abdomen",
+      "id": "e68"
+    }
+  ]
+}

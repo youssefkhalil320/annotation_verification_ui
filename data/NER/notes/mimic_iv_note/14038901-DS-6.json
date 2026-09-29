@@ -1,0 +1,1781 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:14038901-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nAmoxicillin\n\nChief Complaint:\ndysphagia\n\nHistory of Present Illness:\nThis is an ___ year-old woman with history of ? lymphcytic \nleukemia with h/o neutropenia on weekly neupogen, RA not on \nsteroids, beta thalassemia trait, Alzheimers disease, recent \nlong hospitalization for PNA discharge to rehab ___, with known \nespophagela stricture during that admission that was not \nintervened on, presenting from rehab for UTI and difficulty \nswallowing. When she was at ___, she was diagnosed with \ninfluenza complicated by PNA with H flu. She was initially \ntreated with Tamiflu and Vanc/Cefepime, then narrowed to \nCTX/azithro, but then spiked more fevers and was changed back to \nVanc/Ceftaz for the remainder of her course (finished ___. Of \nnot she had a L pleural effusion which was tapped and showed \nexudative fluid. She had a barium swallow during admission which \nshowed an 8 mm stricture in the distal 3 cm of the esophagus. \nS+S however cleared the patient, and she was discharged to rehab \nwith a regular diet.\n\nPer the patient's son, she has continued to have fevers while in \nrehab, and was diagnosed with a UTI. She was also noted not to \nbe able to tolerate solids or liquids at rehab, and would \nimmediately spit up anything she tried to take including pills. \nPer the son she did not complain of chest pain, SOB, nausea, or \nany other complaints that he knows of.\n\nWith ___ interpreter, patient denies all sx including dyphagia \nand dysuria, says she occasionally gets chest pain but is not \nable to further elaborate.\n\nPer conversation with patient via ___ interpreter, she denies \nall sx including difficulty swallowing. She says she \noccasionally gets chest pain but is unable to elaborate.\n\nIn the ED, initial vitals are 100.0 86 138/67 14 98% RA. UA was \nconsistent with UTI, so patient received ciprofloxacin 400 mg IV \nx1.  Patient was unable to swallow and handle secretions. GI was \nconsulted and recommended admission to the ___ for EGD \nand possible dilation of her esophageal stricture. Got 1 L NS. \nVitals on transfer are: 89 119/54 16 97%.  \n\nOn arrival to the MICU, the patient is without complaints, looks \ncomfortable.\n\nBrief Hospital Course:\n___ ___ woman whose PMH includes large granulocytic \nleukemia with neutropenia on neupogen, RA, beta thalassemia \ntrait, Alzheimer's disease. Recent long hospitalization for PNA, \nfound to have esophageal stricture but did not undergo \nintervention, discharged to rehab ___. Admitted from rehab on \n___ to FICU with UTI and dysphagia (concerning for airway \nprotection). GI consulted, EGD delayed due to neutropenia. EGD \n___ showed ___'s ring in distal esophagus and bolus of \nfood, which was removed. Dilation performed. Diet was advanced \nto regular per S+S recommendation. For UTI, she was initially \nstarted on CTX, but UCx grew VRE and yeast. Switched to \nlinezolid and fluconazole on ___. In addition, Atrius Oncology \nwas consulted, and given recent multiple infections, they \nrecommended increasing Neupogen to twice weekly. She was \ntransferred to medical floor on ___.\n\n# Sc___'s ring: now s/p dilation, stable, tolerating \nmechanical soft diet\n# UTI, VRE and yeast: stable on linezolid & fluconazole, plan \nten day course (day ___\n# oral candidiasis: on fluconazole as above\n# multiple T & L spine fractures: found on CT at OSH of various \nages. SPEP/UPEP negative. Ortho Spine consulted, found no \nunstable fractures, recommended conservative mgmt with TSLO \nbrace for comfort. ___ may work with patient without \nrestrictions. Will not pursue MRI to further characterize as \nunlikely to change mgmt, pt not surgical candidate. ___ \nOncology commented that if she had pathologic spinal fractures, \nthey would be unlikely related to LGL. Pt seems comfortable on \nTylenol, denies pain. She was fitted with an LSO brace and \nfollowed by ___.\n# metabolic encephalopathy: in setting of poor nutrition, \ninfection, pain, hospitalization, etc, all with underlying \ndementia; seems to have resolved, has not required further \nhaldol or zyprexa. Was trying to climb out of bed at times, \nbetter with Posey belt. She improved however, and did not \nrequire the Posey belt since ___.\n# Alzheimer's dementia: stable. On admission, she was NPO so she \ndid not get her trazadone for a few days. She became delirious \nin the ICU, requiring low dose haldol. Much calmer on the \nmedical floor, trazodone resumed. \n# large granular lymphocytic leukemia, neutropenia: Patient has \na history of LGL and neutropenia on chronic Neupogen.  Followed \nby At___ Oncology but has not been to an appt since ___. She \nhad previously been on Neupogen 3x per week, however, had \ndecreased to once per week due to cost years ago. She had \npreviously declined to start methotrexate, has never had chemo \nor radiation. She had been doing well without infections for a \nlong time so had been maintained on once weekly dosing despite \ngetting transiently neutropenic. Atrius oncology was consulted \nas noted above, recommended increasing dosing to twice weekly \ngiven her recent multiple infections.\n# RA: with ulnar deviations. Never received DMARDs given that \npatient declined therapy years ago.\n# osteoporosis: continue Vitamin D, calcium\n# microcytic anemia with beta-thalassemia: stable\n\nEXTERNAL TRANSITIONAL ISSUES:\n- Consider zoledronic acid for osteoporosis\n- Arrange oncology follow up\n\nDischarge Diagnosis:\nmetabolic encephalopathy\nurinary tract infection\nspinal compression fractures\nosteoporosis\nlarge granulocytic leukemia\nneutropenia\ndementia",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 22,
+          "turn_id": null
+        }
+      ],
+      "text": "Amoxicillin",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 41,
+          "char_end": 50,
+          "turn_id": null
+        }
+      ],
+      "text": "dysphagia",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 128,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "lymphcytic \nleukemia",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 158,
+          "char_end": 169,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 173,
+          "char_end": 179,
+          "turn_id": null
+        }
+      ],
+      "text": "weekly",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 180,
+          "char_end": 188,
+          "turn_id": null
+        }
+      ],
+      "text": "neupogen",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 190,
+          "char_end": 192,
+          "turn_id": null
+        }
+      ],
+      "text": "RA",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 209,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 211,
+          "char_end": 233,
+          "turn_id": null
+        }
+      ],
+      "text": "beta thalassemia trait",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 235,
+          "char_end": 253,
+          "turn_id": null
+        }
+      ],
+      "text": "Alzheimers disease",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 288,
+          "char_end": 291,
+          "turn_id": null
+        }
+      ],
+      "text": "PNA",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 328,
+          "char_end": 349,
+          "turn_id": null
+        }
+      ],
+      "text": "espophagela stricture",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 430,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 457,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty \nswallowing",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 504,
+          "char_end": 513,
+          "turn_id": null
+        }
+      ],
+      "text": "influenza",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 529,
+          "char_end": 532,
+          "turn_id": null
+        }
+      ],
+      "text": "PNA",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 577,
+          "char_end": 584,
+          "turn_id": null
+        }
+      ],
+      "text": "Tamiflu",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 589,
+          "char_end": 593,
+          "turn_id": null
+        }
+      ],
+      "text": "Vanc",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": "Cefepime",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 625,
+          "turn_id": null
+        }
+      ],
+      "text": "CTX",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 622,
+          "char_end": 625,
+          "turn_id": null
+        }
+      ],
+      "text": "CTX",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 633,
+          "turn_id": null
+        }
+      ],
+      "text": "azithro",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 656,
+          "char_end": 662,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 692,
+          "turn_id": null
+        }
+      ],
+      "text": "Vanc",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 693,
+          "char_end": 699,
+          "turn_id": null
+        }
+      ],
+      "text": "Ceftaz",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 765,
+          "char_end": 783,
+          "turn_id": null
+        }
+      ],
+      "text": "L pleural effusion",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 794,
+          "char_end": 800,
+          "turn_id": null
+        }
+      ],
+      "text": "tapped",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 813,
+          "char_end": 828,
+          "turn_id": null
+        }
+      ],
+      "text": "exudative fluid",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 840,
+          "char_end": 854,
+          "turn_id": null
+        }
+      ],
+      "text": "barium swallow",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 891,
+          "char_end": 939,
+          "turn_id": null
+        }
+      ],
+      "text": "mm stricture in the distal 3 cm of the esophagus",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 942,
+          "char_end": 945,
+          "turn_id": null
+        }
+      ],
+      "text": "S+S",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1079,
+          "char_end": 1085,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1128,
+          "char_end": 1131,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1231,
+          "char_end": 1247,
+          "turn_id": null
+        },
+        {
+          "char_start": 1252,
+          "char_end": 1265,
+          "turn_id": null
+        }
+      ],
+      "text": "spit up anything tried to take",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1330,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1332,
+          "char_end": 1335,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1337,
+          "char_end": 1343,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1443,
+          "char_end": 1451,
+          "turn_id": null
+        }
+      ],
+      "text": "dyphagia",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1457,
+          "char_end": 1464,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1493,
+          "char_end": 1503,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1624,
+          "char_end": 1645,
+          "turn_id": null
+        }
+      ],
+      "text": "difficulty swallowing",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1689,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1772,
+          "char_end": 1774,
+          "turn_id": null
+        }
+      ],
+      "text": "RA",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1778,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1800,
+          "char_end": 1803,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1825,
+          "char_end": 1838,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1839,
+          "char_end": 1845,
+          "turn_id": null
+        }
+      ],
+      "text": "400 mg",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1846,
+          "char_end": 1848,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1850,
+          "char_end": 1852,
+          "turn_id": null
+        }
+      ],
+      "text": "x1",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1867,
+          "char_end": 1884,
+          "turn_id": null
+        }
+      ],
+      "text": "unable to swallow",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1889,
+          "char_end": 1906,
+          "turn_id": null
+        }
+      ],
+      "text": "handle secretions",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1967,
+          "char_end": 1970,
+          "turn_id": null
+        }
+      ],
+      "text": "EGD",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1985,
+          "char_end": 1993,
+          "turn_id": null
+        }
+      ],
+      "text": "dilation",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2001,
+          "char_end": 2021,
+          "turn_id": null
+        }
+      ],
+      "text": "esophageal stricture",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 2027,
+          "char_end": 2030,
+          "turn_id": null
+        }
+      ],
+      "text": "1 L",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2031,
+          "char_end": 2033,
+          "turn_id": null
+        }
+      ],
+      "text": "NS",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2217,
+          "char_end": 2245,
+          "turn_id": null
+        }
+      ],
+      "text": "large granulocytic \nleukemia",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2251,
+          "char_end": 2262,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2266,
+          "char_end": 2274,
+          "turn_id": null
+        }
+      ],
+      "text": "neupogen",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2276,
+          "char_end": 2278,
+          "turn_id": null
+        }
+      ],
+      "text": "RA",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2280,
+          "char_end": 2303,
+          "turn_id": null
+        }
+      ],
+      "text": "beta thalassemia \ntrait",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2305,
+          "char_end": 2324,
+          "turn_id": null
+        }
+      ],
+      "text": "Alzheimer's disease",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2358,
+          "char_end": 2361,
+          "turn_id": null
+        }
+      ],
+      "text": "PNA",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2378,
+          "char_end": 2398,
+          "turn_id": null
+        }
+      ],
+      "text": "esophageal stricture",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2500,
+          "char_end": 2503,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2508,
+          "char_end": 2517,
+          "turn_id": null
+        }
+      ],
+      "text": "dysphagia",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2569,
+          "char_end": 2572,
+          "turn_id": null
+        }
+      ],
+      "text": "EGD",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2588,
+          "char_end": 2599,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2601,
+          "char_end": 2604,
+          "turn_id": null
+        }
+      ],
+      "text": "EGD",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2617,
+          "char_end": 2647,
+          "turn_id": null
+        }
+      ],
+      "text": "___'s ring in distal esophagus",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2652,
+          "char_end": 2666,
+          "turn_id": null
+        }
+      ],
+      "text": "bolus of \nfood",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2678,
+          "char_end": 2685,
+          "turn_id": null
+        }
+      ],
+      "text": "removed",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2687,
+          "char_end": 2695,
+          "turn_id": null
+        }
+      ],
+      "text": "Dilation",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 2741,
+          "char_end": 2744,
+          "turn_id": null
+        }
+      ],
+      "text": "S+S",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2765,
+          "char_end": 2768,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2800,
+          "char_end": 2803,
+          "turn_id": null
+        }
+      ],
+      "text": "CTX",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2809,
+          "char_end": 2812,
+          "turn_id": null
+        }
+      ],
+      "text": "UCx",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2846,
+          "char_end": 2855,
+          "turn_id": null
+        }
+      ],
+      "text": "linezolid",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2860,
+          "char_end": 2871,
+          "turn_id": null
+        }
+      ],
+      "text": "fluconazole",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2942,
+          "char_end": 2961,
+          "turn_id": null
+        }
+      ],
+      "text": "multiple infections",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2992,
+          "char_end": 3000,
+          "turn_id": null
+        }
+      ],
+      "text": "Neupogen",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 3004,
+          "char_end": 3016,
+          "turn_id": null
+        }
+      ],
+      "text": "twice weekly",
+      "id": "e82"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3067,
+          "char_end": 3079,
+          "turn_id": null
+        }
+      ],
+      "text": "Sc___'s ring",
+      "id": "e83"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3089,
+          "char_end": 3097,
+          "turn_id": null
+        }
+      ],
+      "text": "dilation",
+      "id": "e84"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3142,
+          "char_end": 3145,
+          "turn_id": null
+        }
+      ],
+      "text": "UTI",
+      "id": "e85"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3172,
+          "char_end": 3181,
+          "turn_id": null
+        }
+      ],
+      "text": "linezolid",
+      "id": "e86"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3184,
+          "char_end": 3195,
+          "turn_id": null
+        }
+      ],
+      "text": "fluconazole",
+      "id": "e87"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 3203,
+          "char_end": 3217,
+          "turn_id": null
+        }
+      ],
+      "text": "ten day course",
+      "id": "e88"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3229,
+          "char_end": 3245,
+          "turn_id": null
+        }
+      ],
+      "text": "oral candidiasis",
+      "id": "e89"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3250,
+          "char_end": 3261,
+          "turn_id": null
+        }
+      ],
+      "text": "fluconazole",
+      "id": "e90"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3273,
+          "char_end": 3303,
+          "turn_id": null
+        }
+      ],
+      "text": "multiple T & L spine fractures",
+      "id": "e91"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3342,
+          "char_end": 3346,
+          "turn_id": null
+        }
+      ],
+      "text": "SPEP",
+      "id": "e92"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3347,
+          "char_end": 3351,
+          "turn_id": null
+        }
+      ],
+      "text": "UPEP",
+      "id": "e93"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3395,
+          "char_end": 3413,
+          "turn_id": null
+        }
+      ],
+      "text": "unstable fractures",
+      "id": "e94"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 3540,
+          "char_end": 3543,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e95"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 3664,
+          "char_end": 3691,
+          "turn_id": null
+        }
+      ],
+      "text": "pathologic spinal fractures",
+      "id": "e96"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3728,
+          "char_end": 3731,
+          "turn_id": null
+        }
+      ],
+      "text": "LGL",
+      "id": "e97"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3758,
+          "char_end": 3765,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e98"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3837,
+          "char_end": 3861,
+          "turn_id": null
+        }
+      ],
+      "text": "metabolic encephalopathy",
+      "id": "e99"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3954,
+          "char_end": 3962,
+          "turn_id": null
+        }
+      ],
+      "text": "dementia",
+      "id": "e100"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4014,
+          "char_end": 4020,
+          "turn_id": null
+        }
+      ],
+      "text": "haldol",
+      "id": "e101"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4024,
+          "char_end": 4031,
+          "turn_id": null
+        }
+      ],
+      "text": "zyprexa",
+      "id": "e102"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4170,
+          "char_end": 4190,
+          "turn_id": null
+        }
+      ],
+      "text": "Alzheimer's dementia",
+      "id": "e103"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4250,
+          "char_end": 4259,
+          "turn_id": null
+        }
+      ],
+      "text": "trazadone",
+      "id": "e104"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 4287,
+          "char_end": 4296,
+          "turn_id": null
+        }
+      ],
+      "text": "delirious",
+      "id": "e105"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4329,
+          "char_end": 4335,
+          "turn_id": null
+        }
+      ],
+      "text": "haldol",
+      "id": "e106"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4372,
+          "char_end": 4381,
+          "turn_id": null
+        }
+      ],
+      "text": "trazodone",
+      "id": "e107"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4394,
+          "char_end": 4429,
+          "turn_id": null
+        }
+      ],
+      "text": "large granular lymphocytic leukemia",
+      "id": "e108"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4431,
+          "char_end": 4442,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e109"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4478,
+          "char_end": 4489,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e110"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 4493,
+          "char_end": 4500,
+          "turn_id": null
+        }
+      ],
+      "text": "chronic",
+      "id": "e111"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4501,
+          "char_end": 4509,
+          "turn_id": null
+        }
+      ],
+      "text": "Neupogen",
+      "id": "e112"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4607,
+          "char_end": 4615,
+          "turn_id": null
+        }
+      ],
+      "text": "Neupogen",
+      "id": "e113"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4616,
+          "char_end": 4627,
+          "turn_id": null
+        }
+      ],
+      "text": "3x per week",
+      "id": "e114"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4656,
+          "char_end": 4669,
+          "turn_id": null
+        }
+      ],
+      "text": "once per week",
+      "id": "e115"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 4731,
+          "char_end": 4743,
+          "turn_id": null
+        }
+      ],
+      "text": "methotrexate",
+      "id": "e116"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4759,
+          "char_end": 4764,
+          "turn_id": null
+        }
+      ],
+      "text": "chemo",
+      "id": "e117"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 4769,
+          "char_end": 4778,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation",
+      "id": "e118"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 4866,
+          "char_end": 4877,
+          "turn_id": null
+        }
+      ],
+      "text": "once weekly",
+      "id": "e119"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 4914,
+          "char_end": 4925,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenic",
+      "id": "e120"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 5007,
+          "char_end": 5019,
+          "turn_id": null
+        }
+      ],
+      "text": "twice weekly",
+      "id": "e121"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 5070,
+          "char_end": 5086,
+          "turn_id": null
+        }
+      ],
+      "text": "ulnar deviations",
+      "id": "e122"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 5103,
+          "char_end": 5109,
+          "turn_id": null
+        }
+      ],
+      "text": "DMARDs",
+      "id": "e123"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5160,
+          "char_end": 5172,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoporosis",
+      "id": "e124"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5183,
+          "char_end": 5192,
+          "turn_id": null
+        }
+      ],
+      "text": "Vitamin D",
+      "id": "e125"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5194,
+          "char_end": 5201,
+          "turn_id": null
+        }
+      ],
+      "text": "calcium",
+      "id": "e126"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5204,
+          "char_end": 5221,
+          "turn_id": null
+        }
+      ],
+      "text": "microcytic anemia",
+      "id": "e127"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5227,
+          "char_end": 5243,
+          "turn_id": null
+        }
+      ],
+      "text": "beta-thalassemia",
+      "id": "e128"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 5294,
+          "char_end": 5309,
+          "turn_id": null
+        }
+      ],
+      "text": "zoledronic acid",
+      "id": "e129"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5314,
+          "char_end": 5326,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoporosis",
+      "id": "e130"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5378,
+          "char_end": 5402,
+          "turn_id": null
+        }
+      ],
+      "text": "metabolic encephalopathy",
+      "id": "e131"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5403,
+          "char_end": 5426,
+          "turn_id": null
+        }
+      ],
+      "text": "urinary tract infection",
+      "id": "e132"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 5427,
+          "char_end": 5455,
+          "turn_id": null
+        }
+      ],
+      "text": "spinal compression fractures",
+      "id": "e133"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5456,
+          "char_end": 5468,
+          "turn_id": null
+        }
+      ],
+      "text": "osteoporosis",
+      "id": "e134"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5469,
+          "char_end": 5496,
+          "turn_id": null
+        }
+      ],
+      "text": "large granulocytic leukemia",
+      "id": "e135"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 5497,
+          "char_end": 5508,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e136"
+    }
+  ]
+}

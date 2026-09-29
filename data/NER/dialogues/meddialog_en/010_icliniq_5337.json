@@ -1,0 +1,710 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:5337:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, My 13-year-old sister has been diagnosed with various mental disorders since the age of 2. My parents have taken her to doctors since then because they have noticed that she was not developing like the other children. Almost every doctor gave another diagnostic such as autism (each doctor suggested a different type of autism) and mental retardation. When she was approximately 6 years old, she was also diagnosed with epilepsy. At first, the crisis was happening only while sleeping and they were detected during an EEG by a doctor. He prescribed the first anti-epileptic drug which was Ospolot. My sister felt very sick from it so another doctor told us to stop the medication. We did and then she started having a different type of crisis, absence crisis while awake. The doctor then prescribed Topram. Throughout the treatment with Topram, another type of crisis was added beside the absence, that is myoclonus. The doctor then prescribed Depakine instead of Topram. The absence crisis stopped, but the myoclonus stayed. Besides Depakine, she started taking Rivotril as well. With this combination, she stopped having a crisis for 3 months, but then the myoclonus started again and nocturnal epilepsy crisis was added as well. During this period, the doctor tried to replace Depakine with Lamictal (Lamotrigine), but my sister became intoxicated from it and started suffering from the Stevens-Johnson syndrome. She had to be at the hospital for one week to detox. My parents went to a different doctor then and he added Topram (Topamax / Topiramate) besides Rivotril and Depakine. This did not work again. My sister felt very sick from this combination while having a crisis both while being awake and asleep. She was then prescribed Depakine and Levetiracetam. The crisis while being awake stopped, but those while asleep still happen. At the moment, she takes Depakine, Levetiracetam, and Ospolot, but the nocturnal crisis persists. We do not know what to do anymore because the side effects of all these anti-epileptics have done a lot of damage. My sister is always very sleepy and drooling all the time. She already has mental issues so this just makes things so much worse. I know I wrote a lot, but I thought you should have as much information as you can. Here in our place, doctors are not that well informed about these diseases, so they do not really know how to deal with it. We also cannot afford to go to other countries anymore to check with other doctors. Any advice is very welcomed.\n[doctor] Hello doctor. I read your query and understand the feeling and problems faced by you. As I can see epilepsy is the main problem at this moment and even a combination of three drugs is not making her seizure-free. Despite her treatment, she continued to have seizures and in the medical language, she is known to have refractory epilepsy. I must acknowledge here that treatment of refractory epilepsy is one of the most difficult treatment in neurology and need considerable effort on part of doctors ad family members. Despite the effort we are not 100% successful in doing so. Regarding her treatment I will like to consider one of the two below mentioned strategies. Firstly, I need to know the dosage of current medications. If there is anything that can be changed I will prefer doing so as the current three medicines are rightly prescribed. The dose can be increased or decreased for one or more drugs. My second preference will be to try Trileptal (Oxcarbazepine). This meditation is less sedative in compare to her existing treatment and a definite role in the treatment of refractory epilepsy. Before a change can be made talk to your doctor about these two options. I hope this helps you.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 94,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mental disorders",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 300,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "autism",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 344,
+          "char_end": 350,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "autism",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 356,
+          "char_end": 374,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mental retardation",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 444,
+          "char_end": 452,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "epilepsy",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 468,
+          "char_end": 474,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "crisis",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 542,
+          "char_end": 545,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "EEG",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 583,
+          "char_end": 597,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anti-epileptic",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 613,
+          "char_end": 620,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ospolot",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 642,
+          "char_end": 646,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 768,
+          "char_end": 782,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "absence crisis",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 829,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Topram",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 867,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Topram",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 930,
+          "char_end": 939,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "myoclonus",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 968,
+          "char_end": 976,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Depakine",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 988,
+          "char_end": 994,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Topram",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1000,
+          "char_end": 1014,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "absence crisis",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1032,
+          "char_end": 1041,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "myoclonus",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1058,
+          "char_end": 1066,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Depakine",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1087,
+          "char_end": 1095,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rivotril",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1149,
+          "char_end": 1155,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "crisis",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1183,
+          "char_end": 1192,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "myoclonus",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1236,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "epilepsy crisis",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1304,
+          "char_end": 1312,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Depakine",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1318,
+          "char_end": 1326,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lamictal",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1328,
+          "char_end": 1339,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Lamotrigine",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1363,
+          "char_end": 1374,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "intoxicated",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1414,
+          "char_end": 1438,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Stevens-Johnson syndrome",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1486,
+          "char_end": 1491,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "detox",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1549,
+          "char_end": 1555,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Topram",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1557,
+          "char_end": 1564,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Topamax",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1567,
+          "char_end": 1577,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Topiramate",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1587,
+          "char_end": 1595,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rivotril",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1600,
+          "char_end": 1608,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Depakine",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1655,
+          "char_end": 1659,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1697,
+          "char_end": 1703,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "crisis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1763,
+          "char_end": 1771,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Depakine",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1789,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Levetiracetam",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1795,
+          "char_end": 1801,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "crisis",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1891,
+          "char_end": 1899,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Depakine",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1901,
+          "char_end": 1914,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Levetiracetam",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1920,
+          "char_end": 1927,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ospolot",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1937,
+          "char_end": 1953,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nocturnal crisis",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2036,
+          "char_end": 2051,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anti-epileptics",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2104,
+          "char_end": 2110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleepy",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2115,
+          "char_end": 2123,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "drooling",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 2154,
+          "char_end": 2167,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "mental issues",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2638,
+          "char_end": 2646,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "epilepsy",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2797,
+          "char_end": 2805,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "seizures",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2856,
+          "char_end": 2875,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "refractory epilepsy",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2919,
+          "char_end": 2938,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "refractory epilepsy",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3484,
+          "char_end": 3493,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Trileptal",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3495,
+          "char_end": 3508,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Oxcarbazepine",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3621,
+          "char_end": 3640,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "refractory epilepsy",
+      "id": "e54"
+    }
+  ]
+}

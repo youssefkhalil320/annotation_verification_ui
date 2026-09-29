@@ -1,0 +1,239 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:225501:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello,I lost my virginity the early hours of saturday morning and had sex without protection. I went to my local pharmacy and took the morning after pill 'Levonelle'I've experienced the side effects stated to me by the pill leaflet and the nurse; nausea(i have not actually been sick), irregular bleeding(only light), lower abdominal pains and tiredness.I took the pill approx 14 hours after having intercourse and i'm worried about the percentage rate of success. I have also noticed today that the veins on my breasts are very blue and this has raised concerns for me after researching it on Google. Can this be a normal side effect from the pill? And what is the likely hood of being pregnant after taking the pill 14 hours after.Please help me, I'm really worriedThankyou\n[doctor] hellothanks for your query.When the emergency contraceptive is taken within 24 hours, it is more than 95 percent effective in preventing a pregnancy, so chances of your conception are quite low.the bluish veins would not indicate pregnancy , as the symptoms would not appear so soon after intercourse.It is mostly due to the pill side effects.ensure that you have protected sex always.Take care.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 80,
+          "char_end": 102,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sex without protection",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 145,
+          "char_end": 152,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 159,
+          "char_end": 163,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "morning pill",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 164,
+          "char_end": 179,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "'Levonelle'I've",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 257,
+          "char_end": 263,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nausea",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 289,
+          "char_end": 293,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sick",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 314,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "irregular bleeding",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 328,
+          "char_end": 349,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower abdominal pains",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 354,
+          "char_end": 363,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tiredness",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 436,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "worried",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 510,
+          "char_end": 529,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 539,
+          "char_end": 543,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "veins on my breasts blue",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 572,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "concerns",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 697,
+          "char_end": 705,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pregnant",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 785,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "worriedThankyou",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 831,
+          "char_end": 854,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "emergency contraceptive",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 934,
+          "char_end": 943,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pregnancy",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 993,
+          "char_end": 1005,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bluish veins",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1025,
+          "char_end": 1034,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pregnancy",
+      "id": "e17"
+    }
+  ]
+}

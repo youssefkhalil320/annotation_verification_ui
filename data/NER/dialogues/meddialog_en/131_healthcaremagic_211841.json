@@ -1,0 +1,320 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:211841:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I have been on several meds for insomnia, depression, anxiety, from the amitriptyline, nortripylines and other tryptylines to klonopin with klonopin being the longest and the most difficult to get off of. Since weaning myself of it nearly 18 months ago I have had terrible anxiety and OCD started shortly afterwards. I am currently on citalopram and trazadone. The trazodone, I am still experiencing insomnia and OCD. What can I do?\n[doctor] Hello....   Thanks for your query. The treatment options for OCD include:1. Anti-obsessive agents like fluoxetine2. Psychotherapy interventions like ERP/ Exposure and response preventionI would suggest that a combination of the above modalities might suit your case. Clonazepam is long acting  sedative and needs to tapered gradually over 2-3 months. Contact your psychiatrist at the earliest to discuss these options. Wish you speedy recovery.RegardsDr SundarPsychiatrist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 50,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 52,
+          "char_end": 62,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 64,
+          "char_end": 71,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 82,
+          "char_end": 95,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "amitriptyline",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 110,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nortripylines",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 121,
+          "char_end": 132,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tryptylines",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 136,
+          "char_end": 144,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "klonopin",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 150,
+          "char_end": 158,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "klonopin",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 283,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 298,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "OCD",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 345,
+          "char_end": 355,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "citalopram",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 360,
+          "char_end": 369,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "trazadone",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 375,
+          "char_end": 384,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "trazodone",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 410,
+          "char_end": 418,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 423,
+          "char_end": 426,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "OCD",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 513,
+          "char_end": 516,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "OCD",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 528,
+          "char_end": 549,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Anti-obsessive agents",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 555,
+          "char_end": 566,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fluoxetine2",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 568,
+          "char_end": 581,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Psychotherapy",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 601,
+          "char_end": 604,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ERP",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 606,
+          "char_end": 639,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Exposure and response preventionI",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 719,
+          "char_end": 729,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Clonazepam",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 746,
+          "char_end": 754,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sedative",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 786,
+          "char_end": 801,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "over 2-3 months",
+      "id": "e24"
+    }
+  ]
+}

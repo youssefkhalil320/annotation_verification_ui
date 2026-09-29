@@ -1,0 +1,242 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:183360:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi, I have dental problem like Wisdom teeth. i am getting pain. I met doc today she given me antiboitics Metrinidazole and Dicloxocillin.. one year back i used some antibiotics for cough and pain..After using them i got Hives(chronic allergy). Now I am afraid to use Metrinidazole and Dicloxocillin and in doubt of getting Hives again after using these antibiotics..Can you please advise me..\n[doctor] hi. we understand your problem. some people may have increased sensitivity or adverse reaction to a particular drug. If its the same drug which you consumed during your cough  episode then yes it might again give you the same  allergic reaction. the best thing is to carry the prescription card which you were given earlier and show it to your present dentist so that he/she can make  necessary modification in your medications",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 72,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 103,
+          "char_end": 114,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antiboitics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 128,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Metrinidazole",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 133,
+          "char_end": 146,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Dicloxocillin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 175,
+          "char_end": 186,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 191,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cough",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 205,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 235,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hives",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 236,
+          "char_end": 251,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chronic allergy",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 269,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "afraid",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 277,
+          "char_end": 290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Metrinidazole",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 308,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Dicloxocillin",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 333,
+          "char_end": 338,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Hives",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 363,
+          "char_end": 374,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 486,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "increased sensitivity",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 490,
+          "char_end": 506,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "adverse reaction",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 581,
+          "char_end": 586,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "cough",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 639,
+          "char_end": 656,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e18"
+    }
+  ]
+}

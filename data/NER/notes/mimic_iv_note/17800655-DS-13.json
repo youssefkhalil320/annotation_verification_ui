@@ -1,0 +1,338 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:17800655-DS-13:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nViagra / Lipitor / gabapentin / meloxicam\n\nChief Complaint:\nBPH/LUTS\n\nHistory of Present Illness:\n___ w/ BPH/LUTS\n\nBrief Hospital Course:\nMr. ___ was admitted to Dr. ___ service after \nbipolar transurethral resection of prostate. No concerning \nintraoperative events occurred; please see dictated operative \nnote for details. He patient received ___ antibiotic \nprophylaxis. The patient's postoperative course was \nuncomplicated although he failed his void trial. He received \nintravenous antibiotics and continuous bladder irrigation \novernight. On POD1 the CBI was discontinued and Foley catheter \nwas removed with an active voiding trial.  Post void residuals \nwere checked and although void volume ranged from 200cc to \n475cc, his PVR creeped up to 735cc. A ___ coude was replaced. \nHis urine was clear-pink-pyridium colored and and without clots. \nHe remained a-febrile throughout his hospital stay.  At \ndischarge, he had pain well controlled with oral pain \nmedications, was tolerating regular diet, ambulating without \nassistance, and versed on foley care/waste elimination.  He was \ngiven pyridium and oral pain medications on discharge along with \nexplicit instructions to follow up in clinic for a void trial.\n\nDischarge Diagnosis:\nBenign Prostatic Hypertrophy",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 17,
+          "turn_id": null
+        }
+      ],
+      "text": "Viagra",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 20,
+          "char_end": 27,
+          "turn_id": null
+        }
+      ],
+      "text": "Lipitor",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 40,
+          "turn_id": null
+        }
+      ],
+      "text": "gabapentin",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 43,
+          "char_end": 52,
+          "turn_id": null
+        }
+      ],
+      "text": "meloxicam",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 71,
+          "char_end": 79,
+          "turn_id": null
+        }
+      ],
+      "text": "BPH/LUTS",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 116,
+          "char_end": 124,
+          "turn_id": null
+        }
+      ],
+      "text": "BPH/LUTS",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 196,
+          "char_end": 239,
+          "turn_id": null
+        }
+      ],
+      "text": "bipolar transurethral resection of prostate",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 361,
+          "char_end": 371,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 463,
+          "char_end": 473,
+          "turn_id": null
+        }
+      ],
+      "text": "void trial",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 488,
+          "char_end": 499,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 500,
+          "char_end": 511,
+          "turn_id": null
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 516,
+          "char_end": 545,
+          "turn_id": null
+        }
+      ],
+      "text": "continuous bladder irrigation",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 570,
+          "char_end": 573,
+          "turn_id": null
+        }
+      ],
+      "text": "CBI",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 638,
+          "char_end": 651,
+          "turn_id": null
+        }
+      ],
+      "text": "voiding trial",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 654,
+          "char_end": 673,
+          "turn_id": null
+        }
+      ],
+      "text": "Post void residuals",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 746,
+          "char_end": 749,
+          "turn_id": null
+        }
+      ],
+      "text": "PVR",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 777,
+          "char_end": 782,
+          "turn_id": null
+        },
+        {
+          "char_start": 787,
+          "char_end": 795,
+          "turn_id": null
+        }
+      ],
+      "text": "coude replaced",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 823,
+          "char_end": 831,
+          "turn_id": null
+        }
+      ],
+      "text": "pyridium",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 939,
+          "char_end": 943,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 969,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 970,
+          "char_end": 987,
+          "turn_id": null
+        }
+      ],
+      "text": "pain \nmedications",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1122,
+          "char_end": 1126,
+          "turn_id": null
+        }
+      ],
+      "text": "oral",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1127,
+          "char_end": 1143,
+          "turn_id": null
+        }
+      ],
+      "text": "pain medications",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 1220,
+          "char_end": 1230,
+          "turn_id": null
+        }
+      ],
+      "text": "void trial",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1254,
+          "char_end": 1282,
+          "turn_id": null
+        }
+      ],
+      "text": "Benign Prostatic Hypertrophy",
+      "id": "e25"
+    }
+  ]
+}

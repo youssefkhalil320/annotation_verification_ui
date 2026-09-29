@@ -1,0 +1,642 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:6607:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi doctor, I am 26 years old. I am suffering from migraine for the last 15 years. There is a throbbing pain on one corner of the head and generally the next day it almost definitely shifts to the other corner. This cycle continues. So, the frequency is around 2 headaches per week. I used to take Paracetamol and Aspirin though the medicines were not very effective. If the medicines are taken within the first half an hour of the beginning of pain, it gives reasonably good results. Two years back, my family doctor prescribed Sibelium 10 mg to be taken once every night. It gave me good results for a while but it increased my hours of sleep and resulted in weight gain and then the migraine attacks also started. My doctor prescribed Zen 200 mg to be taken every morning over and above Sibelium 10 mg in the night. This gave me very good results. Migraine attacks almost stopped. I stopped taking Sibelium and Zen 200 mg was enough to control migraine unless I am travelling by car for over 3 hours. My doctor told that the clinical dose of Carbamazepine is 1600 mg per day and 200 mg is negligible. I gradually reduced the dose to 100 mg per day and then 100 mg twice or thrice a week. Later, though Carbamazepine is not considered as a pain abortive medicine, it worked for me. I used to take 100 mg tablet whenever required.  For the last 6 months, I am feeling that I am suffering from memory loss. I used to have a very sharp memory. But, nowadays I forget names. Though, I do not forget events that much but my memory power of remembering names has become miserable. I even forget the name of a person I meet a week or a month ago. I have stopped taking Carbamazepine since June and I am taking Sibelium 10 mg whenever required, approximately twice a week, with good results. But, my memory especially in remembering names has become dull. Please advice.\n[doctor] Hi. For further information consult a neurologist online --> https://www.icliniq.com/ask-a-doctor-online/neurologist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 60,
+          "char_end": 68,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "migraine",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain on one corner of the head",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 281,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "headaches",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 307,
+          "char_end": 318,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Paracetamol",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 330,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Aspirin",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 454,
+          "char_end": 458,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 538,
+          "char_end": 546,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Sibelium",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 547,
+          "char_end": 552,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 565,
+          "char_end": 581,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once every night",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 653,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "increased my hours of sleep",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 670,
+          "char_end": 681,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "weight gain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 695,
+          "char_end": 711,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "migraine attacks",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 747,
+          "char_end": 750,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zen",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 751,
+          "char_end": 757,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200 mg",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 770,
+          "char_end": 783,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "every morning",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 799,
+          "char_end": 807,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Sibelium",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 808,
+          "char_end": 813,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 826,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "in the night",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 860,
+          "char_end": 876,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Migraine attacks",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 910,
+          "char_end": 918,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Sibelium",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 923,
+          "char_end": 926,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Zen",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 927,
+          "char_end": 933,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200 mg",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 956,
+          "char_end": 964,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "migraine",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1054,
+          "char_end": 1067,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Carbamazepine",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1071,
+          "char_end": 1078,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "1600 mg",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1079,
+          "char_end": 1086,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1091,
+          "char_end": 1097,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "200 mg",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1145,
+          "char_end": 1151,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100 mg",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1152,
+          "char_end": 1159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "per day",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1169,
+          "char_end": 1175,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100 mg",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1176,
+          "char_end": 1198,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twice or thrice a week",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1214,
+          "char_end": 1227,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Carbamazepine",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1251,
+          "char_end": 1273,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain abortive medicine",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1308,
+          "char_end": 1314,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "100 mg",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1315,
+          "char_end": 1321,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tablet",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1322,
+          "char_end": 1339,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "whenever required",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1403,
+          "char_end": 1414,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "memory loss",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1468,
+          "char_end": 1480,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "forget names",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1499,
+          "char_end": 1512,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "forget events",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1530,
+          "char_end": 1563,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1568,
+          "char_end": 1584,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "memory power of remembering names become miserable",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1593,
+          "char_end": 1620,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "forget the name of a person",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1673,
+          "char_end": 1686,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Carbamazepine",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 1687,
+          "char_end": 1697,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "since June",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1714,
+          "char_end": 1722,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Sibelium",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1723,
+          "char_end": 1728,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 mg",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1729,
+          "char_end": 1746,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "whenever required",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1762,
+          "char_end": 1774,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "twice a week",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1803,
+          "char_end": 1841,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1846,
+          "char_end": 1857,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "memory especially in remembering names become dull",
+      "id": "e48"
+    }
+  ]
+}

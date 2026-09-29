@@ -1,0 +1,203 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:165038:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hi my five year old has been very Ill all week with really high temp I took her to our Doc and she said it was a chest infection & prescribed antibiotic, the temp continued for a full week! Yesterday she broke out in spots like hives (almost like a bee sting) the rash appeared all up both arms and hands on her ankles and lower leg also her ears and face! I brought her straight back to our Doc who said it was some sort of allergy! She gave her a course of steroids but today the rash is still visible although it just looks like dull red spots under the skin is this normal after a reaction like that? Thank you Grace\n[doctor] Thanks for consulting at Healthcare Magic.Allergic hives may take about a week to resolve completely even after treatment.As your doctor has already prescribed steroids, you ask him to add antihistaminics like Citrizine for early relief.",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 44,
+          "char_end": 47,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Ill",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 78,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "temp",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 123,
+          "char_end": 138,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chest infection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 152,
+          "char_end": 162,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotic",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 172,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "temp",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 238,
+          "char_end": 243,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 274,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 435,
+          "char_end": 442,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergy",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 469,
+          "char_end": 477,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroids",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 492,
+          "char_end": 496,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rash",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 547,
+          "char_end": 571,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "red spots under the skin",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 691,
+          "char_end": 696,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hives",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 800,
+          "char_end": 808,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "steroids",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 829,
+          "char_end": 844,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antihistaminics",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 850,
+          "char_end": 859,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Citrizine",
+      "id": "e15"
+    }
+  ]
+}

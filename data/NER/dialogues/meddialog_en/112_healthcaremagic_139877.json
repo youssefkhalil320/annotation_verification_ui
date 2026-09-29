@@ -1,0 +1,515 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:139877:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I ve been having insomnia and consequest migraine headaches for the past 8 years. The very first neurologist i met had prescribed me an MRI which concluded that everything was normal. For the past 8 years i ve been on and off neuromedicines, without any permanent relief. i ve been visiting another neurologist for the past 2 years who had prescribed me almost all kinds of Benzodiazepine family medicines over different periods of time. he had to keep rotating the meds due to me developing immunity from the particular BZD medicine. a week ago he asked me to undergo MRI scan once more, which concluded that i have MESIAL TEMPORAL SCLEROSIS on both sides (R L). thus my doctor asked me to spend 3 days at the hospital during which he had given me intra-venous medicines. 4 days ago, he asked me to stop all anti-depressants (BZD) and has prescribed me Rovastat TG (Rosuvastatin and Fenofibrate), Citistar (Citicoline 500mg) to be taken 3 times a day, as well as Dayo OD (Divalproex 250mg) taken once every night. Since i am offthe anti-depressants, i have been feeling extremely depressed for the past 3 days. I would like to know if the line of treatment is correct, and what are my medical scopes in future that i should be aware of?\n[doctor] Hello,  Usually, patients with mesial temporal sclerosis usually have seizures as their main symptom. as advised by your doctor it's better to stop bzd its role in depression in very minimal or none.   The next thing is Divalproex can helpful for your migraine headache and also it has mood-stabilizing property, it's another effect is it can cause sleepiness and it has anti-seizure activity also.  Some of migraine prophylactic drugs can cause worsening of headaches like Propranolol.   It's better to wait for two to three weeks for your new medication to act if depression is more bothering you newer antidepressant medication is available which a psychiatrist will prescribe.  If you have abnormal lipids rosuvastatin and fenofibrate are useful or else it can be stopped. The rest can be continued.   Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr Sateesh Gudla, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 35,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "insomnia",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 51,
+          "char_end": 69,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "migraine headaches",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 149,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 384,
+          "char_end": 405,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Benzodiazepine family",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 534,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BZD",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 579,
+          "char_end": 587,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MRI scan",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 672,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "MESIAL TEMPORAL SCLEROSIS on both sides (R L)",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 759,
+          "char_end": 771,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "intra-venous",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 819,
+          "char_end": 835,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anti-depressants",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 837,
+          "char_end": 840,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "BZD",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 864,
+          "char_end": 875,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rovastat TG",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 877,
+          "char_end": 889,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Rosuvastatin",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 894,
+          "char_end": 905,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fenofibrate",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 908,
+          "char_end": 916,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Citistar",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 918,
+          "char_end": 928,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Citicoline",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 929,
+          "char_end": 934,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "500mg",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 948,
+          "char_end": 961,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "3 times a day",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 974,
+          "char_end": 981,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Dayo OD",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 983,
+          "char_end": 993,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Divalproex",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 994,
+          "char_end": 999,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "250mg",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 1007,
+          "char_end": 1023,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "once every night",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1043,
+          "char_end": 1059,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anti-depressants",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1091,
+          "char_end": 1100,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depressed",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1288,
+          "char_end": 1313,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "mesial temporal sclerosis",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1327,
+          "char_end": 1335,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "seizures",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1405,
+          "char_end": 1408,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "bzd",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1421,
+          "char_end": 1431,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1477,
+          "char_end": 1487,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Divalproex",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1509,
+          "char_end": 1526,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "migraine headache",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1616,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sleepiness",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1665,
+          "char_end": 1692,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "migraine prophylactic drugs",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1716,
+          "char_end": 1725,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "headaches",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1731,
+          "char_end": 1742,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Propranolol",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1823,
+          "char_end": 1833,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1862,
+          "char_end": 1876,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antidepressant",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1951,
+          "char_end": 1966,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "abnormal lipids",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1960,
+          "char_end": 1966,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lipids",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1967,
+          "char_end": 1979,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "rosuvastatin",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1984,
+          "char_end": 1995,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "fenofibrate",
+      "id": "e39"
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:213462:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] hello, when i was 15 close to my 16th birthday i was diagnosed with JME. I had been experiencing episodes in the morning related to sleep and one day i had a big one which cause me to black out and fall down the stairs i ended up in hospital and had an eeg which i was diagnosed with JME. So i was put on keppra i am now 16 and i have been on keppra for a short time but i feel as if i already am having some side effects, i get really down and gloom: where i find myself sitting on my bedroom floor for a while. Ive also notice a change in my temper i get angry alot quicker then i used to at the smallest things. i cry alot and am feeling a lot of anxiety im also struggling with concentration and need sleep all the time! im doing my gcses at present and am really worried about the fact being on this medication is affecting my chances of doing the best i can in my exams. has anyone noticed this to? or know what i can do to limit this?\n[doctor] Hello Dear  Thanks for the questioning in HCM  Dear the all symptoms you are explaining above in your question are the side effects of Keppra. Other side effects are Dizziness; drowsiness; irritability; sore throat; tiredness; weakness, memory loss; muscle or neck pain; new or worsening mental, mood, or behavior changes (eg, aggression, agitation, anger, anxiety, apathy, depression, hostility, irritability, panic attacks, restlessness)etc.  As you are suffer from JME you have to take this medicine and to get rid of these symptoms you must consult your neurologist for better opinion.  Regards  Dr. Dinesh",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 78,
+          "char_end": 81,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "JME",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 194,
+          "char_end": 203,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "black out",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 263,
+          "char_end": 266,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "eeg",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 297,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "JME",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 315,
+          "char_end": 321,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "keppra",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 353,
+          "char_end": 359,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "keppra",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 364,
+          "char_end": 376,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "a short time",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 446,
+          "char_end": 460,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "down and gloom",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 541,
+          "char_end": 560,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "change in my temper",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 567,
+          "char_end": 572,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "angry",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 627,
+          "char_end": 635,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cry alot",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 660,
+          "char_end": 667,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 676,
+          "char_end": 705,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "struggling with concentration",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 710,
+          "char_end": 733,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "need sleep all the time",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 785,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "worried",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1096,
+          "char_end": 1102,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Keppra",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1127,
+          "char_end": 1136,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Dizziness",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1138,
+          "char_end": 1148,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "drowsiness",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1150,
+          "char_end": 1162,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "irritability",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1164,
+          "char_end": 1175,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sore throat",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1177,
+          "char_end": 1186,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "tiredness",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1188,
+          "char_end": 1196,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "weakness",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1198,
+          "char_end": 1209,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "memory loss",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1211,
+          "char_end": 1217,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1226,
+          "char_end": 1230,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "muscle pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1221,
+          "char_end": 1230,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "neck pain",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1249,
+          "char_end": 1282,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "mental, mood, or behavior changes",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1288,
+          "char_end": 1298,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "aggression",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1300,
+          "char_end": 1309,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "agitation",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1311,
+          "char_end": 1316,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anger",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1318,
+          "char_end": 1325,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1327,
+          "char_end": 1333,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "apathy",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1335,
+          "char_end": 1345,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "depression",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1347,
+          "char_end": 1356,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hostility",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1358,
+          "char_end": 1370,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "irritability",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1372,
+          "char_end": 1385,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "panic attacks",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1387,
+          "char_end": 1399,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "restlessness",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1429,
+          "char_end": 1432,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "JME",
+      "id": "e37"
+    }
+  ]
+}

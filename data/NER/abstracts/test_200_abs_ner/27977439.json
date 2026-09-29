@@ -7,21 +7,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 10,
+          "char_start": 0,
           "char_end": 26,
           "turn_id": null
         }
       ],
-      "text": "sternal infusion",
+      "text": "Bilateral sternal infusion",
       "id": "e1"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 30,
@@ -33,23 +31,8 @@
       "id": "e2"
     },
     {
-      "coarse_type": "MED_ATTRIBUTE",
-      "fine_type": "frequency",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 46,
-          "char_end": 52,
-          "turn_id": null
-        }
-      ],
-      "text": "length",
-      "id": "e3"
-    },
-    {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 74,
@@ -58,26 +41,24 @@
         }
       ],
       "text": "cardiac surgery",
-      "id": "e4"
+      "id": "e3"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 178,
-          "char_end": 186,
+          "char_end": 246,
           "turn_id": null
         }
       ],
-      "text": "infusion",
-      "id": "e5"
+      "text": "infusion of a local anaesthetic solution around the sternotomy wound",
+      "id": "e4"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 192,
@@ -86,12 +67,11 @@
         }
       ],
       "text": "local anaesthetic",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 230,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "sternotomy",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "injury",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 230,
@@ -114,12 +93,11 @@
         }
       ],
       "text": "sternotomy wound",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 307,
@@ -128,12 +106,11 @@
         }
       ],
       "text": "pain",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 318,
@@ -142,12 +119,11 @@
         }
       ],
       "text": "sternotomy",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 441,
@@ -156,12 +132,11 @@
         }
       ],
       "text": "respiratory complications",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 591,
@@ -170,12 +145,24 @@
         }
       ],
       "text": "open-heart surgery",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 673,
+          "char_end": 676,
+          "turn_id": null
+        }
+      ],
+      "text": "BMI",
       "id": "e12"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 673,
@@ -189,7 +176,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 687,
@@ -203,7 +189,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 726,
@@ -217,21 +202,19 @@
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "intervention",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 767,
+          "char_start": 757,
           "char_end": 783,
           "turn_id": null
         }
       ],
-      "text": "sternal infusion",
+      "text": "bilateral sternal infusion",
       "id": "e16"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 787,
@@ -245,7 +228,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 792,
@@ -259,21 +241,19 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "dose",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 805,
-          "char_end": 809,
+          "char_end": 811,
           "turn_id": null
         }
       ],
-      "text": "3 ml",
+      "text": "3 ml h",
       "id": "e19"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 931,
@@ -287,7 +267,6 @@
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 965,
@@ -301,7 +280,6 @@
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 977,
@@ -315,7 +293,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1420,
@@ -329,7 +306,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1470,
@@ -343,7 +319,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1481,
@@ -357,7 +332,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1505,
@@ -371,7 +345,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1517,
@@ -385,7 +358,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1552,
@@ -397,32 +369,61 @@
       "id": "e28"
     },
     {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 1643,
-          "char_end": 1667,
-          "turn_id": null
-        }
-      ],
-      "text": "ropivacaine plasma level",
-      "id": "e29"
-    },
-    {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 1643,
+          "char_start": 1637,
+          "char_end": 1667,
+          "turn_id": null
+        },
+        {
+          "char_start": 1668,
           "char_end": 1676,
           "turn_id": null
         }
       ],
-      "text": "ropivacaine plasma level exceeded",
+      "text": "total ropivacaine plasma level exceeded",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1637,
+          "char_end": 1667,
+          "turn_id": null
+        }
+      ],
+      "text": "total ropivacaine plasma level",
       "id": "e30"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1643,
+          "char_end": 1654,
+          "turn_id": null
+        }
+      ],
+      "text": "ropivacaine",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1704,
+          "char_end": 1725,
+          "turn_id": null
+        }
+      ],
+      "text": "neurological symptoms",
+      "id": "e32"
     }
   ]
 }

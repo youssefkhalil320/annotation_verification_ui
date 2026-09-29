@@ -1,0 +1,494 @@
+{
+  "doc_id": "MEDDIALOG_EN:icliniq:9965:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello doctor, I am a 36 year old male. I suddenly developed sexual dysfunction, I have reduced interest, arousal, plateau, and orgasm. The triggering event seems to be the discontinuation of 150 mg Bupropion because of adverse effects. I switched to 20 mg Citalopram, and over the course of six months, I reduced Citalopram to less than 1.5 mg. However, the sexual dysfunction has remained unchanged. I previously took Citalopram in doses ranging from 10 to 20 mg, depending on the external stress, for six years, and this did not cause significant sexual side effects, except delayed orgasm. While on Bupropion, my semen production stopped, but there were no marked changes in sexual desire, arousal, or behavior. The Citalopram and Bupropion had been prescribed for anxiety and depression, which have been well controlled for many years. Six months after the onset of the sexual dysfunction, a testosterone test revealed total testosterone in the 400s and free testosterone beyond the laboratory's ability to measure it (highly elevated >100). I do not use androgen supplements and illegal or recreational drug. There is no history of alcohol addiction or nicotine use. There is no neurological history, history of an endocrine disease, or surgery. I currently take Fexofenadine, antihistamines, and steroid nasal sprays.\n[doctor] Hello. Do get back to me after you have done these. Hope my advice is of some benefit to you. Revert with more information to an endocrinologist online --> https://www.icliniq.com/ask-a-doctor-online/endocrinologist",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 70,
+          "char_end": 88,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sexual dysfunction",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 113,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "reduced interest",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 115,
+          "char_end": 122,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arousal",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 124,
+          "char_end": 131,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "plateau",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 137,
+          "char_end": 143,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "orgasm",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 207,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "150 mg",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 217,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Bupropion",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 260,
+          "char_end": 265,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "20 mg",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 266,
+          "char_end": 276,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Citalopram",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 301,
+          "char_end": 311,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "six months",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 323,
+          "char_end": 333,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Citalopram",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 337,
+          "char_end": 353,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "less than 1.5 mg",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 368,
+          "char_end": 386,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sexual dysfunction",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 429,
+          "char_end": 439,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Citalopram",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 462,
+          "char_end": 473,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "10 to 20 mg",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 522,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for six years",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 587,
+          "char_end": 601,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "delayed orgasm",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 612,
+          "char_end": 621,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Bupropion",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 626,
+          "char_end": 650,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "semen production stopped",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 729,
+          "char_end": 739,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Citalopram",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 744,
+          "char_end": 753,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Bupropion",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 785,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxiety",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 790,
+          "char_end": 800,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "depression",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 884,
+          "char_end": 902,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sexual dysfunction",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 906,
+          "char_end": 923,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "testosterone test",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 933,
+          "char_end": 951,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "total testosterone",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 968,
+          "char_end": 985,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 1040,
+          "char_end": 1048,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "free testosterone elevated",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 968,
+          "char_end": 985,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "free testosterone",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1069,
+          "char_end": 1089,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "androgen supplements",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 1147,
+          "char_end": 1164,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "alcohol addiction",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 1168,
+          "char_end": 1180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nicotine use",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1230,
+          "char_end": 1247,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "endocrine disease",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1290,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Fexofenadine",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1292,
+          "char_end": 1306,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antihistamines",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1312,
+          "char_end": 1319,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroid",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1320,
+          "char_end": 1325,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "nasal",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1326,
+          "char_end": 1332,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sprays",
+      "id": "e37"
+    }
+  ]
+}

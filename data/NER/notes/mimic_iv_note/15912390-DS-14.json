@@ -1,0 +1,866 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15912390-DS-14:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nIV Dye, Iodine Containing\n\nChief Complaint:\nAtrial Fibrillation\n\nHistory of Present Illness:\n___ year old male with a known history of aortic stenosis, renal \ninsufficiency, diabetes mellitus, and HTN who underwent an \naortic valve replacement with a 21 mm ___ Biocor \ntissue valve on ___.  He was found to be in atrial \nfibrillation by son (cardiologist) on night prior to admit. \nPatient's wife reported ___ stated that his heart rate was \n\"irregular\" yesterday morning, as well.  Patient denied \npalpitations, SOB or chest pain.  He had been on a 5 day course \nof Prednisone for ___ edema (20 mg/day) with elevated BS.  He was\nadmitted for anticoagulation and management of atrial \nfibrillation.\n\nBrief Hospital Course:\nAdmitted ___ to evaluate for atrial fibrillation. On \nadmission, patient already converted back to a normal sinus \nrhythm. Cardiology was consulted with recommendations to start \nCoumadin and Amiodarone. In addition, patient was hyperkalemic \nand hyperglyemic and treated appropriately with diuretics and \nregular insulin. On hospital day two, patient developed new \nright arm pain with diminished pulses. Vascular surgery was \nconsulted and patient was emergently brought to the operating \nroom for right axillary subclavian embolectomy and right radial \nartery embolectomy. For surgical details, please see operative \nnote. Following surgery, he was brought to the CVICU in stable \ncondition. He was maintained on intravenous Heparin and \ntransesophogeal echocardiogram was performed which showed no \nevidence of thrombus in the left atrial appendage. \n**Echocardiogram was notable for severe mobile aortic \natheroma.** He maintained stable hemodynamics and transferred to \nthe SDU on postoperative day one. Warfarin was resumed and \nintravenous Heparin was continued until his INR became \ntherapeutic. Warfarin was dosed for a goal INR between 2.0 - \n3.0. Rheumatology was also consulted during his stay for an \nacute gout flare of his left knee. He concomitantly experienced \nlow grade fevers for which pan cultures were obtained. \nAspiration of his left knee was also performed along with \nintraarticular injection of steroids. Patient tolerated the \nprocedure and there were no complications. Knee aspiration \nconfirmed gout and pan cultures remained negative. Over several \ndays, medical therapy was optimized and he was eventually \ncleared for discharge to home with ___ on POD# 8.\n\nFirst blood draw on ___ with INR/K+/BUN/creat. Results to be \ncalled to pt's son, Dr. ___.\n\nDischarge Diagnosis:\n-Right Upper Extremity Ischemia, s/p Right axillary subclavian \nembolectomy and right radial artery embolectomy on ___\n-Postop Atrial Fibrillation, s/p Aortic Valve ___\n-Hyperkalemia\n-Hyperglycemia\n-Chronic Renal Insufficiency\n-Acute Gout\n-Hypertension\n-Postop Fevers",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 36,
+          "turn_id": null
+        }
+      ],
+      "text": "IV Dye, Iodine Containing",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 74,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial Fibrillation",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 146,
+          "char_end": 161,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic stenosis",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 163,
+          "char_end": 183,
+          "turn_id": null
+        }
+      ],
+      "text": "renal \ninsufficiency",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 202,
+          "turn_id": null
+        }
+      ],
+      "text": "diabetes mellitus",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 208,
+          "char_end": 211,
+          "turn_id": null
+        }
+      ],
+      "text": "HTN",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 230,
+          "char_end": 254,
+          "turn_id": null
+        }
+      ],
+      "text": "aortic valve replacement",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 344,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nfibrillation",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 510,
+          "char_end": 522,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 524,
+          "char_end": 527,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 531,
+          "char_end": 541,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 561,
+          "char_end": 573,
+          "turn_id": null
+        }
+      ],
+      "text": "5 day course",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 578,
+          "char_end": 588,
+          "turn_id": null
+        }
+      ],
+      "text": "Prednisone",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 597,
+          "char_end": 602,
+          "turn_id": null
+        }
+      ],
+      "text": "edema",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 604,
+          "char_end": 613,
+          "turn_id": null
+        }
+      ],
+      "text": "20 mg/day",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 620,
+          "char_end": 631,
+          "turn_id": null
+        }
+      ],
+      "text": "elevated BS",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 629,
+          "char_end": 631,
+          "turn_id": null
+        }
+      ],
+      "text": "BS",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 654,
+          "char_end": 669,
+          "turn_id": null
+        }
+      ],
+      "text": "anticoagulation",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 688,
+          "char_end": 708,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial \nfibrillation",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 763,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "atrial fibrillation",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 913,
+          "char_end": 921,
+          "turn_id": null
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 926,
+          "char_end": 936,
+          "turn_id": null
+        }
+      ],
+      "text": "Amiodarone",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 963,
+          "char_end": 975,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperkalemic",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 981,
+          "char_end": 993,
+          "turn_id": null
+        }
+      ],
+      "text": "hyperglyemic",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1025,
+          "char_end": 1034,
+          "turn_id": null
+        }
+      ],
+      "text": "diuretics",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1040,
+          "char_end": 1055,
+          "turn_id": null
+        }
+      ],
+      "text": "regular insulin",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1101,
+          "char_end": 1115,
+          "turn_id": null
+        }
+      ],
+      "text": "right arm pain",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1121,
+          "char_end": 1138,
+          "turn_id": null
+        }
+      ],
+      "text": "diminished pulses",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1234,
+          "char_end": 1271,
+          "turn_id": null
+        }
+      ],
+      "text": "right axillary subclavian embolectomy",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1276,
+          "char_end": 1308,
+          "turn_id": null
+        }
+      ],
+      "text": "right radial \nartery embolectomy",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1450,
+          "char_end": 1461,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1462,
+          "char_end": 1469,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1475,
+          "char_end": 1505,
+          "turn_id": null
+        }
+      ],
+      "text": "transesophogeal echocardiogram",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1549,
+          "char_end": 1586,
+          "turn_id": null
+        }
+      ],
+      "text": "thrombus in the left atrial appendage",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1591,
+          "char_end": 1605,
+          "turn_id": null
+        }
+      ],
+      "text": "Echocardiogram",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1629,
+          "char_end": 1652,
+          "turn_id": null
+        }
+      ],
+      "text": "mobile aortic \natheroma",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1744,
+          "char_end": 1752,
+          "turn_id": null
+        }
+      ],
+      "text": "Warfarin",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 1770,
+          "char_end": 1781,
+          "turn_id": null
+        }
+      ],
+      "text": "intravenous",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1782,
+          "char_end": 1789,
+          "turn_id": null
+        }
+      ],
+      "text": "Heparin",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1814,
+          "char_end": 1817,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1839,
+          "char_end": 1847,
+          "turn_id": null
+        }
+      ],
+      "text": "Warfarin",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1869,
+          "char_end": 1872,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1949,
+          "char_end": 1982,
+          "turn_id": null
+        }
+      ],
+      "text": "acute gout flare of his left knee",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2024,
+          "char_end": 2030,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2041,
+          "char_end": 2053,
+          "turn_id": null
+        }
+      ],
+      "text": "pan cultures",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2070,
+          "char_end": 2097,
+          "turn_id": null
+        }
+      ],
+      "text": "Aspiration of his left knee",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 2129,
+          "char_end": 2143,
+          "turn_id": null
+        }
+      ],
+      "text": "intraarticular",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2129,
+          "char_end": 2165,
+          "turn_id": null
+        }
+      ],
+      "text": "intraarticular injection of steroids",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2157,
+          "char_end": 2165,
+          "turn_id": null
+        }
+      ],
+      "text": "steroids",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2233,
+          "char_end": 2248,
+          "turn_id": null
+        }
+      ],
+      "text": "Knee aspiration",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2269,
+          "char_end": 2281,
+          "turn_id": null
+        }
+      ],
+      "text": "pan cultures",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2431,
+          "char_end": 2441,
+          "turn_id": null
+        }
+      ],
+      "text": "blood draw",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2454,
+          "char_end": 2457,
+          "turn_id": null
+        }
+      ],
+      "text": "INR",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2458,
+          "char_end": 2460,
+          "turn_id": null
+        }
+      ],
+      "text": "K+",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2461,
+          "char_end": 2464,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2465,
+          "char_end": 2470,
+          "turn_id": null
+        }
+      ],
+      "text": "creat",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2539,
+          "char_end": 2569,
+          "turn_id": null
+        }
+      ],
+      "text": "Right Upper Extremity Ischemia",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2575,
+          "char_end": 2613,
+          "turn_id": null
+        }
+      ],
+      "text": "Right axillary subclavian \nembolectomy",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2618,
+          "char_end": 2649,
+          "turn_id": null
+        }
+      ],
+      "text": "right radial artery embolectomy",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2665,
+          "char_end": 2684,
+          "turn_id": null
+        }
+      ],
+      "text": "Atrial Fibrillation",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2708,
+          "char_end": 2720,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyperkalemia",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2722,
+          "char_end": 2735,
+          "turn_id": null
+        }
+      ],
+      "text": "Hyperglycemia",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2737,
+          "char_end": 2764,
+          "turn_id": null
+        }
+      ],
+      "text": "Chronic Renal Insufficiency",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2766,
+          "char_end": 2776,
+          "turn_id": null
+        }
+      ],
+      "text": "Acute Gout",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2778,
+          "char_end": 2790,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2799,
+          "char_end": 2805,
+          "turn_id": null
+        }
+      ],
+      "text": "Fevers",
+      "id": "e66"
+    }
+  ]
+}

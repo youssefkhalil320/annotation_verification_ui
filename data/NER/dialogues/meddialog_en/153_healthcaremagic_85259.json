@@ -1,0 +1,221 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:85259:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Since Friday, I have been experiencing bloating to the point I look pregnant, I m also having difficulty breathing from the pressure-like there isn t enough room-pressure on my diaphragm. My bowels have been loose, and flatulence. I also have some discomfort on my right side along the base of my rib cage in the back. I ate whole grain bread, and an apple yesterday, today I took some probiotics. I normally do not have this problem, last month I was on antibiotics & steroids for 3 weeks due to a sinus infection....could this cause this? Is ther anything I can do to get relief? Thanks!\n[doctor] Hello,It is unlikely be related to sinusitis. Severe acid reflex may be the cause. If symptoms persist, it is better to consult a physician and get evaluated. As of now antacids like omeprazole or pantoprazole for symptomatic relief.Hope I have answered your query. Let me know if I can assist you further.  Regards, Dr. Shinas Hussain, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 49,
+          "char_end": 57,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bloating",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 104,
+          "char_end": 124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "difficulty breathing",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 172,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pressure on my diaphragm",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 201,
+          "char_end": 207,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 218,
+          "char_end": 223,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bowels loose",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 229,
+          "char_end": 239,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flatulence",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 258,
+          "char_end": 327,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "discomfort on my right side along the base of my rib cage in the back",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 396,
+          "char_end": 406,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "probiotics",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 476,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 479,
+          "char_end": 487,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "steroids",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 488,
+          "char_end": 499,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for 3 weeks",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 509,
+          "char_end": 524,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sinus infection",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 644,
+          "char_end": 653,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sinusitis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 662,
+          "char_end": 673,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "acid reflex",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 778,
+          "char_end": 786,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "antacids",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 792,
+          "char_end": 802,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "omeprazole",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 806,
+          "char_end": 818,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "pantoprazole",
+      "id": "e16"
+    }
+  ]
+}

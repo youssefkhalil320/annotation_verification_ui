@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 21,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 37,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 76,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 114,
@@ -61,9 +57,21 @@
       "id": "e4"
     },
     {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 148,
+          "turn_id": null
+        }
+      ],
+      "text": "imaging",
+      "id": "e5"
+    },
+    {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 171,
@@ -72,12 +80,11 @@
         }
       ],
       "text": "intracranial artery dissection",
-      "id": "e5"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 203,
@@ -86,26 +93,24 @@
         }
       ],
       "text": "ICAD",
-      "id": "e6"
+      "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 237,
-          "char_end": 279,
+          "char_end": 285,
           "turn_id": null
         }
       ],
-      "text": "high-resolution magnetic resonance imaging",
-      "id": "e7"
+      "text": "high-resolution magnetic resonance imaging (MRI)",
+      "id": "e8"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 312,
@@ -114,26 +119,24 @@
         }
       ],
       "text": "intimal flaps",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "imaging",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 343,
-          "char_end": 365,
-          "turn_id": null
-        }
-      ],
-      "text": "routine MRI techniques",
       "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 354,
+          "turn_id": null
+        }
+      ],
+      "text": "MRI",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
       "spans": [
         {
           "char_start": 439,
@@ -142,26 +145,24 @@
         }
       ],
       "text": "high-resolution MRI",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 467,
-          "char_end": 477,
-          "turn_id": null
-        }
-      ],
-      "text": "gadolinium",
       "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
+      "spans": [
+        {
+          "char_start": 467,
+          "char_end": 489,
+          "turn_id": null
+        }
+      ],
+      "text": "gadolinium enhancement",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
       "spans": [
         {
           "char_start": 595,
@@ -170,12 +171,11 @@
         }
       ],
       "text": "nonenhanced high-resolution fast spin echo (HR-FSE) MRI sequence",
-      "id": "e12"
+      "id": "e13"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 676,
@@ -184,12 +184,11 @@
         }
       ],
       "text": "intimal flaps",
-      "id": "e13"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 707,
@@ -198,12 +197,11 @@
         }
       ],
       "text": "ICAD",
-      "id": "e14"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 733,
@@ -212,12 +210,11 @@
         }
       ],
       "text": "ICAD",
-      "id": "e15"
+      "id": "e16"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 748,
@@ -226,12 +223,11 @@
         }
       ],
       "text": "plain MRI examination",
-      "id": "e16"
+      "id": "e17"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 778,
@@ -240,12 +236,11 @@
         }
       ],
       "text": "2-dimensional T2-weighted FSE imaging sequence",
-      "id": "e17"
+      "id": "e18"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 998,
@@ -254,12 +249,11 @@
         }
       ],
       "text": "CT angiography",
-      "id": "e18"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1014,
@@ -268,12 +262,11 @@
         }
       ],
       "text": "magnetic resonance angiography",
-      "id": "e19"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1050,
@@ -282,12 +275,11 @@
         }
       ],
       "text": "digital subtraction angiography",
-      "id": "e20"
+      "id": "e21"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1144,
@@ -296,12 +288,11 @@
         }
       ],
       "text": "intimal flap",
-      "id": "e21"
+      "id": "e22"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1164,
@@ -310,12 +301,11 @@
         }
       ],
       "text": "double lumen sign",
-      "id": "e22"
+      "id": "e23"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1235,
@@ -324,12 +314,11 @@
         }
       ],
       "text": "HR-FSE",
-      "id": "e23"
+      "id": "e24"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1268,
@@ -338,12 +327,11 @@
         }
       ],
       "text": "HR-FSE",
-      "id": "e24"
+      "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1297,
@@ -352,12 +340,11 @@
         }
       ],
       "text": "intimal flaps",
-      "id": "e25"
+      "id": "e26"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1315,
@@ -366,12 +353,11 @@
         }
       ],
       "text": "double lumen signs",
-      "id": "e26"
+      "id": "e27"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1402,
@@ -380,12 +366,11 @@
         }
       ],
       "text": "double lumen sign",
-      "id": "e27"
+      "id": "e28"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "imaging",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1471,
@@ -394,12 +379,11 @@
         }
       ],
       "text": "optimized HR-FSE imaging",
-      "id": "e28"
+      "id": "e29"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1539,
@@ -408,12 +392,11 @@
         }
       ],
       "text": "intimal flaps",
-      "id": "e29"
+      "id": "e30"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 1621,
@@ -422,7 +405,7 @@
         }
       ],
       "text": "ICAD",
-      "id": "e30"
+      "id": "e31"
     }
   ]
 }

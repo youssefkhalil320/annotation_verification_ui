@@ -1,0 +1,260 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:127814:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I experienced acute pain in left knee due to arthritis and bone on bone.in ER doctor numbed knee then removed fluid from under cap to test. Results showed no inflammation, no infection, no gout, . Knee replacement distinct possibility. I made appt. With surgeon for 1week from now. However my knee is very sore, and black and blue all around it and above and below. Am concerned if this is normal for problem experiencing. I take Coumadin for blood thinner and have for quite a few years. Last INR a day ago was 2.7. Goal is 2-3. Should I see a doc now or can I safely wait the week before I see the surgeon? Thank you.\n[doctor] Hello,What I can infer from your complaint is that you have had an episode of knee effusion, and as you are on blood thinning medications the blood collection and time for the hematoma to get absorbed will take time. It’s safe to wait for a few more days and then consult your surgeon.Hope I have answered your query. Let me know if I can assist you further.Regards,  Dr. Santosh S Jeevannavar",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 47,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in left knee",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 55,
+          "char_end": 64,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "arthritis",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 81,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "bone on bone",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 95,
+          "char_end": 106,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "numbed knee",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 112,
+          "char_end": 140,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "removed fluid from under cap",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 168,
+          "char_end": 180,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "inflammation",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 185,
+          "char_end": 194,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "infection",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 199,
+          "char_end": 203,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "gout",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 207,
+          "char_end": 223,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Knee replacement",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 303,
+          "char_end": 307,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 316,
+          "char_end": 320,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "knee sore",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 326,
+          "char_end": 340,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "black and blue",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 440,
+          "char_end": 448,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Coumadin",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 453,
+          "char_end": 466,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "blood thinner",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 476,
+          "char_end": 497,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "for quite a few years",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 504,
+          "char_end": 507,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "INR",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 717,
+          "char_end": 730,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "knee effusion",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 750,
+          "char_end": 764,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood thinning",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 781,
+          "char_end": 797,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood collection",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 815,
+          "char_end": 823,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "hematoma",
+      "id": "e19"
+    }
+  ]
+}

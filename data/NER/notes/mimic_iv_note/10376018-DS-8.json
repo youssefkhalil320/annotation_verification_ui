@@ -1,0 +1,382 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:10376018-DS-8:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nPercocet / Tetanus\n\nChief Complaint:\nDyspnea on exertion/ chest tightness\n\nHistory of Present Illness:\n___ year old female who was told she had MVP since age ___. \nCurrently quite active but has noticed some dyspnea on exertion \nwhen walking up hills. Most recent echo revealed severe MVP and \nmoderate to severe MR. ___ presents for surgical consultation.\n\nBrief Hospital Course:\nMrs. ___ was a same day admit after undergoing all \npre-operative work-up prior to admission. On ___ she was \nbrought directly to the operating room where she underwent a \nmitral valve repair and coronary artery bypass graft x 1. Please \nsee operative report for surgical details. Following surgery she \nwas transferred to the CVICU for invasive monitoring in stable \ncondition. Within 24 hours she was weaned from sedation, awoke \nneurologically intact and extubated. Beta-blockers and diuretics \nwere started and she was gently diuresed towards her pre-op \nweight. Chest tubes and epicardial pacing wires were removed per \nprotocol. On post-op day two she was transferred to the \nstep-down unit for further care.  Her beta blockers were \ntitrated for better blood pressure and heart rate control. She \nwas experiencing nausea while taking Dilaudid and this resolved \nwith changing to Tylenol and Ultram for pain control.  On post \noperative day 5 she was tolerating a full oral diet, her \nincisions were healing well and she was ambulating in the halls \nwithout difficulty.  It was felt that she was safe for discharge \nhome at this time with ___ services.  All appopriate follow up \nappointments were arranged.\n\nDischarge Diagnosis:\nMitral regurgitation, coronary artery artery disease s/p Mitral \nvalve repair, Coronary artery bypass graft x 1",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "Percocet",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 22,
+          "char_end": 29,
+          "turn_id": null
+        }
+      ],
+      "text": "Tetanus",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 48,
+          "char_end": 67,
+          "turn_id": null
+        }
+      ],
+      "text": "Dyspnea on exertion",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 69,
+          "char_end": 84,
+          "turn_id": null
+        }
+      ],
+      "text": "chest tightness",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 158,
+          "turn_id": null
+        }
+      ],
+      "text": "MVP",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 219,
+          "char_end": 238,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea on exertion",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 275,
+          "char_end": 279,
+          "turn_id": null
+        }
+      ],
+      "text": "echo",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 296,
+          "char_end": 299,
+          "turn_id": null
+        }
+      ],
+      "text": "MVP",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 324,
+          "char_end": 326,
+          "turn_id": null
+        }
+      ],
+      "text": "MR",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 564,
+          "char_end": 583,
+          "turn_id": null
+        }
+      ],
+      "text": "mitral valve repair",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 588,
+          "char_end": 620,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary artery bypass graft x 1",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 807,
+          "char_end": 815,
+          "turn_id": null
+        }
+      ],
+      "text": "sedation",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 850,
+          "char_end": 859,
+          "turn_id": null
+        }
+      ],
+      "text": "extubated",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 861,
+          "char_end": 874,
+          "turn_id": null
+        }
+      ],
+      "text": "Beta-blockers",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 879,
+          "char_end": 888,
+          "turn_id": null
+        }
+      ],
+      "text": "diuretics",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 922,
+          "char_end": 930,
+          "turn_id": null
+        }
+      ],
+      "text": "diuresed",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 959,
+          "char_end": 970,
+          "turn_id": null
+        },
+        {
+          "char_start": 1004,
+          "char_end": 1011,
+          "turn_id": null
+        }
+      ],
+      "text": "Chest tubes removed",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 975,
+          "char_end": 998,
+          "turn_id": null
+        },
+        {
+          "char_start": 1004,
+          "char_end": 1011,
+          "turn_id": null
+        }
+      ],
+      "text": "epicardial pacing wires removed",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1112,
+          "char_end": 1125,
+          "turn_id": null
+        }
+      ],
+      "text": "beta blockers",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1213,
+          "char_end": 1219,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1233,
+          "char_end": 1241,
+          "turn_id": null
+        }
+      ],
+      "text": "Dilaudid",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1285,
+          "turn_id": null
+        }
+      ],
+      "text": "Tylenol",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1290,
+          "char_end": 1296,
+          "turn_id": null
+        }
+      ],
+      "text": "Ultram",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1301,
+          "char_end": 1305,
+          "turn_id": null
+        }
+      ],
+      "text": "pain",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1628,
+          "char_end": 1648,
+          "turn_id": null
+        }
+      ],
+      "text": "Mitral regurgitation",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1650,
+          "char_end": 1680,
+          "turn_id": null
+        }
+      ],
+      "text": "coronary artery artery disease",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1685,
+          "char_end": 1705,
+          "turn_id": null
+        }
+      ],
+      "text": "Mitral \nvalve repair",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1707,
+          "char_end": 1739,
+          "turn_id": null
+        }
+      ],
+      "text": "Coronary artery bypass graft x 1",
+      "id": "e28"
+    }
+  ]
+}

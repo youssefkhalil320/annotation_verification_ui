@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 74,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 97,
@@ -34,22 +32,7 @@
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "social_behavioral_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 191,
-          "char_end": 231,
-          "turn_id": null
-        }
-      ],
-      "text": "high human consumption of fructose diets",
-      "id": "e3"
-    },
-    {
-      "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 366,
@@ -58,16 +41,28 @@
         }
       ],
       "text": "β-cell dysfunction",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 389,
+          "char_end": 407,
+          "turn_id": null
+        }
+      ],
+      "text": "insulin resistance",
       "id": "e4"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
-          "char_start": 389,
-          "char_end": 407,
+          "char_start": 479,
+          "char_end": 497,
           "turn_id": null
         }
       ],
@@ -77,21 +72,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 479,
-          "char_end": 497,
-          "turn_id": null
-        }
-      ],
-      "text": "insulin resistance",
-      "id": "e6"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 502,
@@ -100,12 +80,11 @@
         }
       ],
       "text": "metabolic disorders",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 881,
@@ -114,12 +93,11 @@
         }
       ],
       "text": "oral glucose tolerance test",
-      "id": "e8"
+      "id": "e7"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 910,
@@ -128,12 +106,11 @@
         }
       ],
       "text": "insulin tolerance test",
-      "id": "e9"
+      "id": "e8"
     },
     {
       "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
+      "fine_type": "exam",
       "spans": [
         {
           "char_start": 934,
@@ -142,12 +119,11 @@
         }
       ],
       "text": "histopathology",
-      "id": "e10"
+      "id": "e9"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 952,
@@ -156,12 +132,11 @@
         }
       ],
       "text": "H&E",
-      "id": "e11"
+      "id": "e10"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 960,
@@ -170,12 +145,11 @@
         }
       ],
       "text": "Masson's trichrome staining",
-      "id": "e12"
+      "id": "e11"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1008,
@@ -184,12 +158,11 @@
         }
       ],
       "text": "real-time PCR",
-      "id": "e13"
+      "id": "e12"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1045,
@@ -198,12 +171,11 @@
         }
       ],
       "text": "Western blot",
-      "id": "e14"
+      "id": "e13"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1085,
@@ -212,12 +184,11 @@
         }
       ],
       "text": "colorimetry",
-      "id": "e15"
+      "id": "e14"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1149,
@@ -226,12 +197,11 @@
         }
       ],
       "text": "glucose intolerant",
-      "id": "e16"
+      "id": "e15"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "other",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 1169,
@@ -240,12 +210,11 @@
         }
       ],
       "text": "insulin-resistant",
-      "id": "e17"
+      "id": "e16"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "other",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 1192,
@@ -254,12 +223,11 @@
         }
       ],
       "text": "dyslipidemic",
-      "id": "e18"
+      "id": "e17"
     },
     {
       "coarse_type": "PROBLEM",
-      "fine_type": "disease",
-      "experiencer": "other",
+      "fine_type": "abnormal_finding",
       "spans": [
         {
           "char_start": 1569,
@@ -268,12 +236,11 @@
         }
       ],
       "text": "insulin-resistant",
-      "id": "e19"
+      "id": "e18"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1919,
@@ -282,7 +249,7 @@
         }
       ],
       "text": "metabolic disorders",
-      "id": "e20"
+      "id": "e19"
     }
   ]
 }

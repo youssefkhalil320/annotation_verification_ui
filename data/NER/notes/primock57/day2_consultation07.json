@@ -1,0 +1,255 @@
+{
+  "doc_id": "PRIMOCK57:day2_consultation07:note",
+  "register": "notes",
+  "source_dataset": "PRIMOCK57",
+  "text": "Onset of chest pain earlier today during gardening (mild physical exertion)\nCentral chest, radiation to shoulder and neck\nAssociated nausea, sweatiness, palpitations\nPAIN STILL PRESENT NOW\nNo previous similar episodes\nRisk factors: chronic smoker, FH of IHD, Hypertension, overweight, moderate alcohol intake\nDH: (mild) allergy to aspirin\n(forgot to ask about other medication- LAS need to clarify)\nSH: lives alone\nEx: haemodynamically stable now, at rest, seated, well perfused via video inspection, not SOB\nImp: acute cardiac event- needs urgent ECG + trop T\nLAS blue light called, front door open so they can access if he collapses\nStayed on line till LAS arrived, handed over to them\nExplained above\n",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 9,
+          "char_end": 19,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 91,
+          "char_end": 121,
+          "turn_id": null
+        }
+      ],
+      "text": "radiation to shoulder and neck",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 133,
+          "char_end": 139,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 141,
+          "char_end": 151,
+          "turn_id": null
+        }
+      ],
+      "text": "sweatiness",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 153,
+          "char_end": 165,
+          "turn_id": null
+        }
+      ],
+      "text": "palpitations",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 166,
+          "char_end": 170,
+          "turn_id": null
+        }
+      ],
+      "text": "PAIN",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 240,
+          "char_end": 246,
+          "turn_id": null
+        }
+      ],
+      "text": "smoker",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 254,
+          "char_end": 257,
+          "turn_id": null
+        }
+      ],
+      "text": "IHD",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 259,
+          "char_end": 271,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypertension",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 273,
+          "char_end": 283,
+          "turn_id": null
+        }
+      ],
+      "text": "overweight",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 294,
+          "char_end": 308,
+          "turn_id": null
+        }
+      ],
+      "text": "alcohol intake",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 320,
+          "char_end": 338,
+          "turn_id": null
+        }
+      ],
+      "text": "allergy to aspirin",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 331,
+          "char_end": 338,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirin",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "social_behavioral_finding",
+      "spans": [
+        {
+          "char_start": 403,
+          "char_end": 414,
+          "turn_id": null
+        }
+      ],
+      "text": "lives alone",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 505,
+          "char_end": 508,
+          "turn_id": null
+        }
+      ],
+      "text": "SOB",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 514,
+          "char_end": 533,
+          "turn_id": null
+        }
+      ],
+      "text": "acute cardiac event",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 548,
+          "char_end": 551,
+          "turn_id": null
+        }
+      ],
+      "text": "ECG",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 554,
+          "char_end": 560,
+          "turn_id": null
+        }
+      ],
+      "text": "trop T",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 625,
+          "char_end": 634,
+          "turn_id": null
+        }
+      ],
+      "text": "collapses",
+      "id": "e19"
+    }
+  ]
+}

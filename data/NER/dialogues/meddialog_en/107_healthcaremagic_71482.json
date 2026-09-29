@@ -1,0 +1,335 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:71482:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] My father is having COPD disease & he is on Inhalers use daily (Duolin) Doctors of lala Ram Swarup TV hospital Mehrauli after complete diagnostic told me that surgery cant bring any improvement so he is continuing the drugs. From the last few Days he has lost appetite & sleep. He has lost self confidence & saying that anxeity problems he is facing. Since he was not sleep from the last one week he gave him 0.25 mg alprazolam to induce a temporary sleep after taking which My father has a sleep but his face,eyelds are swallon which seems a allergic reaction. Since he is not in a position to move to hospital could you advise what i should do.\n[doctor] Hello,If you are saying its allergic condition. You should take him to the doctor as soon as possible. On the other hand, COPD patients should not take sedatives. May result in respiratory depression. Other causes must be ruled out. Right heart failure is a common cause. 2D echo is must as per his blood pressure and other vitals. Diuretics may be needed. Kidney functions should also be tested to rule out other cause of facial puffiness.Hope I have answered your query. Let me know if I can assist you further.Regards, Dr. Vishal More",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 30,
+          "char_end": 42,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "COPD disease",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 54,
+          "char_end": 62,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Inhalers",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 67,
+          "char_end": 72,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "daily",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 74,
+          "char_end": 80,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Duolin",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 269,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 281,
+          "char_end": 286,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost sleep",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 265,
+          "char_end": 278,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost appetite",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 295,
+          "char_end": 315,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lost self confidence",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "mental_health_finding",
+      "spans": [
+        {
+          "char_start": 330,
+          "char_end": 346,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "anxeity problems",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 378,
+          "char_end": 383,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sleep",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 419,
+          "char_end": 426,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "0.25 mg",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 427,
+          "char_end": 437,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "alprazolam",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 515,
+          "char_end": 519,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 531,
+          "char_end": 538,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "face swallon",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 520,
+          "char_end": 526,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 531,
+          "char_end": 538,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "eyelds swallon",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 553,
+          "char_end": 570,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 694,
+          "char_end": 712,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic condition",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 788,
+          "char_end": 792,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "COPD",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 818,
+          "char_end": 827,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sedatives",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 843,
+          "char_end": 865,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "respiratory depression",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 899,
+          "char_end": 918,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Right heart failure",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 938,
+          "char_end": 945,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "2D echo",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "exam",
+      "spans": [
+        {
+          "char_start": 965,
+          "char_end": 979,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood pressure",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 998,
+          "char_end": 1007,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Diuretics",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1023,
+          "char_end": 1039,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "Kidney functions",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1089,
+          "char_end": 1105,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "facial puffiness",
+      "id": "e24"
+    }
+  ]
+}

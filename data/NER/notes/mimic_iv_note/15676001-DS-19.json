@@ -1,0 +1,974 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:15676001-DS-19:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nSulfa (Sulfonamide Antibiotics)\n\nChief Complaint:\nLeft scrotal pain and swelling\n\nHistory of Present Illness:\nMr. ___ is a ___ year-old man with a history of congenital \nspinal cord malformation s/p multiple surgeries and incomplete \nbladder empytying who presented with 1 week of left testicular \npain and scrotal swelling.  \n.\nOn ___, he placed a catheter at home (recently \ntrained to do so).  He had not ``cath-ed\" himself for one month \nand decided to so so because he could not void.  On ___, \n___, he thought he pulled a muscle in his groin.  The \nscrotal area burned and his scrotum was very red and swollen, \npain rating of ___, constant. He went to the ___ and \nwas diagnosed with epididymitis and started on ciprofloxacin.  \nThe following two days were \"fine\" with some pain and continued \nswelling.  He was able to work.  He began to experience fevers \nand chills on ___,  ___.  On ___, the scrotal pain \nhad become worse and he was started on Augmentin by Dr. ___ \n___ ciprofloxacin, as ___ urine/skin cultures showed \nciprofloxacin resistant E. coli).  ___, he reached a \ntemperature of 104.8F at home and was convinced by his friends \nto go to the ___ ED.  He denied dysuria, hematuria.  He noted \nchills and a cough when having a high fever.  He was also \nnauseated with dry heaves during fevers.  He self catheter \ninfrequently and is suspicious this is the cause of his illness. \n Of note, he has felt his left scrotum has been getting ``more \nfull\" for ___ year.\n.\nA scrotal ultrasound performed on ___ showed a \nhypervascular testis and epididymis bilateral consistent with \norchitis/epididymitis. \n.\nIn the ED on ___: T98.4 BP123/78 HR 93 RR18 99% room \nair.  He was started on vancomycin (1g) and zosyn (4.5g).  \nMorphine was given for pain.\n\nBrief Hospital Course:\nThe patient was admitted to Dr. ___ service for \ntreatment of his L epididymoorchitis.  He was initially \nmaintained on vancomycin and zosyn and was switched to cefazolin \nand gentamicin for empiric treatment.  However, his clinical \nstatus did not improve significantly, and on ___, he was \ntaken to the operating room for I+D of his L hemiscrotum, which \ndid not reveal a significant abscess.  Two ___ drains were \nplaced.  Flagyl was added to the abx regimen after the patient \nspiked a fever to 103.0 and was mildly hypertensive and \ntachycardic on the night of POD 0.  ID was consulted, who \nrecommended continuation of the abx regimen.  He underwent a CT \nA/P with IV contrast, which revealed a persistent loculated, \nrim-enhancing fluid collection in the L hemiscrotum contiguous \nwith the L spermatic cord.  This was aspirated by interventional \nradiology on ___.  \n\nOver the next six days, his physical exam improved very slowly, \nbut his WBC remained elevated between ___.  He underwent \nrepeat scrotal ultrasounds on ___ and ___, which \ndemonstrated a remaining complex septated fluid collection in \nthe scrotum.  He underwent repeat attempted percutaneous \ndrainage by ___ on ___, during which 5 cc of serous, \nnonpurulent fluid was aspirated and sent for culture.  A PICC \nline was placed on ___ and given that the patient was \nafebrile for several days, his physical exam was slowly \nimproving, and that he appeared clinically stable, he was \ndischarged with two weeks of IV ceftriaxone with close follow-up \nin Dr. ___ clinic as well as the urgent care clinic to be \nfollowed by infectious disease.  He will have ___ help \nadminister his abx, and weekly CBC with differential, LFTs, and \nBUN/Cr will be drawn and faxed to the ID fellow, Dr. ___ \n___.  He will follow-up with Dr. ___ on ___ at 11:30 am.\n\nDischarge Diagnosis:\nLeft epididymoorchitis, left scrotal abscess",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide Antibiotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 73,
+          "turn_id": null
+        },
+        {
+          "char_start": 83,
+          "char_end": 91,
+          "turn_id": null
+        }
+      ],
+      "text": "Left scrotal swelling",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 61,
+          "char_end": 78,
+          "turn_id": null
+        }
+      ],
+      "text": "Left scrotal pain",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 169,
+          "char_end": 205,
+          "turn_id": null
+        }
+      ],
+      "text": "congenital \nspinal cord malformation",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 233,
+          "char_end": 262,
+          "turn_id": null
+        }
+      ],
+      "text": "incomplete \nbladder empytying",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 292,
+          "char_end": 313,
+          "turn_id": null
+        }
+      ],
+      "text": "left testicular \npain",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 318,
+          "char_end": 334,
+          "turn_id": null
+        }
+      ],
+      "text": "scrotal swelling",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 351,
+          "char_end": 368,
+          "turn_id": null
+        }
+      ],
+      "text": "placed a catheter",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "cath-ed",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 490,
+          "turn_id": null
+        },
+        {
+          "char_start": 495,
+          "char_end": 499,
+          "turn_id": null
+        }
+      ],
+      "text": "could void",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 530,
+          "char_end": 558,
+          "turn_id": null
+        }
+      ],
+      "text": "pulled a muscle in his groin",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 566,
+          "char_end": 585,
+          "turn_id": null
+        }
+      ],
+      "text": "scrotal area burned",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 594,
+          "char_end": 601,
+          "turn_id": null
+        },
+        {
+          "char_start": 606,
+          "char_end": 614,
+          "turn_id": null
+        }
+      ],
+      "text": "scrotum very red",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 619,
+          "char_end": 626,
+          "turn_id": null
+        }
+      ],
+      "text": "swollen",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 702,
+          "char_end": 714,
+          "turn_id": null
+        }
+      ],
+      "text": "epididymitis",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 730,
+          "char_end": 743,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 868,
+          "char_end": 874,
+          "turn_id": null
+        }
+      ],
+      "text": "fevers",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 880,
+          "char_end": 886,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 967,
+          "char_end": 976,
+          "turn_id": null
+        }
+      ],
+      "text": "Augmentin",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 993,
+          "char_end": 1006,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1015,
+          "char_end": 1034,
+          "turn_id": null
+        }
+      ],
+      "text": "urine/skin cultures",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1043,
+          "char_end": 1074,
+          "turn_id": null
+        }
+      ],
+      "text": "ciprofloxacin resistant E. coli",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1097,
+          "char_end": 1118,
+          "turn_id": null
+        }
+      ],
+      "text": "temperature of 104.8F",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1193,
+          "char_end": 1200,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1202,
+          "char_end": 1211,
+          "turn_id": null
+        }
+      ],
+      "text": "hematuria",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1224,
+          "char_end": 1230,
+          "turn_id": null
+        }
+      ],
+      "text": "chills",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1237,
+          "char_end": 1242,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1257,
+          "char_end": 1267,
+          "turn_id": null
+        }
+      ],
+      "text": "high fever",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1283,
+          "char_end": 1292,
+          "turn_id": null
+        }
+      ],
+      "text": "nauseated",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1298,
+          "char_end": 1308,
+          "turn_id": null
+        }
+      ],
+      "text": "dry heaves",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1328,
+          "char_end": 1341,
+          "turn_id": null
+        }
+      ],
+      "text": "self catheter",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1435,
+          "char_end": 1447,
+          "turn_id": null
+        },
+        {
+          "char_start": 1457,
+          "char_end": 1477,
+          "turn_id": null
+        }
+      ],
+      "text": "left scrotum getting ``more \nfull",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1497,
+          "char_end": 1515,
+          "turn_id": null
+        }
+      ],
+      "text": "scrotal ultrasound",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1543,
+          "char_end": 1588,
+          "turn_id": null
+        }
+      ],
+      "text": "hypervascular testis and epididymis bilateral",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1627,
+          "turn_id": null
+        }
+      ],
+      "text": "orchitis/epididymitis",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1710,
+          "char_end": 1720,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1722,
+          "char_end": 1724,
+          "turn_id": null
+        }
+      ],
+      "text": "1g",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1730,
+          "char_end": 1735,
+          "turn_id": null
+        }
+      ],
+      "text": "zosyn",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 1737,
+          "char_end": 1741,
+          "turn_id": null
+        }
+      ],
+      "text": "4.5g",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1746,
+          "char_end": 1754,
+          "turn_id": null
+        }
+      ],
+      "text": "Morphine",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1865,
+          "char_end": 1884,
+          "turn_id": null
+        }
+      ],
+      "text": "L epididymoorchitis",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1919,
+          "char_end": 1929,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1934,
+          "char_end": 1939,
+          "turn_id": null
+        }
+      ],
+      "text": "zosyn",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1960,
+          "char_end": 1969,
+          "turn_id": null
+        }
+      ],
+      "text": "cefazolin",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1975,
+          "char_end": 1985,
+          "turn_id": null
+        }
+      ],
+      "text": "gentamicin",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 2124,
+          "char_end": 2147,
+          "turn_id": null
+        }
+      ],
+      "text": "+D of his L hemiscrotum",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2185,
+          "char_end": 2192,
+          "turn_id": null
+        }
+      ],
+      "text": "abscess",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2225,
+          "char_end": 2231,
+          "turn_id": null
+        }
+      ],
+      "text": "Flagyl",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2249,
+          "char_end": 2252,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2289,
+          "char_end": 2303,
+          "turn_id": null
+        }
+      ],
+      "text": "fever to 103.0",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2319,
+          "char_end": 2331,
+          "turn_id": null
+        }
+      ],
+      "text": "hypertensive",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2337,
+          "char_end": 2348,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardic",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2428,
+          "char_end": 2431,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2457,
+          "char_end": 2481,
+          "turn_id": null
+        }
+      ],
+      "text": "CT \nA/P with IV contrast",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2511,
+          "char_end": 2612,
+          "turn_id": null
+        }
+      ],
+      "text": "loculated, \nrim-enhancing fluid collection in the L hemiscrotum contiguous \nwith the L spermatic cord",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2624,
+          "char_end": 2662,
+          "turn_id": null
+        }
+      ],
+      "text": "aspirated by interventional \nradiology",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2747,
+          "char_end": 2750,
+          "turn_id": null
+        },
+        {
+          "char_start": 2760,
+          "char_end": 2768,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC elevated",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2747,
+          "char_end": 2750,
+          "turn_id": null
+        }
+      ],
+      "text": "WBC",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2804,
+          "char_end": 2823,
+          "turn_id": null
+        }
+      ],
+      "text": "scrotal ultrasounds",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2872,
+          "char_end": 2921,
+          "turn_id": null
+        }
+      ],
+      "text": "complex septated fluid collection in \nthe scrotum",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 2954,
+          "char_end": 2976,
+          "turn_id": null
+        }
+      ],
+      "text": "percutaneous \ndrainage",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 3079,
+          "char_end": 3089,
+          "turn_id": null
+        },
+        {
+          "char_start": 3094,
+          "char_end": 3100,
+          "turn_id": null
+        }
+      ],
+      "text": "PICC \nline placed",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "duration",
+      "spans": [
+        {
+          "char_start": 3272,
+          "char_end": 3281,
+          "turn_id": null
+        }
+      ],
+      "text": "two weeks",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "route",
+      "spans": [
+        {
+          "char_start": 3285,
+          "char_end": 3287,
+          "turn_id": null
+        }
+      ],
+      "text": "IV",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3288,
+          "char_end": 3299,
+          "turn_id": null
+        }
+      ],
+      "text": "ceftriaxone",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 3452,
+          "char_end": 3455,
+          "turn_id": null
+        }
+      ],
+      "text": "abx",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3468,
+          "char_end": 3489,
+          "turn_id": null
+        }
+      ],
+      "text": "CBC with differential",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3491,
+          "char_end": 3495,
+          "turn_id": null
+        }
+      ],
+      "text": "LFTs",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 3502,
+          "char_end": 3508,
+          "turn_id": null
+        }
+      ],
+      "text": "BUN/Cr",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3639,
+          "char_end": 3661,
+          "turn_id": null
+        }
+      ],
+      "text": "Left epididymoorchitis",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3663,
+          "char_end": 3683,
+          "turn_id": null
+        }
+      ],
+      "text": "left scrotal abscess",
+      "id": "e72"
+    }
+  ]
+}

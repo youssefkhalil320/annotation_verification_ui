@@ -1,0 +1,317 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:84849:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] I started taking birth control (Portia) a little over two years ago to treat my severe cramps. Less than two months afterwards I developed a bad skin rash/hives on my face, neck and arms. I consulted several doctors who could not give me an exact cause, and when asked about my new birth control pill being a cause they all adamantly said it would not. Ever since then I have had serious skin problems. Exzema runs in my family, but my skin reactions are way worse producing rashes around my eyes, mouth and face, which I have never experienced before. I have stopped wearing makeup and only use 100% natural skin products. I had allergy testing done as well, which came back completely negative so they diagnosed me with non-allergic rhinitis (which hormones do play a large role in) -- but the skin rashes still continue. Could this be a result from the pill (I m now taking Apri, with the same issues) and is there another option I can choose to minimize my severe skin reactions? The rashes do appear worse shortly before I start my period and especially when I m in the heat/sun. Any type of product or clothing seem to trigger a reaction, no matter how careful I am.\n[doctor] Hello,  It is very less likely related to the consumption of birth control pill. Your allergy tests have come negative as well.   As you mentioned you have a family history of eczema and its not necessary that the symptoms appear exactly similar to anyone else in the family.   You also mentioned that exposure to sun or heat makes it worse, it's an allergic reaction as your skin is very sensitive. You can use a sunscreen lotion with your dermatologist's advice for better protection.  I would suggest you visit an immunologist/rheumatologist regarding this.   There might be a need for some blood tests to be done to see if the reason is autoimmune. Once it's clear, treating the underlying cause will be easy and the symptoms will eventually go away.   Hope I have answered your query. Let me know if I can assist you further.  Take care  Regards, Dr Manisha Auradkar, General & Family Physician",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 27,
+          "char_end": 40,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "birth control",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 42,
+          "char_end": 48,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Portia",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 97,
+          "char_end": 103,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "cramps",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 155,
+          "char_end": 164,
+          "turn_id": "t01"
+        },
+        {
+          "char_start": 171,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin rash on my face, neck and arms",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 165,
+          "char_end": 196,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "hives on my face, neck and arms",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 292,
+          "char_end": 305,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "birth control",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 398,
+          "char_end": 411,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin problems",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 413,
+          "char_end": 419,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Exzema",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 446,
+          "char_end": 460,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin reactions",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 485,
+          "char_end": 522,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "rashes around my eyes, mouth and face",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 640,
+          "char_end": 655,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "allergy testing",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 732,
+          "char_end": 753,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "non-allergic rhinitis",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 806,
+          "char_end": 817,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin rashes",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 887,
+          "char_end": 891,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Apri",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 978,
+          "char_end": 992,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "skin reactions",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1253,
+          "char_end": 1266,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "birth control",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1278,
+          "char_end": 1291,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergy tests",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1368,
+          "char_end": 1374,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "eczema",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1542,
+          "char_end": 1559,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "allergic reaction",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 1568,
+          "char_end": 1572,
+          "turn_id": "t02"
+        },
+        {
+          "char_start": 1581,
+          "char_end": 1590,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "skin sensitive",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1606,
+          "char_end": 1615,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sunscreen",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dosage_form",
+      "spans": [
+        {
+          "char_start": 1616,
+          "char_end": 1622,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "lotion",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1786,
+          "char_end": 1797,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "blood tests",
+      "id": "e23"
+    }
+  ]
+}

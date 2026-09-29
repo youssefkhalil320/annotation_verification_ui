@@ -7,7 +7,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 0,
@@ -21,7 +20,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 17,
@@ -35,7 +33,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 26,
@@ -49,7 +46,6 @@
     {
       "coarse_type": "PROBLEM",
       "fine_type": "mental_health_finding",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 41,
@@ -61,28 +57,8 @@
       "id": "e4"
     },
     {
-      "coarse_type": "PROBLEM",
-      "fine_type": "mental_health_finding",
-      "experiencer": "patient",
-      "spans": [
-        {
-          "char_start": 66,
-          "char_end": 70,
-          "turn_id": null
-        },
-        {
-          "char_start": 77,
-          "char_end": 82,
-          "turn_id": null
-        }
-      ],
-      "text": "like dying",
-      "id": "e5"
-    },
-    {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 133,
@@ -91,12 +67,11 @@
         }
       ],
       "text": "benadryl",
-      "id": "e6"
+      "id": "e5"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "disease",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 166,
@@ -105,12 +80,11 @@
         }
       ],
       "text": "allergic reaction",
-      "id": "e7"
+      "id": "e6"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "symptom",
-      "experiencer": "patient",
       "spans": [
         {
           "char_start": 199,
@@ -119,7 +93,7 @@
         }
       ],
       "text": "trouble breathing",
-      "id": "e8"
+      "id": "e7"
     }
   ]
 }

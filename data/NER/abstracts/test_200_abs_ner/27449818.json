@@ -6,50 +6,20 @@
   "entities": [
     {
       "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
+      "fine_type": "drug_class",
       "spans": [
         {
           "char_start": 0,
-          "char_end": 9,
-          "turn_id": null
-        }
-      ],
-      "text": "Estradiol",
-      "id": "e1"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 10,
           "char_end": 18,
           "turn_id": null
         }
       ],
-      "text": "prodrugs",
-      "id": "e2"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 20,
-          "char_end": 22,
-          "turn_id": null
-        }
-      ],
-      "text": "EP",
-      "id": "e3"
+      "text": "Estradiol prodrugs",
+      "id": "e1"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 38,
@@ -58,12 +28,11 @@
         }
       ],
       "text": "oral",
-      "id": "e4"
+      "id": "e2"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 43,
@@ -72,12 +41,11 @@
         }
       ],
       "text": "estrogen",
-      "id": "e5"
+      "id": "e3"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 122,
@@ -86,12 +54,11 @@
         }
       ],
       "text": "Oral",
-      "id": "e6"
+      "id": "e4"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 139,
@@ -100,12 +67,11 @@
         }
       ],
       "text": "parenteral",
-      "id": "e7"
+      "id": "e5"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 150,
@@ -114,26 +80,11 @@
         }
       ],
       "text": "estrogen",
-      "id": "e8"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 215,
-          "char_end": 251,
-          "turn_id": null
-        }
-      ],
-      "text": "prominent hepatic estrogenic effects",
-      "id": "e9"
+      "id": "e6"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 233,
@@ -142,26 +93,11 @@
         }
       ],
       "text": "estrogenic",
-      "id": "e10"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 341,
-          "char_end": 366,
-          "turn_id": null
-        }
-      ],
-      "text": "adverse metabolic effects",
-      "id": "e11"
+      "id": "e7"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 370,
@@ -170,26 +106,29 @@
         }
       ],
       "text": "oral",
-      "id": "e12"
+      "id": "e8"
     },
     {
       "coarse_type": "MEDICATION",
-      "fine_type": "drug_name",
-      "experiencer": "general",
+      "fine_type": "drug_class",
       "spans": [
         {
           "char_start": 386,
           "char_end": 395,
           "turn_id": null
+        },
+        {
+          "char_start": 401,
+          "char_end": 409,
+          "turn_id": null
         }
       ],
-      "text": "estradiol",
-      "id": "e13"
+      "text": "estradiol prodrugs",
+      "id": "e9"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 397,
@@ -198,26 +137,11 @@
         }
       ],
       "text": "E2",
-      "id": "e14"
+      "id": "e10"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
-      "spans": [
-        {
-          "char_start": 401,
-          "char_end": 409,
-          "turn_id": null
-        }
-      ],
-      "text": "prodrugs",
-      "id": "e15"
-    },
-    {
-      "coarse_type": "MEDICATION",
-      "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 411,
@@ -226,12 +150,11 @@
         }
       ],
       "text": "EP",
-      "id": "e16"
+      "id": "e11"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 539,
@@ -240,12 +163,11 @@
         }
       ],
       "text": "E2",
-      "id": "e17"
+      "id": "e12"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 543,
@@ -254,12 +176,24 @@
         }
       ],
       "text": "EC508",
-      "id": "e18"
+      "id": "e13"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 590,
+          "char_end": 627,
+          "turn_id": null
+        }
+      ],
+      "text": "carbonic anhydrase II (CA-II) binding",
+      "id": "e14"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 686,
@@ -268,12 +202,11 @@
         }
       ],
       "text": "EP",
-      "id": "e19"
+      "id": "e15"
     },
     {
       "coarse_type": "PROCEDURE",
       "fine_type": "surgery",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 734,
@@ -282,12 +215,11 @@
         }
       ],
       "text": "Ovariectomized",
-      "id": "e20"
+      "id": "e16"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 779,
@@ -296,12 +228,11 @@
         }
       ],
       "text": "orally",
-      "id": "e21"
+      "id": "e17"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "frequency",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 794,
@@ -310,12 +241,11 @@
         }
       ],
       "text": "once daily",
-      "id": "e22"
+      "id": "e18"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "duration",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 805,
@@ -324,12 +254,11 @@
         }
       ],
       "text": "from day 1-3",
-      "id": "e23"
+      "id": "e19"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 870,
@@ -338,12 +267,11 @@
         }
       ],
       "text": "Cholesterol fractions",
-      "id": "e24"
+      "id": "e20"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 896,
@@ -352,12 +280,11 @@
         }
       ],
       "text": "angiotensinogen",
-      "id": "e25"
+      "id": "e21"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 939,
@@ -366,12 +293,11 @@
         }
       ],
       "text": "Oral",
-      "id": "e26"
+      "id": "e22"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 944,
@@ -380,12 +306,11 @@
         }
       ],
       "text": "E2",
-      "id": "e27"
+      "id": "e23"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 951,
@@ -394,12 +319,11 @@
         }
       ],
       "text": "ethinyl estradiol",
-      "id": "e28"
+      "id": "e24"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 970,
@@ -408,12 +332,11 @@
         }
       ],
       "text": "EE",
-      "id": "e29"
+      "id": "e25"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 997,
@@ -422,26 +345,11 @@
         }
       ],
       "text": "uterine growth",
-      "id": "e30"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1016,
-          "char_end": 1052,
-          "turn_id": null
-        }
-      ],
-      "text": "important hepatic estrogenic effects",
-      "id": "e31"
+      "id": "e26"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1054,
@@ -450,12 +358,11 @@
         }
       ],
       "text": "EP",
-      "id": "e32"
+      "id": "e27"
     },
     {
       "coarse_type": "PROBLEM",
       "fine_type": "abnormal_finding",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1065,
@@ -464,12 +371,11 @@
         }
       ],
       "text": "uterine growth",
-      "id": "e33"
+      "id": "e28"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1163,
@@ -478,12 +384,11 @@
         }
       ],
       "text": "plasma cholesterol",
-      "id": "e34"
+      "id": "e29"
     },
     {
       "coarse_type": "TEST",
       "fine_type": "lab",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1185,
@@ -492,12 +397,11 @@
         }
       ],
       "text": "angiotensinogen",
-      "id": "e35"
+      "id": "e30"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1243,
@@ -506,12 +410,11 @@
         }
       ],
       "text": "EC508",
-      "id": "e36"
+      "id": "e31"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1254,
@@ -520,12 +423,11 @@
         }
       ],
       "text": "intravenous",
-      "id": "e37"
+      "id": "e32"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1270,
@@ -534,26 +436,11 @@
         }
       ],
       "text": "oral",
-      "id": "e38"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1314,
-          "char_end": 1326,
-          "turn_id": null
-        }
-      ],
-      "text": "blood levels",
-      "id": "e39"
+      "id": "e33"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1345,
@@ -562,59 +449,11 @@
         }
       ],
       "text": "oral",
-      "id": "e40"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1375,
-          "char_end": 1385,
-          "turn_id": null
-        },
-        {
-          "char_start": 1403,
-          "char_end": 1417,
-          "turn_id": null
-        }
-      ],
-      "text": "high blood concentrations",
-      "id": "e41"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1392,
-          "char_end": 1417,
-          "turn_id": null
-        }
-      ],
-      "text": "low plasma concentrations",
-      "id": "e42"
-    },
-    {
-      "coarse_type": "TEST",
-      "fine_type": "lab",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1396,
-          "char_end": 1417,
-          "turn_id": null
-        }
-      ],
-      "text": "plasma concentrations",
-      "id": "e43"
+      "id": "e34"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1451,
@@ -623,40 +462,11 @@
         }
       ],
       "text": "EC508",
-      "id": "e44"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1524,
-          "char_end": 1556,
-          "turn_id": null
-        }
-      ],
-      "text": "Very high systemic estrogenicity",
-      "id": "e45"
-    },
-    {
-      "coarse_type": "PROBLEM",
-      "fine_type": "abnormal_finding",
-      "experiencer": "other",
-      "spans": [
-        {
-          "char_start": 1596,
-          "char_end": 1630,
-          "turn_id": null
-        }
-      ],
-      "text": "adverse hepatic estrogenic effects",
-      "id": "e46"
+      "id": "e35"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_name",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1669,
@@ -665,26 +475,24 @@
         }
       ],
       "text": "E2",
-      "id": "e47"
+      "id": "e36"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
-          "char_start": 1689,
+          "char_start": 1677,
           "char_end": 1691,
           "turn_id": null
         }
       ],
-      "text": "EP",
-      "id": "e48"
+      "text": "sulfonamide EP",
+      "id": "e37"
     },
     {
       "coarse_type": "MED_ATTRIBUTE",
       "fine_type": "route",
-      "experiencer": "general",
       "spans": [
         {
           "char_start": 1715,
@@ -693,12 +501,11 @@
         }
       ],
       "text": "oral",
-      "id": "e49"
+      "id": "e38"
     },
     {
       "coarse_type": "MEDICATION",
       "fine_type": "drug_class",
-      "experiencer": "other",
       "spans": [
         {
           "char_start": 1720,
@@ -707,7 +514,20 @@
         }
       ],
       "text": "EP",
-      "id": "e50"
+      "id": "e39"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1776,
+          "char_end": 1785,
+          "turn_id": null
+        }
+      ],
+      "text": "estradiol",
+      "id": "e40"
     }
   ]
 }

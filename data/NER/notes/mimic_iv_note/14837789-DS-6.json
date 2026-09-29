@@ -1,0 +1,1084 @@
+{
+  "doc_id": "MIMIC_IV_NOTE:14837789-DS-6:discharge_sections",
+  "register": "notes",
+  "source_dataset": "MIMIC_IV_NOTE",
+  "text": "Allergies:\nSulfa (Sulfonamide Antibiotics) / cats\n\nChief Complaint:\nfever\n\nHistory of Present Illness:\nMs. ___ is a pleasant ___ year old woman with follicular\nlymphoma involving cervical, submandibular, perigastric and \nlytic\nlesion in L mandible, currently C3D8 R-CHOP, who presents to\n___ with fever. She had been seen earlier today in the ___\nclinic for count-check and follow up.  While there, she noted \none\nday of fatigue. She also stated that she developed\nlightheadedness, dyspnea on exertion, and feeling as if she\nneeded IVF today. She was found to be hypotensive to 88/55, \ngiven\n1L of saline, and her BP came up to 105/60.  Labs revealed\nneutropenia.  At that time she was afebrile, but she also\ncomplained of some large volume stools, which she attributed to\nAugmentin. Her antimicrobial PPX was changed to levofloxacin. \nShe was discharged to home feeling well and with plan to follow\nup in clinic tomorrow.\n\nThis evening, she was noted to have a temperature of 100.4, BP\n96/76, and tachycardia.  She was instructed to present directly\nto ___ for admission for management and workup of febrile\nneutropenia.\n\nThis evening, she feels better than she did at home.  She\ncontinues to have fatigue, numbness near the biopsy site in her\nanterior left lower buccal mucosa, dyspnea on exertion, and\ndarker urine than usual.  She adds that her voice is quieter \nthan\ntypical, as well.  She denies headaches, blurred vision, runny\nnose, sore throat, odynophagia, chest pain, cough, nausea,\nvomiting, diarrhea, dysuria, lower extremity edema, and rash. \nHer partner adds that the patient had reported some mouth\nsensitivity earlier this week, which has since resolved.\n\nReview of systems: (+) per HPI. The remainder of a complete\nreview of systems is negative.\n\nBrief Hospital Course:\n___ h/o high-grade follicular lymphoma, presents on C3D8 of \nR-CHOP with febrile neutropenia.\n\n# Febrile neutropenia: Patient had no infectious symptoms, and \nshe had extensive infectious workup. CXR did not show evidence \nof pneumonia. UA was negative. Blood and urine cultures had no \ngrowth by day of discharge. She was initially treated with \nvancomycin and cefepime. Her neupogen was continued. This was \nstopped after patient remained afebrile and counts recovered. \n\n# Hypotension/tachycardia: Patient reported she has been \nhypotensive since starting chemotherapy. She continued to have \nsoft BPs with borderline tachycardia in house. No evidence of \nhypoperfusion and no concern for sepsis here. Given concern for \ncardiotoxicity of anthracycline based regimen, TTE was done, \nwhich was negative. Encouraged PO intake of water and solute. \nWould recommend outpatient follow up.\n\n# Follicular lymphoma: On C3D8 R-CHOP on admission. Neupogen was \ncontinued through nadir and discontinued on discharge. Her \nprophylactic acyclovir was continued. She will follow up with \nher outpatient oncologist Dr. ___.\n\n# Oral discomfort: Continued caphasol q6h prn.\n# Insomnia: Continued home lorazepam.\n# GERD: Continued home ranitidine.  \n\n# CODE STATUS: Full code, confirmed with patient.  \n# CONTACT: ___ ___\n\nTRANSITIONAL ISSUES:\n[] Please follow up mild tachycardia and hypotension and \nencourage PO intake.\n\nDischarge Diagnosis:\nPrimary\nFebrile neutropenia\n\nSecondary\nFollicular lymphoma",
+  "entities": [
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 11,
+          "char_end": 16,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfa",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 18,
+          "char_end": 41,
+          "turn_id": null
+        }
+      ],
+      "text": "Sulfonamide Antibiotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 68,
+          "char_end": 73,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 149,
+          "char_end": 168,
+          "turn_id": null
+        }
+      ],
+      "text": "follicular\nlymphoma",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 221,
+          "char_end": 247,
+          "turn_id": null
+        }
+      ],
+      "text": "lytic\nlesion in L mandible",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 264,
+          "char_end": 270,
+          "turn_id": null
+        }
+      ],
+      "text": "R-CHOP",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 297,
+          "char_end": 302,
+          "turn_id": null
+        }
+      ],
+      "text": "fever",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 358,
+          "char_end": 369,
+          "turn_id": null
+        }
+      ],
+      "text": "count-check",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 421,
+          "char_end": 428,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 465,
+          "char_end": 480,
+          "turn_id": null
+        }
+      ],
+      "text": "lightheadedness",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 482,
+          "char_end": 501,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea on exertion",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 532,
+          "char_end": 535,
+          "turn_id": null
+        }
+      ],
+      "text": "IVF",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 563,
+          "char_end": 583,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotensive to 88/55",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "dose",
+      "spans": [
+        {
+          "char_start": 592,
+          "char_end": 594,
+          "turn_id": null
+        }
+      ],
+      "text": "1L",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 598,
+          "char_end": 604,
+          "turn_id": null
+        }
+      ],
+      "text": "saline",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 637,
+          "char_end": 641,
+          "turn_id": null
+        }
+      ],
+      "text": "Labs",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 651,
+          "char_end": 662,
+          "turn_id": null
+        }
+      ],
+      "text": "neutropenia",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 728,
+          "char_end": 747,
+          "turn_id": null
+        }
+      ],
+      "text": "large volume stools",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 773,
+          "char_end": 782,
+          "turn_id": null
+        }
+      ],
+      "text": "Augmentin",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 788,
+          "char_end": 801,
+          "turn_id": null
+        }
+      ],
+      "text": "antimicrobial",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 821,
+          "char_end": 833,
+          "turn_id": null
+        }
+      ],
+      "text": "levofloxacin",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 962,
+          "char_end": 982,
+          "turn_id": null
+        }
+      ],
+      "text": "temperature of 100.4",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 984,
+          "char_end": 992,
+          "turn_id": null
+        }
+      ],
+      "text": "BP\n96/76",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 998,
+          "char_end": 1009,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1101,
+          "char_end": 1120,
+          "turn_id": null
+        }
+      ],
+      "text": "febrile\nneutropenia",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1199,
+          "char_end": 1206,
+          "turn_id": null
+        }
+      ],
+      "text": "fatigue",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1208,
+          "char_end": 1278,
+          "turn_id": null
+        }
+      ],
+      "text": "numbness near the biopsy site in her\nanterior left lower buccal mucosa",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 1226,
+          "char_end": 1232,
+          "turn_id": null
+        }
+      ],
+      "text": "biopsy",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1280,
+          "char_end": 1299,
+          "turn_id": null
+        }
+      ],
+      "text": "dyspnea on exertion",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1305,
+          "char_end": 1328,
+          "turn_id": null
+        }
+      ],
+      "text": "darker urine than usual",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1349,
+          "char_end": 1354,
+          "turn_id": null
+        },
+        {
+          "char_start": 1358,
+          "char_end": 1365,
+          "turn_id": null
+        }
+      ],
+      "text": "voice quieter",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1402,
+          "char_end": 1411,
+          "turn_id": null
+        }
+      ],
+      "text": "headaches",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1413,
+          "char_end": 1427,
+          "turn_id": null
+        }
+      ],
+      "text": "blurred vision",
+      "id": "e33"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1429,
+          "char_end": 1439,
+          "turn_id": null
+        }
+      ],
+      "text": "runny\nnose",
+      "id": "e34"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1441,
+          "char_end": 1452,
+          "turn_id": null
+        }
+      ],
+      "text": "sore throat",
+      "id": "e35"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1454,
+          "char_end": 1465,
+          "turn_id": null
+        }
+      ],
+      "text": "odynophagia",
+      "id": "e36"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1467,
+          "char_end": 1477,
+          "turn_id": null
+        }
+      ],
+      "text": "chest pain",
+      "id": "e37"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1479,
+          "char_end": 1484,
+          "turn_id": null
+        }
+      ],
+      "text": "cough",
+      "id": "e38"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1486,
+          "char_end": 1492,
+          "turn_id": null
+        }
+      ],
+      "text": "nausea",
+      "id": "e39"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1494,
+          "char_end": 1502,
+          "turn_id": null
+        }
+      ],
+      "text": "vomiting",
+      "id": "e40"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1504,
+          "char_end": 1512,
+          "turn_id": null
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e41"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1514,
+          "char_end": 1521,
+          "turn_id": null
+        }
+      ],
+      "text": "dysuria",
+      "id": "e42"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1523,
+          "char_end": 1544,
+          "turn_id": null
+        }
+      ],
+      "text": "lower extremity edema",
+      "id": "e43"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1550,
+          "char_end": 1554,
+          "turn_id": null
+        }
+      ],
+      "text": "rash",
+      "id": "e44"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1609,
+          "char_end": 1626,
+          "turn_id": null
+        }
+      ],
+      "text": "mouth\nsensitivity",
+      "id": "e45"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1807,
+          "char_end": 1826,
+          "turn_id": null
+        }
+      ],
+      "text": "follicular lymphoma",
+      "id": "e46"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1849,
+          "char_end": 1855,
+          "turn_id": null
+        }
+      ],
+      "text": "R-CHOP",
+      "id": "e47"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1861,
+          "char_end": 1880,
+          "turn_id": null
+        }
+      ],
+      "text": "febrile neutropenia",
+      "id": "e48"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1885,
+          "char_end": 1904,
+          "turn_id": null
+        }
+      ],
+      "text": "Febrile neutropenia",
+      "id": "e49"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 1984,
+          "char_end": 1987,
+          "turn_id": null
+        }
+      ],
+      "text": "CXR",
+      "id": "e50"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2014,
+          "char_end": 2023,
+          "turn_id": null
+        }
+      ],
+      "text": "pneumonia",
+      "id": "e51"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2025,
+          "char_end": 2027,
+          "turn_id": null
+        }
+      ],
+      "text": "UA",
+      "id": "e52"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2042,
+          "char_end": 2047,
+          "turn_id": null
+        },
+        {
+          "char_start": 2058,
+          "char_end": 2066,
+          "turn_id": null
+        }
+      ],
+      "text": "Blood cultures",
+      "id": "e53"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "lab",
+      "spans": [
+        {
+          "char_start": 2052,
+          "char_end": 2066,
+          "turn_id": null
+        }
+      ],
+      "text": "urine cultures",
+      "id": "e54"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2135,
+          "char_end": 2145,
+          "turn_id": null
+        }
+      ],
+      "text": "vancomycin",
+      "id": "e55"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2150,
+          "char_end": 2158,
+          "turn_id": null
+        }
+      ],
+      "text": "cefepime",
+      "id": "e56"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2164,
+          "char_end": 2172,
+          "turn_id": null
+        }
+      ],
+      "text": "neupogen",
+      "id": "e57"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2264,
+          "char_end": 2275,
+          "turn_id": null
+        }
+      ],
+      "text": "Hypotension",
+      "id": "e58"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2276,
+          "char_end": 2287,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e59"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "therapy",
+      "spans": [
+        {
+          "char_start": 2347,
+          "char_end": 2359,
+          "turn_id": null
+        }
+      ],
+      "text": "chemotherapy",
+      "id": "e60"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2384,
+          "char_end": 2392,
+          "turn_id": null
+        }
+      ],
+      "text": "soft BPs",
+      "id": "e61"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2409,
+          "char_end": 2420,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e62"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 2447,
+          "char_end": 2460,
+          "turn_id": null
+        }
+      ],
+      "text": "hypoperfusion",
+      "id": "e63"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2480,
+          "char_end": 2486,
+          "turn_id": null
+        }
+      ],
+      "text": "sepsis",
+      "id": "e64"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2512,
+          "char_end": 2526,
+          "turn_id": null
+        }
+      ],
+      "text": "cardiotoxicity",
+      "id": "e65"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 2530,
+          "char_end": 2543,
+          "turn_id": null
+        }
+      ],
+      "text": "anthracycline",
+      "id": "e66"
+    },
+    {
+      "coarse_type": "TEST",
+      "fine_type": "imaging",
+      "spans": [
+        {
+          "char_start": 2559,
+          "char_end": 2562,
+          "turn_id": null
+        }
+      ],
+      "text": "TTE",
+      "id": "e67"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2678,
+          "char_end": 2697,
+          "turn_id": null
+        }
+      ],
+      "text": "Follicular lymphoma",
+      "id": "e68"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2707,
+          "char_end": 2713,
+          "turn_id": null
+        }
+      ],
+      "text": "R-CHOP",
+      "id": "e69"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2728,
+          "char_end": 2736,
+          "turn_id": null
+        }
+      ],
+      "text": "Neupogen",
+      "id": "e70"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2815,
+          "char_end": 2824,
+          "turn_id": null
+        }
+      ],
+      "text": "acyclovir",
+      "id": "e71"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2903,
+          "char_end": 2918,
+          "turn_id": null
+        }
+      ],
+      "text": "Oral discomfort",
+      "id": "e72"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2930,
+          "char_end": 2938,
+          "turn_id": null
+        }
+      ],
+      "text": "caphasol",
+      "id": "e73"
+    },
+    {
+      "coarse_type": "MED_ATTRIBUTE",
+      "fine_type": "frequency",
+      "spans": [
+        {
+          "char_start": 2939,
+          "char_end": 2946,
+          "turn_id": null
+        }
+      ],
+      "text": "q6h prn",
+      "id": "e74"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 2950,
+          "char_end": 2958,
+          "turn_id": null
+        }
+      ],
+      "text": "Insomnia",
+      "id": "e75"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 2975,
+          "char_end": 2984,
+          "turn_id": null
+        }
+      ],
+      "text": "lorazepam",
+      "id": "e76"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 2988,
+          "char_end": 2992,
+          "turn_id": null
+        }
+      ],
+      "text": "GERD",
+      "id": "e77"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 3009,
+          "char_end": 3019,
+          "turn_id": null
+        }
+      ],
+      "text": "ranitidine",
+      "id": "e78"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3142,
+          "char_end": 3153,
+          "turn_id": null
+        }
+      ],
+      "text": "tachycardia",
+      "id": "e79"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "abnormal_finding",
+      "spans": [
+        {
+          "char_start": 3158,
+          "char_end": 3169,
+          "turn_id": null
+        }
+      ],
+      "text": "hypotension",
+      "id": "e80"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3226,
+          "char_end": 3245,
+          "turn_id": null
+        }
+      ],
+      "text": "Febrile neutropenia",
+      "id": "e81"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 3257,
+          "char_end": 3276,
+          "turn_id": null
+        }
+      ],
+      "text": "Follicular lymphoma",
+      "id": "e82"
+    }
+  ]
+}

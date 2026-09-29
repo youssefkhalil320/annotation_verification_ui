@@ -1,0 +1,437 @@
+{
+  "doc_id": "MEDDIALOG_EN:healthcaremagic:31843:dialogue",
+  "register": "dialogue",
+  "source_dataset": "MEDDIALOG_EN",
+  "text": "[patient] Hello.  I have been with pain in my lower rectum for the last three weeks.  I thought it was caused by antibiotics I was taking for a tooth infection, as I don’t usually have any rectum problems. Nothing like this anyway.   About 8 days ago, while sleeping, the pain in my rectum was extreme.  It was waking me up every 10 to 15 minutes.  Sharp stubbing pain. The next day I got a fever (100).  I visited the doctor and it was determine that I had a combination of issues: a) an external hemorrhoid and b) a virus was developing, perhaps the flu.  As soon as I got home the sickness of whatever I had took hold.  I had the chills, fever, and diarrhea.  The first two lasted for a day.  The diarrhea I still have it.  It has been 8 days and I still have the diarrhea and the lower rectal pains.  It’s not diarrhea all the time; occasionally I have solid or loose stools.  I’m going to the bathroom very often, an average of 4 to 8 times per day. When I have to go I get a sense of urgency.  The defecation is relatively small and is either diarrhea, soft stools, or very thin solid stools. The hemorrhoid is still there, if that is what it is.  I’m using creams and it is not going away.  What do you think I’m going through?  I had stomach virus before and the diarrhea only lasted me couple days.  Thanks.\n[doctor] HiI would suggest to replenish your salts and electrolytes which you are loosing through stools.use copious amount of ORS.For external haemorhhoid simple evacuation of the haematoma(blood)inside is adequate.If these are internal haemorrhoid which are coming out on defecation,then surgical treatments are needed such asInjection of sclerosant ie almond oilBandingStapled haemorrhoidectomyOr open haemorrhoidectomyThanx",
+  "entities": [
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 35,
+          "char_end": 58,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my lower rectum",
+      "id": "e1"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 113,
+          "char_end": 124,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "antibiotics",
+      "id": "e2"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 144,
+          "char_end": 159,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "tooth infection",
+      "id": "e3"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 272,
+          "char_end": 289,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "pain in my rectum",
+      "id": "e4"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 349,
+          "char_end": 368,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "Sharp stubbing pain",
+      "id": "e5"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 391,
+          "char_end": 396,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e6"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 489,
+          "char_end": 508,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "external hemorrhoid",
+      "id": "e7"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 552,
+          "char_end": 555,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "flu",
+      "id": "e8"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 633,
+          "char_end": 639,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "chills",
+      "id": "e9"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 641,
+          "char_end": 646,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "fever",
+      "id": "e10"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 652,
+          "char_end": 660,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e11"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 700,
+          "char_end": 708,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e12"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 767,
+          "char_end": 775,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e13"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 784,
+          "char_end": 802,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "lower rectal pains",
+      "id": "e14"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 814,
+          "char_end": 822,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e15"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 866,
+          "char_end": 878,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "loose stools",
+      "id": "e16"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 981,
+          "char_end": 997,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "sense of urgency",
+      "id": "e17"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1049,
+          "char_end": 1057,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e18"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1059,
+          "char_end": 1070,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "soft stools",
+      "id": "e19"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1080,
+          "char_end": 1097,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "thin solid stools",
+      "id": "e20"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1242,
+          "char_end": 1255,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "stomach virus",
+      "id": "e21"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "symptom",
+      "spans": [
+        {
+          "char_start": 1271,
+          "char_end": 1279,
+          "turn_id": "t01"
+        }
+      ],
+      "text": "diarrhea",
+      "id": "e22"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1444,
+          "char_end": 1447,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "ORS",
+      "id": "e23"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1452,
+          "char_end": 1472,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "external haemorhhoid",
+      "id": "e24"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1480,
+          "char_end": 1520,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "evacuation of the haematoma(blood)inside",
+      "id": "e25"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "injury",
+      "spans": [
+        {
+          "char_start": 1498,
+          "char_end": 1507,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "haematoma",
+      "id": "e26"
+    },
+    {
+      "coarse_type": "PROBLEM",
+      "fine_type": "disease",
+      "spans": [
+        {
+          "char_start": 1546,
+          "char_end": 1566,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "internal haemorrhoid",
+      "id": "e27"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1643,
+          "char_end": 1668,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "asInjection of sclerosant",
+      "id": "e28"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_class",
+      "spans": [
+        {
+          "char_start": 1658,
+          "char_end": 1668,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "sclerosant",
+      "id": "e29"
+    },
+    {
+      "coarse_type": "MEDICATION",
+      "fine_type": "drug_name",
+      "spans": [
+        {
+          "char_start": 1672,
+          "char_end": 1696,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "almond oilBandingStapled",
+      "id": "e30"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "intervention",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1696,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oilBandingStapled",
+      "id": "e31"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1679,
+          "char_end": 1716,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "oilBandingStapled haemorrhoidectomyOr",
+      "id": "e32"
+    },
+    {
+      "coarse_type": "PROCEDURE",
+      "fine_type": "surgery",
+      "spans": [
+        {
+          "char_start": 1717,
+          "char_end": 1744,
+          "turn_id": "t02"
+        }
+      ],
+      "text": "open haemorrhoidectomyThanx",
+      "id": "e33"
+    }
+  ]
+}
