@@ -1,8 +1,32 @@
 {
   "annotators": {
-    "annotator-01": ["dialogues/aci_bench/test1", "notes/aci_bench/test1"],
-    "annotator-02": ["dialogues/meddialog_en[0:84]"],
-    "annotator-03": ["dialogues/meddialog_en[84:]", "notes/primock57"],
-    "lead": ["*"]
+    "omar": [
+      "dialogues/aci_bench/test1[0:20]",
+      "dialogues/aci_bench/test2[0:20]",
+      "dialogues/aci_bench/test3[0:20]",
+      "dialogues/meddialog_en[0:84]",
+      "dialogues/primock57[0:8]",
+      "notes/aci_bench/test1[0:20]",
+      "notes/aci_bench/test2[0:20]",
+      "notes/aci_bench/test3[0:20]",
+      "notes/mimic_iv_note[0:82]",
+      "notes/primock57[0:8]",
+      "abstracts/test_200_abs_ner[0:100]",
+      "forums/test_200_representative[0:100]"
+    ],
+    "nada": [
+      "dialogues/aci_bench/test1[20:]",
+      "dialogues/aci_bench/test2[20:]",
+      "dialogues/aci_bench/test3[20:]",
+      "dialogues/meddialog_en[84:]",
+      "dialogues/primock57[8:]",
+      "notes/aci_bench/test1[20:]",
+      "notes/aci_bench/test2[20:]",
+      "notes/aci_bench/test3[20:]",
+      "notes/mimic_iv_note[82:]",
+      "notes/primock57[8:]",
+      "abstracts/test_200_abs_ner[100:]",
+      "forums/test_200_representative[100:]"
+    ]
   }
 }
