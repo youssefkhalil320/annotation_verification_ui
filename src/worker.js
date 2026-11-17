@@ -1,3 +1,6 @@
+import assignmentConfig from './assignments.json';
+import manifest from '../aci-bench-manifest.json';
+
 const JSON_HEADERS = {
   'content-type': 'application/json; charset=utf-8',
   'cache-control': 'no-store',
@@ -25,6 +28,53 @@ function validAnnotatorId(value) {
 
 function validDocId(value) {
   return typeof value === 'string' && value.length > 0 && value.length <= MAX_DOC_ID_LENGTH;
+}
+
+// ---------------------------------------------------------------------------
+// Assignments: src/assignments.json maps each annotator ID to the documents it
+// may review. src/ is excluded from static assets, so the ID list is not public.
+// Entry forms (resolved in manifest order):
+//   "*"                                  every document
+//   "dialogues/aci_bench"                every manifest folder equal to / under it
+//   "dialogues/meddialog_en[0:84]"       a slice of that folder's files
+//   "data/NER/notes/primock57/x.json"    one specific file
+// With no annotators configured the app runs in open mode (any valid ID, all
+// datasets), which matches the original behaviour.
+// ---------------------------------------------------------------------------
+const MANIFEST_FOLDERS = Object.keys(manifest);
+const ALL_FILES = MANIFEST_FOLDERS.flatMap(folder => manifest[folder]);
+const FILE_SET = new Set(ALL_FILES);
+const CONFIGURED = Object.entries(assignmentConfig?.annotators || {});
+const OPEN_MODE = CONFIGURED.length === 0;
+const ANNOTATOR_LOOKUP = new Map(CONFIGURED.map(([id, entries]) => [id.toLowerCase(), { id, entries }]));
+
+function resolveEntry(entry) {
+  if (entry === '*') return ALL_FILES;
+  if (typeof entry !== 'string' || !entry.trim()) throw new Error(`Invalid assignment entry ${JSON.stringify(entry)}`);
+  if (FILE_SET.has(entry)) return [entry];
+  const match = entry.trim().match(/^(.*?)(?:\[(\d*):(\d*)\])?$/);
+  const key = match[1].replace(/\/+$/, '');
+  const folders = MANIFEST_FOLDERS.filter(folder => folder === key || folder.startsWith(`${key}/`));
+  if (!folders.length) throw new Error(`Unknown assignment entry "${entry}"`);
+  const files = folders.flatMap(folder => manifest[folder]);
+  return files.slice(match[2] ? Number(match[2]) : 0, match[3] ? Number(match[3]) : undefined);
+}
+
+function lookupAnnotator(rawId) {
+  if (!validAnnotatorId(rawId)) return null;
+  if (OPEN_MODE) return { id: rawId, files: null };
+  const found = ANNOTATOR_LOOKUP.get(rawId.toLowerCase());
+  if (!found) return null;
+  const entries = Array.isArray(found.entries) ? found.entries : [found.entries];
+  const files = [...new Set(entries.flatMap(resolveEntry))];
+  return { id: found.id, files };
+}
+
+// Every data route must name an annotator that exists in the assignment file,
+// spelled exactly as configured (the client always uses the canonical form).
+function knownAnnotator(rawId) {
+  const who = lookupAnnotator(rawId);
+  return who && who.id === rawId ? who : null;
 }
 
 async function readJson(request) {
@@ -93,13 +143,15 @@ async function handleApi(request, env) {
     if (!validAnnotatorId(body.annotator_id)) {
       return error('Annotator ID must be 2-64 characters using letters, numbers, dots, underscores, or hyphens');
     }
-    await registerAnnotator(env.REVIEW_DB, body.annotator_id, now);
-    return json({ annotator_id: body.annotator_id });
+    const who = lookupAnnotator(body.annotator_id);
+    if (!who) return error('This annotator ID is not recognized. Check the ID you were given.', 404);
+    await registerAnnotator(env.REVIEW_DB, who.id, now);
+    return json({ annotator_id: who.id, files: who.files, open_mode: OPEN_MODE });
   }
 
   if (url.pathname === '/api/reviews/batch' && method === 'POST') {
     const body = await readJson(request);
-    if (!validAnnotatorId(body.annotator_id)) return error('Invalid annotator ID');
+    if (!knownAnnotator(body.annotator_id)) return error('Unknown annotator ID', 403);
     if (!Array.isArray(body.doc_ids) || body.doc_ids.length > MAX_BATCH_SIZE || body.doc_ids.some(id => !validDocId(id))) {
       return error(`doc_ids must contain at most ${MAX_BATCH_SIZE} valid document IDs`);
     }
@@ -130,7 +182,7 @@ async function handleApi(request, env) {
     }
     if (!validDocId(docId)) return error('Invalid document ID');
     const body = await readJson(request);
-    if (!validAnnotatorId(body.annotator_id)) return error('Invalid annotator ID');
+    if (!knownAnnotator(body.annotator_id)) return error('Unknown annotator ID', 403);
     if (!Number.isInteger(body.text_len) || body.text_len < 0 || !Array.isArray(body.entities) || typeof body.complete !== 'boolean') {
       return error('Invalid review payload');
     }
@@ -158,7 +210,7 @@ async function handleApi(request, env) {
 
   if (url.pathname === '/api/reviews/clear' && method === 'POST') {
     const body = await readJson(request);
-    if (!validAnnotatorId(body.annotator_id)) return error('Invalid annotator ID');
+    if (!knownAnnotator(body.annotator_id)) return error('Unknown annotator ID', 403);
     if (!Array.isArray(body.doc_ids) || body.doc_ids.length > MAX_BATCH_SIZE || body.doc_ids.some(id => !validDocId(id))) {
       return error(`doc_ids must contain at most ${MAX_BATCH_SIZE} valid document IDs`);
     }
@@ -188,4 +240,4 @@ export default {
   },
 };
 
-export { handleApi, validAnnotatorId };
+export { handleApi, validAnnotatorId, lookupAnnotator };

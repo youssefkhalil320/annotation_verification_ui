@@ -12,6 +12,25 @@ The Export menu remains available for downloading reviewed JSON as a portable ba
 
 > Annotator IDs separate work but are not passwords. Assign a unique ID to each person. For access control, protect the Worker with Cloudflare Access before sharing it outside the annotation team.
 
+## Assigning work to annotators
+
+`src/assignments.json` lists every valid annotator ID and the documents it reviews. After entering their ID, an annotator sees only their assigned documents (loaded automatically, with their saved reviews restored); the dataset menu and file upload are hidden. Unknown IDs are rejected, and IDs are matched case-insensitively.
+
+```json
+{
+  "annotators": {
+    "annotator-01": ["dialogues/aci_bench/test1", "notes/aci_bench/test1"],
+    "annotator-02": ["dialogues/meddialog_en[0:84]"],
+    "annotator-03": ["dialogues/meddialog_en[84:]"],
+    "lead": ["*"]
+  }
+}
+```
+
+Each entry is one of: `"*"` (everything), a folder key from `aci-bench-manifest.json` or a prefix of one (`"dialogues"` = all dialogues), a slice of it (`"folder[start:end]"`, in manifest order), or a single file path such as `"data/NER/notes/primock57/day1_consultation06.json"`. The file lives in `src/`, which is not served publicly, so the list of IDs is not exposed. Redeploy after editing it. With an empty `annotators` object, the app falls back to open mode (any ID, all datasets).
+
+Reviews are stored under the exact configured ID, so keep the spelling of IDs that already have saved work.
+
 ## Cloudflare setup
 
 The repository contains a Worker in `src/worker.js`, a D1 migration in `migrations/`, and static-asset configuration in `wrangler.jsonc`. Node.js 20 or newer is required by Wrangler.
